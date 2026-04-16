@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
+<title>Karaoke Stream Arjuna Arkana 【APRIL】 — IDVTuber Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+
+  :root {
+    --bg:          #0a0a0f;
+    --surface:     #13131a;
+    --surface2:    #1a1a26;
+    --border:      #1e1e2e;
+    --muted:       #5a5a7a;
+    --text:        #e2e2f0;
+    --white:       #ffffff;
+    --red:         #ff4f6d;
+    --blue:        #4fc3f7;
+    --org-color:   #e8ff47;
+    --accent-text: var(--org-color);
+  }
+
+  /* ── light theme ── */
+  [data-theme="light"] {
+    --bg:          #f5f5f0;
+    --surface:     #ffffff;
+    --surface2:    #eaeae5;
+    --border:      #d8d8ce;
+    --muted:       #767670;
+    --text:        #1a1a14;
+    --white:       #1a1a14;
+    --red:         #c0002a;
+    --blue:        #005f8a;
+    --accent-text: #2a2a20;
+  }
+
+  /* ── follow system preference by default ── */
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg:          #f5f5f0;
+      --surface:     #ffffff;
+      --surface2:    #eaeae5;
+      --border:      #d8d8ce;
+      --muted:       #767670;
+      --text:        #1a1a14;
+      --white:       #1a1a14;
+      --red:         #c0002a;
+      --blue:        #005f8a;
+      --accent-text: #2a2a20;
+    }
+  }
+
+  /* ── light theme badge and pill background overrides ── */
+  [data-theme="light"] .status-live     { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
+  [data-theme="light"] .status-upcoming { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
+  [data-theme="light"] .status-vod      { background: rgba(100,100,90,0.12); }
+  [data-theme="light"] .pill-live       { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
+  [data-theme="light"] .pill-upcoming   { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) .status-live     { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
+    :root:not([data-theme="dark"]) .status-upcoming { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
+    :root:not([data-theme="dark"]) .status-vod      { background: rgba(100,100,90,0.12); }
+    :root:not([data-theme="dark"]) .pill-live       { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
+    :root:not([data-theme="dark"]) .pill-upcoming   { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
+  }
+
+  /* ── light theme: suppress neon glow effects ── */
+  [data-theme="light"] .org-dot,
+  [data-theme="light"] .month-heading::before { box-shadow: none; }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) .org-dot              { box-shadow: none; }
+    :root:not([data-theme="dark"]) .month-heading::before { box-shadow: none; }
+  }
+
+  /* ── theme toggle ── */
+  .theme-toggle { margin-left: auto; flex-shrink: 0; display: flex; align-items: center; }
+  .toggle-pill {
+    position: relative; display: flex; align-items: center;
+    width: 56px; height: 28px;
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 14px; cursor: pointer;
+    transition: background 0.25s, border-color 0.25s;
+  }
+  .toggle-pill:hover { border-color: var(--org-color); }
+  .toggle-thumb {
+    position: absolute; left: 4px;
+    width: 20px; height: 20px; border-radius: 50%;
+    background: var(--org-color);
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; line-height: 1; pointer-events: none;
+  }
+  .toggle-thumb.is-light { transform: translateX(28px); }
+  .toggle-icon-dark, .toggle-icon-light {
+    position: absolute; font-size: 10px; line-height: 1; pointer-events: none;
+  }
+  .toggle-icon-dark  { right: 7px; }
+  .toggle-icon-light { left:  7px; }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-size: 14px; line-height: 1.7; min-height: 100vh;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    opacity: 0.5;
+  }
+  .page { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 0 2rem 6rem; }
+
+  /* breadcrumb */
+  .breadcrumb {
+    display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem;
+    padding: 1.5rem 0; font-size: 0.68rem;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted);
+    border-bottom: 1px solid var(--border); margin-bottom: 3rem;
+  }
+  .breadcrumb a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+  .breadcrumb a:hover { color: var(--accent-text); }
+  .breadcrumb .sep { color: var(--border); }
+  .breadcrumb .current { color: var(--accent-text); }
+
+  /* headings */
+  .eyebrow {
+    font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--accent-text); margin-bottom: 0.6rem;
+  }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2rem, 5vw, 4.5rem);
+    font-weight: 700; line-height: 1.0; color: var(--white); margin-bottom: 0.5rem;
+  }
+  h1 em { font-style: italic; color: var(--accent-text); }
+  .page-meta { font-size: 0.72rem; color: var(--muted); margin-top: 0.75rem; }
+
+  /* org cards */
+  .orgs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-top: 3rem; }
+  @media (max-width: 1100px) { .orgs-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px)  { .orgs-grid { grid-template-columns: 1fr; } }
+  .org-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 2rem;
+    text-decoration: none; color: inherit; display: block;
+    transition: border-color 0.2s, transform 0.2s;
+    position: relative; overflow: hidden;
+  }
+  .org-card::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+    background: var(--org-color); transform: scaleX(0);
+    transform-origin: left; transition: transform 0.35s;
+  }
+  .org-card:hover { border-color: var(--org-color); transform: translateY(-3px); }
+  .org-card:hover::after { transform: scaleX(1); }
+  .org-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--org-color); margin-bottom: 1.25rem; box-shadow: 0 0 12px var(--org-color); }
+  .org-title { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 700; color: var(--white); margin-bottom: 0.5rem; }
+  .org-desc { font-size: 0.78rem; color: var(--muted); margin-bottom: 1.25rem; line-height: 1.6; }
+  .org-stat { font-size: 0.72rem; color: var(--muted); }
+  .org-stat strong { color: var(--accent-text); }
+
+  /* channel card grid */
+  .channels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.25rem; margin-top: 2.5rem; }
+  .channel-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 1.5rem 1.25rem;
+    text-decoration: none; color: inherit; display: flex;
+    flex-direction: column; align-items: center; text-align: center;
+    gap: 0.9rem; transition: border-color 0.2s, transform 0.2s;
+    position: relative; overflow: hidden;
+  }
+  .channel-card::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+    background: var(--org-color); transform: scaleX(0);
+    transform-origin: left; transition: transform 0.35s;
+  }
+  .channel-card:hover { border-color: var(--org-color); transform: translateY(-3px); }
+  .channel-card:hover::after { transform: scaleX(1); }
+  .channel-avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); transition: border-color 0.2s; background: var(--surface2); }
+  .channel-card:hover .channel-avatar { border-color: var(--org-color); }
+  .channel-avatar-placeholder {
+    width: 72px; height: 72px; border-radius: 50%;
+    background: var(--surface2); border: 2px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 700;
+    color: var(--accent-text); flex-shrink: 0; transition: border-color 0.2s;
+  }
+  .channel-card:hover .channel-avatar-placeholder { border-color: var(--org-color); }
+  .channel-badge {
+    font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase;
+    padding: 0.18rem 0.45rem; border-radius: 2px;
+    border: 1px solid var(--org-color); color: var(--accent-text);
+    background: rgba(0,0,0,0.3); flex-shrink: 0;
+  }
+  .channel-card-name { font-family: 'Fraunces', serif; font-size: 0.95rem; font-weight: 700; color: var(--white); line-height: 1.25; }
+  .channel-card-meta { font-size: 0.65rem; color: var(--muted); }
+  .channel-card-stats { display: flex; flex-direction: column; gap: 0.3rem; width: 100%; border-top: 1px solid var(--border); padding-top: 0.75rem; margin-top: 0.1rem; }
+  .stat-row { display: flex; justify-content: space-between; align-items: center; font-size: 0.63rem; }
+  .stat-row .stat-label { color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+  .stat-row .stat-value { color: var(--text); }
+  .stat-row .stat-value.highlight { color: var(--accent-text); }
+
+  /* stream cards */
+  .streams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1rem; margin-top: 2.5rem; }
+  .stream-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 4px; padding: 1.25rem;
+    text-decoration: none; color: inherit; display: block;
+    transition: border-color 0.2s, transform 0.2s;
+    position: relative; overflow: hidden;
+  }
+  .stream-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: var(--org-color); transform: scaleX(0);
+    transform-origin: left; transition: transform 0.3s;
+  }
+  .stream-card:hover { border-color: var(--org-color); transform: translateY(-2px); }
+  .stream-card:hover::before { transform: scaleX(1); }
+  .stream-status { display: inline-block; font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.2rem 0.5rem; border-radius: 2px; margin-bottom: 0.75rem; }
+  .status-live     { background: rgba(255,79,109,0.15); color: var(--red);   border: 1px solid var(--red); }
+  .status-upcoming { background: rgba(79,195,247,0.10); color: var(--blue);  border: 1px solid var(--blue); }
+  .status-vod      { background: rgba(90,90,122,0.20);  color: var(--muted); border: 1px solid var(--muted); }
+  .stream-title {
+    font-family: 'Fraunces', serif; font-size: 1rem; font-weight: 700;
+    color: var(--white); margin-bottom: 1rem; line-height: 1.3;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .stream-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; }
+  .stat-label { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+  .stat-value { font-size: 0.9rem; color: var(--accent-text); font-weight: 500; }
+  .stream-date { font-size: 0.62rem; color: var(--muted); margin-top: 1rem; }
+  .empty { color: var(--muted); font-size: 0.8rem; font-style: italic; padding: 1rem 0; }
+
+  /* month heading */
+  .month-heading {
+    font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase;
+    color: var(--muted); margin: 2.5rem 0 1rem;
+    padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 0.75rem;
+  }
+  .month-heading::before {
+    content: ''; display: block; width: 6px; height: 6px;
+    border-radius: 50%; background: var(--org-color);
+    box-shadow: 0 0 6px var(--org-color); flex-shrink: 0;
+  }
+
+  /* stream detail */
+  .stream-hero { display: grid; grid-template-columns: 37fr 63fr; gap: 1.5rem; margin: 2rem 0 2.5rem; align-items: start; }
+  @media (max-width: 700px) { .stream-hero { grid-template-columns: 1fr; } }
+  .embed-side { min-width: 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .embed-wrap { position: relative; width: 100%; padding-bottom: 56.25%; background: #000; }
+  .embed-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
+  .stream-thumb-meta {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.65rem 0.9rem; background: var(--surface); border-top: 1px solid var(--border);
+    font-size: 0.65rem; color: var(--muted);
+  }
+  .stream-thumb-meta a { color: var(--accent-text); text-decoration: none; }
+  .stream-thumb-meta a:hover { text-decoration: underline; }
+  .kpi-side { min-width: 0; }
+  .kpi-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .kpi { background: var(--surface); padding: 1.1rem 1.25rem; position: relative; }
+  .kpi.kpi-wide { grid-column: span 2; }
+  .kpi-label { font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--muted); margin-bottom: 0.45rem; }
+  .kpi-value { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
+  .kpi-value.kpi-sm { font-size: 1rem; }
+  .kpi-sub { font-size: 0.6rem; color: var(--muted); margin-top: 0.25rem; }
+  .kpi-grid .kpi:nth-child(-n+2)::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); }
+  .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-bottom: 2.5rem; }
+  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 1.25rem; }
+  .chart-wrap { position: relative; height: 280px; }
+  .section-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .data-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 3rem; }
+  .data-table th { text-align: left; padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border); }
+  .data-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid rgba(30,30,46,0.5); color: var(--text); }
+  .data-table tr:hover td { background: var(--surface); }
+  .data-table .num { text-align: right; color: var(--accent-text); font-weight: 500; }
+  .data-table .ts  { color: var(--muted); }
+  .pill { display: inline-block; font-size: 0.6rem; padding: 0.15rem 0.4rem; border-radius: 2px; text-transform: uppercase; letter-spacing: 0.1em; }
+  .pill-live     { background: rgba(255,79,109,0.15); color: var(--red);  border: 1px solid var(--red); }
+  .pill-upcoming { background: rgba(79,195,247,0.10); color: var(--blue); border: 1px solid var(--blue); }
+  .generated { text-align: center; color: var(--muted); font-size: 0.7rem; margin-top: 3rem; }
+
+  footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; font-size: 0.7rem; color: var(--muted); }
+  footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+  footer a:hover { color: var(--accent-text); }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+  header { animation: fadeUp 0.5s ease both; }
+  .orgs-grid, .channels-list, .streams-grid, .kpi-row { animation: fadeUp 0.5s 0.1s ease both; }
+
+  :root { --org-color: #e8ff47; }
+</style>
+</head>
+<body>
+<div class="page">
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">PANDAVVA</a> <span class="sep">&#8250;</span> <a href="index.html">Arjuna Arkana【PANDAVVA】</a> <span class="sep">&#8250;</span> <span class="current">Karaoke Stream Arjuna Arkana 【APRIL】</span><div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div></nav>
+  <header>
+    <p class="eyebrow">PANDAVVA &nbsp;&#183;&nbsp; Arjuna Arkana【PANDAVVA】</p>
+    <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
+    <h1>Karaoke Stream Arjuna Arkana 【APRIL】</h1>
+    <p class="page-meta">Video ID: BkAmjIVW6GA</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/BkAmjIVW6GA" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="stream-thumb-meta">
+        <span>2026-04-13 19:00 WIB</span>
+        <a href="https://www.youtube.com/watch?v=BkAmjIVW6GA" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">1,553</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">1,065</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">3,487</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">6</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-04-13 19:00 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-04-14 01:11 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">6h 10m 54s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">21,209</div><div class="kpi-sub">total plays</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chart-box">
+    <div class="chart-title">Concurrent Viewers over Time</div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+  </div>
+
+  <div class="chart-box">
+    <div class="chart-title">Likes &amp; Comments over Time</div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+  </div>
+
+  <p class="generated">Generated 2026-04-16 18:03 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
+<script>
+const ts    = ["2026-04-13 19:00 WIB", "2026-04-13 19:01 WIB", "2026-04-13 19:04 WIB", "2026-04-13 19:05 WIB", "2026-04-13 19:06 WIB", "2026-04-13 19:07 WIB", "2026-04-13 19:08 WIB", "2026-04-13 19:09 WIB", "2026-04-13 19:10 WIB", "2026-04-13 19:11 WIB", "2026-04-13 19:12 WIB", "2026-04-13 19:13 WIB", "2026-04-13 19:14 WIB", "2026-04-13 19:15 WIB", "2026-04-13 19:16 WIB", "2026-04-13 19:17 WIB", "2026-04-13 19:18 WIB", "2026-04-13 19:20 WIB", "2026-04-13 19:21 WIB", "2026-04-13 19:22 WIB", "2026-04-13 19:23 WIB", "2026-04-13 19:24 WIB", "2026-04-13 19:25 WIB", "2026-04-13 19:26 WIB", "2026-04-13 19:27 WIB", "2026-04-13 19:28 WIB", "2026-04-13 19:29 WIB", "2026-04-13 19:30 WIB", "2026-04-13 19:31 WIB", "2026-04-13 19:32 WIB", "2026-04-13 19:33 WIB", "2026-04-13 19:34 WIB", "2026-04-13 19:36 WIB", "2026-04-13 19:37 WIB", "2026-04-13 19:38 WIB", "2026-04-13 19:39 WIB", "2026-04-13 19:40 WIB", "2026-04-13 19:41 WIB", "2026-04-13 19:42 WIB", "2026-04-13 19:43 WIB", "2026-04-13 19:44 WIB", "2026-04-13 19:45 WIB", "2026-04-13 19:46 WIB", "2026-04-13 19:47 WIB", "2026-04-13 19:48 WIB", "2026-04-13 19:49 WIB", "2026-04-13 19:50 WIB", "2026-04-13 19:52 WIB", "2026-04-13 19:53 WIB", "2026-04-13 19:54 WIB", "2026-04-13 19:55 WIB", "2026-04-13 19:56 WIB", "2026-04-13 19:57 WIB", "2026-04-13 19:58 WIB", "2026-04-13 19:59 WIB", "2026-04-13 20:00 WIB", "2026-04-13 20:01 WIB", "2026-04-13 20:02 WIB", "2026-04-13 20:03 WIB", "2026-04-13 20:04 WIB", "2026-04-13 20:05 WIB", "2026-04-13 20:06 WIB", "2026-04-13 20:09 WIB", "2026-04-13 20:10 WIB", "2026-04-13 20:11 WIB", "2026-04-13 20:12 WIB", "2026-04-13 20:13 WIB", "2026-04-13 20:14 WIB", "2026-04-13 20:15 WIB", "2026-04-13 20:16 WIB", "2026-04-13 20:17 WIB", "2026-04-13 20:18 WIB", "2026-04-13 20:19 WIB", "2026-04-13 20:20 WIB", "2026-04-13 20:21 WIB", "2026-04-13 20:22 WIB", "2026-04-13 20:23 WIB", "2026-04-13 20:26 WIB", "2026-04-13 20:27 WIB", "2026-04-13 20:28 WIB", "2026-04-13 20:29 WIB", "2026-04-13 20:30 WIB", "2026-04-13 20:31 WIB", "2026-04-13 20:32 WIB", "2026-04-13 20:33 WIB", "2026-04-13 20:34 WIB", "2026-04-13 20:35 WIB", "2026-04-13 20:36 WIB", "2026-04-13 20:37 WIB", "2026-04-13 20:38 WIB", "2026-04-13 20:39 WIB", "2026-04-13 20:40 WIB", "2026-04-13 20:44 WIB", "2026-04-13 20:45 WIB", "2026-04-13 20:46 WIB", "2026-04-13 20:47 WIB", "2026-04-13 20:48 WIB", "2026-04-13 20:49 WIB", "2026-04-13 20:50 WIB", "2026-04-13 20:51 WIB", "2026-04-13 20:52 WIB", "2026-04-13 20:53 WIB", "2026-04-13 20:54 WIB", "2026-04-13 20:55 WIB", "2026-04-13 20:56 WIB", "2026-04-13 20:57 WIB", "2026-04-13 20:58 WIB", "2026-04-13 21:03 WIB", "2026-04-13 21:04 WIB", "2026-04-13 21:05 WIB", "2026-04-13 21:06 WIB", "2026-04-13 21:07 WIB", "2026-04-13 21:08 WIB", "2026-04-13 21:09 WIB", "2026-04-13 21:10 WIB", "2026-04-13 21:11 WIB", "2026-04-13 21:12 WIB", "2026-04-13 21:13 WIB", "2026-04-13 21:14 WIB", "2026-04-13 21:15 WIB", "2026-04-13 21:16 WIB", "2026-04-13 21:17 WIB", "2026-04-13 21:19 WIB", "2026-04-13 21:20 WIB", "2026-04-13 21:21 WIB", "2026-04-13 21:22 WIB", "2026-04-13 21:23 WIB", "2026-04-13 21:24 WIB", "2026-04-13 21:25 WIB", "2026-04-13 21:26 WIB", "2026-04-13 21:29 WIB", "2026-04-13 21:30 WIB", "2026-04-13 21:31 WIB", "2026-04-13 21:32 WIB", "2026-04-13 21:33 WIB", "2026-04-13 21:34 WIB", "2026-04-13 21:35 WIB", "2026-04-13 21:36 WIB", "2026-04-13 21:37 WIB", "2026-04-13 21:38 WIB", "2026-04-13 21:39 WIB", "2026-04-13 21:40 WIB", "2026-04-13 21:41 WIB", "2026-04-13 21:42 WIB", "2026-04-13 21:43 WIB", "2026-04-13 21:46 WIB", "2026-04-13 21:47 WIB", "2026-04-13 21:48 WIB", "2026-04-13 21:49 WIB", "2026-04-13 21:50 WIB", "2026-04-13 21:51 WIB", "2026-04-13 21:52 WIB", "2026-04-13 21:53 WIB", "2026-04-13 21:54 WIB", "2026-04-13 21:55 WIB", "2026-04-13 21:56 WIB", "2026-04-13 21:57 WIB", "2026-04-13 21:58 WIB", "2026-04-13 21:59 WIB", "2026-04-13 22:00 WIB", "2026-04-13 22:02 WIB", "2026-04-13 22:03 WIB", "2026-04-13 22:04 WIB", "2026-04-13 22:05 WIB", "2026-04-13 22:06 WIB", "2026-04-13 22:07 WIB", "2026-04-13 22:08 WIB", "2026-04-13 22:09 WIB", "2026-04-13 22:10 WIB", "2026-04-13 22:11 WIB", "2026-04-13 22:12 WIB", "2026-04-13 22:13 WIB", "2026-04-13 22:14 WIB", "2026-04-13 22:15 WIB", "2026-04-13 22:16 WIB", "2026-04-13 22:19 WIB", "2026-04-13 22:20 WIB", "2026-04-13 22:21 WIB", "2026-04-13 22:22 WIB", "2026-04-13 22:23 WIB", "2026-04-13 22:24 WIB", "2026-04-13 22:25 WIB", "2026-04-13 22:26 WIB", "2026-04-13 22:27 WIB", "2026-04-13 22:28 WIB", "2026-04-13 22:29 WIB", "2026-04-13 22:30 WIB", "2026-04-13 22:31 WIB", "2026-04-13 22:32 WIB", "2026-04-13 22:33 WIB", "2026-04-13 22:35 WIB", "2026-04-13 22:36 WIB", "2026-04-13 22:37 WIB", "2026-04-13 22:38 WIB", "2026-04-13 22:39 WIB", "2026-04-13 22:40 WIB", "2026-04-13 22:41 WIB", "2026-04-13 22:42 WIB", "2026-04-13 22:43 WIB", "2026-04-13 22:44 WIB", "2026-04-13 22:45 WIB", "2026-04-13 22:46 WIB", "2026-04-13 22:47 WIB", "2026-04-13 22:48 WIB", "2026-04-13 22:49 WIB", "2026-04-13 22:51 WIB", "2026-04-13 22:52 WIB", "2026-04-13 22:53 WIB", "2026-04-13 22:54 WIB", "2026-04-13 22:55 WIB", "2026-04-13 22:56 WIB", "2026-04-13 22:57 WIB", "2026-04-13 22:58 WIB", "2026-04-13 22:59 WIB", "2026-04-13 23:00 WIB", "2026-04-13 23:01 WIB", "2026-04-13 23:02 WIB", "2026-04-13 23:03 WIB", "2026-04-13 23:04 WIB", "2026-04-13 23:05 WIB", "2026-04-13 23:07 WIB", "2026-04-13 23:08 WIB", "2026-04-13 23:09 WIB", "2026-04-13 23:10 WIB", "2026-04-13 23:11 WIB", "2026-04-13 23:12 WIB", "2026-04-13 23:13 WIB", "2026-04-13 23:14 WIB", "2026-04-13 23:15 WIB", "2026-04-13 23:16 WIB", "2026-04-13 23:17 WIB", "2026-04-13 23:18 WIB", "2026-04-13 23:19 WIB", "2026-04-13 23:20 WIB", "2026-04-13 23:21 WIB", "2026-04-13 23:22 WIB", "2026-04-13 23:23 WIB", "2026-04-13 23:24 WIB", "2026-04-13 23:25 WIB", "2026-04-13 23:26 WIB", "2026-04-13 23:27 WIB", "2026-04-13 23:28 WIB", "2026-04-13 23:29 WIB", "2026-04-13 23:30 WIB", "2026-04-13 23:31 WIB", "2026-04-13 23:32 WIB", "2026-04-13 23:33 WIB", "2026-04-13 23:34 WIB", "2026-04-13 23:35 WIB", "2026-04-13 23:36 WIB", "2026-04-13 23:38 WIB", "2026-04-13 23:39 WIB", "2026-04-13 23:40 WIB", "2026-04-13 23:41 WIB", "2026-04-13 23:42 WIB", "2026-04-13 23:43 WIB", "2026-04-13 23:44 WIB", "2026-04-13 23:45 WIB", "2026-04-13 23:46 WIB", "2026-04-13 23:47 WIB", "2026-04-13 23:48 WIB", "2026-04-13 23:49 WIB", "2026-04-13 23:50 WIB", "2026-04-13 23:51 WIB", "2026-04-13 23:52 WIB", "2026-04-13 23:54 WIB", "2026-04-13 23:55 WIB", "2026-04-13 23:56 WIB", "2026-04-13 23:57 WIB", "2026-04-13 23:58 WIB", "2026-04-13 23:59 WIB", "2026-04-14 00:00 WIB", "2026-04-14 00:01 WIB", "2026-04-14 00:02 WIB", "2026-04-14 00:03 WIB", "2026-04-14 00:04 WIB", "2026-04-14 00:05 WIB", "2026-04-14 00:06 WIB", "2026-04-14 00:07 WIB", "2026-04-14 00:08 WIB", "2026-04-14 00:10 WIB", "2026-04-14 00:11 WIB", "2026-04-14 00:12 WIB", "2026-04-14 00:13 WIB", "2026-04-14 00:14 WIB", "2026-04-14 00:15 WIB", "2026-04-14 00:16 WIB", "2026-04-14 00:17 WIB", "2026-04-14 00:18 WIB", "2026-04-14 00:19 WIB", "2026-04-14 00:20 WIB", "2026-04-14 00:21 WIB", "2026-04-14 00:22 WIB", "2026-04-14 00:23 WIB", "2026-04-14 00:24 WIB", "2026-04-14 00:26 WIB", "2026-04-14 00:27 WIB", "2026-04-14 00:28 WIB", "2026-04-14 00:29 WIB", "2026-04-14 00:30 WIB", "2026-04-14 00:31 WIB", "2026-04-14 00:32 WIB", "2026-04-14 00:33 WIB", "2026-04-14 00:34 WIB", "2026-04-14 00:35 WIB", "2026-04-14 00:36 WIB", "2026-04-14 00:37 WIB", "2026-04-14 00:38 WIB", "2026-04-14 00:39 WIB", "2026-04-14 00:40 WIB", "2026-04-14 00:41 WIB", "2026-04-14 00:42 WIB", "2026-04-14 00:43 WIB", "2026-04-14 00:44 WIB", "2026-04-14 00:45 WIB", "2026-04-14 00:46 WIB", "2026-04-14 00:47 WIB", "2026-04-14 00:48 WIB", "2026-04-14 00:49 WIB", "2026-04-14 00:50 WIB", "2026-04-14 00:51 WIB", "2026-04-14 00:52 WIB", "2026-04-14 00:53 WIB", "2026-04-14 00:54 WIB", "2026-04-14 00:55 WIB", "2026-04-14 00:57 WIB", "2026-04-14 00:58 WIB", "2026-04-14 00:59 WIB", "2026-04-14 01:00 WIB", "2026-04-14 01:01 WIB", "2026-04-14 01:02 WIB", "2026-04-14 01:03 WIB", "2026-04-14 01:04 WIB", "2026-04-14 01:05 WIB", "2026-04-14 01:06 WIB", "2026-04-14 01:07 WIB", "2026-04-14 01:08 WIB", "2026-04-14 01:09 WIB", "2026-04-14 01:10 WIB", "2026-04-14 01:11 WIB"];
+const views = [105, 194, 1112, 1261, 1323, 1321, 1366, 1373, 1355, 1402, 1405, 1446, 1497, 1498, 1485, 1494, 1495, 1523, 1534, 1422, 1445, 1508, 1516, 1553, 1540, 1469, 1456, 1481, 1468, 1463, 1510, 1460, 1440, 1415, 1453, 1477, 1376, 1381, 1382, 1383, 1358, 1367, 1321, 1330, 1380, 1318, 1297, 1293, 1287, 1339, 1330, 1264, 1291, 1277, 1288, 1298, 1258, 1225, 1220, 1208, 1141, 1174, 1161, 1158, 1169, 1187, 1157, 1168, 1195, 1187, 1170, 1178, 1170, 1154, 1171, 1144, 1132, 1106, 1117, 1116, 1079, 1093, 1055, 1063, 1040, 1073, 1066, 1116, 1091, 1090, 1090, 1120, 1157, 1144, 1140, 1128, 1155, 1157, 1176, 1195, 1159, 1144, 1174, 1173, 1172, 1155, 1145, 1160, 1149, 1161, 1206, 1200, 1185, 1176, 1140, 1134, 1135, 1096, 1098, 1101, 1096, 1100, 1118, 1124, 1131, 1103, 1113, 1129, 1118, 1128, 1135, 1123, 1118, 1134, 1113, 1096, 1070, 1110, 1070, 1076, 1128, 1137, 1152, 1190, 1201, 1118, 1100, 1111, 1083, 1036, 1125, 1134, 1118, 1131, 1095, 1087, 1104, 1090, 1050, 1061, 1011, 1035, 1054, 1051, 1081, 1082, 1123, 1161, 1099, 1136, 1130, 1084, 1097, 1107, 1095, 1102, 1100, 1084, 1103, 1089, 1061, 1065, 1067, 1043, 1069, 1087, 1074, 1047, 1066, 1052, 1046, 1029, 1045, 989, 1025, 1006, 1013, 997, 1041, 1004, 1004, 998, 988, 988, 1017, 1020, 1027, 1033, 1033, 1011, 999, 982, 997, 985, 993, 974, 960, 963, 965, 940, 939, 947, 948, 941, 947, 935, 954, 964, 952, 903, 942, 953, 954, 954, 959, 927, 946, 967, 960, 966, 971, 970, 954, 998, 980, 950, 962, 952, 933, 944, 917, 906, 959, 949, 955, 883, 915, 919, 916, 913, 944, 937, 929, 916, 916, 902, 887, 907, 885, 892, 847, 857, 841, 832, 833, 835, 832, 813, 822, 816, 839, 852, 829, 834, 794, 798, 809, 807, 819, 839, 821, 810, 826, 830, 842, 822, 812, 815, 805, 778, 785, 793, 802, 810, 823, 807, 792, 780, 765, 800, 780, 775, 776, 781, 786, 786, 779, 781, 779, 761, 763, 781, 792, 800, 785, 771, 774, 765, 774, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const likes = [301, 340, 620, 695, 734, 774, 978, 1008, 1032, 1045, 1067, 1090, 1116, 1151, 1176, 1207, 1238, 1289, 1314, 1337, 1357, 1399, 1427, 1438, 1456, 1476, 1496, 1511, 1542, 1561, 1581, 1595, 1630, 1652, 1665, 1683, 1695, 1714, 1732, 1750, 1760, 1775, 1796, 1815, 1830, 1846, 1856, 1885, 1898, 1909, 1921, 1933, 1942, 1957, 1967, 1973, 1987, 1997, 2009, 2024, 2039, 2047, 2082, 2095, 2107, 2114, 2128, 2137, 2146, 2155, 2166, 2179, 2188, 2196, 2206, 2212, 2219, 2250, 2256, 2266, 2276, 2277, 2290, 2304, 2314, 2321, 2336, 2344, 2354, 2357, 2368, 2375, 2416, 2425, 2431, 2434, 2444, 2452, 2459, 2466, 2476, 2487, 2492, 2498, 2507, 2520, 2527, 2562, 2567, 2573, 2578, 2586, 2593, 2603, 2610, 2617, 2622, 2627, 2633, 2639, 2643, 2646, 2667, 2673, 2680, 2692, 2697, 2701, 2704, 2709, 2747, 2752, 2752, 2759, 2765, 2771, 2778, 2779, 2788, 2792, 2797, 2807, 2811, 2818, 2827, 2839, 2848, 2854, 2858, 2863, 2871, 2876, 2881, 2888, 2894, 2900, 2903, 2904, 2908, 2911, 2923, 2928, 2935, 2944, 2947, 2949, 2954, 2963, 2971, 2977, 2978, 2986, 2993, 2998, 3003, 3017, 3020, 3028, 3029, 3033, 3037, 3044, 3047, 3049, 3055, 3065, 3069, 3075, 3081, 3085, 3098, 3102, 3104, 3111, 3114, 3116, 3122, 3129, 3133, 3136, 3137, 3140, 3143, 3147, 3149, 3161, 3163, 3167, 3170, 3173, 3178, 3181, 3186, 3189, 3193, 3193, 3196, 3199, 3205, 3210, 3215, 3217, 3220, 3222, 3224, 3226, 3228, 3231, 3235, 3235, 3238, 3241, 3243, 3247, 3252, 3260, 3261, 3263, 3269, 3273, 3277, 3280, 3283, 3285, 3289, 3290, 3292, 3295, 3298, 3302, 3311, 3314, 3319, 3321, 3326, 3328, 3333, 3335, 3338, 3341, 3342, 3344, 3346, 3348, 3355, 3357, 3359, 3362, 3365, 3366, 3369, 3370, 3371, 3372, 3374, 3377, 3379, 3380, 3380, 3381, 3390, 3392, 3396, 3396, 3397, 3398, 3399, 3400, 3402, 3404, 3406, 3411, 3413, 3416, 3418, 3424, 3423, 3425, 3428, 3428, 3430, 3432, 3436, 3436, 3441, 3442, 3444, 3446, 3447, 3449, 3452, 3454, 3454, 3455, 3456, 3459, 3461, 3463, 3464, 3464, 3465, 3465, 3466, 3472, 3473, 3476, 3476, 3475, 3480, 3484, 3485, 3485, 3485, 3486, 3486, 3486, 3486, 3486, 3486, 3487];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 5, 5, 5, 5, 5, 6, 6, 6];
+const orgColor  = '#e8ff47';
+const gridColor = 'rgba(30,30,46,0.8)';
+const tickColor = '#5a5a7a';
+const baseOpts = {
+  responsive: true, maintainAspectRatio: false,
+  interaction: { mode: "index", intersect: false },
+  plugins: { legend: { labels: { color: tickColor, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } } },
+  scales: {
+    x: { ticks: { color: tickColor, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 }, grid: { color: gridColor } },
+    y: { ticks: { color: tickColor, font: { family: "DM Mono", size: 10 } }, grid: { color: gridColor } }
+  }
+};
+new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: { labels: ts, datasets: [{ label: "Concurrent Viewers", data: views,
+    borderColor: orgColor, backgroundColor: orgColor + "22",
+    borderWidth: 2, pointRadius: 2, fill: true, tension: 0.3 }] },
+  options: { ...baseOpts }
+});
+new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: { labels: ts, datasets: [
+    { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.05)",  borderWidth: 2, pointRadius: 2, fill: true, tension: 0.3 },
+    { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.05)", borderWidth: 2, pointRadius: 2, fill: true, tension: 0.3 }
+  ] },
+  options: { ...baseOpts }
+});
+</script>
+
+  <footer>
+    <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
+    <span>
+      <a href="../../index.html">Home</a>
+      &nbsp;&middot;&nbsp;
+      <a href="../../privacy.html">Privacy Policy</a>
+      &nbsp;&middot;&nbsp;
+      <a href="../../terms.html">Terms of Use</a>
+    </span>
+  </footer>
+</div>
+
+<script>
+(function() {
+  var STORAGE_KEY = 'idvt-theme';
+  var root  = document.documentElement;
+  var btn   = null;
+  var thumb = null;
+
+  function getSystemTheme() {
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  }
+  function getEffectiveTheme() {
+    return localStorage.getItem(STORAGE_KEY) || getSystemTheme();
+  }
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (thumb) {
+      theme === 'light' ? thumb.classList.add('is-light') : thumb.classList.remove('is-light');
+    }
+  }
+  function toggleTheme() {
+    var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+  }
+  applyTheme(getEffectiveTheme());
+  document.addEventListener('DOMContentLoaded', function() {
+    btn   = document.getElementById('theme-toggle');
+    thumb = document.getElementById('toggle-thumb');
+    applyTheme(getEffectiveTheme());
+    if (btn) btn.addEventListener('click', toggleTheme);
+  });
+  window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
+    if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
+  });
+})();
+</script>
+</body>
+</html>
