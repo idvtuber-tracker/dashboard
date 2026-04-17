@@ -121,3 +121,26 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Commit cache back to dashboard repo
+        # Persists cache/channel_logos_cache.json and cache/channel_logos_fallback.json
+        # back to this (dashboard) repo so that:
+        #   (a) the daily logo/subscriber cache survives between ubuntu runner jobs,
+        #       avoiding a redundant YouTube API call on every Pages deploy, and
+        #   (b) the fallback file is always up-to-date, so if the API is unavailable
+        #       on a future run, logos still appear on the dashboard.
+        #
+        # generate_dashboard.py resolves cache/ as Path(__file__).parent / "cache",
+        # so when it runs here (dashboard repo checkout) it writes to the dashboard
+        # repo's cache/ directory, which is exactly what we commit below.
+        run: |
+          git config user.name  "IDVTuber Dashboard"
+          git config user.email "dashboard@idvtuber-tracker"
+          git add cache/ dashboard/manifest.json
+          if git diff --cached --quiet; then
+            echo "Cache and manifest unchanged — nothing to commit."
+          else
+            git commit -m "cache: update channel logos fallback [skip ci]"
+            git push
+            echo "Cache committed and pushed."
+          fi
