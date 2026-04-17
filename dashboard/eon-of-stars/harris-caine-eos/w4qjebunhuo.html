@@ -321,13 +321,13 @@
     <div class="kpi-side">
       <div class="kpi-grid">
         <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">1,840</div><div class="kpi-sub">concurrent</div></div>
-        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">1,445</div><div class="kpi-sub">concurrent</div></div>
-        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">2,066</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">1,570</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">2,465</div></div>
         <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
         <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-04-17 19:48 WIB</div></div>
-        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-04-17 20:04 WIB</div></div>
-        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">15m 10s</div></div>
-        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">2,555</div><div class="kpi-sub">total plays</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-04-17 20:20 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">31m 17s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">3,501</div><div class="kpi-sub">total plays</div></div>
       </div>
     </div>
   </div>
@@ -342,13 +342,13 @@
     <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
   </div>
 
-  <p class="generated">Generated 2026-04-17 20:04 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+  <p class="generated">Generated 2026-04-17 20:20 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
 
 <script>
-const ts    = ["2026-04-17 19:48 WIB", "2026-04-17 19:49 WIB", "2026-04-17 19:50 WIB", "2026-04-17 19:51 WIB", "2026-04-17 19:52 WIB", "2026-04-17 19:53 WIB", "2026-04-17 19:54 WIB", "2026-04-17 19:55 WIB", "2026-04-17 19:57 WIB", "2026-04-17 19:58 WIB", "2026-04-17 19:59 WIB", "2026-04-17 20:00 WIB", "2026-04-17 20:01 WIB", "2026-04-17 20:04 WIB"];
-const views = [648, 923, 1139, 1206, 1286, 1408, 1504, 1542, 1676, 1709, 1726, 1815, 1808, 1840];
-const likes = [1138, 1278, 1377, 1451, 1523, 1586, 1631, 1686, 1759, 1817, 1885, 1933, 1982, 2066];
-const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const ts    = ["2026-04-17 19:48 WIB", "2026-04-17 19:49 WIB", "2026-04-17 19:50 WIB", "2026-04-17 19:51 WIB", "2026-04-17 19:52 WIB", "2026-04-17 19:53 WIB", "2026-04-17 19:54 WIB", "2026-04-17 19:55 WIB", "2026-04-17 19:57 WIB", "2026-04-17 19:58 WIB", "2026-04-17 19:59 WIB", "2026-04-17 20:00 WIB", "2026-04-17 20:01 WIB", "2026-04-17 20:04 WIB", "2026-04-17 20:05 WIB", "2026-04-17 20:06 WIB", "2026-04-17 20:07 WIB", "2026-04-17 20:08 WIB", "2026-04-17 20:09 WIB", "2026-04-17 20:10 WIB", "2026-04-17 20:11 WIB", "2026-04-17 20:12 WIB", "2026-04-17 20:13 WIB", "2026-04-17 20:14 WIB", "2026-04-17 20:15 WIB", "2026-04-17 20:16 WIB", "2026-04-17 20:17 WIB", "2026-04-17 20:18 WIB", "2026-04-17 20:20 WIB"];
+const views = [648, 923, 1139, 1206, 1286, 1408, 1504, 1542, 1676, 1709, 1726, 1815, 1808, 1840, 1774, 1684, 1695, 1700, 1643, 1621, 1601, 1615, 1647, 1662, 1725, 1701, 1722, 1747, 1758];
+const likes = [1138, 1278, 1377, 1451, 1523, 1586, 1631, 1686, 1759, 1817, 1885, 1933, 1982, 2066, 2096, 2145, 2179, 2208, 2239, 2255, 2279, 2303, 2328, 2349, 2370, 2391, 2405, 2423, 2465];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const orgColor  = '#818cf8';
 const gridColor = 'rgba(30,30,46,0.8)';
 const tickColor = '#5a5a7a';
