@@ -1206,10 +1206,12 @@ _TOGGLE_HTML = (
 
 def _html_head(title: str, depth: int, org_color: str = "#e8ff47",
                extra_scripts: str = "") -> str:
+    rel = "../" * depth
     return (
         f'<!DOCTYPE html>\n<html lang="en">\n<head>\n'
         f'<meta charset="UTF-8">\n'
         f'<meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
+        f'<link rel="icon" href="{rel}favicon.ico" sizes="any">\n'
         f'<meta name="color-scheme" content="dark light">\n'
         f'<script>!function(){{var t=localStorage.getItem("idvt-theme")||'
         f'(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");'
@@ -1606,7 +1608,7 @@ def build_dashboard() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # ── static legal pages ────────────────────────────────────────────────────
-    for legal_file in ["privacy.html", "terms.html"]:
+    for legal_file in ["privacy.html", "terms.html", "favicon.ico"]:
         src = Path(legal_file)
         dst = OUTPUT_DIR / legal_file
         if src.exists():
