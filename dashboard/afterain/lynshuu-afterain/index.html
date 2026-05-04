@@ -273,8 +273,18 @@
   .kpi-sub { font-size: 0.6rem; color: var(--muted); margin-top: 0.25rem; }
   .kpi-grid .kpi:nth-child(-n+2)::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); }
   .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-bottom: 2.5rem; }
-  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 1.25rem; }
-  .chart-wrap { position: relative; height: 280px; }
+  .chart-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; gap: 0.75rem; }
+  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin: 0; }
+  .chart-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+  .chart-btn {
+    font-family: "DM Mono", monospace; font-size: 0.6rem; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 0.25rem 0.6rem; border-radius: 3px;
+    border: 1px solid var(--border); background: transparent; color: var(--muted);
+    cursor: pointer; transition: border-color 0.2s, color 0.2s; white-space: nowrap;
+  }
+  .chart-btn:hover { border-color: var(--org-color); color: var(--accent-text); }
+  .chart-hint { font-size: 0.58rem; color: var(--muted); opacity: 0.6; margin-top: 0.5rem; text-align: right; }
+  .chart-wrap { position: relative; height: 320px; }
   .section-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
   .data-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 3rem; }
   .data-table th { text-align: left; padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border); }
@@ -304,11 +314,21 @@
   <header>
     <p class="eyebrow">AfteRain</p>
     <h1>LynShuu 【AFTERAIN】</h1>
-    <p class="page-meta">18 streams recorded &#8212; sorted by date</p>
+    <p class="page-meta">19 streams recorded &#8212; sorted by date</p>
   </header>
 
   <div class="month-heading">May 2026</div>
   <div class="streams-grid">
+    <a class="stream-card" href="xcvax-f8jw8.html">
+      <span class="stream-status status-live">&#128308; Live</span>
+      <div class="stream-title">STORY GRINDING【MONSTER  HUNTER WORLD - PONTHON #72】</div>
+      <div class="stream-stats">
+        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">13</div></div>
+        <div><div class="stat-label">View Count</div><div class="stat-value">32</div></div>
+        <div><div class="stat-label">Peak Likes</div><div class="stat-value">14</div></div>
+      </div>
+      <div class="stream-date">2026-05-04 14:19 WIB</div>
+    </a>
     <a class="stream-card" href="bbwovr2cmp8.html">
       <span class="stream-status status-live">&#128308; Live</span>
       <div class="stream-title">AIM KU BERKARAT【VALORANT - PONTHON #71】</div>

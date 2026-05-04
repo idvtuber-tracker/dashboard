@@ -273,8 +273,18 @@
   .kpi-sub { font-size: 0.6rem; color: var(--muted); margin-top: 0.25rem; }
   .kpi-grid .kpi:nth-child(-n+2)::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); }
   .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-bottom: 2.5rem; }
-  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 1.25rem; }
-  .chart-wrap { position: relative; height: 280px; }
+  .chart-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; gap: 0.75rem; }
+  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin: 0; }
+  .chart-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+  .chart-btn {
+    font-family: "DM Mono", monospace; font-size: 0.6rem; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 0.25rem 0.6rem; border-radius: 3px;
+    border: 1px solid var(--border); background: transparent; color: var(--muted);
+    cursor: pointer; transition: border-color 0.2s, color 0.2s; white-space: nowrap;
+  }
+  .chart-btn:hover { border-color: var(--org-color); color: var(--accent-text); }
+  .chart-hint { font-size: 0.58rem; color: var(--muted); opacity: 0.6; margin-top: 0.5rem; text-align: right; }
+  .chart-wrap { position: relative; height: 320px; }
   .section-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
   .data-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 3rem; }
   .data-table th { text-align: left; padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border); }
@@ -304,32 +314,44 @@
   <header>
     <p class="eyebrow">MagniV</p>
     <h1>MagniV</h1>
-    <p class="page-meta">4 channels &#8212; select a channel to view streams</p>
+    <p class="page-meta">6 channels &#8212; select a channel to view streams</p>
   </header>
   <div class="channels-grid">
+    <a class="channel-card" href="magniv/index.html">
+      <img class="channel-avatar" src="https://yt3.ggpht.com/kmXkkcF0d1ZWzXi6izQNxmUzU2Hp5pXp2kxMg32BSWuhv8cgisEWRZfyZyhFTvCnbqQq3nXBgnE=s240-c-k-c0x00ffffff-no-rj" alt="MagniV" referrerpolicy="no-referrer" loading="lazy">
+      <span class="channel-badge">ORG CH</span>
+      <div class="channel-card-name">MagniV</div>
+      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">347</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">0 streams</span></div></div>
+    </a>
     <a class="channel-card" href="gema-gathika-magniv/index.html">
       <img class="channel-avatar" src="https://yt3.ggpht.com/ERjx9J_AL5CQIekqw3zso7__E4eoruok3qwI3MDnQeVstbGDJw4nToHY_MD_VebzIPEJp72k=s240-c-k-c0x00ffffff-no-rj" alt="Gema Gathika【MagniV】" referrerpolicy="no-referrer" loading="lazy">
       <span class="channel-badge">TALENT</span>
       <div class="channel-card-name">Gema Gathika【MagniV】</div>
       <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">105.0K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">5 streams</span></div></div>
     </a>
-    <a class="channel-card" href="istmodius-aka-virtual/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/ZB3aC2bRo_41JMhxcxKrSmbzDJTDRZehlO3TBTUylEIT1cN9abMKvzzIKbbTcNlvX-vZxR8c1Q=s240-c-k-c0x00ffffff-no-rj" alt="Istmodius【AKA Virtual】" referrerpolicy="no-referrer" loading="lazy">
+    <a class="channel-card" href="istmodius-magniv/index.html">
+      <img class="channel-avatar" src="https://yt3.ggpht.com/ZB3aC2bRo_41JMhxcxKrSmbzDJTDRZehlO3TBTUylEIT1cN9abMKvzzIKbbTcNlvX-vZxR8c1Q=s240-c-k-c0x00ffffff-no-rj" alt="Istmodius【MagniV】" referrerpolicy="no-referrer" loading="lazy">
       <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Istmodius【AKA Virtual】</div>
+      <div class="channel-card-name">Istmodius【MagniV】</div>
       <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">69.7K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">8 streams</span></div></div>
     </a>
-    <a class="channel-card" href="mosa-magniv/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/-_8pmUhdNa2pWYmG6pk6uFIvir3s2LFJbcH3ZdimOLPk8vl2jJQlzWqH6qQaaxZzqID9Y7XD3A=s240-c-k-c0x00ffffff-no-rj" alt="Mosa【MagniV】" referrerpolicy="no-referrer" loading="lazy">
+    <a class="channel-card" href="funin-mamori-magniv/index.html">
+      <img class="channel-avatar" src="https://yt3.ggpht.com/mRRM2wJviSU7TRSmH958MNNUfgZwSrYoNQfEUraZkcd1ZFFTOJTytvLIxG0BfkHaQabPX2b6C9A=s240-c-k-c0x00ffffff-no-rj" alt="Funin Mamori【MagniV】" referrerpolicy="no-referrer" loading="lazy">
       <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Mosa【MagniV】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">24.1K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">7 streams</span></div></div>
-    </a>
-    <a class="channel-card" href="funin-mamori-aka-virtual/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/mRRM2wJviSU7TRSmH958MNNUfgZwSrYoNQfEUraZkcd1ZFFTOJTytvLIxG0BfkHaQabPX2b6C9A=s240-c-k-c0x00ffffff-no-rj" alt="Funin Mamori【AKA Virtual】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Funin Mamori【AKA Virtual】</div>
+      <div class="channel-card-name">Funin Mamori【MagniV】</div>
       <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">102.0K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">0 streams</span></div></div>
+    </a>
+    <a class="channel-card" href="shiru-magniv/index.html">
+      <img class="channel-avatar" src="https://yt3.ggpht.com/2WWnvHn3xFU_gxlKbDJPzXW9fkGdfh562WAMKLQyfgsEdD-1T1Xvhi5whs_IZKfK4wq8hTOG=s240-c-k-c0x00ffffff-no-rj" alt="Shiru 【MagniV】" referrerpolicy="no-referrer" loading="lazy">
+      <span class="channel-badge">TALENT</span>
+      <div class="channel-card-name">Shiru 【MagniV】</div>
+      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">30.7K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">0 streams</span></div></div>
+    </a>
+    <a class="channel-card" href="cancncn-ezacancan/index.html">
+      <img class="channel-avatar" src="https://yt3.ggpht.com/X7DuLOPh59wZFqEmDVedmt7efwviYPDS5vFBq90GC2QU8R8GPFsMeg-mKmi_ierq18UyKoPC3Q=s240-c-k-c0x00ffffff-no-rj" alt="CANCNCN -Ezacancan" referrerpolicy="no-referrer" loading="lazy">
+      <span class="channel-badge">TALENT</span>
+      <div class="channel-card-name">CANCNCN -Ezacancan</div>
+      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">3.7K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">0 streams</span></div></div>
     </a>
   </div>
 

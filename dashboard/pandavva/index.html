@@ -273,8 +273,18 @@
   .kpi-sub { font-size: 0.6rem; color: var(--muted); margin-top: 0.25rem; }
   .kpi-grid .kpi:nth-child(-n+2)::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); }
   .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-bottom: 2.5rem; }
-  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 1.25rem; }
-  .chart-wrap { position: relative; height: 280px; }
+  .chart-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; gap: 0.75rem; }
+  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin: 0; }
+  .chart-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+  .chart-btn {
+    font-family: "DM Mono", monospace; font-size: 0.6rem; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 0.25rem 0.6rem; border-radius: 3px;
+    border: 1px solid var(--border); background: transparent; color: var(--muted);
+    cursor: pointer; transition: border-color 0.2s, color 0.2s; white-space: nowrap;
+  }
+  .chart-btn:hover { border-color: var(--org-color); color: var(--accent-text); }
+  .chart-hint { font-size: 0.58rem; color: var(--muted); opacity: 0.6; margin-top: 0.5rem; text-align: right; }
+  .chart-wrap { position: relative; height: 320px; }
   .section-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
   .data-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 3rem; }
   .data-table th { text-align: left; padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border); }
@@ -311,7 +321,7 @@
       <img class="channel-avatar" src="https://yt3.ggpht.com/L3ANiF50zKzYt_EReidaoS57CB94DtHZt8UzBvq20hLjLiu_NBDyPjSnbITPhEgL4qY2RyRZ=s240-c-k-c0x00ffffff-no-rj" alt="PANDAVVA Official" referrerpolicy="no-referrer" loading="lazy">
       <span class="channel-badge">ORG CH</span>
       <div class="channel-card-name">PANDAVVA Official</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">61.5K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">4 streams</span></div></div>
+      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">61.6K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">4 streams</span></div></div>
     </a>
     <a class="channel-card" href="yudistira-yogendra-pandavva/index.html">
       <img class="channel-avatar" src="https://yt3.ggpht.com/xTPB9jC-tGMMn85ZUJQP77xxqSdYBmIuF2BO-u-xuNVMEoXv-Yg2vvE4uPNsh9ML7ASVO2XcWQ=s240-c-k-c0x00ffffff-no-rj" alt="Yudistira Yogendra 【PANDAVVA】" referrerpolicy="no-referrer" loading="lazy">
@@ -335,13 +345,13 @@
       <img class="channel-avatar" src="https://yt3.ggpht.com/6EUk8Dq3Wnsqz3t4G0zZB-2t1rlYw9H2DyYcOfAZMHrztubfxjTGtpgeaMipROGq5T6y-7bE=s240-c-k-c0x00ffffff-no-rj" alt="Nakula Nalendra【PANDAVVA】" referrerpolicy="no-referrer" loading="lazy">
       <span class="channel-badge">TALENT</span>
       <div class="channel-card-name">Nakula Nalendra【PANDAVVA】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">53.9K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">16 streams</span></div></div>
+      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">54.0K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">16 streams</span></div></div>
     </a>
     <a class="channel-card" href="sadewa-sagara-pandavva/index.html">
       <img class="channel-avatar" src="https://yt3.ggpht.com/ujB5qHbXBwTUBvzqemzSEhcypEBS3DIJbb1X0uTs5ulaVTUYt5n6c2IpcE7xv_ltK6xzAbLFew=s240-c-k-c0x00ffffff-no-rj" alt="Sadewa Sagara【PANDAVVA】" referrerpolicy="no-referrer" loading="lazy">
       <span class="channel-badge">TALENT</span>
       <div class="channel-card-name">Sadewa Sagara【PANDAVVA】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">49.5K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">34 streams</span></div></div>
+      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">49.6K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">34 streams</span></div></div>
     </a>
   </div>
 

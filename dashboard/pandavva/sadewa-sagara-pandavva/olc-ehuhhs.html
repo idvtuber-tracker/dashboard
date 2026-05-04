@@ -8,6 +8,8 @@
 <title>Working stream #7【Guerilla】 — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -273,8 +275,18 @@
   .kpi-sub { font-size: 0.6rem; color: var(--muted); margin-top: 0.25rem; }
   .kpi-grid .kpi:nth-child(-n+2)::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); }
   .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-bottom: 2.5rem; }
-  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 1.25rem; }
-  .chart-wrap { position: relative; height: 280px; }
+  .chart-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; gap: 0.75rem; }
+  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin: 0; }
+  .chart-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+  .chart-btn {
+    font-family: "DM Mono", monospace; font-size: 0.6rem; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 0.25rem 0.6rem; border-radius: 3px;
+    border: 1px solid var(--border); background: transparent; color: var(--muted);
+    cursor: pointer; transition: border-color 0.2s, color 0.2s; white-space: nowrap;
+  }
+  .chart-btn:hover { border-color: var(--org-color); color: var(--accent-text); }
+  .chart-hint { font-size: 0.58rem; color: var(--muted); opacity: 0.6; margin-top: 0.5rem; text-align: right; }
+  .chart-wrap { position: relative; height: 320px; }
   .section-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
   .data-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 3rem; }
   .data-table th { text-align: left; padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border); }
@@ -333,49 +345,164 @@
   </div>
 
   <div class="chart-box">
-    <div class="chart-title">Concurrent Viewers over Time</div>
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
     <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
 
   <div class="chart-box">
-    <div class="chart-title">Likes &amp; Comments over Time</div>
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
+      </div>
+    </div>
     <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
 
-  <p class="generated">Generated 2026-05-04 14:07 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+  <p class="generated">Generated 2026-05-04 14:40 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
 
 <script>
-const ts    = ["2026-04-14 08:41 WIB", "2026-04-14 08:42 WIB", "2026-04-14 08:43 WIB", "2026-04-14 08:44 WIB", "2026-04-14 08:45 WIB", "2026-04-14 08:46 WIB", "2026-04-14 08:47 WIB", "2026-04-14 08:48 WIB", "2026-04-14 08:49 WIB", "2026-04-14 08:50 WIB", "2026-04-14 08:51 WIB", "2026-04-14 08:52 WIB", "2026-04-14 08:53 WIB", "2026-04-14 08:54 WIB", "2026-04-14 08:55 WIB", "2026-04-14 08:56 WIB", "2026-04-14 08:57 WIB", "2026-04-14 08:58 WIB", "2026-04-14 08:59 WIB", "2026-04-14 09:00 WIB", "2026-04-14 09:01 WIB", "2026-04-14 09:02 WIB", "2026-04-14 09:03 WIB", "2026-04-14 09:04 WIB", "2026-04-14 09:05 WIB", "2026-04-14 09:06 WIB", "2026-04-14 09:07 WIB", "2026-04-14 09:08 WIB", "2026-04-14 09:09 WIB", "2026-04-14 09:10 WIB", "2026-04-14 09:12 WIB", "2026-04-14 09:13 WIB", "2026-04-14 09:14 WIB", "2026-04-14 09:15 WIB", "2026-04-14 09:16 WIB", "2026-04-14 09:17 WIB", "2026-04-14 09:18 WIB", "2026-04-14 09:19 WIB", "2026-04-14 09:20 WIB", "2026-04-14 09:21 WIB", "2026-04-14 09:22 WIB", "2026-04-14 09:23 WIB", "2026-04-14 09:24 WIB", "2026-04-14 09:25 WIB", "2026-04-14 09:26 WIB", "2026-04-14 09:28 WIB", "2026-04-14 09:29 WIB", "2026-04-14 09:30 WIB", "2026-04-14 09:31 WIB", "2026-04-14 09:32 WIB", "2026-04-14 09:33 WIB", "2026-04-14 09:34 WIB", "2026-04-14 09:35 WIB", "2026-04-14 09:36 WIB", "2026-04-14 09:37 WIB", "2026-04-14 09:38 WIB", "2026-04-14 09:39 WIB", "2026-04-14 09:40 WIB", "2026-04-14 09:41 WIB", "2026-04-14 09:42 WIB", "2026-04-14 09:43 WIB", "2026-04-14 09:45 WIB", "2026-04-14 09:46 WIB", "2026-04-14 09:47 WIB", "2026-04-14 09:48 WIB", "2026-04-14 09:49 WIB", "2026-04-14 09:50 WIB", "2026-04-14 09:51 WIB", "2026-04-14 09:52 WIB", "2026-04-14 09:53 WIB", "2026-04-14 09:54 WIB", "2026-04-14 09:55 WIB", "2026-04-14 09:56 WIB", "2026-04-14 09:57 WIB", "2026-04-14 09:58 WIB", "2026-04-14 09:59 WIB", "2026-04-14 10:02 WIB", "2026-04-14 10:03 WIB", "2026-04-14 10:04 WIB", "2026-04-14 10:05 WIB", "2026-04-14 10:06 WIB", "2026-04-14 10:07 WIB", "2026-04-14 10:08 WIB", "2026-04-14 10:09 WIB", "2026-04-14 10:10 WIB", "2026-04-14 10:11 WIB", "2026-04-14 10:12 WIB", "2026-04-14 10:13 WIB", "2026-04-14 10:14 WIB", "2026-04-14 10:15 WIB", "2026-04-14 10:16 WIB", "2026-04-14 10:18 WIB", "2026-04-14 10:19 WIB", "2026-04-14 10:20 WIB", "2026-04-14 10:21 WIB", "2026-04-14 10:22 WIB", "2026-04-14 10:23 WIB", "2026-04-14 10:24 WIB", "2026-04-14 10:25 WIB", "2026-04-14 10:26 WIB", "2026-04-14 10:27 WIB", "2026-04-14 10:28 WIB", "2026-04-14 10:29 WIB", "2026-04-14 10:30 WIB", "2026-04-14 10:31 WIB", "2026-04-14 10:32 WIB", "2026-04-14 10:34 WIB", "2026-04-14 10:35 WIB", "2026-04-14 10:36 WIB", "2026-04-14 10:37 WIB", "2026-04-14 10:38 WIB", "2026-04-14 10:39 WIB", "2026-04-14 10:40 WIB", "2026-04-14 10:41 WIB", "2026-04-14 10:42 WIB", "2026-04-14 10:43 WIB", "2026-04-14 10:44 WIB", "2026-04-14 10:45 WIB", "2026-04-14 10:46 WIB", "2026-04-14 10:47 WIB", "2026-04-14 10:48 WIB", "2026-04-14 10:51 WIB", "2026-04-14 10:52 WIB", "2026-04-14 10:53 WIB", "2026-04-14 10:54 WIB", "2026-04-14 10:55 WIB", "2026-04-14 10:56 WIB", "2026-04-14 10:57 WIB", "2026-04-14 10:58 WIB", "2026-04-14 10:59 WIB", "2026-04-14 11:00 WIB", "2026-04-14 11:01 WIB", "2026-04-14 11:02 WIB", "2026-04-14 11:03 WIB", "2026-04-14 11:04 WIB", "2026-04-14 11:05 WIB", "2026-04-14 11:07 WIB", "2026-04-14 11:08 WIB", "2026-04-14 11:09 WIB", "2026-04-14 11:10 WIB", "2026-04-14 11:11 WIB", "2026-04-14 11:12 WIB", "2026-04-14 11:13 WIB", "2026-04-14 11:14 WIB", "2026-04-14 11:15 WIB", "2026-04-14 11:16 WIB", "2026-04-14 11:17 WIB", "2026-04-14 11:18 WIB", "2026-04-14 11:19 WIB", "2026-04-14 11:20 WIB", "2026-04-14 11:21 WIB", "2026-04-14 11:23 WIB", "2026-04-14 11:24 WIB", "2026-04-14 11:25 WIB", "2026-04-14 11:26 WIB", "2026-04-14 11:27 WIB", "2026-04-14 11:28 WIB", "2026-04-14 11:29 WIB", "2026-04-14 11:30 WIB", "2026-04-14 11:31 WIB", "2026-04-14 11:32 WIB", "2026-04-14 11:33 WIB", "2026-04-14 11:34 WIB", "2026-04-14 11:35 WIB", "2026-04-14 11:36 WIB", "2026-04-14 11:37 WIB", "2026-04-14 11:39 WIB", "2026-04-14 11:40 WIB", "2026-04-14 11:41 WIB", "2026-04-14 11:42 WIB", "2026-04-14 11:43 WIB", "2026-04-14 11:44 WIB", "2026-04-14 11:45 WIB", "2026-04-14 11:46 WIB", "2026-04-14 11:47 WIB", "2026-04-14 11:48 WIB", "2026-04-14 11:49 WIB", "2026-04-14 11:50 WIB", "2026-04-14 11:51 WIB", "2026-04-14 11:52 WIB", "2026-04-14 11:53 WIB", "2026-04-14 11:55 WIB", "2026-04-14 11:56 WIB", "2026-04-14 11:57 WIB", "2026-04-14 11:58 WIB", "2026-04-14 12:02 WIB", "2026-04-14 12:03 WIB", "2026-04-14 12:04 WIB", "2026-04-14 12:05 WIB", "2026-04-14 12:06 WIB", "2026-04-14 12:07 WIB", "2026-04-14 12:08 WIB", "2026-04-14 12:09 WIB", "2026-04-14 12:10 WIB", "2026-04-14 12:11 WIB", "2026-04-14 12:12 WIB", "2026-04-14 12:13 WIB", "2026-04-14 12:14 WIB", "2026-04-14 12:15 WIB", "2026-04-14 12:16 WIB", "2026-04-14 12:19 WIB", "2026-04-14 12:20 WIB", "2026-04-14 12:21 WIB", "2026-04-14 12:22 WIB", "2026-04-14 12:23 WIB", "2026-04-14 12:24 WIB", "2026-04-14 12:25 WIB", "2026-04-14 12:25 WIB", "2026-04-14 12:25 WIB", "2026-04-14 12:25 WIB", "2026-04-14 12:25 WIB", "2026-04-14 12:25 WIB", "2026-04-14 12:25 WIB", "2026-04-14 12:25 WIB", "2026-04-14 12:25 WIB"];
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["08:41", "08:42", "08:43", "08:44", "08:45", "08:46", "08:47", "08:48", "08:49", "08:50", "08:51", "08:52", "08:53", "08:54", "08:55", "08:56", "08:57", "08:58", "08:59", "09:00", "09:01", "09:02", "09:03", "09:04", "09:05", "09:06", "09:07", "09:08", "09:09", "09:10", "09:12", "09:13", "09:14", "09:15", "09:16", "09:17", "09:18", "09:19", "09:20", "09:21", "09:22", "09:23", "09:24", "09:25", "09:26", "09:28", "09:29", "09:30", "09:31", "09:32", "09:33", "09:34", "09:35", "09:36", "09:37", "09:38", "09:39", "09:40", "09:41", "09:42", "09:43", "09:45", "09:46", "09:47", "09:48", "09:49", "09:50", "09:51", "09:52", "09:53", "09:54", "09:55", "09:56", "09:57", "09:58", "09:59", "10:02", "10:03", "10:04", "10:05", "10:06", "10:07", "10:08", "10:09", "10:10", "10:11", "10:12", "10:13", "10:14", "10:15", "10:16", "10:18", "10:19", "10:20", "10:21", "10:22", "10:23", "10:24", "10:25", "10:26", "10:27", "10:28", "10:29", "10:30", "10:31", "10:32", "10:34", "10:35", "10:36", "10:37", "10:38", "10:39", "10:40", "10:41", "10:42", "10:43", "10:44", "10:45", "10:46", "10:47", "10:48", "10:51", "10:52", "10:53", "10:54", "10:55", "10:56", "10:57", "10:58", "10:59", "11:00", "11:01", "11:02", "11:03", "11:04", "11:05", "11:07", "11:08", "11:09", "11:10", "11:11", "11:12", "11:13", "11:14", "11:15", "11:16", "11:17", "11:18", "11:19", "11:20", "11:21", "11:23", "11:24", "11:25", "11:26", "11:27", "11:28", "11:29", "11:30", "11:31", "11:32", "11:33", "11:34", "11:35", "11:36", "11:37", "11:39", "11:40", "11:41", "11:42", "11:43", "11:44", "11:45", "11:46", "11:47", "11:48", "11:49", "11:50", "11:51", "11:52", "11:53", "11:55", "11:56", "11:57", "11:58", "12:02", "12:03", "12:04", "12:05", "12:06", "12:07", "12:08", "12:09", "12:10", "12:11", "12:12", "12:13", "12:14", "12:15", "12:16", "12:19", "12:20", "12:21", "12:22", "12:23", "12:24", "12:25", "12:25", "12:25", "12:25", "12:25", "12:25", "12:25", "12:25", "12:25"];
 const views = [291, 303, 302, 318, 334, 340, 355, 348, 353, 360, 374, 377, 371, 383, 365, 356, 353, 364, 367, 351, 353, 369, 362, 366, 374, 363, 378, 376, 357, 352, 367, 352, 360, 373, 367, 362, 370, 370, 369, 368, 361, 356, 355, 358, 351, 346, 330, 325, 326, 328, 327, 333, 329, 326, 329, 341, 329, 334, 347, 340, 336, 337, 323, 342, 318, 337, 343, 340, 338, 347, 327, 324, 329, 330, 332, 329, 328, 337, 339, 349, 341, 342, 339, 340, 352, 352, 348, 348, 353, 359, 349, 337, 329, 332, 333, 334, 346, 349, 354, 357, 341, 335, 335, 350, 338, 355, 355, 344, 335, 341, 351, 331, 351, 345, 331, 329, 329, 325, 322, 315, 330, 325, 327, 324, 322, 323, 311, 321, 324, 319, 331, 319, 314, 320, 308, 305, 305, 310, 301, 332, 326, 316, 306, 315, 306, 310, 314, 302, 306, 310, 305, 310, 315, 325, 330, 322, 358, 352, 344, 339, 338, 332, 340, 348, 334, 348, 340, 340, 339, 342, 358, 351, 357, 363, 364, 348, 367, 362, 366, 365, 383, 376, 375, 385, 380, 394, 397, 402, 419, 418, 397, 400, 413, 410, 415, 397, 391, 396, 395, 405, 393, 416, 412, 399, 408, 398, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const likes = [189, 197, 207, 219, 228, 233, 243, 249, 259, 268, 273, 281, 288, 293, 302, 315, 317, 331, 337, 340, 346, 349, 353, 357, 365, 370, 376, 385, 387, 392, 400, 404, 412, 417, 421, 422, 430, 432, 434, 439, 444, 449, 454, 461, 464, 467, 477, 478, 482, 482, 487, 489, 492, 493, 497, 500, 504, 506, 511, 515, 516, 520, 524, 529, 533, 536, 539, 541, 543, 546, 547, 549, 554, 555, 559, 563, 571, 573, 578, 584, 584, 587, 592, 596, 599, 600, 601, 605, 611, 614, 622, 628, 630, 632, 635, 635, 639, 641, 645, 647, 648, 651, 652, 654, 657, 660, 664, 667, 668, 669, 671, 674, 677, 683, 690, 694, 700, 703, 707, 708, 711, 717, 721, 724, 725, 728, 731, 733, 733, 734, 736, 738, 740, 743, 743, 745, 749, 750, 753, 758, 761, 765, 766, 769, 772, 774, 779, 781, 783, 784, 785, 795, 796, 798, 802, 804, 805, 810, 812, 814, 815, 817, 819, 821, 822, 824, 828, 832, 833, 836, 841, 843, 844, 844, 846, 849, 851, 853, 853, 856, 860, 863, 864, 868, 869, 876, 878, 879, 883, 887, 888, 890, 892, 895, 901, 903, 907, 908, 909, 911, 919, 921, 922, 923, 926, 928, 931, 931, 931, 931, 931, 931, 931, 931, 931];
 const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-const orgColor  = '#e8ff47';
-const gridColor = 'rgba(30,30,46,0.8)';
-const tickColor = '#5a5a7a';
-const baseOpts = {
-  responsive: true, maintainAspectRatio: false,
-  interaction: { mode: "index", intersect: false },
-  plugins: { legend: { labels: { color: tickColor, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } } },
-  scales: {
-    x: { ticks: { color: tickColor, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 }, grid: { color: gridColor } },
-    y: { ticks: { color: tickColor, font: { family: "DM Mono", size: 10 } }, grid: { color: gridColor } }
-  }
+const VIDEO_ID = "-Olc-ehuHhs";
+const orgColor = '#e8ff47';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
 };
-new Chart(document.getElementById("viewerChart"), {
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
   type: "line",
-  data: { labels: ts, datasets: [{ label: "Concurrent Viewers", data: views,
-    borderColor: orgColor, backgroundColor: orgColor + "22",
-    borderWidth: 2, pointRadius: 2, fill: true, tension: 0.3 }] },
-  options: { ...baseOpts }
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
 });
-new Chart(document.getElementById("engagementChart"), {
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
   type: "line",
-  data: { labels: ts, datasets: [
-    { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.05)",  borderWidth: 2, pointRadius: 2, fill: true, tension: 0.3 },
-    { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.05)", borderWidth: 2, pointRadius: 2, fill: true, tension: 0.3 }
-  ] },
-  options: { ...baseOpts }
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
 });
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
 </script>
 
   <footer>

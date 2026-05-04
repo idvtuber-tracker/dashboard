@@ -8,6 +8,8 @@
 <title>Karaoke Stream Arjuna Arkana 【APRIL】 — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -273,8 +275,18 @@
   .kpi-sub { font-size: 0.6rem; color: var(--muted); margin-top: 0.25rem; }
   .kpi-grid .kpi:nth-child(-n+2)::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); }
   .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-bottom: 2.5rem; }
-  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 1.25rem; }
-  .chart-wrap { position: relative; height: 280px; }
+  .chart-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; gap: 0.75rem; }
+  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin: 0; }
+  .chart-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+  .chart-btn {
+    font-family: "DM Mono", monospace; font-size: 0.6rem; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 0.25rem 0.6rem; border-radius: 3px;
+    border: 1px solid var(--border); background: transparent; color: var(--muted);
+    cursor: pointer; transition: border-color 0.2s, color 0.2s; white-space: nowrap;
+  }
+  .chart-btn:hover { border-color: var(--org-color); color: var(--accent-text); }
+  .chart-hint { font-size: 0.58rem; color: var(--muted); opacity: 0.6; margin-top: 0.5rem; text-align: right; }
+  .chart-wrap { position: relative; height: 320px; }
   .section-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
   .data-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 3rem; }
   .data-table th { text-align: left; padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border); }
@@ -333,49 +345,164 @@
   </div>
 
   <div class="chart-box">
-    <div class="chart-title">Concurrent Viewers over Time</div>
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
     <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
 
   <div class="chart-box">
-    <div class="chart-title">Likes &amp; Comments over Time</div>
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
+      </div>
+    </div>
     <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
 
-  <p class="generated">Generated 2026-05-04 14:07 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+  <p class="generated">Generated 2026-05-04 14:40 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
 
 <script>
-const ts    = ["2026-04-13 19:00 WIB", "2026-04-13 19:01 WIB", "2026-04-13 19:04 WIB", "2026-04-13 19:05 WIB", "2026-04-13 19:06 WIB", "2026-04-13 19:07 WIB", "2026-04-13 19:08 WIB", "2026-04-13 19:09 WIB", "2026-04-13 19:10 WIB", "2026-04-13 19:11 WIB", "2026-04-13 19:12 WIB", "2026-04-13 19:13 WIB", "2026-04-13 19:14 WIB", "2026-04-13 19:15 WIB", "2026-04-13 19:16 WIB", "2026-04-13 19:17 WIB", "2026-04-13 19:18 WIB", "2026-04-13 19:20 WIB", "2026-04-13 19:21 WIB", "2026-04-13 19:22 WIB", "2026-04-13 19:23 WIB", "2026-04-13 19:24 WIB", "2026-04-13 19:25 WIB", "2026-04-13 19:26 WIB", "2026-04-13 19:27 WIB", "2026-04-13 19:28 WIB", "2026-04-13 19:29 WIB", "2026-04-13 19:30 WIB", "2026-04-13 19:31 WIB", "2026-04-13 19:32 WIB", "2026-04-13 19:33 WIB", "2026-04-13 19:34 WIB", "2026-04-13 19:36 WIB", "2026-04-13 19:37 WIB", "2026-04-13 19:38 WIB", "2026-04-13 19:39 WIB", "2026-04-13 19:40 WIB", "2026-04-13 19:41 WIB", "2026-04-13 19:42 WIB", "2026-04-13 19:43 WIB", "2026-04-13 19:44 WIB", "2026-04-13 19:45 WIB", "2026-04-13 19:46 WIB", "2026-04-13 19:47 WIB", "2026-04-13 19:48 WIB", "2026-04-13 19:49 WIB", "2026-04-13 19:50 WIB", "2026-04-13 19:52 WIB", "2026-04-13 19:53 WIB", "2026-04-13 19:54 WIB", "2026-04-13 19:55 WIB", "2026-04-13 19:56 WIB", "2026-04-13 19:57 WIB", "2026-04-13 19:58 WIB", "2026-04-13 19:59 WIB", "2026-04-13 20:00 WIB", "2026-04-13 20:01 WIB", "2026-04-13 20:02 WIB", "2026-04-13 20:03 WIB", "2026-04-13 20:04 WIB", "2026-04-13 20:05 WIB", "2026-04-13 20:06 WIB", "2026-04-13 20:09 WIB", "2026-04-13 20:10 WIB", "2026-04-13 20:11 WIB", "2026-04-13 20:12 WIB", "2026-04-13 20:13 WIB", "2026-04-13 20:14 WIB", "2026-04-13 20:15 WIB", "2026-04-13 20:16 WIB", "2026-04-13 20:17 WIB", "2026-04-13 20:18 WIB", "2026-04-13 20:19 WIB", "2026-04-13 20:20 WIB", "2026-04-13 20:21 WIB", "2026-04-13 20:22 WIB", "2026-04-13 20:23 WIB", "2026-04-13 20:26 WIB", "2026-04-13 20:27 WIB", "2026-04-13 20:28 WIB", "2026-04-13 20:29 WIB", "2026-04-13 20:30 WIB", "2026-04-13 20:31 WIB", "2026-04-13 20:32 WIB", "2026-04-13 20:33 WIB", "2026-04-13 20:34 WIB", "2026-04-13 20:35 WIB", "2026-04-13 20:36 WIB", "2026-04-13 20:37 WIB", "2026-04-13 20:38 WIB", "2026-04-13 20:39 WIB", "2026-04-13 20:40 WIB", "2026-04-13 20:44 WIB", "2026-04-13 20:45 WIB", "2026-04-13 20:46 WIB", "2026-04-13 20:47 WIB", "2026-04-13 20:48 WIB", "2026-04-13 20:49 WIB", "2026-04-13 20:50 WIB", "2026-04-13 20:51 WIB", "2026-04-13 20:52 WIB", "2026-04-13 20:53 WIB", "2026-04-13 20:54 WIB", "2026-04-13 20:55 WIB", "2026-04-13 20:56 WIB", "2026-04-13 20:57 WIB", "2026-04-13 20:58 WIB", "2026-04-13 21:03 WIB", "2026-04-13 21:04 WIB", "2026-04-13 21:05 WIB", "2026-04-13 21:06 WIB", "2026-04-13 21:07 WIB", "2026-04-13 21:08 WIB", "2026-04-13 21:09 WIB", "2026-04-13 21:10 WIB", "2026-04-13 21:11 WIB", "2026-04-13 21:12 WIB", "2026-04-13 21:13 WIB", "2026-04-13 21:14 WIB", "2026-04-13 21:15 WIB", "2026-04-13 21:16 WIB", "2026-04-13 21:17 WIB", "2026-04-13 21:19 WIB", "2026-04-13 21:20 WIB", "2026-04-13 21:21 WIB", "2026-04-13 21:22 WIB", "2026-04-13 21:23 WIB", "2026-04-13 21:24 WIB", "2026-04-13 21:25 WIB", "2026-04-13 21:26 WIB", "2026-04-13 21:29 WIB", "2026-04-13 21:30 WIB", "2026-04-13 21:31 WIB", "2026-04-13 21:32 WIB", "2026-04-13 21:33 WIB", "2026-04-13 21:34 WIB", "2026-04-13 21:35 WIB", "2026-04-13 21:36 WIB", "2026-04-13 21:37 WIB", "2026-04-13 21:38 WIB", "2026-04-13 21:39 WIB", "2026-04-13 21:40 WIB", "2026-04-13 21:41 WIB", "2026-04-13 21:42 WIB", "2026-04-13 21:43 WIB", "2026-04-13 21:46 WIB", "2026-04-13 21:47 WIB", "2026-04-13 21:48 WIB", "2026-04-13 21:49 WIB", "2026-04-13 21:50 WIB", "2026-04-13 21:51 WIB", "2026-04-13 21:52 WIB", "2026-04-13 21:53 WIB", "2026-04-13 21:54 WIB", "2026-04-13 21:55 WIB", "2026-04-13 21:56 WIB", "2026-04-13 21:57 WIB", "2026-04-13 21:58 WIB", "2026-04-13 21:59 WIB", "2026-04-13 22:00 WIB", "2026-04-13 22:02 WIB", "2026-04-13 22:03 WIB", "2026-04-13 22:04 WIB", "2026-04-13 22:05 WIB", "2026-04-13 22:06 WIB", "2026-04-13 22:07 WIB", "2026-04-13 22:08 WIB", "2026-04-13 22:09 WIB", "2026-04-13 22:10 WIB", "2026-04-13 22:11 WIB", "2026-04-13 22:12 WIB", "2026-04-13 22:13 WIB", "2026-04-13 22:14 WIB", "2026-04-13 22:15 WIB", "2026-04-13 22:16 WIB", "2026-04-13 22:19 WIB", "2026-04-13 22:20 WIB", "2026-04-13 22:21 WIB", "2026-04-13 22:22 WIB", "2026-04-13 22:23 WIB", "2026-04-13 22:24 WIB", "2026-04-13 22:25 WIB", "2026-04-13 22:26 WIB", "2026-04-13 22:27 WIB", "2026-04-13 22:28 WIB", "2026-04-13 22:29 WIB", "2026-04-13 22:30 WIB", "2026-04-13 22:31 WIB", "2026-04-13 22:32 WIB", "2026-04-13 22:33 WIB", "2026-04-13 22:35 WIB", "2026-04-13 22:36 WIB", "2026-04-13 22:37 WIB", "2026-04-13 22:38 WIB", "2026-04-13 22:39 WIB", "2026-04-13 22:40 WIB", "2026-04-13 22:41 WIB", "2026-04-13 22:42 WIB", "2026-04-13 22:43 WIB", "2026-04-13 22:44 WIB", "2026-04-13 22:45 WIB", "2026-04-13 22:46 WIB", "2026-04-13 22:47 WIB", "2026-04-13 22:48 WIB", "2026-04-13 22:49 WIB", "2026-04-13 22:51 WIB", "2026-04-13 22:52 WIB", "2026-04-13 22:53 WIB", "2026-04-13 22:54 WIB", "2026-04-13 22:55 WIB", "2026-04-13 22:56 WIB", "2026-04-13 22:57 WIB", "2026-04-13 22:58 WIB", "2026-04-13 22:59 WIB", "2026-04-13 23:00 WIB", "2026-04-13 23:01 WIB", "2026-04-13 23:02 WIB", "2026-04-13 23:03 WIB", "2026-04-13 23:04 WIB", "2026-04-13 23:05 WIB", "2026-04-13 23:07 WIB", "2026-04-13 23:08 WIB", "2026-04-13 23:09 WIB", "2026-04-13 23:10 WIB", "2026-04-13 23:11 WIB", "2026-04-13 23:12 WIB", "2026-04-13 23:13 WIB", "2026-04-13 23:14 WIB", "2026-04-13 23:15 WIB", "2026-04-13 23:16 WIB", "2026-04-13 23:17 WIB", "2026-04-13 23:18 WIB", "2026-04-13 23:19 WIB", "2026-04-13 23:20 WIB", "2026-04-13 23:21 WIB", "2026-04-13 23:22 WIB", "2026-04-13 23:23 WIB", "2026-04-13 23:24 WIB", "2026-04-13 23:25 WIB", "2026-04-13 23:26 WIB", "2026-04-13 23:27 WIB", "2026-04-13 23:28 WIB", "2026-04-13 23:29 WIB", "2026-04-13 23:30 WIB", "2026-04-13 23:31 WIB", "2026-04-13 23:32 WIB", "2026-04-13 23:33 WIB", "2026-04-13 23:34 WIB", "2026-04-13 23:35 WIB", "2026-04-13 23:36 WIB", "2026-04-13 23:38 WIB", "2026-04-13 23:39 WIB", "2026-04-13 23:40 WIB", "2026-04-13 23:41 WIB", "2026-04-13 23:42 WIB", "2026-04-13 23:43 WIB", "2026-04-13 23:44 WIB", "2026-04-13 23:45 WIB", "2026-04-13 23:46 WIB", "2026-04-13 23:47 WIB", "2026-04-13 23:48 WIB", "2026-04-13 23:49 WIB", "2026-04-13 23:50 WIB", "2026-04-13 23:51 WIB", "2026-04-13 23:52 WIB", "2026-04-13 23:54 WIB", "2026-04-13 23:55 WIB", "2026-04-13 23:56 WIB", "2026-04-13 23:57 WIB", "2026-04-13 23:58 WIB", "2026-04-13 23:59 WIB", "2026-04-14 00:00 WIB", "2026-04-14 00:01 WIB", "2026-04-14 00:02 WIB", "2026-04-14 00:03 WIB", "2026-04-14 00:04 WIB", "2026-04-14 00:05 WIB", "2026-04-14 00:06 WIB", "2026-04-14 00:07 WIB", "2026-04-14 00:08 WIB", "2026-04-14 00:10 WIB", "2026-04-14 00:11 WIB", "2026-04-14 00:12 WIB", "2026-04-14 00:13 WIB", "2026-04-14 00:14 WIB", "2026-04-14 00:15 WIB", "2026-04-14 00:16 WIB", "2026-04-14 00:17 WIB", "2026-04-14 00:18 WIB", "2026-04-14 00:19 WIB", "2026-04-14 00:20 WIB", "2026-04-14 00:21 WIB", "2026-04-14 00:22 WIB", "2026-04-14 00:23 WIB", "2026-04-14 00:24 WIB", "2026-04-14 00:26 WIB", "2026-04-14 00:27 WIB", "2026-04-14 00:28 WIB", "2026-04-14 00:29 WIB", "2026-04-14 00:30 WIB", "2026-04-14 00:31 WIB", "2026-04-14 00:32 WIB", "2026-04-14 00:33 WIB", "2026-04-14 00:34 WIB", "2026-04-14 00:35 WIB", "2026-04-14 00:36 WIB", "2026-04-14 00:37 WIB", "2026-04-14 00:38 WIB", "2026-04-14 00:39 WIB", "2026-04-14 00:40 WIB", "2026-04-14 00:41 WIB", "2026-04-14 00:42 WIB", "2026-04-14 00:43 WIB", "2026-04-14 00:44 WIB", "2026-04-14 00:45 WIB", "2026-04-14 00:46 WIB", "2026-04-14 00:47 WIB", "2026-04-14 00:48 WIB", "2026-04-14 00:49 WIB", "2026-04-14 00:50 WIB", "2026-04-14 00:51 WIB", "2026-04-14 00:52 WIB", "2026-04-14 00:53 WIB", "2026-04-14 00:54 WIB", "2026-04-14 00:55 WIB", "2026-04-14 00:57 WIB", "2026-04-14 00:58 WIB", "2026-04-14 00:59 WIB", "2026-04-14 01:00 WIB", "2026-04-14 01:01 WIB", "2026-04-14 01:02 WIB", "2026-04-14 01:03 WIB", "2026-04-14 01:04 WIB", "2026-04-14 01:05 WIB", "2026-04-14 01:06 WIB", "2026-04-14 01:07 WIB", "2026-04-14 01:08 WIB", "2026-04-14 01:09 WIB", "2026-04-14 01:10 WIB", "2026-04-14 01:11 WIB"];
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["19:00", "19:01", "19:04", "19:05", "19:06", "19:07", "19:08", "19:09", "19:10", "19:11", "19:12", "19:13", "19:14", "19:15", "19:16", "19:17", "19:18", "19:20", "19:21", "19:22", "19:23", "19:24", "19:25", "19:26", "19:27", "19:28", "19:29", "19:30", "19:31", "19:32", "19:33", "19:34", "19:36", "19:37", "19:38", "19:39", "19:40", "19:41", "19:42", "19:43", "19:44", "19:45", "19:46", "19:47", "19:48", "19:49", "19:50", "19:52", "19:53", "19:54", "19:55", "19:56", "19:57", "19:58", "19:59", "20:00", "20:01", "20:02", "20:03", "20:04", "20:05", "20:06", "20:09", "20:10", "20:11", "20:12", "20:13", "20:14", "20:15", "20:16", "20:17", "20:18", "20:19", "20:20", "20:21", "20:22", "20:23", "20:26", "20:27", "20:28", "20:29", "20:30", "20:31", "20:32", "20:33", "20:34", "20:35", "20:36", "20:37", "20:38", "20:39", "20:40", "20:44", "20:45", "20:46", "20:47", "20:48", "20:49", "20:50", "20:51", "20:52", "20:53", "20:54", "20:55", "20:56", "20:57", "20:58", "21:03", "21:04", "21:05", "21:06", "21:07", "21:08", "21:09", "21:10", "21:11", "21:12", "21:13", "21:14", "21:15", "21:16", "21:17", "21:19", "21:20", "21:21", "21:22", "21:23", "21:24", "21:25", "21:26", "21:29", "21:30", "21:31", "21:32", "21:33", "21:34", "21:35", "21:36", "21:37", "21:38", "21:39", "21:40", "21:41", "21:42", "21:43", "21:46", "21:47", "21:48", "21:49", "21:50", "21:51", "21:52", "21:53", "21:54", "21:55", "21:56", "21:57", "21:58", "21:59", "22:00", "22:02", "22:03", "22:04", "22:05", "22:06", "22:07", "22:08", "22:09", "22:10", "22:11", "22:12", "22:13", "22:14", "22:15", "22:16", "22:19", "22:20", "22:21", "22:22", "22:23", "22:24", "22:25", "22:26", "22:27", "22:28", "22:29", "22:30", "22:31", "22:32", "22:33", "22:35", "22:36", "22:37", "22:38", "22:39", "22:40", "22:41", "22:42", "22:43", "22:44", "22:45", "22:46", "22:47", "22:48", "22:49", "22:51", "22:52", "22:53", "22:54", "22:55", "22:56", "22:57", "22:58", "22:59", "23:00", "23:01", "23:02", "23:03", "23:04", "23:05", "23:07", "23:08", "23:09", "23:10", "23:11", "23:12", "23:13", "23:14", "23:15", "23:16", "23:17", "23:18", "23:19", "23:20", "23:21", "23:22", "23:23", "23:24", "23:25", "23:26", "23:27", "23:28", "23:29", "23:30", "23:31", "23:32", "23:33", "23:34", "23:35", "23:36", "23:38", "23:39", "23:40", "23:41", "23:42", "23:43", "23:44", "23:45", "23:46", "23:47", "23:48", "23:49", "23:50", "23:51", "23:52", "23:54", "23:55", "23:56", "23:57", "23:58", "23:59", "00:00", "00:01", "00:02", "00:03", "00:04", "00:05", "00:06", "00:07", "00:08", "00:10", "00:11", "00:12", "00:13", "00:14", "00:15", "00:16", "00:17", "00:18", "00:19", "00:20", "00:21", "00:22", "00:23", "00:24", "00:26", "00:27", "00:28", "00:29", "00:30", "00:31", "00:32", "00:33", "00:34", "00:35", "00:36", "00:37", "00:38", "00:39", "00:40", "00:41", "00:42", "00:43", "00:44", "00:45", "00:46", "00:47", "00:48", "00:49", "00:50", "00:51", "00:52", "00:53", "00:54", "00:55", "00:57", "00:58", "00:59", "01:00", "01:01", "01:02", "01:03", "01:04", "01:05", "01:06", "01:07", "01:08", "01:09", "01:10", "01:11"];
 const views = [105, 194, 1112, 1261, 1323, 1321, 1366, 1373, 1355, 1402, 1405, 1446, 1497, 1498, 1485, 1494, 1495, 1523, 1534, 1422, 1445, 1508, 1516, 1553, 1540, 1469, 1456, 1481, 1468, 1463, 1510, 1460, 1440, 1415, 1453, 1477, 1376, 1381, 1382, 1383, 1358, 1367, 1321, 1330, 1380, 1318, 1297, 1293, 1287, 1339, 1330, 1264, 1291, 1277, 1288, 1298, 1258, 1225, 1220, 1208, 1141, 1174, 1161, 1158, 1169, 1187, 1157, 1168, 1195, 1187, 1170, 1178, 1170, 1154, 1171, 1144, 1132, 1106, 1117, 1116, 1079, 1093, 1055, 1063, 1040, 1073, 1066, 1116, 1091, 1090, 1090, 1120, 1157, 1144, 1140, 1128, 1155, 1157, 1176, 1195, 1159, 1144, 1174, 1173, 1172, 1155, 1145, 1160, 1149, 1161, 1206, 1200, 1185, 1176, 1140, 1134, 1135, 1096, 1098, 1101, 1096, 1100, 1118, 1124, 1131, 1103, 1113, 1129, 1118, 1128, 1135, 1123, 1118, 1134, 1113, 1096, 1070, 1110, 1070, 1076, 1128, 1137, 1152, 1190, 1201, 1118, 1100, 1111, 1083, 1036, 1125, 1134, 1118, 1131, 1095, 1087, 1104, 1090, 1050, 1061, 1011, 1035, 1054, 1051, 1081, 1082, 1123, 1161, 1099, 1136, 1130, 1084, 1097, 1107, 1095, 1102, 1100, 1084, 1103, 1089, 1061, 1065, 1067, 1043, 1069, 1087, 1074, 1047, 1066, 1052, 1046, 1029, 1045, 989, 1025, 1006, 1013, 997, 1041, 1004, 1004, 998, 988, 988, 1017, 1020, 1027, 1033, 1033, 1011, 999, 982, 997, 985, 993, 974, 960, 963, 965, 940, 939, 947, 948, 941, 947, 935, 954, 964, 952, 903, 942, 953, 954, 954, 959, 927, 946, 967, 960, 966, 971, 970, 954, 998, 980, 950, 962, 952, 933, 944, 917, 906, 959, 949, 955, 883, 915, 919, 916, 913, 944, 937, 929, 916, 916, 902, 887, 907, 885, 892, 847, 857, 841, 832, 833, 835, 832, 813, 822, 816, 839, 852, 829, 834, 794, 798, 809, 807, 819, 839, 821, 810, 826, 830, 842, 822, 812, 815, 805, 778, 785, 793, 802, 810, 823, 807, 792, 780, 765, 800, 780, 775, 776, 781, 786, 786, 779, 781, 779, 761, 763, 781, 792, 800, 785, 771, 774, 765, 774, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const likes = [301, 340, 620, 695, 734, 774, 978, 1008, 1032, 1045, 1067, 1090, 1116, 1151, 1176, 1207, 1238, 1289, 1314, 1337, 1357, 1399, 1427, 1438, 1456, 1476, 1496, 1511, 1542, 1561, 1581, 1595, 1630, 1652, 1665, 1683, 1695, 1714, 1732, 1750, 1760, 1775, 1796, 1815, 1830, 1846, 1856, 1885, 1898, 1909, 1921, 1933, 1942, 1957, 1967, 1973, 1987, 1997, 2009, 2024, 2039, 2047, 2082, 2095, 2107, 2114, 2128, 2137, 2146, 2155, 2166, 2179, 2188, 2196, 2206, 2212, 2219, 2250, 2256, 2266, 2276, 2277, 2290, 2304, 2314, 2321, 2336, 2344, 2354, 2357, 2368, 2375, 2416, 2425, 2431, 2434, 2444, 2452, 2459, 2466, 2476, 2487, 2492, 2498, 2507, 2520, 2527, 2562, 2567, 2573, 2578, 2586, 2593, 2603, 2610, 2617, 2622, 2627, 2633, 2639, 2643, 2646, 2667, 2673, 2680, 2692, 2697, 2701, 2704, 2709, 2747, 2752, 2752, 2759, 2765, 2771, 2778, 2779, 2788, 2792, 2797, 2807, 2811, 2818, 2827, 2839, 2848, 2854, 2858, 2863, 2871, 2876, 2881, 2888, 2894, 2900, 2903, 2904, 2908, 2911, 2923, 2928, 2935, 2944, 2947, 2949, 2954, 2963, 2971, 2977, 2978, 2986, 2993, 2998, 3003, 3017, 3020, 3028, 3029, 3033, 3037, 3044, 3047, 3049, 3055, 3065, 3069, 3075, 3081, 3085, 3098, 3102, 3104, 3111, 3114, 3116, 3122, 3129, 3133, 3136, 3137, 3140, 3143, 3147, 3149, 3161, 3163, 3167, 3170, 3173, 3178, 3181, 3186, 3189, 3193, 3193, 3196, 3199, 3205, 3210, 3215, 3217, 3220, 3222, 3224, 3226, 3228, 3231, 3235, 3235, 3238, 3241, 3243, 3247, 3252, 3260, 3261, 3263, 3269, 3273, 3277, 3280, 3283, 3285, 3289, 3290, 3292, 3295, 3298, 3302, 3311, 3314, 3319, 3321, 3326, 3328, 3333, 3335, 3338, 3341, 3342, 3344, 3346, 3348, 3355, 3357, 3359, 3362, 3365, 3366, 3369, 3370, 3371, 3372, 3374, 3377, 3379, 3380, 3380, 3381, 3390, 3392, 3396, 3396, 3397, 3398, 3399, 3400, 3402, 3404, 3406, 3411, 3413, 3416, 3418, 3424, 3423, 3425, 3428, 3428, 3430, 3432, 3436, 3436, 3441, 3442, 3444, 3446, 3447, 3449, 3452, 3454, 3454, 3455, 3456, 3459, 3461, 3463, 3464, 3464, 3465, 3465, 3466, 3472, 3473, 3476, 3476, 3475, 3480, 3484, 3485, 3485, 3485, 3486, 3486, 3486, 3486, 3486, 3486, 3487];
 const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 5, 5, 5, 5, 5, 6, 6, 6];
-const orgColor  = '#e8ff47';
-const gridColor = 'rgba(30,30,46,0.8)';
-const tickColor = '#5a5a7a';
-const baseOpts = {
-  responsive: true, maintainAspectRatio: false,
-  interaction: { mode: "index", intersect: false },
-  plugins: { legend: { labels: { color: tickColor, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } } },
-  scales: {
-    x: { ticks: { color: tickColor, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 }, grid: { color: gridColor } },
-    y: { ticks: { color: tickColor, font: { family: "DM Mono", size: 10 } }, grid: { color: gridColor } }
-  }
+const VIDEO_ID = "BkAmjIVW6GA";
+const orgColor = '#e8ff47';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
 };
-new Chart(document.getElementById("viewerChart"), {
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
   type: "line",
-  data: { labels: ts, datasets: [{ label: "Concurrent Viewers", data: views,
-    borderColor: orgColor, backgroundColor: orgColor + "22",
-    borderWidth: 2, pointRadius: 2, fill: true, tension: 0.3 }] },
-  options: { ...baseOpts }
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
 });
-new Chart(document.getElementById("engagementChart"), {
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
   type: "line",
-  data: { labels: ts, datasets: [
-    { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.05)",  borderWidth: 2, pointRadius: 2, fill: true, tension: 0.3 },
-    { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.05)", borderWidth: 2, pointRadius: 2, fill: true, tension: 0.3 }
-  ] },
-  options: { ...baseOpts }
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
 });
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
 </script>
 
   <footer>
