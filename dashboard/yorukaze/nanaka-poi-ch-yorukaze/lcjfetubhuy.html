@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>Nakula Nalendra【PANDAVVA】 — IDVTuber Tracker</title>
+<title>[Undertale] NYE HE HE HE — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -305,194 +307,203 @@
   header { animation: fadeUp 0.5s ease both; }
   .orgs-grid, .channels-list, .streams-grid, .kpi-row { animation: fadeUp 0.5s 0.1s ease both; }
 
-  :root { --org-color: #e8ff47; }
+  :root { --org-color: #7ec8e3; }
 </style>
 </head>
 <body>
 <div class="page">
-<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">PANDAVVA</a> <span class="sep">&#8250;</span> <span class="current">Nakula Nalendra【PANDAVVA】</span><div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div></nav>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">Yorukaze Production</a> <span class="sep">&#8250;</span> <a href="index.html">Nanaka Poi Ch. 【Yorukaze】</a> <span class="sep">&#8250;</span> <span class="current">[Undertale] NYE HE HE HE</span><div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div></nav>
   <header>
-    <p class="eyebrow">PANDAVVA</p>
-    <h1>Nakula Nalendra【PANDAVVA】</h1>
-    <p class="page-meta">17 streams recorded &#8212; sorted by date</p>
+    <p class="eyebrow">Yorukaze Production &nbsp;&#183;&nbsp; Nanaka Poi Ch. 【Yorukaze】</p>
+    <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
+    <h1>[Undertale] NYE HE HE HE</h1>
+    <p class="page-meta">Video ID: LcJFetubhuY</p>
   </header>
 
-  <div class="month-heading">May 2026</div>
-  <div class="streams-grid">
-    <a class="stream-card" href="lcu-y0duztu.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">BACAIN FANFIC KALIAN! 【PANDAVVA】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,736</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">3,482</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,409</div></div>
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/LcJFetubhuY" allowfullscreen loading="lazy"></iframe>
       </div>
-      <div class="stream-date">2026-05-08 22:06 WIB</div>
-    </a>
-    <a class="stream-card" href="dlwj40fzgu4.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">MAIN WEREWOLF TAPI GINUK-GINUK?【FEIGN】POV : Nakula</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">989</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">5,694</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,338</div></div>
+      <div class="stream-thumb-meta">
+        <span>2026-05-08 22:52 WIB</span>
+        <a href="https://www.youtube.com/watch?v=LcJFetubhuY" target="_blank" rel="noopener">Watch on YouTube ↗</a>
       </div>
-      <div class="stream-date">2026-05-07 19:01 WIB</div>
-    </a>
-    <a class="stream-card" href="gki4fsvcmhq.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">Afterwork talks? 【PANDAVVA】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,269</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">4,322</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,545</div></div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">2</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">2</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">0</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-05-08 22:52 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-05-08 22:52 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">0m 00s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">0</div><div class="kpi-sub">total plays</div></div>
       </div>
-      <div class="stream-date">2026-05-04 18:00 WIB</div>
-    </a>
-    <a class="stream-card" href="kw4upskd3vq.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">Breakfast With Nakula #7 【PANDAVVA】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,016</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">7,793</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,769</div></div>
-      </div>
-      <div class="stream-date">2026-05-03 10:02 WIB</div>
-    </a>
-    <a class="stream-card" href="mlqnu9tafty.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">KULO KULA MEMANAGE BAKOSU DI KULONIKU【KULONIKU : BOWL UP】#2</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">803</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">5,246</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,464</div></div>
-      </div>
-      <div class="stream-date">2026-05-01 15:33 WIB</div>
-    </a>
-    <a class="stream-card" href="j8a1hkbgkze.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">testing 【】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">703</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">3,558</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">965</div></div>
-      </div>
-      <div class="stream-date">2026-05-01 00:33 WIB</div>
-    </a>
+    </div>
   </div>
-  <div class="month-heading">April 2026</div>
-  <div class="streams-grid">
-    <a class="stream-card" href="jhtd6gv9wle.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">LANJUT NOBAR MY EMPRESS AKADEMIA Ft. @Sadewa_Sagara 【ROAD TO EMPRESS】#5</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,666</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">8,420</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">2,297</div></div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
       </div>
-      <div class="stream-date">2026-04-30 18:02 WIB</div>
-    </a>
-    <a class="stream-card" href="dcjwgiisqxs.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">AKHIRNYA CITA-CITAKU TERCAPAI【KULONIKU】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,222</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">5,585</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,505</div></div>
-      </div>
-      <div class="stream-date">2026-04-26 10:04 WIB</div>
-    </a>
-    <a class="stream-card" href="jvczve3uygs.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">Temenin Kerja? (FREE TALK)【PANDAVVA】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,533</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">17,112</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">2,763</div></div>
-      </div>
-      <div class="stream-date">2026-04-25 20:02 WIB</div>
-    </a>
-    <a class="stream-card" href="elfibh-7zqc.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">BERHOROR BERSAMA DENGAN JAWA【PARANORMAL】Ft. @Ryoutaa &amp; @YourLucentia</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,776</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">6,804</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">2,195</div></div>
-      </div>
-      <div class="stream-date">2026-04-21 20:02 WIB</div>
-    </a>
-    <a class="stream-card" href="052e-nmcs58.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">Breakfast With Nakula #6 (Q&amp;A)【PANDAVVA】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,037</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">8,756</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,920</div></div>
-      </div>
-      <div class="stream-date">2026-04-19 09:05 WIB</div>
-    </a>
-    <a class="stream-card" href="pdkmawctsvc.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">KARAOKE STREAM #3 Nakula Nalendra【PANDAVVA】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">2,891</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">21,996</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">4,131</div></div>
-      </div>
-      <div class="stream-date">2026-04-18 20:24 WIB</div>
-    </a>
-    <a class="stream-card" href="kny3d8e5pxy.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">MEROASTING BERSAMA DUO CALON EMPRESS Ft. @Sadewa_Sagara 【ROAD TO EMPRESS】#4</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,730</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">7,143</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">2,110</div></div>
-      </div>
-      <div class="stream-date">2026-04-16 18:01 WIB</div>
-    </a>
-    <a class="stream-card" href="shud0gfbh-y.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">NAKULA MEMBAWA PAPANNYA SENDIRI【RV THERE YET】POV: Nakula</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">865</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">6,898</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,399</div></div>
-      </div>
-      <div class="stream-date">2026-04-12 14:02 WIB</div>
-    </a>
-    <a class="stream-card" href="ra4b-qq9kda.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">Breakfast With Nakula #6 (Q&amp;A)【PANDAVVA】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,171</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">5,883</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,629</div></div>
-      </div>
-      <div class="stream-date">2026-04-12 11:33 WIB</div>
-    </a>
-    <a class="stream-card" href="dzpgttk7rta.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">MENJADI DRAMA QUEEN AGAR TIDAK OTSU Ft. @Sadewa_Sagara 【PANDAVVAS】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">2,161</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">5,667</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">2,238</div></div>
-      </div>
-      <div class="stream-date">2026-04-09 18:02 WIB</div>
-    </a>
-    <a class="stream-card" href="4ocnni86tla.html">
-      <span class="stream-status status-live">&#128308; Live</span>
-      <div class="stream-title">ROAD TO PROFESYENEL DRAWER【GARTIC PHONE】</div>
-      <div class="stream-stats">
-        <div><div class="stat-label">Peak Viewers</div><div class="stat-value">1,373</div></div>
-        <div><div class="stat-label">View Count</div><div class="stat-value">6,365</div></div>
-        <div><div class="stat-label">Peak Likes</div><div class="stat-value">1,921</div></div>
-      </div>
-      <div class="stream-date">2026-04-08 19:01 WIB</div>
-    </a>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
+  </div>
+
+  <p class="generated">Generated 2026-05-08 22:52 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
+<script>
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["22:52"];
+const views = [2];
+const likes = [0];
+const comms = [0];
+const VIDEO_ID = "LcJFetubhuY";
+const orgColor = '#7ec8e3';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
 
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
