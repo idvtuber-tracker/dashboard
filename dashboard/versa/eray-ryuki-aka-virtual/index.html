@@ -128,10 +128,12 @@
   .breadcrumb .sep { color: var(--border); }
   .breadcrumb .current { color: var(--accent-text); }
 
-  /* headings */
+  /* ── headings — shared scale used on every level ── */
   .eyebrow {
     font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
     color: var(--accent-text); margin-bottom: 0.6rem;
+    /* level-1 (index) uses the full accent colour;
+       lower levels inherit --org-color via --accent-text automatically */
   }
   h1 {
     font-family: 'Fraunces', serif;
@@ -139,7 +141,15 @@
     font-weight: 700; line-height: 1.0; color: var(--white); margin-bottom: 0.5rem;
   }
   h1 em { font-style: italic; color: var(--accent-text); }
-  .page-meta { font-size: 0.72rem; color: var(--muted); margin-top: 0.75rem; }
+  /* page-meta sits directly under every h1; identical treatment everywhere */
+  .page-meta {
+    font-size: 0.72rem; color: var(--muted); margin-top: 0.75rem;
+    letter-spacing: 0.02em; line-height: 1.6;
+  }
+
+  /* ── section labels (used as sub-headings inside page body) ── */
+  /* .section-title already defined below; .panel-hdr is its inline-panel twin */
+  /* Keep both the same visual weight so scanning a page feels consistent */
 
   /* org cards */
   .orgs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-top: 3rem; }
@@ -274,7 +284,7 @@
   .kpi-grid .kpi:nth-child(-n+2)::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); }
   .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-bottom: 2.5rem; }
   .chart-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; gap: 0.75rem; }
-  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin: 0; }
+  .chart-title { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin: 0; font-weight: 500; }
   .chart-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
   .chart-btn {
     font-family: "DM Mono", monospace; font-size: 0.6rem; letter-spacing: 0.08em;
@@ -285,10 +295,17 @@
   .chart-btn:hover { border-color: var(--org-color); color: var(--accent-text); }
   .chart-hint { font-size: 0.58rem; color: var(--muted); opacity: 0.6; margin-top: 0.5rem; text-align: right; }
   .chart-wrap { position: relative; height: 320px; }
-  .section-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  /* section-title and panel-hdr share identical typographic treatment so
+     sub-headings read consistently whether inside a card, a panel, or free-floating */
+  .section-title,
+  .panel-hdr {
+    font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.2em;
+    color: var(--muted); font-weight: 500;
+  }
+  .section-title { margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
   .data-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 3rem; }
   .data-table th { text-align: left; padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border); }
-  .data-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid rgba(30,30,46,0.5); color: var(--text); }
+  .data-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); color: var(--text); }
   .data-table tr:hover td { background: var(--surface); }
   .data-table .num { text-align: right; color: var(--accent-text); font-weight: 500; }
   .data-table .ts  { color: var(--muted); }
@@ -297,9 +314,21 @@
   .pill-upcoming { background: rgba(79,195,247,0.10); color: var(--blue); border: 1px solid var(--blue); }
   .generated { text-align: center; color: var(--muted); font-size: 0.7rem; margin-top: 3rem; }
 
-  footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; font-size: 0.7rem; color: var(--muted); }
+  footer {
+    margin-top: 5rem;
+    padding: 1.75rem 2rem;
+    border-top: 1px solid var(--border);
+    background: var(--surface);           /* distinct from page bg in both themes */
+    border-radius: 6px;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between; gap: 1rem;
+    font-size: 0.7rem; color: var(--muted);
+  }
   footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
   footer a:hover { color: var(--accent-text); }
+  footer .footer-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  footer .footer-sep { opacity: 0.35; }
+  /* light-mode footer is already handled by --surface and --border vars */
 
   @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
   header { animation: fadeUp 0.5s ease both; }
@@ -339,7 +368,7 @@
 
   /* ── recent streams card grid (4×2, full-width, above main grid) ── */
   .recent-streams-section { margin-bottom: 2rem; animation: fadeUp 0.5s 0.08s ease both; }
-  .recent-streams-hdr { font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.9rem; display: flex; align-items: center; gap: 0.6rem; }
+  .recent-streams-hdr { font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.9rem; display: flex; align-items: center; gap: 0.6rem; font-weight: 500; }
   .recent-streams-hdr::before { content: ""; display: block; width: 6px; height: 6px; border-radius: 50%; background: var(--org-color); box-shadow: 0 0 6px var(--org-color); flex-shrink: 0; }
   [data-theme="light"] .recent-streams-hdr::before { box-shadow: none; }
   .recent-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.85rem; }
@@ -361,12 +390,13 @@
 
   /* ── chronological stream list (new row layout) ── */
   .stream-list-panel { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
-  .panel-hdr { padding: 0.8rem 1.25rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+  /* panel-hdr font already merged with .section-title above */
+  .panel-hdr { padding: 0.8rem 1.25rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
 
   /* collapsible month group */
   .month-group { border-bottom: 1px solid var(--border); }
   .month-group:last-child { border-bottom: none; }
-  .month-toggle { display: flex; align-items: center; justify-content: space-between; padding: 0.6rem 1.25rem; font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); background: var(--surface2); cursor: pointer; user-select: none; border: none; width: 100%; text-align: left; font-family: inherit; transition: color 0.15s; gap: 0.75rem; }
+  .month-toggle { display: flex; align-items: center; justify-content: space-between; padding: 0.6rem 1.25rem; font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); font-weight: 500; background: var(--surface2); cursor: pointer; user-select: none; border: none; width: 100%; text-align: left; font-family: inherit; transition: color 0.15s; gap: 0.75rem; }
   .month-toggle:hover { color: var(--accent-text); }
   .month-toggle-left { display: flex; align-items: center; gap: 0.55rem; }
   .month-toggle-left::before { content: ""; display: block; width: 5px; height: 5px; border-radius: 50%; background: var(--org-color); box-shadow: 0 0 5px var(--org-color); flex-shrink: 0; }
@@ -444,8 +474,8 @@
         </div>
         <div class="hero-name">Eray Ryuki【AKA Virtual】</div>
         <div class="hero-meta-row">
-          <div class="hero-meta-item"><span>Subscribers</span><strong>24,100</strong></div>
-          <div class="hero-meta-item"><span>Total views</span><strong>8,785</strong></div>
+          <div class="hero-meta-item"><span>Subscribers</span><strong>24,200</strong></div>
+          <div class="hero-meta-item"><span>Total views</span><strong>9,520</strong></div>
           <div class="hero-meta-item"><span>Tracking</span><strong>Apr 2026 – May 2026</strong></div>
         </div>
       </div>
@@ -455,14 +485,29 @@
     </div>
   </div>
   <div class="kpi-strip">
-    <div class="kpi-cell"><div class="kpi-label">Streams tracked</div><div class="kpi-value">9</div><div class="kpi-sub">Apr 2026 – May 2026</div></div>
+    <div class="kpi-cell"><div class="kpi-label">Streams tracked</div><div class="kpi-value">10</div><div class="kpi-sub">Apr 2026 – May 2026</div></div>
     <div class="kpi-cell"><div class="kpi-label">Peak CCV</div><div class="kpi-value">832</div><div class="kpi-sub">All-time record</div></div>
-    <div class="kpi-cell"><div class="kpi-label">Avg peak CCV</div><div class="kpi-value">216</div><div class="kpi-sub">Per stream</div></div>
-    <div class="kpi-cell"><div class="kpi-label">Total views</div><div class="kpi-value">8,785</div><div class="kpi-sub">Tracked streams</div></div>
+    <div class="kpi-cell"><div class="kpi-label">Avg peak CCV</div><div class="kpi-value">212</div><div class="kpi-sub">Per stream</div></div>
+    <div class="kpi-cell"><div class="kpi-label">Total views</div><div class="kpi-value">9,520</div><div class="kpi-sub">Tracked streams</div></div>
   </div>
   <div class="recent-streams-section">
     <div class="recent-streams-hdr">Recent streams</div>
     <div class="recent-grid">
+    <a class="rc" href="iqupkcrt7ec.html">
+      <div class="rc-thumb">
+        <img src="https://i.ytimg.com/vi/IqupKcrt7ec/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
+        <span class="rc-live">Live</span>
+      </div>
+      <div class="rc-body">
+        <div class="rc-title">【FREETALK】Good afternoon, ngobrol yuk!</div>
+        <div class="rc-date">23 May 2026</div>
+        <div class="rc-stats">
+          <span>&#128065; <span class="rc-peak">173</span></span>
+          <span>&#9825; 268</span>
+          <span>&#9654; 735</span>
+        </div>
+      </div>
+    </a>
     <a class="rc" href="tcviswb-yfc.html">
       <div class="rc-thumb">
         <img src="https://i.ytimg.com/vi/tcVIsWb_yFc/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
@@ -568,21 +613,6 @@
         </div>
       </div>
     </a>
-    <a class="rc" href="8aev1nyyzb8.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/8AEv1NYYZb8/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        <span class="rc-live">Live</span>
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">【FREETALK】Ngobrolin dunia malam peradukan~ w/@YudistiraYogendra</div>
-        <div class="rc-date">28 Apr 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">832</span></span>
-          <span>&#9825; 1,302</span>
-          <span>&#9654; 3,712</span>
-        </div>
-      </div>
-    </a>
     </div>
   </div>
   <div class="ch-main-grid">
@@ -591,9 +621,30 @@
   <div class="month-group is-open">
     <button class="month-toggle" aria-expanded="true">
       <span class="month-toggle-left">May 2026</span>
-      <span class="month-toggle-right"><span class="month-cnt-badge">6</span><span class="month-chevron">▾</span></span>
+      <span class="month-toggle-right"><span class="month-cnt-badge">7</span><span class="month-chevron">▾</span></span>
     </button>
     <div class="month-body">
+  <a class="stream-row-item" href="iqupkcrt7ec.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/IqupKcrt7ec/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">【FREETALK】Good afternoon, ngobrol yuk!</div>
+      <div class="stream-row-meta">
+        <span>23 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>14:01 WIB</span>
+        <span class="row-sep">·</span>
+        <span>2h 35m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">173</span> peak</span>
+        <span class="rs">&#9825; 268</span>
+        <span class="rs">&#9654; 735</span>
+      </div>
+    </div>
+  </a>
   <a class="stream-row-item" href="tcviswb-yfc.html">
     <div class="stream-thumb-cell">
       <img src="https://i.ytimg.com/vi/tcVIsWb_yFc/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
@@ -804,7 +855,7 @@
           <tbody>
       <tr>
         <td><a class="month-a" href="#">May 2026</a></td>
-        <td><span class="month-cnt">6</span></td>
+        <td><span class="month-cnt">7</span></td>
         <td class="month-peak">320</td>
       </tr>
       <tr class="month-best-row">
@@ -833,7 +884,7 @@
       <div class="side-panel">
         <div class="panel-hdr">Subscribers</div>
         <div class="subs-body">
-          <div class="subs-count">24,100</div>
+          <div class="subs-count">24,200</div>
           <div class="subs-label">YouTube subscribers</div>
           <svg class="sparkline" viewBox="0 0 260 40" preserveAspectRatio="none" aria-hidden="true">
             <defs><linearGradient id="spk" x1="0" y1="0" x2="0" y2="1">
@@ -861,13 +912,13 @@
 
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
-    <span>
+    <nav class="footer-links">
       <a href="../../index.html">Home</a>
-      &nbsp;&middot;&nbsp;
+      <span class="footer-sep">·</span>
       <a href="../../privacy.html">Privacy Policy</a>
-      &nbsp;&middot;&nbsp;
+      <span class="footer-sep">·</span>
       <a href="../../terms.html">Terms of Use</a>
-    </span>
+    </nav>
   </footer>
 </div>
 
