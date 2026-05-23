@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
+<title>Nakula Nalendra【PANDAVVA】 — IDVTuber Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
+
+<style>
+
+  :root {
+    --bg:          #0a0a0f;
+    --surface:     #13131a;
+    --surface2:    #1a1a26;
+    --border:      #1e1e2e;
+    --muted:       #5a5a7a;
+    --text:        #e2e2f0;
+    --white:       #ffffff;
+    --red:         #ff4f6d;
+    --blue:        #4fc3f7;
+    --org-color:   #e8ff47;
+    --accent-text: var(--org-color);
+  }
+
+  /* ── light theme ── */
+  [data-theme="light"] {
+    --bg:          #f5f5f0;
+    --surface:     #ffffff;
+    --surface2:    #eaeae5;
+    --border:      #d8d8ce;
+    --muted:       #767670;
+    --text:        #1a1a14;
+    --white:       #1a1a14;
+    --red:         #c0002a;
+    --blue:        #005f8a;
+    --accent-text: #2a2a20;
+  }
+
+  /* ── follow system preference by default ── */
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg:          #f5f5f0;
+      --surface:     #ffffff;
+      --surface2:    #eaeae5;
+      --border:      #d8d8ce;
+      --muted:       #767670;
+      --text:        #1a1a14;
+      --white:       #1a1a14;
+      --red:         #c0002a;
+      --blue:        #005f8a;
+      --accent-text: #2a2a20;
+    }
+  }
+
+  /* ── light theme badge and pill background overrides ── */
+  [data-theme="light"] .status-live     { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
+  [data-theme="light"] .status-upcoming { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
+  [data-theme="light"] .status-vod      { background: rgba(100,100,90,0.12); }
+  [data-theme="light"] .pill-live       { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
+  [data-theme="light"] .pill-upcoming   { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) .status-live     { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
+    :root:not([data-theme="dark"]) .status-upcoming { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
+    :root:not([data-theme="dark"]) .status-vod      { background: rgba(100,100,90,0.12); }
+    :root:not([data-theme="dark"]) .pill-live       { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
+    :root:not([data-theme="dark"]) .pill-upcoming   { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
+  }
+
+  /* ── light theme: suppress neon glow effects ── */
+  [data-theme="light"] .org-dot,
+  [data-theme="light"] .month-heading::before { box-shadow: none; }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) .org-dot              { box-shadow: none; }
+    :root:not([data-theme="dark"]) .month-heading::before { box-shadow: none; }
+  }
+
+  /* ── theme toggle ── */
+  .theme-toggle { margin-left: auto; flex-shrink: 0; display: flex; align-items: center; }
+  .toggle-pill {
+    position: relative; display: flex; align-items: center;
+    width: 56px; height: 28px;
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 14px; cursor: pointer;
+    transition: background 0.25s, border-color 0.25s;
+  }
+  .toggle-pill:hover { border-color: var(--org-color); }
+  .toggle-thumb {
+    position: absolute; left: 4px;
+    width: 20px; height: 20px; border-radius: 50%;
+    background: var(--org-color);
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; line-height: 1; pointer-events: none;
+  }
+  .toggle-thumb.is-light { transform: translateX(28px); }
+  .toggle-icon-dark, .toggle-icon-light {
+    position: absolute; font-size: 10px; line-height: 1; pointer-events: none;
+  }
+  .toggle-icon-dark  { right: 7px; }
+  .toggle-icon-light { left:  7px; }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-size: 14px; line-height: 1.7; min-height: 100vh;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    opacity: 0.5;
+  }
+  .page { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 0 2rem 6rem; }
+
+  /* breadcrumb */
+  .breadcrumb {
+    display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem;
+    padding: 1.5rem 0; font-size: 0.68rem;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted);
+    border-bottom: 1px solid var(--border); margin-bottom: 3rem;
+  }
+  .breadcrumb a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+  .breadcrumb a:hover { color: var(--accent-text); }
+  .breadcrumb .sep { color: var(--border); }
+  .breadcrumb .current { color: var(--accent-text); }
+
+  /* headings */
+  .eyebrow {
+    font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--accent-text); margin-bottom: 0.6rem;
+  }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2rem, 5vw, 4.5rem);
+    font-weight: 700; line-height: 1.0; color: var(--white); margin-bottom: 0.5rem;
+  }
+  h1 em { font-style: italic; color: var(--accent-text); }
+  .page-meta { font-size: 0.72rem; color: var(--muted); margin-top: 0.75rem; }
+
+  /* org cards */
+  .orgs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-top: 3rem; }
+  @media (max-width: 1100px) { .orgs-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px)  { .orgs-grid { grid-template-columns: 1fr; } }
+  .org-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 2rem;
+    text-decoration: none; color: inherit; display: block;
+    transition: border-color 0.2s, transform 0.2s;
+    position: relative; overflow: hidden;
+  }
+  .org-card::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+    background: var(--org-color); transform: scaleX(0);
+    transform-origin: left; transition: transform 0.35s;
+  }
+  .org-card:hover { border-color: var(--org-color); transform: translateY(-3px); }
+  .org-card:hover::after { transform: scaleX(1); }
+  .org-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--org-color); margin-bottom: 1.25rem; box-shadow: 0 0 12px var(--org-color); }
+  .org-title { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 700; color: var(--white); margin-bottom: 0.5rem; }
+  .org-desc { font-size: 0.78rem; color: var(--muted); margin-bottom: 1.25rem; line-height: 1.6; }
+  .org-stat { font-size: 0.72rem; color: var(--muted); }
+  .org-stat strong { color: var(--accent-text); }
+
+  /* channel card grid */
+  .channels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.25rem; margin-top: 2.5rem; }
+  .channel-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 1.5rem 1.25rem;
+    text-decoration: none; color: inherit; display: flex;
+    flex-direction: column; align-items: center; text-align: center;
+    gap: 0.9rem; transition: border-color 0.2s, transform 0.2s;
+    position: relative; overflow: hidden;
+  }
+  .channel-card::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+    background: var(--org-color); transform: scaleX(0);
+    transform-origin: left; transition: transform 0.35s;
+  }
+  .channel-card:hover { border-color: var(--org-color); transform: translateY(-3px); }
+  .channel-card:hover::after { transform: scaleX(1); }
+  .channel-avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); transition: border-color 0.2s; background: var(--surface2); }
+  .channel-card:hover .channel-avatar { border-color: var(--org-color); }
+  .channel-avatar-placeholder {
+    width: 72px; height: 72px; border-radius: 50%;
+    background: var(--surface2); border: 2px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 700;
+    color: var(--accent-text); flex-shrink: 0; transition: border-color 0.2s;
+  }
+  .channel-card:hover .channel-avatar-placeholder { border-color: var(--org-color); }
+  .channel-badge {
+    font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase;
+    padding: 0.18rem 0.45rem; border-radius: 2px;
+    border: 1px solid var(--org-color); color: var(--accent-text);
+    background: rgba(0,0,0,0.3); flex-shrink: 0;
+  }
+  .channel-card-name { font-family: 'Fraunces', serif; font-size: 0.95rem; font-weight: 700; color: var(--white); line-height: 1.25; }
+  .channel-card-meta { font-size: 0.65rem; color: var(--muted); }
+  .channel-card-stats { display: flex; flex-direction: column; gap: 0.3rem; width: 100%; border-top: 1px solid var(--border); padding-top: 0.75rem; margin-top: 0.1rem; }
+  .stat-row { display: flex; justify-content: space-between; align-items: center; font-size: 0.63rem; }
+  .stat-row .stat-label { color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+  .stat-row .stat-value { color: var(--text); }
+  .stat-row .stat-value.highlight { color: var(--accent-text); }
+
+  /* stream cards */
+  .streams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1rem; margin-top: 2.5rem; }
+  .stream-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 4px; padding: 1.25rem;
+    text-decoration: none; color: inherit; display: block;
+    transition: border-color 0.2s, transform 0.2s;
+    position: relative; overflow: hidden;
+  }
+  .stream-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: var(--org-color); transform: scaleX(0);
+    transform-origin: left; transition: transform 0.3s;
+  }
+  .stream-card:hover { border-color: var(--org-color); transform: translateY(-2px); }
+  .stream-card:hover::before { transform: scaleX(1); }
+  .stream-status { display: inline-block; font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.2rem 0.5rem; border-radius: 2px; margin-bottom: 0.75rem; }
+  .status-live     { background: rgba(255,79,109,0.15); color: var(--red);   border: 1px solid var(--red); }
+  .status-upcoming { background: rgba(79,195,247,0.10); color: var(--blue);  border: 1px solid var(--blue); }
+  .status-vod      { background: rgba(90,90,122,0.20);  color: var(--muted); border: 1px solid var(--muted); }
+  .stream-title {
+    font-family: 'Fraunces', serif; font-size: 1rem; font-weight: 700;
+    color: var(--white); margin-bottom: 1rem; line-height: 1.3;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .stream-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; }
+  .stat-label { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+  .stat-value { font-size: 0.9rem; color: var(--accent-text); font-weight: 500; }
+  .stream-date { font-size: 0.62rem; color: var(--muted); margin-top: 1rem; }
+  .empty { color: var(--muted); font-size: 0.8rem; font-style: italic; padding: 1rem 0; }
+
+  /* month heading */
+  .month-heading {
+    font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase;
+    color: var(--muted); margin: 2.5rem 0 1rem;
+    padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 0.75rem;
+  }
+  .month-heading::before {
+    content: ''; display: block; width: 6px; height: 6px;
+    border-radius: 50%; background: var(--org-color);
+    box-shadow: 0 0 6px var(--org-color); flex-shrink: 0;
+  }
+
+  /* stream detail */
+  .stream-hero { display: grid; grid-template-columns: 37fr 63fr; gap: 1.5rem; margin: 2rem 0 2.5rem; align-items: start; }
+  @media (max-width: 700px) { .stream-hero { grid-template-columns: 1fr; } }
+  .embed-side { min-width: 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .embed-wrap { position: relative; width: 100%; padding-bottom: 56.25%; background: #000; }
+  .embed-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
+  .stream-thumb-meta {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.65rem 0.9rem; background: var(--surface); border-top: 1px solid var(--border);
+    font-size: 0.65rem; color: var(--muted);
+  }
+  .stream-thumb-meta a { color: var(--accent-text); text-decoration: none; }
+  .stream-thumb-meta a:hover { text-decoration: underline; }
+  .kpi-side { min-width: 0; }
+  .kpi-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .kpi { background: var(--surface); padding: 1.1rem 1.25rem; position: relative; }
+  .kpi.kpi-wide { grid-column: span 2; }
+  .kpi-label { font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--muted); margin-bottom: 0.45rem; }
+  .kpi-value { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
+  .kpi-value.kpi-sm { font-size: 1rem; }
+  .kpi-sub { font-size: 0.6rem; color: var(--muted); margin-top: 0.25rem; }
+  .kpi-grid .kpi:nth-child(-n+2)::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); }
+  .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-bottom: 2.5rem; }
+  .chart-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; gap: 0.75rem; }
+  .chart-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin: 0; }
+  .chart-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+  .chart-btn {
+    font-family: "DM Mono", monospace; font-size: 0.6rem; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 0.25rem 0.6rem; border-radius: 3px;
+    border: 1px solid var(--border); background: transparent; color: var(--muted);
+    cursor: pointer; transition: border-color 0.2s, color 0.2s; white-space: nowrap;
+  }
+  .chart-btn:hover { border-color: var(--org-color); color: var(--accent-text); }
+  .chart-hint { font-size: 0.58rem; color: var(--muted); opacity: 0.6; margin-top: 0.5rem; text-align: right; }
+  .chart-wrap { position: relative; height: 320px; }
+  .section-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .data-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 3rem; }
+  .data-table th { text-align: left; padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border); }
+  .data-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid rgba(30,30,46,0.5); color: var(--text); }
+  .data-table tr:hover td { background: var(--surface); }
+  .data-table .num { text-align: right; color: var(--accent-text); font-weight: 500; }
+  .data-table .ts  { color: var(--muted); }
+  .pill { display: inline-block; font-size: 0.6rem; padding: 0.15rem 0.4rem; border-radius: 2px; text-transform: uppercase; letter-spacing: 0.1em; }
+  .pill-live     { background: rgba(255,79,109,0.15); color: var(--red);  border: 1px solid var(--red); }
+  .pill-upcoming { background: rgba(79,195,247,0.10); color: var(--blue); border: 1px solid var(--blue); }
+  .generated { text-align: center; color: var(--muted); font-size: 0.7rem; margin-top: 3rem; }
+
+  footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; font-size: 0.7rem; color: var(--muted); }
+  footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+  footer a:hover { color: var(--accent-text); }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+  header { animation: fadeUp 0.5s ease both; }
+  .orgs-grid, .channels-list, .streams-grid, .kpi-row { animation: fadeUp 0.5s 0.1s ease both; }
+
+  /* ── channel hero ── */
+  .channel-hero { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 1.5rem; animation: fadeUp 0.5s ease both; }
+  .hero-shimmer { height: 4px; background: linear-gradient(90deg, var(--org-color) 0%, transparent 50%, var(--org-color) 100%); background-size: 200% 100%; animation: heroShimmer 3s linear infinite; }
+  @keyframes heroShimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+  .hero-body { display: flex; align-items: flex-start; gap: 1.5rem; padding: 1.75rem 2rem; }
+  @media (max-width: 600px) { .hero-body { flex-direction: column; } }
+  .hero-avatar-large { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; border: 2px solid var(--org-color); display: block; background: var(--surface2); flex-shrink: 0; }
+  .hero-avatar-large-placeholder { width: 88px; height: 88px; border-radius: 50%; background: var(--surface2); border: 2px solid var(--org-color); display: flex; align-items: center; justify-content: center; font-family: "Fraunces", serif; font-size: 1.8rem; font-weight: 700; color: var(--accent-text); flex-shrink: 0; }
+  .hero-org-badge { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.18rem 0.55rem 0.18rem 0.35rem; border-radius: 2px; border: 1px solid var(--org-color); color: var(--accent-text); background: color-mix(in srgb, var(--org-color) 8%, transparent); margin-bottom: 0.6rem; }
+  .hero-org-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--org-color); box-shadow: 0 0 5px var(--org-color); }
+  [data-theme="light"] .hero-org-dot { box-shadow: none; }
+  .hero-info { flex: 1; min-width: 0; }
+  .hero-name { font-family: "Fraunces", serif; font-size: clamp(1.5rem, 3.5vw, 2.4rem); font-weight: 700; line-height: 1.05; color: var(--white); margin-bottom: 0.6rem; }
+  .hero-name em { font-style: italic; color: var(--accent-text); }
+  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.65rem; color: var(--muted); margin-top: 0.35rem; }
+  .hero-meta-item { display: flex; align-items: center; gap: 0.3rem; }
+  .hero-meta-item strong { color: var(--accent-text); font-weight: 500; }
+  .hero-actions { flex-shrink: 0; align-self: flex-start; }
+  .yt-link { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); text-decoration: none; border: 1px solid var(--border); border-radius: 3px; padding: 0.38rem 0.7rem; transition: border-color 0.2s, color 0.2s; }
+  .yt-link:hover { border-color: var(--red); color: var(--red); }
+
+  /* ── kpi strip ── */
+  .kpi-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 2rem; animation: fadeUp 0.5s 0.05s ease both; }
+  @media (max-width: 700px) { .kpi-strip { grid-template-columns: repeat(2, 1fr); } }
+  .kpi-cell { background: var(--surface); padding: 1.1rem 1.25rem; position: relative; }
+  .kpi-cell::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); transform: scaleX(0); transform-origin: left; transition: transform 0.4s; }
+  .kpi-cell:hover::before { transform: scaleX(1); }
+
+  /* ── channel main grid ── */
+  .ch-main-grid { display: grid; grid-template-columns: 1fr 310px; gap: 1.25rem; align-items: start; animation: fadeUp 0.5s 0.1s ease both; }
+  @media (max-width: 820px) { .ch-main-grid { grid-template-columns: 1fr; } }
+
+  /* ── recent streams card grid (4×2, full-width, above main grid) ── */
+  .recent-streams-section { margin-bottom: 2rem; animation: fadeUp 0.5s 0.08s ease both; }
+  .recent-streams-hdr { font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.9rem; display: flex; align-items: center; gap: 0.6rem; }
+  .recent-streams-hdr::before { content: ""; display: block; width: 6px; height: 6px; border-radius: 50%; background: var(--org-color); box-shadow: 0 0 6px var(--org-color); flex-shrink: 0; }
+  [data-theme="light"] .recent-streams-hdr::before { box-shadow: none; }
+  .recent-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.85rem; }
+  @media (max-width: 900px) { .recent-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 500px) { .recent-grid { grid-template-columns: 1fr; } }
+  .rc { background: var(--surface); border: 1px solid var(--border); border-radius: 5px; overflow: hidden; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: border-color 0.2s, transform 0.18s; position: relative; }
+  .rc:hover { border-color: var(--org-color); transform: translateY(-2px); }
+  .rc::after { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); transform: scaleX(0); transform-origin: left; transition: transform 0.3s; }
+  .rc:hover::after { transform: scaleX(1); }
+  .rc-thumb { position: relative; width: 100%; padding-bottom: 56.25%; background: var(--surface2); overflow: hidden; flex-shrink: 0; }
+  .rc-thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+  .rc-thumb .rc-placeholder { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 1.3rem; }
+  .rc-live { position: absolute; top: 5px; left: 5px; background: var(--red); color: #fff; font-size: 0.48rem; font-weight: 500; letter-spacing: 0.1em; padding: 2px 5px; border-radius: 2px; text-transform: uppercase; }
+  .rc-body { padding: 0.65rem 0.75rem 0.75rem; flex: 1; display: flex; flex-direction: column; gap: 4px; }
+  .rc-title { font-family: "Fraunces", serif; font-size: 0.8rem; font-weight: 700; color: var(--white); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .rc-date { font-size: 0.57rem; color: var(--muted); }
+  .rc-stats { display: flex; gap: 0.6rem; font-size: 0.58rem; color: var(--muted); margin-top: auto; padding-top: 4px; }
+  .rc-peak { color: var(--accent-text); font-weight: 500; }
+
+  /* ── chronological stream list (new row layout) ── */
+  .stream-list-panel { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .panel-hdr { padding: 0.8rem 1.25rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+
+  /* collapsible month group */
+  .month-group { border-bottom: 1px solid var(--border); }
+  .month-group:last-child { border-bottom: none; }
+  .month-toggle { display: flex; align-items: center; justify-content: space-between; padding: 0.6rem 1.25rem; font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); background: var(--surface2); cursor: pointer; user-select: none; border: none; width: 100%; text-align: left; font-family: inherit; transition: color 0.15s; gap: 0.75rem; }
+  .month-toggle:hover { color: var(--accent-text); }
+  .month-toggle-left { display: flex; align-items: center; gap: 0.55rem; }
+  .month-toggle-left::before { content: ""; display: block; width: 5px; height: 5px; border-radius: 50%; background: var(--org-color); box-shadow: 0 0 5px var(--org-color); flex-shrink: 0; }
+  [data-theme="light"] .month-toggle-left::before { box-shadow: none; }
+  .month-toggle-right { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
+  .month-cnt-badge { font-size: 0.55rem; padding: 0.08rem 0.38rem; border-radius: 2px; background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.1); color: var(--accent-text); }
+  [data-theme="light"] .month-cnt-badge { background: rgba(0,0,0,0.06); border-color: rgba(0,0,0,0.15); }
+  .month-chevron { font-size: 0.55rem; transition: transform 0.25s; display: inline-block; }
+  .month-group.is-open .month-chevron { transform: rotate(180deg); }
+  .month-body { display: none; }
+  .month-group.is-open .month-body { display: block; }
+
+  .stream-row-item { display: flex; gap: 0.9rem; padding: 0.8rem 1.25rem; border-bottom: 1px solid var(--border); text-decoration: none; color: inherit; position: relative; transition: background 0.15s; }
+  .stream-row-item:last-child { border-bottom: none; }
+  .stream-row-item::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--org-color); transform: scaleY(0); transform-origin: top; transition: transform 0.25s; }
+  .stream-row-item:hover { background: var(--surface2); }
+  .stream-row-item:hover::after { transform: scaleY(1); }
+  .stream-thumb-cell { width: 88px; height: 50px; border-radius: 3px; flex-shrink: 0; background: var(--surface2); overflow: hidden; position: relative; }
+  .stream-thumb-cell img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .stream-thumb-cell .th-placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 1.1rem; }
+  .stream-row-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+  .stream-row-title { font-family: "Fraunces", serif; font-size: 0.88rem; font-weight: 700; color: var(--white); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .stream-row-meta { font-size: 0.6rem; color: var(--muted); display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap; }
+  .row-sep { opacity: 0.35; }
+  .stream-row-stats { display: flex; gap: 0.85rem; font-size: 0.62rem; color: var(--muted); margin-top: 2px; }
+  .rs { display: flex; align-items: center; gap: 0.2rem; }
+  .rs-peak { color: var(--accent-text); font-weight: 500; }
+  .show-more-link { display: flex; align-items: center; gap: 0.5rem; padding: 0.65rem 1.25rem; font-size: 0.6rem; color: var(--muted); cursor: pointer; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-top: 1px solid var(--border); transition: background 0.15s, color 0.2s; }
+  .show-more-link::before { content: ""; display: block; width: 5px; height: 1px; background: currentColor; flex-shrink: 0; }
+  .show-more-link:hover { background: var(--surface2); color: var(--accent-text); }
+
+  /* ── sidebar panels ── */
+  .sidebar-col { display: flex; flex-direction: column; gap: 1.25rem; }
+  .side-panel { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .monthly-tbl { width: 100%; border-collapse: collapse; font-size: 0.65rem; }
+  .monthly-tbl th { padding: 0.5rem 1rem; text-align: left; color: var(--muted); font-size: 0.57rem; text-transform: uppercase; letter-spacing: 0.12em; font-weight: 500; border-bottom: 1px solid var(--border); background: var(--surface2); }
+  .monthly-tbl th:not(:first-child) { text-align: right; }
+  .monthly-tbl td { padding: 0.52rem 1rem; border-bottom: 1px solid var(--border); color: var(--text); }
+  .monthly-tbl td:not(:first-child) { text-align: right; }
+  .monthly-tbl tr:last-child td { border-bottom: none; }
+  .monthly-tbl tr:hover td { background: var(--surface2); }
+  .month-a { color: var(--text); text-decoration: none; transition: color 0.2s; }
+  .month-a:hover { color: var(--accent-text); }
+  .month-cnt { display: inline-block; font-size: 0.57rem; padding: 0.1rem 0.4rem; border-radius: 2px; background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.1); color: var(--accent-text); }
+  [data-theme="light"] .month-cnt { background: rgba(0,0,0,0.06); border-color: rgba(0,0,0,0.15); }
+  .month-peak { color: var(--accent-text); font-weight: 500; }
+  .month-best-row td { background: color-mix(in srgb, var(--org-color) 4%, transparent); }
+  .month-best-row .month-a::after { content: " ★"; color: var(--org-color); font-size: 0.55rem; }
+  .rec-row { display: flex; justify-content: space-between; align-items: flex-start; padding: 0.8rem 1.25rem; border-bottom: 1px solid var(--border); gap: 0.5rem; }
+  .rec-row:last-child { border-bottom: none; }
+  .rec-lbl { font-size: 0.56rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 0.25rem; }
+  .rec-val { font-family: "Fraunces", serif; font-size: 1.25rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
+  .rec-ctx { font-size: 0.57rem; color: var(--muted); margin-top: 0.15rem; max-width: 145px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .rec-right { text-align: right; flex-shrink: 0; }
+  .rec-date { font-size: 0.6rem; color: var(--muted); }
+  .subs-body { padding: 0.9rem 1.25rem 1.1rem; }
+  .subs-count { font-family: "Fraunces", serif; font-size: 1.75rem; font-weight: 700; color: var(--accent-text); line-height: 1; margin-bottom: 0.2rem; }
+  .subs-label { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 0.85rem; }
+  svg.sparkline { width: 100%; height: 40px; overflow: visible; display: block; }
+
+  :root { --org-color: #e8ff47; }
+</style>
+</head>
+<body>
+<div class="page">
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">PANDAVVA</a> <span class="sep">&#8250;</span> <span class="current">Nakula Nalendra【PANDAVVA】</span><div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div></nav>
+  <div class="channel-hero">
+    <div class="hero-shimmer"></div>
+    <div class="hero-body">
+      <img class="hero-avatar-large" src="https://yt3.ggpht.com/6EUk8Dq3Wnsqz3t4G0zZB-2t1rlYw9H2DyYcOfAZMHrztubfxjTGtpgeaMipROGq5T6y-7bE=s240-c-k-c0x00ffffff-no-rj" alt="Nakula Nalendra【PANDAVVA】 avatar" loading="lazy" onerror="this.outerHTML='<div class=&quot;hero-avatar-large-placeholder&quot;>NN</div>'">
+      <div class="hero-info">
+        <div class="hero-org-badge">
+          <div class="hero-org-dot"></div>
+          PANDAVVA
+        </div>
+        <div class="hero-name">Nakula Nalendra【PANDAVVA】</div>
+        <div class="hero-meta-row">
+          <div class="hero-meta-item"><span>Subscribers</span><strong>60,200</strong></div>
+          <div class="hero-meta-item"><span>Total views</span><strong>118,499</strong></div>
+          <div class="hero-meta-item"><span>Tracking</span><strong>Apr 2026 – May 2026</strong></div>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a class="yt-link" href="https://youtube.com/channel/UCtGgHePeV6ePoTtlEspXJbQ" target="_blank" rel="noopener">&#9654; YouTube</a>
+      </div>
+    </div>
+  </div>
+  <div class="kpi-strip">
+    <div class="kpi-cell"><div class="kpi-label">Streams tracked</div><div class="kpi-value">12</div><div class="kpi-sub">Apr 2026 – May 2026</div></div>
+    <div class="kpi-cell"><div class="kpi-label">Peak CCV</div><div class="kpi-value">2,327</div><div class="kpi-sub">All-time record</div></div>
+    <div class="kpi-cell"><div class="kpi-label">Avg peak CCV</div><div class="kpi-value">1,371</div><div class="kpi-sub">Per stream</div></div>
+    <div class="kpi-cell"><div class="kpi-label">Total views</div><div class="kpi-value">118,499</div><div class="kpi-sub">Tracked streams</div></div>
+  </div>
+  <div class="recent-streams-section">
+    <div class="recent-streams-hdr">Recent streams</div>
+    <div class="recent-grid">
+    <a class="rc" href="0dyl1eeot4a.html">
+      <div class="rc-thumb">
+        <img src="https://i.ytimg.com/vi/0dyL1eEot4A/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
+        <span class="rc-live">Live</span>
+      </div>
+      <div class="rc-body">
+        <div class="rc-title">How are you? 【PANDAVVA】</div>
+        <div class="rc-date">22 May 2026</div>
+        <div class="rc-stats">
+          <span>&#128065; <span class="rc-peak">1,992</span></span>
+          <span>&#9825; 3,381</span>
+          <span>&#9654; 22,334</span>
+        </div>
+      </div>
+    </a>
+    <a class="rc" href="5ndjaf5c1hs.html">
+      <div class="rc-thumb">
+        <img src="https://i.ytimg.com/vi/5nDjAF5c1hs/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
+        <span class="rc-live">Live</span>
+      </div>
+      <div class="rc-body">
+        <div class="rc-title">Breakfast With Nakula #8 【PANDAVVA】</div>
+        <div class="rc-date">10 May 2026</div>
+        <div class="rc-stats">
+          <span>&#128065; <span class="rc-peak">1,165</span></span>
+          <span>&#9825; 1,810</span>
+          <span>&#9654; 7,582</span>
+        </div>
+      </div>
+    </a>
+    <a class="rc" href="oatujsvytbq.html">
+      <div class="rc-thumb">
+        <img src="https://i.ytimg.com/vi/OatujSVYtBQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
+        <span class="rc-live">Live</span>
+      </div>
+      <div class="rc-body">
+        <div class="rc-title">KARAOKE STREAM #4 Nakula Nalendra【PANDAVVA】</div>
+        <div class="rc-date">09 May 2026</div>
+        <div class="rc-stats">
+          <span>&#128065; <span class="rc-peak">2,327</span></span>
+          <span>&#9825; 3,869</span>
+          <span>&#9654; 18,953</span>
+        </div>
+      </div>
+    </a>
+    <a class="rc" href="lcu-y0duztu.html">
+      <div class="rc-thumb">
+        <img src="https://i.ytimg.com/vi/LcU-y0DUZTU/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
+        <span class="rc-live">Live</span>
+      </div>
+      <div class="rc-body">
+        <div class="rc-title">BACAIN FANFIC KALIAN! 【PANDAVVA】</div>
+        <div class="rc-date">08 May 2026</div>
+        <div class="rc-stats">
+          <span>&#128065; <span class="rc-peak">1,764</span></span>
+          <span>&#9825; 2,317</span>
+          <span>&#9654; 11,900</span>
+        </div>
+      </div>
+    </a>
+    <a class="rc" href="dlwj40fzgu4.html">
+      <div class="rc-thumb">
+        <img src="https://i.ytimg.com/vi/DLwj40fZGu4/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
+        <span class="rc-live">Live</span>
+      </div>
+      <div class="rc-body">
+        <div class="rc-title">MAIN WEREWOLF TAPI GINUK-GINUK?【FEIGN】POV : Nakula</div>
+        <div class="rc-date">07 May 2026</div>
+        <div class="rc-stats">
+          <span>&#128065; <span class="rc-peak">989</span></span>
+          <span>&#9825; 1,338</span>
+          <span>&#9654; 5,694</span>
+        </div>
+      </div>
+    </a>
+    <a class="rc" href="gki4fsvcmhq.html">
+      <div class="rc-thumb">
+        <img src="https://i.ytimg.com/vi/gki4fsVcMhQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
+        <span class="rc-live">Live</span>
+      </div>
+      <div class="rc-body">
+        <div class="rc-title">Afterwork talks? 【PANDAVVA】</div>
+        <div class="rc-date">04 May 2026</div>
+        <div class="rc-stats">
+          <span>&#128065; <span class="rc-peak">1,269</span></span>
+          <span>&#9825; 1,545</span>
+          <span>&#9654; 4,322</span>
+        </div>
+      </div>
+    </a>
+    <a class="rc" href="kw4upskd3vq.html">
+      <div class="rc-thumb">
+        <img src="https://i.ytimg.com/vi/KW4UpSkd3VQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
+        <span class="rc-live">Live</span>
+      </div>
+      <div class="rc-body">
+        <div class="rc-title">Breakfast With Nakula #7 【PANDAVVA】</div>
+        <div class="rc-date">03 May 2026</div>
+        <div class="rc-stats">
+          <span>&#128065; <span class="rc-peak">1,016</span></span>
+          <span>&#9825; 1,769</span>
+          <span>&#9654; 7,793</span>
+        </div>
+      </div>
+    </a>
+    <a class="rc" href="mlqnu9tafty.html">
+      <div class="rc-thumb">
+        <img src="https://i.ytimg.com/vi/MLQNU9TAftY/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
+        <span class="rc-live">Live</span>
+      </div>
+      <div class="rc-body">
+        <div class="rc-title">KULO KULA MEMANAGE BAKOSU DI KULONIKU【KULONIKU : BOWL UP】#2</div>
+        <div class="rc-date">01 May 2026</div>
+        <div class="rc-stats">
+          <span>&#128065; <span class="rc-peak">803</span></span>
+          <span>&#9825; 1,464</span>
+          <span>&#9654; 5,246</span>
+        </div>
+      </div>
+    </a>
+    </div>
+  </div>
+  <div class="ch-main-grid">
+    <div class="stream-list-panel">
+      <div class="panel-hdr">All streams — by month</div>
+  <div class="month-group is-open">
+    <button class="month-toggle" aria-expanded="true">
+      <span class="month-toggle-left">May 2026</span>
+      <span class="month-toggle-right"><span class="month-cnt-badge">9</span><span class="month-chevron">▾</span></span>
+    </button>
+    <div class="month-body">
+  <a class="stream-row-item" href="0dyl1eeot4a.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/0dyL1eEot4A/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">How are you? 【PANDAVVA】</div>
+      <div class="stream-row-meta">
+        <span>22 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>20:02 WIB</span>
+        <span class="row-sep">·</span>
+        <span>8h 30m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">1,992</span> peak</span>
+        <span class="rs">&#9825; 3,381</span>
+        <span class="rs">&#9654; 22,334</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="5ndjaf5c1hs.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/5nDjAF5c1hs/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">Breakfast With Nakula #8 【PANDAVVA】</div>
+      <div class="stream-row-meta">
+        <span>10 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>10:15 WIB</span>
+        <span class="row-sep">·</span>
+        <span>3h 08m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">1,165</span> peak</span>
+        <span class="rs">&#9825; 1,810</span>
+        <span class="rs">&#9654; 7,582</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="oatujsvytbq.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/OatujSVYtBQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">KARAOKE STREAM #4 Nakula Nalendra【PANDAVVA】</div>
+      <div class="stream-row-meta">
+        <span>09 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>11:47 WIB</span>
+        <span class="row-sep">·</span>
+        <span>5h 19m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">2,327</span> peak</span>
+        <span class="rs">&#9825; 3,869</span>
+        <span class="rs">&#9654; 18,953</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="lcu-y0duztu.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/LcU-y0DUZTU/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">BACAIN FANFIC KALIAN! 【PANDAVVA】</div>
+      <div class="stream-row-meta">
+        <span>08 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>22:06 WIB</span>
+        <span class="row-sep">·</span>
+        <span>7h 36m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">1,764</span> peak</span>
+        <span class="rs">&#9825; 2,317</span>
+        <span class="rs">&#9654; 11,900</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="dlwj40fzgu4.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/DLwj40fZGu4/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">MAIN WEREWOLF TAPI GINUK-GINUK?【FEIGN】POV : Nakula</div>
+      <div class="stream-row-meta">
+        <span>07 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>19:01 WIB</span>
+        <span class="row-sep">·</span>
+        <span>2h 17m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">989</span> peak</span>
+        <span class="rs">&#9825; 1,338</span>
+        <span class="rs">&#9654; 5,694</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="gki4fsvcmhq.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/gki4fsVcMhQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">Afterwork talks? 【PANDAVVA】</div>
+      <div class="stream-row-meta">
+        <span>04 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>18:00 WIB</span>
+        <span class="row-sep">·</span>
+        <span>1h 41m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">1,269</span> peak</span>
+        <span class="rs">&#9825; 1,545</span>
+        <span class="rs">&#9654; 4,322</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="kw4upskd3vq.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/KW4UpSkd3VQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">Breakfast With Nakula #7 【PANDAVVA】</div>
+      <div class="stream-row-meta">
+        <span>03 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>10:02 WIB</span>
+        <span class="row-sep">·</span>
+        <span>4h 11m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">1,016</span> peak</span>
+        <span class="rs">&#9825; 1,769</span>
+        <span class="rs">&#9654; 7,793</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="mlqnu9tafty.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/MLQNU9TAftY/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">KULO KULA MEMANAGE BAKOSU DI KULONIKU【KULONIKU : BOWL UP】#2</div>
+      <div class="stream-row-meta">
+        <span>01 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>15:33 WIB</span>
+        <span class="row-sep">·</span>
+        <span>3h 36m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">803</span> peak</span>
+        <span class="rs">&#9825; 1,464</span>
+        <span class="rs">&#9654; 5,246</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="j8a1hkbgkze.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/J8A1hKBGkzE/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">testing 【】</div>
+      <div class="stream-row-meta">
+        <span>01 May 2026</span>
+        <span class="row-sep">·</span>
+        <span>00:33 WIB</span>
+        <span class="row-sep">·</span>
+        <span>2h 34m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">703</span> peak</span>
+        <span class="rs">&#9825; 965</span>
+        <span class="rs">&#9654; 3,558</span>
+      </div>
+    </div>
+  </a>
+    </div>
+  </div>
+  <div class="month-group">
+    <button class="month-toggle" aria-expanded="false">
+      <span class="month-toggle-left">April 2026</span>
+      <span class="month-toggle-right"><span class="month-cnt-badge">3</span><span class="month-chevron">▾</span></span>
+    </button>
+    <div class="month-body">
+  <a class="stream-row-item" href="jhtd6gv9wle.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/JHTd6gv9WlE/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">LANJUT NOBAR MY EMPRESS AKADEMIA Ft. @Sadewa_Sagara 【ROAD TO EMPRESS】#5</div>
+      <div class="stream-row-meta">
+        <span>30 Apr 2026</span>
+        <span class="row-sep">·</span>
+        <span>18:02 WIB</span>
+        <span class="row-sep">·</span>
+        <span>3h 26m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">1,666</span> peak</span>
+        <span class="rs">&#9825; 2,297</span>
+        <span class="rs">&#9654; 8,420</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="dcjwgiisqxs.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/DcJwgiIsQxs/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">AKHIRNYA CITA-CITAKU TERCAPAI【KULONIKU】</div>
+      <div class="stream-row-meta">
+        <span>26 Apr 2026</span>
+        <span class="row-sep">·</span>
+        <span>10:04 WIB</span>
+        <span class="row-sep">·</span>
+        <span>1h 59m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">1,222</span> peak</span>
+        <span class="rs">&#9825; 1,505</span>
+        <span class="rs">&#9654; 5,585</span>
+      </div>
+    </div>
+  </a>
+  <a class="stream-row-item" href="jvczve3uygs.html">
+    <div class="stream-thumb-cell">
+      <img src="https://i.ytimg.com/vi/JvCZvE3UYgs/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
+      <div class="live-badge">Live</div>
+    </div>
+    <div class="stream-row-body">
+      <div class="stream-row-title">Temenin Kerja? (FREE TALK)【PANDAVVA】</div>
+      <div class="stream-row-meta">
+        <span>25 Apr 2026</span>
+        <span class="row-sep">·</span>
+        <span>20:02 WIB</span>
+        <span class="row-sep">·</span>
+        <span>7h 17m</span>
+      </div>
+      <div class="stream-row-stats">
+        <span class="rs">&#128065; <span class="rs-peak">1,533</span> peak</span>
+        <span class="rs">&#9825; 2,763</span>
+        <span class="rs">&#9654; 17,112</span>
+      </div>
+    </div>
+  </a>
+    </div>
+  </div>
+    </div>
+    <div class="sidebar-col">
+      <div class="side-panel">
+        <div class="panel-hdr">Monthly summary</div>
+        <table class="monthly-tbl">
+          <thead><tr>
+            <th>Month</th><th>Streams</th><th>Peak CCV</th>
+          </tr></thead>
+          <tbody>
+      <tr class="month-best-row">
+        <td><a class="month-a" href="#">May 2026</a></td>
+        <td><span class="month-cnt">9</span></td>
+        <td class="month-peak">2,327</td>
+      </tr>
+      <tr>
+        <td><a class="month-a" href="#">April 2026</a></td>
+        <td><span class="month-cnt">3</span></td>
+        <td class="month-peak">1,666</td>
+      </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="side-panel">
+        <div class="panel-hdr">Channel records</div>
+        <div class="rec-row">
+          <div><div class="rec-lbl">Peak CCV</div><div class="rec-val">2,327</div><div class="rec-ctx">KARAOKE STREAM #4 Nakula Nalendra【PANDAVVA】</div></div>
+          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">09 May 2026</div></div>
+        </div>
+        <div class="rec-row">
+          <div><div class="rec-lbl">Most liked</div><div class="rec-val">3,869</div><div class="rec-ctx">KARAOKE STREAM #4 Nakula Nalendra【PANDAVVA】</div></div>
+          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">09 May 2026</div></div>
+        </div>
+        <div class="rec-row">
+          <div><div class="rec-lbl">Most viewed</div><div class="rec-val">22,334</div><div class="rec-ctx">How are you? 【PANDAVVA】</div></div>
+          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">22 May 2026</div></div>
+        </div>
+      </div>
+      <div class="side-panel">
+        <div class="panel-hdr">Subscribers</div>
+        <div class="subs-body">
+          <div class="subs-count">60,200</div>
+          <div class="subs-label">YouTube subscribers</div>
+          <svg class="sparkline" viewBox="0 0 260 40" preserveAspectRatio="none" aria-hidden="true">
+            <defs><linearGradient id="spk" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#e8ff47" stop-opacity="0.22"/>
+              <stop offset="100%" stop-color="#e8ff47" stop-opacity="0"/>
+            </linearGradient></defs>
+            <path d="M0,34 L43,29 L87,24 L130,18 L174,12 L217,7 L260,3 L260,40 L0,40 Z" fill="url(#spk)"/>
+            <path d="M0,34 L43,29 L87,24 L130,18 L174,12 L217,7 L260,3" fill="none" stroke="#e8ff47" stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+(function(){
+  document.querySelectorAll(".month-toggle").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var grp = btn.closest(".month-group");
+      var open = grp.classList.toggle("is-open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  });
+})();
+</script>
+
+  <footer>
+    <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
+    <span>
+      <a href="../../index.html">Home</a>
+      &nbsp;&middot;&nbsp;
+      <a href="../../privacy.html">Privacy Policy</a>
+      &nbsp;&middot;&nbsp;
+      <a href="../../terms.html">Terms of Use</a>
+    </span>
+  </footer>
+</div>
+
+<script>
+(function() {
+  var STORAGE_KEY = 'idvt-theme';
+  var root  = document.documentElement;
+  var btn   = null;
+  var thumb = null;
+
+  function getSystemTheme() {
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  }
+  function getEffectiveTheme() {
+    return localStorage.getItem(STORAGE_KEY) || getSystemTheme();
+  }
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (thumb) {
+      theme === 'light' ? thumb.classList.add('is-light') : thumb.classList.remove('is-light');
+    }
+  }
+  function toggleTheme() {
+    var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+  }
+  applyTheme(getEffectiveTheme());
+  document.addEventListener('DOMContentLoaded', function() {
+    btn   = document.getElementById('theme-toggle');
+    thumb = document.getElementById('toggle-thumb');
+    applyTheme(getEffectiveTheme());
+    if (btn) btn.addEventListener('click', toggleTheme);
+  });
+  window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
+    if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
+  });
+})();
+</script>
+</body>
+</html>
