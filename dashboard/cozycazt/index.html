@@ -330,6 +330,74 @@
   footer .footer-sep { opacity: 0.35; }
   /* light-mode footer is already handled by --surface and --border vars */
 
+
+  /* ── nav bar ── */
+  .site-nav { position: sticky; top: 0; z-index: 200; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 0.75rem; padding: 0.65rem 2rem; }
+  .site-nav-logo { font-family: "Fraunces", serif; font-size: 0.95rem; font-weight: 700; color: var(--white); text-decoration: none; flex-shrink: 0; }
+  .site-nav-logo em { font-style: italic; color: var(--accent-text); }
+  .nav-pill { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.6rem; padding: 0.2rem 0.55rem; border: 1px solid var(--border); border-radius: 99px; color: var(--muted); white-space: nowrap; }
+  .nav-pill strong { color: var(--text); font-weight: 500; }
+  .nav-live-pill { border-color: rgba(34,197,94,.4); background: rgba(34,197,94,.06); color: #16a34a; }
+  .nav-live-dot { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  [data-theme="light"] .nav-live-pill { color: #15803d; }
+  .nav-spacer { flex: 1; }
+  .nav-search-wrap { position: relative; display: flex; align-items: center; }
+  .nav-search { font-family: "DM Mono", monospace; font-size: 0.65rem; padding: 0.28rem 0.75rem 0.28rem 1.8rem; border: 1px solid var(--border); border-radius: 99px; background: var(--surface2); color: var(--text); width: 200px; transition: border-color 0.2s, width 0.2s; outline: none; }
+  .nav-search:focus { border-color: var(--org-color); width: 260px; }
+  .nav-search::placeholder { color: var(--muted); }
+  .nav-search-icon { position: absolute; left: 0.55rem; font-size: 0.75rem; color: var(--muted); pointer-events: none; }
+
+  /* ── stats bar (index page) ── */
+  .stats-bar { display: flex; gap: 0.6rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .stat-pill-bar { display: flex; align-items: center; gap: 0.35rem; padding: 0.3rem 0.75rem; background: var(--surface); border: 1px solid var(--border); border-radius: 99px; font-size: 0.62rem; color: var(--muted); }
+  .stat-pill-bar strong { color: var(--text); font-weight: 500; }
+  .filter-strip { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .filter-lbl { font-size: 0.6rem; color: var(--muted); margin-right: 0.2rem; }
+  .filter-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+  .filter-chip:hover, .filter-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
+
+  /* ── redesigned org cards ── */
+  .org-accent-bar { height: 3px; background: var(--org-color); border-radius: 0; }
+  .org-card-body { padding: 1rem 1.25rem 1.1rem; }
+  .org-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; gap: 0.5rem; }
+  .org-card-title { font-family: "Fraunces", serif; font-size: 1.1rem; font-weight: 700; color: var(--white); line-height: 1.2; }
+  .org-card-desc { font-size: 0.72rem; color: var(--muted); margin-bottom: 0.85rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .org-card-stats { display: flex; gap: 1rem; }
+  .ocs { font-size: 0.62rem; color: var(--muted); display: flex; align-items: center; gap: 0.25rem; }
+  .ocs strong { color: var(--accent-text); font-weight: 500; }
+  .live-badge-sm { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.55rem; letter-spacing: 0.08em; padding: 0.15rem 0.45rem; border-radius: 99px; background: rgba(34,197,94,.12); color: #16a34a; border: 1px solid rgba(34,197,94,.3); flex-shrink: 0; white-space: nowrap; }
+  .live-dot-sm { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  [data-theme="light"] .live-badge-sm { color: #15803d; }
+
+  /* ── org hero ── */
+  .org-hero { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 1.5rem; animation: fadeUp 0.5s ease both; }
+  .org-hero-accent { height: 4px; background: var(--org-color); }
+  .org-hero-body { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.5rem; padding: 1.4rem 1.75rem; flex-wrap: wrap; }
+  .org-hero-info { flex: 1; min-width: 0; }
+  .org-hero-name { font-family: "Fraunces", serif; font-size: 1.6rem; font-weight: 700; color: var(--white); margin-bottom: 0.3rem; }
+  .org-hero-desc { font-size: 0.75rem; color: var(--muted); max-width: 560px; line-height: 1.6; margin-bottom: 0.85rem; }
+  .org-hero-stats { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+  .ohs { text-align: center; }
+  .ohs-val { font-family: "Fraunces", serif; font-size: 1.4rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
+  .ohs-lbl { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+
+  /* ── sort/filter strip ── */
+  .sort-strip { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+  .sort-lbl { font-size: 0.6rem; color: var(--muted); }
+  .sort-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+  .sort-chip:hover { background: var(--surface2); color: var(--text); }
+  .sort-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
+
+  /* ── channel card redesign ── */
+  .ch-card-top { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.65rem; }
+  .ch-card-name-wrap { min-width: 0; }
+  .ch-card-name { font-family: "Fraunces", serif; font-size: 0.88rem; font-weight: 700; color: var(--white); line-height: 1.25; }
+  .ch-card-role { font-size: 0.58rem; color: var(--muted); margin-top: 0.1rem; }
+  .ch-card-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem; }
+  .ch-stat-cell { background: var(--surface2); border-radius: 3px; padding: 0.4rem 0.6rem; }
+  .ch-stat-cell-lbl { font-size: 0.55rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+  .ch-stat-cell-val { font-size: 0.82rem; font-weight: 500; color: var(--text); }
+
   @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
   header { animation: fadeUp 0.5s ease both; }
   .orgs-grid, .channels-list, .streams-grid, .kpi-row { animation: fadeUp 0.5s 0.1s ease both; }
@@ -461,55 +529,140 @@
 </style>
 </head>
 <body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="../index.html">IDVTuber <em>Tracker</em></a>
+  <span class="nav-spacer"></span>
+  <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
+</nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">CozyCazt</span><div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div></nav>
-  <header>
-    <p class="eyebrow">CozyCazt</p>
-    <h1>CozyCazt</h1>
-    <p class="page-meta">7 channels &#8212; select a channel to view streams</p>
-  </header>
+<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">CozyCazt</span></nav>
+  <div class="org-hero">
+    <div class="org-hero-accent"></div>
+    <div class="org-hero-body">
+      <div class="org-hero-info">
+        <div class="org-hero-name">CozyCazt</div>
+        <div class="org-hero-desc">An Indonesian VTuber agency which projects comfortable and friendly aura.</div>
+        <div class="org-hero-stats">
+          <div class="ohs"><div class="ohs-val">7</div><div class="ohs-lbl">Channels</div></div>
+          <div class="ohs"><div class="ohs-val">54</div><div class="ohs-lbl">Streams</div></div>
+          <div class="ohs"><div class="ohs-val">177</div><div class="ohs-lbl">Peak CCV</div></div>
+          <div class="ohs"><div class="ohs-val">86.7K</div><div class="ohs-lbl">Combined subs</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sort-strip">
+    <span class="sort-lbl">Sort by:</span>
+    <span class="sort-chip active">Subscribers</span>
+    <span class="sort-chip">Peak CCV</span>
+    <span class="sort-chip">Streams</span>
+    <span class="sort-chip">A&#8211;Z</span>
+  </div>
   <div class="channels-grid">
-    <a class="channel-card" href="cozy-cazt/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/oXccTGT_SOAnp8alJRXIfKvBUpYk9uaZ9UnxMwMtMpZoiQs5xsgH-I5Usf7yNiBzWin3gkzfDw=s240-c-k-c0x00ffffff-no-rj" alt="Cozy Cazt" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">ORG CH</span>
-      <div class="channel-card-name">Cozy Cazt</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">294</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">0 streams</span></div></div>
+    <a class="channel-card" href="cozy-cazt/index.html" data-name="Cozy Cazt" data-subs="294" data-streams="0" data-peak="0" data-avg="0">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/oXccTGT_SOAnp8alJRXIfKvBUpYk9uaZ9UnxMwMtMpZoiQs5xsgH-I5Usf7yNiBzWin3gkzfDw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>CC</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Cozy Cazt</div>
+          <div class="ch-card-role">Org Channel</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">294</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">—</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="rannia-taiga-cozycazt/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/qHr19IJNLCQkHZTzFQNmJQbC4pQDTKoU9QrWyOOWjWkWKgZUB8JZHHiDb61F5JrgUFm3TyvL=s240-c-k-c0x00ffffff-no-rj" alt="Rannia Taiga 【CozyCazt】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Rannia Taiga 【CozyCazt】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">10.4K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">12 streams</span></div></div>
+    <a class="channel-card" href="rannia-taiga-cozycazt/index.html" data-name="Rannia Taiga 【CozyCazt】" data-subs="10400" data-streams="12" data-peak="73" data-avg="43">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/qHr19IJNLCQkHZTzFQNmJQbC4pQDTKoU9QrWyOOWjWkWKgZUB8JZHHiDb61F5JrgUFm3TyvL=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>RT</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Rannia Taiga 【CozyCazt】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">10.4K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">12</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">73</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">43</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="lyta-luciana-ch-cozycazt/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/MMgF33DWr2CqlI5jTUhxF5QH2pPM1GNJpjVKgchU99XWkTFEXatTI6sqDYPV2vDRwShedGibxlA=s240-c-k-c0x00ffffff-no-rj" alt="Lyta Luciana Ch.【CozyCazt】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Lyta Luciana Ch.【CozyCazt】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">10.8K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">8 streams</span></div></div>
+    <a class="channel-card" href="lyta-luciana-ch-cozycazt/index.html" data-name="Lyta Luciana Ch.【CozyCazt】" data-subs="10800" data-streams="8" data-peak="37" data-avg="26">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/MMgF33DWr2CqlI5jTUhxF5QH2pPM1GNJpjVKgchU99XWkTFEXatTI6sqDYPV2vDRwShedGibxlA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>LL</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Lyta Luciana Ch.【CozyCazt】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">10.8K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">8</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">37</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">26</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="arphina-stellaria-cozycazt/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/Erq2BRBi4ttmdLlFFdUkhgeDfkmDot8Ig1gioDwUq4X9zzB5hxN9G5776oUbfcUf9bWbTBGP=s240-c-k-c0x00ffffff-no-rj" alt="Arphina Stellaria【CozyCazt】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Arphina Stellaria【CozyCazt】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">32.0K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">19 streams</span></div></div>
+    <a class="channel-card" href="arphina-stellaria-cozycazt/index.html" data-name="Arphina Stellaria【CozyCazt】" data-subs="32000" data-streams="19" data-peak="22" data-avg="12">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/Erq2BRBi4ttmdLlFFdUkhgeDfkmDot8Ig1gioDwUq4X9zzB5hxN9G5776oUbfcUf9bWbTBGP=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>AS</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Arphina Stellaria【CozyCazt】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">32.0K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">19</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">22</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">12</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="vianna-risendria-cozycazt/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/YKB28e0JU7WFegAw9oED5IJJNoN3_UGBhlWeYWvpZXZzNYV6zG4wxcejkXNTPavi300p6Ift=s240-c-k-c0x00ffffff-no-rj" alt="Vianna Risendria 【CozyCazt】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Vianna Risendria 【CozyCazt】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">14.3K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">10 streams</span></div></div>
+    <a class="channel-card" href="vianna-risendria-cozycazt/index.html" data-name="Vianna Risendria 【CozyCazt】" data-subs="14300" data-streams="10" data-peak="177" data-avg="114">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/YKB28e0JU7WFegAw9oED5IJJNoN3_UGBhlWeYWvpZXZzNYV6zG4wxcejkXNTPavi300p6Ift=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>VR</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Vianna Risendria 【CozyCazt】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">14.3K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">10</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">177</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">114</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="fuyo-mafuyu-cozycazt/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/CTpok9EfPTvv2JCJ7RuGfd5h5YNQOmsAMfVM0wDuuHUjO_wc-TApNTVNNuWpjtfPWQWS--Tv=s240-c-k-c0x00ffffff-no-rj" alt="Fuyo Mafuyu【CozyCazt】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Fuyo Mafuyu【CozyCazt】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">10.2K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">0 streams</span></div></div>
+    <a class="channel-card" href="fuyo-mafuyu-cozycazt/index.html" data-name="Fuyo Mafuyu【CozyCazt】" data-subs="10200" data-streams="0" data-peak="0" data-avg="0">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/CTpok9EfPTvv2JCJ7RuGfd5h5YNQOmsAMfVM0wDuuHUjO_wc-TApNTVNNuWpjtfPWQWS--Tv=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>FM</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Fuyo Mafuyu【CozyCazt】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">10.2K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">—</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="silveryshore-ch-cozycazt/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/VswqtZ-F4Mj-_gwY1ynrWis7x0H5fnUfp_S1hC1ZnsSIvao-4r51z50woOKk6THwj0J-e1HP=s240-c-k-c0x00ffffff-no-rj" alt="Silveryshore Ch.【CozyCazt】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Silveryshore Ch.【CozyCazt】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">8.7K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">5 streams</span></div></div>
+    <a class="channel-card" href="silveryshore-ch-cozycazt/index.html" data-name="Silveryshore Ch.【CozyCazt】" data-subs="8720" data-streams="5" data-peak="141" data-avg="83">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/VswqtZ-F4Mj-_gwY1ynrWis7x0H5fnUfp_S1hC1ZnsSIvao-4r51z50woOKk6THwj0J-e1HP=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>SC</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Silveryshore Ch.【CozyCazt】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">8.7K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">5</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">141</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">83</div></div>
+      </div>
     </a>
   </div>
 
@@ -558,6 +711,46 @@
   });
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
     if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var grid  = document.querySelector('.channels-grid');
+  var chips = document.querySelectorAll('.sort-chip');
+  if (!grid || !chips.length) return;
+
+  function getVal(card, attr) {
+    return parseFloat(card.getAttribute(attr) || '0') || 0;
+  }
+
+  function sortCards(key) {
+    var cards = Array.from(grid.querySelectorAll('.channel-card'));
+    cards.sort(function (a, b) {
+      if (key === 'az') {
+        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
+      }
+      var map = { 'subs': 'data-subs', 'peak': 'data-peak', 'streams': 'data-streams' };
+      return getVal(b, map[key]) - getVal(a, map[key]);
+    });
+    cards.forEach(function (c) { grid.appendChild(c); });
+  }
+
+  var keyMap = {
+    'Subscribers': 'subs',
+    'Peak CCV':    'peak',
+    'Streams':     'streams',
+    'A–Z':   'az',
+  };
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      chips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      var key = keyMap[chip.textContent.trim()] || 'subs';
+      sortCards(key);
+    });
   });
 })();
 </script>

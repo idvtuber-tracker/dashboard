@@ -332,6 +332,74 @@
   footer .footer-sep { opacity: 0.35; }
   /* light-mode footer is already handled by --surface and --border vars */
 
+
+  /* ── nav bar ── */
+  .site-nav { position: sticky; top: 0; z-index: 200; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 0.75rem; padding: 0.65rem 2rem; }
+  .site-nav-logo { font-family: "Fraunces", serif; font-size: 0.95rem; font-weight: 700; color: var(--white); text-decoration: none; flex-shrink: 0; }
+  .site-nav-logo em { font-style: italic; color: var(--accent-text); }
+  .nav-pill { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.6rem; padding: 0.2rem 0.55rem; border: 1px solid var(--border); border-radius: 99px; color: var(--muted); white-space: nowrap; }
+  .nav-pill strong { color: var(--text); font-weight: 500; }
+  .nav-live-pill { border-color: rgba(34,197,94,.4); background: rgba(34,197,94,.06); color: #16a34a; }
+  .nav-live-dot { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  [data-theme="light"] .nav-live-pill { color: #15803d; }
+  .nav-spacer { flex: 1; }
+  .nav-search-wrap { position: relative; display: flex; align-items: center; }
+  .nav-search { font-family: "DM Mono", monospace; font-size: 0.65rem; padding: 0.28rem 0.75rem 0.28rem 1.8rem; border: 1px solid var(--border); border-radius: 99px; background: var(--surface2); color: var(--text); width: 200px; transition: border-color 0.2s, width 0.2s; outline: none; }
+  .nav-search:focus { border-color: var(--org-color); width: 260px; }
+  .nav-search::placeholder { color: var(--muted); }
+  .nav-search-icon { position: absolute; left: 0.55rem; font-size: 0.75rem; color: var(--muted); pointer-events: none; }
+
+  /* ── stats bar (index page) ── */
+  .stats-bar { display: flex; gap: 0.6rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .stat-pill-bar { display: flex; align-items: center; gap: 0.35rem; padding: 0.3rem 0.75rem; background: var(--surface); border: 1px solid var(--border); border-radius: 99px; font-size: 0.62rem; color: var(--muted); }
+  .stat-pill-bar strong { color: var(--text); font-weight: 500; }
+  .filter-strip { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .filter-lbl { font-size: 0.6rem; color: var(--muted); margin-right: 0.2rem; }
+  .filter-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+  .filter-chip:hover, .filter-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
+
+  /* ── redesigned org cards ── */
+  .org-accent-bar { height: 3px; background: var(--org-color); border-radius: 0; }
+  .org-card-body { padding: 1rem 1.25rem 1.1rem; }
+  .org-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; gap: 0.5rem; }
+  .org-card-title { font-family: "Fraunces", serif; font-size: 1.1rem; font-weight: 700; color: var(--white); line-height: 1.2; }
+  .org-card-desc { font-size: 0.72rem; color: var(--muted); margin-bottom: 0.85rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .org-card-stats { display: flex; gap: 1rem; }
+  .ocs { font-size: 0.62rem; color: var(--muted); display: flex; align-items: center; gap: 0.25rem; }
+  .ocs strong { color: var(--accent-text); font-weight: 500; }
+  .live-badge-sm { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.55rem; letter-spacing: 0.08em; padding: 0.15rem 0.45rem; border-radius: 99px; background: rgba(34,197,94,.12); color: #16a34a; border: 1px solid rgba(34,197,94,.3); flex-shrink: 0; white-space: nowrap; }
+  .live-dot-sm { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  [data-theme="light"] .live-badge-sm { color: #15803d; }
+
+  /* ── org hero ── */
+  .org-hero { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 1.5rem; animation: fadeUp 0.5s ease both; }
+  .org-hero-accent { height: 4px; background: var(--org-color); }
+  .org-hero-body { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.5rem; padding: 1.4rem 1.75rem; flex-wrap: wrap; }
+  .org-hero-info { flex: 1; min-width: 0; }
+  .org-hero-name { font-family: "Fraunces", serif; font-size: 1.6rem; font-weight: 700; color: var(--white); margin-bottom: 0.3rem; }
+  .org-hero-desc { font-size: 0.75rem; color: var(--muted); max-width: 560px; line-height: 1.6; margin-bottom: 0.85rem; }
+  .org-hero-stats { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+  .ohs { text-align: center; }
+  .ohs-val { font-family: "Fraunces", serif; font-size: 1.4rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
+  .ohs-lbl { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+
+  /* ── sort/filter strip ── */
+  .sort-strip { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+  .sort-lbl { font-size: 0.6rem; color: var(--muted); }
+  .sort-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+  .sort-chip:hover { background: var(--surface2); color: var(--text); }
+  .sort-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
+
+  /* ── channel card redesign ── */
+  .ch-card-top { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.65rem; }
+  .ch-card-name-wrap { min-width: 0; }
+  .ch-card-name { font-family: "Fraunces", serif; font-size: 0.88rem; font-weight: 700; color: var(--white); line-height: 1.25; }
+  .ch-card-role { font-size: 0.58rem; color: var(--muted); margin-top: 0.1rem; }
+  .ch-card-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem; }
+  .ch-stat-cell { background: var(--surface2); border-radius: 3px; padding: 0.4rem 0.6rem; }
+  .ch-stat-cell-lbl { font-size: 0.55rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+  .ch-stat-cell-val { font-size: 0.82rem; font-weight: 500; color: var(--text); }
+
   @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
   header { animation: fadeUp 0.5s ease both; }
   .orgs-grid, .channels-list, .streams-grid, .kpi-row { animation: fadeUp 0.5s 0.1s ease both; }
@@ -463,8 +531,13 @@
 </style>
 </head>
 <body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="../../index.html">IDVTuber <em>Tracker</em></a>
+  <span class="nav-spacer"></span>
+  <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
+</nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">MAHA5</a> <span class="sep">&#8250;</span> <a href="index.html">Hera Garalea【MAHA5】</a> <span class="sep">&#8250;</span> <span class="current">SUDAH SAATNYA SILATURAHMI PULKAM! RESIDE…</span><div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div></nav>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">MAHA5</a> <span class="sep">&#8250;</span> <a href="index.html">Hera Garalea【MAHA5】</a> <span class="sep">&#8250;</span> <span class="current">SUDAH SAATNYA SILATURAHMI PULKAM! RESIDE…</span></nav>
   <header>
     <p class="eyebrow">MAHA5 &nbsp;&#183;&nbsp; Hera Garalea【MAHA5】</p>
     <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
@@ -520,7 +593,7 @@
     <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
 
-  <p class="generated">Generated 2026-05-27 23:35 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+  <p class="generated">Generated 2026-05-28 00:00 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
 
 <script>
 // ── Data ────────────────────────────────────────────────────────

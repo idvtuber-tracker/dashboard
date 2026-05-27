@@ -330,6 +330,74 @@
   footer .footer-sep { opacity: 0.35; }
   /* light-mode footer is already handled by --surface and --border vars */
 
+
+  /* ── nav bar ── */
+  .site-nav { position: sticky; top: 0; z-index: 200; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 0.75rem; padding: 0.65rem 2rem; }
+  .site-nav-logo { font-family: "Fraunces", serif; font-size: 0.95rem; font-weight: 700; color: var(--white); text-decoration: none; flex-shrink: 0; }
+  .site-nav-logo em { font-style: italic; color: var(--accent-text); }
+  .nav-pill { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.6rem; padding: 0.2rem 0.55rem; border: 1px solid var(--border); border-radius: 99px; color: var(--muted); white-space: nowrap; }
+  .nav-pill strong { color: var(--text); font-weight: 500; }
+  .nav-live-pill { border-color: rgba(34,197,94,.4); background: rgba(34,197,94,.06); color: #16a34a; }
+  .nav-live-dot { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  [data-theme="light"] .nav-live-pill { color: #15803d; }
+  .nav-spacer { flex: 1; }
+  .nav-search-wrap { position: relative; display: flex; align-items: center; }
+  .nav-search { font-family: "DM Mono", monospace; font-size: 0.65rem; padding: 0.28rem 0.75rem 0.28rem 1.8rem; border: 1px solid var(--border); border-radius: 99px; background: var(--surface2); color: var(--text); width: 200px; transition: border-color 0.2s, width 0.2s; outline: none; }
+  .nav-search:focus { border-color: var(--org-color); width: 260px; }
+  .nav-search::placeholder { color: var(--muted); }
+  .nav-search-icon { position: absolute; left: 0.55rem; font-size: 0.75rem; color: var(--muted); pointer-events: none; }
+
+  /* ── stats bar (index page) ── */
+  .stats-bar { display: flex; gap: 0.6rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .stat-pill-bar { display: flex; align-items: center; gap: 0.35rem; padding: 0.3rem 0.75rem; background: var(--surface); border: 1px solid var(--border); border-radius: 99px; font-size: 0.62rem; color: var(--muted); }
+  .stat-pill-bar strong { color: var(--text); font-weight: 500; }
+  .filter-strip { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .filter-lbl { font-size: 0.6rem; color: var(--muted); margin-right: 0.2rem; }
+  .filter-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+  .filter-chip:hover, .filter-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
+
+  /* ── redesigned org cards ── */
+  .org-accent-bar { height: 3px; background: var(--org-color); border-radius: 0; }
+  .org-card-body { padding: 1rem 1.25rem 1.1rem; }
+  .org-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; gap: 0.5rem; }
+  .org-card-title { font-family: "Fraunces", serif; font-size: 1.1rem; font-weight: 700; color: var(--white); line-height: 1.2; }
+  .org-card-desc { font-size: 0.72rem; color: var(--muted); margin-bottom: 0.85rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .org-card-stats { display: flex; gap: 1rem; }
+  .ocs { font-size: 0.62rem; color: var(--muted); display: flex; align-items: center; gap: 0.25rem; }
+  .ocs strong { color: var(--accent-text); font-weight: 500; }
+  .live-badge-sm { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.55rem; letter-spacing: 0.08em; padding: 0.15rem 0.45rem; border-radius: 99px; background: rgba(34,197,94,.12); color: #16a34a; border: 1px solid rgba(34,197,94,.3); flex-shrink: 0; white-space: nowrap; }
+  .live-dot-sm { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  [data-theme="light"] .live-badge-sm { color: #15803d; }
+
+  /* ── org hero ── */
+  .org-hero { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 1.5rem; animation: fadeUp 0.5s ease both; }
+  .org-hero-accent { height: 4px; background: var(--org-color); }
+  .org-hero-body { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.5rem; padding: 1.4rem 1.75rem; flex-wrap: wrap; }
+  .org-hero-info { flex: 1; min-width: 0; }
+  .org-hero-name { font-family: "Fraunces", serif; font-size: 1.6rem; font-weight: 700; color: var(--white); margin-bottom: 0.3rem; }
+  .org-hero-desc { font-size: 0.75rem; color: var(--muted); max-width: 560px; line-height: 1.6; margin-bottom: 0.85rem; }
+  .org-hero-stats { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+  .ohs { text-align: center; }
+  .ohs-val { font-family: "Fraunces", serif; font-size: 1.4rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
+  .ohs-lbl { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+
+  /* ── sort/filter strip ── */
+  .sort-strip { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+  .sort-lbl { font-size: 0.6rem; color: var(--muted); }
+  .sort-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+  .sort-chip:hover { background: var(--surface2); color: var(--text); }
+  .sort-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
+
+  /* ── channel card redesign ── */
+  .ch-card-top { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.65rem; }
+  .ch-card-name-wrap { min-width: 0; }
+  .ch-card-name { font-family: "Fraunces", serif; font-size: 0.88rem; font-weight: 700; color: var(--white); line-height: 1.25; }
+  .ch-card-role { font-size: 0.58rem; color: var(--muted); margin-top: 0.1rem; }
+  .ch-card-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem; }
+  .ch-stat-cell { background: var(--surface2); border-radius: 3px; padding: 0.4rem 0.6rem; }
+  .ch-stat-cell-lbl { font-size: 0.55rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+  .ch-stat-cell-val { font-size: 0.82rem; font-weight: 500; color: var(--text); }
+
   @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
   header { animation: fadeUp 0.5s ease both; }
   .orgs-grid, .channels-list, .streams-grid, .kpi-row { animation: fadeUp 0.5s 0.1s ease both; }
@@ -461,49 +529,125 @@
 </style>
 </head>
 <body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="../index.html">IDVTuber <em>Tracker</em></a>
+  <span class="nav-spacer"></span>
+  <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
+</nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">Whicker Butler</span><div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div></nav>
-  <header>
-    <p class="eyebrow">Whicker Butler</p>
-    <h1>Whicker Butler</h1>
-    <p class="page-meta">6 channels &#8212; select a channel to view streams</p>
-  </header>
+<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">Whicker Butler</span></nav>
+  <div class="org-hero">
+    <div class="org-hero-accent"></div>
+    <div class="org-hero-body">
+      <div class="org-hero-info">
+        <div class="org-hero-name">Whicker Butler</div>
+        <div class="org-hero-desc">A boutique VTuber agency known for its refined aesthetic and five distinctive talents with global appeal.</div>
+        <div class="org-hero-stats">
+          <div class="ohs"><div class="ohs-val">6</div><div class="ohs-lbl">Channels</div></div>
+          <div class="ohs"><div class="ohs-val">68</div><div class="ohs-lbl">Streams</div></div>
+          <div class="ohs"><div class="ohs-val">178</div><div class="ohs-lbl">Peak CCV</div></div>
+          <div class="ohs"><div class="ohs-val">93.4K</div><div class="ohs-lbl">Combined subs</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sort-strip">
+    <span class="sort-lbl">Sort by:</span>
+    <span class="sort-chip active">Subscribers</span>
+    <span class="sort-chip">Peak CCV</span>
+    <span class="sort-chip">Streams</span>
+    <span class="sort-chip">A&#8211;Z</span>
+  </div>
   <div class="channels-grid">
-    <a class="channel-card" href="whicker-butler/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/Tff-V8i3A-qLKdIT6Dxzu9V-r2i9t8dXF_rFSwtja69NNwLGrg7ctUd9OKQx6Vf8vl_BBJGb=s240-c-k-c0x00ffffff-no-rj" alt="Whicker Butler" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">ORG CH</span>
-      <div class="channel-card-name">Whicker Butler</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">6.5K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">0 streams</span></div></div>
+    <a class="channel-card" href="whicker-butler/index.html" data-name="Whicker Butler" data-subs="6550" data-streams="0" data-peak="0" data-avg="0">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/Tff-V8i3A-qLKdIT6Dxzu9V-r2i9t8dXF_rFSwtja69NNwLGrg7ctUd9OKQx6Vf8vl_BBJGb=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>WB</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Whicker Butler</div>
+          <div class="ch-card-role">Org Channel</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">6.5K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">—</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="valthea-nankila-whicker-butler/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/cfJtWQk-roSLSTUTP37XzulIXsd1xJCJKPJYAQEi0vOk-2v7zjyHQ9cVvkL_M_Y-qP8EOx265A=s240-c-k-c0x00ffffff-no-rj" alt="Valthea Nankila 【 Whicker Butler 】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Valthea Nankila 【 Whicker Butler 】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">12.4K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">14 streams</span></div></div>
+    <a class="channel-card" href="valthea-nankila-whicker-butler/index.html" data-name="Valthea Nankila 【 Whicker Butler 】" data-subs="12400" data-streams="14" data-peak="121" data-avg="53">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/cfJtWQk-roSLSTUTP37XzulIXsd1xJCJKPJYAQEi0vOk-2v7zjyHQ9cVvkL_M_Y-qP8EOx265A=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>VN</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Valthea Nankila 【 Whicker Butler 】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">12.4K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">14</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">121</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">53</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="ignis-grimoire-whicker-butler/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/fXvUDopMON120iLEqz6pPSNSe6foJ72jMeBsefC2a2j-ZCAOshGon_fS3gQbCnvvN8RMnftDjw=s240-c-k-c0x00ffffff-no-rj" alt="Ignis Grimoire【Whicker Butler】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Ignis Grimoire【Whicker Butler】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">6.7K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">8 streams</span></div></div>
+    <a class="channel-card" href="ignis-grimoire-whicker-butler/index.html" data-name="Ignis Grimoire【Whicker Butler】" data-subs="6670" data-streams="8" data-peak="53" data-avg="34">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/fXvUDopMON120iLEqz6pPSNSe6foJ72jMeBsefC2a2j-ZCAOshGon_fS3gQbCnvvN8RMnftDjw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>IG</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Ignis Grimoire【Whicker Butler】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">6.7K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">8</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">53</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">34</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="darlyne-nightbloom-whicker-butler/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/PLC6PXNnTbJVteYQRN0wvPJoHeL3VvMu8zscRsWpvUNMoz8uToa3xV3ao9ShM-52FAG4Ar7YhA=s240-c-k-c0x00ffffff-no-rj" alt="Darlyne Nightbloom【Whicker Butler】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Darlyne Nightbloom【Whicker Butler】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">20.7K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">18 streams</span></div></div>
+    <a class="channel-card" href="darlyne-nightbloom-whicker-butler/index.html" data-name="Darlyne Nightbloom【Whicker Butler】" data-subs="20700" data-streams="18" data-peak="178" data-avg="123">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/PLC6PXNnTbJVteYQRN0wvPJoHeL3VvMu8zscRsWpvUNMoz8uToa3xV3ao9ShM-52FAG4Ar7YhA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>DN</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Darlyne Nightbloom【Whicker Butler】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">20.7K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">18</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">178</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">123</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="thalita-sylvaine-whicker-butler/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/66oGeR8Vv0gvzCk_w9VZ13kI-Nee7wHGulQg_gct26_GXJ1wVG7bs_0w__68fHHTUhxtWCb41w=s240-c-k-c0x00ffffff-no-rj" alt="Thalita Sylvaine【Whicker Butler】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Thalita Sylvaine【Whicker Butler】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">18.6K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">13 streams</span></div></div>
+    <a class="channel-card" href="thalita-sylvaine-whicker-butler/index.html" data-name="Thalita Sylvaine【Whicker Butler】" data-subs="18600" data-streams="13" data-peak="146" data-avg="96">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/66oGeR8Vv0gvzCk_w9VZ13kI-Nee7wHGulQg_gct26_GXJ1wVG7bs_0w__68fHHTUhxtWCb41w=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>TS</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Thalita Sylvaine【Whicker Butler】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">18.6K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">13</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">146</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">96</div></div>
+      </div>
     </a>
-    <a class="channel-card" href="oriana-solstair-whicker-butler/index.html">
-      <img class="channel-avatar" src="https://yt3.ggpht.com/iW61BnKsCT9HOs7A_uFeRM7hiS7WKOoPVKG2Vv9Ys46OYPfs0Ew-MheYxpuQBq1pG7nAiY2RJQ=s240-c-k-c0x00ffffff-no-rj" alt="Oriana Solstair【Whicker Butler】" referrerpolicy="no-referrer" loading="lazy">
-      <span class="channel-badge">TALENT</span>
-      <div class="channel-card-name">Oriana Solstair【Whicker Butler】</div>
-      <div class="channel-card-stats"><div class="stat-row"><span class="stat-label">Subscribers</span><span class="stat-value highlight">28.5K</span></div><div class="stat-row"><span class="stat-label">Streams</span><span class="stat-value">15 streams</span></div></div>
+    <a class="channel-card" href="oriana-solstair-whicker-butler/index.html" data-name="Oriana Solstair【Whicker Butler】" data-subs="28500" data-streams="15" data-peak="171" data-avg="95">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/iW61BnKsCT9HOs7A_uFeRM7hiS7WKOoPVKG2Vv9Ys46OYPfs0Ew-MheYxpuQBq1pG7nAiY2RJQ=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>OS</div>'">
+        <div class="ch-card-name-wrap">
+          <div class="ch-card-name">Oriana Solstair【Whicker Butler】</div>
+          <div class="ch-card-role">Talent</div>
+        </div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">28.5K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">15</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">171</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Avg CCV</div><div class="ch-stat-cell-val">95</div></div>
+      </div>
     </a>
   </div>
 
@@ -552,6 +696,46 @@
   });
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
     if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var grid  = document.querySelector('.channels-grid');
+  var chips = document.querySelectorAll('.sort-chip');
+  if (!grid || !chips.length) return;
+
+  function getVal(card, attr) {
+    return parseFloat(card.getAttribute(attr) || '0') || 0;
+  }
+
+  function sortCards(key) {
+    var cards = Array.from(grid.querySelectorAll('.channel-card'));
+    cards.sort(function (a, b) {
+      if (key === 'az') {
+        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
+      }
+      var map = { 'subs': 'data-subs', 'peak': 'data-peak', 'streams': 'data-streams' };
+      return getVal(b, map[key]) - getVal(a, map[key]);
+    });
+    cards.forEach(function (c) { grid.appendChild(c); });
+  }
+
+  var keyMap = {
+    'Subscribers': 'subs',
+    'Peak CCV':    'peak',
+    'Streams':     'streams',
+    'A–Z':   'az',
+  };
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      chips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      var key = keyMap[chip.textContent.trim()] || 'subs';
+      sortCards(key);
+    });
   });
 })();
 </script>

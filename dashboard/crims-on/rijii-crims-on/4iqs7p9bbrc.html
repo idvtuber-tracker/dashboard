@@ -332,6 +332,74 @@
   footer .footer-sep { opacity: 0.35; }
   /* light-mode footer is already handled by --surface and --border vars */
 
+
+  /* ── nav bar ── */
+  .site-nav { position: sticky; top: 0; z-index: 200; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 0.75rem; padding: 0.65rem 2rem; }
+  .site-nav-logo { font-family: "Fraunces", serif; font-size: 0.95rem; font-weight: 700; color: var(--white); text-decoration: none; flex-shrink: 0; }
+  .site-nav-logo em { font-style: italic; color: var(--accent-text); }
+  .nav-pill { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.6rem; padding: 0.2rem 0.55rem; border: 1px solid var(--border); border-radius: 99px; color: var(--muted); white-space: nowrap; }
+  .nav-pill strong { color: var(--text); font-weight: 500; }
+  .nav-live-pill { border-color: rgba(34,197,94,.4); background: rgba(34,197,94,.06); color: #16a34a; }
+  .nav-live-dot { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  [data-theme="light"] .nav-live-pill { color: #15803d; }
+  .nav-spacer { flex: 1; }
+  .nav-search-wrap { position: relative; display: flex; align-items: center; }
+  .nav-search { font-family: "DM Mono", monospace; font-size: 0.65rem; padding: 0.28rem 0.75rem 0.28rem 1.8rem; border: 1px solid var(--border); border-radius: 99px; background: var(--surface2); color: var(--text); width: 200px; transition: border-color 0.2s, width 0.2s; outline: none; }
+  .nav-search:focus { border-color: var(--org-color); width: 260px; }
+  .nav-search::placeholder { color: var(--muted); }
+  .nav-search-icon { position: absolute; left: 0.55rem; font-size: 0.75rem; color: var(--muted); pointer-events: none; }
+
+  /* ── stats bar (index page) ── */
+  .stats-bar { display: flex; gap: 0.6rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .stat-pill-bar { display: flex; align-items: center; gap: 0.35rem; padding: 0.3rem 0.75rem; background: var(--surface); border: 1px solid var(--border); border-radius: 99px; font-size: 0.62rem; color: var(--muted); }
+  .stat-pill-bar strong { color: var(--text); font-weight: 500; }
+  .filter-strip { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .filter-lbl { font-size: 0.6rem; color: var(--muted); margin-right: 0.2rem; }
+  .filter-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+  .filter-chip:hover, .filter-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
+
+  /* ── redesigned org cards ── */
+  .org-accent-bar { height: 3px; background: var(--org-color); border-radius: 0; }
+  .org-card-body { padding: 1rem 1.25rem 1.1rem; }
+  .org-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; gap: 0.5rem; }
+  .org-card-title { font-family: "Fraunces", serif; font-size: 1.1rem; font-weight: 700; color: var(--white); line-height: 1.2; }
+  .org-card-desc { font-size: 0.72rem; color: var(--muted); margin-bottom: 0.85rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .org-card-stats { display: flex; gap: 1rem; }
+  .ocs { font-size: 0.62rem; color: var(--muted); display: flex; align-items: center; gap: 0.25rem; }
+  .ocs strong { color: var(--accent-text); font-weight: 500; }
+  .live-badge-sm { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.55rem; letter-spacing: 0.08em; padding: 0.15rem 0.45rem; border-radius: 99px; background: rgba(34,197,94,.12); color: #16a34a; border: 1px solid rgba(34,197,94,.3); flex-shrink: 0; white-space: nowrap; }
+  .live-dot-sm { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
+  [data-theme="light"] .live-badge-sm { color: #15803d; }
+
+  /* ── org hero ── */
+  .org-hero { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 1.5rem; animation: fadeUp 0.5s ease both; }
+  .org-hero-accent { height: 4px; background: var(--org-color); }
+  .org-hero-body { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.5rem; padding: 1.4rem 1.75rem; flex-wrap: wrap; }
+  .org-hero-info { flex: 1; min-width: 0; }
+  .org-hero-name { font-family: "Fraunces", serif; font-size: 1.6rem; font-weight: 700; color: var(--white); margin-bottom: 0.3rem; }
+  .org-hero-desc { font-size: 0.75rem; color: var(--muted); max-width: 560px; line-height: 1.6; margin-bottom: 0.85rem; }
+  .org-hero-stats { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+  .ohs { text-align: center; }
+  .ohs-val { font-family: "Fraunces", serif; font-size: 1.4rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
+  .ohs-lbl { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+
+  /* ── sort/filter strip ── */
+  .sort-strip { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+  .sort-lbl { font-size: 0.6rem; color: var(--muted); }
+  .sort-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+  .sort-chip:hover { background: var(--surface2); color: var(--text); }
+  .sort-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
+
+  /* ── channel card redesign ── */
+  .ch-card-top { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.65rem; }
+  .ch-card-name-wrap { min-width: 0; }
+  .ch-card-name { font-family: "Fraunces", serif; font-size: 0.88rem; font-weight: 700; color: var(--white); line-height: 1.25; }
+  .ch-card-role { font-size: 0.58rem; color: var(--muted); margin-top: 0.1rem; }
+  .ch-card-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem; }
+  .ch-stat-cell { background: var(--surface2); border-radius: 3px; padding: 0.4rem 0.6rem; }
+  .ch-stat-cell-lbl { font-size: 0.55rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+  .ch-stat-cell-val { font-size: 0.82rem; font-weight: 500; color: var(--text); }
+
   @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
   header { animation: fadeUp 0.5s ease both; }
   .orgs-grid, .channels-list, .streams-grid, .kpi-row { animation: fadeUp 0.5s 0.1s ease both; }
@@ -463,8 +531,13 @@
 </style>
 </head>
 <body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="../../index.html">IDVTuber <em>Tracker</em></a>
+  <span class="nav-spacer"></span>
+  <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
+</nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">CRIMS:On</a> <span class="sep">&#8250;</span> <a href="index.html">Rijii【CRIMS:on】</a> <span class="sep">&#8250;</span> <span class="current">awwaasss setoppp #moxierp #moxiexperienc…</span><div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div></nav>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">CRIMS:On</a> <span class="sep">&#8250;</span> <a href="index.html">Rijii【CRIMS:on】</a> <span class="sep">&#8250;</span> <span class="current">awwaasss setoppp #moxierp #moxiexperienc…</span></nav>
   <header>
     <p class="eyebrow">CRIMS:On &nbsp;&#183;&nbsp; Rijii【CRIMS:on】</p>
     <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
@@ -485,13 +558,13 @@
     <div class="kpi-side">
       <div class="kpi-grid">
         <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">102</div><div class="kpi-sub">concurrent</div></div>
-        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">51</div><div class="kpi-sub">concurrent</div></div>
-        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">443</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">53</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">474</div></div>
         <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
         <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-05-27 21:24 WIB</div></div>
-        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-05-27 23:35 WIB</div></div>
-        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">2h 10m 17s</div></div>
-        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">1,831</div><div class="kpi-sub">total plays</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-05-27 23:58 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">2h 34m 06s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">2,140</div><div class="kpi-sub">total plays</div></div>
       </div>
     </div>
   </div>
@@ -520,14 +593,14 @@
     <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
 
-  <p class="generated">Generated 2026-05-27 23:35 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+  <p class="generated">Generated 2026-05-27 23:59 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
 
 <script>
 // ── Data ────────────────────────────────────────────────────────
-const ts    = ["21:24", "21:25", "21:26", "21:27", "21:28", "21:29", "21:30", "21:33", "21:34", "21:35", "21:36", "21:37", "21:38", "21:39", "21:40", "21:41", "21:42", "21:43", "21:44", "21:45", "21:46", "21:47", "21:49", "21:50", "21:51", "21:52", "21:53", "21:54", "21:55", "21:56", "21:57", "21:58", "21:59", "22:00", "22:01", "22:02", "22:03", "22:05", "22:06", "22:07", "22:08", "22:09", "22:10", "22:11", "22:12", "22:13", "22:14", "22:15", "22:16", "22:17", "22:18", "22:19", "22:21", "22:22", "22:23", "22:24", "22:25", "22:26", "22:27", "22:28", "22:29", "22:30", "22:31", "22:32", "22:33", "22:34", "22:35", "22:37", "22:38", "22:39", "22:40", "22:41", "22:42", "22:43", "22:44", "22:45", "22:46", "22:47", "22:48", "22:49", "22:50", "22:51", "22:54", "22:55", "22:56", "22:57", "22:58", "22:59", "23:00", "23:01", "23:02", "23:03", "23:04", "23:05", "23:06", "23:07", "23:08", "23:10", "23:11", "23:12", "23:13", "23:14", "23:15", "23:16", "23:17", "23:18", "23:19", "23:20", "23:21", "23:22", "23:23", "23:24", "23:26", "23:27", "23:28", "23:29", "23:30", "23:31", "23:32", "23:33", "23:34", "23:35"];
-const views = [45, 45, 45, 45, 50, 37, 30, 39, 34, 32, 31, 17, 15, 29, 33, 43, 28, 34, 35, 32, 33, 25, 30, 41, 37, 38, 43, 47, 43, 46, 34, 45, 45, 42, 55, 62, 55, 75, 88, 78, 102, 88, 82, 72, 83, 60, 56, 52, 46, 48, 63, 55, 63, 76, 81, 70, 75, 81, 84, 82, 86, 91, 84, 84, 84, 85, 83, 58, 37, 38, 31, 42, 48, 61, 59, 47, 50, 45, 54, 48, 57, 62, 41, 34, 34, 36, 47, 51, 58, 42, 44, 76, 84, 53, 59, 44, 32, 15, 23, 28, 20, 34, 47, 40, 35, 32, 26, 37, 52, 47, 50, 52, 57, 56, 51, 51, 36, 27, 23, 44, 70, 75];
-const likes = [51, 63, 72, 80, 92, 101, 109, 125, 129, 136, 145, 151, 153, 156, 159, 164, 169, 169, 170, 174, 179, 182, 189, 193, 198, 201, 204, 208, 210, 212, 214, 218, 222, 223, 227, 228, 231, 245, 247, 247, 251, 252, 254, 258, 263, 265, 266, 268, 270, 273, 278, 281, 288, 295, 298, 299, 304, 309, 313, 316, 317, 319, 321, 322, 322, 323, 325, 336, 338, 338, 340, 342, 345, 347, 350, 351, 352, 354, 355, 357, 358, 359, 366, 368, 371, 373, 374, 375, 375, 375, 375, 378, 380, 382, 387, 391, 397, 403, 406, 410, 411, 412, 413, 415, 418, 421, 0, 426, 427, 429, 430, 430, 430, 431, 433, 435, 435, 436, 437, 437, 441, 443];
-const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const ts    = ["21:24", "21:25", "21:26", "21:27", "21:28", "21:29", "21:30", "21:33", "21:34", "21:35", "21:36", "21:37", "21:38", "21:39", "21:40", "21:41", "21:42", "21:43", "21:44", "21:45", "21:46", "21:47", "21:49", "21:50", "21:51", "21:52", "21:53", "21:54", "21:55", "21:56", "21:57", "21:58", "21:59", "22:00", "22:01", "22:02", "22:03", "22:05", "22:06", "22:07", "22:08", "22:09", "22:10", "22:11", "22:12", "22:13", "22:14", "22:15", "22:16", "22:17", "22:18", "22:19", "22:21", "22:22", "22:23", "22:24", "22:25", "22:26", "22:27", "22:28", "22:29", "22:30", "22:31", "22:32", "22:33", "22:34", "22:35", "22:37", "22:38", "22:39", "22:40", "22:41", "22:42", "22:43", "22:44", "22:45", "22:46", "22:47", "22:48", "22:49", "22:50", "22:51", "22:54", "22:55", "22:56", "22:57", "22:58", "22:59", "23:00", "23:01", "23:02", "23:03", "23:04", "23:05", "23:06", "23:07", "23:08", "23:10", "23:11", "23:12", "23:13", "23:14", "23:15", "23:16", "23:17", "23:18", "23:19", "23:20", "23:21", "23:22", "23:23", "23:24", "23:26", "23:27", "23:28", "23:29", "23:30", "23:31", "23:32", "23:33", "23:34", "23:35", "23:36", "23:37", "23:38", "23:39", "23:40", "23:42", "23:43", "23:45", "23:46", "23:47", "23:48", "23:49", "23:50", "23:51", "23:52", "23:53", "23:54", "23:55", "23:56", "23:57", "23:58"];
+const views = [45, 45, 45, 45, 50, 37, 30, 39, 34, 32, 31, 17, 15, 29, 33, 43, 28, 34, 35, 32, 33, 25, 30, 41, 37, 38, 43, 47, 43, 46, 34, 45, 45, 42, 55, 62, 55, 75, 88, 78, 102, 88, 82, 72, 83, 60, 56, 52, 46, 48, 63, 55, 63, 76, 81, 70, 75, 81, 84, 82, 86, 91, 84, 84, 84, 85, 83, 58, 37, 38, 31, 42, 48, 61, 59, 47, 50, 45, 54, 48, 57, 62, 41, 34, 34, 36, 47, 51, 58, 42, 44, 76, 84, 53, 59, 44, 32, 15, 23, 28, 20, 34, 47, 40, 35, 32, 26, 37, 52, 47, 50, 52, 57, 56, 51, 51, 36, 27, 23, 44, 70, 75, 68, 60, 68, 67, 67, 67, 59, 64, 56, 64, 76, 68, 70, 69, 63, 60, 70, 66, 70, 72, 77];
+const likes = [51, 63, 72, 80, 92, 101, 109, 125, 129, 136, 145, 151, 153, 156, 159, 164, 169, 169, 170, 174, 179, 182, 189, 193, 198, 201, 204, 208, 210, 212, 214, 218, 222, 223, 227, 228, 231, 245, 247, 247, 251, 252, 254, 258, 263, 265, 266, 268, 270, 273, 278, 281, 288, 295, 298, 299, 304, 309, 313, 316, 317, 319, 321, 322, 322, 323, 325, 336, 338, 338, 340, 342, 345, 347, 350, 351, 352, 354, 355, 357, 358, 359, 366, 368, 371, 373, 374, 375, 375, 375, 375, 378, 380, 382, 387, 391, 397, 403, 406, 410, 411, 412, 413, 415, 418, 421, 0, 426, 427, 429, 430, 430, 430, 431, 433, 435, 435, 436, 437, 437, 441, 443, 444, 446, 448, 451, 455, 459, 460, 463, 464, 464, 465, 466, 466, 466, 468, 469, 470, 470, 470, 472, 474];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const VIDEO_ID = "4IqS7p9bbrc";
 const orgColor = '#d90429';
 
