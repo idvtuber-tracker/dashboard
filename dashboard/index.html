@@ -542,17 +542,18 @@
   <header>
     <p class="eyebrow">IDVTuber Tracker &#8212; Live Analytics</p>
     <h1>Stream <em>Overview</em></h1>
-    <p class="page-meta">Generated: 2026-06-22 02:33 WIB</p>
+    <p class="page-meta">Generated: 2026-06-22 07:02 WIB</p>
   </header>
   <div class="stats-bar">
     <span class="stat-pill-bar">&#127981; <strong>26</strong> organisations</span>
-    <span class="stat-pill-bar">&#128100; <strong>170</strong> channels</span>
-    <span class="stat-pill-bar">&#9654; <strong>1520</strong> streams recorded</span>
+    <span class="stat-pill-bar">&#128100; <strong>171</strong> channels</span>
+    <span class="stat-pill-bar">&#9654; <strong>1521</strong> streams recorded</span>
   </div>
   <div class="filter-strip">
     <span class="filter-lbl">Filter:</span>
     <span class="filter-chip" style="background:var(--surface2);color:var(--accent-text);border-color:var(--org-color)">All</span>
     <span class="filter-chip">A&#8211;Z</span>
+    <span class="filter-chip">Peak Viewers</span>
   </div>
   <div class="orgs-grid">
     <a class="org-card" href="pandavva/index.html" style="--org-color:#e8ff47" data-name="PANDAVVA" data-streams="78" data-peak="4102">
@@ -751,7 +752,7 @@
         </div>
       </div>
     </a>
-    <a class="org-card" href="crims-on/index.html" style="--org-color:#d90429" data-name="CRIMS:On" data-streams="86" data-peak="634">
+    <a class="org-card" href="crims-on/index.html" style="--org-color:#d90429" data-name="CRIMS:On" data-streams="87" data-peak="634">
       <div class="org-accent-bar"></div>
       <div class="org-card-body">
         <div class="org-card-top">
@@ -760,7 +761,7 @@
         <div class="org-card-desc">Circle of friends with different background who shares one passion towards content creators scene.</div>
         <div class="org-card-stats">
           <span class="ocs">&#128100; <strong>5</strong></span>
-          <span class="ocs">&#9654; <strong>86</strong></span>
+          <span class="ocs">&#9654; <strong>87</strong></span>
           <span class="ocs">&#128065; <strong>634</strong> peak</span>
         </div>
       </div>
@@ -829,7 +830,7 @@
         </div>
         <div class="org-card-desc">Part of Area Media, a digital idol bridging entertainment and community through live streams, creative content, and authentic fan interactions.</div>
         <div class="org-card-stats">
-          <span class="ocs">&#128100; <strong>4</strong></span>
+          <span class="ocs">&#128100; <strong>5</strong></span>
           <span class="ocs">&#9654; <strong>45</strong></span>
           <span class="ocs">&#128065; <strong>357</strong> peak</span>
         </div>
@@ -975,7 +976,7 @@
   var grid  = document.querySelector('.orgs-grid');
   var inp   = document.getElementById('navSearch');
   var chips = document.querySelectorAll('.filter-chip');
-  var mode  = 'all';    // 'all' | 'az'
+  var mode  = 'all';    // 'all' | 'az' | 'peak'
 
   function applyFilter() {
     var q = inp ? inp.value.trim().toLowerCase() : '';
@@ -995,6 +996,13 @@
         return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
       });
       cards.forEach(function (c) { grid.appendChild(c); });
+    } else if (mode === 'peak') {
+      cards.sort(function (a, b) {
+        var pa = parseFloat(a.getAttribute('data-peak') || '0') || 0;
+        var pb = parseFloat(b.getAttribute('data-peak') || '0') || 0;
+        return pb - pa;   // descending — highest peak viewers first
+      });
+      cards.forEach(function (c) { grid.appendChild(c); });
     }
     // 'all' = default document order (no re-sort needed on page load)
   }
@@ -1007,7 +1015,14 @@
     chip.addEventListener('click', function () {
       chips.forEach(function (c) { c.classList.remove('active'); });
       chip.classList.add('active');
-      mode = chip.textContent.trim() === 'A–Z' ? 'az' : 'all';
+      var label = chip.textContent.trim();
+      if (label === 'A–Z') {
+        mode = 'az';
+      } else if (label === 'Peak Viewers') {
+        mode = 'peak';
+      } else {
+        mode = 'all';
+      }
       applySort();
       applyFilter();
     });
