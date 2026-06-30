@@ -18,18 +18,6 @@ name: Deploy Dashboard
 #
 # Note: there is NO "commit cache back to repo" step here. The tracker repo
 # owns cache/ and manifest.json; this repo only ever holds generated output.
-#
-# CONCURRENCY FIX (see below): tracker.py fires repository_dispatch on every
-# push, which can happen faster than one deploy cycle takes. Two overlapping
-# runs would each check out the SAME base manifest.json, generate
-# independently, and then race to commit — the loser's push either fails or
-# (worse) silently clobbers the winner's manifest with a stale version that
-# never saw the winner's dirty-set updates. This makes manifest.json
-# effectively never accumulate state, so every run looks like a cold start
-# with everything dirty. cancel-in-progress is now false and the group
-# covers the whole workflow (not just the Pages deploy step) so runs queue
-# up and execute one at a time, each starting from the previous run's
-# committed manifest.
 
 on:
   repository_dispatch:
@@ -42,8 +30,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: dashboard-deploy
-  cancel-in-progress: false
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -135,28 +123,16 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Commit cache back to dashboard repo
-        # Persists cache/channel_logos_cache.json, cache/channel_logos_fallback.json,
-        # and dashboard/manifest.json back to this (dashboard) repo so that:
+        # Persists cache/channel_logos_cache.json and cache/channel_logos_fallback.json
+        # back to this (dashboard) repo so that:
         #   (a) the daily logo/subscriber cache survives between ubuntu runner jobs,
-        #       avoiding a redundant YouTube API call on every Pages deploy,
+        #       avoiding a redundant YouTube API call on every Pages deploy, and
         #   (b) the fallback file is always up-to-date, so if the API is unavailable
-        #       on a future run, logos still appear on the dashboard, and
-        #   (c) manifest.json accumulates dirty-tracking state across runs so the
-        #       partial-rebuild logic in generate_dashboard.py actually has
-        #       something to diff against.
+        #       on a future run, logos still appear on the dashboard.
         #
         # generate_dashboard.py resolves cache/ as Path(__file__).parent / "cache",
         # so when it runs here (dashboard repo checkout) it writes to the dashboard
         # repo's cache/ directory, which is exactly what we commit below.
-        #
-        # `git pull --rebase` before pushing guards against another ref update
-        # having landed on the branch between our checkout and this commit
-        # (e.g. tracker.py pushing again mid-run). Without this, a non-fast-
-        # forward push would fail outright, or in older configurations could
-        # be force-pushed and silently discard intervening changes —
-        # either way losing manifest state. With concurrency now serializing
-        # whole workflow runs, this should rarely trigger, but it's a cheap
-        # safety net against tracker.py pushes landing mid-deploy.
         run: |
           git config user.name  "IDVTuber Dashboard"
           git config user.email "dashboard@idvtuber-tracker"
@@ -165,7 +141,6 @@ jobs:
             echo "Cache and manifest unchanged — nothing to commit."
           else
             git commit -m "cache: update channel logos fallback [skip ci]"
-            git pull --rebase origin "${GITHUB_REF_NAME}" || true
             git push
             echo "Cache committed and pushed."
           fi
