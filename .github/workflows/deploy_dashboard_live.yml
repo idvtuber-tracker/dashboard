@@ -83,7 +83,7 @@ jobs:
 
           # Fetch completed runs of this workflow only
           RUNS=$(curl -s "${HEADERS[@]}" \
-            "https://api.github.com/repos/$REPO/actions/workflows/deploy_dashboard.yml/runs?status=completed&per_page=100" \
+            "https://api.github.com/repos/$REPO/actions/workflows/deploy_dashboard_live.yml/runs?status=completed&per_page=100" \
             | python3 -c "
           import sys, json
           runs = json.load(sys.stdin).get('workflow_runs', [])
