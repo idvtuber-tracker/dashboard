@@ -431,6 +431,18 @@ ORG_MAP = {
             ("Amon Gauri Ch. VILITERA-ID", "talent", "UCCH2-H6NfX58KUW_5eW_85Q"),  
         ],
     },
+    "dasoriyal": {
+        "label":   "DASORiYAL",
+        "color":   "#a0b6c2",
+        "desc":    "Girls group consisted of prominent names in Indonesia indie VTuber scene.",
+        "channels": [
+            ("DASORiYAL", "org", "UCZGz-RZEzWppQR15RuI_7_A"),  
+            ("Krystalize Moon『 DASORiYAL 』", "talent", "UCrbHIYIhquRX-82vpfE5yrg"),  
+            ("Karissa Sharlotte『 DASORiYAL 』", "talent", "UCndWeMfiDIQs-o18GJPwETA"),  
+            ("Gabriel Abyssia『 DASORiYAL 』", "talent", "UCK4lZqiWNuOf-CTyX3Qbj1w"),  
+            ("Hali Ch. 『 DASORiYAL 』", "talent", "UCHWGlT4Kg2P8Q0OSdBVd84g"),  
+        ],
+    },  
 }
 
 # Build reverse lookup: channel_name → (org_slug, org)
