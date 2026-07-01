@@ -170,7 +170,6 @@ ORG_MAP = {
         "desc":    "An Indonesian VTuber agency with various talents background and specialties.",
         "channels": [
             ("AFTERAIN PROJECT",             "org",    "UCOJwb4RalSz3_3EHIM5pVfw"),
-            ("LynShuu 【AFTERAIN】",          "talent", "UCzsHESRY504seJawYVRSs7Q"),
             ("Nezufu Senshirou【AFTERAIN】",  "talent", "UCGR-Fzxnm0TQs2uAIWn8IlQ"),
             ("Lvna Tylthia【AFTERAIN】",      "talent", "UCgZoh0CWVTg_o_wHy1F5QBQ"),
             ("Poffie Hunni【AFTERAIN】",      "talent", "UCFgLJQqhovnBBf4CIsC0OCA"),
