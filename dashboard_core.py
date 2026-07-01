@@ -123,9 +123,9 @@ ORG_MAP = {
             ("Hoshikawa Rui【Yorukaze】",         "talent", "UCnh6AfYwFB9Elsdtkl73cuQ"),
             ("Yuzumi_Ch【Yorukaze】",             "talent", "UCCZ4ZY1kaSkZC6OiA-2916Q"),
             ("Ellise Youka【Yorukaze】",          "talent", "UCE5Mvtoy8GiPtsv5sLUKlgg"),
-            ("CODE : NOICHI Ch.【Yorukaze】",     "talent", "UC7CpE_gbbvNBkUFMHWeUMpA"),
-            ("Tanyata Tiada タニャ 【Yorukaze】",   "talent", "UCv9P--tuUkAxpZaTowy7h9Q"),
-            ("Crystallyn Caparina",  		  "talent", "UCyVT2GRTAWyUjdjTsHhIy6w"),
+            ("WanTaps Ch.【Yorukaze】",           "talent", "UC7CpE_gbbvNBkUFMHWeUMpA"),
+            ("Wintergea Ch. ゲア 【Yorukaze】",   "talent", "UCv9P--tuUkAxpZaTowy7h9Q"),
+            ("Crystallyn Caparina",   "talent", "UCyVT2GRTAWyUjdjTsHhIy6w"),
         ],
     },
     "prism-nova": {
@@ -2665,8 +2665,35 @@ def fetch_all_streams(conn, hist, resolved_channels: dict) -> tuple[dict, dict, 
     log.info("Fetching stream summaries for %d channel tables in bulk…", len(table_infos))
     bulk_live = get_all_streams_bulk(conn, table_infos) if table_infos else {}
 
-    all_ch_names = list(resolved_channels.keys())
-    bulk_archived = get_all_archived_streams(hist, all_ch_names) if hist else {}
+    # Build a name-mapping that covers BOTH the ORG_MAP name (used as the key
+    # throughout the dashboard) and the DB-stored name (what the archiver wrote
+    # into history.db via ch["channel_name"] from the Postgres channels table).
+    # These can differ for channels where the ORG_MAP entry was matched by
+    # channel_id fallback (e.g. "Whicker Butler" vs "Whicker Butler - Vtuber
+    # Agency", or "Li Mingshu Ch." vs "Li Mingshu Ch. " with a trailing space).
+    # When the archiver runs it writes the DB name; get_all_archived_streams()
+    # queries by name exactly — so without this mapping those channels' entire
+    # archived history is silently invisible to the dashboard, producing the
+    # "only 1 month of data" symptom (Postgres has ~30 days; SQLite has the
+    # older history but under a key that never matches the ORG_MAP name).
+    db_name_to_org_name: dict[str, str] = {}
+    all_query_names: list[str] = []
+    for org_map_name, db_row in resolved_channels.items():
+        db_name = db_row.get("channel_name", org_map_name)
+        all_query_names.append(org_map_name)
+        if db_name != org_map_name:
+            all_query_names.append(db_name)
+            db_name_to_org_name[db_name] = org_map_name
+
+    raw_archived = get_all_archived_streams(hist, all_query_names) if hist else {}
+
+    # Re-key any results stored under the DB name back to the ORG_MAP name,
+    # merging into whatever was already found under the ORG_MAP name directly.
+    bulk_archived: dict[str, list] = {}
+    for query_name, streams in raw_archived.items():
+        canonical = db_name_to_org_name.get(query_name, query_name)
+        bulk_archived.setdefault(canonical, [])
+        bulk_archived[canonical].extend(streams)
 
     all_streams_by_channel: dict[str, list[dict]] = {}
     stream_counts: dict[str, int] = {}
