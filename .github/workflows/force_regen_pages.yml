@@ -61,6 +61,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Diagnose channel names
+        env:
+          HISTORY_DB_PATH: ${{ github.workspace }}/idvt-history/history.db
+        run: python diagnose_channel_names.py
+
       - name: Force-regenerate channel and org pages
         env:
           HISTORY_DB_PATH: ${{ github.workspace }}/idvt-history/history.db
