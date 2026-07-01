@@ -61,11 +61,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Diagnose channel names
-        env:
-          HISTORY_DB_PATH: ${{ github.workspace }}/idvt-history/history.db
-        run: python diagnose_channel_names.py
-
       - name: Force-regenerate channel and org pages
         env:
           HISTORY_DB_PATH: ${{ github.workspace }}/idvt-history/history.db
@@ -79,3 +74,22 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Commit regenerated pages back to dashboard repo
+        # Without this, the fix deploys to Pages once and then gets silently
+        # reverted by the very next live/backfill run, which checks out the
+        # git-committed baseline (stale) and only overwrites currently-dirty
+        # pages on top of it. Committing the full dashboard/ directory here
+        # makes this run's output the new baseline for everything downstream.
+        run: |
+          git config user.name  "IDVTuber Dashboard"
+          git config user.email "dashboard@idvtuber-tracker"
+          git add cache/ dashboard/
+          if git diff --cached --quiet; then
+            echo "Nothing changed — nothing to commit."
+          else
+            git commit -m "force-regen: rebuild all channel/org pages [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push
+            echo "Regenerated pages committed and pushed."
+          fi
