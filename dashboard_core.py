@@ -2745,11 +2745,16 @@ def compute_dirty_set(all_streams_by_channel: dict, manifest: dict,
         regeneration to lock in its finished state, OR
       - it has never been generated before AND include_new_vods is True
         (set False in the fast/live loop so brand-new VODs that were never
-        caught live are left for the backfill loop instead).
+        caught live are left for the backfill loop instead), OR
+      - it IS in the manifest as "vod" but its .html file does not exist on
+        disk — the file was generated and manifest was updated correctly, but
+        the git commit step failed to persist it (or the Pages artifact was
+        deployed but the committed baseline was missing the file), so the
+        page returns 404. Treating it as dirty forces regeneration of the
+        missing file without needing to wipe the manifest.
 
-    Once a stream is recorded in the manifest with status "vod" and it
-    stays "vod", it is permanently clean and never re-enters this set
-    through this function again.
+    Once a stream is recorded in the manifest with status "vod" AND its
+    .html file exists on disk, it is permanently clean.
     """
     dirty_video_ids: set[str] = set()
     dirty_channels:  set[str] = set()
@@ -2762,7 +2767,21 @@ def compute_dirty_set(all_streams_by_channel: dict, manifest: dict,
             was_live     = manifest.get(vid, {}).get("status") == "live"
             is_live_now  = (stream.get("stream_status") or "vod") == "live"
 
-            is_dirty = is_live_now or was_live or (not in_manifest and include_new_vods)
+            # Check whether the stream page file actually exists on disk.
+            # A manifest entry saying "vod" only means we *tried* to generate
+            # the file — it does not guarantee the file was committed to git
+            # and is actually being served by Pages. Missing files cause 404s
+            # even when the channel/org page correctly links to them.
+            file_missing = False
+            if in_manifest and not is_live_now and not was_live:
+                entry      = manifest[vid]
+                org_slug   = entry.get("org_slug", "")
+                ch_slug    = entry.get("ch_slug", "") or slugify(ch_name)
+                v_slug     = slugify(vid)
+                page_path  = OUTPUT_DIR / org_slug / ch_slug / f"{v_slug}.html"
+                file_missing = not page_path.exists()
+
+            is_dirty = is_live_now or was_live or (not in_manifest and include_new_vods) or file_missing
 
             if is_dirty:
                 dirty_video_ids.add(vid)
@@ -2787,11 +2806,17 @@ def generate_stream_pages(dirty_work: list[tuple], run_ts: str,
 
     def _write_one_stream(args):
         org_slug, org, ch_name, table, stream = args
+        is_archived = stream.get("_source") == "history"
         for attempt in range(3):
             t_conn = None
             t_hist = None
             try:
-                t_conn = get_conn()
+                # Archived streams only need SQLite (history.db) for their
+                # timeseries — opening a Postgres connection for them wastes
+                # a PgBouncer slot and causes false connection-burst failures
+                # when the backfill is processing thousands of archived streams.
+                if not is_archived:
+                    t_conn = get_conn()
                 t_hist = get_history_conn()
                 enriched, ts = _enrich_stream(stream, t_conn, table, t_hist)
                 write_stream_page(org_slug, org, ch_name, enriched, ts)
@@ -2803,6 +2828,10 @@ def generate_stream_pages(dirty_work: list[tuple], run_ts: str,
                     "generated_at": run_ts,
                 }
             except psycopg2.OperationalError as exc:
+                if is_archived:
+                    # Postgres errors should not happen for archived streams
+                    # (they don't use t_conn) — re-raise immediately.
+                    raise
                 if attempt < 2:
                     wait = 2 ** attempt
                     log.warning(
