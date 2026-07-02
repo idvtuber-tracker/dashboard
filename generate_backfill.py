@@ -65,11 +65,21 @@ def generate_backfill() -> None:
     )
 
     if not dirty_video_ids:
-        log.info("Nothing to backfill — manifest is fully reconciled.")
+        log.info("Nothing to backfill — manifest is fully reconciled and all stream pages exist on disk.")
         conn.close()
         if hist:
             hist.close()
         return
+
+    # Log how many of the dirty set are missing-file recoveries vs genuinely new.
+    in_manifest_count = sum(1 for v in dirty_video_ids if v in manifest)
+    new_count = len(dirty_video_ids) - in_manifest_count
+    if in_manifest_count:
+        log.info(
+            "Backfill includes %d stream page(s) that are in the manifest as 'vod' "
+            "but missing from disk (404 recovery) and %d genuinely new stream(s).",
+            in_manifest_count, new_count
+        )
 
     dirty_work = build_dirty_work_list(resolved_channels, all_streams_by_channel, dirty_video_ids)
 
