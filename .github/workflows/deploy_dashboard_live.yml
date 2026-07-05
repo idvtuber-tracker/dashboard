@@ -144,6 +144,23 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        # GitHub Pages CDN occasionally fails mid-sync with "Deployment failed,
+        # try again later" — this is a transient infrastructure error unrelated
+        # to the artifact content. The continue-on-error + retry step below
+        # re-attempts the deploy up to 3 times before giving up, so a single
+        # CDN hiccup doesn't fail the whole workflow and skip the manifest commit.
+        continue-on-error: true
+
+      - name: Retry deploy if it failed
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+
+      - name: Fail if both deploy attempts failed
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
+        run: |
+          echo "Both Pages deployment attempts failed. Check https://githubstatus.com for Pages incidents."
+          exit 1
 
       - name: Commit cache back to dashboard repo
         # Persists cache/channel_logos_cache.json, cache/channel_logos_fallback.json,
