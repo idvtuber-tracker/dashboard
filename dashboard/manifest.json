@@ -298,7 +298,7 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
@@ -29180,7 +29180,7 @@
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "cuqQsB6KGNU": {
     "org_slug": "afterain",
@@ -29194,7 +29194,7 @@
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "-k5-dWEuObo": {
     "org_slug": "asobu-production",
@@ -29229,7 +29229,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "ZpEDEScl12w": {
     "org_slug": "kanau-virtual",
@@ -29333,15 +29333,15 @@
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "Pl9kthy1p6g": {
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "rR4YFA22ZRk": {
     "org_slug": "afterain",
@@ -29376,14 +29376,14 @@
     "ch_slug": "sevina-reina-laeta",
     "ch_name": "Sevina Reina【LAETA】",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "lCiNi24CJ3Y": {
     "org_slug": "dasoriyal",
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "sZRsSoXekDw": {
     "org_slug": "evren-community",
@@ -29397,7 +29397,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "trFbKaxtcQY": {
     "org_slug": "arvi-media",
@@ -29410,8 +29410,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "lpTizYXinUM": {
     "org_slug": "yorukaze",
@@ -29425,21 +29425,21 @@
     "ch_slug": "nanaka-poi-ch-yorukaze",
     "ch_name": "Nanaka Poi Ch. 【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "xlNA3iUDaxc": {
     "org_slug": "whicker-butler",
     "ch_slug": "valthea-nankila-whicker-butler",
     "ch_name": "Valthea Nankila 【 Whicker Butler 】",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "CgXDMsiVT3Q": {
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "7LnTNsZgyTk": {
     "org_slug": "project-livium",
@@ -29453,27 +29453,34 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "W-4iKk3JPrI": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "9zePtFxSh9c": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
   },
   "RZ9T6UGKgzI": {
     "org_slug": "gravt",
     "ch_slug": "daem-gravt",
     "ch_name": "daem【GRAVT】",
     "status": "live",
-    "generated_at": "2026-07-07 23:32 WIB"
+    "generated_at": "2026-07-07 23:49 WIB"
+  },
+  "sIvIOKgDuhc": {
+    "org_slug": "crims-on",
+    "ch_slug": "selia-aisnith-crims-on",
+    "ch_name": "Selia Aisnith 【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-07-07 23:49 WIB"
   }
 }
