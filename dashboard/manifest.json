@@ -298,42 +298,42 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-07 18:20 WIB"
+    "generated_at": "2026-07-07 18:36 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-07-07 18:20 WIB"
+    "generated_at": "2026-07-07 18:36 WIB"
   },
   "nHhUeQuXNPA": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-07 18:20 WIB"
+    "generated_at": "2026-07-07 18:36 WIB"
   },
   "htDJsTXmpR0": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "serein-venetia-ch-snowvalley",
     "ch_name": "Serein Venetia Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-07 18:20 WIB"
+    "generated_at": "2026-07-07 18:36 WIB"
   },
   "P7ZtWNRPv6s": {
     "org_slug": "jkt48v",
     "ch_slug": "pia-meraleo-jkt48v",
     "ch_name": "Pia Meraleo - JKT48V",
-    "status": "live",
-    "generated_at": "2026-07-07 18:20 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-07 18:36 WIB"
   },
   "AyxRMtGM9BE": {
     "org_slug": "jkt48v",
     "ch_slug": "tana-nona-jkt48v",
     "ch_name": "Tana Nona - JKT48V",
-    "status": "live",
-    "generated_at": "2026-07-07 18:20 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-07 18:36 WIB"
   },
   "5mNp6B6kNF0": {
     "org_slug": "pandavva",
@@ -29153,5 +29153,12 @@
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "vod",
     "generated_at": "2026-07-07 18:20 WIB"
+  },
+  "rr-Jux1gclQ": {
+    "org_slug": "laeta",
+    "ch_slug": "shiraishi-oriel-laeta",
+    "ch_name": "Shiraishi Oriel【LAETA】",
+    "status": "live",
+    "generated_at": "2026-07-07 18:36 WIB"
   }
 }
