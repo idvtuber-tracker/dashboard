@@ -298,14 +298,14 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
-    "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "nHhUeQuXNPA": {
     "org_slug": "dasoriyal",
@@ -29159,62 +29159,90 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "WC7kfKXKy4Q": {
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "n3CnbMK2An8": {
     "org_slug": "whicker-butler",
     "ch_slug": "ignis-grimoire-whicker-butler",
     "ch_name": "Ignis Grimoire【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "Wz-JAivuzpM": {
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "cuqQsB6KGNU": {
     "org_slug": "afterain",
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "u_pR_p2tL6A": {
     "org_slug": "pandavva",
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "-k5-dWEuObo": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "Ac8chYTlCkI": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
   },
   "eRb6uDZw9f4": {
     "org_slug": "uver-id",
     "ch_slug": "cyure-michantrell-ch-uver-id",
     "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-07 19:21 WIB"
+    "generated_at": "2026-07-07 19:38 WIB"
+  },
+  "dSxKg_ebaNE": {
+    "org_slug": "crims-on",
+    "ch_slug": "cole-calamello-crims-on",
+    "ch_name": "Cole Calamello【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-07-07 19:38 WIB"
+  },
+  "hWaBfnoA5SM": {
+    "org_slug": "crims-on",
+    "ch_slug": "iana-crims-on",
+    "ch_name": "Iana【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-07-07 19:38 WIB"
+  },
+  "ZpEDEScl12w": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "noazumi-ch-kanau-virtual",
+    "ch_name": "Noazumi Ch.【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-07-07 19:38 WIB"
+  },
+  "pWE-GsmP8gU": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
+    "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
+    "status": "live",
+    "generated_at": "2026-07-07 19:38 WIB"
   }
 }
