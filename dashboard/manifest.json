@@ -298,7 +298,7 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-08 15:05 WIB"
+    "generated_at": "2026-07-08 15:21 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
@@ -29529,8 +29529,8 @@
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
-    "status": "live",
-    "generated_at": "2026-07-08 15:05 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-08 15:21 WIB"
   },
   "z-Z_uPNvgrY": {
     "org_slug": "asobu-production",
@@ -29544,27 +29544,34 @@
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-07-08 15:05 WIB"
+    "generated_at": "2026-07-08 15:21 WIB"
   },
   "BplAmBxxipc": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-08 15:05 WIB"
+    "generated_at": "2026-07-08 15:21 WIB"
   },
   "ggJ5bAskKbA": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-07-08 15:05 WIB"
+    "generated_at": "2026-07-08 15:21 WIB"
   },
   "-e2vkWGw2bY": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-08 15:05 WIB"
+    "generated_at": "2026-07-08 15:21 WIB"
+  },
+  "U5C5gLaX3Qk": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "serein-venetia-ch-snowvalley",
+    "ch_name": "Serein Venetia Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-07-08 15:21 WIB"
   }
 }
