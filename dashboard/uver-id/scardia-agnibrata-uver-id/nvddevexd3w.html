@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>UVER ID — IDVTuber Tracker</title>
+<title>[ HONOR OF KINGS ] 037 -  tiap hari aku mendambakan... — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -530,301 +532,212 @@
 </head>
 <body>
 <nav class="site-nav">
-  <a class="site-nav-logo" href="../index.html">IDVTuber <em>Tracker</em></a>
+  <a class="site-nav-logo" href="../../index.html">IDVTuber <em>Tracker</em></a>
   <span class="nav-spacer"></span>
   <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
 </nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">UVER ID</span></nav>
-  <div class="org-hero">
-    <div class="org-hero-accent"></div>
-    <div class="org-hero-body">
-      <div class="org-hero-info">
-        <div class="org-hero-name">UVER ID</div>
-        <div class="org-hero-desc">An large group with eclectic style that shows the diversity of its talents.</div>
-        <div class="org-hero-stats">
-          <div class="ohs"><div class="ohs-val">17</div><div class="ohs-lbl">Channels</div></div>
-          <div class="ohs"><div class="ohs-val">205</div><div class="ohs-lbl">Streams</div></div>
-          <div class="ohs"><div class="ohs-val">40</div><div class="ohs-lbl">Peak CCV</div></div>
-          <div class="ohs"><div class="ohs-val">111.2K</div><div class="ohs-lbl">Combined subs</div></div>
-        </div>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">UVER ID</a> <span class="sep">&#8250;</span> <a href="index.html">Scardia Agnibrata ♦ [ UVER ID ]</a> <span class="sep">&#8250;</span> <span class="current">[ HONOR OF KINGS ] 037 -  tiap hari aku …</span></nav>
+  <header>
+    <p class="eyebrow">UVER ID &nbsp;&#183;&nbsp; Scardia Agnibrata ♦ [ UVER ID ]</p>
+    <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
+    <h1>[ HONOR OF KINGS ] 037 -  tiap hari aku mendambakan...</h1>
+    <p class="page-meta">Video ID: nVddEvEXd3w</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/nVddEvEXd3w" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="stream-thumb-meta">
+        <span>2026-07-08 18:15 WIB</span>
+        <a href="https://www.youtube.com/watch?v=nVddEvEXd3w" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">6</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">3</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">6</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-07-08 18:15 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-07-08 18:30 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">14m 44s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">8</div><div class="kpi-sub">total plays</div></div>
       </div>
     </div>
   </div>
-  <div class="sort-strip">
-    <span class="sort-lbl">Sort by:</span>
-    <span class="sort-chip active">Subscribers</span>
-    <span class="sort-chip">Peak CCV</span>
-    <span class="sort-chip">Peak Likes</span>
-    <span class="sort-chip">Streams</span>
-    <span class="sort-chip">A&#8211;Z</span>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
-  <div class="channels-grid">
-    <a class="channel-card" href="uver-id/index.html" data-name="UVER ID" data-subs="1030" data-streams="1" data-peak="13" data-likes="13">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/ToBm4D0uexGia9OTvt2KdGDEuhlxt3VNQeYbQIqROsuYs0B-HzFAo07ctpdVv9RCQzT4raN6hA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>UI</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">UVER ID</div>
-          <div class="ch-card-role">Org Channel</div>
-        </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
       </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.0K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">1</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">13</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">13</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="shana-ophelia-uver-id/index.html" data-name="Shana Ophelia [ UVER ID ]" data-subs="4910" data-streams="45" data-peak="27" data-likes="35">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/j6rah51v0YYPPyKIbaOkRhOKk4IVvBvemWpJ1XTEKW5dmvqaopJmOwin_oYWsdiAOLVIWYcy=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>SO</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Shana Ophelia [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">4.9K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">45</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">27</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">35</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="scardia-agnibrata-uver-id/index.html" data-name="Scardia Agnibrata ♦ [ UVER ID ]" data-subs="2450" data-streams="16" data-peak="15" data-likes="23">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/RYS5ItdG9w1Dt312WuZzWG5C5d82cu3CMp8D5pAnUvsSQwKCfKDrkv0PDfYrOfK7NQQrjq5qjQ=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>SA</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Scardia Agnibrata ♦ [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">2.5K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">16</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">15</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">23</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="meltdhe-corsieur-ch-uver-id/index.html" data-name="Meltdhe Corsieur Ch. [ UVER ID ]" data-subs="1470" data-streams="21" data-peak="24" data-likes="23">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/UfvRg4-Y8CUnuELd74sxBr_-tkEPgOO_qS9yedeSGeolfsQqF2UK2IN4JFwxKbuLNG4bWjWXhA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>MC</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Meltdhe Corsieur Ch. [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.5K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">21</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">24</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">23</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="cyure-michantrell-ch-uver-id/index.html" data-name="Cyure Michantrell Ch. [ UVER ID ]" data-subs="1490" data-streams="9" data-peak="9" data-likes="11">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/jp97nSDswNEGeRzO7VgkO3FQlHk704mPr2ixct5COmcvhvOlCsZdFqgoTbi_k-d7D5L-tYTf=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>CM</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Cyure Michantrell Ch. [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.5K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">9</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">9</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">11</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="zelinus-vihnlock/index.html" data-name="Zelinus Vihnlock" data-subs="70700" data-streams="6" data-peak="23" data-likes="43">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/yjk19oKLzZK_kHDeSGPFFGiKKE1CZegSf9xqhi56FmTkuW2vta14LaUm_hTRbMTlaD8JGwM6uQ=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>ZV</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Zelinus Vihnlock</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">70.7K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">6</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">23</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">43</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="nephthya-anya-ch-uver-id/index.html" data-name="Nephthya Anya Ch. [ UVER ID ]" data-subs="3900" data-streams="40" data-peak="40" data-likes="66">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/J9lb0D9wlEgPIJhRCn6qjsw6NgT0oNmJJFE6uKIOZ9Lz49Uz6ebgTLj8evEucxwJqNzyAfS_=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>NA</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Nephthya Anya Ch. [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">3.9K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">40</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">40</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">66</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="fujio-uver-id/index.html" data-name="FUJIO  [ UVER ID ]" data-subs="2220" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/CoHb35EW4vM7ddNBZ3yMTw4trvD1_ckyssFslxoRDKy-AaH6GQuOmPBFvvGY8vqSmaVGRWlfdXs=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>F[</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">FUJIO  [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">2.2K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="hiro-kyasuta-uver-id/index.html" data-name="Hiro Kyasuta [ UVER ID ]" data-subs="3870" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/kLrI1TCBMTvvyLQJOxW-W7OQnX05tgs-mUX8RTAcRz8ctd-K38G1Xlx6rLWoOV8B80GeK_72vA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>HK</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Hiro Kyasuta [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">3.9K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="arjuna-candra-pawitra-ch-uver-id/index.html" data-name="Arjuna Candra Pawitra Ch. [ UVER ID ]" data-subs="1720" data-streams="3" data-peak="5" data-likes="9">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/wsuANcoTtQdqOOOmy6Bit9f9Aw_ttV38XHuPwDdUm6s41DrhVxoUuPZ7jk7RyQlDmZtZ3TO5yg=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>AC</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Arjuna Candra Pawitra Ch. [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.7K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">3</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">5</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">9</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="wei-yang-uver-id/index.html" data-name="Wei Yang [ UVER ID ]" data-subs="1180" data-streams="1" data-peak="0" data-likes="7">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/KUfeTY2801U3Yh7kTfZKg3MtdKVZ7TfQ6gIRZ0JzEg8CZSMIWxBm_2NZbGBJVGBkyPEDmUR9n_E=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>WY</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Wei Yang [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.2K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">1</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">7</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="jae-min-ho-uver-id/index.html" data-name="Jae Min Ho [ UVER ID ]" data-subs="827" data-streams="15" data-peak="9" data-likes="11">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/d3P0-f_zi17J-AsGN3e85U0_UwoHnf5Cb_vt1mqG1GdEKkxMMJjHsrMVhK7IZLxGLVLmS2bPwCQ=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>JM</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Jae Min Ho [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">827</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">15</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">9</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">11</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="doh-chen-ah-uver-id/index.html" data-name="Doh Chen ah [ UVER ID ]" data-subs="322" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/7Ryu-xAQW0nLRK2CJXxESEzU7cCMsSL-qwz8uYJEH7qlpTBfM0HCU6wEnmafANIwC9YYYxeH=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>DC</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Doh Chen ah [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">322</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="gi-hwa-young-uver-id/index.html" data-name="Gi Hwa Young [ UVER ID ]" data-subs="1130" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/P6n_k-FUnH2UtilzfzFUXqmJ4XNJDafBYxlGZsKMpLQdPnpsrXFYHk6qpQGHKxSgNz7IyGnN5g=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>GH</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Gi Hwa Young [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.1K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="aira-lunagrandia-uver-id/index.html" data-name="Aira Lunagrandia [ UVER ID ]" data-subs="1390" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/As-0pG2cXv0SqmQo2bC5QqP6MrQ-bLaCVkctgM9RI5Wz1DLtcsGv2MEKeT-01eqsoi1CXIDJ=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>AL</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Aira Lunagrandia [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.4K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="norn-haira-uver-id/index.html" data-name="Norn Haira〔UVER ID〕" data-subs="954" data-streams="20" data-peak="34" data-likes="70">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/OV0vFYqpaXVvkTGXRhf-81obZ51ken13CnIkOBfHCT85ZgkqfFLzlV0EZ-jx0Vo7Un_v6YQ8Ow=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>NH</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Norn Haira〔UVER ID〕</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">954</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">20</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">34</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">70</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="isabella-naemi-ch-uver-id/index.html" data-name="Isabella Naemi. Ch. ★ [ UVER ID ]" data-subs="11600" data-streams="28" data-peak="23" data-likes="33">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/tT5xDsc7fewfLXGn-lSE8vxgu1Ac19dyWhZrnv5AYqRNP7xkaMCEMPe2TCiI0oJBSPUEj_gdug=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>IN</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Isabella Naemi. Ch. ★ [ UVER ID ]</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">11.6K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">28</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">23</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">33</div></div>
-      </div>
-    </a>
+    </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
+
+  <p class="generated">Generated 2026-07-08 18:31 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
+<script>
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["18:15", "18:16", "18:17", "18:18", "18:19", "18:20", "18:21", "18:22", "18:23", "18:24", "18:25", "18:26", "18:27", "18:30"];
+const views = [1, 1, 2, 2, 1, 2, 2, 2, 3, 4, 4, 4, 4, 6];
+const likes = [0, 0, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const VIDEO_ID = "nVddEvEXd3w";
+const orgColor = '#4a00e0';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
 
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
     <nav class="footer-links">
-      <a href="../index.html">Home</a>
+      <a href="../../index.html">Home</a>
       <span class="footer-sep">·</span>
-      <a href="../privacy.html">Privacy Policy</a>
+      <a href="../../privacy.html">Privacy Policy</a>
       <span class="footer-sep">·</span>
-      <a href="../terms.html">Terms of Use</a>
+      <a href="../../terms.html">Terms of Use</a>
     </nav>
   </footer>
 </div>
@@ -862,47 +775,6 @@
   });
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
     if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
-  });
-})();
-</script>
-
-<script>
-(function () {
-  var grid  = document.querySelector('.channels-grid');
-  var chips = document.querySelectorAll('.sort-chip');
-  if (!grid || !chips.length) return;
-
-  function getVal(card, attr) {
-    return parseFloat(card.getAttribute(attr) || '0') || 0;
-  }
-
-  function sortCards(key) {
-    var cards = Array.from(grid.querySelectorAll('.channel-card'));
-    cards.sort(function (a, b) {
-      if (key === 'az') {
-        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
-      }
-      var map = { 'subs': 'data-subs', 'peak': 'data-peak', 'likes': 'data-likes', 'streams': 'data-streams' };
-      return getVal(b, map[key]) - getVal(a, map[key]);
-    });
-    cards.forEach(function (c) { grid.appendChild(c); });
-  }
-
-  var keyMap = {
-    'Subscribers': 'subs',
-    'Peak CCV':    'peak',
-    'Peak Likes':  'likes',
-    'Streams':     'streams',
-    'A–Z':   'az',
-  };
-
-  chips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      chips.forEach(function (c) { c.classList.remove('active'); });
-      chip.classList.add('active');
-      var key = keyMap[chip.textContent.trim()] || 'subs';
-      sortCards(key);
-    });
   });
 })();
 </script>
