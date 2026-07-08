@@ -298,7 +298,7 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-08 09:23 WIB"
+    "generated_at": "2026-07-08 09:40 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
@@ -29460,7 +29460,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-08 09:23 WIB"
+    "generated_at": "2026-07-08 09:40 WIB"
   },
   "9zePtFxSh9c": {
     "org_slug": "project-livium",
@@ -29494,21 +29494,21 @@
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-07-08 09:23 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-08 09:40 WIB"
   },
   "ausOk9sK6hw": {
     "org_slug": "jkt48v",
     "ch_slug": "isha-kirana-jkt48v",
     "ch_name": "Isha Kirana - JKT48V",
     "status": "live",
-    "generated_at": "2026-07-08 09:23 WIB"
+    "generated_at": "2026-07-08 09:40 WIB"
   },
   "KfTtPaa6R8c": {
     "org_slug": "jkt48v",
     "ch_slug": "maura-nilambari-jkt48v",
     "ch_name": "Maura Nilambari - JKT48V",
     "status": "live",
-    "generated_at": "2026-07-08 09:23 WIB"
+    "generated_at": "2026-07-08 09:40 WIB"
   }
 }
