@@ -298,7 +298,7 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-09 16:23 WIB"
+    "generated_at": "2026-07-09 16:42 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
@@ -29831,7 +29831,7 @@
     "ch_slug": "sourizu-aka-virtual",
     "ch_name": "SouRizu☪︎【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-09 16:23 WIB"
+    "generated_at": "2026-07-09 16:42 WIB"
   },
   "QdTaXDWKPHY": {
     "org_slug": "cozycazt",
@@ -29970,15 +29970,15 @@
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
-    "status": "live",
-    "generated_at": "2026-07-09 16:23 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-09 16:42 WIB"
   },
   "HKkwJ1-C39Q": {
     "org_slug": "uver-id",
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-09 16:23 WIB"
+    "generated_at": "2026-07-09 16:42 WIB"
   },
   "Vgd2VnZboBY": {
     "org_slug": "hrcome",
@@ -29992,7 +29992,7 @@
     "ch_slug": "celina-olystia-ch-snowvalley",
     "ch_name": "Celina Olystia Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-09 16:23 WIB"
+    "generated_at": "2026-07-09 16:42 WIB"
   },
   "9S1w-rLvBH4": {
     "org_slug": "kanau-virtual",
@@ -30006,20 +30006,27 @@
     "ch_slug": "ryoutaa-aka-virtual",
     "ch_name": "Ryoutaa  【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-09 16:23 WIB"
+    "generated_at": "2026-07-09 16:42 WIB"
   },
   "cyvSxDVoeAo": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-09 16:23 WIB"
+    "generated_at": "2026-07-09 16:42 WIB"
   },
   "brgfdTggv8k": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-07-09 16:23 WIB"
+    "generated_at": "2026-07-09 16:42 WIB"
+  },
+  "M6b6IK3zrNs": {
+    "org_slug": "asobu-production",
+    "ch_slug": "hakuro-nakayoshi-asobu",
+    "ch_name": "Hakuro Nakayoshi 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-07-09 16:42 WIB"
   }
 }
