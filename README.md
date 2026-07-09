@@ -6,7 +6,7 @@ The live analytics dashboard for the [IDVTuber Tracker](https://github.com/idvtu
 
 ## What This Is
 
-The dashboard provides a browsable, multi-level view of YouTube livestream analytics collected from Indonesian VTuber (IDVTuber) channels. It covers 200+ tracked channels across multiple organisations, tracking concurrent viewers, view counts, likes, and comments across live and past streams.
+The dashboard provides a browsable, multi-level view of YouTube livestream analytics collected from Indonesian VTuber (IDVTuber) channels. It covers 180+ tracked channels across multiple organisations, tracking concurrent viewers, view counts, likes, and comments across live and past streams.
 
 The site is rebuilt and pushed here automatically by the tracker's GitHub Actions workflows every few minutes. You do not need to run anything manually to keep it up to date.
 
