@@ -298,7 +298,7 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-09 08:14 WIB"
+    "generated_at": "2026-07-09 09:19 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
@@ -29831,7 +29831,7 @@
     "ch_slug": "sourizu-aka-virtual",
     "ch_name": "SouRizu☪︎【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-09 08:14 WIB"
+    "generated_at": "2026-07-09 09:19 WIB"
   },
   "QdTaXDWKPHY": {
     "org_slug": "cozycazt",
@@ -29909,5 +29909,12 @@
     "ch_name": "Selia Aisnith 【CRIMS:on】",
     "status": "vod",
     "generated_at": "2026-07-09 00:30 WIB"
+  },
+  "sbCtKBkH-wU": {
+    "org_slug": "afterain",
+    "ch_slug": "ririna-ruu-afterain",
+    "ch_name": "Ririna Ruu【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-07-09 09:19 WIB"
   }
 }
