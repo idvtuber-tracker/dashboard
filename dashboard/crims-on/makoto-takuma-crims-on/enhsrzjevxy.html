@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>GRAVT — IDVTuber Tracker</title>
+<title>Tamat Story Leon? - Resident Evil 2 #4 — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -525,111 +527,217 @@
   .subs-label { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 0.85rem; }
   svg.sparkline { width: 100%; height: 40px; overflow: visible; display: block; }
 
-  :root { --org-color: #212529; }
+  :root { --org-color: #d90429; }
 </style>
 </head>
 <body>
 <nav class="site-nav">
-  <a class="site-nav-logo" href="../index.html">IDVTuber <em>Tracker</em></a>
+  <a class="site-nav-logo" href="../../index.html">IDVTuber <em>Tracker</em></a>
   <span class="nav-spacer"></span>
   <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
 </nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">GRAVT</span></nav>
-  <div class="org-hero">
-    <div class="org-hero-accent"></div>
-    <div class="org-hero-body">
-      <div class="org-hero-info">
-        <div class="org-hero-name">GRAVT</div>
-        <div class="org-hero-desc">Boyband groups formed from four members with music expertise.</div>
-        <div class="org-hero-stats">
-          <div class="ohs"><div class="ohs-val">4</div><div class="ohs-lbl">Channels</div></div>
-          <div class="ohs"><div class="ohs-val">88</div><div class="ohs-lbl">Streams</div></div>
-          <div class="ohs"><div class="ohs-val">3,118</div><div class="ohs-lbl">Peak CCV</div></div>
-          <div class="ohs"><div class="ohs-val">2.6M</div><div class="ohs-lbl">Combined subs</div></div>
-        </div>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">CRIMS:on</a> <span class="sep">&#8250;</span> <a href="index.html">Makoto Takuma 【CRIMS:on】</a> <span class="sep">&#8250;</span> <span class="current">Tamat Story Leon? - Resident Evil 2 #4</span></nav>
+  <header>
+    <p class="eyebrow">CRIMS:on &nbsp;&#183;&nbsp; Makoto Takuma 【CRIMS:on】</p>
+    <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
+    <h1>Tamat Story Leon? - Resident Evil 2 #4</h1>
+    <p class="page-meta">Video ID: enhsRZJevXY</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/enhsRZJevXY" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="stream-thumb-meta">
+        <span>2026-07-11 16:15 WIB</span>
+        <a href="https://www.youtube.com/watch?v=enhsRZJevXY" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">17</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">11</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">32</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-07-11 16:15 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-07-11 16:24 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">8m 52s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">44</div><div class="kpi-sub">total plays</div></div>
       </div>
     </div>
   </div>
-  <div class="sort-strip">
-    <span class="sort-lbl">Sort by:</span>
-    <span class="sort-chip active">Subscribers</span>
-    <span class="sort-chip">Peak CCV</span>
-    <span class="sort-chip">Peak Likes</span>
-    <span class="sort-chip">Streams</span>
-    <span class="sort-chip">A&#8211;Z</span>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
-  <div class="channels-grid">
-    <a class="channel-card" href="gravt/index.html" data-name="GRAVT" data-subs="16600" data-streams="9" data-peak="2452" data-likes="6210">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/GQFlymJkeatEt956nFSs5Zl6-eVgxf_inhhXR6DUaBz_N1-TFMdMb3XIkhqTXxujMU1bLt-BNJo=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>G</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">GRAVT</div>
-          <div class="ch-card-role">Org Channel</div>
-        </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
       </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">16.6K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">9</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">2,452</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">6,210</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="akemi-ch-gravt-aka-virtual/index.html" data-name="Akemi Ch. 猫町アケミ【GRAVT】【AKA Virtual】" data-subs="2440000" data-streams="26" data-peak="2520" data-likes="4449">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/G9Rblcw65VmOKME44hYEGGNGSzJweVxVOiQ5DpRSf9MWlxMBm62Z3wsQsd_gEyPoCl_D_05gLIw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>A猫</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Akemi Ch. 猫町アケミ【GRAVT】【AKA Virtual】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">2.4M</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">26</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">2,520</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">4,449</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="ave-kanehoshii-gravt-aka-virtual/index.html" data-name="Ave Kanehoshii【GRAVT】【AKA Virtual】" data-subs="128000" data-streams="17" data-peak="3118" data-likes="1770">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/Mw2Slgi2Spq5sfdVJY_OYh_yA78HI2LeGluAUAIMce8s8zsrHDYvQRzMAbJixQnlDtvquiXHiw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>AK</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Ave Kanehoshii【GRAVT】【AKA Virtual】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">128.0K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">17</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">3,118</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">1,770</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="daem-gravt/index.html" data-name="daem【GRAVT】" data-subs="57400" data-streams="36" data-peak="1262" data-likes="3195">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/yVEYeICehX34Puwa-N8_VCH1XDsEPwRPNoku9N-7UQtqBZVBRYE-7ZGhVWUFURNfMK812--Q=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>DG</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">daem【GRAVT】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">57.4K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">36</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">1,262</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">3,195</div></div>
-      </div>
-    </a>
+    </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
+
+  <p class="generated">Generated 2026-07-11 16:24 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
+<script>
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["16:15", "16:16", "16:17", "16:18", "16:19", "16:20", "16:21", "16:24"];
+const views = [1, 5, 9, 12, 14, 15, 17, 17];
+const likes = [10, 15, 18, 22, 23, 24, 25, 32];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0];
+const VIDEO_ID = "enhsRZJevXY";
+const orgColor = '#d90429';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
 
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
     <nav class="footer-links">
-      <a href="../index.html">Home</a>
+      <a href="../../index.html">Home</a>
       <span class="footer-sep">·</span>
-      <a href="../privacy.html">Privacy Policy</a>
+      <a href="../../privacy.html">Privacy Policy</a>
       <span class="footer-sep">·</span>
-      <a href="../terms.html">Terms of Use</a>
+      <a href="../../terms.html">Terms of Use</a>
     </nav>
   </footer>
 </div>
@@ -667,47 +775,6 @@
   });
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
     if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
-  });
-})();
-</script>
-
-<script>
-(function () {
-  var grid  = document.querySelector('.channels-grid');
-  var chips = document.querySelectorAll('.sort-chip');
-  if (!grid || !chips.length) return;
-
-  function getVal(card, attr) {
-    return parseFloat(card.getAttribute(attr) || '0') || 0;
-  }
-
-  function sortCards(key) {
-    var cards = Array.from(grid.querySelectorAll('.channel-card'));
-    cards.sort(function (a, b) {
-      if (key === 'az') {
-        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
-      }
-      var map = { 'subs': 'data-subs', 'peak': 'data-peak', 'likes': 'data-likes', 'streams': 'data-streams' };
-      return getVal(b, map[key]) - getVal(a, map[key]);
-    });
-    cards.forEach(function (c) { grid.appendChild(c); });
-  }
-
-  var keyMap = {
-    'Subscribers': 'subs',
-    'Peak CCV':    'peak',
-    'Peak Likes':  'likes',
-    'Streams':     'streams',
-    'A–Z':   'az',
-  };
-
-  chips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      chips.forEach(function (c) { c.classList.remove('active'); });
-      chip.classList.add('active');
-      var key = keyMap[chip.textContent.trim()] || 'subs';
-      sortCards(key);
-    });
   });
 })();
 </script>
