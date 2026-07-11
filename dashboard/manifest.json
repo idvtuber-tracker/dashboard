@@ -298,7 +298,7 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
@@ -29831,7 +29831,7 @@
     "ch_slug": "sourizu-aka-virtual",
     "ch_name": "SouRizu☪︎【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "QdTaXDWKPHY": {
     "org_slug": "cozycazt",
@@ -30006,7 +30006,7 @@
     "ch_slug": "ryoutaa-aka-virtual",
     "ch_name": "Ryoutaa  【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "cyvSxDVoeAo": {
     "org_slug": "snowvalley-agency",
@@ -30272,7 +30272,7 @@
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "RP3YKebjHMs": {
     "org_slug": "eterluna",
@@ -30454,7 +30454,7 @@
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "F-V0RtDOpsA": {
     "org_slug": "kanau-virtual",
@@ -30972,7 +30972,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "TPcY7Tn7R-0": {
     "org_slug": "asobu-production",
@@ -31014,21 +31014,21 @@
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "wndgoyiH6BE": {
     "org_slug": "maha5",
     "ch_slug": "hera-garalea-maha5",
     "ch_name": "Hera Garalea【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "HIeXDRtYm04": {
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "2yDXSXpL4AM": {
     "org_slug": "dasoriyal",
@@ -31056,13 +31056,20 @@
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
   },
   "hXQXTV_yQ3k": {
     "org_slug": "gravt",
     "ch_slug": "daem-gravt",
     "ch_name": "daem【GRAVT】",
     "status": "live",
-    "generated_at": "2026-07-11 16:24 WIB"
+    "generated_at": "2026-07-11 16:41 WIB"
+  },
+  "kIQKSkXCQ9g": {
+    "org_slug": "asobu-production",
+    "ch_slug": "hakuro-nakayoshi-asobu",
+    "ch_name": "Hakuro Nakayoshi 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-07-11 16:41 WIB"
   }
 }
