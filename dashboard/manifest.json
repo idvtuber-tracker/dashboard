@@ -298,7 +298,7 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-11 09:13 WIB"
+    "generated_at": "2026-07-11 09:15 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
@@ -29831,7 +29831,7 @@
     "ch_slug": "sourizu-aka-virtual",
     "ch_name": "SouRizu☪︎【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-11 09:13 WIB"
+    "generated_at": "2026-07-11 09:15 WIB"
   },
   "QdTaXDWKPHY": {
     "org_slug": "cozycazt",
@@ -30006,7 +30006,7 @@
     "ch_slug": "ryoutaa-aka-virtual",
     "ch_name": "Ryoutaa  【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-11 09:13 WIB"
+    "generated_at": "2026-07-11 09:15 WIB"
   },
   "cyvSxDVoeAo": {
     "org_slug": "snowvalley-agency",
@@ -30272,7 +30272,7 @@
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-11 09:13 WIB"
+    "generated_at": "2026-07-11 09:15 WIB"
   },
   "RP3YKebjHMs": {
     "org_slug": "eterluna",
@@ -30454,7 +30454,7 @@
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-11 09:13 WIB"
+    "generated_at": "2026-07-11 09:15 WIB"
   },
   "F-V0RtDOpsA": {
     "org_slug": "kanau-virtual",
@@ -30931,5 +30931,12 @@
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "vod",
     "generated_at": "2026-07-11 09:13 WIB"
+  },
+  "FZH8mGmRe5Q": {
+    "org_slug": "uver-id",
+    "ch_slug": "meltdhe-corsieur-ch-uver-id",
+    "ch_name": "Meltdhe Corsieur Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-07-11 09:15 WIB"
   }
 }
