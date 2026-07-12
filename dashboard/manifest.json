@@ -298,7 +298,7 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "RwmawUgcB7o": {
     "org_slug": "kanau-virtual",
@@ -29831,7 +29831,7 @@
     "ch_slug": "sourizu-aka-virtual",
     "ch_name": "SouRizu☪︎【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "QdTaXDWKPHY": {
     "org_slug": "cozycazt",
@@ -30006,7 +30006,7 @@
     "ch_slug": "ryoutaa-aka-virtual",
     "ch_name": "Ryoutaa  【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "cyvSxDVoeAo": {
     "org_slug": "snowvalley-agency",
@@ -30272,7 +30272,7 @@
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "RP3YKebjHMs": {
     "org_slug": "eterluna",
@@ -30454,7 +30454,7 @@
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "F-V0RtDOpsA": {
     "org_slug": "kanau-virtual",
@@ -31392,7 +31392,7 @@
     "ch_slug": "pia-meraleo-jkt48v",
     "ch_name": "Pia Meraleo - JKT48V",
     "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "WwxcR4L_IUY": {
     "org_slug": "magniv",
@@ -31559,15 +31559,15 @@
     "org_slug": "arvi-media",
     "ch_slug": "ringo-soda",
     "ch_name": "Ringo Soda",
-    "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "D9y4zk7-ba4": {
     "org_slug": "gravt",
     "ch_slug": "daem-gravt",
     "ch_name": "daem【GRAVT】",
     "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "1Uv2rtFRSYk": {
     "org_slug": "snowvalley-agency",
@@ -31580,21 +31580,28 @@
     "org_slug": "hrcome",
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
-    "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "lXQ8HZKQYtM": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "generated_at": "2026-07-12 18:04 WIB"
   },
   "aTwsdSb-ai0": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-12 17:47 WIB"
+    "generated_at": "2026-07-12 18:04 WIB"
+  },
+  "0zOO6n_YH7I": {
+    "org_slug": "gravt",
+    "ch_slug": "akemi-ch-gravt-aka-virtual",
+    "ch_name": "Akemi Ch. 猫町アケミ【GRAVT】【AKA Virtual】",
+    "status": "live",
+    "generated_at": "2026-07-12 18:04 WIB"
   }
 }
