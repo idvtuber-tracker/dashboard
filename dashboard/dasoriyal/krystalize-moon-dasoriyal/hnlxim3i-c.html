@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>Kana Chizu 【AFTERAIN】 — IDVTuber Tracker</title>
+<title>[MECCHA CHAMELEON ] LU GUA AJAK :3 — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -525,7 +527,7 @@
   .subs-label { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 0.85rem; }
   svg.sparkline { width: 100%; height: 40px; overflow: visible; display: block; }
 
-  :root { --org-color: #60a5fa; }
+  :root { --org-color: #a0b6c2; }
 </style>
 </head>
 <body>
@@ -535,911 +537,197 @@
   <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
 </nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">AfteRain</a> <span class="sep">&#8250;</span> <span class="current">Kana Chizu 【AFTERAIN】</span></nav>
-  <div class="channel-hero">
-    <div class="hero-shimmer"></div>
-    <div class="hero-body">
-      <img class="hero-avatar-large" src="https://yt3.ggpht.com/2tHINfznBYliPsIx2Eaqv8apo9vcXGA5NJnATT_QLWTqSleUclrNNnI8lv48xFfB-MYXwF9B=s240-c-k-c0x00ffffff-no-rj" alt="Kana Chizu 【AFTERAIN】 avatar" loading="lazy" onerror="this.outerHTML='<div class=&quot;hero-avatar-large-placeholder&quot;>KC</div>'">
-      <div class="hero-info">
-        <div class="hero-org-badge">
-          <div class="hero-org-dot"></div>
-          AfteRain
-        </div>
-        <div class="hero-name">Kana Chizu 【AFTERAIN】</div>
-        <div class="hero-meta-row">
-          <div class="hero-meta-item"><span>Subscribers</span><strong>16,300</strong></div>
-          <div class="hero-meta-item"><span>Total views</span><strong>7,330</strong></div>
-          <div class="hero-meta-item"><span>Tracking</span><strong>Apr 2026 – Jul 2026</strong></div>
-        </div>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">DASORiYAL</a> <span class="sep">&#8250;</span> <a href="index.html">Krystalize Moon『 DASORiYAL 』</a> <span class="sep">&#8250;</span> <span class="current">[MECCHA CHAMELEON ] LU GUA AJAK :3</span></nav>
+  <header>
+    <p class="eyebrow">DASORiYAL &nbsp;&#183;&nbsp; Krystalize Moon『 DASORiYAL 』</p>
+    <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
+    <h1>[MECCHA CHAMELEON ] LU GUA AJAK :3</h1>
+    <p class="page-meta">Video ID: -HNlxim3i_c</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/-HNlxim3i_c" allowfullscreen loading="lazy"></iframe>
       </div>
-      <div class="hero-actions">
-        <a class="yt-link" href="https://youtube.com/channel/UCh5wq5bs4VG1ah3THbW156g" target="_blank" rel="noopener">&#9654; YouTube</a>
+      <div class="stream-thumb-meta">
+        <span>2026-07-15 21:02 WIB</span>
+        <a href="https://www.youtube.com/watch?v=-HNlxim3i_c" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">12</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">6</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">18</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-07-15 21:02 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-07-15 21:09 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">7m 06s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">27</div><div class="kpi-sub">total plays</div></div>
       </div>
     </div>
   </div>
-  <div class="kpi-strip">
-    <div class="kpi-cell"><div class="kpi-label">Streams tracked</div><div class="kpi-value">31</div><div class="kpi-sub">Apr 2026 – Jul 2026</div></div>
-    <div class="kpi-cell"><div class="kpi-label">Peak CCV</div><div class="kpi-value">38</div><div class="kpi-sub">All-time record</div></div>
-    <div class="kpi-cell"><div class="kpi-label">Avg peak CCV</div><div class="kpi-value">20</div><div class="kpi-sub">Per stream</div></div>
-    <div class="kpi-cell"><div class="kpi-label">Total views</div><div class="kpi-value">7,330</div><div class="kpi-sub">Tracked streams</div></div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
-  <div class="recent-streams-section">
-    <div class="recent-streams-hdr">Recent streams</div>
-    <div class="recent-grid">
-    <a class="rc" href="7nbxqsn-qpq.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/7nBxqSN-QPQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        <span class="rc-live">Live</span>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
       </div>
-      <div class="rc-body">
-        <div class="rc-title">🎮【Counter Strike 2】OPEN MABAR! mainin game bagus.3gp</div>
-        <div class="rc-date">15 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">11</span></span>
-          <span>&#9825; 29</span>
-          <span>&#9654; 67</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="rqzeez-vhxm.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/rQZeeZ-VhxM/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">🎮【VALORANT】hijau warna baik. 🙂</div>
-        <div class="rc-date">09 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">9</span></span>
-          <span>&#9825; 35</span>
-          <span>&#9654; 139</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="dovqcyr0ywg.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/dOvqCyr0Ywg/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">🎮【RAFT】Sebuah progress?!!!⚠️</div>
-        <div class="rc-date">08 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">10</span></span>
-          <span>&#9825; 27</span>
-          <span>&#9654; 88</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="rr4yfa22zrk.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/rR4YFA22ZRk/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">🎮【MengRandom】bermain bersama sahabad🎀💅</div>
-        <div class="rc-date">07 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">11</span></span>
-          <span>&#9825; 42</span>
-          <span>&#9654; 121</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="h-bsl3dha8q.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/h-BsL3dha8Q/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">🎮【Pummel Party】pertama kali bermain ini game. ⚠️</div>
-        <div class="rc-date">06 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">11</span></span>
-          <span>&#9825; 37</span>
-          <span>&#9654; 101</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="xgae6iw1uri.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/XGaE6iW1uRI/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">🎮【Counter Strike 2】berharap d&amp;n, dapatnya recoil🖕(◺˰◿)🖕</div>
-        <div class="rc-date">04 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">11</span></span>
-          <span>&#9825; 34</span>
-          <span>&#9654; 113</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="liib8huep6w.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/lIiB8huEp6w/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">👩🏻‍💻Work &amp; Yapp: ngobrol sambil temenin aku memulai queue july~ 🫶🏻🥹</div>
-        <div class="rc-date">04 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">22</span></span>
-          <span>&#9825; 74</span>
-          <span>&#9654; 299</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="4bag-olr8jo.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/4bAg_oLr8Jo/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">🎮【League of Legends】digendong abang jago😎👌🔥</div>
-        <div class="rc-date">02 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">9</span></span>
-          <span>&#9825; 29</span>
-          <span>&#9654; 106</span>
-        </div>
-      </div>
-    </a>
     </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
-  <div class="ch-main-grid">
-    <div class="stream-list-panel">
-      <div class="panel-hdr">All streams — by month</div>
-  <div class="month-group is-open">
-    <button class="month-toggle" aria-expanded="true">
-      <span class="month-toggle-left">July 2026</span>
-      <span class="month-toggle-right"><span class="month-cnt-badge">9</span><span class="month-chevron">▾</span></span>
-    </button>
-    <div class="month-body">
-  <a class="stream-row-item" href="7nbxqsn-qpq.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/7nBxqSN-QPQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      <div class="live-badge">Live</div>
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【Counter Strike 2】OPEN MABAR! mainin game bagus.3gp</div>
-      <div class="stream-row-meta">
-        <span>15 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>20:13 WIB</span>
-        <span class="row-sep">·</span>
-        <span>55m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">11</span> peak</span>
-        <span class="rs">&#9825; 29</span>
-        <span class="rs">&#9654; 67</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="rqzeez-vhxm.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/rQZeeZ-VhxM/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【VALORANT】hijau warna baik. 🙂</div>
-      <div class="stream-row-meta">
-        <span>09 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>20:58 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 40m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">9</span> peak</span>
-        <span class="rs">&#9825; 35</span>
-        <span class="rs">&#9654; 139</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="dovqcyr0ywg.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/dOvqCyr0Ywg/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【RAFT】Sebuah progress?!!!⚠️</div>
-      <div class="stream-row-meta">
-        <span>08 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:58 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 32m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">10</span> peak</span>
-        <span class="rs">&#9825; 27</span>
-        <span class="rs">&#9654; 88</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="rr4yfa22zrk.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/rR4YFA22ZRk/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【MengRandom】bermain bersama sahabad🎀💅</div>
-      <div class="stream-row-meta">
-        <span>07 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>20:20 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 16m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">11</span> peak</span>
-        <span class="rs">&#9825; 42</span>
-        <span class="rs">&#9654; 121</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="h-bsl3dha8q.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/h-BsL3dha8Q/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【Pummel Party】pertama kali bermain ini game. ⚠️</div>
-      <div class="stream-row-meta">
-        <span>06 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>21:02 WIB</span>
-        <span class="row-sep">·</span>
-        <span>1h 45m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">11</span> peak</span>
-        <span class="rs">&#9825; 37</span>
-        <span class="rs">&#9654; 101</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="xgae6iw1uri.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/XGaE6iW1uRI/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【Counter Strike 2】berharap d&amp;n, dapatnya recoil🖕(◺˰◿)🖕</div>
-      <div class="stream-row-meta">
-        <span>04 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:45 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 27m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">11</span> peak</span>
-        <span class="rs">&#9825; 34</span>
-        <span class="rs">&#9654; 113</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="liib8huep6w.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/lIiB8huEp6w/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">👩🏻‍💻Work &amp; Yapp: ngobrol sambil temenin aku memulai queue july~ 🫶🏻🥹</div>
-      <div class="stream-row-meta">
-        <span>04 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>14:49 WIB</span>
-        <span class="row-sep">·</span>
-        <span>4h 30m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">22</span> peak</span>
-        <span class="rs">&#9825; 74</span>
-        <span class="rs">&#9654; 299</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="4bag-olr8jo.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/4bAg_oLr8Jo/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【League of Legends】digendong abang jago😎👌🔥</div>
-      <div class="stream-row-meta">
-        <span>02 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>20:08 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 11m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">9</span> peak</span>
-        <span class="rs">&#9825; 29</span>
-        <span class="rs">&#9654; 106</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="qwbtdolfuww.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/qwbTDOlFuww/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【MECCHA CHAMELEON】skill issue bgt woi akuuuu 🥹</div>
-      <div class="stream-row-meta">
-        <span>01 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>20:02 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 33m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">14</span> peak</span>
-        <span class="rs">&#9825; 53</span>
-        <span class="rs">&#9654; 147</span>
-      </div>
-    </div>
-  </a>
-    </div>
-  </div>
-  <div class="month-group">
-    <button class="month-toggle" aria-expanded="false">
-      <span class="month-toggle-left">June 2026</span>
-      <span class="month-toggle-right"><span class="month-cnt-badge">6</span><span class="month-chevron">▾</span></span>
-    </button>
-    <div class="month-body">
-  <a class="stream-row-item" href="875ccyzmufk.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/875CcyZMuFk/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【RAFT】terdampar dilaut🌅🌊</div>
-      <div class="stream-row-meta">
-        <span>30 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>20:30 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 50m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">12</span> peak</span>
-        <span class="rs">&#9825; 28</span>
-        <span class="rs">&#9654; 109</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="fv1ay62pqvq.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/fv1ay62pQVQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【MECCHA CHAMELEON】kamuflase katanya.🎨🖌️</div>
-      <div class="stream-row-meta">
-        <span>23 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:07 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 19m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">14</span> peak</span>
-        <span class="rs">&#9825; 42</span>
-        <span class="rs">&#9654; 148</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="m9caavlrw1w.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/M9CaAvlRw1w/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【VALORANT】rank udah 500 tapi masi bapuk😭 | Donogoals #8</div>
-      <div class="stream-row-meta">
-        <span>22 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>21:35 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 44m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">38</span> peak</span>
-        <span class="rs">&#9825; 53</span>
-        <span class="rs">&#9654; 224</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="k3ftmbzxymk.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/k3FtmbzXymk/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【League of Legends】Aku tidak jago, baru belajar..😩🙏 | Donogoals #7</div>
-      <div class="stream-row-meta">
-        <span>20 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>22:02 WIB</span>
-        <span class="row-sep">·</span>
-        <span>3h 26m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">29</span> peak</span>
-        <span class="rs">&#9825; 61</span>
-        <span class="rs">&#9654; 228</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="xyyb1nh5x04.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/xYyB1NH5X04/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【VALORANT】istirahat sejenak, main dulu...🤯 w/ HALU | Donogoals #6</div>
-      <div class="stream-row-meta">
-        <span>20 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>14:50 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 56m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">16</span> peak</span>
-        <span class="rs">&#9825; 44</span>
-        <span class="rs">&#9654; 200</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="hvjpk0lnfgy.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/hVJPk0LnfGY/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">admin kembali..</div>
-      <div class="stream-row-meta">
-        <span>18 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>14:28 WIB</span>
-        <span class="row-sep">·</span>
-        <span>1h 52m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">31</span> peak</span>
-        <span class="rs">&#9825; 67</span>
-        <span class="rs">&#9654; 253</span>
-      </div>
-    </div>
-  </a>
-    </div>
-  </div>
-  <div class="month-group">
-    <button class="month-toggle" aria-expanded="false">
-      <span class="month-toggle-left">May 2026</span>
-      <span class="month-toggle-right"><span class="month-cnt-badge">4</span><span class="month-chevron">▾</span></span>
-    </button>
-    <div class="month-body">
-  <a class="stream-row-item" href="d3hc-cq-awk.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/D3hC-CQ-aWk/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【APEX LEGENDS】dicarry 2 senpai! @LvnaTylthia @FleinRyst😎👌</div>
-      <div class="stream-row-meta">
-        <span>26 May 2026</span>
-        <span class="row-sep">·</span>
-        <span>20:35 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 18m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">11</span> peak</span>
-        <span class="rs">&#9825; 30</span>
-        <span class="rs">&#9654; 117</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="stblg5lujdq.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/STblG5LujDQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【VALORANT】pupu aim. full party with HALU, main bntr ajh😴</div>
-      <div class="stream-row-meta">
-        <span>24 May 2026</span>
-        <span class="row-sep">·</span>
-        <span>21:36 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 03m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">16</span> peak</span>
-        <span class="rs">&#9825; 40</span>
-        <span class="rs">&#9654; 144</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="4kafa6oycrc.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/4kafa6oYcRc/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【KULONIKU: BOWL UP!】PLS JGN REQUEST ANEH2 BAKSONYAAA!!😤😤</div>
-      <div class="stream-row-meta">
-        <span>23 May 2026</span>
-        <span class="row-sep">·</span>
-        <span>20:52 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 28m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">21</span> peak</span>
-        <span class="rs">&#9825; 40</span>
-        <span class="rs">&#9654; 113</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="p4jkmowl-ou.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/p4jkMowL_oU/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">...mau bahas semuanya selama aku ga streaaaammm</div>
-      <div class="stream-row-meta">
-        <span>23 May 2026</span>
-        <span class="row-sep">·</span>
-        <span>14:28 WIB</span>
-        <span class="row-sep">·</span>
-        <span>5h 36m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">30</span> peak</span>
-        <span class="rs">&#9825; 104</span>
-        <span class="rs">&#9654; 520</span>
-      </div>
-    </div>
-  </a>
-    </div>
-  </div>
-  <div class="month-group">
-    <button class="month-toggle" aria-expanded="false">
-      <span class="month-toggle-left">April 2026</span>
-      <span class="month-toggle-right"><span class="month-cnt-badge">12</span><span class="month-chevron">▾</span></span>
-    </button>
-    <div class="month-body">
-  <a class="stream-row-item" href="oylis-tkq0w.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/Oylis_Tkq0w/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">💸【NANATHON】DAY 2, NEW GOALS = NEW OUTFIT!! ᕙ(  •̀ ᗜ •́  )ᕗ</div>
-      <div class="stream-row-meta">
-        <span>29 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>13:30 WIB</span>
-        <span class="row-sep">·</span>
-        <span>9h 15m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">16</span> peak</span>
-        <span class="rs">&#9825; 90</span>
-        <span class="rs">&#9654; 449</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="q0emxsv6dyo.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/q0EMxsv6Dyo/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">💸【NANATHON】DAY 1 ৻(  •̀ ᗜ •́  ৻)</div>
-      <div class="stream-row-meta">
-        <span>28 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>11:51 WIB</span>
-        <span class="row-sep">·</span>
-        <span>11h 41m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">21</span> peak</span>
-        <span class="rs">&#9825; 116</span>
-        <span class="rs">&#9654; 674</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="i7wwticcjru.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/I7wWtICCjRU/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">👩🏻‍💻Work &amp; Yapp: TEMANIN LEMBUUUUUUURRRRRR AAAAAA( ˵ •̀ □ •́ ˵ )</div>
-      <div class="stream-row-meta">
-        <span>16 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>12:34 WIB</span>
-        <span class="row-sep">·</span>
-        <span>6h 17m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">27</span> peak</span>
-        <span class="rs">&#9825; 89</span>
-        <span class="rs">&#9654; 520</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="n4djbwglk60.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/N4DJbwGlK60/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【VALORANT】KUCING NEMBAK w/ HALU</div>
-      <div class="stream-row-meta">
-        <span>15 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:16 WIB</span>
-        <span class="row-sep">·</span>
-        <span>3h 11m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">11</span> peak</span>
-        <span class="rs">&#9825; 39</span>
-        <span class="rs">&#9654; 155</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="kwkse-msqm.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/-KWKSE_mSQM/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">BILLING DIBAWAH  100JAM AKU HARUS 😎 TEMANI AKU HARI INI!!</div>
-      <div class="stream-row-meta">
-        <span>14 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>13:19 WIB</span>
-        <span class="row-sep">·</span>
-        <span>8h 12m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">33</span> peak</span>
-        <span class="rs">&#9825; 132</span>
-        <span class="rs">&#9654; 654</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="c2hheyfsopq.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/c2HHeYFsoPQ/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【KULONIKU: BOWL UP!】NGEBAKSO?!👩🏻‍🍳🥘</div>
-      <div class="stream-row-meta">
-        <span>13 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:29 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 47m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">13</span> peak</span>
-        <span class="rs">&#9825; 61</span>
-        <span class="rs">&#9654; 143</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="jkvwlcazqqm.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/JKVWLCaZqQM/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【Valorant】istirahat kerja dulu, mau main ya hehe ✦ Donafet 04</div>
-      <div class="stream-row-meta">
-        <span>09 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>13:04 WIB</span>
-        <span class="row-sep">·</span>
-        <span>5h 26m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">23</span> peak</span>
-        <span class="rs">&#9825; 76</span>
-        <span class="rs">&#9654; 332</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="mi6qqsgscea.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/mi6QqSGsceA/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【Valorant】sudah 3 bulan ga main valo, mau ranked ✦ Donafet 05</div>
-      <div class="stream-row-meta">
-        <span>07 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>16:47 WIB</span>
-        <span class="row-sep">·</span>
-        <span>3h 49m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">22</span> peak</span>
-        <span class="rs">&#9825; 63</span>
-        <span class="rs">&#9654; 228</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="a9utarq4h-4.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/A9utArQ4H_4/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">👩🏻‍💻Work &amp; Yapp: Lanjuut grinding sambil yap yap! ✦ Donafet 03</div>
-      <div class="stream-row-meta">
-        <span>07 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>11:22 WIB</span>
-        <span class="row-sep">·</span>
-        <span>4h 16m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">27</span> peak</span>
-        <span class="rs">&#9825; 104</span>
-        <span class="rs">&#9654; 304</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="ihmhqpj0k3k.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/iHmhqPJ0k3k/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">🎮【Apex Legends】main bntr ajh, bisa nembak gk yh 😔 ✦ Donafet 02</div>
-      <div class="stream-row-meta">
-        <span>02 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>23:33 WIB</span>
-        <span class="row-sep">·</span>
-        <span>1h 58m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">38</span> peak</span>
-        <span class="rs">&#9825; 28</span>
-        <span class="rs">&#9654; 134</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="6ecc8los-x4.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/6eCc8LoS-X4/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">Work &amp; Yapp: Yapping, Grinding Comission April! ✦ Donafet 01</div>
-      <div class="stream-row-meta">
-        <span>02 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:23 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 47m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">26</span> peak</span>
-        <span class="rs">&#9825; 62</span>
-        <span class="rs">&#9654; 243</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="pmqeg9zblis.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/pmqEG9zbLIs/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">aku pulaaaaaaang</div>
-      <div class="stream-row-meta">
-        <span>01 Apr 2026</span>
-        <span class="row-sep">·</span>
-        <span>20:37 WIB</span>
-        <span class="row-sep">·</span>
-        <span>1h 32m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">32</span> peak</span>
-        <span class="rs">&#9825; 97</span>
-        <span class="rs">&#9654; 257</span>
-      </div>
-    </div>
-  </a>
-    </div>
-  </div>
-    </div>
-    <div class="sidebar-col">
-      <div class="side-panel">
-        <div class="panel-hdr">Monthly summary</div>
-        <table class="monthly-tbl">
-          <thead><tr>
-            <th>Month</th><th>Streams</th><th>Peak CCV</th>
-          </tr></thead>
-          <tbody>
-      <tr>
-        <td><a class="month-a" href="#">July 2026</a></td>
-        <td><span class="month-cnt">9</span></td>
-        <td class="month-peak">22</td>
-      </tr>
-      <tr class="month-best-row">
-        <td><a class="month-a" href="#">June 2026</a></td>
-        <td><span class="month-cnt">6</span></td>
-        <td class="month-peak">38</td>
-      </tr>
-      <tr>
-        <td><a class="month-a" href="#">May 2026</a></td>
-        <td><span class="month-cnt">4</span></td>
-        <td class="month-peak">30</td>
-      </tr>
-      <tr>
-        <td><a class="month-a" href="#">April 2026</a></td>
-        <td><span class="month-cnt">12</span></td>
-        <td class="month-peak">38</td>
-      </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="side-panel">
-        <div class="panel-hdr">Subscribers</div>
-        <div class="subs-body">
-          <div class="subs-count">16,300</div>
-          <div class="subs-label">YouTube subscribers</div>
-        </div>
-      </div>
-      <div class="side-panel">
-        <div class="panel-hdr">Channel records</div>
-        <div class="rec-row">
-          <div><div class="rec-lbl">Peak CCV</div><div class="rec-val">38</div><div class="rec-ctx">🎮【VALORANT】rank udah 500 tapi masi bapuk😭 | D…</div></div>
-          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">22 Jun 2026</div></div>
-        </div>
-        <div class="rec-row">
-          <div><div class="rec-lbl">Most liked</div><div class="rec-val">132</div><div class="rec-ctx">BILLING DIBAWAH  100JAM AKU HARUS 😎 TEMANI AK…</div></div>
-          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">14 Apr 2026</div></div>
-        </div>
-        <div class="rec-row">
-          <div><div class="rec-lbl">Most viewed</div><div class="rec-val">674</div><div class="rec-ctx">💸【NANATHON】DAY 1 ৻(  •̀ ᗜ •́  ৻)</div></div>
-          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">28 Apr 2026</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+  <p class="generated">Generated 2026-07-15 21:10 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
 <script>
-(function(){
-  document.querySelectorAll(".month-toggle").forEach(function(btn){
-    btn.addEventListener("click", function(){
-      var grp = btn.closest(".month-group");
-      var open = grp.classList.toggle("is-open");
-      btn.setAttribute("aria-expanded", open ? "true" : "false");
-    });
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["21:02", "21:03", "21:04", "21:05", "21:09"];
+const views = [2, 5, 5, 8, 12];
+const likes = [6, 7, 11, 12, 18];
+const comms = [0, 0, 0, 0, 0];
+const VIDEO_ID = "-HNlxim3i_c";
+const orgColor = '#a0b6c2';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
   });
-})();
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
 </script>
 
   <footer>
