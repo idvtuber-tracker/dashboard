@@ -33170,7 +33170,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-17 03:01 WIB"
+    "generated_at": "2026-07-17 03:16 WIB"
   },
   "8vlycupXUZM": {
     "org_slug": "asobu-production",
@@ -33484,8 +33484,8 @@
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
-    "status": "live",
-    "generated_at": "2026-07-17 03:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-17 03:16 WIB"
   },
   "6LuTmaZsrtM": {
     "org_slug": "gravt",
@@ -33499,7 +33499,7 @@
     "ch_slug": "selia-aisnith-crims-on",
     "ch_name": "Selia Aisnith 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-17 03:01 WIB"
+    "generated_at": "2026-07-17 03:16 WIB"
   },
   "UHwmlNWTq3I": {
     "org_slug": "eon-of-stars",
@@ -33512,7 +33512,7 @@
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-07-17 03:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-17 03:16 WIB"
   }
 }
