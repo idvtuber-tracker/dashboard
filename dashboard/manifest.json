@@ -472,8 +472,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-16 16:10 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-16 16:28 WIB"
   },
   "cCHsOkD9Lp0": {
     "org_slug": "dasoriyal",
@@ -500,8 +500,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "serein-venetia-ch-snowvalley",
     "ch_name": "Serein Venetia Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-07-16 16:10 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-16 16:28 WIB"
   },
   "E1homSSBxhg": {
     "org_slug": "pandavva",
@@ -33128,34 +33128,55 @@
     "ch_slug": "chikage-nox-hrcome",
     "ch_name": "Chikage Nox 【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-16 16:10 WIB"
+    "generated_at": "2026-07-16 16:28 WIB"
   },
   "M4HiPf4sECQ": {
     "org_slug": "magisona",
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-16 16:10 WIB"
+    "generated_at": "2026-07-16 16:28 WIB"
   },
   "iBsjCIJdytc": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-aka-virtual",
     "ch_name": "Ryoutaa  【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-16 16:10 WIB"
+    "generated_at": "2026-07-16 16:28 WIB"
   },
   "LhzbMexmEf8": {
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-07-16 16:10 WIB"
+    "generated_at": "2026-07-16 16:28 WIB"
   },
   "HBzJlwgY1ZA": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-07-16 16:10 WIB"
+    "generated_at": "2026-07-16 16:28 WIB"
+  },
+  "rFhX43bUoqU": {
+    "org_slug": "crims-on",
+    "ch_slug": "makoto-takuma-crims-on",
+    "ch_name": "Makoto Takuma 【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-07-16 16:28 WIB"
+  },
+  "WQ8tsXCBrqs": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-07-16 16:28 WIB"
+  },
+  "8vlycupXUZM": {
+    "org_slug": "asobu-production",
+    "ch_slug": "hakuro-nakayoshi-asobu",
+    "ch_name": "Hakuro Nakayoshi 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-07-16 16:28 WIB"
   }
 }
