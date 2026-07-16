@@ -33170,7 +33170,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "8vlycupXUZM": {
     "org_slug": "asobu-production",
@@ -33191,7 +33191,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "jHfcCkRRztA": {
     "org_slug": "crims-on",
@@ -33204,22 +33204,22 @@
     "org_slug": "magniv",
     "ch_slug": "shiru-magniv",
     "ch_name": "Shiru 【MagniV】",
-    "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "tgTB-oXYUIA": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
-    "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "tA2ZP4-CpLw": {
     "org_slug": "pandavva",
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "y8BpEszLxv8": {
     "org_slug": "lav-idn",
@@ -33233,14 +33233,14 @@
     "ch_slug": "thalia-symphonia-prism-nova",
     "ch_name": "Thalia Symphonia 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "8owTML4gbKQ": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "hT0ZM5Y8XGk": {
     "org_slug": "eon-of-stars",
@@ -33254,21 +33254,21 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "hrmgoY9va0Y": {
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "Ae47qKL3u0A": {
     "org_slug": "afterain",
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "ix6CRXTO82w": {
     "org_slug": "whicker-butler",
@@ -33282,21 +33282,21 @@
     "ch_slug": "airi-airintika-laeta",
     "ch_name": "Airi Airintika【LAETA】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "JCT7zm8eu8w": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "S3jrjqbzO3E": {
     "org_slug": "vcosmix",
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
-    "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "VQySRyfdAF0": {
     "org_slug": "yorukaze",
@@ -33317,160 +33317,167 @@
     "ch_slug": "fuyumi-celestia-maha5",
     "ch_name": "Fuyumi Celestia【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "KHLws_cvxwI": {
     "org_slug": "eon-of-stars",
     "ch_slug": "gingitsune-gehenna-eos",
     "ch_name": "Gingitsune Gehenna【EOS】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "cPPi7sk5_EU": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "jImI4yZC0Jc": {
     "org_slug": "maha5",
     "ch_slug": "maudy-sukaiga-maha5",
     "ch_name": "Maudy Sukaiga【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "kxXwFcXk_AA": {
     "org_slug": "crims-on",
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "bEzFMU2ywNM": {
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "Obj0RlTbySI": {
     "org_slug": "kanau-virtual",
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "ZfX9YTYjXTE": {
     "org_slug": "lav-idn",
     "ch_slug": "akane-nanase-ch-lav",
     "ch_name": "Akane Nanase Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "XzP2z2jLqyA": {
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "mA_RfokqZaw": {
     "org_slug": "gravt",
     "ch_slug": "ave-kanehoshii-gravt-aka-virtual",
     "ch_name": "Ave Kanehoshii【GRAVT】【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "OEfHfxjPzew": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "oV_XrxtLAEA": {
     "org_slug": "vcosmix",
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
-    "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "aSoc-SyflV8": {
     "org_slug": "versa",
     "ch_slug": "alarich-aka-virtual",
     "ch_name": "Alarich【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "MQIc62dIBZg": {
     "org_slug": "gravt",
     "ch_slug": "akemi-ch-gravt-aka-virtual",
     "ch_name": "Akemi Ch. 猫町アケミ【GRAVT】【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "5Nss8cxjEUI": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "J7N0zC1V-iw": {
     "org_slug": "laeta",
     "ch_slug": "mizuky-okami-laeta",
     "ch_name": "Mizuky Okami 【LAETA】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "KV5syUIvLt8": {
     "org_slug": "pandavva",
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "W9U9bwz9BSo": {
     "org_slug": "whicker-butler",
     "ch_slug": "valthea-nankila-whicker-butler",
     "ch_name": "Valthea Nankila 【 Whicker Butler 】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "kVfXj-Rl5Mw": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "4uaH1RwmoBE": {
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "8QwFutA0X48": {
     "org_slug": "cozycazt",
     "ch_slug": "arphina-stellaria-cozycazt",
     "ch_name": "Arphina Stellaria【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "wWf7yAvaWtU": {
     "org_slug": "magniv",
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
   },
   "xBoSLzB3wfU": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-16 21:43 WIB"
+    "generated_at": "2026-07-16 22:01 WIB"
+  },
+  "Ok5YkyaKvb0": {
+    "org_slug": "vcosmix",
+    "ch_slug": "li-mingshu-ch",
+    "ch_name": "Li Mingshu Ch.",
+    "status": "live",
+    "generated_at": "2026-07-16 22:01 WIB"
   }
 }
