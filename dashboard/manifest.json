@@ -33169,8 +33169,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-17 13:15 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-17 13:31 WIB"
   },
   "8vlycupXUZM": {
     "org_slug": "asobu-production",
@@ -33534,34 +33534,48 @@
     "ch_slug": "avy-inkaiserin-afterain",
     "ch_name": "Avy Inkaiserin 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-17 13:15 WIB"
+    "generated_at": "2026-07-17 13:31 WIB"
   },
   "UFpJvuSYII0": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-17 13:15 WIB"
+    "generated_at": "2026-07-17 13:31 WIB"
   },
   "U19aycGHZvA": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-17 13:15 WIB"
+    "generated_at": "2026-07-17 13:31 WIB"
   },
   "5xei90Vsm2A": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-17 13:15 WIB"
+    "generated_at": "2026-07-17 13:31 WIB"
   },
   "Fz1KGNbrvzQ": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-07-17 13:15 WIB"
+    "generated_at": "2026-07-17 13:31 WIB"
+  },
+  "lG6CYQ5ZLZc": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-07-17 13:31 WIB"
+  },
+  "q7kFDgUw_wM": {
+    "org_slug": "lav-idn",
+    "ch_slug": "kanata-reina-ch-lav",
+    "ch_name": "Kanata Reina Ch.【LAV】",
+    "status": "live",
+    "generated_at": "2026-07-17 13:31 WIB"
   }
 }
