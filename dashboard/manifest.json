@@ -33569,7 +33569,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-17 18:10 WIB"
+    "generated_at": "2026-07-17 18:27 WIB"
   },
   "q7kFDgUw_wM": {
     "org_slug": "lav-idn",
@@ -33583,7 +33583,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-07-17 18:10 WIB"
+    "generated_at": "2026-07-17 18:27 WIB"
   },
   "LA5YRT8fjlY": {
     "org_slug": "dasoriyal",
@@ -33638,8 +33638,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-17 18:10 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-17 18:27 WIB"
   },
   "TKbVUbK6rUA": {
     "org_slug": "pandavva",
@@ -33653,6 +33653,13 @@
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-17 18:10 WIB"
+    "generated_at": "2026-07-17 18:27 WIB"
+  },
+  "jmX4f6Eq_DI": {
+    "org_slug": "hrcome",
+    "ch_slug": "viera-aori-hrcome",
+    "ch_name": "Viera Aori【HRCOME】",
+    "status": "live",
+    "generated_at": "2026-07-17 18:27 WIB"
   }
 }
