@@ -33569,7 +33569,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-17 19:00 WIB"
+    "generated_at": "2026-07-17 19:06 WIB"
   },
   "q7kFDgUw_wM": {
     "org_slug": "lav-idn",
@@ -33653,13 +33653,20 @@
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-17 19:00 WIB"
+    "generated_at": "2026-07-17 19:06 WIB"
   },
   "jmX4f6Eq_DI": {
     "org_slug": "hrcome",
     "ch_slug": "viera-aori-hrcome",
     "ch_name": "Viera Aori【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-17 19:00 WIB"
+    "generated_at": "2026-07-17 19:06 WIB"
+  },
+  "KojHcaBQGZA": {
+    "org_slug": "prism-nova",
+    "ch_slug": "oxa-lydea-prism-nova",
+    "ch_name": "Oxa Lydea 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-07-17 19:06 WIB"
   }
 }
