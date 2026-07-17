@@ -33170,7 +33170,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-17 07:14 WIB"
+    "generated_at": "2026-07-17 07:30 WIB"
   },
   "8vlycupXUZM": {
     "org_slug": "asobu-production",
@@ -33521,5 +33521,12 @@
     "ch_name": "Ave Kanehoshii【GRAVT】【AKA Virtual】",
     "status": "vod",
     "generated_at": "2026-07-17 07:14 WIB"
+  },
+  "dy-x5y1hyFk": {
+    "org_slug": "gravt",
+    "ch_slug": "ave-kanehoshii-gravt-aka-virtual",
+    "ch_name": "Ave Kanehoshii【GRAVT】【AKA Virtual】",
+    "status": "live",
+    "generated_at": "2026-07-17 07:30 WIB"
   }
 }
