@@ -33569,7 +33569,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-17 19:31 WIB"
+    "generated_at": "2026-07-17 19:46 WIB"
   },
   "q7kFDgUw_wM": {
     "org_slug": "lav-idn",
@@ -33653,41 +33653,62 @@
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-17 19:31 WIB"
+    "generated_at": "2026-07-17 19:46 WIB"
   },
   "jmX4f6Eq_DI": {
     "org_slug": "hrcome",
     "ch_slug": "viera-aori-hrcome",
     "ch_name": "Viera Aori【HRCOME】",
-    "status": "live",
-    "generated_at": "2026-07-17 19:31 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-17 19:46 WIB"
   },
   "KojHcaBQGZA": {
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-17 19:31 WIB"
+    "generated_at": "2026-07-17 19:46 WIB"
   },
   "kB2hG90SJMk": {
     "org_slug": "prism-nova",
     "ch_slug": "thalia-symphonia-prism-nova",
     "ch_name": "Thalia Symphonia 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-17 19:31 WIB"
+    "generated_at": "2026-07-17 19:46 WIB"
   },
   "CBdn8EQ0274": {
     "org_slug": "pandavva",
     "ch_slug": "pandavva-official",
     "ch_name": "PANDAVVA Official",
     "status": "live",
-    "generated_at": "2026-07-17 19:31 WIB"
+    "generated_at": "2026-07-17 19:46 WIB"
   },
   "n5AGLeMwLj8": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-07-17 19:31 WIB"
+    "generated_at": "2026-07-17 19:46 WIB"
+  },
+  "6IXDbz7aDrk": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "noazumi-ch-kanau-virtual",
+    "ch_name": "Noazumi Ch.【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-07-17 19:46 WIB"
+  },
+  "1CvFTPknwrg": {
+    "org_slug": "uver-id",
+    "ch_slug": "isabella-naemi-ch-uver-id",
+    "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-07-17 19:46 WIB"
+  },
+  "Ix_9z6D1W7M": {
+    "org_slug": "evren-community",
+    "ch_slug": "amami-yoruna",
+    "ch_name": "Amami Yoruna",
+    "status": "live",
+    "generated_at": "2026-07-17 19:46 WIB"
   }
 }
