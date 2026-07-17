@@ -33569,7 +33569,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-17 19:46 WIB"
+    "generated_at": "2026-07-17 20:02 WIB"
   },
   "q7kFDgUw_wM": {
     "org_slug": "lav-idn",
@@ -33653,7 +33653,7 @@
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-17 19:46 WIB"
+    "generated_at": "2026-07-17 20:02 WIB"
   },
   "jmX4f6Eq_DI": {
     "org_slug": "hrcome",
@@ -33667,48 +33667,90 @@
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-17 19:46 WIB"
+    "generated_at": "2026-07-17 20:02 WIB"
   },
   "kB2hG90SJMk": {
     "org_slug": "prism-nova",
     "ch_slug": "thalia-symphonia-prism-nova",
     "ch_name": "Thalia Symphonia 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-17 19:46 WIB"
+    "generated_at": "2026-07-17 20:02 WIB"
   },
   "CBdn8EQ0274": {
     "org_slug": "pandavva",
     "ch_slug": "pandavva-official",
     "ch_name": "PANDAVVA Official",
     "status": "live",
-    "generated_at": "2026-07-17 19:46 WIB"
+    "generated_at": "2026-07-17 20:02 WIB"
   },
   "n5AGLeMwLj8": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-07-17 19:46 WIB"
+    "generated_at": "2026-07-17 20:02 WIB"
   },
   "6IXDbz7aDrk": {
     "org_slug": "kanau-virtual",
     "ch_slug": "noazumi-ch-kanau-virtual",
     "ch_name": "Noazumi Ch.【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-07-17 19:46 WIB"
+    "generated_at": "2026-07-17 20:02 WIB"
   },
   "1CvFTPknwrg": {
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-17 19:46 WIB"
+    "generated_at": "2026-07-17 20:02 WIB"
   },
   "Ix_9z6D1W7M": {
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-07-17 19:46 WIB"
+    "generated_at": "2026-07-17 20:02 WIB"
+  },
+  "8pQs6ip0tXA": {
+    "org_slug": "eon-of-stars",
+    "ch_slug": "mikazuki-arion-eos",
+    "ch_name": "Mikazuki Arion【EOS】",
+    "status": "live",
+    "generated_at": "2026-07-17 20:02 WIB"
+  },
+  "LUCey2aWVTQ": {
+    "org_slug": "crims-on",
+    "ch_slug": "cole-calamello-crims-on",
+    "ch_name": "Cole Calamello【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-07-17 20:02 WIB"
+  },
+  "cb2mWzqpVxs": {
+    "org_slug": "magniv",
+    "ch_slug": "cancncn-ezacancan-magniv",
+    "ch_name": "CANCNCN -Ezacancan-【MagniV】",
+    "status": "live",
+    "generated_at": "2026-07-17 20:02 WIB"
+  },
+  "3kDIW5STeOQ": {
+    "org_slug": "arvi-media",
+    "ch_slug": "makotoshi-ch",
+    "ch_name": "Makotoshi Ch.",
+    "status": "live",
+    "generated_at": "2026-07-17 20:02 WIB"
+  },
+  "QXjnqKFNOzI": {
+    "org_slug": "crims-on",
+    "ch_slug": "makoto-takuma-crims-on",
+    "ch_name": "Makoto Takuma 【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-07-17 20:02 WIB"
+  },
+  "NhMdZq_xRGs": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "naona-neon-ch-snowvalley",
+    "ch_name": "Naona Neon Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-07-17 20:02 WIB"
   }
 }
