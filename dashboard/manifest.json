@@ -33569,7 +33569,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-17 17:52 WIB"
+    "generated_at": "2026-07-17 18:10 WIB"
   },
   "q7kFDgUw_wM": {
     "org_slug": "lav-idn",
@@ -33583,7 +33583,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-07-17 17:52 WIB"
+    "generated_at": "2026-07-17 18:10 WIB"
   },
   "LA5YRT8fjlY": {
     "org_slug": "dasoriyal",
@@ -33639,7 +33639,7 @@
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-17 17:52 WIB"
+    "generated_at": "2026-07-17 18:10 WIB"
   },
   "TKbVUbK6rUA": {
     "org_slug": "pandavva",
@@ -33647,5 +33647,12 @@
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "vod",
     "generated_at": "2026-07-17 17:18 WIB"
+  },
+  "G6QeF2uCme4": {
+    "org_slug": "afterain",
+    "ch_slug": "poffie-hunni-afterain",
+    "ch_name": "Poffie Hunni【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-07-17 18:10 WIB"
   }
 }
