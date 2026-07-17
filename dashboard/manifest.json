@@ -33975,13 +33975,20 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-18 06:43 WIB"
+    "generated_at": "2026-07-18 06:49 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-18 06:43 WIB"
+    "generated_at": "2026-07-18 06:49 WIB"
+  },
+  "6UPC63uaOxU": {
+    "org_slug": "afterain",
+    "ch_slug": "ririna-ruu-afterain",
+    "ch_name": "Ririna Ruu【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-07-18 06:49 WIB"
   }
 }
