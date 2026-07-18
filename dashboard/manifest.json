@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-18 18:07 WIB"
+    "generated_at": "2026-07-18 18:23 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34080,7 +34080,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-18 18:07 WIB"
+    "generated_at": "2026-07-18 18:23 WIB"
   },
   "O0G9YIqCjik": {
     "org_slug": "kanau-virtual",
@@ -34107,15 +34107,15 @@
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-07-18 18:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-18 18:23 WIB"
   },
   "S_sQMGMXlzU": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-18 18:07 WIB"
+    "generated_at": "2026-07-18 18:23 WIB"
   },
   "k_lPEKcv9_o": {
     "org_slug": "magniv",
@@ -34142,8 +34142,8 @@
     "org_slug": "versa",
     "ch_slug": "alarich-aka-virtual",
     "ch_name": "Alarich【AKA Virtual】",
-    "status": "live",
-    "generated_at": "2026-07-18 18:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-18 18:23 WIB"
   },
   "XvAA24rEqM4": {
     "org_slug": "whicker-butler",
@@ -34156,21 +34156,21 @@
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-18 18:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-18 18:23 WIB"
   },
   "SMcXYWEmUcU": {
     "org_slug": "yorukaze",
     "ch_slug": "vincent-cerbero-yorukaze",
     "ch_name": "Vincent Cerbero【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-18 18:07 WIB"
+    "generated_at": "2026-07-18 18:23 WIB"
   },
   "yvQnE7Fdfns": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-18 18:07 WIB"
+    "generated_at": "2026-07-18 18:23 WIB"
   }
 }
