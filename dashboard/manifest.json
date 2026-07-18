@@ -33975,14 +33975,14 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "6UPC63uaOxU": {
     "org_slug": "afterain",
@@ -33996,7 +33996,7 @@
     "ch_slug": "tanyata-tiada-yorukaze",
     "ch_name": "Tanyata Tiada タニャ 【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "w3ltS7f-05w": {
     "org_slug": "project-livium",
@@ -34017,55 +34017,62 @@
     "ch_slug": "akemi-ch-gravt-aka-virtual",
     "ch_name": "Akemi Ch. 猫町アケミ【GRAVT】【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "l7zdO6dRxy8": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "G03-ZMNfbJk": {
     "org_slug": "gravt",
     "ch_slug": "daem-gravt",
     "ch_name": "daem【GRAVT】",
-    "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "8Tt9vbN3ydI": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "2HWiGY2v1pU": {
     "org_slug": "versa",
     "ch_slug": "eray-ryuki-aka-virtual",
     "ch_name": "Eray Ryuki【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "HV3sBgbfeTw": {
     "org_slug": "afterain",
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "Njr-gJicvEE": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
   },
   "xo3XscrJ_fU": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-18 13:17 WIB"
+    "generated_at": "2026-07-18 13:33 WIB"
+  },
+  "J6alA_FtE2Y": {
+    "org_slug": "magisona",
+    "ch_slug": "iofiel-feliz-ch-magisona",
+    "ch_name": "ioFiel Feliz Ch.【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-07-18 13:33 WIB"
   }
 }
