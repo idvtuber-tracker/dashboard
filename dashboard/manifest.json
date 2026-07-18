@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-19 05:44 WIB"
+    "generated_at": "2026-07-19 05:56 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34177,8 +34177,8 @@
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-07-19 05:44 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-19 05:56 WIB"
   },
   "6SbDSEfbhU4": {
     "org_slug": "prism-nova",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-19 05:44 WIB"
+    "generated_at": "2026-07-19 05:56 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34444,6 +34444,6 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-19 05:44 WIB"
+    "generated_at": "2026-07-19 05:56 WIB"
   }
 }
