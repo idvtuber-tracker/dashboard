@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-18 19:02 WIB"
+    "generated_at": "2026-07-18 19:18 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34080,7 +34080,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-18 19:02 WIB"
+    "generated_at": "2026-07-18 19:18 WIB"
   },
   "O0G9YIqCjik": {
     "org_slug": "kanau-virtual",
@@ -34115,7 +34115,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-18 19:02 WIB"
+    "generated_at": "2026-07-18 19:18 WIB"
   },
   "k_lPEKcv9_o": {
     "org_slug": "magniv",
@@ -34171,20 +34171,27 @@
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-18 19:02 WIB"
+    "generated_at": "2026-07-18 19:18 WIB"
   },
   "61akZ7DmaRA": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-18 19:02 WIB"
+    "generated_at": "2026-07-18 19:18 WIB"
   },
   "6SbDSEfbhU4": {
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-18 19:02 WIB"
+    "generated_at": "2026-07-18 19:18 WIB"
+  },
+  "aG-IHhERWRs": {
+    "org_slug": "magniv",
+    "ch_slug": "magniv",
+    "ch_name": "MagniV",
+    "status": "live",
+    "generated_at": "2026-07-18 19:18 WIB"
   }
 }
