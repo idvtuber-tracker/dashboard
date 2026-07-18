@@ -33975,62 +33975,69 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-18 11:25 WIB"
+    "generated_at": "2026-07-18 11:42 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-18 11:25 WIB"
+    "generated_at": "2026-07-18 11:42 WIB"
   },
   "6UPC63uaOxU": {
     "org_slug": "afterain",
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-18 11:25 WIB"
+    "generated_at": "2026-07-18 11:42 WIB"
   },
   "43TcZ6dMz9Y": {
     "org_slug": "yorukaze",
     "ch_slug": "tanyata-tiada-yorukaze",
     "ch_name": "Tanyata Tiada タニャ 【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-18 11:25 WIB"
+    "generated_at": "2026-07-18 11:42 WIB"
   },
   "w3ltS7f-05w": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-18 11:25 WIB"
+    "generated_at": "2026-07-18 11:42 WIB"
   },
   "iKGfnVtQavU": {
     "org_slug": "versa",
     "ch_slug": "sourizu-aka-virtual",
     "ch_name": "SouRizu☪︎【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-18 11:25 WIB"
+    "generated_at": "2026-07-18 11:42 WIB"
   },
   "zRz3mMiodzU": {
     "org_slug": "gravt",
     "ch_slug": "akemi-ch-gravt-aka-virtual",
     "ch_name": "Akemi Ch. 猫町アケミ【GRAVT】【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-18 11:25 WIB"
+    "generated_at": "2026-07-18 11:42 WIB"
   },
   "l7zdO6dRxy8": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-07-18 11:25 WIB"
+    "generated_at": "2026-07-18 11:42 WIB"
   },
   "G03-ZMNfbJk": {
     "org_slug": "gravt",
     "ch_slug": "daem-gravt",
     "ch_name": "daem【GRAVT】",
     "status": "live",
-    "generated_at": "2026-07-18 11:25 WIB"
+    "generated_at": "2026-07-18 11:42 WIB"
+  },
+  "8Tt9vbN3ydI": {
+    "org_slug": "yorukaze",
+    "ch_slug": "crystallyn-caparina",
+    "ch_name": "Crystallyn Caparina",
+    "status": "live",
+    "generated_at": "2026-07-18 11:42 WIB"
   }
 }
