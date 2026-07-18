@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34080,7 +34080,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "O0G9YIqCjik": {
     "org_slug": "kanau-virtual",
@@ -34115,7 +34115,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "k_lPEKcv9_o": {
     "org_slug": "magniv",
@@ -34170,70 +34170,105 @@
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "61akZ7DmaRA": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "6SbDSEfbhU4": {
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "aG-IHhERWRs": {
     "org_slug": "magniv",
     "ch_slug": "magniv",
     "ch_name": "MagniV",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "7OfzWiAqya8": {
     "org_slug": "maha5",
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "eXTObs0k_LA": {
     "org_slug": "versa",
     "ch_slug": "agata-seven-aka-virtual",
     "ch_name": "Agata Seven【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "aDCeChtGZ5Y": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "9gklcNSg_Zs": {
     "org_slug": "kanau-virtual",
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "Lbz135Znz4Q": {
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
   },
   "hyUoTYzDBTg": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-18 19:50 WIB"
+    "generated_at": "2026-07-18 20:05 WIB"
+  },
+  "bSMxzj4b0LM": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-07-18 20:05 WIB"
+  },
+  "_NtIClC2mdI": {
+    "org_slug": "maha5",
+    "ch_slug": "fuyumi-celestia-maha5",
+    "ch_name": "Fuyumi Celestia【MAHA5】",
+    "status": "live",
+    "generated_at": "2026-07-18 20:05 WIB"
+  },
+  "KV591-mgwnk": {
+    "org_slug": "asobu-production",
+    "ch_slug": "lyra-monphelia-asobu",
+    "ch_name": "Lyra Monphelia 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-07-18 20:05 WIB"
+  },
+  "H9PAgDL5w_o": {
+    "org_slug": "hrcome",
+    "ch_slug": "netazura-rasy-hrcome",
+    "ch_name": "Netazura Rasy【HRCOME】",
+    "status": "live",
+    "generated_at": "2026-07-18 20:05 WIB"
+  },
+  "OjzY9uGdBzM": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "hali-ch-dasoriyal",
+    "ch_name": "Hali Ch. 『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-07-18 20:05 WIB"
   }
 }
