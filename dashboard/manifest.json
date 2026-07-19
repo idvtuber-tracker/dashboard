@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34444,7 +34444,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "etIk-Tb2Lh4": {
     "org_slug": "afterain",
@@ -34472,7 +34472,7 @@
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "0bICCgy0uNk": {
     "org_slug": "magniv",
@@ -34513,8 +34513,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "vWYP82cnHHU": {
     "org_slug": "versa",
@@ -34527,8 +34527,8 @@
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "9m0L0ashaj8": {
     "org_slug": "laeta",
@@ -34542,35 +34542,35 @@
     "ch_slug": "alarich-aka-virtual",
     "ch_name": "Alarich【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "4R4VMwiZtOc": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "eXx2FEyoB14": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "lfHhe_y1EhU": {
     "org_slug": "cozycazt",
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "0cefRo0UG8Y": {
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "E6wCv0r3uJE": {
     "org_slug": "laeta",
@@ -34584,20 +34584,27 @@
     "ch_slug": "sevina-reina-laeta",
     "ch_name": "Sevina Reina【LAETA】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "EYAAEgqkcwY": {
     "org_slug": "hrcome",
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
   },
   "P6kb1mGwkR0": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-19 16:11 WIB"
+    "generated_at": "2026-07-19 16:27 WIB"
+  },
+  "a9sCukQVWa8": {
+    "org_slug": "uver-id",
+    "ch_slug": "jae-min-ho-uver-id",
+    "ch_name": "Jae Min Ho [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-07-19 16:27 WIB"
   }
 }
