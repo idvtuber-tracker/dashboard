@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34640,7 +34640,7 @@
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "UuJQxbsaB-o": {
     "org_slug": "yorukaze",
@@ -34661,7 +34661,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "ZXRA7oni5Ak": {
     "org_slug": "lav-idn",
@@ -34675,28 +34675,28 @@
     "ch_slug": "maura-nilambari-jkt48v",
     "ch_name": "Maura Nilambari - JKT48V",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "VkuNAormXGY": {
     "org_slug": "prism-nova",
     "ch_slug": "serika-cosmica-prism-nova",
     "ch_name": "Serika Cosmica 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "Co1LPX_dy5k": {
     "org_slug": "kanau-virtual",
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "rJlXj2Ghw2s": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "serein-venetia-ch-snowvalley",
     "ch_name": "Serein Venetia Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "RsVI75WLTOA": {
     "org_slug": "hrcome",
@@ -34709,42 +34709,49 @@
     "org_slug": "laeta",
     "ch_slug": "mizuky-okami-laeta",
     "ch_name": "Mizuky Okami 【LAETA】",
-    "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "nxqZVtvuRIQ": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "H1n9azoBuK8": {
     "org_slug": "dasoriyal",
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "_oLDBP4951E": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "1c-KYfI_9GA": {
     "org_slug": "yorukaze",
     "ch_slug": "code-noichi-ch-yorukaze",
     "ch_name": "CODE : NOICHI Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
   },
   "QqE16M5tmzE": {
     "org_slug": "whicker-butler",
     "ch_slug": "oriana-solstair-whicker-butler",
     "ch_name": "Oriana Solstair【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-07-19 22:14 WIB"
+    "generated_at": "2026-07-19 22:31 WIB"
+  },
+  "R6p2smaaTdI": {
+    "org_slug": "cozycazt",
+    "ch_slug": "silveryshore-ch-cozycazt",
+    "ch_name": "Silveryshore Ch.【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-07-19 22:31 WIB"
   }
 }
