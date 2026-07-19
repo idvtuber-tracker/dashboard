@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>Yorukaze Production — IDVTuber Tracker</title>
+<title>TEST STREAM, MIGHT DELETE LATER — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -530,256 +532,212 @@
 </head>
 <body>
 <nav class="site-nav">
-  <a class="site-nav-logo" href="../index.html">IDVTuber <em>Tracker</em></a>
+  <a class="site-nav-logo" href="../../index.html">IDVTuber <em>Tracker</em></a>
   <span class="nav-spacer"></span>
   <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
 </nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">Yorukaze Production</span></nav>
-  <div class="org-hero">
-    <div class="org-hero-accent"></div>
-    <div class="org-hero-body">
-      <div class="org-hero-info">
-        <div class="org-hero-name">Yorukaze Production</div>
-        <div class="org-hero-desc">An Indonesian VTuber organization serving as a bridge and support platform for virtual content creators.</div>
-        <div class="org-hero-stats">
-          <div class="ohs"><div class="ohs-val">14</div><div class="ohs-lbl">Channels</div></div>
-          <div class="ohs"><div class="ohs-val">104</div><div class="ohs-lbl">Streams</div></div>
-          <div class="ohs"><div class="ohs-val">135</div><div class="ohs-lbl">Peak CCV</div></div>
-          <div class="ohs"><div class="ohs-val">97.6K</div><div class="ohs-lbl">Combined subs</div></div>
-        </div>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">Yorukaze Production</a> <span class="sep">&#8250;</span> <a href="index.html">CODE : NOICHI Ch.【Yorukaze】</a> <span class="sep">&#8250;</span> <span class="current">TEST STREAM, MIGHT DELETE LATER</span></nav>
+  <header>
+    <p class="eyebrow">Yorukaze Production &nbsp;&#183;&nbsp; CODE : NOICHI Ch.【Yorukaze】</p>
+    <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
+    <h1>TEST STREAM, MIGHT DELETE LATER</h1>
+    <p class="page-meta">Video ID: 1c-KYfI_9GA</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/1c-KYfI_9GA" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="stream-thumb-meta">
+        <span>2026-07-19 21:57 WIB</span>
+        <a href="https://www.youtube.com/watch?v=1c-KYfI_9GA" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">0</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">—</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">6</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-07-19 21:57 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-07-19 21:57 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">0m 00s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">20</div><div class="kpi-sub">total plays</div></div>
       </div>
     </div>
   </div>
-  <div class="sort-strip">
-    <span class="sort-lbl">Sort by:</span>
-    <span class="sort-chip active">Subscribers</span>
-    <span class="sort-chip">Peak CCV</span>
-    <span class="sort-chip">Peak Likes</span>
-    <span class="sort-chip">Streams</span>
-    <span class="sort-chip">A&#8211;Z</span>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
-  <div class="channels-grid">
-    <a class="channel-card" href="yorukaze-production/index.html" data-name="Yorukaze Production" data-subs="1900" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/lptqYqnz30BJHbNI0EhFWa3DbDhKD5-8uqHai9VQxpAvyC9ogolS_SPoiKW2b6JcjOc0zVYB=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>YP</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Yorukaze Production</div>
-          <div class="ch-card-role">Org Channel</div>
-        </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
       </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.9K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="hessa-elainore-ch-yorukaze/index.html" data-name="Hessa Elainore Ch.【Yorukaze】" data-subs="17300" data-streams="13" data-peak="116" data-likes="398">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/N2avGM5n0W1oB_1O2STaJf9qfiZ_ZvA4ll1nnhjLwoPdOemzt8NMeJZAi__g-pKu7XV9yoIzQg=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>HE</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Hessa Elainore Ch.【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">17.3K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">13</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">116</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">398</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="tsukiyo-miho-ch-yorukaze/index.html" data-name="Tsukiyo Miho Ch.【Yorukaze】" data-subs="12100" data-streams="2" data-peak="43" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/tRXk3zk7CNBKMsU3plV1W_lTeXOFIn66SFOrVbRTLfxsXM320sOJwQqBN9WBUiBR9OWl8KQ6ng=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>TM</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Tsukiyo Miho Ch.【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">12.1K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">2</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">43</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="mihiro-kamigawa-yorukaze/index.html" data-name="Mihiro Kamigawa【Yorukaze】" data-subs="2410" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/kvSloL7L9K2Qdy2TTKbnR2rwNorCb9ONBWLeBDK8odgORnXZLgwLAgdGqcGZoIadWwmD7Fl29K0=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>MK</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Mihiro Kamigawa【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">2.4K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="vincent-cerbero-yorukaze/index.html" data-name="Vincent Cerbero【Yorukaze】" data-subs="2720" data-streams="7" data-peak="39" data-likes="26">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/xwXu5jg2iV5GvemTneiHqPPfzpZRJLMMm71yGu6R1LbT6kQPxkB2HBzkMG5JLJnPH2uamGKlqw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>VC</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Vincent Cerbero【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">2.7K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">7</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">39</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">26</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="utahime-yukari-ch-yorukaze/index.html" data-name="Utahime Yukari Ch.【Yorukaze】" data-subs="3850" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/bkRpCCqR1o_fchdnxKTlNpXO49rzrSPbZ6y6_4VooydQa8YJtSPcOWEbQXz7iPrjIm0yEGOITA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>UY</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Utahime Yukari Ch.【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">3.9K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="nanaka-poi-ch-yorukaze/index.html" data-name="Nanaka Poi Ch. 【Yorukaze】" data-subs="3110" data-streams="30" data-peak="31" data-likes="18">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/v_-LVee9lyp4M2lBeypeW4ayfMsg77YVGQLMt7NQNKuLHvor6IrMIvz35QemT-WLQunyhbTD-Q=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>NP</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Nanaka Poi Ch. 【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">3.1K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">30</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">31</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">18</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="amare-michiya-yorukaze/index.html" data-name="Amare Michiya【Yorukaze】" data-subs="5000" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/U9MF_L1TIg0u_zOKHndL2dQlcjL3PYOgqIl6si-aO8yR3fG6-FEE8MelENsNQy83s49JcyenSg=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>AM</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Amare Michiya【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">5.0K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="hoshikawa-rui-yorukaze/index.html" data-name="Hoshikawa Rui【Yorukaze】" data-subs="10900" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/2zd2BUs7Z5dVTC0SuZfUqV8j5M7dnXoTPBuhIcoefInyXu2CGb04YpeXstqMqHPu7xOV02d1eg=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>HR</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Hoshikawa Rui【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">10.9K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="yuzumi-ch-yorukaze/index.html" data-name="Yuzumi_Ch【Yorukaze】" data-subs="2440" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/HzGSiR_-h_I5rexWsFZtjpiA271f1-BkTHnkuH4pgrr9peJWu-lYg4K0QSR2UY8ECJXrumkEWUg=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>YY</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Yuzumi_Ch【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">2.4K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="ellise-youka-yorukaze/index.html" data-name="Ellise Youka【Yorukaze】" data-subs="5840" data-streams="15" data-peak="24" data-likes="70">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/gUUI0A1pLpwTgOFjobGtnnv05gp9hlg76uK7J18ooKYahNH1UAZcCEJwZun4FOi82gUWpOePIA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>EY</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Ellise Youka【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">5.8K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">15</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">24</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">70</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="code-noichi-ch-yorukaze/index.html" data-name="CODE : NOICHI Ch.【Yorukaze】" data-subs="3550" data-streams="4" data-peak="20" data-likes="41">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/8qwglpVXmz9uNybO1WjK4FFa_SPZFm5UhCqVXtXrqlYmaG9WYNVmSvjdVKXAIpQub-kxl_qIJfU=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>C:</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">CODE : NOICHI Ch.【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">3.5K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">4</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">20</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">41</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="tanyata-tiada-yorukaze/index.html" data-name="Tanyata Tiada タニャ 【Yorukaze】" data-subs="8200" data-streams="19" data-peak="68" data-likes="224">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/YinybWeyy0uIio858xetj939oBW7rHm0HpSBrJe2Qg0q53OWzu-8ee4an_8vFv9nUCPQIaTrQA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>TT</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Tanyata Tiada タニャ 【Yorukaze】</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">8.2K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">19</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">68</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">224</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="crystallyn-caparina/index.html" data-name="Crystallyn Caparina" data-subs="18300" data-streams="14" data-peak="135" data-likes="197">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/mW_xBksBWH9rHsNEPJvRJsqYo5AAXj_P8dREhBSi-aWqnnV8w3u8po-KdzNSF0Pn_xMUrH9QKw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>CC</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Crystallyn Caparina</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">18.3K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">14</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">135</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">197</div></div>
-      </div>
-    </a>
+    </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
+
+  <p class="generated">Generated 2026-07-19 21:57 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
+<script>
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["21:57"];
+const views = [0];
+const likes = [6];
+const comms = [0];
+const VIDEO_ID = "1c-KYfI_9GA";
+const orgColor = '#7ec8e3';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
 
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
     <nav class="footer-links">
-      <a href="../index.html">Home</a>
+      <a href="../../index.html">Home</a>
       <span class="footer-sep">·</span>
-      <a href="../privacy.html">Privacy Policy</a>
+      <a href="../../privacy.html">Privacy Policy</a>
       <span class="footer-sep">·</span>
-      <a href="../terms.html">Terms of Use</a>
+      <a href="../../terms.html">Terms of Use</a>
     </nav>
   </footer>
 </div>
@@ -817,47 +775,6 @@
   });
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
     if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
-  });
-})();
-</script>
-
-<script>
-(function () {
-  var grid  = document.querySelector('.channels-grid');
-  var chips = document.querySelectorAll('.sort-chip');
-  if (!grid || !chips.length) return;
-
-  function getVal(card, attr) {
-    return parseFloat(card.getAttribute(attr) || '0') || 0;
-  }
-
-  function sortCards(key) {
-    var cards = Array.from(grid.querySelectorAll('.channel-card'));
-    cards.sort(function (a, b) {
-      if (key === 'az') {
-        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
-      }
-      var map = { 'subs': 'data-subs', 'peak': 'data-peak', 'likes': 'data-likes', 'streams': 'data-streams' };
-      return getVal(b, map[key]) - getVal(a, map[key]);
-    });
-    cards.forEach(function (c) { grid.appendChild(c); });
-  }
-
-  var keyMap = {
-    'Subscribers': 'subs',
-    'Peak CCV':    'peak',
-    'Peak Likes':  'likes',
-    'Streams':     'streams',
-    'A–Z':   'az',
-  };
-
-  chips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      chips.forEach(function (c) { c.classList.remove('active'); });
-      chip.classList.add('active');
-      var key = keyMap[chip.textContent.trim()] || 'subs';
-      sortCards(key);
-    });
   });
 })();
 </script>
