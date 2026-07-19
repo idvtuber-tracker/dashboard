@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34444,7 +34444,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
   },
   "etIk-Tb2Lh4": {
     "org_slug": "afterain",
@@ -34556,7 +34556,7 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
   },
   "lfHhe_y1EhU": {
     "org_slug": "cozycazt",
@@ -34570,7 +34570,7 @@
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
   },
   "E6wCv0r3uJE": {
     "org_slug": "laeta",
@@ -34598,14 +34598,14 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
   },
   "a9sCukQVWa8": {
     "org_slug": "uver-id",
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
   },
   "y0D-BNBjE10": {
     "org_slug": "laeta",
@@ -34619,20 +34619,55 @@
     "ch_slug": "rena-anggraeni-maha5",
     "ch_name": "Rena Anggraeni【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
   },
   "4hFeABalXPg": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
   },
   "ab5efuAE3OU": {
     "org_slug": "whicker-butler",
     "ch_slug": "ignis-grimoire-whicker-butler",
     "ch_name": "Ignis Grimoire【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-07-19 19:19 WIB"
+    "generated_at": "2026-07-19 19:35 WIB"
+  },
+  "nKwswQGX__8": {
+    "org_slug": "pandavva",
+    "ch_slug": "arjuna-arkana-pandavva",
+    "ch_name": "Arjuna Arkana【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-07-19 19:35 WIB"
+  },
+  "UuJQxbsaB-o": {
+    "org_slug": "yorukaze",
+    "ch_slug": "code-noichi-ch-yorukaze",
+    "ch_name": "CODE : NOICHI Ch.【Yorukaze】",
+    "status": "live",
+    "generated_at": "2026-07-19 19:35 WIB"
+  },
+  "ry5-Cw6CX9w": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-07-19 19:35 WIB"
+  },
+  "qYM8rkU2eYA": {
+    "org_slug": "crims-on",
+    "ch_slug": "iana-crims-on",
+    "ch_name": "Iana【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-07-19 19:35 WIB"
+  },
+  "ZXRA7oni5Ak": {
+    "org_slug": "lav-idn",
+    "ch_slug": "kanata-reina-ch-lav",
+    "ch_name": "Kanata Reina Ch.【LAV】",
+    "status": "live",
+    "generated_at": "2026-07-19 19:35 WIB"
   }
 }
