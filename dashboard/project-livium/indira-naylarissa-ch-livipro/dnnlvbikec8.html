@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>Project:LIVIUM — IDVTuber Tracker</title>
+<title>melakukan ini dan itu — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -530,166 +532,212 @@
 </head>
 <body>
 <nav class="site-nav">
-  <a class="site-nav-logo" href="../index.html">IDVTuber <em>Tracker</em></a>
+  <a class="site-nav-logo" href="../../index.html">IDVTuber <em>Tracker</em></a>
   <span class="nav-spacer"></span>
   <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
 </nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">Project:LIVIUM</span></nav>
-  <div class="org-hero">
-    <div class="org-hero-accent"></div>
-    <div class="org-hero-body">
-      <div class="org-hero-info">
-        <div class="org-hero-name">Project:LIVIUM</div>
-        <div class="org-hero-desc">A dynamic VTuber project featuring seven unique talents spanning a wide range of creative personalities.</div>
-        <div class="org-hero-stats">
-          <div class="ohs"><div class="ohs-val">8</div><div class="ohs-lbl">Channels</div></div>
-          <div class="ohs"><div class="ohs-val">484</div><div class="ohs-lbl">Streams</div></div>
-          <div class="ohs"><div class="ohs-val">2,101</div><div class="ohs-lbl">Peak CCV</div></div>
-          <div class="ohs"><div class="ohs-val">234.0K</div><div class="ohs-lbl">Combined subs</div></div>
-        </div>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">Project:LIVIUM</a> <span class="sep">&#8250;</span> <a href="index.html">Indira Naylarissa Ch.〔LiviPro〕</a> <span class="sep">&#8250;</span> <span class="current">melakukan ini dan itu</span></nav>
+  <header>
+    <p class="eyebrow">Project:LIVIUM &nbsp;&#183;&nbsp; Indira Naylarissa Ch.〔LiviPro〕</p>
+    <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
+    <h1>melakukan ini dan itu</h1>
+    <p class="page-meta">Video ID: DNNLVBiKec8</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/DNNLVBiKec8" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="stream-thumb-meta">
+        <span>2026-07-20 19:23 WIB</span>
+        <a href="https://www.youtube.com/watch?v=DNNLVBiKec8" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">88</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">48</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">45</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-07-20 19:23 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-07-20 19:34 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">10m 32s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">126</div><div class="kpi-sub">total plays</div></div>
       </div>
     </div>
   </div>
-  <div class="sort-strip">
-    <span class="sort-lbl">Sort by:</span>
-    <span class="sort-chip active">Subscribers</span>
-    <span class="sort-chip">Peak CCV</span>
-    <span class="sort-chip">Peak Likes</span>
-    <span class="sort-chip">Streams</span>
-    <span class="sort-chip">A&#8211;Z</span>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
-  <div class="channels-grid">
-    <a class="channel-card" href="project-livium/index.html" data-name="Project:LIVIUM" data-subs="5740" data-streams="1" data-peak="79" data-likes="148">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/eDzLtSqZQpOYalrlAo2cIkeCIhTYS34IgVHCfIjbFmMV2G5PU31na-yNVRMpcWPz8InhMB9LGw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>P</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Project:LIVIUM</div>
-          <div class="ch-card-role">Org Channel</div>
-        </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
       </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">5.7K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">1</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">79</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">148</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="indira-naylarissa-ch-livipro/index.html" data-name="Indira Naylarissa Ch.〔LiviPro〕" data-subs="31600" data-streams="120" data-peak="1174" data-likes="1874">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/sK4fNkqb4SvIf7_vRz2EWEVOHP6QLWfGj_4szp3Z_jMrwJLvuGN9QA2nk6BKHbPdN09o8noZtQ=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>IN</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Indira Naylarissa Ch.〔LiviPro〕</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">31.6K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">120</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">1,174</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">1,874</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="silvia-valleria-ch-livipro/index.html" data-name="Silvia Valleria Ch.〔LiviPro〕" data-subs="103000" data-streams="28" data-peak="2101" data-likes="3551">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/xAhS284RZ7jtF6039fD4-8xS_FN5WtMsld1Y4DClFGQLdiU4DivmIPNgiYCOtEhndz0by5wg=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>SV</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Silvia Valleria Ch.〔LiviPro〕</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">103.0K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">28</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">2,101</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">3,551</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="yuura-yozakura-ch-livipro/index.html" data-name="Yuura Yozakura Ch.〔LiviPro〕" data-subs="29600" data-streams="82" data-peak="1288" data-likes="881">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/ofNIxeR1QLHxSQE_Y-xpECQwDBDrp-nhYWoU_OblcboNkIV5YUdlIFJv9cYKWA7kn-jLF7tI=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>YY</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Yuura Yozakura Ch.〔LiviPro〕</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">29.6K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">82</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">1,288</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">881</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="ymelia-meiru-ch-livipro/index.html" data-name="Ymelia Meiru Ch.〔LiviPro〕" data-subs="10600" data-streams="5" data-peak="96" data-likes="343">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/xpEaCfNn-RZO9mBL0hJohVbVXlmr8FHFkrgrIKnnwpj30GLXPlGlOKo5rED1xVxl3wbLVt_Lcg=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>YM</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Ymelia Meiru Ch.〔LiviPro〕</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">10.6K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">5</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">96</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">343</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="fareye-closhartt-ch-livipro/index.html" data-name="Fareye Closhartt Ch.〔LiviPro〕" data-subs="13200" data-streams="83" data-peak="817" data-likes="421">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/hJJfz7iHTKefq0PI8GttrjK8TcdFbQvZnQ58epW9Qm6ZW0cnHRh99e64mvN73qcdUdBIYOupgw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>FC</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Fareye Closhartt Ch.〔LiviPro〕</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">13.2K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">83</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">817</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">421</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="yuela-guigui-ch-livipro/index.html" data-name="Yuela GuiGui Ch.〔LiviPro〕" data-subs="19600" data-streams="107" data-peak="748" data-likes="504">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/iztppHgkmelscK2_7GksLfg093-lcIBwaVbWKKM4cT3WJkP_AGYzYMSMJ3M4VpkYocZFOTNl=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>YG</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Yuela GuiGui Ch.〔LiviPro〕</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">19.6K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">107</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">748</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">504</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="lillis-infernallies-ch-livipro/index.html" data-name="Lillis Infernallies Ch.〔LiviPro〕" data-subs="20700" data-streams="58" data-peak="175" data-likes="357">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/e2LZxVzGLzKl8QCAT4Aps1b704Dv0SvRiwdK26Vi-gfKezUwIyTiPX81d-9s6EPtvJ0FGyyXrA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>LI</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Lillis Infernallies Ch.〔LiviPro〕</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">20.7K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">58</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">175</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">357</div></div>
-      </div>
-    </a>
+    </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
+
+  <p class="generated">Generated 2026-07-20 19:35 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
+<script>
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["19:23", "19:24", "19:25", "19:26", "19:27", "19:28", "19:29", "19:30", "19:34"];
+const views = [26, 30, 38, 38, 43, 51, 59, 61, 88];
+const likes = [18, 22, 24, 26, 30, 32, 37, 39, 45];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+const VIDEO_ID = "DNNLVBiKec8";
+const orgColor = '#47ffb2';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
 
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
     <nav class="footer-links">
-      <a href="../index.html">Home</a>
+      <a href="../../index.html">Home</a>
       <span class="footer-sep">·</span>
-      <a href="../privacy.html">Privacy Policy</a>
+      <a href="../../privacy.html">Privacy Policy</a>
       <span class="footer-sep">·</span>
-      <a href="../terms.html">Terms of Use</a>
+      <a href="../../terms.html">Terms of Use</a>
     </nav>
   </footer>
 </div>
@@ -727,47 +775,6 @@
   });
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
     if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
-  });
-})();
-</script>
-
-<script>
-(function () {
-  var grid  = document.querySelector('.channels-grid');
-  var chips = document.querySelectorAll('.sort-chip');
-  if (!grid || !chips.length) return;
-
-  function getVal(card, attr) {
-    return parseFloat(card.getAttribute(attr) || '0') || 0;
-  }
-
-  function sortCards(key) {
-    var cards = Array.from(grid.querySelectorAll('.channel-card'));
-    cards.sort(function (a, b) {
-      if (key === 'az') {
-        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
-      }
-      var map = { 'subs': 'data-subs', 'peak': 'data-peak', 'likes': 'data-likes', 'streams': 'data-streams' };
-      return getVal(b, map[key]) - getVal(a, map[key]);
-    });
-    cards.forEach(function (c) { grid.appendChild(c); });
-  }
-
-  var keyMap = {
-    'Subscribers': 'subs',
-    'Peak CCV':    'peak',
-    'Peak Likes':  'likes',
-    'Streams':     'streams',
-    'A–Z':   'az',
-  };
-
-  chips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      chips.forEach(function (c) { c.classList.remove('active'); });
-      chip.classList.add('active');
-      var key = keyMap[chip.textContent.trim()] || 'subs';
-      sortCards(key);
-    });
   });
 })();
 </script>
