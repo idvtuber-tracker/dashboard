@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "generated_at": "2026-07-20 13:14 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "generated_at": "2026-07-20 13:14 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34661,7 +34661,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "generated_at": "2026-07-20 13:14 WIB"
   },
   "ZXRA7oni5Ak": {
     "org_slug": "lav-idn",
@@ -34738,7 +34738,7 @@
     "ch_slug": "code-noichi-ch-yorukaze",
     "ch_name": "CODE : NOICHI Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "generated_at": "2026-07-20 13:14 WIB"
   },
   "QqE16M5tmzE": {
     "org_slug": "whicker-butler",
@@ -34779,42 +34779,63 @@
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
-    "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-20 13:14 WIB"
   },
   "vxSBnSuNkkQ": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "generated_at": "2026-07-20 13:14 WIB"
   },
   "skQW-CIpFP0": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-20 13:14 WIB"
   },
   "ndZRj-V1yCk": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "generated_at": "2026-07-20 13:14 WIB"
   },
   "rypBrB68ol4": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "generated_at": "2026-07-20 13:14 WIB"
   },
   "yNZoDAVyNN4": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-20 12:59 WIB"
+    "generated_at": "2026-07-20 13:14 WIB"
+  },
+  "kSUV3F5jwX0": {
+    "org_slug": "gravt",
+    "ch_slug": "ave-kanehoshii-gravt-aka-virtual",
+    "ch_name": "Ave Kanehoshii【GRAVT】【AKA Virtual】",
+    "status": "vod",
+    "generated_at": "2026-07-20 13:14 WIB"
+  },
+  "7SISpBmAsWU": {
+    "org_slug": "asobu-production",
+    "ch_slug": "asobu-production",
+    "ch_name": "Asobu Production",
+    "status": "vod",
+    "generated_at": "2026-07-20 13:14 WIB"
+  },
+  "-_6FydCei4I": {
+    "org_slug": "lav-idn",
+    "ch_slug": "tachibana-mirai-ch-lav",
+    "ch_name": "Tachibana Mirai Ch. 【LAV】",
+    "status": "live",
+    "generated_at": "2026-07-20 13:14 WIB"
   }
 }
