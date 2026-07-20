@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-21 00:27 WIB"
+    "generated_at": "2026-07-21 00:43 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-21 00:27 WIB"
+    "generated_at": "2026-07-21 00:43 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34661,7 +34661,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-21 00:27 WIB"
+    "generated_at": "2026-07-21 00:43 WIB"
   },
   "ZXRA7oni5Ak": {
     "org_slug": "lav-idn",
@@ -34738,7 +34738,7 @@
     "ch_slug": "code-noichi-ch-yorukaze",
     "ch_name": "CODE : NOICHI Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-21 00:27 WIB"
+    "generated_at": "2026-07-21 00:43 WIB"
   },
   "QqE16M5tmzE": {
     "org_slug": "whicker-butler",
@@ -34997,7 +34997,7 @@
     "ch_slug": "isha-kirana-jkt48v",
     "ch_name": "Isha Kirana - JKT48V",
     "status": "live",
-    "generated_at": "2026-07-21 00:27 WIB"
+    "generated_at": "2026-07-21 00:43 WIB"
   },
   "oBBgUwOoVxk": {
     "org_slug": "uver-id",
@@ -35039,7 +35039,7 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-07-21 00:27 WIB"
+    "generated_at": "2026-07-21 00:43 WIB"
   },
   "GoAV7KocbEo": {
     "org_slug": "vcosmix",
@@ -35087,8 +35087,8 @@
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-07-21 00:27 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-21 00:43 WIB"
   },
   "TLkdo3Pz0hU": {
     "org_slug": "maha5",
@@ -35144,13 +35144,13 @@
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-07-21 00:27 WIB"
+    "generated_at": "2026-07-21 00:43 WIB"
   },
   "aeXmU-XvxDc": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-21 00:27 WIB"
+    "generated_at": "2026-07-21 00:43 WIB"
   }
 }
