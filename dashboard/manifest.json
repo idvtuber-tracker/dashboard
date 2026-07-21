@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-21 11:25 WIB"
+    "generated_at": "2026-07-21 11:40 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-21 11:25 WIB"
+    "generated_at": "2026-07-21 11:40 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34661,7 +34661,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-21 11:25 WIB"
+    "generated_at": "2026-07-21 11:40 WIB"
   },
   "ZXRA7oni5Ak": {
     "org_slug": "lav-idn",
@@ -34738,7 +34738,7 @@
     "ch_slug": "code-noichi-ch-yorukaze",
     "ch_name": "CODE : NOICHI Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-21 11:25 WIB"
+    "generated_at": "2026-07-21 11:40 WIB"
   },
   "QqE16M5tmzE": {
     "org_slug": "whicker-butler",
@@ -35151,7 +35151,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-21 11:25 WIB"
+    "generated_at": "2026-07-21 11:40 WIB"
   },
   "2Vl6rAv3VIY": {
     "org_slug": "magniv",
@@ -35172,20 +35172,27 @@
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-21 11:25 WIB"
+    "generated_at": "2026-07-21 11:40 WIB"
   },
   "qHKSRZbmyFE": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-21 11:25 WIB"
+    "generated_at": "2026-07-21 11:40 WIB"
   },
   "7pJ4YRCinro": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-21 11:25 WIB"
+    "generated_at": "2026-07-21 11:40 WIB"
+  },
+  "89Oyv5RONjE": {
+    "org_slug": "afterain",
+    "ch_slug": "kana-chizu-afterain",
+    "ch_name": "Kana Chizu 【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-07-21 11:40 WIB"
   }
 }
