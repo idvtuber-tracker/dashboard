@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34661,7 +34661,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "ZXRA7oni5Ak": {
     "org_slug": "lav-idn",
@@ -34738,7 +34738,7 @@
     "ch_slug": "code-noichi-ch-yorukaze",
     "ch_name": "CODE : NOICHI Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "QqE16M5tmzE": {
     "org_slug": "whicker-butler",
@@ -35466,7 +35466,7 @@
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "7KDrfiKr76U": {
     "org_slug": "asobu-production",
@@ -35914,41 +35914,55 @@
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "wAC6fiSxikk": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "ddIQRCnSRMg": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "_Cg-ooLZeTg": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "ndt2-B0WlO8": {
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
   },
   "3f1kZMDF03I": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-23 12:48 WIB"
+    "generated_at": "2026-07-23 13:04 WIB"
+  },
+  "MElWgfSfZic": {
+    "org_slug": "prism-nova",
+    "ch_slug": "serika-cosmica-prism-nova",
+    "ch_name": "Serika Cosmica 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-07-23 13:04 WIB"
+  },
+  "hH2o132np2M": {
+    "org_slug": "lav-idn",
+    "ch_slug": "tachibana-mirai-ch-lav",
+    "ch_name": "Tachibana Mirai Ch. 【LAV】",
+    "status": "live",
+    "generated_at": "2026-07-23 13:04 WIB"
   }
 }
