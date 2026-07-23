@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34661,7 +34661,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "ZXRA7oni5Ak": {
     "org_slug": "lav-idn",
@@ -34738,7 +34738,7 @@
     "ch_slug": "code-noichi-ch-yorukaze",
     "ch_name": "CODE : NOICHI Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "QqE16M5tmzE": {
     "org_slug": "whicker-butler",
@@ -35466,7 +35466,7 @@
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "7KDrfiKr76U": {
     "org_slug": "asobu-production",
@@ -35928,7 +35928,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "_Cg-ooLZeTg": {
     "org_slug": "asobu-production",
@@ -35970,7 +35970,7 @@
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "1G_MmTgAagw": {
     "org_slug": "magisona",
@@ -35991,41 +35991,48 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "JO0jKqFTsOs": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "YJ0TYkVNrfM": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "XpV4jPBg4OA": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "BPx8gTo8tYs": {
     "org_slug": "magisona",
     "ch_slug": "iofiel-feliz-ch-magisona",
     "ch_name": "ioFiel Feliz Ch.【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
   },
   "v89i725kkSw": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-07-23 16:44 WIB"
+    "generated_at": "2026-07-23 17:00 WIB"
+  },
+  "2v4xxSzxmFM": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "karissa-sharlotte-dasoriyal",
+    "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-07-23 17:00 WIB"
   }
 }
