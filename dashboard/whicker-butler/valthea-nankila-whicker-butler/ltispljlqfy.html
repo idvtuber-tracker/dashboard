@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>Noazumi Ch.【KANAU Virtual】 — IDVTuber Tracker</title>
+<title>【 BUNNY GARDEN 】 MAIN GAME KESUKAAN KAMU — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -525,7 +527,7 @@
   .subs-label { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 0.85rem; }
   svg.sparkline { width: 100%; height: 40px; overflow: visible; display: block; }
 
-  :root { --org-color: #8a2be2; }
+  :root { --org-color: #b47fff; }
 </style>
 </head>
 <body>
@@ -535,646 +537,197 @@
   <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
 </nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">KANAU Virtual</a> <span class="sep">&#8250;</span> <span class="current">Noazumi Ch.【KANAU Virtual】</span></nav>
-  <div class="channel-hero">
-    <div class="hero-shimmer"></div>
-    <div class="hero-body">
-      <img class="hero-avatar-large" src="https://yt3.ggpht.com/iGJ_YhyNHefX_4Ds92Y5TA0fjW38tV1CNJXNHFzIcXRWtUHrpie_f8lgVuk2fUBxngUd6h4ENg=s240-c-k-c0x00ffffff-no-rj" alt="Noazumi Ch.【KANAU Virtual】 avatar" loading="lazy" onerror="this.outerHTML='<div class=&quot;hero-avatar-large-placeholder&quot;>NK</div>'">
-      <div class="hero-info">
-        <div class="hero-org-badge">
-          <div class="hero-org-dot"></div>
-          KANAU Virtual
-        </div>
-        <div class="hero-name">Noazumi Ch.【KANAU Virtual】</div>
-        <div class="hero-meta-row">
-          <div class="hero-meta-item"><span>Subscribers</span><strong>175</strong></div>
-          <div class="hero-meta-item"><span>Total views</span><strong>818</strong></div>
-          <div class="hero-meta-item"><span>Tracking</span><strong>May 2026 – Jul 2026</strong></div>
-        </div>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">Whicker Butler</a> <span class="sep">&#8250;</span> <a href="index.html">Valthea Nankila 【 Whicker Butler 】</a> <span class="sep">&#8250;</span> <span class="current">【 BUNNY GARDEN 】 MAIN GAME KESUKAAN KAMU</span></nav>
+  <header>
+    <p class="eyebrow">Whicker Butler &nbsp;&#183;&nbsp; Valthea Nankila 【 Whicker Butler 】</p>
+    <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
+    <h1>【 BUNNY GARDEN 】 MAIN GAME KESUKAAN KAMU</h1>
+    <p class="page-meta">Video ID: ltisPlJLQFY</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/ltisPlJLQFY" allowfullscreen loading="lazy"></iframe>
       </div>
-      <div class="hero-actions">
-        <a class="yt-link" href="https://youtube.com/channel/UCtxtfcx9hfmAUwUdcY4O0dQ" target="_blank" rel="noopener">&#9654; YouTube</a>
+      <div class="stream-thumb-meta">
+        <span>2026-07-23 21:32 WIB</span>
+        <a href="https://www.youtube.com/watch?v=ltisPlJLQFY" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">22</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">15</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">22</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-07-23 21:32 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-07-23 21:48 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">15m 43s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">52</div><div class="kpi-sub">total plays</div></div>
       </div>
     </div>
   </div>
-  <div class="kpi-strip">
-    <div class="kpi-cell"><div class="kpi-label">Streams tracked</div><div class="kpi-value">19</div><div class="kpi-sub">May 2026 – Jul 2026</div></div>
-    <div class="kpi-cell"><div class="kpi-label">Peak CCV</div><div class="kpi-value">16</div><div class="kpi-sub">All-time record</div></div>
-    <div class="kpi-cell"><div class="kpi-label">Avg peak CCV</div><div class="kpi-value">10</div><div class="kpi-sub">Per stream</div></div>
-    <div class="kpi-cell"><div class="kpi-label">Total views</div><div class="kpi-value">818</div><div class="kpi-sub">Tracked streams</div></div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
-  <div class="recent-streams-section">
-    <div class="recent-streams-hdr">Recent streams</div>
-    <div class="recent-grid">
-    <a class="rc" href="edqfu90qkbe.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/EDqFU90QkbE/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        <span class="rc-live">Live</span>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
       </div>
-      <div class="rc-body">
-        <div class="rc-title">KITA MAININ LAGI GAME ROBLOX OLD INI!!!</div>
-        <div class="rc-date">23 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">14</span></span>
-          <span>&#9825; 14</span>
-          <span>&#9654; 41</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="qqasjw7r6ds.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/qqASJw7R6Ds/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">【GOT MAIL?】AKU DITUGASKAN UNTUK KIRIM PAKET KE DAERAH ANEH INI....</div>
-        <div class="rc-date">21 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">8</span></span>
-          <span>&#9825; 10</span>
-          <span>&#9654; 28</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="6ixdbz7adrk.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/6IXDbz7aDrk/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">【ART STREAM】Creating Receivy's Human Form! 🍊</div>
-        <div class="rc-date">17 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">10</span></span>
-          <span>&#9825; 14</span>
-          <span>&#9654; 67</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="bx1f13ey3c4.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/bX1F13EY3C4/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">【THE HAMBAGU SHOP】Shift Malam Dengan Pelanggan Yang Aneh...?</div>
-        <div class="rc-date">14 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">7</span></span>
-          <span>&#9825; 16</span>
-          <span>&#9654; 60</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="ikkxbkqomp8.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/ikKxBKQoMP8/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">【GARTIC PHONE W/Viewers】KITA JADI PICASSO...!!!</div>
-        <div class="rc-date">09 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">16</span></span>
-          <span>&#9825; 18</span>
-          <span>&#9654; 83</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="x32bziquqdw.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/X32BzIqUQDw/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">【GARTIC PHONE W/Viewers】KITA JADI PICASSO...!!!</div>
-        <div class="rc-date">09 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">12</span></span>
-          <span>&#9825; 12</span>
-          <span>&#9654; 20</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="zpedescl12w.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/ZpEDEScl12w/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">【BIRTHDAY STREAM】HI! AKU HAPPY BIRTHDAY nyeah!!!</div>
-        <div class="rc-date">07 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">16</span></span>
-          <span>&#9825; 24</span>
-          <span>&#9654; 70</span>
-        </div>
-      </div>
-    </a>
-    <a class="rc" href="i-xgbor000y.html">
-      <div class="rc-thumb">
-        <img src="https://i.ytimg.com/vi/I_XGbor000Y/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;rc-placeholder&quot;&gt;&#9654;</div>'">
-        
-      </div>
-      <div class="rc-body">
-        <div class="rc-title">【BUILDING RELATIONSHIPS】i'm a house and i'm in love?🏡</div>
-        <div class="rc-date">02 Jul 2026</div>
-        <div class="rc-stats">
-          <span>&#128065; <span class="rc-peak">8</span></span>
-          <span>&#9825; 13</span>
-          <span>&#9654; 33</span>
-        </div>
-      </div>
-    </a>
     </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
-  <div class="ch-main-grid">
-    <div class="stream-list-panel">
-      <div class="panel-hdr">All streams — by month</div>
-  <div class="month-group is-open">
-    <button class="month-toggle" aria-expanded="true">
-      <span class="month-toggle-left">July 2026</span>
-      <span class="month-toggle-right"><span class="month-cnt-badge">9</span><span class="month-chevron">▾</span></span>
-    </button>
-    <div class="month-body">
-  <a class="stream-row-item" href="edqfu90qkbe.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/EDqFU90QkbE/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      <div class="live-badge">Live</div>
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">KITA MAININ LAGI GAME ROBLOX OLD INI!!!</div>
-      <div class="stream-row-meta">
-        <span>23 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:36 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 11m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">14</span> peak</span>
-        <span class="rs">&#9825; 14</span>
-        <span class="rs">&#9654; 41</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="qqasjw7r6ds.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/qqASJw7R6Ds/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【GOT MAIL?】AKU DITUGASKAN UNTUK KIRIM PAKET KE DAERAH ANEH INI....</div>
-      <div class="stream-row-meta">
-        <span>21 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:35 WIB</span>
-        <span class="row-sep">·</span>
-        <span>1h 53m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">8</span> peak</span>
-        <span class="rs">&#9825; 10</span>
-        <span class="rs">&#9654; 28</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="6ixdbz7adrk.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/6IXDbz7aDrk/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【ART STREAM】Creating Receivy's Human Form! 🍊</div>
-      <div class="stream-row-meta">
-        <span>17 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:32 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 29m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">10</span> peak</span>
-        <span class="rs">&#9825; 14</span>
-        <span class="rs">&#9654; 67</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="bx1f13ey3c4.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/bX1F13EY3C4/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【THE HAMBAGU SHOP】Shift Malam Dengan Pelanggan Yang Aneh...?</div>
-      <div class="stream-row-meta">
-        <span>14 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:36 WIB</span>
-        <span class="row-sep">·</span>
-        <span>3h 00m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">7</span> peak</span>
-        <span class="rs">&#9825; 16</span>
-        <span class="rs">&#9654; 60</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="ikkxbkqomp8.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/ikKxBKQoMP8/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【GARTIC PHONE W/Viewers】KITA JADI PICASSO...!!!</div>
-      <div class="stream-row-meta">
-        <span>09 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:54 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 34m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">16</span> peak</span>
-        <span class="rs">&#9825; 18</span>
-        <span class="rs">&#9654; 83</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="x32bziquqdw.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/X32BzIqUQDw/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【GARTIC PHONE W/Viewers】KITA JADI PICASSO...!!!</div>
-      <div class="stream-row-meta">
-        <span>09 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:30 WIB</span>
-        <span class="row-sep">·</span>
-        <span>13m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">12</span> peak</span>
-        <span class="rs">&#9825; 12</span>
-        <span class="rs">&#9654; 20</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="zpedescl12w.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/ZpEDEScl12w/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【BIRTHDAY STREAM】HI! AKU HAPPY BIRTHDAY nyeah!!!</div>
-      <div class="stream-row-meta">
-        <span>07 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:30 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 35m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">16</span> peak</span>
-        <span class="rs">&#9825; 24</span>
-        <span class="rs">&#9654; 70</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="i-xgbor000y.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/I_XGbor000Y/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【BUILDING RELATIONSHIPS】i'm a house and i'm in love?🏡</div>
-      <div class="stream-row-meta">
-        <span>02 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:40 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 13m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">8</span> peak</span>
-        <span class="rs">&#9825; 13</span>
-        <span class="rs">&#9654; 33</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="db7el5ykrcw.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/dB7El5ykrcw/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【TAROT READING W/ @luiilafete 】KAMI BACAIN KAPAN KAMU KAYA 💰</div>
-      <div class="stream-row-meta">
-        <span>01 Jul 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:34 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 57m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">7</span> peak</span>
-        <span class="rs">&#9825; 11</span>
-        <span class="rs">&#9654; 84</span>
-      </div>
-    </div>
-  </a>
-    </div>
-  </div>
-  <div class="month-group">
-    <button class="month-toggle" aria-expanded="false">
-      <span class="month-toggle-left">June 2026</span>
-      <span class="month-toggle-right"><span class="month-cnt-badge">9</span><span class="month-chevron">▾</span></span>
-    </button>
-    <div class="month-body">
-  <a class="stream-row-item" href="zp9shzf6dik.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/zP9ShZf6dIk/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【FREETALK】SALAM WARGA ELEGANT NAN SLAY! ✋💅</div>
-      <div class="stream-row-meta">
-        <span>26 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:32 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 24m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">8</span> peak</span>
-        <span class="rs">&#9825; 15</span>
-        <span class="rs">&#9654; 44</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="zxet5ykxo7m.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/zxet5yKXO7M/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【PUNI THE FLORIST】MALAM YANG BERBUNGA-BUNGA! 𓍢🌷͙֒</div>
-      <div class="stream-row-meta">
-        <span>24 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:32 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 16m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">9</span> peak</span>
-        <span class="rs">&#9825; 9</span>
-        <span class="rs">&#9654; 29</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="fh88lpnwlzg.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/FH88lPNWLzg/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【MOTHER SIMULATOR】AM I QUALIFIED TO BE A MOTHER...? (no)</div>
-      <div class="stream-row-meta">
-        <span>22 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:32 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 43m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">7</span> peak</span>
-        <span class="rs">&#9825; 15</span>
-        <span class="rs">&#9654; 41</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="xballqomzqa.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/xBaLlQOmZqA/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【ROLEPLAY】DAY IN MY LIFE : KURIR CASH OR DUEL PAKETT! 📦💬</div>
-      <div class="stream-row-meta">
-        <span>18 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:32 WIB</span>
-        <span class="row-sep">·</span>
-        <span>1h 58m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">13</span> peak</span>
-        <span class="rs">&#9825; 8</span>
-        <span class="rs">&#9654; 30</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="2lrlvlidpj4.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/2LRLVLIdpj4/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">Udah siap belumm?? Kurir Live2d Mau Lewat! 🚧</div>
-      <div class="stream-row-meta">
-        <span>13 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:32 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 25m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">12</span> peak</span>
-        <span class="rs">&#9825; 17</span>
-        <span class="rs">&#9654; 34</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="96pjzhvozog.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/96pjzhvOZog/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【I FELL FOR HER】Kurir tiba-tiba buka barber shop apa yang akan terjadi??</div>
-      <div class="stream-row-meta">
-        <span>10 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:31 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 40m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">9</span> peak</span>
-        <span class="rs">&#9825; 11</span>
-        <span class="rs">&#9654; 32</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="f5oiceue3he.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/f5oiCeUe3HE/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【WATCHALONG】Ada apa nyak..? — SOUTHEAST ASIAN GAMES SHOWCASE 2026!!</div>
-      <div class="stream-row-meta">
-        <span>06 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>21:45 WIB</span>
-        <span class="row-sep">·</span>
-        <span>1h 18m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">6</span> peak</span>
-        <span class="rs">&#9825; 5</span>
-        <span class="rs">&#9654; 21</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="rybljsazmdw.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/rybLjsaZmDw/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【FREETALK &amp; DRAWING】orat oret lagii~</div>
-      <div class="stream-row-meta">
-        <span>05 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:36 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 18m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">6</span> peak</span>
-        <span class="rs">&#9825; 10</span>
-        <span class="rs">&#9654; 32</span>
-      </div>
-    </div>
-  </a>
-  <a class="stream-row-item" href="9pf-gr0tny0.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/9PF-gR0TnY0/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【Melatonin】Chill time?</div>
-      <div class="stream-row-meta">
-        <span>03 Jun 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:31 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 07m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">9</span> peak</span>
-        <span class="rs">&#9825; 16</span>
-        <span class="rs">&#9654; 42</span>
-      </div>
-    </div>
-  </a>
-    </div>
-  </div>
-  <div class="month-group">
-    <button class="month-toggle" aria-expanded="false">
-      <span class="month-toggle-left">May 2026</span>
-      <span class="month-toggle-right"><span class="month-cnt-badge">1</span><span class="month-chevron">▾</span></span>
-    </button>
-    <div class="month-body">
-  <a class="stream-row-item" href="xq0u59vaavy.html">
-    <div class="stream-thumb-cell">
-      <img src="https://i.ytimg.com/vi/Xq0u59vaaVY/mqdefault_live.jpg" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;th-placeholder&quot;&gt;&#9654;</div>'">
-      
-    </div>
-    <div class="stream-row-body">
-      <div class="stream-row-title">【CUMI: Curhat With Noazumi】Let's talk! ദ്ദി(˵ •̀ ᴗ - ˵ )</div>
-      <div class="stream-row-meta">
-        <span>29 May 2026</span>
-        <span class="row-sep">·</span>
-        <span>19:31 WIB</span>
-        <span class="row-sep">·</span>
-        <span>2h 07m</span>
-      </div>
-      <div class="stream-row-stats">
-        <span class="rs">&#128065; <span class="rs-peak">9</span> peak</span>
-        <span class="rs">&#9825; 9</span>
-        <span class="rs">&#9654; 27</span>
-      </div>
-    </div>
-  </a>
-    </div>
-  </div>
-    </div>
-    <div class="sidebar-col">
-      <div class="side-panel">
-        <div class="panel-hdr">Monthly summary</div>
-        <table class="monthly-tbl">
-          <thead><tr>
-            <th>Month</th><th>Streams</th><th>Peak CCV</th>
-          </tr></thead>
-          <tbody>
-      <tr class="month-best-row">
-        <td><a class="month-a" href="#">July 2026</a></td>
-        <td><span class="month-cnt">9</span></td>
-        <td class="month-peak">16</td>
-      </tr>
-      <tr>
-        <td><a class="month-a" href="#">June 2026</a></td>
-        <td><span class="month-cnt">9</span></td>
-        <td class="month-peak">13</td>
-      </tr>
-      <tr>
-        <td><a class="month-a" href="#">May 2026</a></td>
-        <td><span class="month-cnt">1</span></td>
-        <td class="month-peak">9</td>
-      </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="side-panel">
-        <div class="panel-hdr">Subscribers</div>
-        <div class="subs-body">
-          <div class="subs-count">175</div>
-          <div class="subs-label">YouTube subscribers</div>
-        </div>
-      </div>
-      <div class="side-panel">
-        <div class="panel-hdr">Channel records</div>
-        <div class="rec-row">
-          <div><div class="rec-lbl">Peak CCV</div><div class="rec-val">16</div><div class="rec-ctx">【GARTIC PHONE W/Viewers】KITA JADI PICASSO...!…</div></div>
-          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">09 Jul 2026</div></div>
-        </div>
-        <div class="rec-row">
-          <div><div class="rec-lbl">Most liked</div><div class="rec-val">24</div><div class="rec-ctx">【BIRTHDAY STREAM】HI! AKU HAPPY BIRTHDAY nyeah…</div></div>
-          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">07 Jul 2026</div></div>
-        </div>
-        <div class="rec-row">
-          <div><div class="rec-lbl">Most viewed</div><div class="rec-val">84</div><div class="rec-ctx">【TAROT READING W/ @luiilafete 】KAMI BACAIN KA…</div></div>
-          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">01 Jul 2026</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+  <p class="generated">Generated 2026-07-23 21:49 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
 <script>
-(function(){
-  document.querySelectorAll(".month-toggle").forEach(function(btn){
-    btn.addEventListener("click", function(){
-      var grp = btn.closest(".month-group");
-      var open = grp.classList.toggle("is-open");
-      btn.setAttribute("aria-expanded", open ? "true" : "false");
-    });
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["21:32", "21:33", "21:34", "21:35", "21:36", "21:37", "21:38", "21:39", "21:40", "21:41", "21:42", "21:43", "21:48"];
+const views = [4, 7, 17, 13, 14, 15, 14, 15, 15, 15, 21, 22, 17];
+const likes = [8, 12, 13, 16, 17, 17, 17, 18, 18, 18, 19, 20, 22];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const VIDEO_ID = "ltisPlJLQFY";
+const orgColor = '#b47fff';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
   });
-})();
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
 </script>
 
   <footer>
