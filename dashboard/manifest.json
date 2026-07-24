@@ -33975,7 +33975,7 @@
     "ch_slug": "hana-aranya-hrcome",
     "ch_name": "Hana Aranya【HRCOME】",
     "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "generated_at": "2026-07-24 13:20 WIB"
   },
   "_9LNtFLxGik": {
     "org_slug": "asobu-production",
@@ -34276,7 +34276,7 @@
     "ch_slug": "cole-calamello-crims-on",
     "ch_name": "Cole Calamello【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "generated_at": "2026-07-24 13:20 WIB"
   },
   "-7hqAwTkp4I": {
     "org_slug": "crims-on",
@@ -34661,7 +34661,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "generated_at": "2026-07-24 13:20 WIB"
   },
   "ZXRA7oni5Ak": {
     "org_slug": "lav-idn",
@@ -34738,7 +34738,7 @@
     "ch_slug": "code-noichi-ch-yorukaze",
     "ch_name": "CODE : NOICHI Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "generated_at": "2026-07-24 13:20 WIB"
   },
   "QqE16M5tmzE": {
     "org_slug": "whicker-butler",
@@ -35466,7 +35466,7 @@
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "generated_at": "2026-07-24 13:20 WIB"
   },
   "7KDrfiKr76U": {
     "org_slug": "asobu-production",
@@ -35928,7 +35928,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "generated_at": "2026-07-24 13:20 WIB"
   },
   "_Cg-ooLZeTg": {
     "org_slug": "asobu-production",
@@ -36306,14 +36306,14 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "generated_at": "2026-07-24 13:20 WIB"
   },
   "3ySm1QTlv7c": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-24 13:20 WIB"
   },
   "zN-7p108EnA": {
     "org_slug": "afterain",
@@ -36334,13 +36334,13 @@
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "generated_at": "2026-07-24 13:20 WIB"
   },
   "8ECV-UaocDk": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-24 13:05 WIB"
+    "generated_at": "2026-07-24 13:20 WIB"
   }
 }
