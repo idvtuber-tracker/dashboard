@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>EVREN Community — IDVTuber Tracker</title>
+<title>【COLLAB】AYO GAMBAR-GAMBAARRR! 😋🎨 | MECCHA CHAMELEON — IDVTuber Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
 <style>
 
   :root {
@@ -530,91 +532,212 @@
 </head>
 <body>
 <nav class="site-nav">
-  <a class="site-nav-logo" href="../index.html">IDVTuber <em>Tracker</em></a>
+  <a class="site-nav-logo" href="../../index.html">IDVTuber <em>Tracker</em></a>
   <span class="nav-spacer"></span>
   <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
 </nav>
 <div class="page">
-<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">EVREN Community</span></nav>
-  <div class="org-hero">
-    <div class="org-hero-accent"></div>
-    <div class="org-hero-body">
-      <div class="org-hero-info">
-        <div class="org-hero-name">EVREN Community</div>
-        <div class="org-hero-desc">Indonesian Vtuber community that operates based on passion.</div>
-        <div class="org-hero-stats">
-          <div class="ohs"><div class="ohs-val">3</div><div class="ohs-lbl">Channels</div></div>
-          <div class="ohs"><div class="ohs-val">52</div><div class="ohs-lbl">Streams</div></div>
-          <div class="ohs"><div class="ohs-val">117</div><div class="ohs-lbl">Peak CCV</div></div>
-          <div class="ohs"><div class="ohs-val">30.9K</div><div class="ohs-lbl">Combined subs</div></div>
-        </div>
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">EVREN Community</a> <span class="sep">&#8250;</span> <a href="index.html">Lyanna Chernovskaya</a> <span class="sep">&#8250;</span> <span class="current">【COLLAB】AYO GAMBAR-GAMBAARRR! 😋🎨 | MECCH…</span></nav>
+  <header>
+    <p class="eyebrow">EVREN Community &nbsp;&#183;&nbsp; Lyanna Chernovskaya</p>
+    <span class="stream-status status-live" style="display:inline-block;margin-bottom:0.75rem;">&#128308; Live</span>
+    <h1>【COLLAB】AYO GAMBAR-GAMBAARRR! 😋🎨 | MECCHA CHAMELEON</h1>
+    <p class="page-meta">Video ID: 60FmZtd0Q98</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/60FmZtd0Q98" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="stream-thumb-meta">
+        <span>2026-07-24 20:03 WIB</span>
+        <a href="https://www.youtube.com/watch?v=60FmZtd0Q98" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">13</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">11</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">24</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">0</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-07-24 20:03 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-07-24 20:14 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">10m 53s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">40</div><div class="kpi-sub">total plays</div></div>
       </div>
     </div>
   </div>
-  <div class="sort-strip">
-    <span class="sort-lbl">Sort by:</span>
-    <span class="sort-chip active">Subscribers</span>
-    <span class="sort-chip">Peak CCV</span>
-    <span class="sort-chip">Peak Likes</span>
-    <span class="sort-chip">Streams</span>
-    <span class="sort-chip">A&#8211;Z</span>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
-  <div class="channels-grid">
-    <a class="channel-card" href="evren/index.html" data-name="EVREN" data-subs="1130" data-streams="0" data-peak="0" data-likes="0">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/A6RbWtTvnxb6KiM0zFvn70_wcy4TgfuUZ4FrHej5c5TAfmJdx2DbOQfKIgALx8tBssDzSHM2IzE=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>E</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">EVREN</div>
-          <div class="ch-card-role">Org Channel</div>
-        </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
       </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.1K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">0</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">—</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="lyanna-chernovskaya/index.html" data-name="Lyanna Chernovskaya" data-subs="25400" data-streams="34" data-peak="115" data-likes="261">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/b8iaAgp6MdrWqDgeHXCfFMAGt4zsMmNKa9MMupikdn6hMxHJPBq5qP_a9Sc8I91iLWt358USbg=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>LC</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Lyanna Chernovskaya</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">25.4K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">34</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">115</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">261</div></div>
-      </div>
-    </a>
-    <a class="channel-card" href="amami-yoruna/index.html" data-name="Amami Yoruna" data-subs="4400" data-streams="18" data-peak="117" data-likes="295">
-      <div class="ch-card-top">
-        <img class="channel-avatar" src="https://yt3.ggpht.com/Ut7hKQ0uI43OwBaDYSOByFLSZ6gypsT1E9J6LSOIawmwMb4arC8B8dNKaPxmwvKNWOELucw2K2g=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>AY</div>'">
-        <div class="ch-card-name-wrap">
-          <div class="ch-card-name">Amami Yoruna</div>
-          <div class="ch-card-role">Talent</div>
-        </div>
-      </div>
-      <div class="ch-card-stat-grid">
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">4.4K</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">18</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">117</div></div>
-        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">295</div></div>
-      </div>
-    </a>
+    </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
   </div>
+
+  <p class="generated">Generated 2026-07-24 20:15 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
+<script>
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["20:03", "20:04", "20:05", "20:06", "20:07", "20:08", "20:09", "20:10", "20:11", "20:14"];
+const views = [13, 11, 10, 12, 13, 12, 12, 11, 10, 9];
+const likes = [7, 11, 12, 14, 18, 19, 20, 22, 22, 24];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const VIDEO_ID = "60FmZtd0Q98";
+const orgColor = '#d7b576';
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",
+    tick: getCSSVar("--muted")  || "#5a5a7a",
+  };
+}
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "DM Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "DM Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
 
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
     <nav class="footer-links">
-      <a href="../index.html">Home</a>
+      <a href="../../index.html">Home</a>
       <span class="footer-sep">·</span>
-      <a href="../privacy.html">Privacy Policy</a>
+      <a href="../../privacy.html">Privacy Policy</a>
       <span class="footer-sep">·</span>
-      <a href="../terms.html">Terms of Use</a>
+      <a href="../../terms.html">Terms of Use</a>
     </nav>
   </footer>
 </div>
@@ -652,47 +775,6 @@
   });
   window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
     if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
-  });
-})();
-</script>
-
-<script>
-(function () {
-  var grid  = document.querySelector('.channels-grid');
-  var chips = document.querySelectorAll('.sort-chip');
-  if (!grid || !chips.length) return;
-
-  function getVal(card, attr) {
-    return parseFloat(card.getAttribute(attr) || '0') || 0;
-  }
-
-  function sortCards(key) {
-    var cards = Array.from(grid.querySelectorAll('.channel-card'));
-    cards.sort(function (a, b) {
-      if (key === 'az') {
-        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
-      }
-      var map = { 'subs': 'data-subs', 'peak': 'data-peak', 'likes': 'data-likes', 'streams': 'data-streams' };
-      return getVal(b, map[key]) - getVal(a, map[key]);
-    });
-    cards.forEach(function (c) { grid.appendChild(c); });
-  }
-
-  var keyMap = {
-    'Subscribers': 'subs',
-    'Peak CCV':    'peak',
-    'Peak Likes':  'likes',
-    'Streams':     'streams',
-    'A–Z':   'az',
-  };
-
-  chips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      chips.forEach(function (c) { c.classList.remove('active'); });
-      chip.classList.add('active');
-      var key = keyMap[chip.textContent.trim()] || 'subs';
-      sortCards(key);
-    });
   });
 })();
 </script>
