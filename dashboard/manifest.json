@@ -403,49 +403,49 @@
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-28 19:35 WIB"
+    "generated_at": "2026-07-28 19:58 WIB"
   },
   "fCRMhvcLuoQ": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-07-28 19:35 WIB"
+    "generated_at": "2026-07-28 19:58 WIB"
   },
   "Sc0W-cYf5Jc": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-28 19:35 WIB"
+    "generated_at": "2026-07-28 19:58 WIB"
   },
   "SCXdy6ybVfc": {
     "org_slug": "gravt",
     "ch_slug": "ave-kanehoshii-gravt-aka-virtual",
     "ch_name": "Ave Kanehoshii【GRAVT】【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-28 19:35 WIB"
+    "generated_at": "2026-07-28 19:58 WIB"
   },
   "rGcaKJQiyag": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-07-28 19:35 WIB"
+    "generated_at": "2026-07-28 19:58 WIB"
   },
   "SI0xR2UnSRc": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-aka-virtual",
     "ch_name": "Ryoutaa  【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-28 19:35 WIB"
+    "generated_at": "2026-07-28 19:58 WIB"
   },
   "03ztNTwhi5w": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-28 19:35 WIB"
+    "generated_at": "2026-07-28 19:58 WIB"
   },
   "5YQK8ynpdxk": {
     "org_slug": "pandavva",
@@ -37756,5 +37756,26 @@
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "vod",
     "generated_at": "2026-07-28 19:35 WIB"
+  },
+  "RwZnDam2RHQ": {
+    "org_slug": "prism-nova",
+    "ch_slug": "thalia-symphonia-prism-nova",
+    "ch_name": "Thalia Symphonia 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-07-28 19:58 WIB"
+  },
+  "y4VG5xWhLBo": {
+    "org_slug": "afterain",
+    "ch_slug": "kana-chizu-afterain",
+    "ch_name": "Kana Chizu 【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-07-28 19:58 WIB"
+  },
+  "ju_bzqzjxLY": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "noazumi-ch-kanau-virtual",
+    "ch_name": "Noazumi Ch.【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-07-28 19:58 WIB"
   }
 }
