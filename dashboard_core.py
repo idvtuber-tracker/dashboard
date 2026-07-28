@@ -443,6 +443,46 @@ ORG_MAP = {
             ("Hali Ch. 『 DASORiYAL 』", "talent", "UCHWGlT4Kg2P8Q0OSdBVd84g"),  
         ],
     },  
+    "hibikasekai": {
+        "label":   "HIBIKASEKAI",
+        "color":   "#f6a6c1",
+        "desc":    "Local group which has a mission to build an echoing world and a limitless entertaining spirit.",
+        "channels": [
+            ("HIBIKASEKAI", "org", "UCn_hgtrF7d30aBnmsS8ssLw"),  
+            ("Ibame Masagi 🗝  〖 HIBIKASEKAI 】", "talent", "UCA0L-PoJvHS6djGRUxj6F7A"),  
+            ("Alex von Astaroth 🦇 🦊〖 HIBIKASEKAI 】", "talent", "UCF05ni32yvwKJauMyvAczgg"),  
+            ("Chie Estelle🦊🌼〖 HIBIKASEKAI 】", "talent", "UC4DldcWsDvopOIjIi8hMdYg"),  
+            ("Murasaki Kenji 🫐〖 HIBIKASEKAI 】", "talent", "UCXRcg02LouhJTS9EuP79Kug"),  
+            ("Han Sorawr", "talent", "UCYR5hCM9ylA6bRgDNNKO4WQ"),  
+            ("Kira Hyuu Famisa 〖 HIBIKASEKAI 】", "talent", "UCWGAk7gfdedjqQe3GCbObiw"),  
+        ],
+    },
+    "mejikuhibiniu": {
+        "label":   "Mejikuhibiniu",
+        "color":   "#8fd14f",
+        "desc":    "Indonesia indie VTuber group with rainbow theming.",
+        "channels": [
+            ("Mejikuhibiniu VTuber Group", "org", "UCVNiwRwPYb8ngYLWig0fyGw"),  
+            ("Cyrus Aurelio & Lunaire Argylio 【Mejikuhibiniu】", "talent", "UCvdb83Gbkf8RZk5COXfK2XQ"),  
+            ("Esther Van Helsing 【Mejikuhibiniu】", "talent", "UCozZvNFD8mjBB2BBL4GCZWA"),  
+            ("Pearlou Vict 【Mejikuhibiniu】", "talent", "UCt3BovWLqaBLAJyPtSwNEDQ"),  
+            ("Airia Eroselle【Mejikuhibiniu】", "talent", "UCyePXwwH1aWirZdshhuPKBw"),  
+            ("Elethera Rehema 『Mejikuhibiniu』", "talent", "UCAxZ952I0jvWvfY5SLsLKGQ"),  
+            ("Poppu Pippero 【Mejikuhibiniu】", "talent", "UCQc_GeDJji6fyxW9XEhgG8A"),  
+            ("Xyren Renora『Mejikuhibiniu』", "talent", "UClAMTnRSXXR4-lB3PafXbnw"),  
+        ],
+    },
+    "noisette": {
+        "label":   "Noisette",
+        "color":   "#4fd1c5",
+        "desc":    "Small group with loud and creative sound branding.",
+        "channels": [
+            ("NOISETTE VTUBER COMMUNITY", "org", "UCOcZre5e2eBvydup61tdttw"),  
+            ("Cici Wilder【Noisette】", "talent", "UCOK9Cwk5AvTGDuRNy_K5OjQ"),  
+            ("Chinami Fumi【Noisette】", "talent", "UCbn5bek25Ghl9jRHwjnIC8Q"),  
+            ("Madu Rumble【Noisette】", "talent", "UCp98xTXEnDu0p8sYPW8Hf8Q"),  
+        ],
+    },
 }
 
 # Build reverse lookup: channel_name → (org_slug, org)
