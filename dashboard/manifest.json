@@ -403,49 +403,49 @@
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "generated_at": "2026-07-28 20:15 WIB"
   },
   "fCRMhvcLuoQ": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "generated_at": "2026-07-28 20:15 WIB"
   },
   "Sc0W-cYf5Jc": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-28 20:15 WIB"
   },
   "SCXdy6ybVfc": {
     "org_slug": "gravt",
     "ch_slug": "ave-kanehoshii-gravt-aka-virtual",
     "ch_name": "Ave Kanehoshii【GRAVT】【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "generated_at": "2026-07-28 20:15 WIB"
   },
   "rGcaKJQiyag": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "generated_at": "2026-07-28 20:15 WIB"
   },
   "SI0xR2UnSRc": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-aka-virtual",
     "ch_name": "Ryoutaa  【AKA Virtual】",
     "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "generated_at": "2026-07-28 20:15 WIB"
   },
   "03ztNTwhi5w": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "generated_at": "2026-07-28 20:15 WIB"
   },
   "5YQK8ynpdxk": {
     "org_slug": "pandavva",
@@ -37762,20 +37762,97 @@
     "ch_slug": "thalia-symphonia-prism-nova",
     "ch_name": "Thalia Symphonia 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "generated_at": "2026-07-28 20:15 WIB"
   },
   "y4VG5xWhLBo": {
     "org_slug": "afterain",
     "ch_slug": "kana-chizu-afterain",
     "ch_name": "Kana Chizu 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "generated_at": "2026-07-28 20:15 WIB"
   },
   "ju_bzqzjxLY": {
     "org_slug": "kanau-virtual",
     "ch_slug": "noazumi-ch-kanau-virtual",
     "ch_name": "Noazumi Ch.【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-07-28 19:58 WIB"
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "hySKJojiBgs": {
+    "org_slug": "jkt48v",
+    "ch_slug": "isha-kirana-jkt48v",
+    "ch_name": "Isha Kirana - JKT48V",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "XSZQlkPq9Mw": {
+    "org_slug": "afterain",
+    "ch_slug": "flein-ryst-afterain",
+    "ch_name": "Flein Ryst【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "g6HYwyOesHA": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "2EFNmAw7jow": {
+    "org_slug": "jkt48v",
+    "ch_slug": "maura-nilambari-jkt48v",
+    "ch_name": "Maura Nilambari - JKT48V",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "_2KgGItpE-M": {
+    "org_slug": "laeta",
+    "ch_slug": "sevina-reina-laeta",
+    "ch_name": "Sevina Reina【LAETA】",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "EhhVD-2kMuI": {
+    "org_slug": "arvi-media",
+    "ch_slug": "suou-ono-ch-arvi",
+    "ch_name": "Suou Ono Ch.【ARVI】",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "hBXi_lJszqU": {
+    "org_slug": "hrcome",
+    "ch_slug": "rorokaili-yumi-hrcome",
+    "ch_name": "RoroKaili Yumi【HRCOME】",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "bIbgwtVo5pY": {
+    "org_slug": "hrcome",
+    "ch_slug": "chikage-nox-hrcome",
+    "ch_name": "Chikage Nox 【HRCOME】",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "XCKQtDdUOoE": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "luii-lafete-kanau-virtual",
+    "ch_name": "Luii Lafete【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "ClO3T8w4mLU": {
+    "org_slug": "lav-idn",
+    "ch_slug": "akane-nanase-ch-lav",
+    "ch_name": "Akane Nanase Ch. 【LAV】",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
+  },
+  "q8N5jlEKIZI": {
+    "org_slug": "asobu-production",
+    "ch_slug": "lyra-monphelia-asobu",
+    "ch_name": "Lyra Monphelia 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-07-28 20:15 WIB"
   }
 }
