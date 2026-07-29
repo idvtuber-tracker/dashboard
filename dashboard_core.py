@@ -458,6 +458,73 @@ ORG_MAP = {
             ("Madu Rumble【Noisette】", "talent", "UCp98xTXEnDu0p8sYPW8Hf8Q"),  
         ],
     },
+    "aisatset": {
+        "label":   "AISATSET",
+        "color":   "#f6ab93",
+        "desc":    "Small group with the emphasize of vtuber and gaming.",
+        "channels": [
+            ("AISATSET ID", "org", "UCFn882S0X2fiSiSDf-ZcgyQ"),  
+            ("Shin Eilaria Ch.【AISATSET ID】", "talent", "UCJiPR_5IHoduhDhhBcJcHww"),  
+            ("Yuuka Lycora Ch.【AISATSET ID】", "talent", "UCY7R0WgbXssSa2-tKBmX4qQ"),  
+            ("Chiya Maawiya Ch.【AISATSET ID】", "talent", "UCck5C_M8YNglav2yIut_AVg"),  
+            ("Blessicaa【AISATSET ID】", "talent", "UCzg0BoNxvb52DFo8Evlj9iA"),  
+            ("UngaUme【AISATSET ID】", "talent", "UC4RDSbQL6rGJs2813KzE-Pg"),  
+            ("DaVi Tch.【AISATSET ID】", "talent", "UCf3yBwU0PWUT5QnZhgef9yA"),  
+        ],
+    },
+    "ukoi-virtual": {
+        "label":   "UKOI virtual",
+        "color":   "#9bbefa",
+        "desc":    "New VTuber production from Indonesia.",
+        "channels": [
+            ("UKOI virtual", "org", "UCb6jr19PjmNJS0XbeevWrKg"),  
+            ("Sean Sepia | 肖恩【UKOI Virtual】", "talent", "UCYthr8J7zkKvzMEQsESQkqw"),  
+            ("Lou'iji Ch.【UKOI Virtual】", "talent", "UCBbVP4tcz8d2h85JN99nR9g"),  
+            ("El Shacha Ch.【UKOI Virtual】", "talent", "UCLXceg8GGI-vJKHsfTKDTvA"),  
+            ("Allencia Nirvellia【UKOI Virtual】", "talent", "UCFXW8crUNQedIxzYLRaIKrQ"),  
+        ],
+    },
+    "aurora-project": {
+        "label":   "Aurora Project",
+        "color":   "#f3b219",
+        "desc":    "Indonesia VTuber community which is formed to deliver interesting and creative entertainment.",
+        "channels": [
+            ("Aurora Project", "org", "UCa1nTrki958vzEyeuwYkrvg"),  
+            ("Aleeon Ch.", "talent", "UCnZjOHTXddCa9XpkrYcfqvg"),  
+            ("Rie Cassia Ch.", "talent", "UCEDxlEMOKZr4w390aKo5BdA"),  
+            ("Kaizu Ryu Ch.", "talent", "UCtuJ5dp1A7aeTTTXzt98RXQ"),  
+            ("Eizie Aletha Ch.", "talent", "UCm8Mv2Eh39fSKMWbJE6J6xg"),  
+            ("Naoki Tora Ch.", "talent", "UCu2CSpCXUDvKTNl06twIYaQ"),  
+        ],
+    },
+    "project-eternoia": {
+        "label":   "Eternoia",
+        "color":   "#b3b8f9",
+        "desc":    "A gathering of Indonesia indie VTuber who wants to thrive together in the present.",
+        "channels": [
+            ("Mira Fridayanti", "talent", "UCKI3MdO4a1QvLrT_DWkH9eQ"), 
+            ("Allyra Violette 🪨", "talent", "UCf6sMG9IoPZdH0YkJjuiTDA"),  
+            ("Fumiko Runa", "talent", "UC04U35JmcEgIGqWy0GIOQJA"),  
+            ("Miori Sora 【3D VTUBERID】", "talent", "UCsqw5FqSIaKcRJneZPkHXzA"),  
+            ("Fuyusierra Ch.", "talent", "UCONcWMRzap_W0DEF7zX9-XA"),  
+        ],
+    },
+    "snowdrop-live": {
+        "label":   "Snowdrop LIVE",
+        "color":   "#1fd96c",
+        "desc":    "Indonesia VTuber agency with mature vibes.",
+        "channels": [
+            ("Snowdrop LIVE", "org", "UCmdVviyzAHYC-f-M4y9-9ag"),  
+            ("Gentiana Helix | SNOWDROP VZ", "talent", "UCT5aSxMIv85OaqTA7oAvi4g"),  
+            ("Ninomiya Sho | SNOWDROP LIVE", "talent", "UCQBWPJIGvWPLIMSHdU7563Q"),  
+            ("Snowdrop's Red Dragon I SNOWDROP", "talent", "UCdwHe_9u1moNCuaZHIXn3_Q"),  
+            ("Allen Yolbars | SNOWDROP", "talent", "UCbsaetZJWm-oBVP_h9isGkA"),  
+            ("Oiruka Lovin | SNOWDROP", "talent", "UCOHbHnhjT71s4uGzfB-EB2A"),  
+            ("Bouya Kyuuroku | SNOWDROP", "talent", "UCMxpS_MslNzxto09z4c9tmg"),  
+            ("Ansel Cervidae | SNOWDROP", "talent", "UC4kEpH32CdyqveaDWbV560A"),  
+            ("Althea Aurita 🫧【SNOWDROP】", "talent", "UC7cXN2YsLzFYOja1ilAgCMQ"),  
+        ],
+    },
 }
 
 # Build reverse lookup: channel_name → (org_slug, org)
