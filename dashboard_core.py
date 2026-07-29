@@ -197,11 +197,11 @@ ORG_MAP = {
         "color":   "#38bdf8",
         "desc":    "An Indonesian VTuber boyband group.",
         "channels": [
-            ("Agata Seven【AKA Virtual】", "talent", "UC4NdM7WwMvyGzkUr0dsSGJQ"),  
-            ("Alarich【AKA Virtual】", "talent", "UCn58MSGrtsDY8N_VhyLcPjg"),  
-            ("Eray Ryuki【AKA Virtual】", "talent", "UCXp26d9RQqUnCeRwaulXZgA"),  
-            ("Ryoutaa  【AKA Virtual】", "talent", "UCRQCV5LXaJKVQ35qaMuI0dw"),  
-            ("SouRizu☪︎【AKA Virtual】", "talent", "UCs2eFSeyAQqjH7PyjZwSH1w"),  
+            ("Agata Seven【VERSA】", "talent", "UC4NdM7WwMvyGzkUr0dsSGJQ"),  
+            ("Alarich【VERSA】", "talent", "UCn58MSGrtsDY8N_VhyLcPjg"),  
+            ("Eray Ryuki【VERSA】", "talent", "UCXp26d9RQqUnCeRwaulXZgA"),  
+            ("Ryoutaa【VERSA】", "talent", "UCRQCV5LXaJKVQ35qaMuI0dw"),  
+            ("SouRizu☪︎【VERSA】", "talent", "UCs2eFSeyAQqjH7PyjZwSH1w"),  
         ],
     },
     "jkt48v": {
@@ -230,18 +230,6 @@ ORG_MAP = {
             ("Saku Kurata 【MAHA5】", "talent", "UCxL9H-mOD2Op4yynXPOWGnQ"),  
             ("Maudy Sukaiga【MAHA5】", "talent", "UCmp1vw137-GvWyrBFraXQUw"),  
             ("Fuyumi Celestia【MAHA5】", "talent", "UCge_6FJHyeOCxRtWCmaVTAQ"),  
-        ],
-    },
-    "eon-of-stars": {
-        "label":   "Eon of Stars",
-        "color":   "#818cf8",
-        "desc":    "An Indonesian indie male VTuber group providing high-quality boyfriend experience.",
-        "channels": [
-            ("EON OF STARS", "org", "UCpvevZ8VPSNe4qlSKAcLMBg"),  
-            ("Harris Caine【EOS】", "talent", "UCtC7olOldksX4fcl_8XKUFA"),  
-            ("Gingitsune Gehenna【EOS】", "talent", "UC8D3XmwYEr97q-tuNZjUuww"),  
-            ("Souta【EOS】", "talent", "UCv7rxNkDhRu-uyyLIQg2tew"),  
-            ("Mikazuki Arion【EOS】", "talent", "UCz_9zqgFPUYQBhDiZBFc00w"),  
         ],
     },
     "uver-id": {
@@ -286,19 +274,8 @@ ORG_MAP = {
         "desc":    "Boyband groups formed from four members with music expertise.",
         "channels": [
             ("GRAVT", "org", "UCKnLF98-xHPQMwtIlXnAmkQ"),  
-            ("Akemi Ch. 猫町アケミ【GRAVT】【AKA Virtual】", "talent", "UC61iJVuFVS4YsnPkZe5EmXg"),  
-            ("Ave Kanehoshii【GRAVT】【AKA Virtual】", "talent", "UCdrbNcRAy424_FFWsY1A6og"),  
+            ("Ave Kanehoshii【GRAVT】", "talent", "UCdrbNcRAy424_FFWsY1A6og"),  
             ("daem【GRAVT】", "talent", "UCiJVUvvDMYHof7P5lt9NU3g"),   
-        ],
-    },
-    "eterluna": {
-        "label":   "EterLuna",
-        "color":   "#d0d1ff",
-        "desc":    "Small VTuber agency with the focus of management and talent development.",
-        "channels": [
-            ("EterLuna", "org", "UCbfT3rJmyTjGk5O6ZqiksjA"),  
-            ("Sanna Salma Ch.", "talent", "UC45RCWpsk3g7u1wLkvt0f-A"),  
-            ("Watanabe Selena【EterLuna】", "talent", "UCM53Oe2gLMAAmW2bt_a6DtA"),  
         ],
     },
     "magisona": {
@@ -346,8 +323,6 @@ ORG_MAP = {
             ("RawnVinyl【HRCOME】", "talent", "UC32cBlC2xcp2_RwPDCsSRPA"),  
             ("Yuno Ni Royco【HRCOME】", "talent", "UCxtomvr4EC_kXYOj2MABrkw"),  
             ("RoroKaili Yumi【HRCOME】", "talent", "UC1zP61yu4aOl5MR6bgjxMyA"),  
-            ("Viera Aori【HRCOME】", "talent", "UCey9e7qTJl7ONRG-7po5QgA"),  
-            ("Hana Aranya【HRCOME】", "talent", "UCZBsVlJM5tUyRg-JcG-KpMQ"),  
             ("Chikage Nox 【HRCOME】", "talent", "UCBrW_wylHbf_wdkx7VeTOsA"),  
         ],
     },
