@@ -35074,7 +35074,7 @@
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-07-30 19:23 WIB"
+    "generated_at": "2026-07-30 19:40 WIB"
   },
   "CZBbp2N-Yrg": {
     "org_slug": "asobu-production",
@@ -35088,7 +35088,7 @@
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-30 19:23 WIB"
+    "generated_at": "2026-07-30 19:40 WIB"
   },
   "lxsK9UZqAKw": {
     "org_slug": "mejikuhibiniu",
@@ -35102,21 +35102,21 @@
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-30 19:23 WIB"
+    "generated_at": "2026-07-30 19:40 WIB"
   },
   "eqXs3Q4aof0": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-30 19:23 WIB"
+    "generated_at": "2026-07-30 19:40 WIB"
   },
   "0zwASrql994": {
     "org_slug": "gravt",
     "ch_slug": "ave-kanehoshii-gravt",
     "ch_name": "Ave Kanehoshii【GRAVT】",
     "status": "live",
-    "generated_at": "2026-07-30 19:23 WIB"
+    "generated_at": "2026-07-30 19:40 WIB"
   },
   "ALFg8wAlDxE": {
     "org_slug": "jkt48v",
@@ -35130,20 +35130,55 @@
     "ch_slug": "poppu-pippero-mejikuhibiniu",
     "ch_name": "Poppu Pippero 【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-07-30 19:23 WIB"
+    "generated_at": "2026-07-30 19:40 WIB"
   },
   "qWYVdKMo3Yw": {
     "org_slug": "jkt48v",
     "ch_slug": "pia-meraleo-jkt48v",
     "ch_name": "Pia Meraleo - JKT48V",
     "status": "live",
-    "generated_at": "2026-07-30 19:23 WIB"
+    "generated_at": "2026-07-30 19:40 WIB"
   },
   "iEUitB6AeQQ": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-07-30 19:23 WIB"
+    "generated_at": "2026-07-30 19:40 WIB"
+  },
+  "-9odMz1imE4": {
+    "org_slug": "prism-nova",
+    "ch_slug": "oxa-lydea-prism-nova",
+    "ch_name": "Oxa Lydea 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-07-30 19:40 WIB"
+  },
+  "F859BA00W5E": {
+    "org_slug": "uver-id",
+    "ch_slug": "isabella-naemi-ch-uver-id",
+    "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-07-30 19:40 WIB"
+  },
+  "y_Y8WZxIQq8": {
+    "org_slug": "aisatset",
+    "ch_slug": "blessicaa-aisatset-id",
+    "ch_name": "Blessicaa【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-07-30 19:40 WIB"
+  },
+  "DcUg8mzEx3w": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "noazumi-ch-kanau-virtual",
+    "ch_name": "Noazumi Ch.【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-07-30 19:40 WIB"
+  },
+  "6FGBhidm1r8": {
+    "org_slug": "project-eternoia",
+    "ch_slug": "allyra-violette",
+    "ch_name": "Allyra Violette 🪨",
+    "status": "live",
+    "generated_at": "2026-07-30 19:40 WIB"
   }
 }
