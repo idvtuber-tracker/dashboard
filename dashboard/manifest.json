@@ -35066,29 +35066,29 @@
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
-    "status": "live",
-    "generated_at": "2026-07-30 19:05 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-30 19:23 WIB"
   },
   "IxzeGk4WlNk": {
     "org_slug": "kanau-virtual",
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-07-30 19:05 WIB"
+    "generated_at": "2026-07-30 19:23 WIB"
   },
   "CZBbp2N-Yrg": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-30 19:05 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-30 19:23 WIB"
   },
   "5Eg4CqRImTI": {
     "org_slug": "dasoriyal",
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-30 19:05 WIB"
+    "generated_at": "2026-07-30 19:23 WIB"
   },
   "lxsK9UZqAKw": {
     "org_slug": "mejikuhibiniu",
@@ -35102,34 +35102,48 @@
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-07-30 19:05 WIB"
+    "generated_at": "2026-07-30 19:23 WIB"
   },
   "eqXs3Q4aof0": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-30 19:05 WIB"
+    "generated_at": "2026-07-30 19:23 WIB"
   },
   "0zwASrql994": {
     "org_slug": "gravt",
     "ch_slug": "ave-kanehoshii-gravt",
     "ch_name": "Ave Kanehoshii【GRAVT】",
     "status": "live",
-    "generated_at": "2026-07-30 19:05 WIB"
+    "generated_at": "2026-07-30 19:23 WIB"
   },
   "ALFg8wAlDxE": {
     "org_slug": "jkt48v",
     "ch_slug": "pia-meraleo-jkt48v",
     "ch_name": "Pia Meraleo - JKT48V",
-    "status": "live",
-    "generated_at": "2026-07-30 19:05 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-30 19:23 WIB"
   },
   "VhmuiVZhHhw": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "poppu-pippero-mejikuhibiniu",
     "ch_name": "Poppu Pippero 【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-07-30 19:05 WIB"
+    "generated_at": "2026-07-30 19:23 WIB"
+  },
+  "qWYVdKMo3Yw": {
+    "org_slug": "jkt48v",
+    "ch_slug": "pia-meraleo-jkt48v",
+    "ch_name": "Pia Meraleo - JKT48V",
+    "status": "live",
+    "generated_at": "2026-07-30 19:23 WIB"
+  },
+  "iEUitB6AeQQ": {
+    "org_slug": "lav-idn",
+    "ch_slug": "tachibana-mirai-ch-lav",
+    "ch_name": "Tachibana Mirai Ch. 【LAV】",
+    "status": "live",
+    "generated_at": "2026-07-30 19:23 WIB"
   }
 }
