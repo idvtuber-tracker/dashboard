@@ -19,6 +19,10 @@ run.
 
 Because this runs infrequently, it can safely use a smaller worker count and
 does not need to be fast — there is no 15-minute SLA here.
+
+search-index.json is regenerated here too (same as generate_live.py) so a
+backfill-only run still leaves the search overlay up to date even if the
+live loop hasn't run in a while.
 """
 
 from dashboard_core import (
@@ -28,7 +32,7 @@ from dashboard_core import (
     setup_output_dirs, load_channel_maps, resolve_channels,
     fetch_all_streams, compute_dirty_set, build_dirty_work_list,
     generate_stream_pages, regenerate_channel_pages, regenerate_org_pages,
-    write_index,
+    write_index, write_search_index, write_live_page,
 )
 
 
@@ -65,7 +69,13 @@ def generate_backfill() -> None:
     )
 
     if not dirty_video_ids:
-        log.info("Nothing to backfill — manifest is fully reconciled and all stream pages exist on disk.")
+        log.info("Nothing to backfill for stream pages — manifest is fully reconciled.")
+        # Still worth refreshing search-index.json/live.html even with no
+        # dirty streams: channel/org metadata (subscriber counts, who's
+        # live right now, etc.) can change without any stream itself being
+        # dirty in the manifest sense.
+        write_search_index(resolved_channels, all_streams_by_channel)
+        write_live_page(all_streams_by_channel, logos, channel_ids_map)
         conn.close()
         if hist:
             hist.close()
@@ -103,6 +113,8 @@ def generate_backfill() -> None:
     generated_at = _now_local().strftime("%Y-%m-%d %H:%M WIB")
     write_index(total_streams, total_channels, generated_at,
                 stream_counts, all_streams_by_channel)
+    write_search_index(resolved_channels, all_streams_by_channel)
+    write_live_page(all_streams_by_channel, logos, channel_ids_map)
 
     save_manifest(manifest)
     conn.close()
@@ -111,7 +123,7 @@ def generate_backfill() -> None:
 
     log.info(
         "Backfill complete — %d stream page(s), %d channel page(s), "
-        "%d org page(s), 1 index. (%d total streams known.)",
+        "%d org page(s), 1 index, 1 search index, 1 live page. (%d total streams known.)",
         len(new_entries), channels_written, orgs_written, total_streams
     )
 
