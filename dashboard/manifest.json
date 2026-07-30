@@ -35109,7 +35109,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "0zwASrql994": {
     "org_slug": "gravt",
@@ -35158,7 +35158,7 @@
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "y_Y8WZxIQq8": {
     "org_slug": "aisatset",
@@ -35200,14 +35200,14 @@
     "ch_slug": "fuyo-mafuyu-cozycazt",
     "ch_name": "Fuyo Mafuyu【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "xeEKhha50W0": {
     "org_slug": "afterain",
     "ch_slug": "kana-chizu-afterain",
     "ch_name": "Kana Chizu 【AFTERAIN】",
-    "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "XhCVsKoO1wU": {
     "org_slug": "prism-nova",
@@ -35221,7 +35221,7 @@
     "ch_slug": "maudy-sukaiga-maha5",
     "ch_name": "Maudy Sukaiga【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "qWPUzDeFGqQ": {
     "org_slug": "lav-idn",
@@ -35241,22 +35241,22 @@
     "org_slug": "versa",
     "ch_slug": "sourizu-versa",
     "ch_name": "SouRizu☪︎【VERSA】",
-    "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "myuLY3fyF1M": {
     "org_slug": "maha5",
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "FtrcEvoQTi4": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "LuDwkqE-L9Y": {
     "org_slug": "yorukaze",
@@ -35270,14 +35270,14 @@
     "ch_slug": "valthea-nankila-whicker-butler",
     "ch_name": "Valthea Nankila 【 Whicker Butler 】",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "8ysn2JWW704": {
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "TqLm_9jlkUc": {
     "org_slug": "mejikuhibiniu",
@@ -35304,35 +35304,35 @@
     "org_slug": "vcosmix",
     "ch_slug": "li-mingshu-ch",
     "ch_name": "Li Mingshu Ch.",
-    "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "VZwLVgy79x0": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "rYU4iAhB2Mo": {
     "org_slug": "snowdrop-live",
     "ch_slug": "bouya-kyuuroku-snowdrop",
     "ch_name": "Bouya Kyuuroku | SNOWDROP",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "EeDvjobBE4o": {
     "org_slug": "hibikasekai",
     "ch_slug": "han-sorawr",
     "ch_name": "Han Sorawr",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   },
   "V-qtITS4QdY": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-30 22:51 WIB"
+    "generated_at": "2026-07-30 23:09 WIB"
   }
 }
