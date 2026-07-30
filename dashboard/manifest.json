@@ -35017,8 +35017,8 @@
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-07-30 17:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-30 18:12 WIB"
   },
   "9EWRlgNRPMU": {
     "org_slug": "snowvalley-agency",
@@ -35053,48 +35053,55 @@
     "ch_slug": "oriana-solstair-whicker-butler",
     "ch_name": "Oriana Solstair【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-07-30 17:54 WIB"
+    "generated_at": "2026-07-30 18:12 WIB"
   },
   "uH5Fv1vZExo": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-07-30 17:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-30 18:12 WIB"
   },
   "eOyOT6tWbAo": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-07-30 17:54 WIB"
+    "generated_at": "2026-07-30 18:12 WIB"
   },
   "IxzeGk4WlNk": {
     "org_slug": "kanau-virtual",
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-07-30 17:54 WIB"
+    "generated_at": "2026-07-30 18:12 WIB"
   },
   "CZBbp2N-Yrg": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-30 17:54 WIB"
+    "generated_at": "2026-07-30 18:12 WIB"
   },
   "5Eg4CqRImTI": {
     "org_slug": "dasoriyal",
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-30 17:54 WIB"
+    "generated_at": "2026-07-30 18:12 WIB"
   },
   "lxsK9UZqAKw": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "elethera-rehema-mejikuhibiniu",
     "ch_name": "Elethera Rehema 『Mejikuhibiniu』",
     "status": "live",
-    "generated_at": "2026-07-30 17:54 WIB"
+    "generated_at": "2026-07-30 18:12 WIB"
+  },
+  "qpIKCsrH9Jc": {
+    "org_slug": "pandavva",
+    "ch_slug": "yudistira-yogendra-pandavva",
+    "ch_name": "Yudistira Yogendra 【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-07-30 18:12 WIB"
   }
 }
