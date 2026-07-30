@@ -34983,7 +34983,7 @@
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "live",
-    "generated_at": "2026-07-30 16:02 WIB"
+    "generated_at": "2026-07-30 16:18 WIB"
   },
   "ZqQUuaaxUf4": {
     "org_slug": "uver-id",
@@ -35003,49 +35003,56 @@
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
-    "status": "live",
-    "generated_at": "2026-07-30 16:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-30 16:18 WIB"
   },
   "lyWal0rkEzM": {
     "org_slug": "magisona",
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-07-30 16:02 WIB"
+    "generated_at": "2026-07-30 16:18 WIB"
   },
   "OiMRM9FKz1I": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-30 16:02 WIB"
+    "generated_at": "2026-07-30 16:18 WIB"
   },
   "9EWRlgNRPMU": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "serein-venetia-ch-snowvalley",
     "ch_name": "Serein Venetia Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-30 16:02 WIB"
+    "generated_at": "2026-07-30 16:18 WIB"
   },
   "WcXO_O41qPQ": {
     "org_slug": "afterain",
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-07-30 16:02 WIB"
+    "generated_at": "2026-07-30 16:18 WIB"
   },
   "yGlP849q54w": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-30 16:02 WIB"
+    "generated_at": "2026-07-30 16:18 WIB"
   },
   "8ogIdx4S8XQ": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-07-30 16:02 WIB"
+    "generated_at": "2026-07-30 16:18 WIB"
+  },
+  "FCg0xkIuHJ0": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "oriana-solstair-whicker-butler",
+    "ch_name": "Oriana Solstair【Whicker Butler】",
+    "status": "live",
+    "generated_at": "2026-07-30 16:18 WIB"
   }
 }
