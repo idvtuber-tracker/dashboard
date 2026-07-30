@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
+<title>【Red Dead Redemption】 Everything Was Fine Until… — IDVTuber Tracker</title>
+<link rel="icon" href="../../favicon.ico">
+<script>window.SITE_DEPTH = 2;</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
+<link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../dashboard.css">
+<style>
+  :root { --org-color: #e8ff47; }
+  [data-theme="light"] { --org-color: #677600; }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) { --org-color: #677600; }
+  }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="../../index.html">
+    <img class="site-nav-logo-icon" src="../../favicon.ico" alt="">
+    <span class="site-nav-logo-word"><span class="lw1">IDVTuber</span><span class="lw2">//</span><span class="lw3">Tracker</span></span>
+  </a>
+  <span class="nav-spacer"></span>
+  <div class="nav-right-cluster">
+    <a class="nav-pill nav-live-pill" id="navLivePill" href="../../live.html">
+      <span class="pulse-strip" id="navPulseStrip"></span>
+      <span class="nav-live-dot"></span> LIVE <strong id="navLiveCount">0</strong>
+    </a>
+    <div class="search-trigger" id="searchTrigger">
+      <span class="search-trigger-icon">&#128269;</span> Search orgs, channels, streams… <kbd>/</kbd>
+    </div>
+    <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
+  </div>
+</nav>
+<div class="page">
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">PANDAVVA</a> <span class="sep">&#8250;</span> <a href="index.html">Sadewa Sagara【PANDAVVA】</a> <span class="sep">&#8250;</span> <span class="current">【Red Dead Redemption】 Everything Was Fin…</span></nav>
+  <header>
+    <p class="eyebrow">PANDAVVA &nbsp;&#183;&nbsp; Sadewa Sagara【PANDAVVA】</p>
+    <span class="stream-status status-vod" style="display:inline-block;margin-bottom:0.75rem;">VOD</span>
+    <h1>【Red Dead Redemption】 Everything Was Fine Until…</h1>
+    <p class="page-meta">Video ID: d55IeTZ8p5Y</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/d55IeTZ8p5Y" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="stream-thumb-meta">
+        <span>2026-03-18 09:11 WIB</span>
+        <a href="https://www.youtube.com/watch?v=d55IeTZ8p5Y" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">402</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">309</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">1,218</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">2</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-03-18 09:11 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-03-18 16:15 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">7h 03m 50s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">5,703</div><div class="kpi-sub">total plays</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
+  </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
+  </div>
+
+  <p class="generated">Generated 2026-07-30 08:46 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
+<script>
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["09:11", "09:13", "09:14", "09:15", "09:16", "09:17", "09:18", "09:19", "09:21", "09:22", "09:23", "09:24", "09:25", "09:26", "09:27", "09:29", "09:30", "09:31", "09:32", "09:34", "09:35", "09:36", "09:37", "09:38", "09:39", "09:40", "09:42", "09:43", "09:44", "09:45", "09:47", "09:48", "09:49", "09:50", "09:51", "09:53", "09:54", "09:55", "09:56", "09:57", "09:58", "10:00", "10:01", "10:02", "10:03", "10:05", "10:06", "10:08", "10:09", "10:10", "10:11", "10:12", "10:13", "10:14", "10:16", "10:17", "10:18", "10:19", "10:20", "10:21", "10:23", "10:24", "10:25", "10:26", "10:27", "10:29", "10:30", "10:31", "10:32", "10:33", "10:34", "10:35", "10:37", "10:38", "10:39", "10:40", "10:42", "10:43", "10:44", "10:46", "10:47", "10:48", "10:49", "10:51", "10:52", "10:53", "10:55", "10:56", "10:57", "10:58", "11:00", "11:01", "11:03", "11:04", "11:05", "11:07", "11:08", "11:09", "11:10", "11:12", "11:13", "11:14", "11:15", "11:17", "11:18", "11:20", "11:21", "11:23", "11:24", "11:25", "11:26", "11:28", "11:29", "11:30", "11:31", "11:33", "11:34", "11:35", "11:37", "11:38", "11:40", "11:41", "11:42", "11:44", "11:45", "11:46", "11:48", "11:49", "11:50", "11:52", "11:53", "11:54", "11:55", "11:57", "11:58", "12:00", "12:01", "12:03", "12:04", "12:05", "12:07", "12:08", "12:09", "12:10", "12:12", "12:13", "12:14", "12:16", "12:17", "12:18", "12:20", "12:21", "12:23", "12:24", "12:25", "12:26", "12:28", "12:29", "12:30", "12:31", "12:33", "12:34", "12:35", "12:37", "12:38", "12:40", "12:41", "12:42", "12:43", "12:45", "12:46", "12:47", "12:49", "12:50", "12:51", "12:52", "12:54", "12:55", "12:56", "12:58", "12:59", "13:01", "13:02", "13:03", "13:05", "13:06", "13:08", "13:09", "13:11", "13:12", "13:13", "13:15", "13:16", "13:18", "13:19", "13:21", "13:23", "13:24", "13:26", "13:27", "13:29", "13:31", "13:32", "13:34", "13:35", "13:37", "13:38", "13:40", "13:42", "13:43", "13:45", "13:47", "13:48", "13:50", "13:51", "13:53", "13:55", "13:56", "13:58", "13:59", "14:01", "14:02", "14:04", "14:06", "14:08", "14:09", "14:11", "14:12", "14:13", "14:15", "14:16", "14:18", "14:19", "14:21", "14:22", "14:23", "14:25", "14:26", "14:28", "14:30", "14:31", "14:32", "14:34", "14:35", "14:37", "14:38", "14:40", "14:41", "14:42", "14:44", "14:45", "14:47", "14:48", "14:50", "14:51", "14:53", "14:54", "14:56", "14:57", "14:59", "15:00", "15:01", "15:03", "15:04", "15:06", "15:07", "15:08", "15:10", "15:12", "15:13", "15:15", "15:16", "15:17", "15:19", "15:20", "15:22", "15:23", "15:25", "15:26", "15:27", "15:29", "15:30", "15:32", "15:34", "15:35", "15:36", "15:38", "15:39", "15:41", "15:42", "15:44", "15:45", "15:46", "15:48", "15:49", "15:51", "15:52", "15:53", "15:55", "15:57", "15:58", "16:00", "16:01", "16:02", "16:04", "16:05", "16:07", "16:08", "16:09", "16:11", "16:12", "16:14", "16:15"];
+const views = [285, 281, 294, 296, 301, 307, 312, 305, 304, 301, 314, 312, 318, 327, 335, 335, 331, 330, 344, 343, 367, 372, 373, 380, 390, 367, 379, 359, 355, 368, 374, 402, 379, 370, 359, 353, 350, 339, 344, 354, 353, 365, 345, 346, 344, 354, 357, 364, 361, 350, 335, 339, 341, 334, 338, 346, 348, 332, 341, 337, 341, 352, 344, 345, 338, 356, 361, 354, 335, 334, 327, 330, 323, 327, 328, 324, 316, 323, 326, 326, 323, 324, 315, 324, 312, 327, 333, 315, 344, 335, 339, 329, 339, 331, 336, 337, 337, 332, 322, 315, 329, 318, 315, 311, 311, 305, 297, 300, 305, 296, 305, 300, 296, 292, 286, 283, 290, 296, 296, 302, 313, 313, 321, 321, 328, 311, 305, 310, 309, 315, 314, 323, 315, 306, 300, 311, 299, 287, 290, 284, 287, 286, 287, 282, 289, 266, 266, 279, 277, 280, 267, 275, 273, 270, 280, 283, 285, 287, 277, 270, 267, 271, 274, 285, 268, 273, 273, 270, 274, 284, 282, 289, 285, 284, 282, 284, 279, 273, 274, 278, 273, 277, 284, 287, 292, 294, 288, 280, 284, 293, 297, 299, 290, 278, 270, 263, 277, 274, 286, 288, 286, 286, 287, 301, 289, 279, 284, 267, 267, 265, 276, 269, 291, 279, 275, 267, 266, 265, 276, 260, 262, 266, 265, 252, 251, 254, 258, 264, 270, 251, 253, 247, 255, 268, 273, 263, 271, 258, 269, 282, 283, 291, 285, 293, 312, 308, 307, 305, 315, 302, 299, 303, 298, 302, 296, 292, 303, 307, 316, 309, 307, 316, 313, 313, 326, 326, 331, 345, 338, 343, 324, 323, 321, 331, 320, 301, 302, 314, 315, 323, 318, 336, 317, 336, 333, 316, 325, 333, 314, 323, 304, 315, 330, 322, 337, 338, 338, 328, 328, 336, 347, 339, 340, 329, 339, 329, 315, 295, 0, 0, 0, 0, 0];
+const likes = [299, 306, 315, 319, 325, 331, 339, 346, 350, 361, 367, 377, 381, 386, 399, 406, 414, 421, 427, 432, 438, 440, 446, 449, 455, 458, 462, 468, 474, 483, 492, 496, 500, 503, 509, 514, 518, 518, 519, 524, 528, 531, 531, 534, 542, 550, 553, 560, 567, 574, 578, 585, 590, 592, 593, 597, 603, 606, 614, 616, 618, 621, 623, 625, 626, 632, 636, 638, 639, 646, 648, 650, 652, 654, 656, 660, 660, 660, 668, 671, 673, 675, 680, 684, 686, 692, 695, 696, 696, 700, 706, 710, 716, 718, 723, 726, 730, 731, 732, 733, 733, 734, 740, 743, 746, 746, 751, 751, 754, 756, 756, 757, 759, 762, 762, 763, 764, 764, 765, 768, 774, 776, 778, 780, 783, 790, 793, 793, 795, 796, 797, 799, 801, 802, 806, 812, 815, 817, 826, 828, 829, 830, 835, 837, 841, 841, 843, 847, 847, 849, 852, 853, 855, 858, 859, 860, 862, 864, 865, 865, 867, 869, 873, 874, 875, 878, 880, 881, 886, 887, 888, 891, 893, 893, 894, 895, 897, 899, 900, 902, 906, 909, 912, 914, 917, 921, 923, 925, 928, 929, 932, 934, 935, 936, 938, 941, 942, 944, 947, 949, 951, 955, 960, 964, 967, 970, 972, 974, 978, 980, 986, 987, 992, 993, 994, 996, 997, 999, 1001, 1003, 1007, 1009, 1014, 1014, 1016, 1018, 1021, 1023, 1026, 1029, 1031, 1032, 1036, 1038, 1043, 1046, 1049, 1052, 1054, 1055, 1057, 1059, 1061, 1065, 1067, 1069, 1073, 1074, 1076, 1077, 1081, 1084, 1087, 1092, 1094, 1095, 1097, 1100, 1102, 1104, 1105, 1108, 1109, 1111, 1115, 1115, 1115, 1116, 1119, 1121, 1121, 1123, 1126, 1128, 1128, 1132, 1134, 1137, 1139, 1139, 1142, 1145, 1146, 1148, 1151, 1154, 1159, 1159, 1163, 1165, 1166, 1167, 1173, 1176, 1180, 1181, 1182, 1183, 1185, 1189, 1189, 1193, 1194, 1195, 1200, 1204, 1207, 1213, 1216, 1216, 1218, 1218, 1218];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2];
+const VIDEO_ID = "d55IeTZ8p5Y";
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+// orgColor is intentionally NOT baked in as a fixed Python string —
+// it is read live from --org-color, which _html_head() sets to the
+// dark- or light-mode value depending on the current theme. This is
+// what lets the chart line recolor when the toggle is flipped instead
+// of staying stuck on whichever color happened to be baked in at
+// generation time.
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    org:  getCSSVar("--org-color") || "#e8ff47",
+    grid: getCSSVar("--border") || "rgba(40,50,74,0.35)",
+    tick: getCSSVar("--muted")  || "#8992A8",
+  };
+}
+let orgColor = chartColors().org;
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "IBM Plex Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "IBM Plex Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4F9EFF", backgroundColor: "rgba(79,158,255,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── Re-tint the viewer chart line on theme toggle ──────────────────
+// _THEME_JS dispatches "idvt-theme-change" right after it flips the
+// data-theme attribute, so --org-color has already resolved to the
+// new dark/light value by the time this fires.
+window.addEventListener("idvt-theme-change", function() {
+  orgColor = chartColors().org;
+  const vc = CHARTS.viewerChart;
+  vc.data.datasets[0].borderColor = orgColor;
+  vc.data.datasets[0].backgroundColor = orgColor + "18";
+  vc.update();
+});
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+
+  <footer>
+    <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
+    <nav class="footer-links">
+      <a href="../../index.html">Home</a>
+      <span class="footer-sep">·</span>
+      <a href="../../privacy.html">Privacy Policy</a>
+      <span class="footer-sep">·</span>
+      <a href="../../terms.html">Terms of Use</a>
+    </nav>
+  </footer>
+</div>
+<div class="search-overlay" id="searchOverlay"><div class="search-modal"><div class="search-input-row">&#128269;<input id="searchInput" placeholder="Search orgs, channels, streams…" autocomplete="off"><span class="search-esc">ESC</span></div><div class="search-results" id="searchResults"></div><div class="search-footer"><span>&#8593;&#8595; navigate &#183; &#8629; open</span><span id="searchResultCount"></span></div></div></div>
+
+<script>
+(function() {
+  var STORAGE_KEY = 'idvt-theme';
+  var root  = document.documentElement;
+  var btn   = null;
+  var thumb = null;
+
+  function getSystemTheme() {
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  }
+  function getEffectiveTheme() {
+    return localStorage.getItem(STORAGE_KEY) || getSystemTheme();
+  }
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (thumb) {
+      theme === 'light' ? thumb.classList.add('is-light') : thumb.classList.remove('is-light');
+    }
+    // Lets any page-specific script (e.g. the stream page's chart) react to
+    // a theme flip without _THEME_JS needing to know charts exist at all.
+    window.dispatchEvent(new Event('idvt-theme-change'));
+  }
+  function toggleTheme() {
+    var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+  }
+  applyTheme(getEffectiveTheme());
+  document.addEventListener('DOMContentLoaded', function() {
+    btn   = document.getElementById('theme-toggle');
+    thumb = document.getElementById('toggle-thumb');
+    applyTheme(getEffectiveTheme());
+    if (btn) btn.addEventListener('click', toggleTheme);
+  });
+  window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
+    if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var pill   = document.getElementById('navLivePill');
+  var count  = document.getElementById('navLiveCount');
+  var strip  = document.getElementById('navPulseStrip');
+  if (!pill || !count) return;
+
+  function pulseBars() {
+    if (!strip) return;
+    strip.innerHTML = '';
+    for (var i = 0; i < 12; i++) {
+      var b = document.createElement('span');
+      b.style.height = (4 + Math.round(Math.random() * 10)) + 'px';
+      strip.appendChild(b);
+    }
+  }
+  pulseBars();
+  setInterval(pulseBars, 2500);
+
+  var depth = window.SITE_DEPTH || 0;
+  fetch('../'.repeat(depth) + 'live-count.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var n = data.count || 0;
+      count.textContent = n;
+      pill.classList.toggle('has-live', n > 0);
+    })
+    .catch(function () { /* fine to just leave the pill hidden */ });
+})();
+</script>
+
+<script>
+(function () {
+  var overlay   = document.getElementById('searchOverlay');
+  var input     = document.getElementById('searchInput');
+  var results   = document.getElementById('searchResults');
+  var countEl   = document.getElementById('searchResultCount');
+  var trigger   = document.getElementById('searchTrigger');
+  var depth     = window.SITE_DEPTH || 0;
+  var indexData = null;
+  var indexPromise = null;
+  var current   = [];
+  var selIndex  = 0;
+
+  var typeIcon  = { org: '\u25C6', channel: '\u25CF', stream: '\u25B6' };
+  var typeLabel = { org: 'Organisations', channel: 'Channels', stream: 'Streams' };
+
+  function loadIndex() {
+    if (indexPromise) return indexPromise;
+    var path = '../'.repeat(depth) + 'search-index.json';
+    indexPromise = fetch(path).then(function (r) { return r.json(); })
+      .then(function (data) { indexData = data; return data; })
+      .catch(function (e) { indexData = []; console.warn('search index unavailable:', e); return []; });
+    return indexPromise;
+  }
+
+  function score(query, text) {
+    query = query.toLowerCase(); text = text.toLowerCase();
+    if (!query) return 0;
+    if (text.indexOf(query) === 0) return 100;
+    if (text.indexOf(query) !== -1) return 60;
+    var qi = 0;
+    for (var i = 0; i < text.length && qi < query.length; i++) {
+      if (text[i] === query[qi]) qi++;
+    }
+    return qi === query.length ? 25 : -1;
+  }
+
+  function highlight(text, query) {
+    if (!query) return text;
+    var idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return text.slice(0, idx) + '<mark>' + text.slice(idx, idx + query.length) + '</mark>' + text.slice(idx + query.length);
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function render(query) {
+    if (!indexData) return;
+    if (!query) {
+      results.innerHTML = '<div class="search-empty">Type to search every organisation, channel, and tracked stream.</div>';
+      countEl.textContent = '';
+      current = [];
+      return;
+    }
+    var scored = indexData
+      .map(function (item) { return Object.assign({}, item, { s: score(query, item.name) }); })
+      .filter(function (item) { return item.s >= 0; })
+      .sort(function (a, b) { return b.s - a.s; })
+      .slice(0, 40);
+
+    current = scored;
+    selIndex = 0;
+    countEl.textContent = scored.length + ' result' + (scored.length === 1 ? '' : 's');
+
+    if (!scored.length) {
+      results.innerHTML = '<div class="search-empty">No matches for "' + esc(query) + '".</div>';
+      return;
+    }
+    var groups = { org: [], channel: [], stream: [] };
+    scored.forEach(function (item) { groups[item.type].push(item); });
+
+    var html = '';
+    var flat = 0;
+    ['org', 'channel', 'stream'].forEach(function (t) {
+      if (!groups[t].length) return;
+      html += '<div class="result-group-label">' + typeLabel[t] + '</div>';
+      groups[t].forEach(function (item) {
+        html += '<div class="result-row" data-idx="' + flat + '">' +
+          '<div class="result-type-icon">' + typeIcon[t] + '</div>' +
+          '<div class="result-main"><div class="result-name">' + highlight(esc(item.name), query) + '</div>' +
+          '<div class="result-sub">' + esc(item.sub || '') + '</div></div>' +
+          '</div>';
+        flat++;
+      });
+    });
+    results.innerHTML = html;
+    Array.prototype.forEach.call(results.querySelectorAll('.result-row'), function (row) {
+      row.addEventListener('click', function () { navigateTo(parseInt(row.dataset.idx, 10)); });
+    });
+    updateSel();
+  }
+
+  function updateSel() {
+    var rows = results.querySelectorAll('.result-row');
+    Array.prototype.forEach.call(rows, function (r, i) { r.classList.toggle('sel', i === selIndex); });
+    if (rows[selIndex]) rows[selIndex].scrollIntoView({ block: 'nearest' });
+  }
+
+  function navigateTo(i) {
+    var item = current[i];
+    if (!item) return;
+    window.location.href = '../'.repeat(depth) + item.path;
+  }
+
+  function open() {
+    overlay.classList.add('open');
+    input.value = '';
+    loadIndex().then(function () { render(''); });
+    setTimeout(function () { input.focus(); }, 10);
+  }
+  function close() {
+    overlay.classList.remove('open');
+  }
+
+  if (trigger) trigger.addEventListener('click', open);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+  input.addEventListener('input', function (e) { render(e.target.value); });
+
+  document.addEventListener('keydown', function (e) {
+    var isOpen = overlay.classList.contains('open');
+    if (!isOpen && e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+      e.preventDefault(); open(); return;
+    }
+    if (!isOpen) return;
+    if (e.key === 'Escape') { close(); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); selIndex = Math.min(selIndex + 1, current.length - 1); updateSel(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); selIndex = Math.max(selIndex - 1, 0); updateSel(); }
+    else if (e.key === 'Enter') { e.preventDefault(); navigateTo(selIndex); }
+  });
+})();
+</script>
+</body>
+</html>

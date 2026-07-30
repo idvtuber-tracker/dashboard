@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
+<title>UVER ID — IDVTuber Tracker</title>
+<link rel="icon" href="../favicon.ico">
+<script>window.SITE_DEPTH = 1;</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../theme.css">
+<link rel="stylesheet" href="../dashboard.css">
+<style>
+  :root { --org-color: #9f6fff; }
+  [data-theme="light"] { --org-color: #4a00e0; }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) { --org-color: #4a00e0; }
+  }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="../index.html">
+    <img class="site-nav-logo-icon" src="../favicon.ico" alt="">
+    <span class="site-nav-logo-word"><span class="lw1">IDVTuber</span><span class="lw2">//</span><span class="lw3">Tracker</span></span>
+  </a>
+  <span class="nav-spacer"></span>
+  <div class="nav-right-cluster">
+    <a class="nav-pill nav-live-pill" id="navLivePill" href="../live.html">
+      <span class="pulse-strip" id="navPulseStrip"></span>
+      <span class="nav-live-dot"></span> LIVE <strong id="navLiveCount">0</strong>
+    </a>
+    <div class="search-trigger" id="searchTrigger">
+      <span class="search-trigger-icon">&#128269;</span> Search orgs, channels, streams… <kbd>/</kbd>
+    </div>
+    <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
+  </div>
+</nav>
+<div class="page">
+<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">UVER ID</span></nav>
+  <div class="org-hero">
+    <div class="org-hero-accent"></div>
+    <div class="org-hero-body">
+      <div class="org-hero-info">
+        <div class="org-hero-name">UVER ID</div>
+        <div class="org-hero-desc">An large group with eclectic style that shows the diversity of its talents.</div>
+        <div class="org-hero-stats">
+          <div class="ohs"><div class="ohs-val">17</div><div class="ohs-lbl">Channels</div></div>
+          <div class="ohs"><div class="ohs-val js-streams">108</div><div class="ohs-lbl">Streams</div></div>
+          <div class="ohs"><div class="ohs-val js-peak">34</div><div class="ohs-lbl">Peak CCV</div></div>
+          <div class="ohs"><div class="ohs-val">111.4K</div><div class="ohs-lbl">Combined subs</div></div>
+        </div>
+      </div>
+      <div class="range-chips" id="orgRange" data-peak-7d="34" data-peak-30d="34" data-peak-all="40" data-streams-7d="20" data-streams-30d="108" data-streams-all="277">
+        <span class="range-chip" data-range="7d">7D</span>
+        <span class="range-chip active" data-range="30d">30D</span>
+        <span class="range-chip" data-range="all">ALL</span>
+      </div>
+    </div>
+  </div>
+  <div class="sort-strip">
+    <span class="sort-lbl">Sort by:</span>
+    <span class="sort-chip active">Subscribers</span>
+    <span class="sort-chip">Peak CCV</span>
+    <span class="sort-chip">Peak Likes</span>
+    <span class="sort-chip">Streams</span>
+    <span class="sort-chip">A&#8211;Z</span>
+  </div>
+  <div class="channels-grid">
+    <a class="channel-card" href="uver-id/index.html" data-name="UVER ID" data-subs="1030" data-likes="13" data-streams-7d="1" data-streams-30d="1" data-streams-all="2" data-peak-7d="13" data-peak-30d="13" data-peak-all="13">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/ToBm4D0uexGia9OTvt2KdGDEuhlxt3VNQeYbQIqROsuYs0B-HzFAo07ctpdVv9RCQzT4raN6hA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>UI</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">UVER ID</div>
+        <div class="ch-card-role">Org Channel</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.0K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">1</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">13</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">13</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="shana-ophelia-uver-id/index.html" data-name="Shana Ophelia [ UVER ID ]" data-subs="4940" data-likes="35" data-streams-7d="3" data-streams-30d="22" data-streams-all="61" data-peak-7d="12" data-peak-30d="26" data-peak-all="27">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/j6rah51v0YYPPyKIbaOkRhOKk4IVvBvemWpJ1XTEKW5dmvqaopJmOwin_oYWsdiAOLVIWYcy=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>SO</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Shana Ophelia [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">4.9K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">22</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">26</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">35</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="scardia-agnibrata-uver-id/index.html" data-name="Scardia Agnibrata ♦ [ UVER ID ]" data-subs="2470" data-likes="23" data-streams-7d="1" data-streams-30d="9" data-streams-all="21" data-peak-7d="7" data-peak-30d="15" data-peak-all="15">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/RYS5ItdG9w1Dt312WuZzWG5C5d82cu3CMp8D5pAnUvsSQwKCfKDrkv0PDfYrOfK7NQQrjq5qjQ=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>SA</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Scardia Agnibrata ♦ [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">2.5K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">9</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">15</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">23</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="meltdhe-corsieur-ch-uver-id/index.html" data-name="Meltdhe Corsieur Ch. [ UVER ID ]" data-subs="1470" data-likes="23" data-streams-7d="2" data-streams-30d="9" data-streams-all="27" data-peak-7d="7" data-peak-30d="11" data-peak-all="24">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/UfvRg4-Y8CUnuELd74sxBr_-tkEPgOO_qS9yedeSGeolfsQqF2UK2IN4JFwxKbuLNG4bWjWXhA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>MC</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Meltdhe Corsieur Ch. [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.5K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">9</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">11</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">23</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="cyure-michantrell-ch-uver-id/index.html" data-name="Cyure Michantrell Ch. [ UVER ID ]" data-subs="1490" data-likes="11" data-streams-7d="0" data-streams-30d="3" data-streams-all="10" data-peak-7d="0" data-peak-30d="9" data-peak-all="9">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/jp97nSDswNEGeRzO7VgkO3FQlHk704mPr2ixct5COmcvhvOlCsZdFqgoTbi_k-d7D5L-tYTf=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>CM</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Cyure Michantrell Ch. [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.5K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">3</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">9</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">11</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="zelinus-vihnlock/index.html" data-name="Zelinus Vihnlock" data-subs="70700" data-likes="43" data-streams-7d="1" data-streams-30d="4" data-streams-all="9" data-peak-7d="16" data-peak-30d="16" data-peak-all="23">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/4h8pDZ8GE4DHNs2tFuCBjR9_uW6PY1qxROFAQsflPGJAq9r1EhTZNZ5P4yy9ww_kJ59Qk691YA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>ZV</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Zelinus Vihnlock</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">70.7K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">4</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">16</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">43</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="nephthya-anya-ch-uver-id/index.html" data-name="Nephthya Anya Ch. [ UVER ID ]" data-subs="3950" data-likes="66" data-streams-7d="5" data-streams-30d="19" data-streams-all="51" data-peak-7d="13" data-peak-30d="26" data-peak-all="40">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/J9lb0D9wlEgPIJhRCn6qjsw6NgT0oNmJJFE6uKIOZ9Lz49Uz6ebgTLj8evEucxwJqNzyAfS_=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>NA</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Nephthya Anya Ch. [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">4.0K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">19</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">26</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">66</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="fujio-uver-id/index.html" data-name="FUJIO  [ UVER ID ]" data-subs="2220" data-likes="0" data-streams-7d="0" data-streams-30d="0" data-streams-all="0" data-peak-7d="0" data-peak-30d="0" data-peak-all="0">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/CoHb35EW4vM7ddNBZ3yMTw4trvD1_ckyssFslxoRDKy-AaH6GQuOmPBFvvGY8vqSmaVGRWlfdXs=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>F[</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">FUJIO  [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">2.2K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">0</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="hiro-kyasuta-uver-id/index.html" data-name="Hiro Kyasuta [ UVER ID ]" data-subs="3880" data-likes="0" data-streams-7d="0" data-streams-30d="0" data-streams-all="0" data-peak-7d="0" data-peak-30d="0" data-peak-all="0">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/kLrI1TCBMTvvyLQJOxW-W7OQnX05tgs-mUX8RTAcRz8ctd-K38G1Xlx6rLWoOV8B80GeK_72vA=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>HK</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Hiro Kyasuta [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">3.9K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">0</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="arjuna-candra-pawitra-ch-uver-id/index.html" data-name="Arjuna Candra Pawitra Ch. [ UVER ID ]" data-subs="1710" data-likes="9" data-streams-7d="0" data-streams-30d="0" data-streams-all="3" data-peak-7d="0" data-peak-30d="0" data-peak-all="5">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/wsuANcoTtQdqOOOmy6Bit9f9Aw_ttV38XHuPwDdUm6s41DrhVxoUuPZ7jk7RyQlDmZtZ3TO5yg=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>AC</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Arjuna Candra Pawitra Ch. [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.7K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">0</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">9</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="wei-yang-uver-id/index.html" data-name="Wei Yang [ UVER ID ]" data-subs="1180" data-likes="7" data-streams-7d="0" data-streams-30d="1" data-streams-all="1" data-peak-7d="0" data-peak-30d="0" data-peak-all="0">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/KUfeTY2801U3Yh7kTfZKg3MtdKVZ7TfQ6gIRZ0JzEg8CZSMIWxBm_2NZbGBJVGBkyPEDmUR9n_E=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>WY</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Wei Yang [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.2K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">1</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">7</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="jae-min-ho-uver-id/index.html" data-name="Jae Min Ho [ UVER ID ]" data-subs="834" data-likes="14" data-streams-7d="4" data-streams-30d="10" data-streams-all="24" data-peak-7d="7" data-peak-30d="7" data-peak-all="9">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/d3P0-f_zi17J-AsGN3e85U0_UwoHnf5Cb_vt1mqG1GdEKkxMMJjHsrMVhK7IZLxGLVLmS2bPwCQ=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>JM</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Jae Min Ho [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">834</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">10</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">7</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">14</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="doh-chen-ah-uver-id/index.html" data-name="Doh Chen ah [ UVER ID ]" data-subs="323" data-likes="0" data-streams-7d="0" data-streams-30d="0" data-streams-all="0" data-peak-7d="0" data-peak-30d="0" data-peak-all="0">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/7Ryu-xAQW0nLRK2CJXxESEzU7cCMsSL-qwz8uYJEH7qlpTBfM0HCU6wEnmafANIwC9YYYxeH=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>DC</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Doh Chen ah [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">323</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">0</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="gi-hwa-young-uver-id/index.html" data-name="Gi Hwa Young [ UVER ID ]" data-subs="1130" data-likes="0" data-streams-7d="0" data-streams-30d="0" data-streams-all="0" data-peak-7d="0" data-peak-30d="0" data-peak-all="0">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/P6n_k-FUnH2UtilzfzFUXqmJ4XNJDafBYxlGZsKMpLQdPnpsrXFYHk6qpQGHKxSgNz7IyGnN5g=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>GH</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Gi Hwa Young [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.1K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">0</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="aira-lunagrandia-uver-id/index.html" data-name="Aira Lunagrandia [ UVER ID ]" data-subs="1390" data-likes="0" data-streams-7d="0" data-streams-30d="0" data-streams-all="0" data-peak-7d="0" data-peak-30d="0" data-peak-all="0">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/As-0pG2cXv0SqmQo2bC5QqP6MrQ-bLaCVkctgM9RI5Wz1DLtcsGv2MEKeT-01eqsoi1CXIDJ=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>AL</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Aira Lunagrandia [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.4K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">0</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">—</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">—</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="norn-haira-uver-id/index.html" data-name="Norn Haira〔UVER ID〕" data-subs="1000" data-likes="70" data-streams-7d="1" data-streams-30d="10" data-streams-all="26" data-peak-7d="34" data-peak-30d="34" data-peak-all="34">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/OV0vFYqpaXVvkTGXRhf-81obZ51ken13CnIkOBfHCT85ZgkqfFLzlV0EZ-jx0Vo7Un_v6YQ8Ow=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>NH</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Norn Haira〔UVER ID〕</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.0K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">10</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">34</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">70</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="isabella-naemi-ch-uver-id/index.html" data-name="Isabella Naemi. Ch. ★ [ UVER ID ]" data-subs="11700" data-likes="47" data-streams-7d="2" data-streams-30d="20" data-streams-all="42" data-peak-7d="9" data-peak-30d="19" data-peak-all="23">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/tT5xDsc7fewfLXGn-lSE8vxgu1Ac19dyWhZrnv5AYqRNP7xkaMCEMPe2TCiI0oJBSPUEj_gdug=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>IN</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Isabella Naemi. Ch. ★ [ UVER ID ]</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">11.7K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">20</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">19</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">47</div></div>
+      </div>
+    </a>
+  </div>
+
+  <footer>
+    <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
+    <nav class="footer-links">
+      <a href="../index.html">Home</a>
+      <span class="footer-sep">·</span>
+      <a href="../privacy.html">Privacy Policy</a>
+      <span class="footer-sep">·</span>
+      <a href="../terms.html">Terms of Use</a>
+    </nav>
+  </footer>
+</div>
+<div class="search-overlay" id="searchOverlay"><div class="search-modal"><div class="search-input-row">&#128269;<input id="searchInput" placeholder="Search orgs, channels, streams…" autocomplete="off"><span class="search-esc">ESC</span></div><div class="search-results" id="searchResults"></div><div class="search-footer"><span>&#8593;&#8595; navigate &#183; &#8629; open</span><span id="searchResultCount"></span></div></div></div>
+
+<script>
+(function() {
+  var STORAGE_KEY = 'idvt-theme';
+  var root  = document.documentElement;
+  var btn   = null;
+  var thumb = null;
+
+  function getSystemTheme() {
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  }
+  function getEffectiveTheme() {
+    return localStorage.getItem(STORAGE_KEY) || getSystemTheme();
+  }
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (thumb) {
+      theme === 'light' ? thumb.classList.add('is-light') : thumb.classList.remove('is-light');
+    }
+    // Lets any page-specific script (e.g. the stream page's chart) react to
+    // a theme flip without _THEME_JS needing to know charts exist at all.
+    window.dispatchEvent(new Event('idvt-theme-change'));
+  }
+  function toggleTheme() {
+    var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+  }
+  applyTheme(getEffectiveTheme());
+  document.addEventListener('DOMContentLoaded', function() {
+    btn   = document.getElementById('theme-toggle');
+    thumb = document.getElementById('toggle-thumb');
+    applyTheme(getEffectiveTheme());
+    if (btn) btn.addEventListener('click', toggleTheme);
+  });
+  window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
+    if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var pill   = document.getElementById('navLivePill');
+  var count  = document.getElementById('navLiveCount');
+  var strip  = document.getElementById('navPulseStrip');
+  if (!pill || !count) return;
+
+  function pulseBars() {
+    if (!strip) return;
+    strip.innerHTML = '';
+    for (var i = 0; i < 12; i++) {
+      var b = document.createElement('span');
+      b.style.height = (4 + Math.round(Math.random() * 10)) + 'px';
+      strip.appendChild(b);
+    }
+  }
+  pulseBars();
+  setInterval(pulseBars, 2500);
+
+  var depth = window.SITE_DEPTH || 0;
+  fetch('../'.repeat(depth) + 'live-count.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var n = data.count || 0;
+      count.textContent = n;
+      pill.classList.toggle('has-live', n > 0);
+    })
+    .catch(function () { /* fine to just leave the pill hidden */ });
+})();
+</script>
+
+<script>
+(function () {
+  var overlay   = document.getElementById('searchOverlay');
+  var input     = document.getElementById('searchInput');
+  var results   = document.getElementById('searchResults');
+  var countEl   = document.getElementById('searchResultCount');
+  var trigger   = document.getElementById('searchTrigger');
+  var depth     = window.SITE_DEPTH || 0;
+  var indexData = null;
+  var indexPromise = null;
+  var current   = [];
+  var selIndex  = 0;
+
+  var typeIcon  = { org: '\u25C6', channel: '\u25CF', stream: '\u25B6' };
+  var typeLabel = { org: 'Organisations', channel: 'Channels', stream: 'Streams' };
+
+  function loadIndex() {
+    if (indexPromise) return indexPromise;
+    var path = '../'.repeat(depth) + 'search-index.json';
+    indexPromise = fetch(path).then(function (r) { return r.json(); })
+      .then(function (data) { indexData = data; return data; })
+      .catch(function (e) { indexData = []; console.warn('search index unavailable:', e); return []; });
+    return indexPromise;
+  }
+
+  function score(query, text) {
+    query = query.toLowerCase(); text = text.toLowerCase();
+    if (!query) return 0;
+    if (text.indexOf(query) === 0) return 100;
+    if (text.indexOf(query) !== -1) return 60;
+    var qi = 0;
+    for (var i = 0; i < text.length && qi < query.length; i++) {
+      if (text[i] === query[qi]) qi++;
+    }
+    return qi === query.length ? 25 : -1;
+  }
+
+  function highlight(text, query) {
+    if (!query) return text;
+    var idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return text.slice(0, idx) + '<mark>' + text.slice(idx, idx + query.length) + '</mark>' + text.slice(idx + query.length);
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function render(query) {
+    if (!indexData) return;
+    if (!query) {
+      results.innerHTML = '<div class="search-empty">Type to search every organisation, channel, and tracked stream.</div>';
+      countEl.textContent = '';
+      current = [];
+      return;
+    }
+    var scored = indexData
+      .map(function (item) { return Object.assign({}, item, { s: score(query, item.name) }); })
+      .filter(function (item) { return item.s >= 0; })
+      .sort(function (a, b) { return b.s - a.s; })
+      .slice(0, 40);
+
+    current = scored;
+    selIndex = 0;
+    countEl.textContent = scored.length + ' result' + (scored.length === 1 ? '' : 's');
+
+    if (!scored.length) {
+      results.innerHTML = '<div class="search-empty">No matches for "' + esc(query) + '".</div>';
+      return;
+    }
+    var groups = { org: [], channel: [], stream: [] };
+    scored.forEach(function (item) { groups[item.type].push(item); });
+
+    var html = '';
+    var flat = 0;
+    ['org', 'channel', 'stream'].forEach(function (t) {
+      if (!groups[t].length) return;
+      html += '<div class="result-group-label">' + typeLabel[t] + '</div>';
+      groups[t].forEach(function (item) {
+        html += '<div class="result-row" data-idx="' + flat + '">' +
+          '<div class="result-type-icon">' + typeIcon[t] + '</div>' +
+          '<div class="result-main"><div class="result-name">' + highlight(esc(item.name), query) + '</div>' +
+          '<div class="result-sub">' + esc(item.sub || '') + '</div></div>' +
+          '</div>';
+        flat++;
+      });
+    });
+    results.innerHTML = html;
+    Array.prototype.forEach.call(results.querySelectorAll('.result-row'), function (row) {
+      row.addEventListener('click', function () { navigateTo(parseInt(row.dataset.idx, 10)); });
+    });
+    updateSel();
+  }
+
+  function updateSel() {
+    var rows = results.querySelectorAll('.result-row');
+    Array.prototype.forEach.call(rows, function (r, i) { r.classList.toggle('sel', i === selIndex); });
+    if (rows[selIndex]) rows[selIndex].scrollIntoView({ block: 'nearest' });
+  }
+
+  function navigateTo(i) {
+    var item = current[i];
+    if (!item) return;
+    window.location.href = '../'.repeat(depth) + item.path;
+  }
+
+  function open() {
+    overlay.classList.add('open');
+    input.value = '';
+    loadIndex().then(function () { render(''); });
+    setTimeout(function () { input.focus(); }, 10);
+  }
+  function close() {
+    overlay.classList.remove('open');
+  }
+
+  if (trigger) trigger.addEventListener('click', open);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+  input.addEventListener('input', function (e) { render(e.target.value); });
+
+  document.addEventListener('keydown', function (e) {
+    var isOpen = overlay.classList.contains('open');
+    if (!isOpen && e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+      e.preventDefault(); open(); return;
+    }
+    if (!isOpen) return;
+    if (e.key === 'Escape') { close(); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); selIndex = Math.min(selIndex + 1, current.length - 1); updateSel(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); selIndex = Math.max(selIndex - 1, 0); updateSel(); }
+    else if (e.key === 'Enter') { e.preventDefault(); navigateTo(selIndex); }
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var grid       = document.querySelector('.channels-grid');
+  var chips      = document.querySelectorAll('.sort-chip');
+  var rangeWrap  = document.getElementById('orgRange');
+  var rangeChips = rangeWrap ? rangeWrap.querySelectorAll('.range-chip') : [];
+  var heroStreamsEl = document.querySelector('.org-hero-stats .js-streams');
+  var heroPeakEl    = document.querySelector('.org-hero-stats .js-peak');
+  var mode  = 'subs';   // 'subs' | 'peak' | 'likes' | 'streams' | 'az'
+  var range = '30d';    // '7d' | '30d' | 'all'
+
+  function getVal(card, attr) {
+    return parseFloat(card.getAttribute(attr) || '0') || 0;
+  }
+
+  function fmtNum(n) {
+    n = parseInt(n, 10) || 0;
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+    if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+    return String(n);
+  }
+
+  function sortCards() {
+    if (!grid) return;
+    var cards = Array.from(grid.querySelectorAll('.channel-card'));
+    if (mode === 'az') {
+      cards.sort(function (a, b) {
+        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
+      });
+    } else {
+      var map = { 'subs': 'data-subs', 'likes': 'data-likes',
+                  'peak': 'data-peak-' + range, 'streams': 'data-streams-' + range };
+      cards.sort(function (a, b) { return getVal(b, map[mode]) - getVal(a, map[mode]); });
+    }
+    cards.forEach(function (c) { grid.appendChild(c); });
+  }
+
+  function applyRange() {
+    if (grid) {
+      Array.from(grid.querySelectorAll('.channel-card')).forEach(function (card) {
+        var streamsEl = card.querySelector('.js-streams');
+        var peakEl    = card.querySelector('.js-peak');
+        if (streamsEl) streamsEl.textContent = card.getAttribute('data-streams-' + range) || '0';
+        if (peakEl) {
+          var p = card.getAttribute('data-peak-' + range) || '0';
+          peakEl.textContent = p === '0' ? '—' : fmtNum(p);
+        }
+      });
+    }
+    if (rangeWrap) {
+      if (heroStreamsEl) heroStreamsEl.textContent = rangeWrap.getAttribute('data-streams-' + range) || '0';
+      if (heroPeakEl) {
+        var hp = rangeWrap.getAttribute('data-peak-' + range) || '0';
+        heroPeakEl.textContent = hp === '0' ? '—' : fmtNum(hp);
+      }
+    }
+    sortCards();
+  }
+
+  var keyMap = {
+    'Subscribers': 'subs',
+    'Peak CCV':    'peak',
+    'Peak Likes':  'likes',
+    'Streams':     'streams',
+    'A–Z':   'az',
+  };
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      chips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      mode = keyMap[chip.textContent.trim()] || 'subs';
+      sortCards();
+    });
+  });
+
+  rangeChips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      rangeChips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      range = chip.getAttribute('data-range') || '30d';
+      applyRange();
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
+<title>KARAOKE - THANK YOU FOR 50K SUBS!!!【PANDAVVA】 — IDVTuber Tracker</title>
+<link rel="icon" href="../../favicon.ico">
+<script>window.SITE_DEPTH = 2;</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
+<link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../dashboard.css">
+<style>
+  :root { --org-color: #e8ff47; }
+  [data-theme="light"] { --org-color: #677600; }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) { --org-color: #677600; }
+  }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="../../index.html">
+    <img class="site-nav-logo-icon" src="../../favicon.ico" alt="">
+    <span class="site-nav-logo-word"><span class="lw1">IDVTuber</span><span class="lw2">//</span><span class="lw3">Tracker</span></span>
+  </a>
+  <span class="nav-spacer"></span>
+  <div class="nav-right-cluster">
+    <a class="nav-pill nav-live-pill" id="navLivePill" href="../../live.html">
+      <span class="pulse-strip" id="navPulseStrip"></span>
+      <span class="nav-live-dot"></span> LIVE <strong id="navLiveCount">0</strong>
+    </a>
+    <div class="search-trigger" id="searchTrigger">
+      <span class="search-trigger-icon">&#128269;</span> Search orgs, channels, streams… <kbd>/</kbd>
+    </div>
+    <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
+  </div>
+</nav>
+<div class="page">
+<nav class="breadcrumb"><a href="../../index.html">Home</a> <span class="sep">&#8250;</span> <a href="../index.html">PANDAVVA</a> <span class="sep">&#8250;</span> <a href="index.html">Bima Bayusena【PANDAVVA】</a> <span class="sep">&#8250;</span> <span class="current">KARAOKE - THANK YOU FOR 50K SUBS!!!【PAND…</span></nav>
+  <header>
+    <p class="eyebrow">PANDAVVA &nbsp;&#183;&nbsp; Bima Bayusena【PANDAVVA】</p>
+    <span class="stream-status status-vod" style="display:inline-block;margin-bottom:0.75rem;">VOD</span>
+    <h1>KARAOKE - THANK YOU FOR 50K SUBS!!!【PANDAVVA】</h1>
+    <p class="page-meta">Video ID: 6MkmEjeBhzw</p>
+  </header>
+
+  <div class="stream-hero">
+    <div class="embed-side">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/6MkmEjeBhzw" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="stream-thumb-meta">
+        <span>2026-06-14 12:00 WIB</span>
+        <a href="https://www.youtube.com/watch?v=6MkmEjeBhzw" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+    </div>
+    <div class="kpi-side">
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Peak Viewers</div><div class="kpi-value">1,497</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Avg Viewers</div><div class="kpi-value">1,130</div><div class="kpi-sub">concurrent</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Likes</div><div class="kpi-value">5,010</div></div>
+        <div class="kpi"><div class="kpi-label">Peak Comments</div><div class="kpi-value">27</div></div>
+        <div class="kpi"><div class="kpi-label">Stream Start</div><div class="kpi-value kpi-sm">2026-06-14 12:00 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Stream End</div><div class="kpi-value kpi-sm">2026-06-14 18:10 WIB</div></div>
+        <div class="kpi"><div class="kpi-label">Duration</div><div class="kpi-value kpi-sm">6h 10m 19s</div></div>
+        <div class="kpi"><div class="kpi-label">View Count</div><div class="kpi-value kpi-sm">16,360</div><div class="kpi-sub">total plays</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Concurrent Viewers over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('viewerChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('viewerChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="viewerChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
+  </div>
+
+  <div class="chart-box">
+    <div class="chart-toolbar">
+      <div class="chart-title">Likes &amp; Comments over Time</div>
+      <div class="chart-actions">
+        <button class="chart-btn" onclick="resetZoom('engagementChart')">Reset Zoom</button>
+        <button class="chart-btn" onclick="downloadCSV('engagementChart')">Download CSV</button>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="engagementChart"></canvas></div>
+    <p class="chart-hint">Scroll to zoom &nbsp;&#183;&nbsp; Shift+drag to select range &nbsp;&#183;&nbsp; Drag to pan &nbsp;&#183;&nbsp; Double-click to reset</p>
+  </div>
+
+  <p class="generated">Generated 2026-07-30 08:46 WIB &nbsp;&#183;&nbsp; yt-livestream-tracker</p>
+
+<script>
+// ── Data ────────────────────────────────────────────────────────
+const ts    = ["12:00", "12:01", "12:02", "12:03", "12:04", "12:05", "12:10", "12:11", "12:12", "12:13", "12:14", "12:15", "12:16", "12:17", "12:18", "12:19", "12:20", "12:21", "12:22", "12:23", "12:24", "12:27", "12:28", "12:29", "12:30", "12:31", "12:32", "12:33", "12:34", "12:35", "12:36", "12:37", "12:38", "12:39", "12:40", "12:41", "12:44", "12:45", "12:46", "12:47", "12:48", "12:49", "12:50", "12:51", "12:52", "12:53", "12:54", "12:55", "12:56", "12:57", "12:58", "13:01", "13:02", "13:03", "13:04", "13:05", "13:06", "13:07", "13:08", "13:09", "13:10", "13:11", "13:12", "13:13", "13:14", "13:15", "13:17", "13:18", "13:19", "13:20", "13:21", "13:22", "13:23", "13:24", "13:25", "13:26", "13:27", "13:28", "13:29", "13:31", "13:32", "13:34", "13:35", "13:36", "13:37", "13:38", "13:39", "13:40", "13:41", "13:42", "13:43", "13:44", "13:48", "13:49", "13:50", "13:51", "13:52", "13:53", "13:54", "13:55", "13:56", "13:57", "13:58", "13:59", "14:00", "14:01", "14:02", "14:05", "14:06", "14:07", "14:08", "14:09", "14:10", "14:11", "14:12", "14:13", "14:14", "14:15", "14:16", "14:17", "14:18", "14:19", "14:22", "14:23", "14:24", "14:25", "14:26", "14:27", "14:28", "14:29", "14:30", "14:31", "14:32", "14:33", "14:34", "14:35", "14:36", "14:39", "14:40", "14:41", "14:42", "14:43", "14:44", "14:45", "14:46", "14:47", "14:48", "14:49", "14:50", "14:51", "14:52", "14:53", "14:55", "14:56", "14:57", "14:58", "14:59", "15:00", "15:01", "15:02", "15:03", "15:04", "15:05", "15:06", "15:07", "15:08", "15:09", "15:11", "15:12", "15:13", "15:14", "15:16", "15:17", "15:18", "15:19", "15:20", "15:21", "15:22", "15:23", "15:24", "15:25", "15:26", "15:28", "15:29", "15:30", "15:31", "15:32", "15:33", "15:34", "15:35", "15:36", "15:37", "15:38", "15:39", "15:40", "15:41", "15:42", "15:44", "15:45", "15:46", "15:47", "15:48", "15:49", "15:50", "15:51", "15:52", "15:53", "15:54", "15:55", "15:56", "15:57", "15:58", "16:01", "16:02", "16:03", "16:04", "16:05", "16:06", "16:07", "16:08", "16:09", "16:10", "16:11", "16:12", "16:13", "16:14", "16:15", "16:17", "16:18", "16:19", "16:20", "16:21", "16:22", "16:23", "16:24", "16:25", "16:26", "16:27", "16:28", "16:29", "16:30", "16:31", "16:35", "16:36", "16:37", "16:38", "16:39", "16:40", "16:41", "16:42", "16:43", "16:44", "16:45", "16:46", "16:47", "16:48", "16:49", "16:51", "16:52", "16:53", "16:54", "16:55", "16:56", "16:57", "16:58", "16:59", "17:00", "17:01", "17:02", "17:03", "17:04", "17:05", "17:07", "17:08", "17:09", "17:10", "17:11", "17:12", "17:13", "17:14", "17:15", "17:16", "17:17", "17:18", "17:19", "17:20", "17:21", "17:24", "17:25", "17:26", "17:27", "17:28", "17:29", "17:30", "17:31", "17:32", "17:33", "17:34", "17:35", "17:36", "17:37", "17:38", "17:40", "17:41", "17:42", "17:43", "17:44", "17:45", "17:46", "17:47", "17:48", "17:49", "17:50", "17:51", "17:52", "17:53", "17:54", "17:56", "17:57", "17:58", "17:59", "18:00", "18:01", "18:02", "18:03", "18:04", "18:05", "18:06", "18:07", "18:08", "18:09", "18:10"];
+const views = [100, 303, 428, 841, 1077, 1166, 1195, 1096, 1106, 1169, 1126, 1119, 1214, 1234, 1209, 1264, 1266, 1286, 1338, 1324, 1340, 1313, 1341, 1285, 1289, 1325, 1270, 1270, 1339, 1297, 1283, 1346, 1307, 1333, 1367, 1316, 1285, 1314, 1308, 1297, 1356, 1313, 1350, 1372, 1362, 1384, 1400, 1397, 1418, 1423, 1414, 1350, 1362, 1375, 1292, 1315, 1385, 1318, 1337, 1389, 1358, 1389, 1433, 1391, 1427, 1425, 1403, 1497, 1440, 1432, 1431, 1358, 1369, 1397, 1325, 1335, 1389, 1356, 1348, 1399, 1357, 1314, 1338, 1376, 1326, 1346, 1390, 1319, 1296, 1340, 1302, 1335, 1360, 1326, 1333, 1337, 1269, 1265, 1289, 1270, 1279, 1323, 1289, 1293, 1295, 1230, 1232, 1215, 1245, 1204, 1237, 1254, 1208, 1230, 1238, 1185, 1197, 1221, 1155, 1170, 1215, 1180, 1182, 1173, 1202, 1187, 1179, 1210, 1169, 1189, 1234, 1182, 1181, 1214, 1182, 1196, 1221, 1194, 1191, 1161, 1174, 1184, 1161, 1195, 1197, 1171, 1197, 1187, 1163, 1189, 1213, 1180, 1180, 1159, 1174, 1147, 1154, 1153, 1140, 1142, 1155, 1154, 1153, 1162, 1119, 1130, 1156, 1133, 1158, 1102, 1112, 1138, 1108, 1127, 1154, 1091, 1128, 1170, 1094, 1078, 1091, 1088, 1114, 1097, 1097, 1107, 1096, 1101, 1139, 1122, 1136, 1170, 1152, 1139, 1120, 1096, 1105, 1125, 1121, 1079, 1078, 1075, 1017, 1014, 1049, 1038, 1029, 1027, 1014, 1024, 1051, 1031, 1019, 1010, 1036, 1036, 1056, 1050, 1061, 1048, 1038, 1036, 1002, 985, 1001, 956, 972, 997, 1029, 995, 1005, 1030, 1000, 1025, 1009, 986, 1006, 1052, 1008, 1018, 1037, 1009, 1012, 1025, 1045, 1001, 1024, 1023, 991, 1017, 1043, 1009, 1027, 1065, 980, 1000, 1011, 996, 1022, 1018, 1019, 1032, 1005, 991, 1010, 990, 981, 991, 986, 1010, 1029, 1013, 965, 961, 976, 961, 971, 1004, 943, 953, 956, 914, 929, 924, 898, 915, 911, 901, 918, 882, 913, 930, 882, 894, 891, 889, 874, 886, 853, 859, 851, 813, 842, 869, 870, 896, 872, 898, 885, 852, 883, 878, 889, 878, 903, 901, 916, 891, 912, 886, 893, 922, 913, 892, 0, 0, 0, 0, 0, 0, 0, 0];
+const likes = [584, 733, 810, 1063, 1215, 1288, 1478, 1523, 1561, 1595, 1628, 1660, 1687, 1728, 1762, 1784, 1815, 1840, 1878, 1905, 1930, 1996, 2020, 2039, 2070, 2090, 2106, 2127, 2148, 2175, 2199, 2225, 2243, 2265, 2289, 2307, 2370, 2387, 2416, 2435, 2450, 2472, 2490, 2509, 2527, 2544, 2568, 2584, 2612, 2632, 2653, 2710, 2725, 2736, 2747, 2763, 2776, 2793, 2809, 2820, 2836, 2849, 2869, 2880, 2897, 2909, 2938, 2959, 2975, 2985, 2998, 3007, 3023, 3035, 3047, 3056, 3084, 3097, 3106, 3114, 3125, 3160, 3165, 3170, 3183, 3204, 3220, 3232, 3242, 3260, 3270, 3283, 3322, 3336, 3349, 3367, 3376, 3384, 3388, 3401, 3411, 3426, 3435, 3445, 3453, 3464, 3468, 3508, 3525, 3536, 3548, 3558, 3562, 3573, 3578, 3588, 3599, 3607, 3617, 3624, 3630, 3633, 3652, 3658, 3666, 3680, 3688, 3704, 3709, 3712, 3722, 3731, 3739, 3743, 3753, 3760, 3768, 3783, 3791, 3799, 3804, 3807, 3810, 3816, 3820, 3826, 3829, 3839, 3846, 3852, 3858, 3868, 3879, 3884, 3889, 3893, 3897, 3905, 3915, 3920, 3923, 3932, 3940, 3943, 3954, 3963, 3972, 3996, 4001, 4007, 4012, 4015, 4027, 4032, 4042, 4043, 4052, 4059, 4066, 4078, 4085, 4091, 4107, 4117, 4131, 4134, 4139, 4144, 4158, 4167, 4176, 4182, 4189, 4201, 4205, 4215, 4220, 4236, 4241, 4253, 4255, 4259, 4264, 4269, 4271, 4278, 4282, 4289, 4296, 4299, 4303, 4308, 4320, 4320, 4323, 4332, 4336, 4339, 4343, 4348, 4352, 4360, 4367, 4372, 4381, 4390, 4395, 4411, 4413, 4421, 4430, 4434, 4438, 4444, 4452, 4456, 4462, 4466, 4467, 4471, 4478, 4482, 4495, 4504, 4510, 4518, 4525, 4529, 4538, 4542, 4548, 4554, 4561, 4569, 4574, 4578, 4579, 4591, 4599, 4604, 4609, 4618, 4627, 4633, 4635, 4642, 4648, 4654, 4660, 4667, 4672, 4677, 4691, 4699, 4701, 4707, 4712, 4718, 4722, 4730, 4736, 4742, 4744, 4747, 4757, 4763, 4768, 4777, 4782, 4789, 4795, 4801, 4806, 4811, 4814, 4819, 4822, 4829, 4835, 4840, 4844, 4846, 4854, 4862, 4873, 4874, 4881, 4888, 4893, 4897, 4901, 4906, 4915, 4918, 4922, 4927, 4934, 4949, 4952, 4958, 4964, 4968, 4980, 4989, 4999, 5007, 5006, 5006, 5006, 5006, 5008, 5010];
+const comms = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 12, 17, 20, 24, 26, 27];
+const VIDEO_ID = "6MkmEjeBhzw";
+
+// ── Theme-aware colours (read CSS variables at runtime) ─────────
+// orgColor is intentionally NOT baked in as a fixed Python string —
+// it is read live from --org-color, which _html_head() sets to the
+// dark- or light-mode value depending on the current theme. This is
+// what lets the chart line recolor when the toggle is flipped instead
+// of staying stuck on whichever color happened to be baked in at
+// generation time.
+function getCSSVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function chartColors() {
+  return {
+    org:  getCSSVar("--org-color") || "#e8ff47",
+    grid: getCSSVar("--border") || "rgba(40,50,74,0.35)",
+    tick: getCSSVar("--muted")  || "#8992A8",
+  };
+}
+let orgColor = chartColors().org;
+
+// ── Shared dataset defaults ──────────────────────────────────────
+const LINE = {
+  borderWidth: 2,
+  pointRadius: 0,          // no dots on the line
+  pointHoverRadius: 4,     // dot appears only on hover
+  pointHoverBorderWidth: 2,
+  fill: true,
+  tension: 0.4,            // smooth cubic bezier curve
+};
+
+// ── Base chart options ───────────────────────────────────────────
+function makeOpts(extraPlugins) {
+  const c = chartColors();
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { labels: { color: c.tick, font: { family: "IBM Plex Mono", size: 11 }, boxWidth: 12 } },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: "x",
+        },
+        zoom: {
+          wheel:  { enabled: true },
+          pinch:  { enabled: true },
+          drag:   { enabled: true, modifierKey: "shift", backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.3)", borderWidth: 1 },
+          mode: "x",
+        },
+      },
+      ...extraPlugins,
+    },
+    scales: {
+      x: {
+        ticks: { color: c.tick, font: { family: "IBM Plex Mono", size: 10 }, maxTicksLimit: 10, maxRotation: 0 },
+        grid:  { color: c.grid },
+      },
+      y: {
+        ticks: { color: c.tick, font: { family: "IBM Plex Mono", size: 10 }, beginAtZero: true },
+        grid:  { color: c.grid },
+      },
+    },
+  };
+}
+
+// ── Chart registry ───────────────────────────────────────────────
+const CHARTS = {};
+
+// ── Viewer chart ─────────────────────────────────────────────────
+CHARTS.viewerChart = new Chart(document.getElementById("viewerChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [{
+      label: "Concurrent Viewers",
+      data: views,
+      borderColor: orgColor,
+      backgroundColor: orgColor + "18",
+      ...LINE,
+    }],
+  },
+  options: makeOpts({}),
+});
+
+// ── Engagement chart ─────────────────────────────────────────────
+CHARTS.engagementChart = new Chart(document.getElementById("engagementChart"), {
+  type: "line",
+  data: {
+    labels: ts,
+    datasets: [
+      { label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE },
+      { label: "Comments", data: comms, borderColor: "#4F9EFF", backgroundColor: "rgba(79,158,255,0.06)", ...LINE },
+    ],
+  },
+  options: makeOpts({}),
+});
+
+// ── Reset zoom ───────────────────────────────────────────────────
+function resetZoom(id) {
+  const c = CHARTS[id];
+  if (c) c.resetZoom();
+}
+
+// Attach double-click reset to both canvases
+document.getElementById("viewerChart").addEventListener("dblclick", function() { resetZoom("viewerChart"); });
+document.getElementById("engagementChart").addEventListener("dblclick", function() { resetZoom("engagementChart"); });
+
+// ── Re-tint the viewer chart line on theme toggle ──────────────────
+// _THEME_JS dispatches "idvt-theme-change" right after it flips the
+// data-theme attribute, so --org-color has already resolved to the
+// new dark/light value by the time this fires.
+window.addEventListener("idvt-theme-change", function() {
+  orgColor = chartColors().org;
+  const vc = CHARTS.viewerChart;
+  vc.data.datasets[0].borderColor = orgColor;
+  vc.data.datasets[0].backgroundColor = orgColor + "18";
+  vc.update();
+});
+
+// ── CSV download ─────────────────────────────────────────────────
+function downloadCSV(id) {
+  const chart = CHARTS[id];
+  if (!chart) return;
+  const datasets = chart.data.datasets;
+  const labels   = chart.data.labels;
+  // Header row: Timestamp + one column per dataset
+  const header = ["Timestamp", ...datasets.map(function(d) { return d.label; })];
+  // Data rows
+  const rows = labels.map(function(lbl, i) {
+    return [lbl, ...datasets.map(function(d) { return d.data[i] ?? ""; })]
+      .map(function(v) { return String(v).includes(",") ? '"' + v + '"' : v; })
+      .join(",");
+  });
+  const csv  = [header.join(","), ...rows].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = VIDEO_ID + "_" + id + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+
+  <footer>
+    <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
+    <nav class="footer-links">
+      <a href="../../index.html">Home</a>
+      <span class="footer-sep">·</span>
+      <a href="../../privacy.html">Privacy Policy</a>
+      <span class="footer-sep">·</span>
+      <a href="../../terms.html">Terms of Use</a>
+    </nav>
+  </footer>
+</div>
+<div class="search-overlay" id="searchOverlay"><div class="search-modal"><div class="search-input-row">&#128269;<input id="searchInput" placeholder="Search orgs, channels, streams…" autocomplete="off"><span class="search-esc">ESC</span></div><div class="search-results" id="searchResults"></div><div class="search-footer"><span>&#8593;&#8595; navigate &#183; &#8629; open</span><span id="searchResultCount"></span></div></div></div>
+
+<script>
+(function() {
+  var STORAGE_KEY = 'idvt-theme';
+  var root  = document.documentElement;
+  var btn   = null;
+  var thumb = null;
+
+  function getSystemTheme() {
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  }
+  function getEffectiveTheme() {
+    return localStorage.getItem(STORAGE_KEY) || getSystemTheme();
+  }
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (thumb) {
+      theme === 'light' ? thumb.classList.add('is-light') : thumb.classList.remove('is-light');
+    }
+    // Lets any page-specific script (e.g. the stream page's chart) react to
+    // a theme flip without _THEME_JS needing to know charts exist at all.
+    window.dispatchEvent(new Event('idvt-theme-change'));
+  }
+  function toggleTheme() {
+    var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+  }
+  applyTheme(getEffectiveTheme());
+  document.addEventListener('DOMContentLoaded', function() {
+    btn   = document.getElementById('theme-toggle');
+    thumb = document.getElementById('toggle-thumb');
+    applyTheme(getEffectiveTheme());
+    if (btn) btn.addEventListener('click', toggleTheme);
+  });
+  window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
+    if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var pill   = document.getElementById('navLivePill');
+  var count  = document.getElementById('navLiveCount');
+  var strip  = document.getElementById('navPulseStrip');
+  if (!pill || !count) return;
+
+  function pulseBars() {
+    if (!strip) return;
+    strip.innerHTML = '';
+    for (var i = 0; i < 12; i++) {
+      var b = document.createElement('span');
+      b.style.height = (4 + Math.round(Math.random() * 10)) + 'px';
+      strip.appendChild(b);
+    }
+  }
+  pulseBars();
+  setInterval(pulseBars, 2500);
+
+  var depth = window.SITE_DEPTH || 0;
+  fetch('../'.repeat(depth) + 'live-count.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var n = data.count || 0;
+      count.textContent = n;
+      pill.classList.toggle('has-live', n > 0);
+    })
+    .catch(function () { /* fine to just leave the pill hidden */ });
+})();
+</script>
+
+<script>
+(function () {
+  var overlay   = document.getElementById('searchOverlay');
+  var input     = document.getElementById('searchInput');
+  var results   = document.getElementById('searchResults');
+  var countEl   = document.getElementById('searchResultCount');
+  var trigger   = document.getElementById('searchTrigger');
+  var depth     = window.SITE_DEPTH || 0;
+  var indexData = null;
+  var indexPromise = null;
+  var current   = [];
+  var selIndex  = 0;
+
+  var typeIcon  = { org: '\u25C6', channel: '\u25CF', stream: '\u25B6' };
+  var typeLabel = { org: 'Organisations', channel: 'Channels', stream: 'Streams' };
+
+  function loadIndex() {
+    if (indexPromise) return indexPromise;
+    var path = '../'.repeat(depth) + 'search-index.json';
+    indexPromise = fetch(path).then(function (r) { return r.json(); })
+      .then(function (data) { indexData = data; return data; })
+      .catch(function (e) { indexData = []; console.warn('search index unavailable:', e); return []; });
+    return indexPromise;
+  }
+
+  function score(query, text) {
+    query = query.toLowerCase(); text = text.toLowerCase();
+    if (!query) return 0;
+    if (text.indexOf(query) === 0) return 100;
+    if (text.indexOf(query) !== -1) return 60;
+    var qi = 0;
+    for (var i = 0; i < text.length && qi < query.length; i++) {
+      if (text[i] === query[qi]) qi++;
+    }
+    return qi === query.length ? 25 : -1;
+  }
+
+  function highlight(text, query) {
+    if (!query) return text;
+    var idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return text.slice(0, idx) + '<mark>' + text.slice(idx, idx + query.length) + '</mark>' + text.slice(idx + query.length);
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function render(query) {
+    if (!indexData) return;
+    if (!query) {
+      results.innerHTML = '<div class="search-empty">Type to search every organisation, channel, and tracked stream.</div>';
+      countEl.textContent = '';
+      current = [];
+      return;
+    }
+    var scored = indexData
+      .map(function (item) { return Object.assign({}, item, { s: score(query, item.name) }); })
+      .filter(function (item) { return item.s >= 0; })
+      .sort(function (a, b) { return b.s - a.s; })
+      .slice(0, 40);
+
+    current = scored;
+    selIndex = 0;
+    countEl.textContent = scored.length + ' result' + (scored.length === 1 ? '' : 's');
+
+    if (!scored.length) {
+      results.innerHTML = '<div class="search-empty">No matches for "' + esc(query) + '".</div>';
+      return;
+    }
+    var groups = { org: [], channel: [], stream: [] };
+    scored.forEach(function (item) { groups[item.type].push(item); });
+
+    var html = '';
+    var flat = 0;
+    ['org', 'channel', 'stream'].forEach(function (t) {
+      if (!groups[t].length) return;
+      html += '<div class="result-group-label">' + typeLabel[t] + '</div>';
+      groups[t].forEach(function (item) {
+        html += '<div class="result-row" data-idx="' + flat + '">' +
+          '<div class="result-type-icon">' + typeIcon[t] + '</div>' +
+          '<div class="result-main"><div class="result-name">' + highlight(esc(item.name), query) + '</div>' +
+          '<div class="result-sub">' + esc(item.sub || '') + '</div></div>' +
+          '</div>';
+        flat++;
+      });
+    });
+    results.innerHTML = html;
+    Array.prototype.forEach.call(results.querySelectorAll('.result-row'), function (row) {
+      row.addEventListener('click', function () { navigateTo(parseInt(row.dataset.idx, 10)); });
+    });
+    updateSel();
+  }
+
+  function updateSel() {
+    var rows = results.querySelectorAll('.result-row');
+    Array.prototype.forEach.call(rows, function (r, i) { r.classList.toggle('sel', i === selIndex); });
+    if (rows[selIndex]) rows[selIndex].scrollIntoView({ block: 'nearest' });
+  }
+
+  function navigateTo(i) {
+    var item = current[i];
+    if (!item) return;
+    window.location.href = '../'.repeat(depth) + item.path;
+  }
+
+  function open() {
+    overlay.classList.add('open');
+    input.value = '';
+    loadIndex().then(function () { render(''); });
+    setTimeout(function () { input.focus(); }, 10);
+  }
+  function close() {
+    overlay.classList.remove('open');
+  }
+
+  if (trigger) trigger.addEventListener('click', open);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+  input.addEventListener('input', function (e) { render(e.target.value); });
+
+  document.addEventListener('keydown', function (e) {
+    var isOpen = overlay.classList.contains('open');
+    if (!isOpen && e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+      e.preventDefault(); open(); return;
+    }
+    if (!isOpen) return;
+    if (e.key === 'Escape') { close(); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); selIndex = Math.min(selIndex + 1, current.length - 1); updateSel(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); selIndex = Math.max(selIndex - 1, 0); updateSel(); }
+    else if (e.key === 'Enter') { e.preventDefault(); navigateTo(selIndex); }
+  });
+})();
+</script>
+</body>
+</html>

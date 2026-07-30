@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
+<title>DASORiYAL — IDVTuber Tracker</title>
+<link rel="icon" href="../favicon.ico">
+<script>window.SITE_DEPTH = 1;</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../theme.css">
+<link rel="stylesheet" href="../dashboard.css">
+<style>
+  :root { --org-color: #a0b6c2; }
+  [data-theme="light"] { --org-color: #557384; }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) { --org-color: #557384; }
+  }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="../index.html">
+    <img class="site-nav-logo-icon" src="../favicon.ico" alt="">
+    <span class="site-nav-logo-word"><span class="lw1">IDVTuber</span><span class="lw2">//</span><span class="lw3">Tracker</span></span>
+  </a>
+  <span class="nav-spacer"></span>
+  <div class="nav-right-cluster">
+    <a class="nav-pill nav-live-pill" id="navLivePill" href="../live.html">
+      <span class="pulse-strip" id="navPulseStrip"></span>
+      <span class="nav-live-dot"></span> LIVE <strong id="navLiveCount">0</strong>
+    </a>
+    <div class="search-trigger" id="searchTrigger">
+      <span class="search-trigger-icon">&#128269;</span> Search orgs, channels, streams… <kbd>/</kbd>
+    </div>
+    <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
+  </div>
+</nav>
+<div class="page">
+<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <span class="current">DASORiYAL</span></nav>
+  <div class="org-hero">
+    <div class="org-hero-accent"></div>
+    <div class="org-hero-body">
+      <div class="org-hero-info">
+        <div class="org-hero-name">DASORiYAL</div>
+        <div class="org-hero-desc">Girls group consisted of prominent names in Indonesia indie VTuber scene.</div>
+        <div class="org-hero-stats">
+          <div class="ohs"><div class="ohs-val">5</div><div class="ohs-lbl">Channels</div></div>
+          <div class="ohs"><div class="ohs-val js-streams">114</div><div class="ohs-lbl">Streams</div></div>
+          <div class="ohs"><div class="ohs-val js-peak">416</div><div class="ohs-lbl">Peak CCV</div></div>
+          <div class="ohs"><div class="ohs-val">218.8K</div><div class="ohs-lbl">Combined subs</div></div>
+        </div>
+      </div>
+      <div class="range-chips" id="orgRange" data-peak-7d="416" data-peak-30d="416" data-peak-all="416" data-streams-7d="31" data-streams-30d="114" data-streams-all="114">
+        <span class="range-chip" data-range="7d">7D</span>
+        <span class="range-chip active" data-range="30d">30D</span>
+        <span class="range-chip" data-range="all">ALL</span>
+      </div>
+    </div>
+  </div>
+  <div class="sort-strip">
+    <span class="sort-lbl">Sort by:</span>
+    <span class="sort-chip active">Subscribers</span>
+    <span class="sort-chip">Peak CCV</span>
+    <span class="sort-chip">Peak Likes</span>
+    <span class="sort-chip">Streams</span>
+    <span class="sort-chip">A&#8211;Z</span>
+  </div>
+  <div class="channels-grid">
+    <a class="channel-card" href="dasoriyal/index.html" data-name="DASORiYAL" data-subs="1770" data-likes="394" data-streams-7d="3" data-streams-30d="3" data-streams-all="3" data-peak-7d="382" data-peak-30d="382" data-peak-all="382">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/dW6mR6AyPhzkl5sQVIcShB1tm7YDcUZWpNvcbCqmDiNdyMSOuoamNpdskBV6lYjg2RS6R5Uvnw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>D</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">DASORiYAL</div>
+        <div class="ch-card-role">Org Channel</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">1.8K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">3</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">382</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">394</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="krystalize-moon-dasoriyal/index.html" data-name="Krystalize Moon『 DASORiYAL 』" data-subs="11900" data-likes="148" data-streams-7d="6" data-streams-30d="26" data-streams-all="26" data-peak-7d="71" data-peak-30d="235" data-peak-all="235">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/SeY3-lbIKxcrhhgLpxZUbjQDpLya9lcM9CV6OJs_qCb_JaQDsMGImzsItE4JaEArxpGpLwZHoFM=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>KM</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Krystalize Moon『 DASORiYAL 』</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">11.9K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">26</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">235</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">148</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="karissa-sharlotte-dasoriyal/index.html" data-name="Karissa Sharlotte『 DASORiYAL 』" data-subs="129000" data-likes="858" data-streams-7d="6" data-streams-30d="24" data-streams-all="24" data-peak-7d="416" data-peak-30d="416" data-peak-all="416">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/wIOARNmkl79uw9h285Mgwt1_mucGI02-ckM8Vgvk8ZKQ9fDSCPo_zzFodadCR7Qei2QV6ySxZ0o=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>KS</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Karissa Sharlotte『 DASORiYAL 』</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">129.0K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">24</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">416</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">858</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="gabriel-abyssia-dasoriyal/index.html" data-name="Gabriel Abyssia『 DASORiYAL 』" data-subs="54600" data-likes="276" data-streams-7d="10" data-streams-30d="35" data-streams-all="35" data-peak-7d="215" data-peak-30d="215" data-peak-all="215">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/YeF-v2PXOmn5nzme0MNqQADZG5HQy1MTWNEzkVo2TkjDssFmTsVDkuIwZP1OWvq3Yd0mEGP04w=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>GA</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Gabriel Abyssia『 DASORiYAL 』</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">54.6K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">35</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">215</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">276</div></div>
+      </div>
+    </a>
+    <a class="channel-card" href="hali-ch-dasoriyal/index.html" data-name="Hali Ch. 『 DASORiYAL 』" data-subs="21500" data-likes="459" data-streams-7d="6" data-streams-30d="26" data-streams-all="26" data-peak-7d="226" data-peak-30d="256" data-peak-all="256">
+      <div class="ch-card-top">
+        <img class="channel-avatar" src="https://yt3.ggpht.com/pybR6_Bse73FOKL5eFHRl4Fc0nsGmklcjccwggmUmWWh649pW2H03YYwqeW6tc5830hubg66aw=s240-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;channel-avatar-placeholder&quot;>H『</div>'">
+        
+      </div>
+      <div class="ch-card-name-wrap">
+        <div class="ch-card-name">Hali Ch. 『 DASORiYAL 』</div>
+        <div class="ch-card-role">Talent</div>
+      </div>
+      <div class="ch-card-stat-grid">
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">21.5K</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">26</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">256</div></div>
+        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">459</div></div>
+      </div>
+    </a>
+  </div>
+
+  <footer>
+    <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
+    <nav class="footer-links">
+      <a href="../index.html">Home</a>
+      <span class="footer-sep">·</span>
+      <a href="../privacy.html">Privacy Policy</a>
+      <span class="footer-sep">·</span>
+      <a href="../terms.html">Terms of Use</a>
+    </nav>
+  </footer>
+</div>
+<div class="search-overlay" id="searchOverlay"><div class="search-modal"><div class="search-input-row">&#128269;<input id="searchInput" placeholder="Search orgs, channels, streams…" autocomplete="off"><span class="search-esc">ESC</span></div><div class="search-results" id="searchResults"></div><div class="search-footer"><span>&#8593;&#8595; navigate &#183; &#8629; open</span><span id="searchResultCount"></span></div></div></div>
+
+<script>
+(function() {
+  var STORAGE_KEY = 'idvt-theme';
+  var root  = document.documentElement;
+  var btn   = null;
+  var thumb = null;
+
+  function getSystemTheme() {
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  }
+  function getEffectiveTheme() {
+    return localStorage.getItem(STORAGE_KEY) || getSystemTheme();
+  }
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (thumb) {
+      theme === 'light' ? thumb.classList.add('is-light') : thumb.classList.remove('is-light');
+    }
+    // Lets any page-specific script (e.g. the stream page's chart) react to
+    // a theme flip without _THEME_JS needing to know charts exist at all.
+    window.dispatchEvent(new Event('idvt-theme-change'));
+  }
+  function toggleTheme() {
+    var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+  }
+  applyTheme(getEffectiveTheme());
+  document.addEventListener('DOMContentLoaded', function() {
+    btn   = document.getElementById('theme-toggle');
+    thumb = document.getElementById('toggle-thumb');
+    applyTheme(getEffectiveTheme());
+    if (btn) btn.addEventListener('click', toggleTheme);
+  });
+  window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
+    if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var pill   = document.getElementById('navLivePill');
+  var count  = document.getElementById('navLiveCount');
+  var strip  = document.getElementById('navPulseStrip');
+  if (!pill || !count) return;
+
+  function pulseBars() {
+    if (!strip) return;
+    strip.innerHTML = '';
+    for (var i = 0; i < 12; i++) {
+      var b = document.createElement('span');
+      b.style.height = (4 + Math.round(Math.random() * 10)) + 'px';
+      strip.appendChild(b);
+    }
+  }
+  pulseBars();
+  setInterval(pulseBars, 2500);
+
+  var depth = window.SITE_DEPTH || 0;
+  fetch('../'.repeat(depth) + 'live-count.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var n = data.count || 0;
+      count.textContent = n;
+      pill.classList.toggle('has-live', n > 0);
+    })
+    .catch(function () { /* fine to just leave the pill hidden */ });
+})();
+</script>
+
+<script>
+(function () {
+  var overlay   = document.getElementById('searchOverlay');
+  var input     = document.getElementById('searchInput');
+  var results   = document.getElementById('searchResults');
+  var countEl   = document.getElementById('searchResultCount');
+  var trigger   = document.getElementById('searchTrigger');
+  var depth     = window.SITE_DEPTH || 0;
+  var indexData = null;
+  var indexPromise = null;
+  var current   = [];
+  var selIndex  = 0;
+
+  var typeIcon  = { org: '\u25C6', channel: '\u25CF', stream: '\u25B6' };
+  var typeLabel = { org: 'Organisations', channel: 'Channels', stream: 'Streams' };
+
+  function loadIndex() {
+    if (indexPromise) return indexPromise;
+    var path = '../'.repeat(depth) + 'search-index.json';
+    indexPromise = fetch(path).then(function (r) { return r.json(); })
+      .then(function (data) { indexData = data; return data; })
+      .catch(function (e) { indexData = []; console.warn('search index unavailable:', e); return []; });
+    return indexPromise;
+  }
+
+  function score(query, text) {
+    query = query.toLowerCase(); text = text.toLowerCase();
+    if (!query) return 0;
+    if (text.indexOf(query) === 0) return 100;
+    if (text.indexOf(query) !== -1) return 60;
+    var qi = 0;
+    for (var i = 0; i < text.length && qi < query.length; i++) {
+      if (text[i] === query[qi]) qi++;
+    }
+    return qi === query.length ? 25 : -1;
+  }
+
+  function highlight(text, query) {
+    if (!query) return text;
+    var idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return text.slice(0, idx) + '<mark>' + text.slice(idx, idx + query.length) + '</mark>' + text.slice(idx + query.length);
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function render(query) {
+    if (!indexData) return;
+    if (!query) {
+      results.innerHTML = '<div class="search-empty">Type to search every organisation, channel, and tracked stream.</div>';
+      countEl.textContent = '';
+      current = [];
+      return;
+    }
+    var scored = indexData
+      .map(function (item) { return Object.assign({}, item, { s: score(query, item.name) }); })
+      .filter(function (item) { return item.s >= 0; })
+      .sort(function (a, b) { return b.s - a.s; })
+      .slice(0, 40);
+
+    current = scored;
+    selIndex = 0;
+    countEl.textContent = scored.length + ' result' + (scored.length === 1 ? '' : 's');
+
+    if (!scored.length) {
+      results.innerHTML = '<div class="search-empty">No matches for "' + esc(query) + '".</div>';
+      return;
+    }
+    var groups = { org: [], channel: [], stream: [] };
+    scored.forEach(function (item) { groups[item.type].push(item); });
+
+    var html = '';
+    var flat = 0;
+    ['org', 'channel', 'stream'].forEach(function (t) {
+      if (!groups[t].length) return;
+      html += '<div class="result-group-label">' + typeLabel[t] + '</div>';
+      groups[t].forEach(function (item) {
+        html += '<div class="result-row" data-idx="' + flat + '">' +
+          '<div class="result-type-icon">' + typeIcon[t] + '</div>' +
+          '<div class="result-main"><div class="result-name">' + highlight(esc(item.name), query) + '</div>' +
+          '<div class="result-sub">' + esc(item.sub || '') + '</div></div>' +
+          '</div>';
+        flat++;
+      });
+    });
+    results.innerHTML = html;
+    Array.prototype.forEach.call(results.querySelectorAll('.result-row'), function (row) {
+      row.addEventListener('click', function () { navigateTo(parseInt(row.dataset.idx, 10)); });
+    });
+    updateSel();
+  }
+
+  function updateSel() {
+    var rows = results.querySelectorAll('.result-row');
+    Array.prototype.forEach.call(rows, function (r, i) { r.classList.toggle('sel', i === selIndex); });
+    if (rows[selIndex]) rows[selIndex].scrollIntoView({ block: 'nearest' });
+  }
+
+  function navigateTo(i) {
+    var item = current[i];
+    if (!item) return;
+    window.location.href = '../'.repeat(depth) + item.path;
+  }
+
+  function open() {
+    overlay.classList.add('open');
+    input.value = '';
+    loadIndex().then(function () { render(''); });
+    setTimeout(function () { input.focus(); }, 10);
+  }
+  function close() {
+    overlay.classList.remove('open');
+  }
+
+  if (trigger) trigger.addEventListener('click', open);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+  input.addEventListener('input', function (e) { render(e.target.value); });
+
+  document.addEventListener('keydown', function (e) {
+    var isOpen = overlay.classList.contains('open');
+    if (!isOpen && e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+      e.preventDefault(); open(); return;
+    }
+    if (!isOpen) return;
+    if (e.key === 'Escape') { close(); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); selIndex = Math.min(selIndex + 1, current.length - 1); updateSel(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); selIndex = Math.max(selIndex - 1, 0); updateSel(); }
+    else if (e.key === 'Enter') { e.preventDefault(); navigateTo(selIndex); }
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var grid       = document.querySelector('.channels-grid');
+  var chips      = document.querySelectorAll('.sort-chip');
+  var rangeWrap  = document.getElementById('orgRange');
+  var rangeChips = rangeWrap ? rangeWrap.querySelectorAll('.range-chip') : [];
+  var heroStreamsEl = document.querySelector('.org-hero-stats .js-streams');
+  var heroPeakEl    = document.querySelector('.org-hero-stats .js-peak');
+  var mode  = 'subs';   // 'subs' | 'peak' | 'likes' | 'streams' | 'az'
+  var range = '30d';    // '7d' | '30d' | 'all'
+
+  function getVal(card, attr) {
+    return parseFloat(card.getAttribute(attr) || '0') || 0;
+  }
+
+  function fmtNum(n) {
+    n = parseInt(n, 10) || 0;
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+    if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+    return String(n);
+  }
+
+  function sortCards() {
+    if (!grid) return;
+    var cards = Array.from(grid.querySelectorAll('.channel-card'));
+    if (mode === 'az') {
+      cards.sort(function (a, b) {
+        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
+      });
+    } else {
+      var map = { 'subs': 'data-subs', 'likes': 'data-likes',
+                  'peak': 'data-peak-' + range, 'streams': 'data-streams-' + range };
+      cards.sort(function (a, b) { return getVal(b, map[mode]) - getVal(a, map[mode]); });
+    }
+    cards.forEach(function (c) { grid.appendChild(c); });
+  }
+
+  function applyRange() {
+    if (grid) {
+      Array.from(grid.querySelectorAll('.channel-card')).forEach(function (card) {
+        var streamsEl = card.querySelector('.js-streams');
+        var peakEl    = card.querySelector('.js-peak');
+        if (streamsEl) streamsEl.textContent = card.getAttribute('data-streams-' + range) || '0';
+        if (peakEl) {
+          var p = card.getAttribute('data-peak-' + range) || '0';
+          peakEl.textContent = p === '0' ? '—' : fmtNum(p);
+        }
+      });
+    }
+    if (rangeWrap) {
+      if (heroStreamsEl) heroStreamsEl.textContent = rangeWrap.getAttribute('data-streams-' + range) || '0';
+      if (heroPeakEl) {
+        var hp = rangeWrap.getAttribute('data-peak-' + range) || '0';
+        heroPeakEl.textContent = hp === '0' ? '—' : fmtNum(hp);
+      }
+    }
+    sortCards();
+  }
+
+  var keyMap = {
+    'Subscribers': 'subs',
+    'Peak CCV':    'peak',
+    'Peak Likes':  'likes',
+    'Streams':     'streams',
+    'A–Z':   'az',
+  };
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      chips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      mode = keyMap[chip.textContent.trim()] || 'subs';
+      sortCards();
+    });
+  });
+
+  rangeChips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      rangeChips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      range = chip.getAttribute('data-range') || '30d';
+      applyRange();
+    });
+  });
+})();
+</script>
+</body>
+</html>
