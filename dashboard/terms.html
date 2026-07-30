@@ -3,45 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
 <title>Terms of Use — IDVTuber Tracker</title>
+<link rel="icon" href="favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Shared site theme — see theme.css. Edit that one file to re-theme this
+     page along with the rest of the site; nothing below should need to
+     change when the theme does. -->
+<link rel="stylesheet" href="theme.css">
 <style>
-  :root {
-    --bg:      #0a0a0f;
-    --surface: #13131a;
-    --border:  #1e1e2e;
-    --accent:  #e8ff47;
-    --muted:   #5a5a7a;
-    --text:    #e2e2f0;
-    --red:     #ff4f6d;
-    --blue:    #4fc3f7;
-    --green:   #47ffb2;
-    --white:   #ffffff;
-  }
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-  html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Mono', monospace;
-    font-size: 14px;
-    line-height: 1.8;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-
-  body::before {
-    content: '';
-    position: fixed; inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
-    pointer-events: none; z-index: 0; opacity: 0.5;
-  }
-
-  .page { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  /* ── page-specific structure only — colors/fonts/nav all come from
+     theme.css. Nothing here should hardcode a color; reference the shared
+     variables so this page stays in sync automatically. ── */
 
   .back {
     display: inline-flex; align-items: center; gap: 0.5rem;
@@ -53,21 +28,7 @@
   .back:hover { color: var(--accent); }
   .back::before { content: '←'; font-size: 0.9rem; }
 
-  header {
-    margin-bottom: 4rem;
-    animation: fadeUp 0.5s 0.05s ease both;
-  }
-  .eyebrow {
-    font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
-    color: var(--blue); margin-bottom: 0.75rem;
-  }
-  h1 {
-    font-family: 'Fraunces', serif;
-    font-size: clamp(2.2rem, 5vw, 4rem);
-    font-weight: 700; line-height: 1.05;
-    color: var(--white); margin-bottom: 1rem;
-  }
-  h1 em { color: var(--blue); font-style: italic; }
+  header { margin-bottom: 4rem; animation: fadeUp 0.5s 0.05s ease both; }
   .meta-row {
     display: flex; flex-wrap: wrap; gap: 1.5rem;
     font-size: 0.7rem; color: var(--muted); margin-top: 1.25rem;
@@ -99,7 +60,7 @@
 
   /* ── key agreement banner ── */
   .agreement-banner {
-    background: rgba(79,195,247,0.06);
+    background: rgba(79,158,255,0.06);
     border: 1px solid var(--blue);
     border-radius: 4px;
     padding: 1.25rem 1.5rem;
@@ -135,7 +96,7 @@
     letter-spacing: 0.15em; flex-shrink: 0;
   }
   h2 {
-    font-family: 'Fraunces', serif;
+    font-family: var(--font-display);
     font-size: 1.3rem; font-weight: 700;
     color: var(--white);
   }
@@ -210,15 +171,25 @@
   }
   footer a { color: var(--muted); }
   footer a:hover { color: var(--accent); }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
 </style>
 </head>
 <body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="index.html">
+    <img class="site-nav-logo-icon" src="favicon.ico" alt="">
+    <span class="site-nav-logo-word"><span class="lw1">IDVTuber</span><span class="lw2">//</span><span class="lw3">Tracker</span></span>
+  </a>
+  <span class="nav-spacer"></span>
+  <div class="theme-toggle">
+    <button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme">
+      <span class="toggle-icon-light">☀</span>
+      <span class="toggle-thumb" id="toggle-thumb">&#10022;</span>
+      <span class="toggle-icon-dark">☽</span>
+    </button>
+  </div>
+</nav>
 <div class="page">
+
 
   <a class="back" href="index.html">All streams</a>
 
@@ -538,5 +509,6 @@
   </footer>
 
 </div>
+<script src="theme-toggle.js"></script>
 </body>
 </html>
