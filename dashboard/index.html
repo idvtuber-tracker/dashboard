@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
+<title>Stream Analytics — IDVTuber Tracker</title>
+<link rel="icon" href="favicon.ico">
+<script>window.SITE_DEPTH = 0;</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="dashboard.css">
+<style>
+  :root { --org-color: #e8ff47; }
+  [data-theme="light"] { --org-color: #6e7e00; }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) { --org-color: #6e7e00; }
+  }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a class="site-nav-logo" href="index.html">
+    <img class="site-nav-logo-icon" src="favicon.ico" alt="">
+    <span class="site-nav-logo-word"><span class="lw1">IDVTuber</span><span class="lw2">//</span><span class="lw3">Tracker</span></span>
+  </a>
+  <span class="nav-spacer"></span>
+  <div class="nav-right-cluster">
+    <a class="nav-pill nav-live-pill" id="navLivePill" href="live.html">
+      <span class="pulse-strip" id="navPulseStrip"></span>
+      <span class="nav-live-dot"></span> LIVE <strong id="navLiveCount">0</strong>
+    </a>
+    <div class="search-trigger" id="searchTrigger">
+      <span class="search-trigger-icon">&#128269;</span> Search orgs, channels, streams… <kbd>/</kbd>
+    </div>
+    <div class="theme-toggle"><button class="toggle-pill" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme"><span class="toggle-icon-light">☀</span><span class="toggle-thumb" id="toggle-thumb">&#10022;</span><span class="toggle-icon-dark">☽</span></button></div>
+  </div>
+</nav>
+<div class="page">
+  <div class="site-hero">
+    <div class="site-hero-accent"></div>
+    <div class="site-hero-body">
+      <div class="site-hero-info">
+        <p class="eyebrow">IDVTuber Tracker &#8212; Live Analytics</p>
+        <h1>34 orgs. 220 channels. One signal feed.</h1>
+        <p class="page-meta">Indonesian VTuber groups numbers tracked, displayed, and recorded in one place &#8212; subs, streams, and peak viewership, refreshed automatically.</p>
+        <p class="site-hero-updated">&#128337; Updated 2026-07-30 08:45 WIB</p>
+      </div>
+      <div class="site-hero-side">
+        <div class="range-chips" id="homeRange" data-peak-7d="4305" data-peak-30d="4305" data-peak-all="4619">
+          <span class="range-chip" data-range="7d">7D</span>
+          <span class="range-chip active" data-range="30d">30D</span>
+          <span class="range-chip" data-range="all">ALL</span>
+        </div>
+        <div class="site-hero-stats">
+          <div class="ohs"><div class="ohs-val">34</div><div class="ohs-lbl">Organisations</div></div>
+          <div class="ohs"><div class="ohs-val">220</div><div class="ohs-lbl">Channels</div></div>
+          <div class="ohs"><div class="ohs-val">4994</div><div class="ohs-lbl">Streams</div></div>
+          <div class="ohs"><div class="ohs-val" id="idxLiveCount">0</div><div class="ohs-lbl">Live now</div></div>
+          <div class="ohs"><div class="ohs-val js-site-peak">4.3K</div><div class="ohs-lbl">Peak CCV</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sort-strip">
+    <span class="sort-lbl">Sort:</span>
+    <span class="filter-chip active">All</span>
+    <span class="filter-chip">A&#8211;Z</span>
+    <span class="filter-chip">Peak Viewers</span>
+  </div>
+  <div class="orgs-grid">
+    <a class="org-card" href="pandavva/index.html" style="--org-color-dark:#e8ff47;--org-color-light:#677600" data-name="PANDAVVA" data-streams-7d="16" data-streams-30d="62" data-streams-all="462" data-peak-7d="4305" data-peak-30d="4305" data-peak-all="4619">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">PANDAVVA</div>
+          
+        </div>
+        <div class="org-card-desc">An Indonesian VTuber organization with a rich mythological theme inspired by the Mahabharata.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>6</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">62</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">4.3K</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="project-livium/index.html" style="--org-color-dark:#47ffb2;--org-color-light:#00804b" data-name="Project:LIVIUM" data-streams-7d="24" data-streams-30d="90" data-streams-all="512" data-peak-7d="639" data-peak-30d="643" data-peak-all="2101">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Project:LIVIUM</div>
+          
+        </div>
+        <div class="org-card-desc">A dynamic VTuber project featuring seven unique talents spanning a wide range of creative personalities.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>8</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">90</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">643</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="whicker-butler/index.html" style="--org-color-dark:#b47fff;--org-color-light:#8c3bff" data-name="Whicker Butler" data-streams-7d="19" data-streams-30d="80" data-streams-all="379" data-peak-7d="140" data-peak-30d="189" data-peak-all="268">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Whicker Butler</div>
+          
+        </div>
+        <div class="org-card-desc">A boutique VTuber agency known for its refined aesthetic and five distinctive talents with global appeal.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>6</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">80</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">189</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="yorukaze/index.html" style="--org-color-dark:#7ec8e3;--org-color-light:#217897" data-name="Yorukaze Production" data-streams-7d="10" data-streams-30d="38" data-streams-all="119" data-peak-7d="101" data-peak-30d="117" data-peak-all="135">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Yorukaze Production</div>
+          
+        </div>
+        <div class="org-card-desc">An Indonesian VTuber organization serving as a bridge and support platform for virtual content creators.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>14</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">38</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">117</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="prism-nova/index.html" style="--org-color-dark:#c084fc;--org-color-light:#9734fa" data-name="Prism:NOVA" data-streams-7d="8" data-streams-30d="39" data-streams-all="165" data-peak-7d="54" data-peak-30d="119" data-peak-all="136">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Prism:NOVA</div>
+          
+        </div>
+        <div class="org-card-desc">An Indonesian VTuber agency focused on characterisation, storytelling, and roleplaying.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>4</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">39</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">119</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="vcosmix/index.html" style="--org-color-dark:#f472b6;--org-color-light:#d51177" data-name="VCosmix" data-streams-7d="8" data-streams-30d="32" data-streams-all="168" data-peak-7d="46" data-peak-30d="46" data-peak-all="145">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">VCosmix</div>
+          
+        </div>
+        <div class="org-card-desc">An Indonesian VTuber group who provides girls fun experience.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>4</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">32</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">46</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="cozycazt/index.html" style="--org-color-dark:#fb923c;--org-color-light:#b45304" data-name="CozyCazt" data-streams-7d="9" data-streams-30d="56" data-streams-all="246" data-peak-7d="106" data-peak-30d="164" data-peak-all="202">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">CozyCazt</div>
+          
+        </div>
+        <div class="org-card-desc">An Indonesian VTuber agency which projects comfortable and friendly aura.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>7</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">56</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">164</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="afterain/index.html" style="--org-color-dark:#60a5fa;--org-color-light:#086ae4" data-name="AfteRain" data-streams-7d="18" data-streams-30d="84" data-streams-all="337" data-peak-7d="45" data-peak-30d="99" data-peak-all="316">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">AfteRain</div>
+          
+        </div>
+        <div class="org-card-desc">An Indonesian VTuber agency with various talents background and specialties.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>8</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">84</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">99</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="magniv/index.html" style="--org-color-dark:#b168f8;--org-color-light:#9836f6" data-name="MagniV" data-streams-7d="6" data-streams-30d="71" data-streams-all="202" data-peak-7d="883" data-peak-30d="1180" data-peak-all="1180">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">MagniV</div>
+          
+        </div>
+        <div class="org-card-desc">An Indonesian Male VTuber idol group. Concept: 'Five as one, we shine.'</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>6</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">71</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">1.2K</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="versa/index.html" style="--org-color-dark:#38bdf8;--org-color-light:#0676a8" data-name="VERSA" data-streams-7d="11" data-streams-30d="55" data-streams-all="214" data-peak-7d="435" data-peak-30d="1344" data-peak-all="1344">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">VERSA</div>
+          
+        </div>
+        <div class="org-card-desc">An Indonesian VTuber boyband group.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>5</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">55</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">1.3K</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="jkt48v/index.html" style="--org-color-dark:#f59e0b;--org-color-light:#9b6307" data-name="JKT48V" data-streams-7d="6" data-streams-30d="38" data-streams-all="148" data-peak-7d="605" data-peak-30d="605" data-peak-all="605">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">JKT48V</div>
+          
+        </div>
+        <div class="org-card-desc">The virtual idol sub-unit of JKT48, Indonesia's iconic idol group. Your Idol, Comes Virtual.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>5</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">38</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">605</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="maha5/index.html" style="--org-color-dark:#34d399;--org-color-light:#1b7e5a" data-name="MAHA5" data-streams-7d="8" data-streams-30d="55" data-streams-all="157" data-peak-7d="311" data-peak-30d="311" data-peak-all="311">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">MAHA5</div>
+          
+        </div>
+        <div class="org-card-desc">An Indonesian VTuber agency (Mahapanca) under Rentracks Indonesia, connecting Indonesia and Japan through anime and otaku culture.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>8</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">55</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">311</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="uver-id/index.html" style="--org-color-dark:#9f6fff;--org-color-light:#4a00e0" data-name="UVER ID" data-streams-7d="20" data-streams-30d="108" data-streams-all="277" data-peak-7d="34" data-peak-30d="34" data-peak-all="40">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">UVER ID</div>
+          
+        </div>
+        <div class="org-card-desc">An large group with eclectic style that shows the diversity of its talents.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>17</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">108</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">34</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="crims-on/index.html" style="--org-color-dark:#fc4665;--org-color-light:#d90429" data-name="CRIMS:on" data-streams-7d="6" data-streams-30d="97" data-streams-all="219" data-peak-7d="356" data-peak-30d="537" data-peak-all="1794">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">CRIMS:on</div>
+          
+        </div>
+        <div class="org-card-desc">Circle of friends with different background who shares one passion towards content creators scene.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>5</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">97</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">537</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="gravt/index.html" style="--org-color-dark:#808d99;--org-color-light:#212529" data-name="GRAVT" data-streams-7d="6" data-streams-30d="34" data-streams-all="82" data-peak-7d="3249" data-peak-30d="3249" data-peak-all="3249">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">GRAVT</div>
+          
+        </div>
+        <div class="org-card-desc">Boyband groups formed from four members with music expertise.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>3</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">34</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">3.2K</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="magisona/index.html" style="--org-color-dark:#a670f1;--org-color-light:#8338ec" data-name="MagiSona" data-streams-7d="8" data-streams-30d="34" data-streams-all="87" data-peak-7d="28" data-peak-30d="32" data-peak-all="40">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">MagiSona</div>
+          
+        </div>
+        <div class="org-card-desc">An agency which highlights the magical and fun experience of VTubing.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>4</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">34</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">32</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="lav-idn/index.html" style="--org-color-dark:#9f86c0;--org-color-light:#8060ac" data-name="LAV IDN" data-streams-7d="18" data-streams-30d="87" data-streams-all="187" data-peak-7d="291" data-peak-30d="435" data-peak-all="435">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">LAV IDN</div>
+          
+        </div>
+        <div class="org-card-desc">Developing agency with talents and affiliates system.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>4</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">87</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">435</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="arvi-media/index.html" style="--org-color-dark:#ed576e;--org-color-light:#db1735" data-name="ARVI Media" data-streams-7d="9" data-streams-30d="48" data-streams-all="110" data-peak-7d="144" data-peak-30d="255" data-peak-all="393">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">ARVI Media</div>
+          
+        </div>
+        <div class="org-card-desc">Part of Area Media, a digital idol bridging entertainment and community through live streams, creative content, and authentic fan interactions.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>5</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">48</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">255</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="hrcome/index.html" style="--org-color-dark:#ff8c00;--org-color-light:#a85c00" data-name="HRCOME" data-streams-7d="4" data-streams-30d="23" data-streams-all="61" data-peak-7d="25" data-peak-30d="25" data-peak-all="25">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">HRCOME</div>
+          
+        </div>
+        <div class="org-card-desc">Upstart VTuber agency with focuses on digital entertainment, virtual talents development and management.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>7</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">23</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">25</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="laeta/index.html" style="--org-color-dark:#00b4d8;--org-color-light:#007a92" data-name="LAETA" data-streams-7d="4" data-streams-30d="34" data-streams-all="62" data-peak-7d="30" data-peak-30d="137" data-peak-all="250">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">LAETA</div>
+          
+        </div>
+        <div class="org-card-desc">Small Indonesian VTuber agency and creative group.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>7</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">34</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">137</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="kanau-virtual/index.html" style="--org-color-dark:#af6deb;--org-color-light:#8a2be2" data-name="KANAU Virtual" data-streams-7d="11" data-streams-30d="55" data-streams-all="126" data-peak-7d="27" data-peak-30d="36" data-peak-all="36">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">KANAU Virtual</div>
+          
+        </div>
+        <div class="org-card-desc">Part of KANAU media which focuses on  virtual talent dan creative project.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>7</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">55</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">36</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="asobu-production/index.html" style="--org-color-dark:#ffd700;--org-color-light:#836e00" data-name="Asobu Production" data-streams-7d="20" data-streams-30d="127" data-streams-all="233" data-peak-7d="51" data-peak-30d="51" data-peak-all="54">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Asobu Production</div>
+          
+        </div>
+        <div class="org-card-desc">A virtual agency where imagination and creativity has no limit.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>7</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">127</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">51</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="snowvalley-agency/index.html" style="--org-color-dark:#a0c4ff;--org-color-light:#0362ff" data-name="SnowValley Agency" data-streams-7d="25" data-streams-30d="105" data-streams-all="254" data-peak-7d="430" data-peak-30d="430" data-peak-all="430">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">SnowValley Agency</div>
+          
+        </div>
+        <div class="org-card-desc">Independent creative group who operates with the motto 'Together We Entertain the World with Laughter and Joy'.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>8</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">105</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">430</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="evren-community/index.html" style="--org-color-dark:#d7b576;--org-color-light:#8d6929" data-name="EVREN Community" data-streams-7d="8" data-streams-30d="37" data-streams-all="57" data-peak-7d="71" data-peak-30d="101" data-peak-all="117">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">EVREN Community</div>
+          
+        </div>
+        <div class="org-card-desc">Indonesian Vtuber community that operates based on passion.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>3</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">37</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">101</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="vilitera/index.html" style="--org-color-dark:#db695d;--org-color-light:#c0392b" data-name="VILITERA" data-streams-7d="2" data-streams-30d="5" data-streams-all="5" data-peak-7d="7" data-peak-30d="7" data-peak-all="7">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">VILITERA</div>
+          
+        </div>
+        <div class="org-card-desc">Indonesia's established, multi-generational VTuber agencies.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>6</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">5</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">7</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="dasoriyal/index.html" style="--org-color-dark:#a0b6c2;--org-color-light:#557384" data-name="DASORiYAL" data-streams-7d="31" data-streams-30d="114" data-streams-all="114" data-peak-7d="416" data-peak-30d="416" data-peak-all="416">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">DASORiYAL</div>
+          
+        </div>
+        <div class="org-card-desc">Girls group consisted of prominent names in Indonesia indie VTuber scene.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>5</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">114</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">416</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="hibikasekai/index.html" style="--org-color-dark:#f6a6c1;--org-color-light:#b83280" data-name="HIBIKASEKAI" data-streams-7d="3" data-streams-30d="3" data-streams-all="3" data-peak-7d="18" data-peak-30d="18" data-peak-all="18">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">HIBIKASEKAI</div>
+          
+        </div>
+        <div class="org-card-desc">Local group which has a mission to build an echoing world and a limitless entertaining spirit.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>7</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">3</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">18</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="mejikuhibiniu/index.html" style="--org-color-dark:#8fd14f;--org-color-light:#4c7a18" data-name="Mejikuhibiniu" data-streams-7d="4" data-streams-30d="4" data-streams-all="4" data-peak-7d="47" data-peak-30d="47" data-peak-all="47">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Mejikuhibiniu</div>
+          
+        </div>
+        <div class="org-card-desc">Indonesia indie VTuber group with rainbow theming.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>8</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">4</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">47</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="noisette/index.html" style="--org-color-dark:#4fd1c5;--org-color-light:#0f766e" data-name="Noisette" data-streams-7d="1" data-streams-30d="1" data-streams-all="1" data-peak-7d="17" data-peak-30d="17" data-peak-all="17">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Noisette</div>
+          
+        </div>
+        <div class="org-card-desc">Small group with loud and creative sound branding.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>4</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">1</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">17</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="aisatset/index.html" style="--org-color-dark:#f6ab93;--org-color-light:#c63b10" data-name="AISATSET" data-streams-7d="1" data-streams-30d="1" data-streams-all="1" data-peak-7d="9" data-peak-30d="9" data-peak-all="9">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">AISATSET</div>
+          
+        </div>
+        <div class="org-card-desc">Small group with the emphasize of vtuber and gaming.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>7</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">1</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">9</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="ukoi-virtual/index.html" style="--org-color-dark:#9bbefa;--org-color-light:#0e61f2" data-name="UKOI virtual" data-streams-7d="0" data-streams-30d="0" data-streams-all="0" data-peak-7d="0" data-peak-30d="0" data-peak-all="0">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">UKOI virtual</div>
+          
+        </div>
+        <div class="org-card-desc">New VTuber production from Indonesia.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>5</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">0</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">—</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="aurora-project/index.html" style="--org-color-dark:#f3b219;--org-color-light:#8e6507" data-name="Aurora Project" data-streams-7d="0" data-streams-30d="0" data-streams-all="0" data-peak-7d="0" data-peak-30d="0" data-peak-all="0">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Aurora Project</div>
+          
+        </div>
+        <div class="org-card-desc">Indonesia VTuber community which is formed to deliver interesting and creative entertainment.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>6</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">0</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">—</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="project-eternoia/index.html" style="--org-color-dark:#b3b8f9;--org-color-light:#4c5af0" data-name="Eternoia" data-streams-7d="0" data-streams-30d="0" data-streams-all="0" data-peak-7d="0" data-peak-30d="0" data-peak-all="0">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Eternoia</div>
+          
+        </div>
+        <div class="org-card-desc">A gathering of Indonesia indie VTuber who wants to thrive together in the present.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>5</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">0</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">—</strong> peak</span>
+        </div>
+      </div>
+    </a>
+    <a class="org-card" href="snowdrop-live/index.html" style="--org-color-dark:#1fd96c;--org-color-light:#127d3f" data-name="Snowdrop LIVE" data-streams-7d="2" data-streams-30d="2" data-streams-all="2" data-peak-7d="19" data-peak-30d="19" data-peak-all="19">
+      <div class="org-accent-bar"></div>
+      <div class="org-card-body">
+        <div class="org-card-top">
+          <div class="org-card-title">Snowdrop LIVE</div>
+          
+        </div>
+        <div class="org-card-desc">Indonesia VTuber agency with mature vibes.</div>
+        <div class="org-card-stats">
+          <span class="ocs">&#128100; <strong>9</strong></span>
+          <span class="ocs">&#9654; <strong class="js-streams">2</strong></span>
+          <span class="ocs">&#128065; <strong class="js-peak">19</strong> peak</span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <footer>
+    <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <span class="footer-sep">·</span>
+      <a href="privacy.html">Privacy Policy</a>
+      <span class="footer-sep">·</span>
+      <a href="terms.html">Terms of Use</a>
+    </nav>
+  </footer>
+</div>
+<div class="search-overlay" id="searchOverlay"><div class="search-modal"><div class="search-input-row">&#128269;<input id="searchInput" placeholder="Search orgs, channels, streams…" autocomplete="off"><span class="search-esc">ESC</span></div><div class="search-results" id="searchResults"></div><div class="search-footer"><span>&#8593;&#8595; navigate &#183; &#8629; open</span><span id="searchResultCount"></span></div></div></div>
+
+<script>
+(function() {
+  var STORAGE_KEY = 'idvt-theme';
+  var root  = document.documentElement;
+  var btn   = null;
+  var thumb = null;
+
+  function getSystemTheme() {
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  }
+  function getEffectiveTheme() {
+    return localStorage.getItem(STORAGE_KEY) || getSystemTheme();
+  }
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (thumb) {
+      theme === 'light' ? thumb.classList.add('is-light') : thumb.classList.remove('is-light');
+    }
+    // Lets any page-specific script (e.g. the stream page's chart) react to
+    // a theme flip without _THEME_JS needing to know charts exist at all.
+    window.dispatchEvent(new Event('idvt-theme-change'));
+  }
+  function toggleTheme() {
+    var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+  }
+  applyTheme(getEffectiveTheme());
+  document.addEventListener('DOMContentLoaded', function() {
+    btn   = document.getElementById('theme-toggle');
+    thumb = document.getElementById('toggle-thumb');
+    applyTheme(getEffectiveTheme());
+    if (btn) btn.addEventListener('click', toggleTheme);
+  });
+  window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function() {
+    if (!localStorage.getItem(STORAGE_KEY)) applyTheme(getSystemTheme());
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var pill   = document.getElementById('navLivePill');
+  var count  = document.getElementById('navLiveCount');
+  var strip  = document.getElementById('navPulseStrip');
+  if (!pill || !count) return;
+
+  function pulseBars() {
+    if (!strip) return;
+    strip.innerHTML = '';
+    for (var i = 0; i < 12; i++) {
+      var b = document.createElement('span');
+      b.style.height = (4 + Math.round(Math.random() * 10)) + 'px';
+      strip.appendChild(b);
+    }
+  }
+  pulseBars();
+  setInterval(pulseBars, 2500);
+
+  var depth = window.SITE_DEPTH || 0;
+  fetch('../'.repeat(depth) + 'live-count.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var n = data.count || 0;
+      count.textContent = n;
+      pill.classList.toggle('has-live', n > 0);
+    })
+    .catch(function () { /* fine to just leave the pill hidden */ });
+})();
+</script>
+
+<script>
+(function () {
+  var overlay   = document.getElementById('searchOverlay');
+  var input     = document.getElementById('searchInput');
+  var results   = document.getElementById('searchResults');
+  var countEl   = document.getElementById('searchResultCount');
+  var trigger   = document.getElementById('searchTrigger');
+  var depth     = window.SITE_DEPTH || 0;
+  var indexData = null;
+  var indexPromise = null;
+  var current   = [];
+  var selIndex  = 0;
+
+  var typeIcon  = { org: '\u25C6', channel: '\u25CF', stream: '\u25B6' };
+  var typeLabel = { org: 'Organisations', channel: 'Channels', stream: 'Streams' };
+
+  function loadIndex() {
+    if (indexPromise) return indexPromise;
+    var path = '../'.repeat(depth) + 'search-index.json';
+    indexPromise = fetch(path).then(function (r) { return r.json(); })
+      .then(function (data) { indexData = data; return data; })
+      .catch(function (e) { indexData = []; console.warn('search index unavailable:', e); return []; });
+    return indexPromise;
+  }
+
+  function score(query, text) {
+    query = query.toLowerCase(); text = text.toLowerCase();
+    if (!query) return 0;
+    if (text.indexOf(query) === 0) return 100;
+    if (text.indexOf(query) !== -1) return 60;
+    var qi = 0;
+    for (var i = 0; i < text.length && qi < query.length; i++) {
+      if (text[i] === query[qi]) qi++;
+    }
+    return qi === query.length ? 25 : -1;
+  }
+
+  function highlight(text, query) {
+    if (!query) return text;
+    var idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return text.slice(0, idx) + '<mark>' + text.slice(idx, idx + query.length) + '</mark>' + text.slice(idx + query.length);
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function render(query) {
+    if (!indexData) return;
+    if (!query) {
+      results.innerHTML = '<div class="search-empty">Type to search every organisation, channel, and tracked stream.</div>';
+      countEl.textContent = '';
+      current = [];
+      return;
+    }
+    var scored = indexData
+      .map(function (item) { return Object.assign({}, item, { s: score(query, item.name) }); })
+      .filter(function (item) { return item.s >= 0; })
+      .sort(function (a, b) { return b.s - a.s; })
+      .slice(0, 40);
+
+    current = scored;
+    selIndex = 0;
+    countEl.textContent = scored.length + ' result' + (scored.length === 1 ? '' : 's');
+
+    if (!scored.length) {
+      results.innerHTML = '<div class="search-empty">No matches for "' + esc(query) + '".</div>';
+      return;
+    }
+    var groups = { org: [], channel: [], stream: [] };
+    scored.forEach(function (item) { groups[item.type].push(item); });
+
+    var html = '';
+    var flat = 0;
+    ['org', 'channel', 'stream'].forEach(function (t) {
+      if (!groups[t].length) return;
+      html += '<div class="result-group-label">' + typeLabel[t] + '</div>';
+      groups[t].forEach(function (item) {
+        html += '<div class="result-row" data-idx="' + flat + '">' +
+          '<div class="result-type-icon">' + typeIcon[t] + '</div>' +
+          '<div class="result-main"><div class="result-name">' + highlight(esc(item.name), query) + '</div>' +
+          '<div class="result-sub">' + esc(item.sub || '') + '</div></div>' +
+          '</div>';
+        flat++;
+      });
+    });
+    results.innerHTML = html;
+    Array.prototype.forEach.call(results.querySelectorAll('.result-row'), function (row) {
+      row.addEventListener('click', function () { navigateTo(parseInt(row.dataset.idx, 10)); });
+    });
+    updateSel();
+  }
+
+  function updateSel() {
+    var rows = results.querySelectorAll('.result-row');
+    Array.prototype.forEach.call(rows, function (r, i) { r.classList.toggle('sel', i === selIndex); });
+    if (rows[selIndex]) rows[selIndex].scrollIntoView({ block: 'nearest' });
+  }
+
+  function navigateTo(i) {
+    var item = current[i];
+    if (!item) return;
+    window.location.href = '../'.repeat(depth) + item.path;
+  }
+
+  function open() {
+    overlay.classList.add('open');
+    input.value = '';
+    loadIndex().then(function () { render(''); });
+    setTimeout(function () { input.focus(); }, 10);
+  }
+  function close() {
+    overlay.classList.remove('open');
+  }
+
+  if (trigger) trigger.addEventListener('click', open);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+  input.addEventListener('input', function (e) { render(e.target.value); });
+
+  document.addEventListener('keydown', function (e) {
+    var isOpen = overlay.classList.contains('open');
+    if (!isOpen && e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+      e.preventDefault(); open(); return;
+    }
+    if (!isOpen) return;
+    if (e.key === 'Escape') { close(); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); selIndex = Math.min(selIndex + 1, current.length - 1); updateSel(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); selIndex = Math.max(selIndex - 1, 0); updateSel(); }
+    else if (e.key === 'Enter') { e.preventDefault(); navigateTo(selIndex); }
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var grid       = document.querySelector('.orgs-grid');
+  var chips      = document.querySelectorAll('.filter-chip');
+  var rangeWrap  = document.getElementById('homeRange');
+  var rangeChips = rangeWrap ? rangeWrap.querySelectorAll('.range-chip') : [];
+  var sitePeakEl = document.querySelector('.js-site-peak');
+  var mode  = 'all';    // 'all' | 'az' | 'peak'
+  var range = '30d';    // '7d' | '30d' | 'all'
+
+  function applySort() {
+    if (!grid) return;
+    var cards = Array.from(grid.querySelectorAll('.org-card'));
+    if (mode === 'az') {
+      cards.sort(function (a, b) {
+        return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
+      });
+      cards.forEach(function (c) { grid.appendChild(c); });
+    } else if (mode === 'peak') {
+      cards.sort(function (a, b) {
+        var pa = parseFloat(a.getAttribute('data-peak-' + range) || '0') || 0;
+        var pb = parseFloat(b.getAttribute('data-peak-' + range) || '0') || 0;
+        return pb - pa;   // descending — highest peak viewers first
+      });
+      cards.forEach(function (c) { grid.appendChild(c); });
+    }
+    // 'all' = default document order (no re-sort needed on page load)
+  }
+
+  function fmtNum(n) {
+    n = parseInt(n, 10) || 0;
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+    if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+    return String(n);
+  }
+
+  function applyRange() {
+    if (grid) {
+      Array.from(grid.querySelectorAll('.org-card')).forEach(function (card) {
+        var streamsEl = card.querySelector('.js-streams');
+        var peakEl    = card.querySelector('.js-peak');
+        if (streamsEl) streamsEl.textContent = card.getAttribute('data-streams-' + range) || '0';
+        if (peakEl) {
+          var p = card.getAttribute('data-peak-' + range) || '0';
+          peakEl.textContent = p === '0' ? '—' : fmtNum(p);
+        }
+      });
+    }
+    if (sitePeakEl && rangeWrap) {
+      var sp = rangeWrap.getAttribute('data-peak-' + range) || '0';
+      sitePeakEl.textContent = sp === '0' ? '—' : fmtNum(sp);
+    }
+    applySort();
+  }
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      chips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      var label = chip.textContent.trim();
+      if (label === 'A–Z') {
+        mode = 'az';
+      } else if (label === 'Peak Viewers') {
+        mode = 'peak';
+      } else {
+        mode = 'all';
+      }
+      applySort();
+    });
+  });
+
+  rangeChips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      rangeChips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      range = chip.getAttribute('data-range') || '30d';
+      applyRange();
+    });
+  });
+})();
+</script>
+</body>
+</html>
