@@ -63,12 +63,12 @@ HISTORY_DB_PATH    = os.environ.get(
 )
 MANIFEST_PATH      = OUTPUT_DIR / "manifest.json"
 
-
 # ── org definitions ───────────────────────────────────────────────────────────
 ORG_MAP = {
     "pandavva": {
         "label":   "PANDAVVA",
         "color":   "#e8ff47",
+        "color_light": "#677600",
         "desc":    "An Indonesian VTuber organization with a rich mythological theme inspired by the Mahabharata.",
         "channels": [
             ("PANDAVVA Official",             "org",    "UCxhBc3OUK0PdnjD-Pjj5-ZA"),
@@ -82,6 +82,7 @@ ORG_MAP = {
     "project-livium": {
         "label":   "Project:LIVIUM",
         "color":   "#47ffb2",
+        "color_light": "#00804b",
         "desc":    "A dynamic VTuber project featuring seven unique talents spanning a wide range of creative personalities.",
         "channels": [
             ("Project:LIVIUM",                            "org",    "UC0ZYul2i5OcyKbdKB2v1O2w"),
@@ -97,6 +98,7 @@ ORG_MAP = {
     "whicker-butler": {
         "label":   "Whicker Butler",
         "color":   "#b47fff",
+        "color_light": "#8c3bff",
         "desc":    "A boutique VTuber agency known for its refined aesthetic and five distinctive talents with global appeal.",
         "channels": [
             ("Whicker Butler",                           "org",    "UCc04w_tCWOiTkszx5DGqSag"),
@@ -110,6 +112,7 @@ ORG_MAP = {
     "yorukaze": {
         "label":   "Yorukaze Production",
         "color":   "#7ec8e3",
+        "color_light": "#217897",
         "desc":    "An Indonesian VTuber organization serving as a bridge and support platform for virtual content creators.",
         "channels": [
             ("Yorukaze Production",            "org",    "UCXn1p9luEl8oUKL-dbtMd9g"),
@@ -123,14 +126,15 @@ ORG_MAP = {
             ("Hoshikawa Rui【Yorukaze】",         "talent", "UCnh6AfYwFB9Elsdtkl73cuQ"),
             ("Yuzumi_Ch【Yorukaze】",             "talent", "UCCZ4ZY1kaSkZC6OiA-2916Q"),
             ("Ellise Youka【Yorukaze】",          "talent", "UCE5Mvtoy8GiPtsv5sLUKlgg"),
-            ("CODE : NOICHI Ch.【Yorukaze】",           "talent", "UC7CpE_gbbvNBkUFMHWeUMpA"),
+            ("CODE : NOICHI Ch.【Yorukaze】",     "talent", "UC7CpE_gbbvNBkUFMHWeUMpA"),
             ("Tanyata Tiada タニャ 【Yorukaze】",   "talent", "UCv9P--tuUkAxpZaTowy7h9Q"),
-            ("Crystallyn Caparina",   "talent", "UCyVT2GRTAWyUjdjTsHhIy6w"),
+            ("Crystallyn Caparina",               "talent", "UCyVT2GRTAWyUjdjTsHhIy6w"),
         ],
     },
     "prism-nova": {
         "label":   "Prism:NOVA",
         "color":   "#c084fc",
+        "color_light": "#9734fa",
         "desc":    "An Indonesian VTuber agency focused on characterisation, storytelling, and roleplaying.",
         "channels": [
             ("Prism:NOVA",                      "org",    "UCpaiXLRcHzx5XpHysrO9JQA"),
@@ -142,6 +146,7 @@ ORG_MAP = {
     "vcosmix": {
         "label":   "VCosmix",
         "color":   "#f472b6",
+        "color_light": "#d51177",
         "desc":    "An Indonesian VTuber group who provides girls fun experience.",
         "channels": [
             ("Vcosmix",          "org",    "UCxdS5pTt5WfbTD6WUY8z2EQ"),
@@ -153,6 +158,7 @@ ORG_MAP = {
     "cozycazt": {
         "label":   "CozyCazt",
         "color":   "#fb923c",
+        "color_light": "#b45304",
         "desc":    "An Indonesian VTuber agency which projects comfortable and friendly aura.",
         "channels": [
             ("Cozy Cazt",                        "org",    "UCFCfSe5tJrnQt3cuT9g59Lw"),
@@ -167,6 +173,7 @@ ORG_MAP = {
     "afterain": {
         "label":   "AfteRain",
         "color":   "#60a5fa",
+        "color_light": "#086ae4",
         "desc":    "An Indonesian VTuber agency with various talents background and specialties.",
         "channels": [
             ("AFTERAIN PROJECT",             "org",    "UCOJwb4RalSz3_3EHIM5pVfw"),
@@ -181,7 +188,8 @@ ORG_MAP = {
     },
     "magniv": {
         "label":   "MagniV",
-        "color":   "#a855f7",
+        "color":   "#b168f8",
+        "color_light": "#9836f6",
         "desc":    "An Indonesian Male VTuber idol group. Concept: 'Five as one, we shine.'",
         "channels": [
             ("MagniV",             "org",    "UCJifvCPf04WdIqdZY50Tsag"),
@@ -195,6 +203,7 @@ ORG_MAP = {
     "versa": {
         "label":   "VERSA",
         "color":   "#38bdf8",
+        "color_light": "#0676a8",
         "desc":    "An Indonesian VTuber boyband group.",
         "channels": [
             ("Agata Seven【VERSA】", "talent", "UC4NdM7WwMvyGzkUr0dsSGJQ"),  
@@ -207,11 +216,11 @@ ORG_MAP = {
     "jkt48v": {
         "label":   "JKT48V",
         "color":   "#f59e0b",
+        "color_light": "#9b6307",
         "desc":    "The virtual idol sub-unit of JKT48, Indonesia's iconic idol group. Your Idol, Comes Virtual.",
         "channels": [
             ("JKT48V", "org", "UCX3wkex0h-KP7Z3Q9SDkMIA"),  
             ("Pia Meraleo - JKT48V", "talent", "UCIa2OxCyhjWjJke-9yYNbwA"),  
-            ("Tana Nona - JKT48V", "talent", "UCyam-qAWHwBoVnTNXk3gHbQ"),  
             ("Sami Maono - JKT48V", "talent", "UCrLhVcbVYhSGWlR6oM8FqTg"),  
             ("Isha Kirana - JKT48V", "talent", "UCYm4XQ_YzSnaBZ0UdOIAlrQ"),  
             ("Maura Nilambari - JKT48V", "talent", "UCWK3jDHD_LzCTu4CF7amN8A"),  
@@ -220,6 +229,7 @@ ORG_MAP = {
     "maha5": {
         "label":   "MAHA5",
         "color":   "#34d399",
+        "color_light": "#1b7e5a",
         "desc":    "An Indonesian VTuber agency (Mahapanca) under Rentracks Indonesia, connecting Indonesia and Japan through anime and otaku culture.",
         "channels": [
             ("MAHA5 mahapanca - Vtuber Group", "org", "UCzc8GwjUvecxpjhGtuewYOQ"),  
@@ -234,7 +244,8 @@ ORG_MAP = {
     },
     "uver-id": {
         "label":   "UVER ID",
-        "color":   "#4a00e0",
+        "color":   "#9f6fff",
+        "color_light": "#4a00e0",
         "desc":    "An large group with eclectic style that shows the diversity of its talents.",
         "channels": [
             ("UVER ID", "org", "UCjgqLbt6MXPeTcnYbRBdChw"),  
@@ -258,7 +269,8 @@ ORG_MAP = {
     },
     "crims-on": {
         "label":   "CRIMS:on",
-        "color":   "#d90429",
+        "color":   "#fc4665",
+        "color_light": "#d90429",
         "desc":    "Circle of friends with different background who shares one passion towards content creators scene.",
         "channels": [
             ("Cole Calamello【CRIMS:on】", "talent", "UCqyX914s1cW_NwhbREvKTxA"),  
@@ -270,7 +282,8 @@ ORG_MAP = {
     },
     "gravt": {
         "label":   "GRAVT",
-        "color":   "#212529",
+        "color":   "#808d99",
+        "color_light": "#212529",
         "desc":    "Boyband groups formed from four members with music expertise.",
         "channels": [
             ("GRAVT", "org", "UCKnLF98-xHPQMwtIlXnAmkQ"),  
@@ -280,7 +293,8 @@ ORG_MAP = {
     },
     "magisona": {
         "label":   "MagiSona",
-        "color":   "#8338ec",
+        "color":   "#a670f1",
+        "color_light": "#8338ec",
         "desc":    "An agency which highlights the magical and fun experience of VTubing.",
         "channels": [
             ("MagiSona", "org", "UCytdUc5bQvLLceAK9KbCKKg"),  
@@ -292,6 +306,7 @@ ORG_MAP = {
     "lav-idn": {
         "label":   "LAV IDN",
         "color":   "#9f86c0",
+        "color_light": "#8060ac",
         "desc":    "Developing agency with talents and affiliates system.",
         "channels": [
             ("Limitless Actress Virtual", "org", "UCggn9-ggn4aJplrvlgiSVeQ"),  
@@ -302,7 +317,8 @@ ORG_MAP = {
     },
     "arvi-media": {
         "label":   "ARVI Media",
-        "color":   "#e31837",
+        "color":   "#ed576e",
+        "color_light": "#db1735",
         "desc":    "Part of Area Media, a digital idol bridging entertainment and community through live streams, creative content, and authentic fan interactions.",
         "channels": [
             ("Aika Sakuraba Ch. 【ARVI】", "talent", "UCW6ZmofKJm_Rnwyq1brysmg"),  
@@ -315,6 +331,7 @@ ORG_MAP = {
     "hrcome": {
         "label":   "HRCOME",
         "color":   "#ff8c00",
+        "color_light": "#a85c00",
         "desc":    "Upstart VTuber agency with focuses on digital entertainment, virtual talents development and management.",
         "channels": [
             ("HRCOME - VTuber Group", "org", "UCEiB89eUXCpv0q48G1yNhQA"),  
@@ -329,6 +346,7 @@ ORG_MAP = {
     "laeta": {
         "label":   "LAETA",
         "color":   "#00b4d8",
+        "color_light": "#007a92",
         "desc":    "Small Indonesian VTuber agency and creative group.",
         "channels": [
             ("LAETA Official", "org", "UCv8p8YZ5uyFho4TAXLm3WQg"),  
@@ -342,7 +360,8 @@ ORG_MAP = {
     },
     "kanau-virtual": {
         "label":   "KANAU Virtual",
-        "color":   "#8a2be2",
+        "color":   "#af6deb",
+        "color_light": "#8a2be2",
         "desc":    "Part of KANAU media which focuses on  virtual talent dan creative project.",
         "channels": [
             ("KANAU Virtual", "org", "UCA4f6J2G6GsIrWHUmrAqSVg"),  
@@ -357,6 +376,7 @@ ORG_MAP = {
     "asobu-production": {
         "label":   "Asobu Production",
         "color":   "#ffd700",
+        "color_light": "#836e00",
         "desc":    "A virtual agency where imagination and creativity has no limit.",
         "channels": [
             ("Asobu Production", "org", "UC5JyQVwWF6kRvRM3pFTKUcg"),  
@@ -371,6 +391,7 @@ ORG_MAP = {
     "snowvalley-agency": {
         "label":   "SnowValley Agency",
         "color":   "#a0c4ff",
+        "color_light": "#0362ff",
         "desc":    "Independent creative group who operates with the motto 'Together We Entertain the World with Laughter and Joy'.",
         "channels": [
             ("SnowValley Agency", "org", "UCJrlIe6-YsZEZ-WhWpkQ8xQ"),  
@@ -386,6 +407,7 @@ ORG_MAP = {
     "evren-community": {
         "label":   "EVREN Community",
         "color":   "#d7b576",
+        "color_light": "#8d6929",
         "desc":    "Indonesian Vtuber community that operates based on passion.",
         "channels": [
             ("EVREN", "org", "UCC4a8ZZH9G85ZSGOSTFxmVA"),  
@@ -395,7 +417,8 @@ ORG_MAP = {
     },
     "vilitera": {
         "label":   "VILITERA",
-        "color":   "#c0392b",
+        "color":   "#db695d",
+        "color_light": "#c0392b",
         "desc":    "Indonesia's established, multi-generational VTuber agencies.",
         "channels": [
             ("VILITERA", "org", "UCH1YNlsGKODuxk1vJpMVACA"),  
@@ -409,6 +432,7 @@ ORG_MAP = {
     "dasoriyal": {
         "label":   "DASORiYAL",
         "color":   "#a0b6c2",
+        "color_light": "#557384",
         "desc":    "Girls group consisted of prominent names in Indonesia indie VTuber scene.",
         "channels": [
             ("DASORiYAL", "org", "UCZGz-RZEzWppQR15RuI_7_A"),  
@@ -417,10 +441,11 @@ ORG_MAP = {
             ("Gabriel Abyssia『 DASORiYAL 』", "talent", "UCK4lZqiWNuOf-CTyX3Qbj1w"),  
             ("Hali Ch. 『 DASORiYAL 』", "talent", "UCHWGlT4Kg2P8Q0OSdBVd84g"),  
         ],
-    },  
+    },
     "hibikasekai": {
         "label":   "HIBIKASEKAI",
         "color":   "#f6a6c1",
+        "color_light": "#b83280",
         "desc":    "Local group which has a mission to build an echoing world and a limitless entertaining spirit.",
         "channels": [
             ("HIBIKASEKAI", "org", "UCn_hgtrF7d30aBnmsS8ssLw"),  
@@ -435,6 +460,7 @@ ORG_MAP = {
     "mejikuhibiniu": {
         "label":   "Mejikuhibiniu",
         "color":   "#8fd14f",
+        "color_light": "#4c7a18",
         "desc":    "Indonesia indie VTuber group with rainbow theming.",
         "channels": [
             ("Mejikuhibiniu VTuber Group", "org", "UCVNiwRwPYb8ngYLWig0fyGw"),  
@@ -450,6 +476,7 @@ ORG_MAP = {
     "noisette": {
         "label":   "Noisette",
         "color":   "#4fd1c5",
+        "color_light": "#0f766e",
         "desc":    "Small group with loud and creative sound branding.",
         "channels": [
             ("NOISETTE VTUBER COMMUNITY", "org", "UCOcZre5e2eBvydup61tdttw"),  
@@ -461,6 +488,7 @@ ORG_MAP = {
     "aisatset": {
         "label":   "AISATSET",
         "color":   "#f6ab93",
+        "color_light": "#c63b10",
         "desc":    "Small group with the emphasize of vtuber and gaming.",
         "channels": [
             ("AISATSET ID", "org", "UCFn882S0X2fiSiSDf-ZcgyQ"),  
@@ -475,6 +503,7 @@ ORG_MAP = {
     "ukoi-virtual": {
         "label":   "UKOI virtual",
         "color":   "#9bbefa",
+        "color_light": "#0e61f2",
         "desc":    "New VTuber production from Indonesia.",
         "channels": [
             ("UKOI virtual", "org", "UCb6jr19PjmNJS0XbeevWrKg"),  
@@ -487,6 +516,7 @@ ORG_MAP = {
     "aurora-project": {
         "label":   "Aurora Project",
         "color":   "#f3b219",
+        "color_light": "#8e6507",
         "desc":    "Indonesia VTuber community which is formed to deliver interesting and creative entertainment.",
         "channels": [
             ("Aurora Project", "org", "UCa1nTrki958vzEyeuwYkrvg"),  
@@ -500,6 +530,7 @@ ORG_MAP = {
     "project-eternoia": {
         "label":   "Eternoia",
         "color":   "#b3b8f9",
+        "color_light": "#4c5af0",
         "desc":    "A gathering of Indonesia indie VTuber who wants to thrive together in the present.",
         "channels": [
             ("Mira Fridayanti", "talent", "UCKI3MdO4a1QvLrT_DWkH9eQ"), 
@@ -512,6 +543,7 @@ ORG_MAP = {
     "snowdrop-live": {
         "label":   "Snowdrop LIVE",
         "color":   "#1fd96c",
+        "color_light": "#127d3f",
         "desc":    "Indonesia VTuber agency with mature vibes.",
         "channels": [
             ("Snowdrop LIVE", "org", "UCmdVviyzAHYC-f-M4y9-9ag"),  
@@ -1079,6 +1111,17 @@ def fmt_subs(n) -> str:
         return "—"
 
 
+# Same K/M-abbreviation logic as fmt_subs, aliased under a name that makes
+# sense at peak-viewer call sites — matches the mockup's intent of using
+# compact notation (e.g. "18.4K") for peak CCV everywhere: hero KPIs and
+# card grids alike, at every level (index/org/channel), both on first
+# render and after a range-chip swap. Previously several of these spots
+# used fmt() (comma-separated) for the initial render but fmtNum() (K/M) on
+# the client after a range swap — same number, two different-looking
+# formats depending on whether you'd touched a chip yet.
+fmt_compact = fmt_subs
+
+
 def fmt_dt(dt, time_only: bool = False) -> str:
     """Format a datetime for display in WIB (UTC+7).
 
@@ -1110,533 +1153,81 @@ def esc(s) -> str:
             .replace('"', "&quot;"))
 
 
+def _stream_dt(s: dict):
+    """Parse a stream's first_seen into a timezone-aware datetime, or None."""
+    v = s.get("first_seen")
+    if v is None:
+        return None
+    try:
+        if isinstance(v, str):
+            v = datetime.fromisoformat(v.replace("Z", "+00:00"))
+        if v.tzinfo is None:
+            v = v.replace(tzinfo=timezone.utc)
+        return v.astimezone(_LOCAL_TZ)
+    except Exception:
+        return None
+
+
+def _window_stats(streams: list[dict]) -> dict:
+    """
+    Buckets a list of streams into three fixed windows — 7d / 30d / all —
+    and computes peak viewers + stream count for each. This is the entire
+    server-side cost of the range toggle: one pass over data that's already
+    in memory (no extra queries), computed once per build. The client just
+    swaps between three pre-baked numbers on chip click; there is no
+    re-fetch or re-computation happening in the browser.
+
+    Streams with no parseable first_seen still count toward "all" (their
+    peak/count aren't excluded just because the date was unparsable) but
+    can't be bucketed into 7d/30d since we don't know when they happened.
+    """
+    now = _now_local()
+    cutoff_7d  = now - timedelta(days=7)
+    cutoff_30d = now - timedelta(days=30)
+
+    result = {
+        "7d":  {"peak": 0, "streams": 0},
+        "30d": {"peak": 0, "streams": 0},
+        "all": {"peak": 0, "streams": 0},
+    }
+    for s in streams:
+        peak = s.get("peak_viewers") or 0
+        result["all"]["streams"] += 1
+        if peak > result["all"]["peak"]:
+            result["all"]["peak"] = peak
+
+        dt = _stream_dt(s)
+        if dt is None:
+            continue
+        if dt >= cutoff_30d:
+            result["30d"]["streams"] += 1
+            if peak > result["30d"]["peak"]:
+                result["30d"]["peak"] = peak
+        if dt >= cutoff_7d:
+            result["7d"]["streams"] += 1
+            if peak > result["7d"]["peak"]:
+                result["7d"]["peak"] = peak
+    return result
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 # SHARED CSS + HTML HELPERS
 # ══════════════════════════════════════════════════════════════════════════════
 
 _FONTS = (
     '<link rel="preconnect" href="https://fonts.googleapis.com">'
-    '<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght'
-    '@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144'
-    ',700;1,9..144,400&display=swap" rel="stylesheet">'
+    '<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght'
+    '@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght'
+    '@400;500;600&display=swap" rel="stylesheet">'
 )
 
-_BASE_CSS = """
-  :root {
-    --bg:          #0a0a0f;
-    --surface:     #13131a;
-    --surface2:    #1a1a26;
-    --border:      #1e1e2e;
-    --muted:       #5a5a7a;
-    --text:        #e2e2f0;
-    --white:       #ffffff;
-    --red:         #ff4f6d;
-    --blue:        #4fc3f7;
-    --org-color:   #e8ff47;
-    --accent-text: var(--org-color);
-  }
-
-  /* ── light theme ── */
-  [data-theme="light"] {
-    --bg:          #f5f5f0;
-    --surface:     #ffffff;
-    --surface2:    #eaeae5;
-    --border:      #d8d8ce;
-    --muted:       #767670;
-    --text:        #1a1a14;
-    --white:       #1a1a14;
-    --red:         #c0002a;
-    --blue:        #005f8a;
-    --accent-text: #2a2a20;
-  }
-
-  /* ── follow system preference by default ── */
-  @media (prefers-color-scheme: light) {
-    :root:not([data-theme="dark"]) {
-      --bg:          #f5f5f0;
-      --surface:     #ffffff;
-      --surface2:    #eaeae5;
-      --border:      #d8d8ce;
-      --muted:       #767670;
-      --text:        #1a1a14;
-      --white:       #1a1a14;
-      --red:         #c0002a;
-      --blue:        #005f8a;
-      --accent-text: #2a2a20;
-    }
-  }
-
-  /* ── light theme badge and pill background overrides ── */
-  [data-theme="light"] .status-live     { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
-  [data-theme="light"] .status-upcoming { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
-  [data-theme="light"] .status-vod      { background: rgba(100,100,90,0.12); }
-  [data-theme="light"] .pill-live       { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
-  [data-theme="light"] .pill-upcoming   { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
-  @media (prefers-color-scheme: light) {
-    :root:not([data-theme="dark"]) .status-live     { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
-    :root:not([data-theme="dark"]) .status-upcoming { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
-    :root:not([data-theme="dark"]) .status-vod      { background: rgba(100,100,90,0.12); }
-    :root:not([data-theme="dark"]) .pill-live       { background: rgba(192,0,42,0.10); color: var(--red);  border-color: var(--red);  }
-    :root:not([data-theme="dark"]) .pill-upcoming   { background: rgba(0,95,138,0.10); color: var(--blue); border-color: var(--blue); }
-  }
-
-  /* ── light theme: suppress neon glow effects ── */
-  [data-theme="light"] .org-dot,
-  [data-theme="light"] .month-heading::before { box-shadow: none; }
-  @media (prefers-color-scheme: light) {
-    :root:not([data-theme="dark"]) .org-dot              { box-shadow: none; }
-    :root:not([data-theme="dark"]) .month-heading::before { box-shadow: none; }
-  }
-
-  /* ── theme toggle ── */
-  .theme-toggle { margin-left: auto; flex-shrink: 0; display: flex; align-items: center; }
-  .toggle-pill {
-    position: relative; display: flex; align-items: center;
-    width: 56px; height: 28px;
-    background: var(--surface2); border: 1px solid var(--border);
-    border-radius: 14px; cursor: pointer;
-    transition: background 0.25s, border-color 0.25s;
-  }
-  .toggle-pill:hover { border-color: var(--org-color); }
-  .toggle-thumb {
-    position: absolute; left: 4px;
-    width: 20px; height: 20px; border-radius: 50%;
-    background: var(--org-color);
-    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 11px; line-height: 1; pointer-events: none;
-  }
-  .toggle-thumb.is-light { transform: translateX(28px); }
-  .toggle-icon-dark, .toggle-icon-light {
-    position: absolute; font-size: 10px; line-height: 1; pointer-events: none;
-  }
-  .toggle-icon-dark  { right: 7px; }
-  .toggle-icon-light { left:  7px; }
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-  body {
-    background: var(--bg); color: var(--text);
-    font-family: 'DM Mono', monospace;
-    font-size: 14px; line-height: 1.7; min-height: 100vh;
-    overflow-x: hidden;
-  }
-  body::before {
-    content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
-    opacity: 0.5;
-  }
-  .page { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 0 2rem 6rem; }
-
-  /* breadcrumb */
-  .breadcrumb {
-    display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem;
-    padding: 1.5rem 0; font-size: 0.68rem;
-    letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted);
-    border-bottom: 1px solid var(--border); margin-bottom: 3rem;
-  }
-  .breadcrumb a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
-  .breadcrumb a:hover { color: var(--accent-text); }
-  .breadcrumb .sep { color: var(--border); }
-  .breadcrumb .current { color: var(--accent-text); }
-
-  /* ── headings — shared scale used on every level ── */
-  .eyebrow {
-    font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
-    color: var(--accent-text); margin-bottom: 0.6rem;
-    /* level-1 (index) uses the full accent colour;
-       lower levels inherit --org-color via --accent-text automatically */
-  }
-  h1 {
-    font-family: 'Fraunces', serif;
-    font-size: clamp(2rem, 5vw, 4.5rem);
-    font-weight: 700; line-height: 1.0; color: var(--white); margin-bottom: 0.5rem;
-  }
-  h1 em { font-style: italic; color: var(--accent-text); }
-  /* page-meta sits directly under every h1; identical treatment everywhere */
-  .page-meta {
-    font-size: 0.72rem; color: var(--muted); margin-top: 0.75rem;
-    letter-spacing: 0.02em; line-height: 1.6;
-  }
-
-  /* ── section labels (used as sub-headings inside page body) ── */
-  /* .section-title already defined below; .panel-hdr is its inline-panel twin */
-  /* Keep both the same visual weight so scanning a page feels consistent */
-
-  /* org cards */
-  .orgs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-top: 3rem; }
-  @media (max-width: 1100px) { .orgs-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 600px)  { .orgs-grid { grid-template-columns: 1fr; } }
-  .org-card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 6px; padding: 2rem;
-    text-decoration: none; color: inherit; display: block;
-    transition: border-color 0.2s, transform 0.2s;
-    position: relative; overflow: hidden;
-  }
-  .org-card::after {
-    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
-    background: var(--org-color); transform: scaleX(0);
-    transform-origin: left; transition: transform 0.35s;
-  }
-  .org-card:hover { border-color: var(--org-color); transform: translateY(-3px); }
-  .org-card:hover::after { transform: scaleX(1); }
-  .org-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--org-color); margin-bottom: 1.25rem; box-shadow: 0 0 12px var(--org-color); }
-  .org-title { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 700; color: var(--white); margin-bottom: 0.5rem; }
-  .org-desc { font-size: 0.78rem; color: var(--muted); margin-bottom: 1.25rem; line-height: 1.6; }
-  .org-stat { font-size: 0.72rem; color: var(--muted); }
-  .org-stat strong { color: var(--accent-text); }
-
-  /* channel card grid */
-  .channels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.25rem; margin-top: 2.5rem; }
-  .channel-card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 6px; padding: 1.5rem 1.25rem;
-    text-decoration: none; color: inherit; display: flex;
-    flex-direction: column; align-items: center; text-align: center;
-    gap: 0.9rem; transition: border-color 0.2s, transform 0.2s;
-    position: relative; overflow: hidden;
-  }
-  .channel-card::after {
-    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
-    background: var(--org-color); transform: scaleX(0);
-    transform-origin: left; transition: transform 0.35s;
-  }
-  .channel-card:hover { border-color: var(--org-color); transform: translateY(-3px); }
-  .channel-card:hover::after { transform: scaleX(1); }
-  .channel-avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); transition: border-color 0.2s; background: var(--surface2); }
-  .channel-card:hover .channel-avatar { border-color: var(--org-color); }
-  .channel-avatar-placeholder {
-    width: 72px; height: 72px; border-radius: 50%;
-    background: var(--surface2); border: 2px solid var(--border);
-    display: flex; align-items: center; justify-content: center;
-    font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 700;
-    color: var(--accent-text); flex-shrink: 0; transition: border-color 0.2s;
-  }
-  .channel-card:hover .channel-avatar-placeholder { border-color: var(--org-color); }
-  .channel-badge {
-    font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase;
-    padding: 0.18rem 0.45rem; border-radius: 2px;
-    border: 1px solid var(--org-color); color: var(--accent-text);
-    background: rgba(0,0,0,0.3); flex-shrink: 0;
-  }
-  .channel-card-name { font-family: 'Fraunces', serif; font-size: 0.95rem; font-weight: 700; color: var(--white); line-height: 1.25; }
-  .channel-card-meta { font-size: 0.65rem; color: var(--muted); }
-  .channel-card-stats { display: flex; flex-direction: column; gap: 0.3rem; width: 100%; border-top: 1px solid var(--border); padding-top: 0.75rem; margin-top: 0.1rem; }
-  .stat-row { display: flex; justify-content: space-between; align-items: center; font-size: 0.63rem; }
-  .stat-row .stat-label { color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
-  .stat-row .stat-value { color: var(--text); }
-  .stat-row .stat-value.highlight { color: var(--accent-text); }
-
-  /* stream cards */
-  .streams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1rem; margin-top: 2.5rem; }
-  .stream-card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 4px; padding: 1.25rem;
-    text-decoration: none; color: inherit; display: block;
-    transition: border-color 0.2s, transform 0.2s;
-    position: relative; overflow: hidden;
-  }
-  .stream-card::before {
-    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-    background: var(--org-color); transform: scaleX(0);
-    transform-origin: left; transition: transform 0.3s;
-  }
-  .stream-card:hover { border-color: var(--org-color); transform: translateY(-2px); }
-  .stream-card:hover::before { transform: scaleX(1); }
-  .stream-status { display: inline-block; font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.2rem 0.5rem; border-radius: 2px; margin-bottom: 0.75rem; }
-  .status-live     { background: rgba(255,79,109,0.15); color: var(--red);   border: 1px solid var(--red); }
-  .status-upcoming { background: rgba(79,195,247,0.10); color: var(--blue);  border: 1px solid var(--blue); }
-  .status-vod      { background: rgba(90,90,122,0.20);  color: var(--muted); border: 1px solid var(--muted); }
-  .stream-title {
-    font-family: 'Fraunces', serif; font-size: 1rem; font-weight: 700;
-    color: var(--white); margin-bottom: 1rem; line-height: 1.3;
-    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-  }
-  .stream-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; }
-  .stat-label { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
-  .stat-value { font-size: 0.9rem; color: var(--accent-text); font-weight: 500; }
-  .stream-date { font-size: 0.62rem; color: var(--muted); margin-top: 1rem; }
-  .empty { color: var(--muted); font-size: 0.8rem; font-style: italic; padding: 1rem 0; }
-
-  /* month heading */
-  .month-heading {
-    font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase;
-    color: var(--muted); margin: 2.5rem 0 1rem;
-    padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);
-    display: flex; align-items: center; gap: 0.75rem;
-  }
-  .month-heading::before {
-    content: ''; display: block; width: 6px; height: 6px;
-    border-radius: 50%; background: var(--org-color);
-    box-shadow: 0 0 6px var(--org-color); flex-shrink: 0;
-  }
-
-  /* stream detail */
-  .stream-hero { display: grid; grid-template-columns: 37fr 63fr; gap: 1.5rem; margin: 2rem 0 2.5rem; align-items: start; }
-  @media (max-width: 700px) { .stream-hero { grid-template-columns: 1fr; } }
-  .embed-side { min-width: 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
-  .embed-wrap { position: relative; width: 100%; padding-bottom: 56.25%; background: #000; }
-  .embed-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
-  .stream-thumb-meta {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 0.65rem 0.9rem; background: var(--surface); border-top: 1px solid var(--border);
-    font-size: 0.65rem; color: var(--muted);
-  }
-  .stream-thumb-meta a { color: var(--accent-text); text-decoration: none; }
-  .stream-thumb-meta a:hover { text-decoration: underline; }
-  .kpi-side { min-width: 0; }
-  .kpi-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
-  .kpi { background: var(--surface); padding: 1.1rem 1.25rem; position: relative; }
-  .kpi.kpi-wide { grid-column: span 2; }
-  .kpi-label { font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--muted); margin-bottom: 0.45rem; }
-  .kpi-value { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
-  .kpi-value.kpi-sm { font-size: 1rem; }
-  .kpi-sub { font-size: 0.6rem; color: var(--muted); margin-top: 0.25rem; }
-  .kpi-grid .kpi:nth-child(-n+2)::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); }
-  .chart-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-bottom: 2.5rem; }
-  .chart-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; gap: 0.75rem; }
-  .chart-title { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin: 0; font-weight: 500; }
-  .chart-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
-  .chart-btn {
-    font-family: "DM Mono", monospace; font-size: 0.6rem; letter-spacing: 0.08em;
-    text-transform: uppercase; padding: 0.25rem 0.6rem; border-radius: 3px;
-    border: 1px solid var(--border); background: transparent; color: var(--muted);
-    cursor: pointer; transition: border-color 0.2s, color 0.2s; white-space: nowrap;
-  }
-  .chart-btn:hover { border-color: var(--org-color); color: var(--accent-text); }
-  .chart-hint { font-size: 0.58rem; color: var(--muted); opacity: 0.6; margin-top: 0.5rem; text-align: right; }
-  .chart-wrap { position: relative; height: 320px; }
-  /* section-title and panel-hdr share identical typographic treatment so
-     sub-headings read consistently whether inside a card, a panel, or free-floating */
-  .section-title,
-  .panel-hdr {
-    font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.2em;
-    color: var(--muted); font-weight: 500;
-  }
-  .section-title { margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
-  .data-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; margin-bottom: 3rem; }
-  .data-table th { text-align: left; padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1px solid var(--border); }
-  .data-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); color: var(--text); }
-  .data-table tr:hover td { background: var(--surface); }
-  .data-table .num { text-align: right; color: var(--accent-text); font-weight: 500; }
-  .data-table .ts  { color: var(--muted); }
-  .pill { display: inline-block; font-size: 0.6rem; padding: 0.15rem 0.4rem; border-radius: 2px; text-transform: uppercase; letter-spacing: 0.1em; }
-  .pill-live     { background: rgba(255,79,109,0.15); color: var(--red);  border: 1px solid var(--red); }
-  .pill-upcoming { background: rgba(79,195,247,0.10); color: var(--blue); border: 1px solid var(--blue); }
-  .generated { text-align: center; color: var(--muted); font-size: 0.7rem; margin-top: 3rem; }
-
-  footer {
-    margin-top: 5rem;
-    padding: 1.75rem 2rem;
-    border-top: 1px solid var(--border);
-    background: var(--surface);           /* distinct from page bg in both themes */
-    border-radius: 6px;
-    display: flex; flex-wrap: wrap;
-    justify-content: space-between; gap: 1rem;
-    font-size: 0.7rem; color: var(--muted);
-  }
-  footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
-  footer a:hover { color: var(--accent-text); }
-  footer .footer-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
-  footer .footer-sep { opacity: 0.35; }
-  /* light-mode footer is already handled by --surface and --border vars */
-
-
-  /* ── nav bar ── */
-  .site-nav { position: sticky; top: 0; z-index: 200; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 0.75rem; padding: 0.65rem 2rem; }
-  .site-nav-logo { font-family: "Fraunces", serif; font-size: 0.95rem; font-weight: 700; color: var(--white); text-decoration: none; flex-shrink: 0; }
-  .site-nav-logo em { font-style: italic; color: var(--accent-text); }
-  .nav-pill { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.6rem; padding: 0.2rem 0.55rem; border: 1px solid var(--border); border-radius: 99px; color: var(--muted); white-space: nowrap; }
-  .nav-pill strong { color: var(--text); font-weight: 500; }
-  .nav-live-pill { border-color: rgba(34,197,94,.4); background: rgba(34,197,94,.06); color: #16a34a; }
-  .nav-live-dot { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
-  [data-theme="light"] .nav-live-pill { color: #15803d; }
-  .nav-spacer { flex: 1; }
-  .nav-search-wrap { position: relative; display: flex; align-items: center; }
-  .nav-search { font-family: "DM Mono", monospace; font-size: 0.65rem; padding: 0.28rem 0.75rem 0.28rem 1.8rem; border: 1px solid var(--border); border-radius: 99px; background: var(--surface2); color: var(--text); width: 200px; transition: border-color 0.2s, width 0.2s; outline: none; }
-  .nav-search:focus { border-color: var(--org-color); width: 260px; }
-  .nav-search::placeholder { color: var(--muted); }
-  .nav-search-icon { position: absolute; left: 0.55rem; font-size: 0.75rem; color: var(--muted); pointer-events: none; }
-
-  /* ── stats bar (index page) ── */
-  .stats-bar { display: flex; gap: 0.6rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
-  .stat-pill-bar { display: flex; align-items: center; gap: 0.35rem; padding: 0.3rem 0.75rem; background: var(--surface); border: 1px solid var(--border); border-radius: 99px; font-size: 0.62rem; color: var(--muted); }
-  .stat-pill-bar strong { color: var(--text); font-weight: 500; }
-  .filter-strip { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; flex-wrap: wrap; align-items: center; }
-  .filter-lbl { font-size: 0.6rem; color: var(--muted); margin-right: 0.2rem; }
-  .filter-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
-  .filter-chip:hover, .filter-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
-
-  /* ── redesigned org cards ── */
-  .org-accent-bar { height: 3px; background: var(--org-color); border-radius: 0; }
-  .org-card-body { padding: 1rem 1.25rem 1.1rem; }
-  .org-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; gap: 0.5rem; }
-  .org-card-title { font-family: "Fraunces", serif; font-size: 1.1rem; font-weight: 700; color: var(--white); line-height: 1.2; }
-  .org-card-desc { font-size: 0.72rem; color: var(--muted); margin-bottom: 0.85rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .org-card-stats { display: flex; gap: 1rem; }
-  .ocs { font-size: 0.62rem; color: var(--muted); display: flex; align-items: center; gap: 0.25rem; }
-  .ocs strong { color: var(--accent-text); font-weight: 500; }
-  .live-badge-sm { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.55rem; letter-spacing: 0.08em; padding: 0.15rem 0.45rem; border-radius: 99px; background: rgba(34,197,94,.12); color: #16a34a; border: 1px solid rgba(34,197,94,.3); flex-shrink: 0; white-space: nowrap; }
-  .live-dot-sm { width: 5px; height: 5px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
-  [data-theme="light"] .live-badge-sm { color: #15803d; }
-
-  /* ── org hero ── */
-  .org-hero { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 1.5rem; animation: fadeUp 0.5s ease both; }
-  .org-hero-accent { height: 4px; background: var(--org-color); }
-  .org-hero-body { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.5rem; padding: 1.4rem 1.75rem; flex-wrap: wrap; }
-  .org-hero-info { flex: 1; min-width: 0; }
-  .org-hero-name { font-family: "Fraunces", serif; font-size: 1.6rem; font-weight: 700; color: var(--white); margin-bottom: 0.3rem; }
-  .org-hero-desc { font-size: 0.75rem; color: var(--muted); max-width: 560px; line-height: 1.6; margin-bottom: 0.85rem; }
-  .org-hero-stats { display: flex; gap: 1.5rem; flex-wrap: wrap; }
-  .ohs { text-align: center; }
-  .ohs-val { font-family: "Fraunces", serif; font-size: 1.4rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
-  .ohs-lbl { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
-
-  /* ── sort/filter strip ── */
-  .sort-strip { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
-  .sort-lbl { font-size: 0.6rem; color: var(--muted); }
-  .sort-chip { padding: 0.22rem 0.65rem; font-size: 0.6rem; border: 1px solid var(--border); border-radius: 99px; background: transparent; color: var(--muted); cursor: pointer; font-family: inherit; transition: background 0.15s, color 0.15s, border-color 0.15s; }
-  .sort-chip:hover { background: var(--surface2); color: var(--text); }
-  .sort-chip.active { background: var(--surface2); color: var(--accent-text); border-color: var(--org-color); }
-
-  /* ── channel card redesign ── */
-  .ch-card-top { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.65rem; }
-  .ch-card-name-wrap { min-width: 0; }
-  .ch-card-name { font-family: "Fraunces", serif; font-size: 0.88rem; font-weight: 700; color: var(--white); line-height: 1.25; }
-  .ch-card-role { font-size: 0.58rem; color: var(--muted); margin-top: 0.1rem; }
-  .ch-card-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem; }
-  .ch-stat-cell { background: var(--surface2); border-radius: 3px; padding: 0.4rem 0.6rem; }
-  .ch-stat-cell-lbl { font-size: 0.55rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
-  .ch-stat-cell-val { font-size: 0.82rem; font-weight: 500; color: var(--text); }
-
-  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
-  header { animation: fadeUp 0.5s ease both; }
-  .orgs-grid, .channels-list, .streams-grid, .kpi-row { animation: fadeUp 0.5s 0.1s ease both; }
-
-  /* ── channel hero ── */
-  .channel-hero { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 1.5rem; animation: fadeUp 0.5s ease both; }
-  .hero-shimmer { height: 4px; background: linear-gradient(90deg, var(--org-color) 0%, transparent 50%, var(--org-color) 100%); background-size: 200% 100%; animation: heroShimmer 3s linear infinite; }
-  @keyframes heroShimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
-  .hero-body { display: flex; align-items: flex-start; gap: 1.5rem; padding: 1.75rem 2rem; }
-  @media (max-width: 600px) { .hero-body { flex-direction: column; } }
-  .hero-avatar-large { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; border: 2px solid var(--org-color); display: block; background: var(--surface2); flex-shrink: 0; }
-  .hero-avatar-large-placeholder { width: 88px; height: 88px; border-radius: 50%; background: var(--surface2); border: 2px solid var(--org-color); display: flex; align-items: center; justify-content: center; font-family: "Fraunces", serif; font-size: 1.8rem; font-weight: 700; color: var(--accent-text); flex-shrink: 0; }
-  .hero-org-badge { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.18rem 0.55rem 0.18rem 0.35rem; border-radius: 2px; border: 1px solid var(--org-color); color: var(--accent-text); background: color-mix(in srgb, var(--org-color) 8%, transparent); margin-bottom: 0.6rem; }
-  .hero-org-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--org-color); box-shadow: 0 0 5px var(--org-color); }
-  [data-theme="light"] .hero-org-dot { box-shadow: none; }
-  .hero-info { flex: 1; min-width: 0; }
-  .hero-name { font-family: "Fraunces", serif; font-size: clamp(1.5rem, 3.5vw, 2.4rem); font-weight: 700; line-height: 1.05; color: var(--white); margin-bottom: 0.6rem; }
-  .hero-name em { font-style: italic; color: var(--accent-text); }
-  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.65rem; color: var(--muted); margin-top: 0.35rem; }
-  .hero-meta-item { display: flex; align-items: center; gap: 0.3rem; }
-  .hero-meta-item strong { color: var(--accent-text); font-weight: 500; }
-  .hero-actions { flex-shrink: 0; align-self: flex-start; }
-  .yt-link { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); text-decoration: none; border: 1px solid var(--border); border-radius: 3px; padding: 0.38rem 0.7rem; transition: border-color 0.2s, color 0.2s; }
-  .yt-link:hover { border-color: var(--red); color: var(--red); }
-
-  /* ── kpi strip ── */
-  .kpi-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 2rem; animation: fadeUp 0.5s 0.05s ease both; }
-  @media (max-width: 700px) { .kpi-strip { grid-template-columns: repeat(2, 1fr); } }
-  .kpi-cell { background: var(--surface); padding: 1.1rem 1.25rem; position: relative; }
-  .kpi-cell::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); transform: scaleX(0); transform-origin: left; transition: transform 0.4s; }
-  .kpi-cell:hover::before { transform: scaleX(1); }
-
-  /* ── channel main grid ── */
-  .ch-main-grid { display: grid; grid-template-columns: 1fr 310px; gap: 1.25rem; align-items: start; animation: fadeUp 0.5s 0.1s ease both; }
-  @media (max-width: 820px) { .ch-main-grid { grid-template-columns: 1fr; } }
-
-  /* ── recent streams card grid (4×2, full-width, above main grid) ── */
-  .recent-streams-section { margin-bottom: 2rem; animation: fadeUp 0.5s 0.08s ease both; }
-  .recent-streams-hdr { font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.9rem; display: flex; align-items: center; gap: 0.6rem; font-weight: 500; }
-  .recent-streams-hdr::before { content: ""; display: block; width: 6px; height: 6px; border-radius: 50%; background: var(--org-color); box-shadow: 0 0 6px var(--org-color); flex-shrink: 0; }
-  [data-theme="light"] .recent-streams-hdr::before { box-shadow: none; }
-  .recent-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.85rem; }
-  @media (max-width: 900px) { .recent-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 500px) { .recent-grid { grid-template-columns: 1fr; } }
-  .rc { background: var(--surface); border: 1px solid var(--border); border-radius: 5px; overflow: hidden; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: border-color 0.2s, transform 0.18s; position: relative; }
-  .rc:hover { border-color: var(--org-color); transform: translateY(-2px); }
-  .rc::after { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--org-color); transform: scaleX(0); transform-origin: left; transition: transform 0.3s; }
-  .rc:hover::after { transform: scaleX(1); }
-  .rc-thumb { position: relative; width: 100%; padding-bottom: 56.25%; background: var(--surface2); overflow: hidden; flex-shrink: 0; }
-  .rc-thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
-  .rc-thumb .rc-placeholder { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 1.3rem; }
-  .rc-live { position: absolute; top: 5px; left: 5px; background: var(--red); color: #fff; font-size: 0.48rem; font-weight: 500; letter-spacing: 0.1em; padding: 2px 5px; border-radius: 2px; text-transform: uppercase; }
-  .rc-body { padding: 0.65rem 0.75rem 0.75rem; flex: 1; display: flex; flex-direction: column; gap: 4px; }
-  .rc-title { font-family: "Fraunces", serif; font-size: 0.8rem; font-weight: 700; color: var(--white); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .rc-date { font-size: 0.57rem; color: var(--muted); }
-  .rc-stats { display: flex; gap: 0.6rem; font-size: 0.58rem; color: var(--muted); margin-top: auto; padding-top: 4px; }
-  .rc-peak { color: var(--accent-text); font-weight: 500; }
-
-  /* ── chronological stream list (new row layout) ── */
-  .stream-list-panel { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
-  /* panel-hdr font already merged with .section-title above */
-  .panel-hdr { padding: 0.8rem 1.25rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
-
-  /* collapsible month group */
-  .month-group { border-bottom: 1px solid var(--border); }
-  .month-group:last-child { border-bottom: none; }
-  .month-toggle { display: flex; align-items: center; justify-content: space-between; padding: 0.6rem 1.25rem; font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); font-weight: 500; background: var(--surface2); cursor: pointer; user-select: none; border: none; width: 100%; text-align: left; font-family: inherit; transition: color 0.15s; gap: 0.75rem; }
-  .month-toggle:hover { color: var(--accent-text); }
-  .month-toggle-left { display: flex; align-items: center; gap: 0.55rem; }
-  .month-toggle-left::before { content: ""; display: block; width: 5px; height: 5px; border-radius: 50%; background: var(--org-color); box-shadow: 0 0 5px var(--org-color); flex-shrink: 0; }
-  [data-theme="light"] .month-toggle-left::before { box-shadow: none; }
-  .month-toggle-right { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
-  .month-cnt-badge { font-size: 0.55rem; padding: 0.08rem 0.38rem; border-radius: 2px; background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.1); color: var(--accent-text); }
-  [data-theme="light"] .month-cnt-badge { background: rgba(0,0,0,0.06); border-color: rgba(0,0,0,0.15); }
-  .month-chevron { font-size: 0.55rem; transition: transform 0.25s; display: inline-block; }
-  .month-group.is-open .month-chevron { transform: rotate(180deg); }
-  .month-body { display: none; }
-  .month-group.is-open .month-body { display: block; }
-
-  .stream-row-item { display: flex; gap: 0.9rem; padding: 0.8rem 1.25rem; border-bottom: 1px solid var(--border); text-decoration: none; color: inherit; position: relative; transition: background 0.15s; }
-  .stream-row-item:last-child { border-bottom: none; }
-  .stream-row-item::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--org-color); transform: scaleY(0); transform-origin: top; transition: transform 0.25s; }
-  .stream-row-item:hover { background: var(--surface2); }
-  .stream-row-item:hover::after { transform: scaleY(1); }
-  .stream-thumb-cell { width: 88px; height: 50px; border-radius: 3px; flex-shrink: 0; background: var(--surface2); overflow: hidden; position: relative; }
-  .stream-thumb-cell img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .stream-thumb-cell .th-placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 1.1rem; }
-  .stream-row-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
-  .stream-row-title { font-family: "Fraunces", serif; font-size: 0.88rem; font-weight: 700; color: var(--white); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .stream-row-meta { font-size: 0.6rem; color: var(--muted); display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap; }
-  .row-sep { opacity: 0.35; }
-  .stream-row-stats { display: flex; gap: 0.85rem; font-size: 0.62rem; color: var(--muted); margin-top: 2px; }
-  .rs { display: flex; align-items: center; gap: 0.2rem; }
-  .rs-peak { color: var(--accent-text); font-weight: 500; }
-  .show-more-link { display: flex; align-items: center; gap: 0.5rem; padding: 0.65rem 1.25rem; font-size: 0.6rem; color: var(--muted); cursor: pointer; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-top: 1px solid var(--border); transition: background 0.15s, color 0.2s; }
-  .show-more-link::before { content: ""; display: block; width: 5px; height: 1px; background: currentColor; flex-shrink: 0; }
-  .show-more-link:hover { background: var(--surface2); color: var(--accent-text); }
-
-  /* ── sidebar panels ── */
-  .sidebar-col { display: flex; flex-direction: column; gap: 1.25rem; }
-  .side-panel { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
-  .monthly-tbl { width: 100%; border-collapse: collapse; font-size: 0.65rem; }
-  .monthly-tbl th { padding: 0.5rem 1rem; text-align: left; color: var(--muted); font-size: 0.57rem; text-transform: uppercase; letter-spacing: 0.12em; font-weight: 500; border-bottom: 1px solid var(--border); background: var(--surface2); }
-  .monthly-tbl th:not(:first-child) { text-align: right; }
-  .monthly-tbl td { padding: 0.52rem 1rem; border-bottom: 1px solid var(--border); color: var(--text); }
-  .monthly-tbl td:not(:first-child) { text-align: right; }
-  .monthly-tbl tr:last-child td { border-bottom: none; }
-  .monthly-tbl tr:hover td { background: var(--surface2); }
-  .month-a { color: var(--text); text-decoration: none; transition: color 0.2s; }
-  .month-a:hover { color: var(--accent-text); }
-  .month-cnt { display: inline-block; font-size: 0.57rem; padding: 0.1rem 0.4rem; border-radius: 2px; background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.1); color: var(--accent-text); }
-  [data-theme="light"] .month-cnt { background: rgba(0,0,0,0.06); border-color: rgba(0,0,0,0.15); }
-  .month-peak { color: var(--accent-text); font-weight: 500; }
-  .month-best-row td { background: color-mix(in srgb, var(--org-color) 4%, transparent); }
-  .month-best-row .month-a::after { content: " ★"; color: var(--org-color); font-size: 0.55rem; }
-  .rec-row { display: flex; justify-content: space-between; align-items: flex-start; padding: 0.8rem 1.25rem; border-bottom: 1px solid var(--border); gap: 0.5rem; }
-  .rec-row:last-child { border-bottom: none; }
-  .rec-lbl { font-size: 0.56rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 0.25rem; }
-  .rec-val { font-family: "Fraunces", serif; font-size: 1.25rem; font-weight: 700; color: var(--accent-text); line-height: 1.1; }
-  .rec-ctx { font-size: 0.57rem; color: var(--muted); margin-top: 0.15rem; max-width: 145px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .rec-right { text-align: right; flex-shrink: 0; }
-  .rec-date { font-size: 0.6rem; color: var(--muted); }
-  .subs-body { padding: 0.9rem 1.25rem 1.1rem; }
-  .subs-count { font-family: "Fraunces", serif; font-size: 1.75rem; font-weight: 700; color: var(--accent-text); line-height: 1; margin-bottom: 0.2rem; }
-  .subs-label { font-size: 0.58rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 0.85rem; }
-  svg.sparkline { width: 100%; height: 40px; overflow: visible; display: block; }
-"""
+# _BASE_CSS used to live here as one large inlined stylesheet string.
+# It has been split into two static files, both linked in via
+# _html_head(): theme.css (tokens/reset/nav shared with the standalone
+# privacy.html/terms.html pages) and dashboard.css (everything specific
+# to the generated dashboard — cards, KPIs, search overlay, and the few
+# rules that intentionally differ from the standalone pages). See those
+# two files for the full ruleset previously defined here.
 
 
 
@@ -1659,6 +1250,9 @@ _THEME_JS = """
     if (thumb) {
       theme === 'light' ? thumb.classList.add('is-light') : thumb.classList.remove('is-light');
     }
+    // Lets any page-specific script (e.g. the stream page's chart) react to
+    // a theme flip without _THEME_JS needing to know charts exist at all.
+    window.dispatchEvent(new Event('idvt-theme-change'));
   }
   function toggleTheme() {
     var next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
@@ -1688,9 +1282,223 @@ _TOGGLE_HTML = (
     '</div>'
 )
 
+# Global search overlay — present on every page (not just the index), backed
+# by search-index.json (see write_search_index()). Modal markup is injected
+# once per page via _html_foot(); behavior lives in _SEARCH_JS below.
+_SEARCH_HTML = (
+    '<div class="search-overlay" id="searchOverlay">'
+    '<div class="search-modal">'
+    '<div class="search-input-row">'
+    '&#128269;'
+    '<input id="searchInput" placeholder="Search orgs, channels, streams…" autocomplete="off">'
+    '<span class="search-esc">ESC</span>'
+    '</div>'
+    '<div class="search-results" id="searchResults"></div>'
+    '<div class="search-footer">'
+    '<span>&#8593;&#8595; navigate &#183; &#8629; open</span>'
+    '<span id="searchResultCount"></span>'
+    '</div>'
+    '</div>'
+    '</div>'
+)
+
+# Tiny, unconditional, every-page fetch of live-count.json (a few bytes) to
+# populate the nav's "LIVE n" pill. Deliberately separate from _SEARCH_JS's
+# lazy-loaded search-index.json — that file is much bigger and only needed
+# once someone actually opens search, whereas this needs to run on every
+# single page view, so it gets its own minimal fetch instead of forcing an
+# eager load of the full index just to show a count.
+_LIVE_PILL_JS = """
+<script>
+(function () {
+  var pill   = document.getElementById('navLivePill');
+  var count  = document.getElementById('navLiveCount');
+  var strip  = document.getElementById('navPulseStrip');
+  if (!pill || !count) return;
+
+  function pulseBars() {
+    if (!strip) return;
+    strip.innerHTML = '';
+    for (var i = 0; i < 12; i++) {
+      var b = document.createElement('span');
+      b.style.height = (4 + Math.round(Math.random() * 10)) + 'px';
+      strip.appendChild(b);
+    }
+  }
+  pulseBars();
+  setInterval(pulseBars, 2500);
+
+  var depth = window.SITE_DEPTH || 0;
+  fetch('../'.repeat(depth) + 'live-count.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var n = data.count || 0;
+      count.textContent = n;
+      pill.classList.toggle('has-live', n > 0);
+    })
+    .catch(function () { /* fine to just leave the pill hidden */ });
+})();
+</script>"""
+
+_SEARCH_JS = """
+<script>
+(function () {
+  var overlay   = document.getElementById('searchOverlay');
+  var input     = document.getElementById('searchInput');
+  var results   = document.getElementById('searchResults');
+  var countEl   = document.getElementById('searchResultCount');
+  var trigger   = document.getElementById('searchTrigger');
+  var depth     = window.SITE_DEPTH || 0;
+  var indexData = null;
+  var indexPromise = null;
+  var current   = [];
+  var selIndex  = 0;
+
+  var typeIcon  = { org: '\\u25C6', channel: '\\u25CF', stream: '\\u25B6' };
+  var typeLabel = { org: 'Organisations', channel: 'Channels', stream: 'Streams' };
+
+  function loadIndex() {
+    if (indexPromise) return indexPromise;
+    var path = '../'.repeat(depth) + 'search-index.json';
+    indexPromise = fetch(path).then(function (r) { return r.json(); })
+      .then(function (data) { indexData = data; return data; })
+      .catch(function (e) { indexData = []; console.warn('search index unavailable:', e); return []; });
+    return indexPromise;
+  }
+
+  function score(query, text) {
+    query = query.toLowerCase(); text = text.toLowerCase();
+    if (!query) return 0;
+    if (text.indexOf(query) === 0) return 100;
+    if (text.indexOf(query) !== -1) return 60;
+    var qi = 0;
+    for (var i = 0; i < text.length && qi < query.length; i++) {
+      if (text[i] === query[qi]) qi++;
+    }
+    return qi === query.length ? 25 : -1;
+  }
+
+  function highlight(text, query) {
+    if (!query) return text;
+    var idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return text.slice(0, idx) + '<mark>' + text.slice(idx, idx + query.length) + '</mark>' + text.slice(idx + query.length);
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function render(query) {
+    if (!indexData) return;
+    if (!query) {
+      results.innerHTML = '<div class="search-empty">Type to search every organisation, channel, and tracked stream.</div>';
+      countEl.textContent = '';
+      current = [];
+      return;
+    }
+    var scored = indexData
+      .map(function (item) { return Object.assign({}, item, { s: score(query, item.name) }); })
+      .filter(function (item) { return item.s >= 0; })
+      .sort(function (a, b) { return b.s - a.s; })
+      .slice(0, 40);
+
+    current = scored;
+    selIndex = 0;
+    countEl.textContent = scored.length + ' result' + (scored.length === 1 ? '' : 's');
+
+    if (!scored.length) {
+      results.innerHTML = '<div class="search-empty">No matches for "' + esc(query) + '".</div>';
+      return;
+    }
+    var groups = { org: [], channel: [], stream: [] };
+    scored.forEach(function (item) { groups[item.type].push(item); });
+
+    var html = '';
+    var flat = 0;
+    ['org', 'channel', 'stream'].forEach(function (t) {
+      if (!groups[t].length) return;
+      html += '<div class="result-group-label">' + typeLabel[t] + '</div>';
+      groups[t].forEach(function (item) {
+        html += '<div class="result-row" data-idx="' + flat + '">' +
+          '<div class="result-type-icon">' + typeIcon[t] + '</div>' +
+          '<div class="result-main"><div class="result-name">' + highlight(esc(item.name), query) + '</div>' +
+          '<div class="result-sub">' + esc(item.sub || '') + '</div></div>' +
+          '</div>';
+        flat++;
+      });
+    });
+    results.innerHTML = html;
+    Array.prototype.forEach.call(results.querySelectorAll('.result-row'), function (row) {
+      row.addEventListener('click', function () { navigateTo(parseInt(row.dataset.idx, 10)); });
+    });
+    updateSel();
+  }
+
+  function updateSel() {
+    var rows = results.querySelectorAll('.result-row');
+    Array.prototype.forEach.call(rows, function (r, i) { r.classList.toggle('sel', i === selIndex); });
+    if (rows[selIndex]) rows[selIndex].scrollIntoView({ block: 'nearest' });
+  }
+
+  function navigateTo(i) {
+    var item = current[i];
+    if (!item) return;
+    window.location.href = '../'.repeat(depth) + item.path;
+  }
+
+  function open() {
+    overlay.classList.add('open');
+    input.value = '';
+    loadIndex().then(function () { render(''); });
+    setTimeout(function () { input.focus(); }, 10);
+  }
+  function close() {
+    overlay.classList.remove('open');
+  }
+
+  if (trigger) trigger.addEventListener('click', open);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+  input.addEventListener('input', function (e) { render(e.target.value); });
+
+  document.addEventListener('keydown', function (e) {
+    var isOpen = overlay.classList.contains('open');
+    if (!isOpen && e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+      e.preventDefault(); open(); return;
+    }
+    if (!isOpen) return;
+    if (e.key === 'Escape') { close(); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); selIndex = Math.min(selIndex + 1, current.length - 1); updateSel(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); selIndex = Math.max(selIndex - 1, 0); updateSel(); }
+    else if (e.key === 'Enter') { e.preventDefault(); navigateTo(selIndex); }
+  });
+})();
+</script>"""
+
 
 def _html_head(title: str, depth: int, org_color: str = "#e8ff47",
-               extra_scripts: str = "") -> str:
+               org_color_light: str = "#6e7e00",
+               extra_scripts: str = "", live_count: int | None = None) -> str:
+    # Two values are threaded through here instead of one: org_color is the
+    # dark-theme accent (used by default and as the :root fallback),
+    # org_color_light is the WCAG-corrected variant for light theme. Both are
+    # audited per-org (see the color-pair table in ORG_MAP) since many of the
+    # original hex values were picked to pop on a near-black background and
+    # fail contrast badly once the page flips to a white surface.
+    #
+    # live_count: when the caller already knows the current sitewide live
+    # count (write_index() computes it anyway for the hero stats), pass it
+    # here so the nav's LIVE pill — including its pulse-strip bars — renders
+    # correctly on first paint instead of staying hidden until _LIVE_PILL_JS's
+    # async fetch of live-count.json resolves. Pages that don't have the
+    # count on hand (org/channel/stream) pass None and keep the old
+    # JS-only behavior.
+    nav_pill_class = "nav-pill nav-live-pill"
+    nav_pill_count = "0"
+    if live_count is not None:
+        nav_pill_count = str(live_count)
+        if live_count > 0:
+            nav_pill_class += " has-live"
     return (
         f'<!DOCTYPE html>\n<html lang="en">\n<head>\n'
         f'<meta charset="UTF-8">\n'
@@ -1700,43 +1508,70 @@ def _html_head(title: str, depth: int, org_color: str = "#e8ff47",
         f'(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");'
         f'document.documentElement.setAttribute("data-theme",t)}}();</script>\n'
         f'<title>{esc(title)} — IDVTuber Tracker</title>\n'
+        f'<link rel="icon" href="{"../" * depth}favicon.ico">\n'
+        f'<script>window.SITE_DEPTH = {depth};</script>\n'
         f'{_FONTS}\n'
         f'{extra_scripts}\n'
-        f'<style>\n{_BASE_CSS}\n  :root {{ --org-color: {org_color}; }}\n</style>\n'
+        # Shared chrome that's identical to privacy.html/terms.html (color
+        # tokens, reset, .site-nav skeleton) lives in theme.css. Everything
+        # that's specific to the *generated* dashboard — org/channel/stream
+        # card styles, the search overlay, and the handful of rules that
+        # intentionally differ from the standalone pages (.page width, h1
+        # size, toggle accent colour) — lives in dashboard.css, loaded
+        # after theme.css so its overrides win. Neither file is inlined
+        # here anymore; see them directly for the ruleset. The only thing
+        # that stays inline is --org-color, since it's computed per page
+        # from ORG_MAP and can't be baked into a static stylesheet.
+        f'<link rel="stylesheet" href="{"../" * depth}theme.css">\n'
+        f'<link rel="stylesheet" href="{"../" * depth}dashboard.css">\n'
+        f'<style>\n'
+        f'  :root {{ --org-color: {org_color}; }}\n'
+        f'  [data-theme="light"] {{ --org-color: {org_color_light}; }}\n'
+        f'  @media (prefers-color-scheme: light) {{\n'
+        f'    :root:not([data-theme="dark"]) {{ --org-color: {org_color_light}; }}\n'
+        f'  }}\n'
+        f'</style>\n'
         f'</head>\n<body>\n'
         f'<nav class="site-nav">\n'
-        f'  <a class="site-nav-logo" href="{"../" * depth}index.html">IDVTuber <em>Tracker</em></a>\n'
+        f'  <a class="site-nav-logo" href="{"../" * depth}index.html">\n'
+        f'    <img class="site-nav-logo-icon" src="{"../" * depth}favicon.ico" alt="">\n'
+        f'    <span class="site-nav-logo-word"><span class="lw1">IDVTuber</span><span class="lw2">//</span><span class="lw3">Tracker</span></span>\n'
+        f'  </a>\n'
         f'  <span class="nav-spacer"></span>\n'
-        + (f'  <div class="nav-search-wrap">\n'
-           f'    <span class="nav-search-icon">&#128269;</span>\n'
-           f'    <input class="nav-search" id="navSearch" type="search" '
-           f'placeholder="Search organisations…" autocomplete="off">\n'
-           f'  </div>\n' if depth == 0 else '')
-        + f'  {_TOGGLE_HTML}\n'
+        + f'  <div class="nav-right-cluster">\n'
+        f'    <a class="{nav_pill_class}" id="navLivePill" href="{"../" * depth}live.html">\n'
+        f'      <span class="pulse-strip" id="navPulseStrip"></span>\n'
+        f'      <span class="nav-live-dot"></span> LIVE <strong id="navLiveCount">{nav_pill_count}</strong>\n'
+        f'    </a>\n'
+        f'    <div class="search-trigger" id="searchTrigger">\n'
+        f'      <span class="search-trigger-icon">&#128269;</span> Search orgs, channels, streams… <kbd>/</kbd>\n'
+        f'    </div>\n'
+        f'    {_TOGGLE_HTML}\n'
+        f'  </div>\n'
         f'</nav>\n'
         f'<div class="page">\n'
     )
 
 
 # ── Page-specific JS snippets ────────────────────────────────────────────────
-# INDEX_JS: search input filters org cards live; filter chips toggle active state.
+# INDEX_JS: sort chips re-order org cards by the selected metric; range chips
+# (7D/30D/ALL) swap which pre-baked window's numbers are visible on every
+# card and in the stats-bar peak pill. The two interact — sorting by "Peak
+# Viewers" always uses whichever range is currently selected, so switching
+# ranges never silently un-sorts the grid.
+# The old per-index-page name filter (navSearch input) is gone — that job
+# now belongs to the global search overlay (_SEARCH_JS), which searches
+# orgs/channels/streams everywhere, not just org names on this one page.
 _INDEX_JS = """
 <script>
 (function () {
-  var grid  = document.querySelector('.orgs-grid');
-  var inp   = document.getElementById('navSearch');
-  var chips = document.querySelectorAll('.filter-chip');
+  var grid       = document.querySelector('.orgs-grid');
+  var chips      = document.querySelectorAll('.filter-chip');
+  var rangeWrap  = document.getElementById('homeRange');
+  var rangeChips = rangeWrap ? rangeWrap.querySelectorAll('.range-chip') : [];
+  var sitePeakEl = document.querySelector('.js-site-peak');
   var mode  = 'all';    // 'all' | 'az' | 'peak'
-
-  function applyFilter() {
-    var q = inp ? inp.value.trim().toLowerCase() : '';
-    var cards = grid ? grid.querySelectorAll('.org-card') : [];
-    cards.forEach(function (c) {
-      var name = (c.getAttribute('data-name') || '').toLowerCase();
-      var show = q === '' || name.includes(q);
-      c.style.display = show ? '' : 'none';
-    });
-  }
+  var range = '30d';    // '7d' | '30d' | 'all'
 
   function applySort() {
     if (!grid) return;
@@ -1748,8 +1583,8 @@ _INDEX_JS = """
       cards.forEach(function (c) { grid.appendChild(c); });
     } else if (mode === 'peak') {
       cards.sort(function (a, b) {
-        var pa = parseFloat(a.getAttribute('data-peak') || '0') || 0;
-        var pb = parseFloat(b.getAttribute('data-peak') || '0') || 0;
+        var pa = parseFloat(a.getAttribute('data-peak-' + range) || '0') || 0;
+        var pb = parseFloat(b.getAttribute('data-peak-' + range) || '0') || 0;
         return pb - pa;   // descending — highest peak viewers first
       });
       cards.forEach(function (c) { grid.appendChild(c); });
@@ -1757,8 +1592,30 @@ _INDEX_JS = """
     // 'all' = default document order (no re-sort needed on page load)
   }
 
-  if (inp) {
-    inp.addEventListener('input', applyFilter);
+  function fmtNum(n) {
+    n = parseInt(n, 10) || 0;
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+    if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+    return String(n);
+  }
+
+  function applyRange() {
+    if (grid) {
+      Array.from(grid.querySelectorAll('.org-card')).forEach(function (card) {
+        var streamsEl = card.querySelector('.js-streams');
+        var peakEl    = card.querySelector('.js-peak');
+        if (streamsEl) streamsEl.textContent = card.getAttribute('data-streams-' + range) || '0';
+        if (peakEl) {
+          var p = card.getAttribute('data-peak-' + range) || '0';
+          peakEl.textContent = p === '0' ? '—' : fmtNum(p);
+        }
+      });
+    }
+    if (sitePeakEl && rangeWrap) {
+      var sp = rangeWrap.getAttribute('data-peak-' + range) || '0';
+      sitePeakEl.textContent = sp === '0' ? '—' : fmtNum(sp);
+    }
+    applySort();
   }
 
   chips.forEach(function (chip) {
@@ -1774,34 +1631,82 @@ _INDEX_JS = """
         mode = 'all';
       }
       applySort();
-      applyFilter();
+    });
+  });
+
+  rangeChips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      rangeChips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      range = chip.getAttribute('data-range') || '30d';
+      applyRange();
     });
   });
 })();
 </script>"""
 
-# ORG_JS: sort chips re-order channel cards by the selected metric.
+# ORG_JS: sort chips re-order channel cards by the selected metric; range
+# chips swap which window (7d/30d/all) the hero and every card's Streams/
+# Peak CCV numbers reflect. Peak-sort always uses whichever range is
+# currently active, same pattern as _INDEX_JS.
 _ORG_JS = """
 <script>
 (function () {
-  var grid  = document.querySelector('.channels-grid');
-  var chips = document.querySelectorAll('.sort-chip');
-  if (!grid || !chips.length) return;
+  var grid       = document.querySelector('.channels-grid');
+  var chips      = document.querySelectorAll('.sort-chip');
+  var rangeWrap  = document.getElementById('orgRange');
+  var rangeChips = rangeWrap ? rangeWrap.querySelectorAll('.range-chip') : [];
+  var heroStreamsEl = document.querySelector('.org-hero-stats .js-streams');
+  var heroPeakEl    = document.querySelector('.org-hero-stats .js-peak');
+  var mode  = 'subs';   // 'subs' | 'peak' | 'likes' | 'streams' | 'az'
+  var range = '30d';    // '7d' | '30d' | 'all'
 
   function getVal(card, attr) {
     return parseFloat(card.getAttribute(attr) || '0') || 0;
   }
 
-  function sortCards(key) {
+  function fmtNum(n) {
+    n = parseInt(n, 10) || 0;
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+    if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+    return String(n);
+  }
+
+  function sortCards() {
+    if (!grid) return;
     var cards = Array.from(grid.querySelectorAll('.channel-card'));
-    cards.sort(function (a, b) {
-      if (key === 'az') {
+    if (mode === 'az') {
+      cards.sort(function (a, b) {
         return (a.getAttribute('data-name') || '').localeCompare(b.getAttribute('data-name') || '');
-      }
-      var map = { 'subs': 'data-subs', 'peak': 'data-peak', 'likes': 'data-likes', 'streams': 'data-streams' };
-      return getVal(b, map[key]) - getVal(a, map[key]);
-    });
+      });
+    } else {
+      var map = { 'subs': 'data-subs', 'likes': 'data-likes',
+                  'peak': 'data-peak-' + range, 'streams': 'data-streams-' + range };
+      cards.sort(function (a, b) { return getVal(b, map[mode]) - getVal(a, map[mode]); });
+    }
     cards.forEach(function (c) { grid.appendChild(c); });
+  }
+
+  function applyRange() {
+    if (grid) {
+      Array.from(grid.querySelectorAll('.channel-card')).forEach(function (card) {
+        var streamsEl = card.querySelector('.js-streams');
+        var peakEl    = card.querySelector('.js-peak');
+        if (streamsEl) streamsEl.textContent = card.getAttribute('data-streams-' + range) || '0';
+        if (peakEl) {
+          var p = card.getAttribute('data-peak-' + range) || '0';
+          peakEl.textContent = p === '0' ? '—' : fmtNum(p);
+        }
+      });
+    }
+    if (rangeWrap) {
+      if (heroStreamsEl) heroStreamsEl.textContent = rangeWrap.getAttribute('data-streams-' + range) || '0';
+      if (heroPeakEl) {
+        var hp = rangeWrap.getAttribute('data-peak-' + range) || '0';
+        heroPeakEl.textContent = hp === '0' ? '—' : fmtNum(hp);
+      }
+    }
+    sortCards();
   }
 
   var keyMap = {
@@ -1816,8 +1721,17 @@ _ORG_JS = """
     chip.addEventListener('click', function () {
       chips.forEach(function (c) { c.classList.remove('active'); });
       chip.classList.add('active');
-      var key = keyMap[chip.textContent.trim()] || 'subs';
-      sortCards(key);
+      mode = keyMap[chip.textContent.trim()] || 'subs';
+      sortCards();
+    });
+  });
+
+  rangeChips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      rangeChips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      range = chip.getAttribute('data-range') || '30d';
+      applyRange();
     });
   });
 })();
@@ -1843,7 +1757,10 @@ def _html_foot(depth: int, page_type: str = '') -> str:
         f'    </nav>\n'
         f'  </footer>\n'
         f'</div>\n'
+        f'{_SEARCH_HTML}\n'
         f'{_THEME_JS}\n'
+        f'{_LIVE_PILL_JS}\n'
+        f'{_SEARCH_JS}\n'
         + extra_js
         + f'</body>\n</html>'
     )
@@ -1871,66 +1788,272 @@ def write_index(total_streams: int, total_channels: int, generated_at: str,
     stream_counts          = stream_counts or {}
     all_streams_by_channel = all_streams_by_channel or {}
 
-    # ── per-org stats: stream count and peak CCV ──────────────────────────────
+    # ── per-org stats: windowed (7d/30d/all) peak+streams, plus live count ────
     def _org_stats(org):
-        n_str = sum(stream_counts.get(e[0], 0) for e in org["channels"])
-        peak  = 0
+        org_streams = []
         for e in org["channels"]:
-            for s in all_streams_by_channel.get(e[0], []):
-                v = s.get("peak_viewers") or 0
-                if v > peak:
-                    peak = v
-        return n_str, peak
+            org_streams.extend(all_streams_by_channel.get(e[0], []))
+        windows = _window_stats(org_streams)
+        live = sum(1 for s in org_streams if (s.get("stream_status") or "vod") == "live")
+        return windows, live
+
+    # ── sitewide windowed stats (for the stats-bar peak pill) ─────────────────
+    all_site_streams = [s for streams in all_streams_by_channel.values() for s in streams]
+    site_windows = _window_stats(all_site_streams)
+    sitewide_live = sum(1 for s in all_site_streams if (s.get("stream_status") or "vod") == "live")
 
     # ── build org cards ───────────────────────────────────────────────────────
     org_cards = ""
     for org_slug, org in ORG_MAP.items():
         n_ch = len(org["channels"])
-        n_streams, peak = _org_stats(org)
-        peak_str = fmt(peak) if peak else "—"
+        windows, n_live = _org_stats(org)
+        w30 = windows["30d"]
+        peak_str  = fmt_compact(w30["peak"]) if w30["peak"] else "—"
+        live_badge = (
+            f'<span class="live-badge-sm"><span class="live-dot-sm"></span>LIVE {n_live}</span>'
+            if n_live else ''
+        )
         org_cards += (
             f'\n    <a class="org-card" href="{org_slug}/index.html"'
-            f' style="--org-color:{org["color"]}"'
+            f' style="--org-color-dark:{org["color"]};--org-color-light:{org["color_light"]}"'
             f' data-name="{esc(org["label"])}"'
-            f' data-streams="{n_streams}" data-peak="{peak}">\n'
+            f' data-streams-7d="{windows["7d"]["streams"]}" data-streams-30d="{windows["30d"]["streams"]}" data-streams-all="{windows["all"]["streams"]}"'
+            f' data-peak-7d="{windows["7d"]["peak"]}" data-peak-30d="{windows["30d"]["peak"]}" data-peak-all="{windows["all"]["peak"]}">\n'
             f'      <div class="org-accent-bar"></div>\n'
             f'      <div class="org-card-body">\n'
             f'        <div class="org-card-top">\n'
             f'          <div class="org-card-title">{esc(org["label"])}</div>\n'
+            f'          {live_badge}\n'
             f'        </div>\n'
             f'        <div class="org-card-desc">{esc(org["desc"])}</div>\n'
             f'        <div class="org-card-stats">\n'
             f'          <span class="ocs">&#128100; <strong>{n_ch}</strong></span>\n'
-            f'          <span class="ocs">&#9654; <strong>{n_streams}</strong></span>\n'
-            f'          <span class="ocs">&#128065; <strong>{peak_str}</strong> peak</span>\n'
+            f'          <span class="ocs">&#9654; <strong class="js-streams">{w30["streams"]}</strong></span>\n'
+            f'          <span class="ocs">&#128065; <strong class="js-peak">{peak_str}</strong> peak</span>\n'
             f'        </div>\n'
             f'      </div>\n'
             f'    </a>'
         )
 
+    site_peak_30d = fmt_compact(site_windows["30d"]["peak"]) if site_windows["30d"]["peak"] else "—"
+
+    # ── header ──────────────────────────────────────────────────────────────
+    # Boxed "site-hero" — the same accent-bar/card treatment as .org-hero and
+    # .channel-hero one level down, so the index page's header reads as part
+    # of the same visual family instead of the bare eyebrow/h1/stats-bar strip
+    # it used to be. Range chips + KPI row sit on the hero's right side, same
+    # layout org-level uses; sort chips stay in their own strip below it.
     body = (
-        f'  <header>\n'
-        f'    <p class="eyebrow">IDVTuber Tracker &#8212; Live Analytics</p>\n'
-        f'    <h1>Stream <em>Overview</em></h1>\n'
-        f'    <p class="page-meta">Generated: {generated_at}</p>\n'
-        f'  </header>\n'
-        f'  <div class="stats-bar">\n'
-        f'    <span class="stat-pill-bar">&#127981; <strong>{len(ORG_MAP)}</strong> organisations</span>\n'
-        f'    <span class="stat-pill-bar">&#128100; <strong>{total_channels}</strong> channels</span>\n'
-        f'    <span class="stat-pill-bar">&#9654; <strong>{total_streams}</strong> streams recorded</span>\n'
+        f'  <div class="site-hero">\n'
+        f'    <div class="site-hero-accent"></div>\n'
+        f'    <div class="site-hero-body">\n'
+        f'      <div class="site-hero-info">\n'
+        f'        <p class="eyebrow">IDVTuber Tracker &#8212; Live Analytics</p>\n'
+        f'        <h1>{len(ORG_MAP)} orgs. {total_channels} channels. One signal feed.</h1>\n'
+        f'        <p class="page-meta">Indonesian VTuber groups numbers tracked, displayed, and recorded in one place &#8212; subs, streams, and peak viewership, refreshed automatically.</p>\n'
+        f'        <p class="site-hero-updated">&#128337; Updated {generated_at}</p>\n'
+        f'      </div>\n'
+        f'      <div class="site-hero-side">\n'
+        f'        <div class="range-chips" id="homeRange"'
+        f' data-peak-7d="{site_windows["7d"]["peak"] or 0}"'
+        f' data-peak-30d="{site_windows["30d"]["peak"] or 0}"'
+        f' data-peak-all="{site_windows["all"]["peak"] or 0}">\n'
+        f'          <span class="range-chip" data-range="7d">7D</span>\n'
+        f'          <span class="range-chip active" data-range="30d">30D</span>\n'
+        f'          <span class="range-chip" data-range="all">ALL</span>\n'
+        f'        </div>\n'
+        f'        <div class="site-hero-stats">\n'
+        f'          <div class="ohs"><div class="ohs-val">{len(ORG_MAP)}</div><div class="ohs-lbl">Organisations</div></div>\n'
+        f'          <div class="ohs"><div class="ohs-val">{total_channels}</div><div class="ohs-lbl">Channels</div></div>\n'
+        f'          <div class="ohs"><div class="ohs-val">{total_streams}</div><div class="ohs-lbl">Streams</div></div>\n'
+        f'          <div class="ohs"><div class="ohs-val" id="idxLiveCount">{sitewide_live}</div><div class="ohs-lbl">Live now</div></div>\n'
+        f'          <div class="ohs"><div class="ohs-val js-site-peak">{site_peak_30d}</div><div class="ohs-lbl">Peak CCV</div></div>\n'
+        f'        </div>\n'
+        f'      </div>\n'
+        f'    </div>\n'
         f'  </div>\n'
-        f'  <div class="filter-strip">\n'
-        f'    <span class="filter-lbl">Filter:</span>\n'
-        f'    <span class="filter-chip" style="background:var(--surface2);color:var(--accent-text);border-color:var(--org-color)">All</span>\n'
+        f'  <div class="sort-strip">\n'
+        f'    <span class="sort-lbl">Sort:</span>\n'
+        f'    <span class="filter-chip active">All</span>\n'
         f'    <span class="filter-chip">A&#8211;Z</span>\n'
         f'    <span class="filter-chip">Peak Viewers</span>\n'
         f'  </div>\n'
         f'  <div class="orgs-grid">{org_cards}\n  </div>\n'
     )
 
-    html = _html_head("Stream Analytics", 0) + body + _html_foot(0, 'index')
+    html = _html_head("Stream Analytics", 0, live_count=sitewide_live) + body + _html_foot(0, 'index')
     (OUTPUT_DIR / "index.html").write_text(html, encoding="utf-8")
     log.info("Written: index.html")
+
+
+def write_search_index(resolved_channels: dict,
+                        all_streams_by_channel: dict) -> None:
+    """
+    Writes a flat search-index.json at the site root: one entry per org,
+    channel, and stream. Backs the global search overlay (_SEARCH_JS).
+
+    Paths are stored root-relative (e.g. "eon-of-stars/harris-caine/index.html")
+    rather than depth-relative — a single index file is shared by every page
+    regardless of how deep it lives, so the client prefixes the correct
+    number of "../" segments at click time (see window.SITE_DEPTH in
+    _html_head) instead of this function needing to know who's asking.
+
+    Cheap to regenerate every run — pure serialization of data already in
+    memory (ORG_MAP + all_streams_by_channel), no extra DB/API calls.
+    """
+    entries: list[dict] = []
+
+    for org_slug, org in ORG_MAP.items():
+        entries.append({
+            "type": "org",
+            "name": org["label"],
+            "sub":  f'{len(org["channels"])} channels',
+            "path": f"{org_slug}/index.html",
+        })
+        for entry in org["channels"]:
+            ch_name = entry[0]
+            if ch_name not in resolved_channels:
+                continue
+            ch_slug = slugify(ch_name)
+            streams = all_streams_by_channel.get(ch_name, [])
+            entries.append({
+                "type": "channel",
+                "name": ch_name,
+                "sub":  f'{org["label"]} · {len(streams)} streams',
+                "path": f"{org_slug}/{ch_slug}/index.html",
+            })
+            for stream in streams:
+                vid    = stream["video_id"]
+                v_slug = slugify(vid)
+                title  = stream.get("video_title") or vid
+                entries.append({
+                    "type": "stream",
+                    "name": title,
+                    "sub":  f'{ch_name} · {org["label"]}',
+                    "path": f"{org_slug}/{ch_slug}/{v_slug}.html",
+                })
+
+    try:
+        (OUTPUT_DIR / "search-index.json").write_text(
+            json.dumps(entries, ensure_ascii=False), encoding="utf-8"
+        )
+        log.info("Search index written — %d entries.", len(entries))
+    except Exception as e:
+        log.warning("Could not write search-index.json: %s", e)
+
+    # Tiny companion file for the nav's "LIVE n" pill (see _LIVE_PILL_JS).
+    # Deliberately NOT folded into search-index.json — that file is lazy
+    # loaded only when someone opens the search overlay, but the live count
+    # needs to be fetched unconditionally on every page view, so it gets its
+    # own few-bytes file instead of forcing an eager load of the (much
+    # larger) full search index on every single page.
+    live_count = sum(
+        1 for streams in all_streams_by_channel.values()
+        for s in streams if (s.get("stream_status") or "vod") == "live"
+    )
+    try:
+        (OUTPUT_DIR / "live-count.json").write_text(
+            json.dumps({"count": live_count}), encoding="utf-8"
+        )
+    except Exception as e:
+        log.warning("Could not write live-count.json: %s", e)
+
+
+def write_live_page(all_streams_by_channel: dict,
+                     logos: dict | None = None,
+                     channel_ids_map: dict | None = None) -> None:
+    """
+    Writes live.html at the site root — every currently-live stream across
+    every org, in one flat grid. Linked from the nav's "LIVE n" pill.
+
+    Regenerated unconditionally every run, same as write_index() and
+    write_search_index() — there's no dirty-tracking to do here, since
+    "who's live right now" changes on exactly the cadence this already
+    runs on. The whole page IS the dirty set every time.
+
+    Multiple orgs appear on this page at once (same situation as the index
+    grid), so each card gets its own --org-color-dark/--org-color-light
+    pair inline rather than relying on the single :root-level value that
+    single-org pages use — see the .live-card CSS rules in dashboard.css.
+    """
+    logos           = logos or {}
+    channel_ids_map = channel_ids_map or {}
+
+    cards = ""
+    live_count = 0
+    for ch_name, streams in all_streams_by_channel.items():
+        org_result = _CH_TO_ORG.get(ch_name)
+        if not org_result:
+            continue
+        org_slug, org = org_result
+
+        for stream in streams:
+            if (stream.get("stream_status") or "vod") != "live":
+                continue
+            live_count += 1
+
+            vid      = stream["video_id"]
+            ch_slug  = slugify(ch_name)
+            v_slug   = slugify(vid)
+            ch_id    = channel_ids_map.get(ch_name, "")
+            logo_url = logos.get(ch_id, "")
+
+            words    = ch_name.replace("【", " ").replace("〔", " ").replace("Ch.", "").split()
+            initials = "".join(w[0].upper() for w in words if w)[:2] or "?"
+            if logo_url:
+                _oe = f"this.outerHTML='<div class=&quot;live-card-avatar-ph&quot;>{initials}</div>'"
+                avatar_html = (
+                    f'<img class="live-card-avatar" src="{logo_url}" alt="" '
+                    f'loading="lazy" referrerpolicy="no-referrer" onerror="{_oe}">'
+                )
+            else:
+                avatar_html = f'<div class="live-card-avatar-ph">{initials}</div>'
+
+            title   = esc((stream.get("video_title") or vid)[:90])
+            started = fmt_dt(stream.get("first_seen"), time_only=True)
+            peak    = fmt(stream.get("peak_viewers"))
+
+            cards += (
+                f'\n    <a class="live-card" href="{org_slug}/{ch_slug}/{v_slug}.html"'
+                f' style="--org-color-dark:{org["color"]};--org-color-light:{org["color_light"]}">\n'
+                f'      <div class="live-card-top">\n'
+                f'        {avatar_html}\n'
+                f'        <span class="live-card-badge"><span class="dot"></span>LIVE</span>\n'
+                f'      </div>\n'
+                f'      <div class="live-card-title">{title}</div>\n'
+                f'      <div class="live-card-meta">{esc(ch_name)} &#183; {esc(org["label"])}</div>\n'
+                f'      <div class="live-card-stats">\n'
+                f'        <div>Started<span>{started} WIB</span></div>\n'
+                f'        <div>Peak CCV<span>{peak}</span></div>\n'
+                f'      </div>\n'
+                f'    </a>'
+            )
+
+    if cards:
+        grid_html = f'  <div class="live-grid">{cards}\n  </div>\n'
+    else:
+        grid_html = (
+            '  <p class="empty" style="padding:2rem 0;">'
+            'Nothing is live right now — check back later, or browse the archive from the homepage.'
+            '</p>\n'
+        )
+
+    bc = _breadcrumb([("Home", "index.html"), ("Live", "")])
+    plural = "" if live_count == 1 else "s"
+    body = (
+        bc
+        + f'  <header>\n'
+        f'    <p class="eyebrow">IDVTuber Tracker &#8212; Live Now</p>\n'
+        f'    <h1>Live <em>Right Now</em></h1>\n'
+        f'    <p class="page-meta">{live_count} stream{plural} currently live, across every tracked org.</p>\n'
+        f'  </header>\n'
+        + grid_html
+    )
+
+    html = _html_head("Live Now", 0, live_count=live_count) + body + _html_foot(0)
+    (OUTPUT_DIR / "live.html").write_text(html, encoding="utf-8")
+    log.info("Written: live.html (%d live stream(s)).", live_count)
+
 
 def write_org_page(org_slug: str, org: dict, stream_counts: dict,
                    logos: dict[str, str] | None = None,
@@ -1944,14 +2067,11 @@ def write_org_page(org_slug: str, org: dict, stream_counts: dict,
     subscribers            = subscribers or {}
     all_streams_by_channel = all_streams_by_channel or {}
 
-    # ── aggregate org-level stats for hero ────────────────────────────────────
-    total_org_streams = sum(stream_counts.get(e[0], 0) for e in org["channels"])
-    peak_all = 0
+    # ── aggregate org-level windowed stats for hero ───────────────────────────
+    org_streams = []
     for e in org["channels"]:
-        for s in all_streams_by_channel.get(e[0], []):
-            v = s.get("peak_viewers") or 0
-            if v > peak_all:
-                peak_all = v
+        org_streams.extend(all_streams_by_channel.get(e[0], []))
+    org_windows = _window_stats(org_streams)
     total_subs = 0
     for e in org["channels"]:
         ch_id = channel_ids_map.get(e[0], "")
@@ -1963,21 +2083,24 @@ def write_org_page(org_slug: str, org: dict, stream_counts: dict,
         ch_name   = entry[0]
         ch_type   = entry[1]
         ch_slug   = slugify(ch_name)
-        n_str     = stream_counts.get(ch_name, 0)
         ch_id     = channel_ids_map.get(ch_name, "")
         logo_url  = logos.get(ch_id, "")
         sub_count = subscribers.get(ch_id, 0) or 0
 
-        # per-channel peak CCV
-        ch_peak  = 0
-        ch_likes = 0
+        # per-channel windowed peak/streams + all-time likes + live status
         ch_streams = all_streams_by_channel.get(ch_name, [])
-        peaks = [s.get("peak_viewers") or 0 for s in ch_streams if s.get("peak_viewers")]
-        if peaks:
-            ch_peak = max(peaks)
+        ch_windows = _window_stats(ch_streams)
+        ch_likes = 0
         likes = [s.get("peak_likes") or 0 for s in ch_streams if s.get("peak_likes")]
         if likes:
             ch_likes = max(likes)
+        ch_is_live = any((s.get("stream_status") or "vod") == "live" for s in ch_streams)
+        ch_live_badge = (
+            '<span class="live-badge-sm"><span class="live-dot-sm"></span>LIVE</span>'
+            if ch_is_live else ''
+        )
+        n_str  = ch_windows["30d"]["streams"]
+        ch_peak = ch_windows["30d"]["peak"]
 
         # avatar
         words    = ch_name.replace("【", " ").replace("〔", " ").replace("Ch.", "").split()
@@ -1995,25 +2118,28 @@ def write_org_page(org_slug: str, org: dict, stream_counts: dict,
 
         cards += (
             f'\n    <a class="channel-card" href="{ch_slug}/index.html"'
-            f' data-name="{esc(ch_name)}" data-subs="{sub_count}"'
-            f' data-streams="{n_str}" data-peak="{ch_peak}" data-likes="{ch_likes}">\n'
+            f' data-name="{esc(ch_name)}" data-subs="{sub_count}" data-likes="{ch_likes}"'
+            f' data-streams-7d="{ch_windows["7d"]["streams"]}" data-streams-30d="{ch_windows["30d"]["streams"]}" data-streams-all="{ch_windows["all"]["streams"]}"'
+            f' data-peak-7d="{ch_windows["7d"]["peak"]}" data-peak-30d="{ch_windows["30d"]["peak"]}" data-peak-all="{ch_windows["all"]["peak"]}">\n'
             f'      <div class="ch-card-top">\n'
             f'        {avatar_html}\n'
-            f'        <div class="ch-card-name-wrap">\n'
-            f'          <div class="ch-card-name">{esc(ch_name)}</div>\n'
-            f'          <div class="ch-card-role">{role_lbl}</div>\n'
-            f'        </div>\n'
+            f'        {ch_live_badge}\n'
+            f'      </div>\n'
+            f'      <div class="ch-card-name-wrap">\n'
+            f'        <div class="ch-card-name">{esc(ch_name)}</div>\n'
+            f'        <div class="ch-card-role">{role_lbl}</div>\n'
             f'      </div>\n'
             f'      <div class="ch-card-stat-grid">\n'
             f'        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Subscribers</div><div class="ch-stat-cell-val">{fmt_subs(sub_count)}</div></div>\n'
-            f'        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val">{n_str}</div></div>\n'
-            f'        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val">{fmt(ch_peak) if ch_peak else "—"}</div></div>\n'
+            f'        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Streams</div><div class="ch-stat-cell-val js-streams">{n_str}</div></div>\n'
+            f'        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak CCV</div><div class="ch-stat-cell-val js-peak">{fmt_compact(ch_peak) if ch_peak else "—"}</div></div>\n'
             f'        <div class="ch-stat-cell"><div class="ch-stat-cell-lbl">Peak Likes</div><div class="ch-stat-cell-val">{fmt(ch_likes) if ch_likes else "—"}</div></div>\n'
             f'      </div>\n'
             f'    </a>'
         )
 
     bc = _breadcrumb([("Home", "../index.html"), (org["label"], "")])
+    w30 = org_windows["30d"]
     body = (
         bc
         # org hero
@@ -2025,10 +2151,21 @@ def write_org_page(org_slug: str, org: dict, stream_counts: dict,
         f'        <div class="org-hero-desc">{esc(org["desc"])}</div>\n'
         f'        <div class="org-hero-stats">\n'
         f'          <div class="ohs"><div class="ohs-val">{len(org["channels"])}</div><div class="ohs-lbl">Channels</div></div>\n'
-        f'          <div class="ohs"><div class="ohs-val">{total_org_streams}</div><div class="ohs-lbl">Streams</div></div>\n'
-        f'          <div class="ohs"><div class="ohs-val">{fmt(peak_all) if peak_all else "—"}</div><div class="ohs-lbl">Peak CCV</div></div>\n'
+        f'          <div class="ohs"><div class="ohs-val js-streams">{w30["streams"]}</div><div class="ohs-lbl">Streams</div></div>\n'
+        f'          <div class="ohs"><div class="ohs-val js-peak">{fmt_compact(w30["peak"]) if w30["peak"] else "—"}</div><div class="ohs-lbl">Peak CCV</div></div>\n'
         f'          <div class="ohs"><div class="ohs-val">{fmt_subs(total_subs)}</div><div class="ohs-lbl">Combined subs</div></div>\n'
         f'        </div>\n'
+        f'      </div>\n'
+        f'      <div class="range-chips" id="orgRange"'
+        f' data-peak-7d="{org_windows["7d"]["peak"] or 0}"'
+        f' data-peak-30d="{w30["peak"] or 0}"'
+        f' data-peak-all="{org_windows["all"]["peak"] or 0}"'
+        f' data-streams-7d="{org_windows["7d"]["streams"]}"'
+        f' data-streams-30d="{w30["streams"]}"'
+        f' data-streams-all="{org_windows["all"]["streams"]}">\n'
+        f'        <span class="range-chip" data-range="7d">7D</span>\n'
+        f'        <span class="range-chip active" data-range="30d">30D</span>\n'
+        f'        <span class="range-chip" data-range="all">ALL</span>\n'
         f'      </div>\n'
         f'    </div>\n'
         f'  </div>\n'
@@ -2044,7 +2181,7 @@ def write_org_page(org_slug: str, org: dict, stream_counts: dict,
         f'  <div class="channels-grid">{cards}\n  </div>\n'
     )
 
-    html = _html_head(org["label"], 1, org["color"]) + body + _html_foot(1, 'org')
+    html = _html_head(org["label"], 1, org["color"], org["color_light"]) + body + _html_foot(1, 'org')
     (org_dir / "index.html").write_text(html, encoding="utf-8")
     log.info("Written: %s/index.html", org_slug)
 
@@ -2122,11 +2259,13 @@ def write_channel_page(org_slug: str, org: dict, ch_name: str,
         window_str = "—"
 
     # ── aggregate stats (KPI strip) ───────────────────────────────────────────
-    n_streams   = len(streams)
     peak_ccvs   = [s["peak_viewers"] for s in streams if s.get("peak_viewers")]
-    all_time_peak = max(peak_ccvs) if peak_ccvs else 0
     avg_peak    = round(sum(peak_ccvs) / len(peak_ccvs)) if peak_ccvs else 0
     total_views = sum(s.get("view_count") or 0 for s in streams)
+    ch_windows  = _window_stats(streams)  # only Streams/Peak CCV cells are range-aware;
+                                           # Avg peak CCV / Total views stay all-time, same
+                                           # precedent as "Channels"/"Combined subs" at the
+                                           # org level not being windowed either.
 
     # ── records ────────────────────────────────────────────────────────────────
     def _best(key):
@@ -2299,6 +2438,38 @@ def write_channel_page(org_slug: str, org: dict, ch_name: str,
         '</script>\n'
     )
 
+    # Range chips (7D/30D/ALL) swap Streams tracked / Peak CCV between the
+    # three windows baked into #channelRange's data-* attributes at build
+    # time — no re-fetch, no recomputation, just a text swap.
+    range_js = (
+        '<script>\n'
+        '(function(){\n'
+        '  var wrap = document.getElementById("channelRange");\n'
+        '  if (!wrap) return;\n'
+        '  var streamsEl = document.querySelector(".kpi-strip .js-streams");\n'
+        '  var peakEl    = document.querySelector(".kpi-strip .js-peak");\n'
+        '  function fmtNum(n) {\n'
+        '    n = parseInt(n, 10) || 0;\n'
+        '    if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";\n'
+        '    if (n >= 1000) return (n / 1000).toFixed(1) + "K";\n'
+        '    return String(n);\n'
+        '  }\n'
+        '  wrap.querySelectorAll(".range-chip").forEach(function(chip){\n'
+        '    chip.addEventListener("click", function(){\n'
+        '      wrap.querySelectorAll(".range-chip").forEach(function(c){ c.classList.remove("active"); });\n'
+        '      chip.classList.add("active");\n'
+        '      var range = chip.getAttribute("data-range") || "30d";\n'
+        '      if (streamsEl) streamsEl.textContent = wrap.getAttribute("data-streams-" + range) || "0";\n'
+        '      if (peakEl) {\n'
+        '        var p = wrap.getAttribute("data-peak-" + range) || "0";\n'
+        '        peakEl.textContent = p === "0" ? "—" : fmtNum(p);\n'
+        '      }\n'
+        '    });\n'
+        '  });\n'
+        '})();\n'
+        '</script>\n'
+    )
+
     stream_list_html = (
         f'    <div class="stream-list-panel">\n'
         f'      <div class="panel-hdr">All streams — by month</div>\n'
@@ -2339,12 +2510,22 @@ def write_channel_page(org_slug: str, org: dict, ch_name: str,
         f'      </div>\n'
         f'    </div>\n'
         f'  </div>\n'
-        # ── kpi strip ──
-        + f'  <div class="kpi-strip">\n'
-        f'    <div class="kpi-cell"><div class="kpi-label">Streams tracked</div><div class="kpi-value">{n_streams}</div><div class="kpi-sub">{window_str}</div></div>\n'
-        f'    <div class="kpi-cell"><div class="kpi-label">Peak CCV</div><div class="kpi-value">{fmt(all_time_peak)}</div><div class="kpi-sub">All-time record</div></div>\n'
-        f'    <div class="kpi-cell"><div class="kpi-label">Avg peak CCV</div><div class="kpi-value">{fmt(avg_peak)}</div><div class="kpi-sub">Per stream</div></div>\n'
-        f'    <div class="kpi-cell"><div class="kpi-label">Total views</div><div class="kpi-value">{fmt(total_views)}</div><div class="kpi-sub">Tracked streams</div></div>\n'
+        # ── range chips + kpi strip ──
+        + f'  <div class="range-chips" id="channelRange"'
+        f' data-streams-7d="{ch_windows["7d"]["streams"]}" data-streams-30d="{ch_windows["30d"]["streams"]}" data-streams-all="{ch_windows["all"]["streams"]}"'
+        f' data-peak-7d="{ch_windows["7d"]["peak"] or 0}"'
+        f' data-peak-30d="{ch_windows["30d"]["peak"] or 0}"'
+        f' data-peak-all="{ch_windows["all"]["peak"] or 0}"'
+        f' style="margin-bottom:0.75rem;">\n'
+        f'    <span class="range-chip" data-range="7d">7D</span>\n'
+        f'    <span class="range-chip active" data-range="30d">30D</span>\n'
+        f'    <span class="range-chip" data-range="all">ALL</span>\n'
+        f'  </div>\n'
+        f'  <div class="kpi-strip">\n'
+        f'    <div class="kpi-cell"><div class="kpi-label">Streams tracked</div><div class="kpi-value js-streams">{ch_windows["30d"]["streams"]}</div><div class="kpi-sub">{window_str}</div></div>\n'
+        f'    <div class="kpi-cell"><div class="kpi-label">Peak CCV</div><div class="kpi-value js-peak">{fmt_compact(ch_windows["30d"]["peak"]) if ch_windows["30d"]["peak"] else "—"}</div><div class="kpi-sub">Selected range</div></div>\n'
+        f'    <div class="kpi-cell"><div class="kpi-label">Avg peak CCV</div><div class="kpi-value">{fmt(avg_peak)}</div><div class="kpi-sub">Per stream, all-time</div></div>\n'
+        f'    <div class="kpi-cell"><div class="kpi-label">Total views</div><div class="kpi-value">{fmt(total_views)}</div><div class="kpi-sub">All-time</div></div>\n'
         f'  </div>\n'
         # ── recent streams grid (full-width, above main grid) ──
         + recent_section_html
@@ -2378,7 +2559,7 @@ def write_channel_page(org_slug: str, org: dict, ch_name: str,
         + f'      <div class="side-panel">\n'
         f'        <div class="panel-hdr">Channel records</div>\n'
         f'        <div class="rec-row">\n'
-        f'          <div><div class="rec-lbl">Peak CCV</div><div class="rec-val">{fmt(peak_ccv_val)}</div><div class="rec-ctx">{esc(_rec_title(peak_ccv_stream))}</div></div>\n'
+        f'          <div><div class="rec-lbl">Peak CCV</div><div class="rec-val">{fmt_compact(peak_ccv_val)}</div><div class="rec-ctx">{esc(_rec_title(peak_ccv_stream))}</div></div>\n'
         f'          <div class="rec-right"><div class="rec-lbl">Date</div><div class="rec-date">{_rec_date(peak_ccv_stream)}</div></div>\n'
         f'        </div>\n'
         f'        <div class="rec-row">\n'
@@ -2393,9 +2574,10 @@ def write_channel_page(org_slug: str, org: dict, ch_name: str,
         f'    </div>\n'   # close sidebar-col
         f'  </div>\n'     # close ch-main-grid
         + chron_js
+        + range_js
     )
 
-    html = _html_head(ch_name, 2, org["color"]) + body + _html_foot(2)
+    html = _html_head(ch_name, 2, org["color"], org["color_light"]) + body + _html_foot(2)
     (ch_dir / "index.html").write_text(html, encoding="utf-8")
     log.info("  Written: %s/%s/index.html", org_slug, ch_slug)
 
@@ -2423,7 +2605,8 @@ def write_stream_page(org_slug: str, org: dict, ch_name: str,
 
     title_text  = stream["video_title"] or vid
     short_title = (title_text[:40] + "…") if len(title_text) > 40 else title_text
-    org_color   = org["color"]
+    org_color       = org["color"]
+    org_color_light = org["color_light"]
 
     bc = _breadcrumb([
         ("Home",       "../../index.html"),
@@ -2514,18 +2697,25 @@ def write_stream_page(org_slug: str, org: dict, ch_name: str,
         f'const likes = {json.dumps(likes)};\n'
         f'const comms = {json.dumps(comments)};\n'
         f'const VIDEO_ID = {json.dumps(vid)};\n'
-        f"const orgColor = '{org_color}';\n"
         f'\n'
         f'// ── Theme-aware colours (read CSS variables at runtime) ─────────\n'
+        f'// orgColor is intentionally NOT baked in as a fixed Python string —\n'
+        f'// it is read live from --org-color, which _html_head() sets to the\n'
+        f'// dark- or light-mode value depending on the current theme. This is\n'
+        f'// what lets the chart line recolor when the toggle is flipped instead\n'
+        f'// of staying stuck on whichever color happened to be baked in at\n'
+        f'// generation time.\n'
         f'function getCSSVar(name) {{\n'
         f'  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();\n'
         f'}}\n'
         f'function chartColors() {{\n'
         f'  return {{\n'
-        f'    grid: getCSSVar("--border") || "rgba(90,90,122,0.25)",\n'
-        f'    tick: getCSSVar("--muted")  || "#5a5a7a",\n'
+        f'    org:  getCSSVar("--org-color") || "{org_color}",\n'
+        f'    grid: getCSSVar("--border") || "rgba(40,50,74,0.35)",\n'
+        f'    tick: getCSSVar("--muted")  || "#8992A8",\n'
         f'  }};\n'
         f'}}\n'
+        f'let orgColor = chartColors().org;\n'
         f'\n'
         f'// ── Shared dataset defaults ──────────────────────────────────────\n'
         f'const LINE = {{\n'
@@ -2545,7 +2735,7 @@ def write_stream_page(org_slug: str, org: dict, ch_name: str,
         f'    maintainAspectRatio: false,\n'
         f'    interaction: {{ mode: "index", intersect: false }},\n'
         f'    plugins: {{\n'
-        f'      legend: {{ labels: {{ color: c.tick, font: {{ family: "DM Mono", size: 11 }}, boxWidth: 12 }} }},\n'
+        f'      legend: {{ labels: {{ color: c.tick, font: {{ family: "IBM Plex Mono", size: 11 }}, boxWidth: 12 }} }},\n'
         f'      zoom: {{\n'
         f'        pan: {{\n'
         f'          enabled: true,\n'
@@ -2562,11 +2752,11 @@ def write_stream_page(org_slug: str, org: dict, ch_name: str,
         f'    }},\n'
         f'    scales: {{\n'
         f'      x: {{\n'
-        f'        ticks: {{ color: c.tick, font: {{ family: "DM Mono", size: 10 }}, maxTicksLimit: 10, maxRotation: 0 }},\n'
+        f'        ticks: {{ color: c.tick, font: {{ family: "IBM Plex Mono", size: 10 }}, maxTicksLimit: 10, maxRotation: 0 }},\n'
         f'        grid:  {{ color: c.grid }},\n'
         f'      }},\n'
         f'      y: {{\n'
-        f'        ticks: {{ color: c.tick, font: {{ family: "DM Mono", size: 10 }}, beginAtZero: true }},\n'
+        f'        ticks: {{ color: c.tick, font: {{ family: "IBM Plex Mono", size: 10 }}, beginAtZero: true }},\n'
         f'        grid:  {{ color: c.grid }},\n'
         f'      }},\n'
         f'    }},\n'
@@ -2599,7 +2789,7 @@ def write_stream_page(org_slug: str, org: dict, ch_name: str,
         f'    labels: ts,\n'
         f'    datasets: [\n'
         f'      {{ label: "Likes",    data: likes, borderColor: "#ff4f6d", backgroundColor: "rgba(255,79,109,0.06)",  ...LINE }},\n'
-        f'      {{ label: "Comments", data: comms, borderColor: "#4fc3f7", backgroundColor: "rgba(79,195,247,0.06)", ...LINE }},\n'
+        f'      {{ label: "Comments", data: comms, borderColor: "#4F9EFF", backgroundColor: "rgba(79,158,255,0.06)", ...LINE }},\n'
         f'    ],\n'
         f'  }},\n'
         f'  options: makeOpts({{}}),\n'
@@ -2614,6 +2804,18 @@ def write_stream_page(org_slug: str, org: dict, ch_name: str,
         f'// Attach double-click reset to both canvases\n'
         f'document.getElementById("viewerChart").addEventListener("dblclick", function() {{ resetZoom("viewerChart"); }});\n'
         f'document.getElementById("engagementChart").addEventListener("dblclick", function() {{ resetZoom("engagementChart"); }});\n'
+        f'\n'
+        f'// ── Re-tint the viewer chart line on theme toggle ──────────────────\n'
+        f'// _THEME_JS dispatches "idvt-theme-change" right after it flips the\n'
+        f'// data-theme attribute, so --org-color has already resolved to the\n'
+        f'// new dark/light value by the time this fires.\n'
+        f'window.addEventListener("idvt-theme-change", function() {{\n'
+        f'  orgColor = chartColors().org;\n'
+        f'  const vc = CHARTS.viewerChart;\n'
+        f'  vc.data.datasets[0].borderColor = orgColor;\n'
+        f'  vc.data.datasets[0].backgroundColor = orgColor + "18";\n'
+        f'  vc.update();\n'
+        f'}});\n'
         f'\n'
         f'// ── CSV download ─────────────────────────────────────────────────\n'
         f'function downloadCSV(id) {{\n'
@@ -2643,7 +2845,7 @@ def write_stream_page(org_slug: str, org: dict, ch_name: str,
         f'</script>\n'
     )
 
-    html = _html_head(title_text, 2, org_color, chart_script) + body + _html_foot(2)
+    html = _html_head(title_text, 2, org_color, org_color_light, chart_script) + body + _html_foot(2)
     (ch_dir / f"{v_slug}.html").write_text(html, encoding="utf-8")
     log.info("    Written: %s/%s/%s.html", org_slug, ch_slug, v_slug)
 
@@ -2680,14 +2882,14 @@ def _enrich_stream(stream: dict, conn, table: str, hist) -> tuple[dict, list, li
 # ══════════════════════════════════════════════════════════════════════════════
 
 def setup_output_dirs() -> None:
-    """Create OUTPUT_DIR and copy static legal pages. Cheap, run by both entry points."""
+    """Create OUTPUT_DIR and copy static legal pages + favicon. Cheap, run by both entry points."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    for legal_file in ["privacy.html", "terms.html"]:
-        src = Path(legal_file)
-        dst = OUTPUT_DIR / legal_file
+    for static_file in ["privacy.html", "terms.html", "favicon.ico","theme.css", "theme-toggle.js", "dashboard.css"]:
+        src = Path(static_file)
+        dst = OUTPUT_DIR / static_file
         if src.exists():
             shutil.copy2(src, dst)
-            log.info("Copied %s to %s/", legal_file, OUTPUT_DIR)
+            log.info("Copied %s to %s/", static_file, OUTPUT_DIR)
 
 
 def load_channel_maps(conn) -> tuple[dict, dict, dict]:
@@ -2837,6 +3039,7 @@ def compute_dirty_set(all_streams_by_channel: dict, manifest: dict,
 
     Once a stream is recorded in the manifest with status "vod" AND its
     .html file exists on disk, it is permanently clean.
+
     """
     dirty_video_ids: set[str] = set()
     dirty_channels:  set[str] = set()
