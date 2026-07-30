@@ -20,7 +20,10 @@ here.
 Stream pages are the only per-stream artifact regenerated. Channel and org
 pages are regenerated for any channel/org that had a dirty stream, so the
 "LIVE" badge and updated stream cards show up promptly. The index page is
-always regenerated (cheap — no DB I/O).
+always regenerated (cheap — no DB I/O). search-index.json is also always
+regenerated here — it's just a serialization of data already fetched for
+the index page, no extra cost, and it keeps the global search overlay from
+drifting stale between backfill runs.
 """
 
 from dashboard_core import (
@@ -30,7 +33,7 @@ from dashboard_core import (
     setup_output_dirs, load_channel_maps, resolve_channels,
     fetch_all_streams, compute_dirty_set, build_dirty_work_list,
     generate_stream_pages, regenerate_channel_pages, regenerate_org_pages,
-    write_index,
+    write_index, write_search_index, write_live_page,
 )
 
 
@@ -87,6 +90,8 @@ def generate_live() -> None:
     generated_at = _now_local().strftime("%Y-%m-%d %H:%M WIB")
     write_index(total_streams, total_channels, generated_at,
                 stream_counts, all_streams_by_channel)
+    write_search_index(resolved_channels, all_streams_by_channel)
+    write_live_page(all_streams_by_channel, logos, channel_ids_map)
 
     save_manifest(manifest)
     conn.close()
@@ -95,7 +100,7 @@ def generate_live() -> None:
 
     log.info(
         "Live loop complete — %d stream page(s), %d channel page(s), "
-        "%d org page(s), 1 index. (%d total streams known, most untouched.)",
+        "%d org page(s), 1 index, 1 search index, 1 live page. (%d total streams known, most untouched.)",
         len(new_entries), channels_written, orgs_written, total_streams
     )
 
