@@ -1221,6 +1221,22 @@ _FONTS = (
     '@400;500;600&display=swap" rel="stylesheet">'
 )
 
+# Google Analytics 4. Loaded on every generated page via _html_head() below,
+# and separately pasted into privacy.html/terms.html since those are static
+# files copied verbatim by setup_output_dirs() rather than passed through
+# _html_head(). Keep the measurement ID in sync across all three call sites
+# if it ever changes.
+_GA_MEASUREMENT_ID = "G-29RTBLR6HQ"
+_GA_SNIPPET = (
+    f'<script async src="https://www.googletagmanager.com/gtag/js?id={_GA_MEASUREMENT_ID}"></script>\n'
+    f'<script>\n'
+    f'  window.dataLayer = window.dataLayer || [];\n'
+    f'  function gtag(){{dataLayer.push(arguments);}}\n'
+    f"  gtag('js', new Date());\n"
+    f"  gtag('config', '{_GA_MEASUREMENT_ID}');\n"
+    f'</script>\n'
+)
+
 # _BASE_CSS used to live here as one large inlined stylesheet string.
 # It has been split into two static files, both linked in via
 # _html_head(): theme.css (tokens/reset/nav shared with the standalone
