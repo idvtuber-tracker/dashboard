@@ -1527,6 +1527,7 @@ def _html_head(title: str, depth: int, org_color: str = "#e8ff47",
         f'<link rel="icon" href="{"../" * depth}favicon.ico">\n'
         f'<script>window.SITE_DEPTH = {depth};</script>\n'
         f'{_FONTS}\n'
+        f'{_GA_SNIPPET}'
         f'{extra_scripts}\n'
         # Shared chrome that's identical to privacy.html/terms.html (color
         # tokens, reset, .site-nav skeleton) lives in theme.css. Everything
