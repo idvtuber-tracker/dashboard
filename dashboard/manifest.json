@@ -35696,7 +35696,14 @@
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
+    "status": "vod",
+    "generated_at": "2026-08-01 04:15 WIB"
+  },
+  "rtvniYJutt4": {
+    "org_slug": "crims-on",
+    "ch_slug": "iana-crims-on",
+    "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-08-01 04:00 WIB"
+    "generated_at": "2026-08-01 04:15 WIB"
   }
 }
