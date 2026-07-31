@@ -35403,14 +35403,14 @@
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "GhUSkba_hDE": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "zMbqETNyrp4": {
     "org_slug": "asobu-production",
@@ -35431,14 +35431,14 @@
     "ch_slug": "eray-ryuki-versa",
     "ch_name": "Eray Ryuki【VERSA】",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "XGM_bMaVzqQ": {
     "org_slug": "pandavva",
     "ch_slug": "pandavva-official",
     "ch_name": "PANDAVVA Official",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "HFtW0g1r9LU": {
     "org_slug": "cozycazt",
@@ -35459,7 +35459,7 @@
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "NIxflrOm0Fk": {
     "org_slug": "gravt",
@@ -35480,49 +35480,49 @@
     "ch_slug": "serika-cosmica-prism-nova",
     "ch_name": "Serika Cosmica 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "2LRLHME0kBg": {
     "org_slug": "whicker-butler",
     "ch_slug": "oriana-solstair-whicker-butler",
     "ch_name": "Oriana Solstair【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "g8Hel9qQGCg": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "flMPgGomi2A": {
     "org_slug": "uver-id",
     "ch_slug": "zelinus-vihnlock",
     "ch_name": "Zelinus Vihnlock",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "-QvkcSBjeXQ": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "xjqdE40TFjU": {
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "RKTUkDP6dpw": {
     "org_slug": "laeta",
     "ch_slug": "sevina-reina-laeta",
     "ch_name": "Sevina Reina【LAETA】",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "bgoS952lk2k": {
     "org_slug": "uver-id",
@@ -35536,34 +35536,48 @@
     "ch_slug": "norn-haira-uver-id",
     "ch_name": "Norn Haira〔UVER ID〕",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "FgCG-fnsGnE": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "WKyjsr096p4": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "xyren-renora-mejikuhibiniu",
     "ch_name": "Xyren Renora『Mejikuhibiniu』",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "J4o0_mtah7M": {
     "org_slug": "whicker-butler",
     "ch_slug": "ignis-grimoire-whicker-butler",
     "ch_name": "Ignis Grimoire【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
   },
   "sRC_Beej4as": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-07-31 20:31 WIB"
+    "generated_at": "2026-07-31 20:49 WIB"
+  },
+  "2W34iZGkR4c": {
+    "org_slug": "afterain",
+    "ch_slug": "flein-ryst-afterain",
+    "ch_name": "Flein Ryst【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-07-31 20:49 WIB"
+  },
+  "MsXl_JXedFY": {
+    "org_slug": "crims-on",
+    "ch_slug": "iana-crims-on",
+    "ch_name": "Iana【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-07-31 20:49 WIB"
   }
 }
