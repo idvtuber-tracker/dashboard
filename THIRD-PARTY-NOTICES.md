@@ -111,6 +111,13 @@ Data retrieved via the YouTube Data API v3 is used under the
 This project is non-commercial and uses the data solely as an analytics
 reference.
 
+### Google Analytics
+
+This site uses Google Analytics (GA4) to collect aggregate, non-identifying
+traffic statistics. Google Analytics sets first-party cookies. See Google's
+Privacy Policy for details on how Google processes this data:
+<https://policies.google.com/privacy>
+
 ### Channel avatars and stream thumbnails
 
 Channel avatar images and stream thumbnails are served directly from
