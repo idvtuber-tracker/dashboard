@@ -35375,7 +35375,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-07-31 17:52 WIB"
+    "generated_at": "2026-07-31 18:09 WIB"
   },
   "1I7W5Mo3eCI": {
     "org_slug": "hrcome",
@@ -35388,8 +35388,8 @@
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
-    "status": "live",
-    "generated_at": "2026-07-31 17:52 WIB"
+    "status": "vod",
+    "generated_at": "2026-07-31 18:09 WIB"
   },
   "-iHSxWKb7Ms": {
     "org_slug": "dasoriyal",
@@ -35403,6 +35403,13 @@
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-31 17:52 WIB"
+    "generated_at": "2026-07-31 18:09 WIB"
+  },
+  "GhUSkba_hDE": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-07-31 18:09 WIB"
   }
 }
