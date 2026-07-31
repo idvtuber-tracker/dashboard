@@ -35375,7 +35375,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-07-31 18:55 WIB"
+    "generated_at": "2026-07-31 19:02 WIB"
   },
   "1I7W5Mo3eCI": {
     "org_slug": "hrcome",
@@ -35403,20 +35403,62 @@
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-07-31 18:55 WIB"
+    "generated_at": "2026-07-31 19:02 WIB"
   },
   "GhUSkba_hDE": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-31 18:55 WIB"
+    "generated_at": "2026-07-31 19:02 WIB"
   },
   "zMbqETNyrp4": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-07-31 18:55 WIB"
+    "generated_at": "2026-07-31 19:02 WIB"
+  },
+  "A9xhEOMKRCg": {
+    "org_slug": "prism-nova",
+    "ch_slug": "serika-cosmica-prism-nova",
+    "ch_name": "Serika Cosmica 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-07-31 19:02 WIB"
+  },
+  "vdYlvzVVKRc": {
+    "org_slug": "versa",
+    "ch_slug": "eray-ryuki-versa",
+    "ch_name": "Eray Ryuki【VERSA】",
+    "status": "live",
+    "generated_at": "2026-07-31 19:02 WIB"
+  },
+  "XGM_bMaVzqQ": {
+    "org_slug": "pandavva",
+    "ch_slug": "pandavva-official",
+    "ch_name": "PANDAVVA Official",
+    "status": "live",
+    "generated_at": "2026-07-31 19:02 WIB"
+  },
+  "HFtW0g1r9LU": {
+    "org_slug": "cozycazt",
+    "ch_slug": "cozy-cazt",
+    "ch_name": "Cozy Cazt",
+    "status": "live",
+    "generated_at": "2026-07-31 19:02 WIB"
+  },
+  "eEyincKHSfo": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "naona-neon-ch-snowvalley",
+    "ch_name": "Naona Neon Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-07-31 19:02 WIB"
+  },
+  "twFBiim4_ZM": {
+    "org_slug": "aurora-project",
+    "ch_slug": "eizie-aletha-ch",
+    "ch_name": "Eizie Aletha Ch.",
+    "status": "live",
+    "generated_at": "2026-07-31 19:02 WIB"
   }
 }
