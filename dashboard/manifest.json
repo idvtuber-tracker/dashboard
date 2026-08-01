@@ -35705,5 +35705,12 @@
     "ch_name": "Iana【CRIMS:on】",
     "status": "vod",
     "generated_at": "2026-08-01 05:01 WIB"
+  },
+  "OigORZc9Obc": {
+    "org_slug": "evren-community",
+    "ch_slug": "amami-yoruna",
+    "ch_name": "Amami Yoruna",
+    "status": "live",
+    "generated_at": "2026-08-01 07:13 WIB"
   }
 }
