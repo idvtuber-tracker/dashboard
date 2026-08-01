@@ -35711,7 +35711,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
   },
   "9rPB2YKauMY": {
     "org_slug": "yorukaze",
@@ -35746,62 +35746,69 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
   },
   "KTbctEniqWI": {
     "org_slug": "lav-idn",
     "ch_slug": "akane-nanase-ch-lav",
     "ch_name": "Akane Nanase Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
   },
   "Vay9H9IYSM4": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
   },
   "cWNbil2ly4s": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
   },
   "etTTvcKYEOA": {
     "org_slug": "maha5",
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
   },
   "X8H7buSG4jY": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
   },
   "P65NeQan4MU": {
     "org_slug": "vilitera",
     "ch_slug": "letto-allenka-ch-vilitera-id",
     "ch_name": "Letto Allenka Ch. VILITERA-ID",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
   },
   "Otq9yGULBFo": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "xyren-renora-mejikuhibiniu",
     "ch_name": "Xyren Renora『Mejikuhibiniu』",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
   },
   "vwRRNP-1Sro": {
     "org_slug": "snowdrop-live",
     "ch_slug": "bouya-kyuuroku-snowdrop",
     "ch_name": "Bouya Kyuuroku | SNOWDROP",
     "status": "live",
-    "generated_at": "2026-08-01 16:18 WIB"
+    "generated_at": "2026-08-01 16:33 WIB"
+  },
+  "Mk5f_XdPSQE": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "han-sorawr",
+    "ch_name": "Han Sorawr",
+    "status": "live",
+    "generated_at": "2026-08-01 16:33 WIB"
   }
 }
