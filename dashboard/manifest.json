@@ -35984,7 +35984,7 @@
     "ch_slug": "bouya-kyuuroku-snowdrop",
     "ch_name": "Bouya Kyuuroku | SNOWDROP",
     "status": "live",
-    "generated_at": "2026-08-02 13:32 WIB"
+    "generated_at": "2026-08-02 13:49 WIB"
   },
   "iKlHKwQhN3k": {
     "org_slug": "whicker-butler",
@@ -36054,7 +36054,7 @@
     "ch_slug": "allyra-violette",
     "ch_name": "Allyra Violette 🪨",
     "status": "live",
-    "generated_at": "2026-08-02 13:32 WIB"
+    "generated_at": "2026-08-02 13:49 WIB"
   },
   "vfrap17FXTQ": {
     "org_slug": "yorukaze",
@@ -36075,34 +36075,48 @@
     "ch_slug": "kalani-rainash-asobu",
     "ch_name": "Kalani Rainash 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-02 13:32 WIB"
+    "generated_at": "2026-08-02 13:49 WIB"
   },
   "yFnm0UUhvr0": {
     "org_slug": "afterain",
     "ch_slug": "kana-chizu-afterain",
     "ch_name": "Kana Chizu 【AFTERAIN】",
-    "status": "live",
-    "generated_at": "2026-08-02 13:32 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-02 13:49 WIB"
   },
   "fhJPkYGz2CU": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
-    "status": "live",
-    "generated_at": "2026-08-02 13:32 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-02 13:49 WIB"
   },
   "UVXOJ4ChhNs": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-02 13:32 WIB"
+    "generated_at": "2026-08-02 13:49 WIB"
   },
   "fiHtCwj3kvo": {
     "org_slug": "asobu-production",
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-02 13:32 WIB"
+    "generated_at": "2026-08-02 13:49 WIB"
+  },
+  "j-NOEPdHCks": {
+    "org_slug": "project-livium",
+    "ch_slug": "lillis-infernallies-ch-livipro",
+    "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-02 13:49 WIB"
+  },
+  "1q1Pq3fhJ0Q": {
+    "org_slug": "afterain",
+    "ch_slug": "kana-chizu-afterain",
+    "ch_name": "Kana Chizu 【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-08-02 13:49 WIB"
   }
 }
