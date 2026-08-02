@@ -35984,7 +35984,7 @@
     "ch_slug": "bouya-kyuuroku-snowdrop",
     "ch_name": "Bouya Kyuuroku | SNOWDROP",
     "status": "live",
-    "generated_at": "2026-08-02 11:09 WIB"
+    "generated_at": "2026-08-02 11:25 WIB"
   },
   "iKlHKwQhN3k": {
     "org_slug": "whicker-butler",
@@ -36054,13 +36054,20 @@
     "ch_slug": "allyra-violette",
     "ch_name": "Allyra Violette 🪨",
     "status": "live",
-    "generated_at": "2026-08-02 11:09 WIB"
+    "generated_at": "2026-08-02 11:25 WIB"
   },
   "vfrap17FXTQ": {
     "org_slug": "yorukaze",
     "ch_slug": "tanyata-tiada-yorukaze",
     "ch_name": "Tanyata Tiada タニャ 【Yorukaze】",
+    "status": "vod",
+    "generated_at": "2026-08-02 11:25 WIB"
+  },
+  "Clr9aVa8u5Q": {
+    "org_slug": "asobu-production",
+    "ch_slug": "lyra-monphelia-asobu",
+    "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-02 11:09 WIB"
+    "generated_at": "2026-08-02 11:25 WIB"
   }
 }
