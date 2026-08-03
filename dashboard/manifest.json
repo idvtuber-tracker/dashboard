@@ -36424,8 +36424,8 @@
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-08-03 16:21 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-03 16:39 WIB"
   },
   "7qR26JdPZYM": {
     "org_slug": "afterain",
@@ -36446,7 +36446,7 @@
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-08-03 16:21 WIB"
+    "generated_at": "2026-08-03 16:39 WIB"
   },
   "59UdtrCcLYE": {
     "org_slug": "asobu-production",
@@ -36474,20 +36474,27 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-03 16:21 WIB"
+    "generated_at": "2026-08-03 16:39 WIB"
   },
   "qvCcEu4dZcs": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-08-03 16:21 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-03 16:39 WIB"
   },
   "UI6jCJcrgP8": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-03 16:21 WIB"
+    "generated_at": "2026-08-03 16:39 WIB"
+  },
+  "rCBM49MR34I": {
+    "org_slug": "yorukaze",
+    "ch_slug": "crystallyn-caparina",
+    "ch_name": "Crystallyn Caparina",
+    "status": "live",
+    "generated_at": "2026-08-03 16:39 WIB"
   }
 }
