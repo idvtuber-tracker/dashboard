@@ -36425,20 +36425,34 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-03 10:49 WIB"
+    "generated_at": "2026-08-03 11:06 WIB"
   },
   "7qR26JdPZYM": {
     "org_slug": "afterain",
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-03 10:49 WIB"
+    "generated_at": "2026-08-03 11:06 WIB"
   },
   "kOhG0nlrHmI": {
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-08-03 10:49 WIB"
+    "generated_at": "2026-08-03 11:06 WIB"
+  },
+  "tuO-Rmo43Wg": {
+    "org_slug": "cozycazt",
+    "ch_slug": "vianna-risendria-cozycazt",
+    "ch_name": "Vianna Risendria 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-08-03 11:06 WIB"
+  },
+  "59UdtrCcLYE": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-08-03 11:06 WIB"
   }
 }
