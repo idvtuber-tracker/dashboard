@@ -36445,8 +36445,8 @@
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
-    "status": "live",
-    "generated_at": "2026-08-03 17:49 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-03 18:08 WIB"
   },
   "59UdtrCcLYE": {
     "org_slug": "asobu-production",
@@ -36474,7 +36474,7 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-03 17:49 WIB"
+    "generated_at": "2026-08-03 18:08 WIB"
   },
   "qvCcEu4dZcs": {
     "org_slug": "snowvalley-agency",
@@ -36488,20 +36488,34 @@
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-03 17:49 WIB"
+    "generated_at": "2026-08-03 18:08 WIB"
   },
   "rCBM49MR34I": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-03 17:49 WIB"
+    "generated_at": "2026-08-03 18:08 WIB"
   },
   "9oMseSer9wU": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-03 17:49 WIB"
+    "generated_at": "2026-08-03 18:08 WIB"
+  },
+  "kFv6Dq0PLGQ": {
+    "org_slug": "lav-idn",
+    "ch_slug": "kanata-reina-ch-lav",
+    "ch_name": "Kanata Reina Ch.【LAV】",
+    "status": "live",
+    "generated_at": "2026-08-03 18:08 WIB"
+  },
+  "J8mED1aTY7U": {
+    "org_slug": "pandavva",
+    "ch_slug": "yudistira-yogendra-pandavva",
+    "ch_name": "Yudistira Yogendra 【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-08-03 18:08 WIB"
   }
 }
