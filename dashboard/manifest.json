@@ -36494,43 +36494,43 @@
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
-    "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-03 19:37 WIB"
   },
   "9oMseSer9wU": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "generated_at": "2026-08-03 19:37 WIB"
   },
   "kFv6Dq0PLGQ": {
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "generated_at": "2026-08-03 19:37 WIB"
   },
   "J8mED1aTY7U": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "generated_at": "2026-08-03 19:37 WIB"
   },
   "XMlEjFB8SV0": {
     "org_slug": "asobu-production",
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "generated_at": "2026-08-03 19:37 WIB"
   },
   "LsLfgxYuqVw": {
     "org_slug": "afterain",
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "generated_at": "2026-08-03 19:37 WIB"
   },
   "nXAAiVBeZ_U": {
     "org_slug": "jkt48v",
@@ -36544,27 +36544,48 @@
     "ch_slug": "funin-mamori-magniv",
     "ch_name": "Funin Mamori【MagniV】",
     "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "generated_at": "2026-08-03 19:37 WIB"
   },
   "pvYIq88LgF0": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "generated_at": "2026-08-03 19:37 WIB"
   },
   "XMbvSPlN0bk": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "generated_at": "2026-08-03 19:37 WIB"
   },
   "h0HFOOJfrWo": {
     "org_slug": "dasoriyal",
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-03 19:19 WIB"
+    "generated_at": "2026-08-03 19:37 WIB"
+  },
+  "SDUNjwhvXT8": {
+    "org_slug": "jkt48v",
+    "ch_slug": "isha-kirana-jkt48v",
+    "ch_name": "Isha Kirana - JKT48V",
+    "status": "live",
+    "generated_at": "2026-08-03 19:37 WIB"
+  },
+  "W6-ucZgzi9w": {
+    "org_slug": "prism-nova",
+    "ch_slug": "thalia-symphonia-prism-nova",
+    "ch_name": "Thalia Symphonia 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-08-03 19:37 WIB"
+  },
+  "zbV30vf6v8U": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-08-03 19:37 WIB"
   }
 }
