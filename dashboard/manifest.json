@@ -36704,42 +36704,49 @@
     "org_slug": "magisona",
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
-    "status": "live",
-    "generated_at": "2026-08-04 15:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-04 15:18 WIB"
   },
   "gQwN4ZnRGog": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-08-04 15:03 WIB"
+    "generated_at": "2026-08-04 15:18 WIB"
   },
   "-NJGssnm48U": {
     "org_slug": "prism-nova",
     "ch_slug": "serika-cosmica-prism-nova",
     "ch_name": "Serika Cosmica 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-08-04 15:03 WIB"
+    "generated_at": "2026-08-04 15:18 WIB"
   },
   "ky-qtdyX6Yo": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-04 15:03 WIB"
+    "generated_at": "2026-08-04 15:18 WIB"
   },
   "-ZO4yyRtjcE": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-08-04 15:03 WIB"
+    "generated_at": "2026-08-04 15:18 WIB"
   },
   "EFCEvtIX8dw": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-04 15:03 WIB"
+    "generated_at": "2026-08-04 15:18 WIB"
+  },
+  "pYHrrIQ3Y10": {
+    "org_slug": "uver-id",
+    "ch_slug": "nephthya-anya-ch-uver-id",
+    "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-08-04 15:18 WIB"
   }
 }
