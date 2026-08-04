@@ -36705,20 +36705,27 @@
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-08-04 14:10 WIB"
+    "generated_at": "2026-08-04 14:27 WIB"
   },
   "gQwN4ZnRGog": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-08-04 14:10 WIB"
+    "generated_at": "2026-08-04 14:27 WIB"
   },
   "-NJGssnm48U": {
     "org_slug": "prism-nova",
     "ch_slug": "serika-cosmica-prism-nova",
     "ch_name": "Serika Cosmica 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-08-04 14:10 WIB"
+    "generated_at": "2026-08-04 14:27 WIB"
+  },
+  "ky-qtdyX6Yo": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuela-guigui-ch-livipro",
+    "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-04 14:27 WIB"
   }
 }
