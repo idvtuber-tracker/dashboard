@@ -36669,8 +36669,8 @@
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
-    "status": "live",
-    "generated_at": "2026-08-04 12:27 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-04 12:44 WIB"
   },
   "8opVH82jmXM": {
     "org_slug": "afterain",
@@ -36683,14 +36683,21 @@
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-08-04 12:27 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-04 12:44 WIB"
   },
   "GCe4czXGL8w": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-04 12:27 WIB"
+    "generated_at": "2026-08-04 12:44 WIB"
+  },
+  "X4p9Oz009fE": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuura-yozakura-ch-livipro",
+    "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-04 12:44 WIB"
   }
 }
