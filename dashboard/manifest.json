@@ -36663,13 +36663,20 @@
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-04 09:49 WIB"
+    "generated_at": "2026-08-04 10:05 WIB"
   },
   "xLZj1c4ev88": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-08-04 09:49 WIB"
+    "generated_at": "2026-08-04 10:05 WIB"
+  },
+  "8opVH82jmXM": {
+    "org_slug": "afterain",
+    "ch_slug": "ririna-ruu-afterain",
+    "ch_name": "Ririna Ruu【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-08-04 10:05 WIB"
   }
 }
