@@ -36760,8 +36760,8 @@
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-08-04 18:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-04 19:08 WIB"
   },
   "z6iZWRgfgkA": {
     "org_slug": "snowvalley-agency",
@@ -36775,7 +36775,7 @@
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-04 18:51 WIB"
+    "generated_at": "2026-08-04 19:08 WIB"
   },
   "lbEkjc4BVvg": {
     "org_slug": "magisona",
@@ -36789,13 +36789,34 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-04 18:51 WIB"
+    "generated_at": "2026-08-04 19:08 WIB"
   },
   "N5j2LlPXQZg": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-04 18:51 WIB"
+    "generated_at": "2026-08-04 19:08 WIB"
+  },
+  "QKjzAw6jgFs": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "celina-olystia-ch-snowvalley",
+    "ch_name": "Celina Olystia Ch •SnowValley",
+    "status": "live",
+    "generated_at": "2026-08-04 19:08 WIB"
+  },
+  "-XcwK-up09I": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "airia-eroselle-mejikuhibiniu",
+    "ch_name": "Airia Eroselle【Mejikuhibiniu】",
+    "status": "live",
+    "generated_at": "2026-08-04 19:08 WIB"
+  },
+  "lKM2759w9f0": {
+    "org_slug": "vcosmix",
+    "ch_slug": "lea-lestari-ch",
+    "ch_name": "Lea Lestari Ch.",
+    "status": "live",
+    "generated_at": "2026-08-04 19:08 WIB"
   }
 }
