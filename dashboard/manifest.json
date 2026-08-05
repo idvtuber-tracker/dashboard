@@ -36985,7 +36985,7 @@
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-05 11:09 WIB"
+    "generated_at": "2026-08-05 11:24 WIB"
   },
   "g8GVJGp4t8g": {
     "org_slug": "yorukaze",
@@ -37084,5 +37084,12 @@
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "vod",
     "generated_at": "2026-08-05 10:53 WIB"
+  },
+  "SXPbaLdpuaI": {
+    "org_slug": "cozycazt",
+    "ch_slug": "rannia-taiga-cozycazt",
+    "ch_name": "Rannia Taiga 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-08-05 11:24 WIB"
   }
 }
