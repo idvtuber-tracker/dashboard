@@ -36985,7 +36985,7 @@
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-05 14:46 WIB"
+    "generated_at": "2026-08-05 15:04 WIB"
   },
   "g8GVJGp4t8g": {
     "org_slug": "yorukaze",
@@ -37118,7 +37118,7 @@
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-08-05 14:46 WIB"
+    "generated_at": "2026-08-05 15:04 WIB"
   },
   "wd4PMvDM5ts": {
     "org_slug": "yorukaze",
@@ -37132,20 +37132,41 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-08-05 14:46 WIB"
+    "generated_at": "2026-08-05 15:04 WIB"
   },
   "pa9eoqV-BPw": {
     "org_slug": "jkt48v",
     "ch_slug": "maura-nilambari-jkt48v",
     "ch_name": "Maura Nilambari - JKT48V",
-    "status": "live",
-    "generated_at": "2026-08-05 14:46 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-05 15:04 WIB"
   },
   "2pOpSxPXWz4": {
     "org_slug": "magisona",
     "ch_slug": "iofiel-feliz-ch-magisona",
     "ch_name": "ioFiel Feliz Ch.【MagiSona】",
     "status": "live",
-    "generated_at": "2026-08-05 14:46 WIB"
+    "generated_at": "2026-08-05 15:04 WIB"
+  },
+  "vLOOqC3dyeE": {
+    "org_slug": "jkt48v",
+    "ch_slug": "maura-nilambari-jkt48v",
+    "ch_name": "Maura Nilambari - JKT48V",
+    "status": "live",
+    "generated_at": "2026-08-05 15:04 WIB"
+  },
+  "Ylm8GiHvUb4": {
+    "org_slug": "arvi-media",
+    "ch_slug": "makotoshi-ch",
+    "ch_name": "Makotoshi Ch.",
+    "status": "live",
+    "generated_at": "2026-08-05 15:04 WIB"
+  },
+  "ZZOAt11Bp_E": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-08-05 15:04 WIB"
   }
 }
