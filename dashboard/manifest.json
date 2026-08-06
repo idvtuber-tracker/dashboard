@@ -37496,6 +37496,13 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-08-06 08:51 WIB"
+    "generated_at": "2026-08-06 09:22 WIB"
+  },
+  "U58hEU2JOIA": {
+    "org_slug": "jkt48v",
+    "ch_slug": "pia-meraleo-jkt48v",
+    "ch_name": "Pia Meraleo - JKT48V",
+    "status": "live",
+    "generated_at": "2026-08-06 09:22 WIB"
   }
 }
