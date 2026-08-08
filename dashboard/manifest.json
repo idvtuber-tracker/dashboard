@@ -38426,8 +38426,8 @@
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-08-09 00:17 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-09 00:25 WIB"
   },
   "bukfjCQy_SM": {
     "org_slug": "magisona",
@@ -38602,7 +38602,7 @@
     "ch_slug": "magniv",
     "ch_name": "MagniV",
     "status": "live",
-    "generated_at": "2026-08-09 00:17 WIB"
+    "generated_at": "2026-08-09 00:25 WIB"
   },
   "fvkS47Qx23A": {
     "org_slug": "arvi-media",
@@ -38623,14 +38623,14 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-09 00:17 WIB"
+    "generated_at": "2026-08-09 00:25 WIB"
   },
   "hTFPaq46A4s": {
     "org_slug": "maha5",
     "ch_slug": "daisy-ignacia-y-maha5",
     "ch_name": "Daisy Ignacia Y【MAHA5】",
     "status": "live",
-    "generated_at": "2026-08-09 00:17 WIB"
+    "generated_at": "2026-08-09 00:25 WIB"
   },
   "j7VFyKl7zfo": {
     "org_slug": "hibikasekai",
@@ -38650,15 +38650,15 @@
     "org_slug": "whicker-butler",
     "ch_slug": "oriana-solstair-whicker-butler",
     "ch_name": "Oriana Solstair【Whicker Butler】",
-    "status": "live",
-    "generated_at": "2026-08-09 00:17 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-09 00:25 WIB"
   },
   "bihgd8FNnNo": {
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-08-09 00:17 WIB"
+    "generated_at": "2026-08-09 00:25 WIB"
   },
   "lDBgApJadeo": {
     "org_slug": "pandavva",
@@ -38672,7 +38672,7 @@
     "ch_slug": "han-sorawr",
     "ch_name": "Han Sorawr",
     "status": "live",
-    "generated_at": "2026-08-09 00:17 WIB"
+    "generated_at": "2026-08-09 00:25 WIB"
   },
   "ctoVGIy4mao": {
     "org_slug": "project-livium",
@@ -38693,13 +38693,13 @@
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-09 00:17 WIB"
+    "generated_at": "2026-08-09 00:25 WIB"
   },
   "3MDoNTDchIk": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-09 00:17 WIB"
+    "generated_at": "2026-08-09 00:25 WIB"
   }
 }
