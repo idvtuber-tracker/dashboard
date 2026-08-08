@@ -38321,84 +38321,98 @@
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
-    "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "UGSmHnhFHHo": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "kF2-8xzftns": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "1w32hXjT3Yc": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "v9dCRrigt-4": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "0OhblNu0KjE": {
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "QhH4xkKyIIc": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "La8dcZRjo2k": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "2wXXFguhGaI": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "yaDTCarzhKw": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "Qk9P_mf4CkI": {
     "org_slug": "uver-id",
     "ch_slug": "norn-haira-uver-id",
     "ch_name": "Norn Haira〔UVER ID〕",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
   },
   "UuZqsLLu6HQ": {
     "org_slug": "jkt48v",
     "ch_slug": "maura-nilambari-jkt48v",
     "ch_name": "Maura Nilambari - JKT48V",
     "status": "live",
-    "generated_at": "2026-08-08 15:11 WIB"
+    "generated_at": "2026-08-08 15:35 WIB"
+  },
+  "swmCGX-xUds": {
+    "org_slug": "gravt",
+    "ch_slug": "ave-kanehoshii-gravt",
+    "ch_name": "Ave Kanehoshii【GRAVT】",
+    "status": "live",
+    "generated_at": "2026-08-08 15:35 WIB"
+  },
+  "SlVv4rmq58Y": {
+    "org_slug": "aisatset",
+    "ch_slug": "ungaume-aisatset-id",
+    "ch_name": "UngaUme【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-08-08 15:35 WIB"
   }
 }
