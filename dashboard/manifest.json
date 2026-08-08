@@ -37853,7 +37853,7 @@
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-08-08 10:56 WIB"
+    "generated_at": "2026-08-08 11:12 WIB"
   },
   "Q4lQrFe8-Qs": {
     "org_slug": "project-livium",
@@ -38309,5 +38309,12 @@
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "vod",
     "generated_at": "2026-08-08 10:17 WIB"
+  },
+  "SplAAWEEN74": {
+    "org_slug": "vcosmix",
+    "ch_slug": "miichan-chu-ch",
+    "ch_name": "Miichan Chu Ch.",
+    "status": "live",
+    "generated_at": "2026-08-08 11:12 WIB"
   }
 }
