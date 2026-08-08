@@ -38343,14 +38343,14 @@
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-08 17:12 WIB"
+    "generated_at": "2026-08-08 17:27 WIB"
   },
   "v9dCRrigt-4": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-08-08 17:12 WIB"
+    "generated_at": "2026-08-08 17:27 WIB"
   },
   "0OhblNu0KjE": {
     "org_slug": "uver-id",
@@ -38364,7 +38364,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-08 17:12 WIB"
+    "generated_at": "2026-08-08 17:27 WIB"
   },
   "La8dcZRjo2k": {
     "org_slug": "asobu-production",
@@ -38391,8 +38391,8 @@
     "org_slug": "uver-id",
     "ch_slug": "norn-haira-uver-id",
     "ch_name": "Norn Haira〔UVER ID〕",
-    "status": "live",
-    "generated_at": "2026-08-08 17:12 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-08 17:27 WIB"
   },
   "UuZqsLLu6HQ": {
     "org_slug": "jkt48v",
@@ -38406,7 +38406,7 @@
     "ch_slug": "ave-kanehoshii-gravt",
     "ch_name": "Ave Kanehoshii【GRAVT】",
     "status": "live",
-    "generated_at": "2026-08-08 17:12 WIB"
+    "generated_at": "2026-08-08 17:27 WIB"
   },
   "SlVv4rmq58Y": {
     "org_slug": "aisatset",
@@ -38419,21 +38419,35 @@
     "org_slug": "jkt48v",
     "ch_slug": "maura-nilambari-jkt48v",
     "ch_name": "Maura Nilambari - JKT48V",
-    "status": "live",
-    "generated_at": "2026-08-08 17:12 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-08 17:27 WIB"
   },
   "OSWWbmWqqXU": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-08 17:12 WIB"
+    "generated_at": "2026-08-08 17:27 WIB"
   },
   "bukfjCQy_SM": {
     "org_slug": "magisona",
     "ch_slug": "iofiel-feliz-ch-magisona",
     "ch_name": "ioFiel Feliz Ch.【MagiSona】",
     "status": "live",
-    "generated_at": "2026-08-08 17:12 WIB"
+    "generated_at": "2026-08-08 17:27 WIB"
+  },
+  "HE3AUn8qqoY": {
+    "org_slug": "crims-on",
+    "ch_slug": "iana-crims-on",
+    "ch_name": "Iana【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-08-08 17:27 WIB"
+  },
+  "SXuWtvEP7To": {
+    "org_slug": "gravt",
+    "ch_slug": "gravt",
+    "ch_name": "GRAVT",
+    "status": "vod",
+    "generated_at": "2026-08-08 17:27 WIB"
   }
 }
