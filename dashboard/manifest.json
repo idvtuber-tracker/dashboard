@@ -38735,7 +38735,7 @@
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-08-09 17:53 WIB"
+    "generated_at": "2026-08-09 18:24 WIB"
   },
   "yPN4V-5Ad3E": {
     "org_slug": "project-eternoia",
@@ -38819,7 +38819,7 @@
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-09 17:53 WIB"
+    "generated_at": "2026-08-09 18:24 WIB"
   },
   "WFjIfHYbaMs": {
     "org_slug": "snowvalley-agency",
@@ -38840,7 +38840,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-09 17:53 WIB"
+    "generated_at": "2026-08-09 18:24 WIB"
   },
   "3_ELYg0b7T4": {
     "org_slug": "aisatset",
@@ -38860,29 +38860,29 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
-    "status": "live",
-    "generated_at": "2026-08-09 17:53 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-09 18:24 WIB"
   },
   "V8P3q5ehsO0": {
     "org_slug": "snowdrop-live",
     "ch_slug": "bouya-kyuuroku-snowdrop",
     "ch_name": "Bouya Kyuuroku | SNOWDROP",
-    "status": "live",
-    "generated_at": "2026-08-09 17:53 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-09 18:24 WIB"
   },
   "9QfEcxnIrpE": {
     "org_slug": "versa",
     "ch_slug": "agata-seven-versa",
     "ch_name": "Agata Seven【VERSA】",
     "status": "live",
-    "generated_at": "2026-08-09 17:53 WIB"
+    "generated_at": "2026-08-09 18:24 WIB"
   },
   "J2qUp2aQe1s": {
     "org_slug": "gravt",
     "ch_slug": "ave-kanehoshii-gravt",
     "ch_name": "Ave Kanehoshii【GRAVT】",
     "status": "live",
-    "generated_at": "2026-08-09 17:53 WIB"
+    "generated_at": "2026-08-09 18:24 WIB"
   },
   "fyR6mH-4WSs": {
     "org_slug": "yorukaze",
@@ -38896,6 +38896,13 @@
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-08-09 17:53 WIB"
+    "generated_at": "2026-08-09 18:24 WIB"
+  },
+  "ZjCFWvbvrG8": {
+    "org_slug": "pandavva",
+    "ch_slug": "yudistira-yogendra-pandavva",
+    "ch_name": "Yudistira Yogendra 【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-08-09 18:24 WIB"
   }
 }
