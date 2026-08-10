@@ -39162,7 +39162,7 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-10 18:18 WIB"
+    "generated_at": "2026-08-10 18:35 WIB"
   },
   "S6M713U5fVc": {
     "org_slug": "jkt48v",
@@ -39204,7 +39204,7 @@
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-10 18:18 WIB"
+    "generated_at": "2026-08-10 18:35 WIB"
   },
   "n1pcs--gldg": {
     "org_slug": "aisatset",
@@ -39218,13 +39218,20 @@
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-10 18:18 WIB"
+    "generated_at": "2026-08-10 18:35 WIB"
   },
   "BXqOqdSpvaM": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-10 18:18 WIB"
+    "generated_at": "2026-08-10 18:35 WIB"
+  },
+  "t_tnBLhcYQI": {
+    "org_slug": "lav-idn",
+    "ch_slug": "kanata-reina-ch-lav",
+    "ch_name": "Kanata Reina Ch.【LAV】",
+    "status": "live",
+    "generated_at": "2026-08-10 18:35 WIB"
   }
 }
