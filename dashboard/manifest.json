@@ -38734,8 +38734,8 @@
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
-    "status": "live",
-    "generated_at": "2026-08-10 15:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-10 15:17 WIB"
   },
   "yPN4V-5Ad3E": {
     "org_slug": "project-eternoia",
@@ -38902,8 +38902,8 @@
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-08-10 15:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-10 15:17 WIB"
   },
   "TD7vh_YoW5c": {
     "org_slug": "lav-idn",
@@ -39148,27 +39148,41 @@
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-10 15:01 WIB"
+    "generated_at": "2026-08-10 15:17 WIB"
   },
   "bxd9Xy5SdkE": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-08-10 15:01 WIB"
+    "generated_at": "2026-08-10 15:17 WIB"
   },
   "alvNWfbgF3s": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-10 15:01 WIB"
+    "generated_at": "2026-08-10 15:17 WIB"
   },
   "S6M713U5fVc": {
     "org_slug": "jkt48v",
     "ch_slug": "pia-meraleo-jkt48v",
     "ch_name": "Pia Meraleo - JKT48V",
     "status": "live",
-    "generated_at": "2026-08-10 15:01 WIB"
+    "generated_at": "2026-08-10 15:17 WIB"
+  },
+  "msmSfyuJhCU": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shayla-meyjiera-ch-snowvalley",
+    "ch_name": "Shayla Meyjiera Ch •SnowValley",
+    "status": "live",
+    "generated_at": "2026-08-10 15:17 WIB"
+  },
+  "cIt3x03sv9o": {
+    "org_slug": "maha5",
+    "ch_slug": "hera-garalea-maha5",
+    "ch_name": "Hera Garalea【MAHA5】",
+    "status": "live",
+    "generated_at": "2026-08-10 15:17 WIB"
   }
 }
