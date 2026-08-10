@@ -38735,7 +38735,7 @@
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-08-10 08:22 WIB"
+    "generated_at": "2026-08-10 10:01 WIB"
   },
   "yPN4V-5Ad3E": {
     "org_slug": "project-eternoia",
@@ -38903,7 +38903,7 @@
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-10 08:22 WIB"
+    "generated_at": "2026-08-10 10:01 WIB"
   },
   "TD7vh_YoW5c": {
     "org_slug": "lav-idn",
@@ -39121,5 +39121,12 @@
     "ch_name": "Han Sorawr",
     "status": "vod",
     "generated_at": "2026-08-10 02:29 WIB"
+  },
+  "RvSadVwhnHU": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "thalita-sylvaine-whicker-butler",
+    "ch_name": "Thalita Sylvaine【Whicker Butler】",
+    "status": "live",
+    "generated_at": "2026-08-10 10:01 WIB"
   }
 }
