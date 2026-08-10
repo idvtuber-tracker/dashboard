@@ -39218,7 +39218,7 @@
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "BXqOqdSpvaM": {
     "org_slug": "asobu-production",
@@ -39232,69 +39232,76 @@
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "WbFSjl8CNnU": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "kz3qYjtWfVo": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "D2Swkbo8qvI": {
     "org_slug": "asobu-production",
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "g7F6eIKmyF0": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "KoVIUGy_oKc": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "flNDZGpk0kc": {
     "org_slug": "kanau-virtual",
     "ch_slug": "kanau-virtual",
     "ch_name": "KANAU Virtual",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "13FIuNQcxFI": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "q8ffx9j4tGw": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
   },
   "Hn02X1hUx1w": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-10 19:58 WIB"
+    "generated_at": "2026-08-10 20:01 WIB"
+  },
+  "dDXNv5reLTc": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shine-naira-ch-snowvalley",
+    "ch_name": "Shine Naira Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-08-10 20:01 WIB"
   }
 }
