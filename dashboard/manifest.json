@@ -39491,34 +39491,41 @@
     "ch_slug": "isha-kirana-jkt48v",
     "ch_name": "Isha Kirana - JKT48V",
     "status": "live",
-    "generated_at": "2026-08-11 19:47 WIB"
+    "generated_at": "2026-08-11 19:54 WIB"
   },
   "KLlpOoYWoTc": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-08-11 19:47 WIB"
+    "generated_at": "2026-08-11 19:54 WIB"
   },
   "VMJcLNlTwgg": {
     "org_slug": "maha5",
     "ch_slug": "maudy-sukaiga-maha5",
     "ch_name": "Maudy Sukaiga【MAHA5】",
     "status": "live",
-    "generated_at": "2026-08-11 19:47 WIB"
+    "generated_at": "2026-08-11 19:54 WIB"
   },
   "mwY3Ri_wgAU": {
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
-    "status": "live",
-    "generated_at": "2026-08-11 19:47 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-11 19:54 WIB"
   },
   "XAdn9F7xZrg": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-11 19:47 WIB"
+    "generated_at": "2026-08-11 19:54 WIB"
+  },
+  "yI61t6-5Qk4": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-08-11 19:54 WIB"
   }
 }
