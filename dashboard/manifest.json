@@ -39490,22 +39490,22 @@
     "org_slug": "jkt48v",
     "ch_slug": "isha-kirana-jkt48v",
     "ch_name": "Isha Kirana - JKT48V",
-    "status": "live",
-    "generated_at": "2026-08-11 19:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-11 20:05 WIB"
   },
   "KLlpOoYWoTc": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-08-11 19:54 WIB"
+    "generated_at": "2026-08-11 20:05 WIB"
   },
   "VMJcLNlTwgg": {
     "org_slug": "maha5",
     "ch_slug": "maudy-sukaiga-maha5",
     "ch_name": "Maudy Sukaiga【MAHA5】",
     "status": "live",
-    "generated_at": "2026-08-11 19:54 WIB"
+    "generated_at": "2026-08-11 20:05 WIB"
   },
   "mwY3Ri_wgAU": {
     "org_slug": "lav-idn",
@@ -39519,13 +39519,41 @@
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-11 19:54 WIB"
+    "generated_at": "2026-08-11 20:05 WIB"
   },
   "yI61t6-5Qk4": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-11 19:54 WIB"
+    "generated_at": "2026-08-11 20:05 WIB"
+  },
+  "ZHpG3Tm6GUY": {
+    "org_slug": "lav-idn",
+    "ch_slug": "akane-nanase-ch-lav",
+    "ch_name": "Akane Nanase Ch. 【LAV】",
+    "status": "live",
+    "generated_at": "2026-08-11 20:05 WIB"
+  },
+  "9rFCXKg_DRU": {
+    "org_slug": "uver-id",
+    "ch_slug": "scardia-agnibrata-uver-id",
+    "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-08-11 20:05 WIB"
+  },
+  "fg0rHPE1NPc": {
+    "org_slug": "crims-on",
+    "ch_slug": "iana-crims-on",
+    "ch_name": "Iana【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-08-11 20:05 WIB"
+  },
+  "J1gHIaHN6bM": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "darlyne-nightbloom-whicker-butler",
+    "ch_name": "Darlyne Nightbloom【Whicker Butler】",
+    "status": "live",
+    "generated_at": "2026-08-11 20:05 WIB"
   }
 }
