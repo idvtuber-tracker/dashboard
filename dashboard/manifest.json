@@ -39421,13 +39421,20 @@
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-08-11 14:16 WIB"
+    "generated_at": "2026-08-11 14:50 WIB"
   },
   "7ehaAKfRyL8": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-11 14:16 WIB"
+    "generated_at": "2026-08-11 14:50 WIB"
+  },
+  "fe-MfZe5ggo": {
+    "org_slug": "cozycazt",
+    "ch_slug": "rannia-taiga-cozycazt",
+    "ch_name": "Rannia Taiga 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-08-11 14:50 WIB"
   }
 }
