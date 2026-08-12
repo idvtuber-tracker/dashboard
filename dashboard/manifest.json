@@ -39714,21 +39714,28 @@
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
-    "status": "live",
-    "generated_at": "2026-08-12 11:09 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-12 11:26 WIB"
   },
   "56uNLNlLrOU": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-12 11:09 WIB"
+    "generated_at": "2026-08-12 11:26 WIB"
   },
   "cxIcczA2EEI": {
     "org_slug": "afterain",
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-12 11:09 WIB"
+    "generated_at": "2026-08-12 11:26 WIB"
+  },
+  "-3Wd3uTbX0Q": {
+    "org_slug": "cozycazt",
+    "ch_slug": "rannia-taiga-cozycazt",
+    "ch_name": "Rannia Taiga 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-08-12 11:26 WIB"
   }
 }
