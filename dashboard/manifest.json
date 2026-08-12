@@ -39785,21 +39785,21 @@
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-12 18:46 WIB"
+    "generated_at": "2026-08-12 19:07 WIB"
   },
   "6pZ1JGnWxZg": {
     "org_slug": "gravt",
     "ch_slug": "daem-gravt",
     "ch_name": "daem【GRAVT】",
     "status": "live",
-    "generated_at": "2026-08-12 18:46 WIB"
+    "generated_at": "2026-08-12 19:07 WIB"
   },
   "QZSjr2wpHrQ": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-08-12 18:46 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-12 19:07 WIB"
   },
   "f-2Pg_oNPtE": {
     "org_slug": "hrcome",
@@ -39812,8 +39812,8 @@
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-08-12 18:46 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-12 19:07 WIB"
   },
   "iCT5aRzWe3c": {
     "org_slug": "yorukaze",
@@ -39827,20 +39827,41 @@
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-08-12 18:46 WIB"
+    "generated_at": "2026-08-12 19:07 WIB"
   },
   "6RUl5pICNVs": {
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "live",
-    "generated_at": "2026-08-12 18:46 WIB"
+    "generated_at": "2026-08-12 19:07 WIB"
   },
   "3gp0HqRiPP4": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-12 18:46 WIB"
+    "generated_at": "2026-08-12 19:07 WIB"
+  },
+  "PSR95kq2AbU": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-08-12 19:07 WIB"
+  },
+  "HrkDsMNlbk4": {
+    "org_slug": "asobu-production",
+    "ch_slug": "mo-xiao-mei-asobu",
+    "ch_name": "Mo Xiao Mei【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-08-12 19:07 WIB"
+  },
+  "Txq_IWQKtNY": {
+    "org_slug": "project-livium",
+    "ch_slug": "lillis-infernallies-ch-livipro",
+    "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-12 19:07 WIB"
   }
 }
