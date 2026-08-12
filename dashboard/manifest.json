@@ -39722,7 +39722,7 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-12 15:23 WIB"
+    "generated_at": "2026-08-12 15:40 WIB"
   },
   "cxIcczA2EEI": {
     "org_slug": "afterain",
@@ -39750,7 +39750,7 @@
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-12 15:23 WIB"
+    "generated_at": "2026-08-12 15:40 WIB"
   },
   "fwZr9qccWPw": {
     "org_slug": "snowvalley-agency",
@@ -39764,27 +39764,41 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-08-12 15:23 WIB"
+    "generated_at": "2026-08-12 15:40 WIB"
   },
   "WzJnYUu-DP4": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-12 15:23 WIB"
+    "generated_at": "2026-08-12 15:40 WIB"
   },
   "v2axoiB8g00": {
     "org_slug": "jkt48v",
     "ch_slug": "pia-meraleo-jkt48v",
     "ch_name": "Pia Meraleo - JKT48V",
     "status": "live",
-    "generated_at": "2026-08-12 15:23 WIB"
+    "generated_at": "2026-08-12 15:40 WIB"
   },
   "gI4b7GVMgig": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-12 15:23 WIB"
+    "generated_at": "2026-08-12 15:40 WIB"
+  },
+  "6pZ1JGnWxZg": {
+    "org_slug": "gravt",
+    "ch_slug": "daem-gravt",
+    "ch_name": "daem【GRAVT】",
+    "status": "live",
+    "generated_at": "2026-08-12 15:40 WIB"
+  },
+  "QZSjr2wpHrQ": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "krystalize-moon-dasoriyal",
+    "ch_name": "Krystalize Moon『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-08-12 15:40 WIB"
   }
 }
