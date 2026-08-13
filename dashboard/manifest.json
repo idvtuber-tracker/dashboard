@@ -40142,7 +40142,7 @@
     "ch_slug": "hera-garalea-maha5",
     "ch_name": "Hera Garalea【MAHA5】",
     "status": "live",
-    "generated_at": "2026-08-13 13:13 WIB"
+    "generated_at": "2026-08-13 13:23 WIB"
   },
   "z-joch8XTjQ": {
     "org_slug": "kanau-virtual",
@@ -40156,21 +40156,21 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-13 13:13 WIB"
+    "generated_at": "2026-08-13 13:23 WIB"
   },
   "rUp3JxLGZ0Y": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-08-13 13:13 WIB"
+    "generated_at": "2026-08-13 13:23 WIB"
   },
   "4UHeQ354MSw": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-08-13 13:13 WIB"
+    "generated_at": "2026-08-13 13:23 WIB"
   },
   "u8H9mP26MAg": {
     "org_slug": "lav-idn",
@@ -40178,5 +40178,12 @@
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "vod",
     "generated_at": "2026-08-13 12:50 WIB"
+  },
+  "Kd-4Yz-9KLg": {
+    "org_slug": "lav-idn",
+    "ch_slug": "kanata-reina-ch-lav",
+    "ch_name": "Kanata Reina Ch.【LAV】",
+    "status": "live",
+    "generated_at": "2026-08-13 13:23 WIB"
   }
 }
