@@ -40142,7 +40142,7 @@
     "ch_slug": "hera-garalea-maha5",
     "ch_name": "Hera Garalea【MAHA5】",
     "status": "live",
-    "generated_at": "2026-08-13 08:39 WIB"
+    "generated_at": "2026-08-13 10:03 WIB"
   },
   "z-joch8XTjQ": {
     "org_slug": "kanau-virtual",
@@ -40150,5 +40150,12 @@
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "vod",
     "generated_at": "2026-08-12 23:54 WIB"
+  },
+  "HpTI6YDp97E": {
+    "org_slug": "aisatset",
+    "ch_slug": "ungaume-aisatset-id",
+    "ch_name": "UngaUme【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-08-13 10:03 WIB"
   }
 }
