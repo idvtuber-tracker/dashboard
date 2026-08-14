@@ -40142,7 +40142,7 @@
     "ch_slug": "hera-garalea-maha5",
     "ch_name": "Hera Garalea【MAHA5】",
     "status": "live",
-    "generated_at": "2026-08-14 07:14 WIB"
+    "generated_at": "2026-08-14 07:47 WIB"
   },
   "z-joch8XTjQ": {
     "org_slug": "kanau-virtual",
@@ -40499,7 +40499,7 @@
     "ch_slug": "allyra-violette",
     "ch_name": "Allyra Violette 🪨",
     "status": "live",
-    "generated_at": "2026-08-14 07:14 WIB"
+    "generated_at": "2026-08-14 07:47 WIB"
   },
   "Gn3yK5RSZqU": {
     "org_slug": "cozycazt",
@@ -40589,7 +40589,14 @@
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "vod",
+    "generated_at": "2026-08-14 07:47 WIB"
+  },
+  "xjC1rKrmuRg": {
+    "org_slug": "afterain",
+    "ch_slug": "ririna-ruu-afterain",
+    "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-14 07:14 WIB"
+    "generated_at": "2026-08-14 07:47 WIB"
   }
 }
