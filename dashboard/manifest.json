@@ -40142,7 +40142,7 @@
     "ch_slug": "hera-garalea-maha5",
     "ch_name": "Hera Garalea【MAHA5】",
     "status": "live",
-    "generated_at": "2026-08-15 11:31 WIB"
+    "generated_at": "2026-08-15 11:47 WIB"
   },
   "z-joch8XTjQ": {
     "org_slug": "kanau-virtual",
@@ -40499,7 +40499,7 @@
     "ch_slug": "allyra-violette",
     "ch_name": "Allyra Violette 🪨",
     "status": "live",
-    "generated_at": "2026-08-15 11:31 WIB"
+    "generated_at": "2026-08-15 11:47 WIB"
   },
   "Gn3yK5RSZqU": {
     "org_slug": "cozycazt",
@@ -40967,8 +40967,8 @@
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-08-15 11:31 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-15 11:47 WIB"
   },
   "cRLRFRcnLZg": {
     "org_slug": "evren-community",
@@ -40988,42 +40988,49 @@
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
-    "status": "live",
-    "generated_at": "2026-08-15 11:31 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-15 11:47 WIB"
   },
   "HtG-BDD7o-k": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-08-15 11:31 WIB"
+    "generated_at": "2026-08-15 11:47 WIB"
   },
   "lPk_hPOzpGg": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-08-15 11:31 WIB"
+    "generated_at": "2026-08-15 11:47 WIB"
   },
   "HY4dT5elGyQ": {
     "org_slug": "hibikasekai",
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-08-15 11:31 WIB"
+    "generated_at": "2026-08-15 11:47 WIB"
   },
   "Dgl2Tjy_90U": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-15 11:31 WIB"
+    "generated_at": "2026-08-15 11:47 WIB"
   },
   "WyzoGwnZh8o": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "poppu-pippero-mejikuhibiniu",
     "ch_name": "Poppu Pippero 【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-08-15 11:31 WIB"
+    "generated_at": "2026-08-15 11:47 WIB"
+  },
+  "x2grNdXfWUs": {
+    "org_slug": "project-livium",
+    "ch_slug": "indira-naylarissa-ch-livipro",
+    "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-15 11:47 WIB"
   }
 }
