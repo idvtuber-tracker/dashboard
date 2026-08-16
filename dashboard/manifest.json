@@ -40142,7 +40142,7 @@
     "ch_slug": "hera-garalea-maha5",
     "ch_name": "Hera Garalea【MAHA5】",
     "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "z-joch8XTjQ": {
     "org_slug": "kanau-virtual",
@@ -40499,7 +40499,7 @@
     "ch_slug": "allyra-violette",
     "ch_name": "Allyra Violette 🪨",
     "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "Gn3yK5RSZqU": {
     "org_slug": "cozycazt",
@@ -41325,7 +41325,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "2__WEhOb_wo": {
     "org_slug": "ukoi-virtual",
@@ -41395,7 +41395,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "w_Xf5WPrHvI": {
     "org_slug": "uver-id",
@@ -41458,7 +41458,7 @@
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "e9ZIw-UvWSs": {
     "org_slug": "dasoriyal",
@@ -41569,15 +41569,15 @@
     "org_slug": "hibikasekai",
     "ch_slug": "murasaki-kenji-hibikasekai",
     "ch_name": "Murasaki Kenji 🫐〖 HIBIKASEKAI 】",
-    "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "Tz4krUwornQ": {
     "org_slug": "magniv",
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
     "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "gWNEUIllSYg": {
     "org_slug": "whicker-butler",
@@ -41604,35 +41604,42 @@
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "JsDiGaNWsd8": {
     "org_slug": "hibikasekai",
     "ch_slug": "ibame-masagi-hibikasekai",
     "ch_name": "Ibame Masagi 🗝  〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "SrqKfba1zk8": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "5q1wCIX9PLE": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-17 00:16 WIB"
   },
   "wVhvaEG_dVk": {
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "live",
-    "generated_at": "2026-08-17 00:03 WIB"
+    "generated_at": "2026-08-17 00:16 WIB"
+  },
+  "swKEgkNHNfk": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "karissa-sharlotte-dasoriyal",
+    "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-08-17 00:16 WIB"
   }
 }
