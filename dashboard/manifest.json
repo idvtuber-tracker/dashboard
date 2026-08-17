@@ -41654,48 +41654,69 @@
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-17 11:02 WIB"
+    "generated_at": "2026-08-17 11:18 WIB"
   },
   "GKN5-iwMUDg": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-08-17 11:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-17 11:18 WIB"
   },
   "4Fw7Fe_naGk": {
     "org_slug": "cozycazt",
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-08-17 11:02 WIB"
+    "generated_at": "2026-08-17 11:18 WIB"
   },
   "uERfLlRbIcM": {
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-08-17 11:02 WIB"
+    "generated_at": "2026-08-17 11:18 WIB"
   },
   "tlwPO58uTsg": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-08-17 11:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-17 11:18 WIB"
   },
   "AHUrlWu3AzU": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-17 11:02 WIB"
+    "generated_at": "2026-08-17 11:18 WIB"
   },
   "WAPCCVBLBW8": {
     "org_slug": "uver-id",
     "ch_slug": "cyure-michantrell-ch-uver-id",
     "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-17 11:02 WIB"
+    "generated_at": "2026-08-17 11:18 WIB"
+  },
+  "Bda1vkBC7_U": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "krystalize-moon-dasoriyal",
+    "ch_name": "Krystalize Moon『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-08-17 11:18 WIB"
+  },
+  "KHl1zNedZJ8": {
+    "org_slug": "vilitera",
+    "ch_slug": "letto-allenka-ch-vilitera-id",
+    "ch_name": "Letto Allenka Ch. VILITERA-ID",
+    "status": "live",
+    "generated_at": "2026-08-17 11:18 WIB"
+  },
+  "jvOgmHzDXoQ": {
+    "org_slug": "aisatset",
+    "ch_slug": "ungaume-aisatset-id",
+    "ch_name": "UngaUme【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-08-17 11:18 WIB"
   }
 }
