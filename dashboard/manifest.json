@@ -41724,7 +41724,7 @@
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "y9shxvt1S_8": {
     "org_slug": "cozycazt",
@@ -41773,7 +41773,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "pWudZ0lUNoE": {
     "org_slug": "vcosmix",
@@ -41786,8 +41786,8 @@
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "JAaAZd3UzNQ": {
     "org_slug": "dasoriyal",
@@ -41801,56 +41801,56 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "mwVxlR9MCaI": {
     "org_slug": "asobu-production",
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "j8_sHwnhYhI": {
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "mizAYltCg9s": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
-    "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "W1dcsSADM8Q": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "y6BHC3fl-F4": {
     "org_slug": "versa",
     "ch_slug": "eray-ryuki-versa",
     "ch_name": "Eray Ryuki【VERSA】",
     "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "Rs_JRJz6oAE": {
     "org_slug": "uver-id",
     "ch_slug": "uver-id",
     "ch_name": "UVER ID",
     "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "NL3tE1PrDCo": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-17 19:39 WIB"
+    "generated_at": "2026-08-17 19:54 WIB"
   },
   "2KoiV-nY8Js": {
     "org_slug": "dasoriyal",
@@ -41858,5 +41858,19 @@
     "ch_name": "DASORiYAL",
     "status": "vod",
     "generated_at": "2026-08-17 19:35 WIB"
+  },
+  "33BOZDIXA-Q": {
+    "org_slug": "magniv",
+    "ch_slug": "magniv",
+    "ch_name": "MagniV",
+    "status": "live",
+    "generated_at": "2026-08-17 19:54 WIB"
+  },
+  "qa7mrt1LV8c": {
+    "org_slug": "magisona",
+    "ch_slug": "magisona",
+    "ch_name": "MagiSona",
+    "status": "live",
+    "generated_at": "2026-08-17 19:54 WIB"
   }
 }
