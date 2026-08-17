@@ -41724,7 +41724,7 @@
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-17 16:54 WIB"
+    "generated_at": "2026-08-17 17:11 WIB"
   },
   "y9shxvt1S_8": {
     "org_slug": "cozycazt",
@@ -41745,7 +41745,7 @@
     "ch_slug": "celina-olystia-ch-snowvalley",
     "ch_name": "Celina Olystia Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-17 16:54 WIB"
+    "generated_at": "2026-08-17 17:11 WIB"
   },
   "tSKCPp62WY4": {
     "org_slug": "lav-idn",
@@ -41766,14 +41766,14 @@
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-17 16:54 WIB"
+    "generated_at": "2026-08-17 17:11 WIB"
   },
   "ilX0yXs6z5M": {
     "org_slug": "afterain",
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-17 16:54 WIB"
+    "generated_at": "2026-08-17 17:11 WIB"
   },
   "pWudZ0lUNoE": {
     "org_slug": "vcosmix",
@@ -41781,5 +41781,19 @@
     "ch_name": "Li Mingshu Ch.",
     "status": "vod",
     "generated_at": "2026-08-17 16:36 WIB"
+  },
+  "KXcM9sThYho": {
+    "org_slug": "project-livium",
+    "ch_slug": "lillis-infernallies-ch-livipro",
+    "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-17 17:11 WIB"
+  },
+  "JAaAZd3UzNQ": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "dasoriyal",
+    "ch_name": "DASORiYAL",
+    "status": "live",
+    "generated_at": "2026-08-17 17:11 WIB"
   }
 }
