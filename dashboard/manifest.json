@@ -42109,7 +42109,7 @@
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-08-18 19:30 WIB"
+    "generated_at": "2026-08-18 19:37 WIB"
   },
   "Lxiwc0Mwfe0": {
     "org_slug": "hibikasekai",
@@ -42151,21 +42151,21 @@
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-18 19:30 WIB"
+    "generated_at": "2026-08-18 19:37 WIB"
   },
   "fqFmYjPMzY4": {
     "org_slug": "jkt48v",
     "ch_slug": "isha-kirana-jkt48v",
     "ch_name": "Isha Kirana - JKT48V",
     "status": "live",
-    "generated_at": "2026-08-18 19:30 WIB"
+    "generated_at": "2026-08-18 19:37 WIB"
   },
   "uo8WfA8fO34": {
     "org_slug": "asobu-production",
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-18 19:30 WIB"
+    "generated_at": "2026-08-18 19:37 WIB"
   },
   "QLf34HMXN84": {
     "org_slug": "snowvalley-agency",
@@ -42200,13 +42200,20 @@
     "ch_slug": "aika-sakuraba-ch-arvi",
     "ch_name": "Aika Sakuraba Ch. 【ARVI】",
     "status": "live",
-    "generated_at": "2026-08-18 19:30 WIB"
+    "generated_at": "2026-08-18 19:37 WIB"
   },
   "Vd7i3DlHgdE": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-08-18 19:30 WIB"
+    "generated_at": "2026-08-18 19:37 WIB"
+  },
+  "r-rRFnScvTs": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
+    "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
+    "status": "live",
+    "generated_at": "2026-08-18 19:37 WIB"
   }
 }
