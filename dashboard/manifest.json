@@ -42045,8 +42045,8 @@
     "org_slug": "afterain",
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
-    "status": "live",
-    "generated_at": "2026-08-18 14:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-18 14:18 WIB"
   },
   "MLBtkjYy2TE": {
     "org_slug": "jkt48v",
@@ -42074,7 +42074,7 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-18 14:03 WIB"
+    "generated_at": "2026-08-18 14:18 WIB"
   },
   "GotO0IHdGj4": {
     "org_slug": "lav-idn",
@@ -42082,5 +42082,19 @@
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "vod",
     "generated_at": "2026-08-18 13:47 WIB"
+  },
+  "pOZ1YNLabsM": {
+    "org_slug": "cozycazt",
+    "ch_slug": "rannia-taiga-cozycazt",
+    "ch_name": "Rannia Taiga 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-08-18 14:18 WIB"
+  },
+  "nbUs_5_eu7g": {
+    "org_slug": "prism-nova",
+    "ch_slug": "serika-cosmica-prism-nova",
+    "ch_name": "Serika Cosmica 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-08-18 14:18 WIB"
   }
 }
