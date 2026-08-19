@@ -42599,7 +42599,7 @@
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-20 01:18 WIB"
+    "generated_at": "2026-08-20 01:28 WIB"
   },
   "PckY_ztYEgQ": {
     "org_slug": "crims-on",
@@ -42613,7 +42613,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-20 01:18 WIB"
+    "generated_at": "2026-08-20 01:28 WIB"
   },
   "TSv1Y_0wt3M": {
     "org_slug": "versa",
@@ -42752,8 +42752,8 @@
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
-    "status": "live",
-    "generated_at": "2026-08-20 01:18 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-20 01:28 WIB"
   },
   "abjtfdyrDR8": {
     "org_slug": "asobu-production",
@@ -42843,14 +42843,14 @@
     "org_slug": "afterain",
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
-    "status": "live",
-    "generated_at": "2026-08-20 01:18 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-20 01:28 WIB"
   },
   "gy-KzEA7Brw": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-08-20 01:18 WIB"
+    "generated_at": "2026-08-20 01:28 WIB"
   }
 }
