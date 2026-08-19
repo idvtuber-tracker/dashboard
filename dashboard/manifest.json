@@ -42613,7 +42613,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-20 06:01 WIB"
+    "generated_at": "2026-08-20 06:19 WIB"
   },
   "TSv1Y_0wt3M": {
     "org_slug": "versa",
@@ -42852,5 +42852,12 @@
     "ch_name": "Rijii【CRIMS:on】",
     "status": "vod",
     "generated_at": "2026-08-20 02:03 WIB"
+  },
+  "ZsgNSRN75Dw": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-08-20 06:19 WIB"
   }
 }
