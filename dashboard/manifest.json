@@ -42865,48 +42865,55 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-20 13:44 WIB"
+    "generated_at": "2026-08-20 14:00 WIB"
   },
   "pCbO5MsRcRA": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-20 13:44 WIB"
+    "generated_at": "2026-08-20 14:00 WIB"
   },
   "sxyABMIdKHg": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-20 13:44 WIB"
+    "generated_at": "2026-08-20 14:00 WIB"
   },
   "_E6QseUZsk0": {
     "org_slug": "afterain",
     "ch_slug": "ririna-ruu-afterain",
     "ch_name": "Ririna Ruu【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-08-20 13:44 WIB"
+    "generated_at": "2026-08-20 14:00 WIB"
   },
   "H26sSrMiUuQ": {
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "live",
-    "generated_at": "2026-08-20 13:44 WIB"
+    "generated_at": "2026-08-20 14:00 WIB"
   },
   "AeVXJs2VxMI": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-08-20 13:44 WIB"
+    "generated_at": "2026-08-20 14:00 WIB"
   },
   "SLcSFmM2zas": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-08-20 13:44 WIB"
+    "generated_at": "2026-08-20 14:00 WIB"
+  },
+  "UuMytbz4WXo": {
+    "org_slug": "project-livium",
+    "ch_slug": "indira-naylarissa-ch-livipro",
+    "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-20 14:00 WIB"
   }
 }
