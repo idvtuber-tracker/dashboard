@@ -43768,7 +43768,7 @@
     "ch_slug": "project-livium",
     "ch_name": "Project:LIVIUM",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "ASRnDUGNkCs": {
     "org_slug": "maha5",
@@ -43782,7 +43782,7 @@
     "ch_slug": "oriana-solstair-whicker-butler",
     "ch_name": "Oriana Solstair【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "EGmopHnNAus": {
     "org_slug": "snowvalley-agency",
@@ -43795,15 +43795,15 @@
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
-    "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "woPureW3wdM": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "d8UGBdSJYsg": {
     "org_slug": "snowvalley-agency",
@@ -43817,7 +43817,7 @@
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "A6b0g-QqD7Q": {
     "org_slug": "crims-on",
@@ -43838,62 +43838,69 @@
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "cwBzUGUTj9o": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "R1EHv8s74dY": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "rj6trqzVISY": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "f7f5UpeHyK8": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "deeruirKiP4": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "0RDZq_lg8U4": {
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "p-IksMCBRsw": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
   },
   "JHs7_7Igq3I": {
     "org_slug": "project-eternoia",
     "ch_slug": "fumiko-runa",
     "ch_name": "Fumiko Runa",
     "status": "live",
-    "generated_at": "2026-08-22 20:07 WIB"
+    "generated_at": "2026-08-22 20:22 WIB"
+  },
+  "jxP473AGd-M": {
+    "org_slug": "project-livium",
+    "ch_slug": "fareye-closhartt-ch-livipro",
+    "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-22 20:22 WIB"
   }
 }
