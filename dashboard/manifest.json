@@ -43802,8 +43802,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-08-23 05:30 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-23 05:46 WIB"
   },
   "d8UGBdSJYsg": {
     "org_slug": "snowvalley-agency",
@@ -43943,7 +43943,7 @@
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-23 05:30 WIB"
+    "generated_at": "2026-08-23 05:46 WIB"
   },
   "Gd4B60vBh4g": {
     "org_slug": "evren-community",
@@ -44027,6 +44027,6 @@
     "ch_slug": "ringo-soda",
     "ch_name": "Ringo Soda",
     "status": "live",
-    "generated_at": "2026-08-23 05:30 WIB"
+    "generated_at": "2026-08-23 05:46 WIB"
   }
 }
