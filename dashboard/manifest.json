@@ -43768,7 +43768,7 @@
     "ch_slug": "project-livium",
     "ch_name": "Project:LIVIUM",
     "status": "live",
-    "generated_at": "2026-08-22 19:04 WIB"
+    "generated_at": "2026-08-22 19:20 WIB"
   },
   "ASRnDUGNkCs": {
     "org_slug": "maha5",
@@ -43782,7 +43782,7 @@
     "ch_slug": "oriana-solstair-whicker-butler",
     "ch_name": "Oriana Solstair【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-08-22 19:04 WIB"
+    "generated_at": "2026-08-22 19:20 WIB"
   },
   "EGmopHnNAus": {
     "org_slug": "snowvalley-agency",
@@ -43796,14 +43796,14 @@
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-08-22 19:04 WIB"
+    "generated_at": "2026-08-22 19:20 WIB"
   },
   "woPureW3wdM": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-22 19:04 WIB"
+    "generated_at": "2026-08-22 19:20 WIB"
   },
   "d8UGBdSJYsg": {
     "org_slug": "snowvalley-agency",
@@ -43817,27 +43817,34 @@
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-08-22 19:04 WIB"
+    "generated_at": "2026-08-22 19:20 WIB"
   },
   "A6b0g-QqD7Q": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-08-22 19:04 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-22 19:20 WIB"
   },
   "EhFlqGC_4Bw": {
     "org_slug": "maha5",
     "ch_slug": "saku-kurata-maha5",
     "ch_name": "Saku Kurata 【MAHA5】",
-    "status": "live",
-    "generated_at": "2026-08-22 19:04 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-22 19:20 WIB"
   },
   "s3nAWipNgOs": {
     "org_slug": "aurora-project",
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-08-22 19:04 WIB"
+    "generated_at": "2026-08-22 19:20 WIB"
+  },
+  "cwBzUGUTj9o": {
+    "org_slug": "crims-on",
+    "ch_slug": "iana-crims-on",
+    "ch_name": "Iana【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-08-22 19:20 WIB"
   }
 }
