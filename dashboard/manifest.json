@@ -43943,7 +43943,7 @@
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-23 06:16 WIB"
+    "generated_at": "2026-08-23 07:40 WIB"
   },
   "Gd4B60vBh4g": {
     "org_slug": "evren-community",
@@ -44026,7 +44026,14 @@
     "org_slug": "arvi-media",
     "ch_slug": "ringo-soda",
     "ch_name": "Ringo Soda",
+    "status": "vod",
+    "generated_at": "2026-08-23 07:40 WIB"
+  },
+  "q1kIt1uXYGA": {
+    "org_slug": "snowdrop-live",
+    "ch_slug": "bouya-kyuuroku-snowdrop",
+    "ch_name": "Bouya Kyuuroku | SNOWDROP",
     "status": "live",
-    "generated_at": "2026-08-23 06:16 WIB"
+    "generated_at": "2026-08-23 07:40 WIB"
   }
 }
