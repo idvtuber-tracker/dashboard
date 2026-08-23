@@ -43943,7 +43943,7 @@
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-23 10:59 WIB"
+    "generated_at": "2026-08-23 11:16 WIB"
   },
   "Gd4B60vBh4g": {
     "org_slug": "evren-community",
@@ -44040,15 +44040,15 @@
     "org_slug": "uver-id",
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-08-23 10:59 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-23 11:16 WIB"
   },
   "wHaD81wPMZs": {
     "org_slug": "uver-id",
     "ch_slug": "cyure-michantrell-ch-uver-id",
     "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-08-23 10:59 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-23 11:16 WIB"
   },
   "Kgii-qvuHhY": {
     "org_slug": "yorukaze",
@@ -44062,7 +44062,7 @@
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-23 10:59 WIB"
+    "generated_at": "2026-08-23 11:16 WIB"
   },
   "pdlQt8IvClk": {
     "org_slug": "project-eternoia",
@@ -44076,20 +44076,34 @@
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-23 10:59 WIB"
+    "generated_at": "2026-08-23 11:16 WIB"
   },
   "MZeWA1JiZE8": {
     "org_slug": "noisette",
     "ch_slug": "madu-rumble-noisette",
     "ch_name": "Madu Rumble【Noisette】",
     "status": "live",
-    "generated_at": "2026-08-23 10:59 WIB"
+    "generated_at": "2026-08-23 11:16 WIB"
   },
   "C6CdFST2R1k": {
     "org_slug": "uver-id",
     "ch_slug": "zelinus-vihnlock",
     "ch_name": "Zelinus Vihnlock",
     "status": "live",
-    "generated_at": "2026-08-23 10:59 WIB"
+    "generated_at": "2026-08-23 11:16 WIB"
+  },
+  "_6it4IQiK8E": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-08-23 11:16 WIB"
+  },
+  "mRRUwp2lbuQ": {
+    "org_slug": "snowdrop-live",
+    "ch_slug": "oiruka-lovin-snowdrop",
+    "ch_name": "Oiruka Lovin | SNOWDROP",
+    "status": "live",
+    "generated_at": "2026-08-23 11:16 WIB"
   }
 }
