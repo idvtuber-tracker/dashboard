@@ -43943,7 +43943,7 @@
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-23 08:04 WIB"
+    "generated_at": "2026-08-23 08:13 WIB"
   },
   "Gd4B60vBh4g": {
     "org_slug": "evren-community",
@@ -44034,6 +44034,20 @@
     "ch_slug": "bouya-kyuuroku-snowdrop",
     "ch_name": "Bouya Kyuuroku | SNOWDROP",
     "status": "live",
-    "generated_at": "2026-08-23 08:04 WIB"
+    "generated_at": "2026-08-23 08:13 WIB"
+  },
+  "45GJmFD1CLU": {
+    "org_slug": "uver-id",
+    "ch_slug": "jae-min-ho-uver-id",
+    "ch_name": "Jae Min Ho [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-08-23 08:13 WIB"
+  },
+  "wHaD81wPMZs": {
+    "org_slug": "uver-id",
+    "ch_slug": "cyure-michantrell-ch-uver-id",
+    "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-08-23 08:13 WIB"
   }
 }
