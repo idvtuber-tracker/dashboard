@@ -226,22 +226,6 @@ ORG_MAP = {
             ("Maura Nilambari - JKT48V", "talent", "UCWK3jDHD_LzCTu4CF7amN8A"),  
         ],
     },
-    "maha5": {
-        "label":   "MAHA5",
-        "color":   "#34d399",
-        "color_light": "#1b7e5a",
-        "desc":    "An Indonesian VTuber agency (Mahapanca) under Rentracks Indonesia, connecting Indonesia and Japan through anime and otaku culture.",
-        "channels": [
-            ("MAHA5 mahapanca - Vtuber Group", "org", "UCzc8GwjUvecxpjhGtuewYOQ"),  
-            ("Kevin Vangardo【MAHA5】", "talent", "UCAnKiHbZhEayttn6p-sxfbg"),  
-            ("Rena Anggraeni【MAHA5】", "talent", "UCjQyHnE_Q58jYTaP8gRHv4g"),  
-            ("Hera Garalea【MAHA5】", "talent", "UCXMdn7Omv5l2yqQxuepQtNA"),  
-            ("Daisy Ignacia Y【MAHA5】", "talent", "UCgwZmQZC7O-TP1Xbnz50VtQ"),  
-            ("Saku Kurata 【MAHA5】", "talent", "UCxL9H-mOD2Op4yynXPOWGnQ"),  
-            ("Maudy Sukaiga【MAHA5】", "talent", "UCmp1vw137-GvWyrBFraXQUw"),  
-            ("Fuyumi Celestia【MAHA5】", "talent", "UCge_6FJHyeOCxRtWCmaVTAQ"),  
-        ],
-    },
     "uver-id": {
         "label":   "UVER ID",
         "color":   "#9f6fff",
@@ -402,6 +386,7 @@ ORG_MAP = {
             ("Celina Olystia Ch •SnowValley", "talent", "UCPAOc_fgQeTjHMAni8rx-Cw"),  
             ("Shine Naira Ch. •SnowValley", "talent", "UC9ik6MJGi3esadK15ioS6FA"),  
             ("Naona Neon Ch. •SnowValley", "talent", "UCIW8RtcLw4WiG1ul2dTaryA"),  
+            ("Shaz Eilya Ch •SnowValley", "talent", "UC39htB2o1MUpEttiRH-VPog"),  
         ],
     },
     "evren-community": {
@@ -537,7 +522,7 @@ ORG_MAP = {
             ("Allyra Violette 🪨", "talent", "UCf6sMG9IoPZdH0YkJjuiTDA"),  
             ("Fumiko Runa", "talent", "UC04U35JmcEgIGqWy0GIOQJA"),  
             ("Miori Sora 【3D VTUBERID】", "talent", "UCsqw5FqSIaKcRJneZPkHXzA"),  
-            ("Fuyusierra Ch.", "talent", "UCONcWMRzap_W0DEF7zX9-XA"),  
+            ("Mpuy Ch.", "talent", "UCyZxPz8EnsAb9xp3RTHac5w"),  
         ],
     },
     "snowdrop-live": {
@@ -555,6 +540,42 @@ ORG_MAP = {
             ("Bouya Kyuuroku | SNOWDROP", "talent", "UCMxpS_MslNzxto09z4c9tmg"),  
             ("Ansel Cervidae | SNOWDROP", "talent", "UC4kEpH32CdyqveaDWbV560A"),  
             ("Althea Aurita 🫧【SNOWDROP】", "talent", "UC7cXN2YsLzFYOja1ilAgCMQ"),  
+        ],
+    },
+    "neoespoir": {
+        "label":   "NeoEspoir",
+        "color":   "#7ee458",
+        "color_light": "#297010",
+        "desc":    "A New Indonesia VTuber circle with experienced members.",
+        "channels": [
+            ("NeoEspoir", "org", "UCQUke0tzwX8Kyb-vDx1aTbQ"),  
+            ("Nachann Wa Harmonie Ch.", "talent", "UCfX1JLICEmnvtzHPXKFYPFw"),  
+            ("Kurotsuki Amaris Ch.", "talent", "UCEyJ2CPmkxVGFel9aWvNdRw"),  
+        ],
+    },
+    "oristarium": {
+        "label":   "Oristarium",
+        "color":   "#c882ed",
+        "color_light": "#651093",
+        "desc":    "Small group with long history.",
+        "channels": [
+            ("Oristarium", "org", "UCs2cc9J_tgt79Hu733lsnww"),  
+            ("Ahomika_Ch【Oristarium】", "talent", "UCvFkfdp2kkNFRafUvZo5NmQ"),  
+            ("Juliana Shafira", "talent", "UC6JkRqQXgdvmkBrc-fIl5RQ"),  
+        ],
+    },
+    "nawasena-live": {
+        "label":   "NAWASENA",
+        "color":   "#4bdd63",
+        "color_light": "#117421",
+        "desc":    "Indonesia VTuber agency which has existed since 2022.",
+        "channels": [
+            ("Nawasena Official", "org", "UCjyolHN3CsD4vDpJUA8YgCw"),  
+            ("Aiko Zurie 【NAWASENA】", "talent", "UC9K06WjkjXUoq_OKCJXS4dQ"),  
+            ("Akira Kanon Ch.【NAWASENA】", "talent", "UCn1zf0taWBhah_IwEIMI1ew"),  
+            ("Kuma Wang【NAWASENA】", "talent", "UCNQ6hmmo0thps12ahW5Qfww"),  
+            ("KUKURYU【NAWASENA】", "talent", "UC4_NlwaQKyCDOyjDti6fEpQ"),  
+            (MooMi Latte 【NAWASENA】", "talent", "UCkkTgCuvfBaS8anB1anMHIA"),  
         ],
     },
 }
