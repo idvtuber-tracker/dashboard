@@ -43943,7 +43943,7 @@
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "Gd4B60vBh4g": {
     "org_slug": "evren-community",
@@ -44104,7 +44104,7 @@
     "ch_slug": "oiruka-lovin-snowdrop",
     "ch_name": "Oiruka Lovin | SNOWDROP",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "-HpzdCiJFgQ": {
     "org_slug": "project-livium",
@@ -44279,7 +44279,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "St8SCMlm9Wc": {
     "org_slug": "crims-on",
@@ -44363,21 +44363,21 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "0-EEk8MCG-Q": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "prHjVh3WW1s": {
     "org_slug": "cozycazt",
     "ch_slug": "silveryshore-ch-cozycazt",
     "ch_name": "Silveryshore Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "xsmhD1a3duc": {
     "org_slug": "whicker-butler",
@@ -44545,7 +44545,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "KRMw99N9iSs": {
     "org_slug": "whicker-butler",
@@ -44559,7 +44559,7 @@
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "DNl-zSBjBPw": {
     "org_slug": "snowvalley-agency",
@@ -44579,8 +44579,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "a2cVhTPZfAI": {
     "org_slug": "afterain",
@@ -44601,14 +44601,14 @@
     "ch_slug": "fein-kanau-virtual",
     "ch_name": "fein 【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "BIGeD0kaqDk": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-24 19:00 WIB"
+    "generated_at": "2026-08-24 19:16 WIB"
   },
   "iLLk4E7Hrwo": {
     "org_slug": "nawasena-live",
@@ -44616,5 +44616,33 @@
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "vod",
     "generated_at": "2026-08-24 18:44 WIB"
+  },
+  "JdqSuEecCA4": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-08-24 19:16 WIB"
+  },
+  "uVzLlB9OBKU": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuura-yozakura-ch-livipro",
+    "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-24 19:16 WIB"
+  },
+  "TvX68rOtsFY": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "airia-eroselle-mejikuhibiniu",
+    "ch_name": "Airia Eroselle【Mejikuhibiniu】",
+    "status": "live",
+    "generated_at": "2026-08-24 19:16 WIB"
+  },
+  "X5Z16b40gI4": {
+    "org_slug": "project-eternoia",
+    "ch_slug": "allyra-violette",
+    "ch_name": "Allyra Violette 🪨",
+    "status": "live",
+    "generated_at": "2026-08-24 19:16 WIB"
   }
 }
