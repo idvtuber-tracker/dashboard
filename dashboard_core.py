@@ -575,7 +575,7 @@ ORG_MAP = {
             ("Akira Kanon Ch.【NAWASENA】", "talent", "UCn1zf0taWBhah_IwEIMI1ew"),  
             ("Kuma Wang【NAWASENA】", "talent", "UCNQ6hmmo0thps12ahW5Qfww"),  
             ("KUKURYU【NAWASENA】", "talent", "UC4_NlwaQKyCDOyjDti6fEpQ"),  
-            (MooMi Latte 【NAWASENA】", "talent", "UCkkTgCuvfBaS8anB1anMHIA"),  
+            ("MooMi Latte 【NAWASENA】", "talent", "UCkkTgCuvfBaS8anB1anMHIA"),  
         ],
     },
 }
