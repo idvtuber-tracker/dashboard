@@ -540,8 +540,8 @@ header { animation: fadeUp 0.5s ease both; }
 .hero-meta-item { display: flex; align-items: center; gap: 0.3rem; }
 .hero-meta-item strong { color: var(--accent-text); font-weight: 500; }
 .hero-actions { flex-shrink: 0; align-self: flex-start; }
-.yt-link { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); text-decoration: none; border: 1px solid var(--border); border-radius: 3px; padding: 0.38rem 0.7rem; transition: border-color 0.2s, color 0.2s; }
-.yt-link:hover { border-color: var(--red); color: var(--red); }
+.external-link { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); text-decoration: none; border: 1px solid var(--border); border-radius: 3px; padding: 0.38rem 0.7rem; transition: border-color 0.2s, color 0.2s; }
+.external-link:hover { border-color: var(--org-color); color: var(--accent-text); }
 
 /* ── kpi strip ── */
 .kpi-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 2rem; animation: fadeUp 0.5s 0.05s ease both; }
