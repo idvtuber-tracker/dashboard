@@ -183,7 +183,6 @@ ORG_MAP = {
             ("Flein Ryst【AFTERAIN】",        "talent", "UCY-fhXM0BzpBtBk1czoY5fA"),
             ("Avy Inkaiserin 【AFTERAIN】",   "talent", "UCvHWaiG9YSPgmLhNuLmqMUA"),
             ("Kana Chizu 【AFTERAIN】",       "talent", "UCh5wq5bs4VG1ah3THbW156g"),
-            ("Ririna Ruu【AFTERAIN】",        "talent", "UC_vnL6pH3Mm3XrnuQ38LWtQ"),
         ],
     },
     "magniv": {
@@ -221,6 +220,7 @@ ORG_MAP = {
         "channels": [
             ("JKT48V", "org", "UCX3wkex0h-KP7Z3Q9SDkMIA"),  
             ("Pia Meraleo - JKT48V", "talent", "UCIa2OxCyhjWjJke-9yYNbwA"),  
+            ("Tana Nona - JKT48V", "talent", "UCyam-qAWHwBoVnTNXk3gHbQ"),  
             ("Sami Maono - JKT48V", "talent", "UCrLhVcbVYhSGWlR6oM8FqTg"),  
             ("Isha Kirana - JKT48V", "talent", "UCYm4XQ_YzSnaBZ0UdOIAlrQ"),  
             ("Maura Nilambari - JKT48V", "talent", "UCWK3jDHD_LzCTu4CF7amN8A"),  
@@ -295,7 +295,6 @@ ORG_MAP = {
         "channels": [
             ("Limitless Actress Virtual", "org", "UCggn9-ggn4aJplrvlgiSVeQ"),  
             ("Tachibana Mirai Ch. 【LAV】", "talent", "UC8YJreYPp3rnoLYOSGvwAAw"),  
-            ("Akane Nanase Ch. 【LAV】", "talent", "UCV1iD5TIQZnK33Y7Q4y84IA"),  
             ("Kanata Reina Ch.【LAV】", "talent", "UC7mf0CkU3-8ulUiVVleVnhg"),  
         ],
     },
@@ -1247,7 +1246,7 @@ _FONTS = (
 # files copied verbatim by setup_output_dirs() rather than passed through
 # _html_head(). Keep the measurement ID in sync across all three call sites
 # if it ever changes.
-_GA_MEASUREMENT_ID = "G-29RTBLR6HQ"
+_GA_MEASUREMENT_ID = "G-29RTBLR6HQ"   
 _GA_SNIPPET = (
     f'<script async src="https://www.googletagmanager.com/gtag/js?id={_GA_MEASUREMENT_ID}"></script>\n'
     f'<script>\n'
@@ -2544,7 +2543,7 @@ def write_channel_page(org_slug: str, org: dict, ch_name: str,
         f'        </div>\n'
         f'      </div>\n'
         f'      <div class="hero-actions">\n'
-        f'        <a class="yt-link" href="{yt_url}" target="_blank" rel="noopener">&#9654; YouTube</a>\n'
+        f'        <a class="external-link" href="{yt_url}" target="_blank" rel="noopener">View Channel &#8599;</a>\n'
         f'      </div>\n'
         f'    </div>\n'
         f'  </div>\n'
@@ -2688,7 +2687,7 @@ def write_stream_page(org_slug: str, org: dict, ch_name: str,
         f'      </div>\n'
         f'      <div class="stream-thumb-meta">\n'
         f'        <span>{fmt_dt(stream["first_seen"])}</span>\n'
-        f'        <a href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener">Watch on YouTube ↗</a>\n'
+        f'        <a href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener">View Stream &#8599;</a>\n'
         f'      </div>\n'
         f'    </div>\n'
         f'    <div class="kpi-side">\n'
