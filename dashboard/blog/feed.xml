@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>IDVTuber Tracker Blog</title>
+  <link>https://idvtuber-tracker.github.io/dashboard/blog/index.html</link>
+  <description>Development notes and infrastructure updates.</description>
+  <item>
+    <title>Welcome to the IDVTuber Tracker Blog</title>
+    <link>https://idvtuber-tracker.github.io/dashboard/blog/welcome-to-the-blog.html</link>
+    <guid>https://idvtuber-tracker.github.io/dashboard/blog/welcome-to-the-blog.html</guid>
+    <pubDate>Thu, 27 Aug 2026 00:00:00 +0700</pubDate>
+    <description>Why this blog exists, what it'll be used for, and a quick tour of the dashboard for anyone finding the project for the first time.</description>
+  </item>
+  <item>
+    <title>readme</title>
+    <link>https://idvtuber-tracker.github.io/dashboard/blog/readme.html</link>
+    <guid>https://idvtuber-tracker.github.io/dashboard/blog/readme.html</guid>
+    <pubDate>Thu, 27 Aug 2026 00:00:00 +0700</pubDate>
+    <description></description>
+  </item>
+</channel></rss>
