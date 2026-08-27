@@ -410,6 +410,13 @@ footer .footer-sep { opacity: 0.35; }
 .nav-live-pill { display: none; border-color: var(--gold); background: rgba(245,200,66,.08); color: var(--gold); }
 .nav-live-pill.has-live { display: inline-flex; }
 .nav-live-pill:hover { background: rgba(245,200,66,.16); }
+/* nav-blog-link is a navigation link, not a status indicator like the LIVE
+   pill above it — it borrows .search-trigger's hover treatment instead
+   (blue border, brighter text) since that's the other "click this, it
+   takes you somewhere" element in this cluster. Plain .nav-pill on its own
+   declares a background transition but nothing ever sets a background on
+   hover, so without this the Blog link would sit there visually inert. */
+.nav-blog-link:hover { border-color: var(--blue); color: var(--text); } 
 .nav-live-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); flex-shrink: 0; animation: navLivePulse 1.6s infinite; }
 @keyframes navLivePulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
 .nav-spacer { flex: 1; }
