@@ -1576,6 +1576,7 @@ def _html_head(title: str, depth: int, org_color: str = "#e8ff47",
         f'  </a>\n'
         f'  <span class="nav-spacer"></span>\n'
         + f'  <div class="nav-right-cluster">\n'
+        f'    <a class="nav-pill nav-blog-link" href="{"../" * depth}blog/index.html">Blog</a>\n'
         f'    <a class="{nav_pill_class}" id="navLivePill" href="{"../" * depth}live.html">\n'
         f'      <span class="pulse-strip" id="navPulseStrip"></span>\n'
         f'      <span class="nav-live-dot"></span> LIVE <strong id="navLiveCount">{nav_pill_count}</strong>\n'
