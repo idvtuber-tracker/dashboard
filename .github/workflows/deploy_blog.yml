@@ -3,8 +3,10 @@ name: Deploy Blog
 # Lives in the DASHBOARD repo (idvtuber-tracker/dashboard), alongside
 # deploy_dashboard_live.yml / deploy_dashboard_backfill.yml.
 #
-# Triggered only when a post markdown file changes, so it stays completely
-# out of the way of the 15-minute live loop and the hourly backfill loop.
+# Manual trigger only (workflow_dispatch) — no longer fires automatically
+# on a push to blog/posts/ or blog/images/. Trigger it from the Actions tab
+# after committing a post or image, whenever you're ready to publish.
+#
 # generate_blog.py does a full rebuild every run (cheap — a handful of
 # markdown files, no DB, no YouTube API) so there's no manifest to reconcile
 # and no risk of the partial-build gotchas that affect stream pages.
@@ -15,11 +17,6 @@ name: Deploy Blog
 # must run one at a time or risk clobbering each other's committed baseline.
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "blog/posts/**.md"
-      - "blog/images/**"
   workflow_dispatch:
 
 permissions:
@@ -55,6 +52,12 @@ jobs:
           cache: pip
 
       - name: Install dependencies
+        # dashboard_core.py now guards its psycopg2 import (try/except
+        # ImportError, same pattern it already used for google-api-python-
+        # client) specifically so this workflow doesn't need the full
+        # requirements.txt — generate_blog.py only uses dashboard_core.py's
+        # HTML-generation helpers and never opens a DB connection, so there's
+        # no reason to install psycopg2-binary's compiled wheel here.
         run: pip install markdown==3.7 python-frontmatter==1.1.0
 
       - name: Generate blog pages
