@@ -46827,14 +46827,14 @@
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-08-27 18:49 WIB"
+    "generated_at": "2026-08-27 19:07 WIB"
   },
   "hEl4GaKtQvk": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-27 18:49 WIB"
+    "generated_at": "2026-08-27 19:07 WIB"
   },
   "KhBnN-Yd2HI": {
     "org_slug": "uver-id",
@@ -46896,8 +46896,8 @@
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-08-27 18:49 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-27 19:07 WIB"
   },
   "49_Xi9PakEw": {
     "org_slug": "pandavva",
@@ -46910,28 +46910,56 @@
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
-    "status": "live",
-    "generated_at": "2026-08-27 18:49 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-27 19:07 WIB"
   },
   "EILLmWAEKwg": {
     "org_slug": "uver-id",
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-27 18:49 WIB"
+    "generated_at": "2026-08-27 19:07 WIB"
   },
   "hp2EqsFNv-4": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-27 18:49 WIB"
+    "generated_at": "2026-08-27 19:07 WIB"
   },
   "iH5PQBLF9q0": {
     "org_slug": "pandavva",
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-27 18:49 WIB"
+    "generated_at": "2026-08-27 19:07 WIB"
+  },
+  "f1OG3JVnG7Y": {
+    "org_slug": "versa",
+    "ch_slug": "alarich-versa",
+    "ch_name": "Alarich【VERSA】",
+    "status": "live",
+    "generated_at": "2026-08-27 19:07 WIB"
+  },
+  "B_uVhUeZcJ4": {
+    "org_slug": "lav-idn",
+    "ch_slug": "tachibana-mirai-ch-lav",
+    "ch_name": "Tachibana Mirai Ch. 【LAV】",
+    "status": "live",
+    "generated_at": "2026-08-27 19:07 WIB"
+  },
+  "EoSTbWg15EY": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "karissa-sharlotte-dasoriyal",
+    "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-08-27 19:07 WIB"
+  },
+  "0Uv3bVnjZkY": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "poppu-pippero-mejikuhibiniu",
+    "ch_name": "Poppu Pippero 【Mejikuhibiniu】",
+    "status": "live",
+    "generated_at": "2026-08-27 19:07 WIB"
   }
 }
