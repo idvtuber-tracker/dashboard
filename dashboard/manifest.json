@@ -46553,8 +46553,8 @@
     "org_slug": "mejikuhibiniu",
     "ch_slug": "poppu-pippero-mejikuhibiniu",
     "ch_name": "Poppu Pippero 【Mejikuhibiniu】",
-    "status": "live",
-    "generated_at": "2026-08-27 12:50 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-27 13:12 WIB"
   },
   "IGfvIXtfj3g": {
     "org_slug": "crims-on",
@@ -46798,8 +46798,8 @@
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-08-27 12:50 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-27 13:12 WIB"
   },
   "Nh4az2Fj6EQ": {
     "org_slug": "cozycazt",
@@ -46827,13 +46827,34 @@
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-08-27 12:50 WIB"
+    "generated_at": "2026-08-27 13:12 WIB"
   },
   "hEl4GaKtQvk": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-27 12:50 WIB"
+    "generated_at": "2026-08-27 13:12 WIB"
+  },
+  "KhBnN-Yd2HI": {
+    "org_slug": "uver-id",
+    "ch_slug": "nephthya-anya-ch-uver-id",
+    "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-08-27 13:12 WIB"
+  },
+  "DZ5jKZqf18I": {
+    "org_slug": "lav-idn",
+    "ch_slug": "tachibana-mirai-ch-lav",
+    "ch_name": "Tachibana Mirai Ch. 【LAV】",
+    "status": "live",
+    "generated_at": "2026-08-27 13:12 WIB"
+  },
+  "Inhqc5qjwvg": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-08-27 13:12 WIB"
   }
 }
