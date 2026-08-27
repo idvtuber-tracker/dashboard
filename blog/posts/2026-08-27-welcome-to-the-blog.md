@@ -2,7 +2,7 @@
 title: "Welcome to the IDVTuber Tracker Blog"
 date: 2026-08-27
 tags: [announcement, meta]
-image: blog/images/launch-banner.jpg
+image: /images/launch-banner.jpg
 excerpt: "Why this blog exists, what it'll be used for, and a quick tour of the dashboard for anyone finding the project for the first time."
 ---
 
@@ -12,7 +12,7 @@ This is the first post on the IDVTuber Tracker blog. If you've landed here
 from the dashboard's new nav link and are wondering what this project
 actually is, here's the short version.
 
-![IDVTuber Tracker dashboard overview](/images/launch-banner.jpg)
+![IDVTuber Tracker dashboard overview](/blog/images/launch-banner.jpg)
 
 **IDVTuber Tracker** is a non-commercial fan analytics dashboard that
 monitors YouTube livestream activity across 220+ Indonesian VTuber
@@ -54,4 +54,4 @@ If you want the full technical rundown, the
 the README and architecture notes. If you just want the numbers, the
 [dashboard](/index.html) is the place to be.
 
-Thanks for stopping by — more posts soon.
+Thanks for stopping by. More posts soon.
