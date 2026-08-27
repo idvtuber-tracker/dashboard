@@ -12,7 +12,7 @@ This is the first post on the IDVTuber Tracker blog. If you've landed here
 from the dashboard's new nav link and are wondering what this project
 actually is, here's the short version.
 
-![IDVTuber Tracker dashboard overview](blog/images/launch-banner.jpg)
+![IDVTuber Tracker dashboard overview](/images/launch-banner.jpg)
 
 **IDVTuber Tracker** is a non-commercial fan analytics dashboard that
 monitors YouTube livestream activity across 220+ Indonesian VTuber
