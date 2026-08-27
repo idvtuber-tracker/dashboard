@@ -36,9 +36,23 @@ _LOCAL_TZ = ZoneInfo("Asia/Jakarta")
 def _now_local() -> datetime:
     return datetime.now(_LOCAL_TZ)
 
-import psycopg2
-import psycopg2.extras
-
+try:
+    import psycopg2
+    import psycopg2.extras
+    _PSYCOPG2_AVAILABLE = True
+except ImportError:
+    # Every function that actually needs psycopg2 (get_conn, get_channel_rows,
+    # get_all_streams_bulk, etc.) is only ever called from DB-dependent entry
+    # points — generate_live.py, generate_backfill.py, force_regen_pages.py —
+    # which install requirements.txt and always have it. generate_blog.py is
+    # the one caller that imports this module purely for its HTML helpers
+    # (_html_head, _breadcrumb, esc, slugify) and never touches the DB, so it
+    # shouldn't need to install psycopg2-binary's compiled wheel just to
+    # satisfy an import it never uses. Mirrors the googleapiclient guard right
+    # below — if a DB function is called without psycopg2 installed, it fails
+    # loudly with a clear NameError at the call site, not a silent no-op.
+    _PSYCOPG2_AVAILABLE = False 
+  
 try:
     from googleapiclient.discovery import build as yt_build
     from googleapiclient.errors import HttpError as _HttpError
@@ -622,6 +636,17 @@ def save_manifest(manifest: dict) -> None:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def get_conn():
+    if not _PSYCOPG2_AVAILABLE:
+        raise RuntimeError(
+            "psycopg2 is not installed. Every database-backed function in "
+            "this module goes through get_conn(), so this is the one place "
+            "that needs to fail loudly and clearly rather than further down "
+            "the call stack as a cryptic NameError. Install psycopg2-binary "
+            "(e.g. `pip install -r requirements.txt`) before calling any "
+            "DB-dependent function — or if you only need the HTML-generation "
+            "helpers (as generate_blog.py does), this code path was never "
+            "meant to run at all."
+        )
     # Connects via PgBouncer (port 6543) which is required on Supabase to
     # avoid exhausting the 60-connection direct Postgres limit (port 5432).
     # PgBouncer runs in transaction-pooling mode so the options= kwarg on
@@ -1576,7 +1601,6 @@ def _html_head(title: str, depth: int, org_color: str = "#e8ff47",
         f'  </a>\n'
         f'  <span class="nav-spacer"></span>\n'
         + f'  <div class="nav-right-cluster">\n'
-        f'    <a class="nav-pill nav-blog-link" href="{"../" * depth}blog/index.html">Blog</a>\n'
         f'    <a class="{nav_pill_class}" id="navLivePill" href="{"../" * depth}live.html">\n'
         f'      <span class="pulse-strip" id="navPulseStrip"></span>\n'
         f'      <span class="nav-live-dot"></span> LIVE <strong id="navLiveCount">{nav_pill_count}</strong>\n'
@@ -1788,6 +1812,8 @@ def _html_foot(depth: int, page_type: str = '') -> str:
         f'    <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>\n'
         f'    <nav class="footer-links">\n'
         f'      <a href="{rel}index.html">Home</a>\n'
+        f'      <span class="footer-sep">·</span>\n'
+        f'      <a href="{rel}blog/index.html">Blog</a>\n'
         f'      <span class="footer-sep">·</span>\n'
         f'      <a href="{rel}privacy.html">Privacy Policy</a>\n'
         f'      <span class="footer-sep">·</span>\n'
