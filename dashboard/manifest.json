@@ -47212,7 +47212,7 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-08-29 03:31 WIB"
+    "generated_at": "2026-08-29 03:39 WIB"
   },
   "hF1z1Sg4lWY": {
     "org_slug": "aisatset",
@@ -47548,7 +47548,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-29 03:31 WIB"
+    "generated_at": "2026-08-29 03:39 WIB"
   },
   "bG9YAIyVUJ0": {
     "org_slug": "cozycazt",
@@ -47556,5 +47556,19 @@
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "vod",
     "generated_at": "2026-08-29 03:14 WIB"
+  },
+  "p09MZa5dWr4": {
+    "org_slug": "laeta",
+    "ch_slug": "sevina-reina-laeta",
+    "ch_name": "Sevina Reina【LAETA】",
+    "status": "vod",
+    "generated_at": "2026-08-29 03:39 WIB"
+  },
+  "xKweoRWtBIE": {
+    "org_slug": "reverie",
+    "ch_slug": "cygne-ictis-r-verie",
+    "ch_name": "Cygne Ictis 【 R𝄢VERIE 】",
+    "status": "vod",
+    "generated_at": "2026-08-29 03:39 WIB"
   }
 }
