@@ -47212,20 +47212,41 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-08-28 12:55 WIB"
+    "generated_at": "2026-08-28 13:15 WIB"
   },
   "hF1z1Sg4lWY": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-28 12:55 WIB"
+    "generated_at": "2026-08-28 13:15 WIB"
   },
   "iGOQRAy1OSI": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-08-28 12:55 WIB"
+    "generated_at": "2026-08-28 13:15 WIB"
+  },
+  "QmdsAV-llJo": {
+    "org_slug": "neoespoir",
+    "ch_slug": "nachann-wa-harmonie-ch",
+    "ch_name": "Nachann Wa Harmonie Ch.",
+    "status": "live",
+    "generated_at": "2026-08-28 13:15 WIB"
+  },
+  "s30ZFMd4FCQ": {
+    "org_slug": "magisona",
+    "ch_slug": "iofiel-feliz-ch-magisona",
+    "ch_name": "ioFiel Feliz Ch.【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-08-28 13:15 WIB"
+  },
+  "LF5lJKrJFUc": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-08-28 13:15 WIB"
   }
 }
