@@ -47212,14 +47212,14 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-08-28 16:20 WIB"
+    "generated_at": "2026-08-28 16:36 WIB"
   },
   "hF1z1Sg4lWY": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-28 16:20 WIB"
+    "generated_at": "2026-08-28 16:36 WIB"
   },
   "iGOQRAy1OSI": {
     "org_slug": "cozycazt",
@@ -47233,7 +47233,7 @@
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-08-28 16:20 WIB"
+    "generated_at": "2026-08-28 16:36 WIB"
   },
   "s30ZFMd4FCQ": {
     "org_slug": "magisona",
@@ -47261,34 +47261,41 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-28 16:20 WIB"
+    "generated_at": "2026-08-28 16:36 WIB"
   },
   "pCxrhGQKJzo": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "poppu-pippero-mejikuhibiniu",
     "ch_name": "Poppu Pippero 【Mejikuhibiniu】",
-    "status": "live",
-    "generated_at": "2026-08-28 16:20 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-28 16:36 WIB"
   },
   "9d7tvlCxolM": {
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
     "status": "live",
-    "generated_at": "2026-08-28 16:20 WIB"
+    "generated_at": "2026-08-28 16:36 WIB"
   },
   "ualLIgm4meE": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-08-28 16:20 WIB"
+    "generated_at": "2026-08-28 16:36 WIB"
   },
   "LsISpV1mBQI": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-08-28 16:20 WIB"
+    "generated_at": "2026-08-28 16:36 WIB"
+  },
+  "Em1D-kep_c0": {
+    "org_slug": "project-eternoia",
+    "ch_slug": "allyra-violette",
+    "ch_name": "Allyra Violette 🪨",
+    "status": "live",
+    "generated_at": "2026-08-28 16:36 WIB"
   }
 }
