@@ -47212,7 +47212,7 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "hF1z1Sg4lWY": {
     "org_slug": "aisatset",
@@ -47295,15 +47295,15 @@
     "org_slug": "project-eternoia",
     "ch_slug": "allyra-violette",
     "ch_name": "Allyra Violette 🪨",
-    "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "oMb9IQ7wzOs": {
     "org_slug": "cozycazt",
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "qk1-neKQmrU": {
     "org_slug": "mejikuhibiniu",
@@ -47317,76 +47317,83 @@
     "ch_slug": "serika-cosmica-prism-nova",
     "ch_name": "Serika Cosmica 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "iZEBHTRPYMw": {
     "org_slug": "magniv",
     "ch_slug": "shiru-magniv",
     "ch_name": "Shiru 【MagniV】",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "Ifc2bkhsHkU": {
     "org_slug": "pandavva",
     "ch_slug": "pandavva-official",
     "ch_name": "PANDAVVA Official",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "jXIA23ZeUsg": {
     "org_slug": "prism-nova",
     "ch_slug": "thalia-symphonia-prism-nova",
     "ch_name": "Thalia Symphonia 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "zXZClUL7THw": {
     "org_slug": "vcosmix",
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "lpREOx6I5xo": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "twjlgORNcCc": {
     "org_slug": "whicker-butler",
     "ch_slug": "darlyne-nightbloom-whicker-butler",
     "ch_name": "Darlyne Nightbloom【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "a4EE0RPgR58": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "vnasHmz6BnU": {
     "org_slug": "enygmyst-project",
     "ch_slug": "shia-naenia-enigmyst-project",
     "ch_name": "Shia Naenia 【ENIGMYST Project】",
-    "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "Rs_vk7Da26A": {
     "org_slug": "laeta",
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
-    "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-28 20:23 WIB"
   },
   "eSnQLn9DZ_g": {
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-08-28 20:04 WIB"
+    "generated_at": "2026-08-28 20:23 WIB"
+  },
+  "Z3qsx0D4BZE": {
+    "org_slug": "evren-community",
+    "ch_slug": "amami-yoruna",
+    "ch_name": "Amami Yoruna",
+    "status": "live",
+    "generated_at": "2026-08-28 20:23 WIB"
   }
 }
