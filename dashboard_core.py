@@ -591,6 +591,30 @@ ORG_MAP = {
             ("MooMi Latte 【NAWASENA】", "talent", "UCkkTgCuvfBaS8anB1anMHIA"),  
         ],
     },
+    "reverie": {
+        "label":   "Reverie",
+        "color":   "#ed6ed6",
+        "color_light": "#8a0f73",
+        "desc":    "Indonesian VSinger community to gather and develop.",
+        "channels": [
+            ("𝖱𝄢verie VSinger Indonesia", "org", "UCEyL1PdnVCcOHqqIuTF07_A"),  
+            ("Cygne Ictis 【 R𝄢VERIE 】", "talent", "UCezae6RFCp4UfjVV9SKaADw"),  
+            ("Hirari Octavia Ch.【R𝄢VERIE】", "talent", "UCySnv7mCLvWFG7AjZJuWDFQ"),  
+        ],
+    },
+    "enygmyst-project": {
+        "label":   "ENIGMYST Project",
+        "color":   "#907bea",
+        "color_light": "#24107f",
+        "desc":    "A basecamp where creatures solve clues and puzzles along the journey.",
+        "channels": [
+            ("ENIGMYST Project", "org", "UCtyXvuGv4HJqwVU8-uoOdTA"),  
+            ("Shia Naenia 【ENIGMYST Project】", "talent", "UC9qUMKTBpyvQ4tQWftLC5XQ"),  
+            ("Inha 【ENIGMYST Project】", "talent", "UCxXOFSscvNgrb1CRe2x2Xtg"),  
+            ("Victocrum 【ENIGMYST Project】", "talent", "UCgDsJIrnjqlso9BgGOU3Tmg"),  
+            ("Aera Ovistalia 【ENIGMYST Project】", "talent", "UCkcKAbeUwbq6UREwwsoHzAw"),  
+        ],
+    },
 }
 
 # Build reverse lookup: channel_name → (org_slug, org)
