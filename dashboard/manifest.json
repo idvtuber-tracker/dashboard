@@ -47212,7 +47212,7 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-08-29 11:01 WIB"
+    "generated_at": "2026-08-29 11:17 WIB"
   },
   "hF1z1Sg4lWY": {
     "org_slug": "aisatset",
@@ -47548,7 +47548,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-29 11:01 WIB"
+    "generated_at": "2026-08-29 11:17 WIB"
   },
   "bG9YAIyVUJ0": {
     "org_slug": "cozycazt",
@@ -47576,7 +47576,7 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-08-29 11:01 WIB"
+    "generated_at": "2026-08-29 11:17 WIB"
   },
   "w7W_yTZv92Q": {
     "org_slug": "evren-community",
@@ -47589,35 +47589,119 @@
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-08-29 11:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-29 11:17 WIB"
   },
   "WzJxc6RB7Hc": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-08-29 11:01 WIB"
+    "generated_at": "2026-08-29 11:17 WIB"
   },
   "M9cWGRQAhdk": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-08-29 11:01 WIB"
+    "generated_at": "2026-08-29 11:17 WIB"
   },
   "S_8Ly18WjdE": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-08-29 11:01 WIB"
+    "generated_at": "2026-08-29 11:17 WIB"
   },
   "7eABS8jBWwg": {
     "org_slug": "prism-nova",
     "ch_slug": "serika-cosmica-prism-nova",
     "ch_name": "Serika Cosmica 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-08-29 11:01 WIB"
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "TloYB-hl5FI": {
+    "org_slug": "yorukaze",
+    "ch_slug": "hessa-elainore-ch-yorukaze",
+    "ch_name": "Hessa Elainore Ch.【Yorukaze】",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "29OrB7qkXY0": {
+    "org_slug": "cozycazt",
+    "ch_slug": "vianna-risendria-cozycazt",
+    "ch_name": "Vianna Risendria 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "rm8bO_1umbM": {
+    "org_slug": "magniv",
+    "ch_slug": "gema-gathika-magniv",
+    "ch_name": "Gema Gathika【MagniV】",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "dY823CKyup4": {
+    "org_slug": "cozycazt",
+    "ch_slug": "rannia-taiga-cozycazt",
+    "ch_name": "Rannia Taiga 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "SIn4RB6MBHc": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuura-yozakura-ch-livipro",
+    "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "m-aIJvglBlc": {
+    "org_slug": "versa",
+    "ch_slug": "agata-seven-versa",
+    "ch_name": "Agata Seven【VERSA】",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "i_Y4gyfWOAQ": {
+    "org_slug": "versa",
+    "ch_slug": "ryoutaa-versa",
+    "ch_name": "Ryoutaa【VERSA】",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "PqKMxL0CC7M": {
+    "org_slug": "magniv",
+    "ch_slug": "cancncn-ezacancan-magniv",
+    "ch_name": "CANCNCN -Ezacancan-【MagniV】",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "0Stjpw3CJBk": {
+    "org_slug": "gravt",
+    "ch_slug": "ave-kanehoshii-gravt",
+    "ch_name": "Ave Kanehoshii【GRAVT】",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "cK6fP8xLTOA": {
+    "org_slug": "gravt",
+    "ch_slug": "daem-gravt",
+    "ch_name": "daem【GRAVT】",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "TJ-9DccX0Ek": {
+    "org_slug": "jkt48v",
+    "ch_slug": "pia-meraleo-jkt48v",
+    "ch_name": "Pia Meraleo - JKT48V",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
+  },
+  "9PrvYS0Jxdo": {
+    "org_slug": "oristarium",
+    "ch_slug": "juliana-shafira",
+    "ch_name": "Juliana Shafira",
+    "status": "live",
+    "generated_at": "2026-08-29 11:17 WIB"
   }
 }
