@@ -47212,7 +47212,7 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-08-29 06:59 WIB"
+    "generated_at": "2026-08-29 07:16 WIB"
   },
   "hF1z1Sg4lWY": {
     "org_slug": "aisatset",
@@ -47548,7 +47548,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-29 06:59 WIB"
+    "generated_at": "2026-08-29 07:16 WIB"
   },
   "bG9YAIyVUJ0": {
     "org_slug": "cozycazt",
@@ -47570,5 +47570,12 @@
     "ch_name": "Cygne Ictis 【 R𝄢VERIE 】",
     "status": "vod",
     "generated_at": "2026-08-29 03:39 WIB"
+  },
+  "SMKSEVGrfDU": {
+    "org_slug": "laeta",
+    "ch_slug": "shiraishi-oriel-laeta",
+    "ch_name": "Shiraishi Oriel【LAETA】",
+    "status": "live",
+    "generated_at": "2026-08-29 07:16 WIB"
   }
 }
