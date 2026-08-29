@@ -47212,7 +47212,7 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-08-29 18:14 WIB"
+    "generated_at": "2026-08-29 18:32 WIB"
   },
   "hF1z1Sg4lWY": {
     "org_slug": "aisatset",
@@ -47548,7 +47548,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-29 18:14 WIB"
+    "generated_at": "2026-08-29 18:32 WIB"
   },
   "bG9YAIyVUJ0": {
     "org_slug": "cozycazt",
@@ -47716,7 +47716,7 @@
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-29 18:14 WIB"
+    "generated_at": "2026-08-29 18:32 WIB"
   },
   "Pb-PROOceBw": {
     "org_slug": "uver-id",
@@ -47736,8 +47736,8 @@
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-08-29 18:14 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-29 18:32 WIB"
   },
   "QnBcxAP2IB4": {
     "org_slug": "afterain",
@@ -47750,8 +47750,8 @@
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-08-29 18:14 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-29 18:32 WIB"
   },
   "7AxHqBePDvM": {
     "org_slug": "aisatset",
@@ -47779,7 +47779,7 @@
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-29 18:14 WIB"
+    "generated_at": "2026-08-29 18:32 WIB"
   },
   "XbF5nU5UlKc": {
     "org_slug": "gravt",
@@ -47807,6 +47807,6 @@
     "ch_slug": "alarich-versa",
     "ch_name": "Alarich【VERSA】",
     "status": "live",
-    "generated_at": "2026-08-29 18:14 WIB"
+    "generated_at": "2026-08-29 18:32 WIB"
   }
 }
