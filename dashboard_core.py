@@ -116,6 +116,7 @@ ORG_MAP = {
         "desc":    "A boutique VTuber agency known for its refined aesthetic and five distinctive talents with global appeal.",
         "channels": [
             ("Whicker Butler",                           "org",    "UCc04w_tCWOiTkszx5DGqSag"),
+            ("Keiko Lynx Ch. #villain",               "talent", "UCCkCsgqSBmAnh9JVfvjLLSA"),
             ("Valthea Nankila 【 Whicker Butler 】",  "talent", "UCY1GUw8wBb_PSOzg7AoghvQ"),
             ("Ignis Grimoire【Whicker Butler】",       "talent", "UCJbrzGrVtSC0KbtkEzD50cw"),
             ("Darlyne Nightbloom【Whicker Butler】",   "talent", "UCtiNMw_89OUjPThykjwIsAA"),
