@@ -47212,7 +47212,7 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-08-29 09:29 WIB"
+    "generated_at": "2026-08-29 09:45 WIB"
   },
   "hF1z1Sg4lWY": {
     "org_slug": "aisatset",
@@ -47548,7 +47548,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-29 09:29 WIB"
+    "generated_at": "2026-08-29 09:45 WIB"
   },
   "bG9YAIyVUJ0": {
     "org_slug": "cozycazt",
@@ -47576,20 +47576,27 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-08-29 09:29 WIB"
+    "generated_at": "2026-08-29 09:45 WIB"
   },
   "w7W_yTZv92Q": {
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
-    "status": "live",
-    "generated_at": "2026-08-29 09:29 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-29 09:45 WIB"
   },
   "BDGw1yTDif0": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-29 09:29 WIB"
+    "generated_at": "2026-08-29 09:45 WIB"
+  },
+  "WzJxc6RB7Hc": {
+    "org_slug": "aisatset",
+    "ch_slug": "ungaume-aisatset-id",
+    "ch_name": "UngaUme【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-08-29 09:45 WIB"
   }
 }
