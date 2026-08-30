@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>Blog — IDVTuber Tracker</title>
+<title>Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling — IDVTuber Tracker</title>
 <link rel="icon" href="../favicon.ico">
 <script>window.SITE_DEPTH = 1;</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -220,144 +220,41 @@
   </div>
 </nav>
 <div class="page">
-  <header class="blog-hero">
+<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <a href="index.html">Blog</a> <span class="sep">&#8250;</span> <span class="current">Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</span></nav>
+  <header class="post-header">
     <p class="eyebrow">IDVTuber Tracker &#8212; Notes</p>
-    <h1>Project <em>Blog</em></h1>
-    <p class="blog-lede">Development notes, incident write-ups, and updates on the tracker infrastructure — API quota, runner migration, dashboard changes, and anything else worth logging.</p>
+    <h1>Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</h1>
+    <div class="post-meta-row">
+      <span>30 Aug 2026</span>
+      <span>2 min read</span>
+      <a class="tag-chip" href="index.html#tag=announcement">announcement</a><a class="tag-chip" href="index.html#tag=organization">organization</a><a class="tag-chip" href="index.html#tag=development">development</a>
+    </div>
   </header>
-  <div class="filter-status" id="filterStatus">
-    <span id="filterStatusText"></span>
-    <a class="clear-filter" href="#" id="clearFilter">Clear filter &#215;</a>
+  <div class="prose">
+<p>A quick check-in on where things stand with IDVTuber Tracker, since there&rsquo;s been a bit of movement behind the scenes lately.</p>
+<h2 id="two-more-orgs-on-the-board">Two more orgs on the board</h2>
+<p><strong>Reverie</strong> and <strong>ENIGMYST Pro</strong> have been added to the tracked roster. That brings the total organization count up again, on top of the 36+ orgs and 220+ channels already being tracked.</p>
+<p>Is this the last addition? Maybe! Every time I think the roster is &ldquo;done,&rdquo; another group turns up that&rsquo;s worth tracking. So consider this the <em>hopeful</em> final addition rather than a firm one. If another group surfaces that deserves a spot, it&rsquo;ll get added like the rest.</p>
+<h2 id="a-change-of-plans-for-the-raspberry-pi">A change of plans for the Raspberry Pi</h2>
+<p>The original idea was to fully migrate the main tracker&rsquo;s self-hosted runner onto a dedicated SBC (the Raspberry Pi 3B+), replacing the whole PC setup entirely. That migration is now <strong>cancelled</strong>.</p>
+<p>Instead, the Pi is being repurposed to run a <em>second</em>, fully separate tracker instance, one dedicated to <strong>indie VTubers</strong>: talents who aren&rsquo;t affiliated with any organization. Rather than squeezing everything into one pipeline, the indie tracker gets its own repos, its own database, its own <code>ORG_MAP</code>-equivalent, and now its own hardware. The main tracker stays where it is.</p>
+<p>This felt like a better use of the Pi&rsquo;s capacity than just being a like-for-like replacement runner. One box, two independent jobs, no risk of the indie experiment destabilizing the main dashboard.</p>
+<h2 id="will-the-indie-dashboard-link-up-with-the-main-one">Will the indie dashboard link up with the main one?</h2>
+<p>Possibly. Down the line, but there&rsquo;s no firm plan yet. The two dashboards are intentionally isolated right now (separate repos, separate Postgres, separate GCP project), which was the right call while the indie side was still being stood up and debugged. Once it&rsquo;s stable, it&rsquo;d be nice to have some kind of cross-link between &ldquo;orgs&rdquo; and &ldquo;indies&rdquo; for anyone browsing the site, but figuring out a <em>good</em> way to do that, without just bolting on a janky nav link, still needs some thought. No rush on this one.</p>
+<h2 id="sitting-on-the-fence-about-extra-api-quota-for-indies">Sitting on the fence about extra API quota for indies</h2>
+<p>The indie tracker is currently running on its own modest YouTube Data API allocation, and honestly, it&rsquo;s probably fine for now given how few channels it&rsquo;s tracking. Requesting a quota increase for it feels premature. That&rsquo;s more of a &ldquo;when the indie list actually grows&rdquo; problem than a &ldquo;right now&rdquo; problem. If the tracked indie count climbs meaningfully, that&rsquo;s when it&rsquo;ll be worth filing the request. Until then, no action needed.</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>✅ Reverie and ENIGMYST Pro added. Main tracker now covers 30++ orgs</li>
+<li>❌ Pi migration for the main tracker = cancelled</li>
+<li>✅ Pi repurposed to run the indie tracker instead</li>
+<li>🤔 Indie/main dashboard linking -&gt; undecided, revisit later</li>
+<li>🤔 Extra API quota for indies -&gt; on hold until the indie roster grows</li>
+</ul>
+<p>More updates as the indie side matures.</p>
   </div>
-  <div class="blog-main-grid">
-    <div>
-      <div class="post-grid">
-      <div class="post-card" data-tags="announcement organization development">
-        <a class="post-card-link" href="tracker-status-update.html">
-          <span class="post-date">30 Aug 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</div>
-          <div class="post-excerpt">Two new orgs join the roster, the Raspberry Pi's original migration plan got scrapped in favor of something more interesting, and the indie tracker project is starting to take shape.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=announcement">announcement</a><a class="tag-chip" href="#tag=organization">organization</a><a class="tag-chip" href="#tag=development">development</a></div>
-      </div>
-      <div class="post-card" data-tags="announcement meta">
-        <a class="post-card-link" href="welcome-to-the-blog.html">
-          <span class="post-date">27 Aug 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">Welcome to the IDVTuber Tracker Blog</div>
-          <div class="post-excerpt">Why this blog exists, what it'll be used for, and a quick tour of the dashboard for anyone finding the project for the first time.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=announcement">announcement</a><a class="tag-chip" href="#tag=meta">meta</a></div>
-      </div>
-      </div>
-      <p class="no-match" id="noMatch">No posts match this tag.</p>
-    </div>
-    <div class="sidebar-col">
-      <div class="side-panel">
-        <div class="panel-hdr">All posts</div>
-      <div class="archive-year-group is-open">
-        <button class="archive-year-toggle" aria-expanded="true">
-          <span>2026</span>
-          <span class="archive-year-chevron">&#9662;</span>
-        </button>
-        <div class="archive-year-body">
-        <div class="archive-month-group is-open">
-          <button class="archive-month-toggle" aria-expanded="true">
-            <span class="archive-month-toggle-left">August<span class="archive-month-count">2</span></span>
-            <span class="archive-month-chevron">&#9662;</span>
-          </button>
-          <div class="archive-month-body">
-          <a class="archive-link" href="tracker-status-update.html"><span class="archive-day">30</span>Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</a>
-          <a class="archive-link" href="welcome-to-the-blog.html"><span class="archive-day">27</span>Welcome to the IDVTuber Tracker Blog</a>
-          </div>
-        </div>
-        </div>
-      </div>
-      </div>
-      <div class="side-panel">
-        <div class="panel-hdr">Browse by tag</div>
-        <div class="tag-cloud">
-          <a class="tag-pill" href="#" data-tag="">All<span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=announcement" data-tag="announcement" data-label="announcement">announcement <span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=development" data-tag="development" data-label="development">development <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=meta" data-tag="meta" data-label="meta">meta <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=organization" data-tag="organization" data-label="organization">organization <span class="tag-count">1</span></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<script>
-(function () {
-  document.querySelectorAll('.archive-year-toggle').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var grp = btn.closest('.archive-year-group');
-      var open = grp.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-  document.querySelectorAll('.archive-month-toggle').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var grp = btn.closest('.archive-month-group');
-      var open = grp.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-})();
-</script>
+  <a class="back-to-blog" href="index.html">&#8592; All posts</a>
 
-<script>
-(function () {
-  function readHashTag() {
-    var m = location.hash.match(/tag=([^&]+)/);
-    return m ? decodeURIComponent(m[1]) : '';
-  }
-
-  function tagLabel(slug) {
-    var pill = document.querySelector('.tag-pill[data-tag="' + slug + '"]');
-    return pill ? pill.getAttribute('data-label') : slug;
-  }
-
-  function applyFilter(tag) {
-    var cards = document.querySelectorAll('.post-card');
-    var visible = 0;
-    cards.forEach(function (c) {
-      var tags = (c.getAttribute('data-tags') || '').split(' ').filter(Boolean);
-      var show = !tag || tags.indexOf(tag) !== -1;
-      c.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-
-    document.querySelectorAll('.tag-pill').forEach(function (p) {
-      p.classList.toggle('active', (p.getAttribute('data-tag') || '') === tag);
-    });
-
-    var status = document.getElementById('filterStatus');
-    var text   = document.getElementById('filterStatusText');
-    var empty  = document.getElementById('noMatch');
-    if (tag) {
-      status.classList.add('is-active');
-      text.textContent = 'Showing ' + visible + ' post' + (visible === 1 ? '' : 's') +
-        ' tagged \u201C' + tagLabel(tag) + '\u201D';
-    } else {
-      status.classList.remove('is-active');
-    }
-    if (empty) empty.classList.toggle('is-visible', tag && visible === 0);
-  }
-
-  window.addEventListener('hashchange', function () { applyFilter(readHashTag()); });
-
-  var clearBtn = document.getElementById('clearFilter');
-  if (clearBtn) {
-    clearBtn.addEventListener('click', function (e) {
-      e.preventDefault();
-      history.replaceState(null, '', location.pathname + location.search);
-      applyFilter('');
-    });
-  }
-
-  applyFilter(readHashTag());
-})();
-</script>
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
     <nav class="footer-links">
