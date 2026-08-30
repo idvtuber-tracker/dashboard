@@ -47212,7 +47212,7 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "hF1z1Sg4lWY": {
     "org_slug": "aisatset",
@@ -47548,7 +47548,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "bG9YAIyVUJ0": {
     "org_slug": "cozycazt",
@@ -47716,7 +47716,7 @@
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "Pb-PROOceBw": {
     "org_slug": "uver-id",
@@ -47814,7 +47814,7 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "DVS1cs9bpB4": {
     "org_slug": "asobu-production",
@@ -47842,7 +47842,7 @@
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "9d0b6yS4Tq4": {
     "org_slug": "mejikuhibiniu",
@@ -48017,7 +48017,7 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "b-hqy5zaTBk": {
     "org_slug": "project-eternoia",
@@ -48094,7 +48094,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "reQjlFi9ELo": {
     "org_slug": "pandavva",
@@ -48136,14 +48136,14 @@
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "f4uvx4uElBc": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "R41rTaadoak": {
     "org_slug": "aisatset",
@@ -48157,13 +48157,20 @@
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
   },
   "99kc2etTeqs": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "celina-olystia-ch-snowvalley",
     "ch_name": "Celina Olystia Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-30 19:33 WIB"
+    "generated_at": "2026-08-30 19:42 WIB"
+  },
+  "CcGtkBgYDe0": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shine-naira-ch-snowvalley",
+    "ch_name": "Shine Naira Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-08-30 19:42 WIB"
   }
 }
