@@ -48318,34 +48318,48 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-08-31 12:01 WIB"
+    "generated_at": "2026-08-31 12:18 WIB"
   },
   "MAiHrLLAy40": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-08-31 12:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-31 12:18 WIB"
   },
   "0m4jmt5qwoA": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-31 12:01 WIB"
+    "generated_at": "2026-08-31 12:18 WIB"
   },
   "QGZXJ9zbZ28": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-31 12:01 WIB"
+    "generated_at": "2026-08-31 12:18 WIB"
   },
   "H3H_D3VRK00": {
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "live",
-    "generated_at": "2026-08-31 12:01 WIB"
+    "generated_at": "2026-08-31 12:18 WIB"
+  },
+  "hnzPmYvVYX4": {
+    "org_slug": "magniv",
+    "ch_slug": "shiru-magniv",
+    "ch_name": "Shiru 【MagniV】",
+    "status": "live",
+    "generated_at": "2026-08-31 12:18 WIB"
+  },
+  "NUxI1W5dQBs": {
+    "org_slug": "yorukaze",
+    "ch_slug": "hessa-elainore-ch-yorukaze",
+    "ch_name": "Hessa Elainore Ch.【Yorukaze】",
+    "status": "live",
+    "generated_at": "2026-08-31 12:18 WIB"
   }
 }
