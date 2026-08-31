@@ -48318,7 +48318,7 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-08-31 12:57 WIB"
+    "generated_at": "2026-08-31 13:14 WIB"
   },
   "MAiHrLLAy40": {
     "org_slug": "aisatset",
@@ -48332,48 +48332,69 @@
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-31 12:57 WIB"
+    "generated_at": "2026-08-31 13:14 WIB"
   },
   "QGZXJ9zbZ28": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-31 12:57 WIB"
+    "generated_at": "2026-08-31 13:14 WIB"
   },
   "H3H_D3VRK00": {
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
     "status": "live",
-    "generated_at": "2026-08-31 12:57 WIB"
+    "generated_at": "2026-08-31 13:14 WIB"
   },
   "hnzPmYvVYX4": {
     "org_slug": "magniv",
     "ch_slug": "shiru-magniv",
     "ch_name": "Shiru 【MagniV】",
-    "status": "live",
-    "generated_at": "2026-08-31 12:57 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-31 13:14 WIB"
   },
   "NUxI1W5dQBs": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-08-31 12:57 WIB"
+    "generated_at": "2026-08-31 13:14 WIB"
   },
   "sokLR9-Lkck": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-31 12:57 WIB"
+    "generated_at": "2026-08-31 13:14 WIB"
   },
   "hTvr_1hzFbQ": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-08-31 12:57 WIB"
+    "generated_at": "2026-08-31 13:14 WIB"
+  },
+  "nFePXEXmBhI": {
+    "org_slug": "lav-idn",
+    "ch_slug": "tachibana-mirai-ch-lav",
+    "ch_name": "Tachibana Mirai Ch. 【LAV】",
+    "status": "live",
+    "generated_at": "2026-08-31 13:14 WIB"
+  },
+  "7XQLin_TgR0": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-08-31 13:14 WIB"
+  },
+  "N4nwcOFWzb4": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-08-31 13:14 WIB"
   }
 }
