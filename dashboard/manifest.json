@@ -48345,8 +48345,8 @@
     "org_slug": "lav-idn",
     "ch_slug": "kanata-reina-ch-lav",
     "ch_name": "Kanata Reina Ch.【LAV】",
-    "status": "live",
-    "generated_at": "2026-08-31 15:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-31 16:29 WIB"
   },
   "hnzPmYvVYX4": {
     "org_slug": "magniv",
@@ -48366,8 +48366,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-08-31 15:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-31 16:29 WIB"
   },
   "hTvr_1hzFbQ": {
     "org_slug": "snowvalley-agency",
@@ -48380,35 +48380,49 @@
     "org_slug": "lav-idn",
     "ch_slug": "tachibana-mirai-ch-lav",
     "ch_name": "Tachibana Mirai Ch. 【LAV】",
-    "status": "live",
-    "generated_at": "2026-08-31 15:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-31 16:29 WIB"
   },
   "7XQLin_TgR0": {
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-31 15:02 WIB"
+    "generated_at": "2026-08-31 16:29 WIB"
   },
   "N4nwcOFWzb4": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
-    "status": "live",
-    "generated_at": "2026-08-31 15:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-31 16:29 WIB"
   },
   "WeI4xiQATRc": {
     "org_slug": "magniv",
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
-    "status": "live",
-    "generated_at": "2026-08-31 15:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-08-31 16:29 WIB"
   },
   "fT7f9Dm5GaM": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
+    "status": "vod",
+    "generated_at": "2026-08-31 16:29 WIB"
+  },
+  "jA1RwzXk_4Q": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "gabriel-abyssia-dasoriyal",
+    "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-31 15:02 WIB"
+    "generated_at": "2026-08-31 16:29 WIB"
+  },
+  "VKakSwkXnzc": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-08-31 16:29 WIB"
   }
 }
