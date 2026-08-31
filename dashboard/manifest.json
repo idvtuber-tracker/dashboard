@@ -48388,7 +48388,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-31 16:29 WIB"
+    "generated_at": "2026-08-31 16:45 WIB"
   },
   "N4nwcOFWzb4": {
     "org_slug": "neoespoir",
@@ -48416,13 +48416,20 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-08-31 16:29 WIB"
+    "generated_at": "2026-08-31 16:45 WIB"
   },
   "VKakSwkXnzc": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-31 16:29 WIB"
+    "generated_at": "2026-08-31 16:45 WIB"
+  },
+  "B9Ka3Ui5O_Q": {
+    "org_slug": "yorukaze",
+    "ch_slug": "crystallyn-caparina",
+    "ch_name": "Crystallyn Caparina",
+    "status": "live",
+    "generated_at": "2026-08-31 16:45 WIB"
   }
 }
