@@ -48388,7 +48388,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-08-31 18:41 WIB"
+    "generated_at": "2026-08-31 18:59 WIB"
   },
   "N4nwcOFWzb4": {
     "org_slug": "neoespoir",
@@ -48423,14 +48423,14 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-08-31 18:41 WIB"
+    "generated_at": "2026-08-31 18:59 WIB"
   },
   "B9Ka3Ui5O_Q": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-08-31 18:41 WIB"
+    "generated_at": "2026-08-31 18:59 WIB"
   },
   "liOSpkBe65I": {
     "org_slug": "kanau-virtual",
@@ -48438,5 +48438,12 @@
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "vod",
     "generated_at": "2026-08-31 17:26 WIB"
+  },
+  "QtA6OilK6vs": {
+    "org_slug": "aurora-project",
+    "ch_slug": "eizie-aletha-ch",
+    "ch_name": "Eizie Aletha Ch.",
+    "status": "live",
+    "generated_at": "2026-08-31 18:59 WIB"
   }
 }
