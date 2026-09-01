@@ -48444,7 +48444,7 @@
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "generated_at": "2026-09-01 18:35 WIB"
   },
   "PjWKY03K7ew": {
     "org_slug": "magniv",
@@ -48542,7 +48542,7 @@
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "generated_at": "2026-09-01 18:35 WIB"
   },
   "Ur8rHPopvcY": {
     "org_slug": "prism-nova",
@@ -48570,7 +48570,7 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "generated_at": "2026-09-01 18:35 WIB"
   },
   "3pdb41Eiyfc": {
     "org_slug": "evren-community",
@@ -48668,7 +48668,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "generated_at": "2026-09-01 18:35 WIB"
   },
   "CAXvPDvOsi8": {
     "org_slug": "project-livium",
@@ -48758,8 +48758,8 @@
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-01 18:35 WIB"
   },
   "SBy-1Hp76MA": {
     "org_slug": "snowvalley-agency",
@@ -48773,34 +48773,48 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "generated_at": "2026-09-01 18:35 WIB"
   },
   "NHWH7zFoonw": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "generated_at": "2026-09-01 18:35 WIB"
   },
   "GA532xEg2n4": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "generated_at": "2026-09-01 18:35 WIB"
   },
   "aW5wiSUHJVs": {
     "org_slug": "gravt",
     "ch_slug": "ave-kanehoshii-gravt",
     "ch_name": "Ave Kanehoshii【GRAVT】",
-    "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-01 18:35 WIB"
   },
   "Gnun_EpHCQg": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-01 18:16 WIB"
+    "generated_at": "2026-09-01 18:35 WIB"
+  },
+  "kjM4xNoA1Uw": {
+    "org_slug": "asobu-production",
+    "ch_slug": "mo-xiao-mei-asobu",
+    "ch_name": "Mo Xiao Mei【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-09-01 18:35 WIB"
+  },
+  "QcrGtyb6VIA": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "airia-eroselle-mejikuhibiniu",
+    "ch_name": "Airia Eroselle【Mejikuhibiniu】",
+    "status": "live",
+    "generated_at": "2026-09-01 18:35 WIB"
   }
 }
