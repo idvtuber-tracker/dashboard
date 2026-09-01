@@ -121,7 +121,6 @@ ORG_MAP = {
             ("Ignis Grimoire【Whicker Butler】",       "talent", "UCJbrzGrVtSC0KbtkEzD50cw"),
             ("Darlyne Nightbloom【Whicker Butler】",   "talent", "UCtiNMw_89OUjPThykjwIsAA"),
             ("Thalita Sylvaine【Whicker Butler】",     "talent", "UCHNwyrNLObSZaHYAvvrGhCA"),
-            ("Oriana Solstair【Whicker Butler】",      "talent", "UCvxEBCJlF0m81ffDtJ7YE2w"),
         ],
     },
     "yorukaze": {
@@ -182,7 +181,6 @@ ORG_MAP = {
             ("Arphina Stellaria【CozyCazt】",     "talent", "UCDxHKSgQD7tcTr36F2GnvDg"),
             ("Vianna Risendria 【CozyCazt】",     "talent", "UCuGlDdzoTyM55cQrJO_kEZw"),
             ("Fuyo Mafuyu【CozyCazt】",           "talent", "UCMtHNyhNeLZEPw6S2-1556A"),
-            ("Silveryshore Ch.【CozyCazt】",      "talent", "UCQpD-UhHdhFL1DTJxhJpuyA"),
         ],
     },
     "afterain": {
@@ -300,17 +298,6 @@ ORG_MAP = {
             ("Reika Ayasa 【MagiSona】", "talent", "UCuzc9EAaSymkjmc4oZ9idzw"),  
             ("Lyra Azalea【MagiSona】", "talent", "UCWAdYE-5usbzNYhi_vLDSfA"),  
             ("ioFiel Feliz Ch.【MagiSona】", "talent", "UCs4ZMNzilmO3yncwQaRYZiw"),  
-        ],
-    },
-    "lav-idn": {
-        "label":   "LAV IDN",
-        "color":   "#9f86c0",
-        "color_light": "#8060ac",
-        "desc":    "Developing agency with talents and affiliates system.",
-        "channels": [
-            ("Limitless Actress Virtual", "org", "UCggn9-ggn4aJplrvlgiSVeQ"),  
-            ("Tachibana Mirai Ch. 【LAV】", "talent", "UC8YJreYPp3rnoLYOSGvwAAw"),  
-            ("Kanata Reina Ch.【LAV】", "talent", "UC7mf0CkU3-8ulUiVVleVnhg"),  
         ],
     },
     "arvi-media": {
@@ -439,6 +426,7 @@ ORG_MAP = {
             ("Karissa Sharlotte『 DASORiYAL 』", "talent", "UCndWeMfiDIQs-o18GJPwETA"),  
             ("Gabriel Abyssia『 DASORiYAL 』", "talent", "UCK4lZqiWNuOf-CTyX3Qbj1w"),  
             ("Hali Ch. 『 DASORiYAL 』", "talent", "UCHWGlT4Kg2P8Q0OSdBVd84g"),  
+            ("Silveryshore Ch.",      "talent", "UCQpD-UhHdhFL1DTJxhJpuyA"),
         ],
     },
     "hibikasekai": {
