@@ -48444,7 +48444,7 @@
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "PjWKY03K7ew": {
     "org_slug": "magniv",
@@ -48542,7 +48542,7 @@
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "Ur8rHPopvcY": {
     "org_slug": "prism-nova",
@@ -48570,7 +48570,7 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "3pdb41Eiyfc": {
     "org_slug": "evren-community",
@@ -48808,7 +48808,7 @@
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "QcrGtyb6VIA": {
     "org_slug": "mejikuhibiniu",
@@ -48836,7 +48836,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "0aAsFOCBP_M": {
     "org_slug": "prism-nova",
@@ -49270,7 +49270,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "-eL1zZ0T6VA": {
     "org_slug": "project-livium",
@@ -49319,7 +49319,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "92FldZ3OX7c": {
     "org_slug": "whicker-butler",
@@ -49361,7 +49361,7 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "8RX5ewfR6U0": {
     "org_slug": "kanau-virtual",
@@ -49403,7 +49403,7 @@
     "ch_slug": "fumiko-runa",
     "ch_name": "Fumiko Runa",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "813fZQVR7Ws": {
     "org_slug": "project-eternoia",
@@ -49459,21 +49459,21 @@
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "zeMwG6NLxlk": {
     "org_slug": "afterain",
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "Q16lrwDDUAI": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "BCe5XI7aujw": {
     "org_slug": "crims-on",
@@ -49487,7 +49487,7 @@
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-03 00:25 WIB"
+    "generated_at": "2026-09-03 00:42 WIB"
   },
   "5uVF4feFPpo": {
     "org_slug": "crims-on",
@@ -49509,5 +49509,12 @@
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "vod",
     "generated_at": "2026-09-03 00:25 WIB"
+  },
+  "YTGyKMwz3X4": {
+    "org_slug": "versa",
+    "ch_slug": "ryoutaa-versa",
+    "ch_name": "Ryoutaa【VERSA】",
+    "status": "live",
+    "generated_at": "2026-09-03 00:42 WIB"
   }
 }
