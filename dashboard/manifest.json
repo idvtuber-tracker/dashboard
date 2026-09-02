@@ -48444,7 +48444,7 @@
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
   },
   "PjWKY03K7ew": {
     "org_slug": "magniv",
@@ -48542,7 +48542,7 @@
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
   },
   "Ur8rHPopvcY": {
     "org_slug": "prism-nova",
@@ -48570,7 +48570,7 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
   },
   "3pdb41Eiyfc": {
     "org_slug": "evren-community",
@@ -48808,7 +48808,7 @@
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
   },
   "QcrGtyb6VIA": {
     "org_slug": "mejikuhibiniu",
@@ -48836,7 +48836,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
   },
   "0aAsFOCBP_M": {
     "org_slug": "prism-nova",
@@ -49221,34 +49221,48 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
   },
   "400CWkSQ6AI": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
   },
   "OQCxJOktmRU": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
   },
   "_S23IcX2ckI": {
     "org_slug": "pandavva",
     "ch_slug": "pandavva-official",
     "ch_name": "PANDAVVA Official",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
   },
   "O1Gj6K8OXBY": {
     "org_slug": "versa",
     "ch_slug": "alarich-versa",
     "ch_name": "Alarich【VERSA】",
     "status": "live",
-    "generated_at": "2026-09-02 19:04 WIB"
+    "generated_at": "2026-09-02 19:22 WIB"
+  },
+  "yVaf0pT2vuU": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "tuti-hanna-ch-snowvalley",
+    "ch_name": "Tuti Hanna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-09-02 19:22 WIB"
+  },
+  "pbzAwu1L5fk": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shine-naira-ch-snowvalley",
+    "ch_name": "Shine Naira Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-09-02 19:22 WIB"
   }
 }
