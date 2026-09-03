@@ -48444,7 +48444,7 @@
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "PjWKY03K7ew": {
     "org_slug": "magniv",
@@ -48542,7 +48542,7 @@
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "Ur8rHPopvcY": {
     "org_slug": "prism-nova",
@@ -48570,7 +48570,7 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "3pdb41Eiyfc": {
     "org_slug": "evren-community",
@@ -48808,7 +48808,7 @@
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "QcrGtyb6VIA": {
     "org_slug": "mejikuhibiniu",
@@ -48836,7 +48836,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "0aAsFOCBP_M": {
     "org_slug": "prism-nova",
@@ -49403,7 +49403,7 @@
     "ch_slug": "fumiko-runa",
     "ch_name": "Fumiko Runa",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "813fZQVR7Ws": {
     "org_slug": "project-eternoia",
@@ -49522,7 +49522,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "x7JImS1RZ84": {
     "org_slug": "cozycazt",
@@ -49563,8 +49563,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "4cWoAYUuS_Y": {
     "org_slug": "hibikasekai",
@@ -49585,14 +49585,14 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "aYp-3pCK2Xg": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
-    "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "-LuYTufTjaM": {
     "org_slug": "dasoriyal",
@@ -49613,34 +49613,41 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "RH3T2C0yQxw": {
     "org_slug": "vilitera",
     "ch_slug": "mahiru-rui-ch-vilitera-id",
     "ch_name": "Mahiru Rui Ch. VILITERA-ID",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "TZ7K5q3C3a0": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "NRYZ1JQERuQ": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
   },
   "I2IJ4HVmm10": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-03 17:13 WIB"
+    "generated_at": "2026-09-03 17:30 WIB"
+  },
+  "r9buPyxh4qw": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "chie-estelle-hibikasekai",
+    "ch_name": "Chie Estelle🦊🌼〖 HIBIKASEKAI 】",
+    "status": "live",
+    "generated_at": "2026-09-03 17:30 WIB"
   }
 }
