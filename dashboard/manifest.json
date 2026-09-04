@@ -48444,7 +48444,7 @@
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "PjWKY03K7ew": {
     "org_slug": "magniv",
@@ -48542,7 +48542,7 @@
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "Ur8rHPopvcY": {
     "org_slug": "prism-nova",
@@ -48570,7 +48570,7 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "3pdb41Eiyfc": {
     "org_slug": "evren-community",
@@ -48808,7 +48808,7 @@
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "QcrGtyb6VIA": {
     "org_slug": "mejikuhibiniu",
@@ -48836,7 +48836,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "0aAsFOCBP_M": {
     "org_slug": "prism-nova",
@@ -49403,7 +49403,7 @@
     "ch_slug": "fumiko-runa",
     "ch_name": "Fumiko Runa",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "813fZQVR7Ws": {
     "org_slug": "project-eternoia",
@@ -49970,7 +49970,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "RbppxaQAztI": {
     "org_slug": "aisatset",
@@ -49991,41 +49991,48 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "HXozE1x_tkc": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "uDaXLmPCYag": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "l7J_rX2sIJo": {
     "org_slug": "vilitera",
     "ch_slug": "mahiru-rui-ch-vilitera-id",
     "ch_name": "Mahiru Rui Ch. VILITERA-ID",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "9kP6EoFgXag": {
     "org_slug": "prism-nova",
     "ch_slug": "serika-cosmica-prism-nova",
     "ch_name": "Serika Cosmica 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
   },
   "6X56UL7RUvo": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-09-04 13:20 WIB"
+    "generated_at": "2026-09-04 13:37 WIB"
+  },
+  "WMKaWPOKIj0": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-09-04 13:37 WIB"
   }
 }
