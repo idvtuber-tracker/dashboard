@@ -50600,35 +50600,35 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "7lyhHz9fSkM": {
     "org_slug": "nawasena-live",
     "ch_slug": "kuma-wang-nawasena",
     "ch_name": "Kuma Wang【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "UtLVZ2ob-zI": {
     "org_slug": "afterain",
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "oMKJYu5-GJ0": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "rwkdYRoISpk": {
     "org_slug": "snowdrop-live",
@@ -50663,41 +50663,41 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "6d0OoLJb-pQ": {
     "org_slug": "whicker-butler",
     "ch_slug": "darlyne-nightbloom-whicker-butler",
     "ch_name": "Darlyne Nightbloom【Whicker Butler】",
-    "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "wmVLWVPlIVc": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "HvU5di5Iahk": {
     "org_slug": "oristarium",
     "ch_slug": "ahomika-ch-oristarium",
     "ch_name": "Ahomika_Ch【Oristarium】",
     "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "t1HNlgXG7Zs": {
     "org_slug": "dasoriyal",
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "generated_at": "2026-09-06 00:20 WIB"
   },
   "4IgKtiFtl4E": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-06 00:06 WIB"
+    "generated_at": "2026-09-06 00:20 WIB"
   }
 }
