@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-06 15:55 WIB"
+    "generated_at": "2026-09-06 16:11 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -50825,5 +50825,12 @@
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "vod",
     "generated_at": "2026-09-06 15:55 WIB"
+  },
+  "J5ifojaXB8I": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shine-naira-ch-snowvalley",
+    "ch_name": "Shine Naira Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-09-06 16:11 WIB"
   }
 }
