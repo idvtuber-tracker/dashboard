@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-06 19:07 WIB"
+    "generated_at": "2026-09-06 19:25 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -50845,14 +50845,14 @@
     "ch_slug": "mahiru-rui-ch-vilitera-id",
     "ch_name": "Mahiru Rui Ch. VILITERA-ID",
     "status": "live",
-    "generated_at": "2026-09-06 19:07 WIB"
+    "generated_at": "2026-09-06 19:25 WIB"
   },
   "mQui0aqpVDo": {
     "org_slug": "nawasena-live",
     "ch_slug": "kuma-wang-nawasena",
     "ch_name": "Kuma Wang【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-09-06 19:07 WIB"
+    "generated_at": "2026-09-06 19:25 WIB"
   },
   "IyRQxGE235I": {
     "org_slug": "uver-id",
@@ -50866,27 +50866,34 @@
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-06 19:07 WIB"
+    "generated_at": "2026-09-06 19:25 WIB"
   },
   "iiZVKsydB1U": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-06 19:07 WIB"
+    "generated_at": "2026-09-06 19:25 WIB"
   },
   "PUYMEx0BmAc": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-09-06 19:07 WIB"
+    "generated_at": "2026-09-06 19:25 WIB"
   },
   "PwNJ-OMf37A": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-06 19:07 WIB"
+    "generated_at": "2026-09-06 19:25 WIB"
+  },
+  "7VE0hNVTBmE": {
+    "org_slug": "cozycazt",
+    "ch_slug": "arphina-stellaria-cozycazt",
+    "ch_name": "Arphina Stellaria【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-09-06 19:25 WIB"
   }
 }
