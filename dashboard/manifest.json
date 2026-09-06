@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-07 00:19 WIB"
+    "generated_at": "2026-09-07 00:28 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -50964,7 +50964,7 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-09-07 00:19 WIB"
+    "generated_at": "2026-09-07 00:28 WIB"
   },
   "LScalyaqegM": {
     "org_slug": "enygmyst-project",
@@ -50977,8 +50977,8 @@
     "org_slug": "whicker-butler",
     "ch_slug": "darlyne-nightbloom-whicker-butler",
     "ch_name": "Darlyne Nightbloom【Whicker Butler】",
-    "status": "live",
-    "generated_at": "2026-09-07 00:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-07 00:28 WIB"
   },
   "IjTRRhDZuBQ": {
     "org_slug": "mejikuhibiniu",
@@ -50999,7 +50999,7 @@
     "ch_slug": "silveryshore-ch",
     "ch_name": "Silveryshore Ch.",
     "status": "live",
-    "generated_at": "2026-09-07 00:19 WIB"
+    "generated_at": "2026-09-07 00:28 WIB"
   },
   "MCNjPuuG_uo": {
     "org_slug": "project-livium",
@@ -51013,20 +51013,27 @@
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-07 00:19 WIB"
+    "generated_at": "2026-09-07 00:28 WIB"
   },
   "ghzEV4QuP5A": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-09-07 00:19 WIB"
+    "generated_at": "2026-09-07 00:28 WIB"
   },
   "T2g479MDZ_Y": {
     "org_slug": "whicker-butler",
     "ch_slug": "valthea-nankila-whicker-butler",
     "ch_name": "Valthea Nankila 【 Whicker Butler 】",
     "status": "live",
-    "generated_at": "2026-09-07 00:19 WIB"
+    "generated_at": "2026-09-07 00:28 WIB"
+  },
+  "WqNln28MnrM": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "kanau-virtual",
+    "ch_name": "KANAU Virtual",
+    "status": "vod",
+    "generated_at": "2026-09-07 00:28 WIB"
   }
 }
