@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-06 16:58 WIB"
+    "generated_at": "2026-09-06 17:17 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -50831,27 +50831,34 @@
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-06 16:58 WIB"
+    "generated_at": "2026-09-06 17:17 WIB"
   },
   "lOzGnEZ7HBw": {
     "org_slug": "noisette",
     "ch_slug": "chinami-fumi-noisette",
     "ch_name": "Chinami Fumi【Noisette】",
     "status": "live",
-    "generated_at": "2026-09-06 16:58 WIB"
+    "generated_at": "2026-09-06 17:17 WIB"
   },
   "8yLgXyno6jk": {
     "org_slug": "vilitera",
     "ch_slug": "mahiru-rui-ch-vilitera-id",
     "ch_name": "Mahiru Rui Ch. VILITERA-ID",
     "status": "live",
-    "generated_at": "2026-09-06 16:58 WIB"
+    "generated_at": "2026-09-06 17:17 WIB"
   },
   "mQui0aqpVDo": {
     "org_slug": "nawasena-live",
     "ch_slug": "kuma-wang-nawasena",
     "ch_name": "Kuma Wang【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-09-06 16:58 WIB"
+    "generated_at": "2026-09-06 17:17 WIB"
+  },
+  "IyRQxGE235I": {
+    "org_slug": "uver-id",
+    "ch_slug": "norn-haira-uver-id",
+    "ch_name": "Norn Haira〔UVER ID〕",
+    "status": "live",
+    "generated_at": "2026-09-06 17:17 WIB"
   }
 }
