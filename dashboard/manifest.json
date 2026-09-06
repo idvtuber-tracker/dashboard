@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-06 10:11 WIB"
+    "generated_at": "2026-09-06 10:26 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -50705,27 +50705,34 @@
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-09-06 10:11 WIB"
+    "generated_at": "2026-09-06 10:26 WIB"
   },
   "_X8GGcX4fm0": {
     "org_slug": "kanau-virtual",
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
     "status": "live",
-    "generated_at": "2026-09-06 10:11 WIB"
+    "generated_at": "2026-09-06 10:26 WIB"
   },
   "sVepJ0FmBN4": {
     "org_slug": "project-eternoia",
     "ch_slug": "fumiko-runa",
     "ch_name": "Fumiko Runa",
     "status": "live",
-    "generated_at": "2026-09-06 10:11 WIB"
+    "generated_at": "2026-09-06 10:26 WIB"
   },
   "u2Z3Iccp-zs": {
     "org_slug": "afterain",
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-06 10:11 WIB"
+    "generated_at": "2026-09-06 10:26 WIB"
+  },
+  "VlLKfqMEWB4": {
+    "org_slug": "neoespoir",
+    "ch_slug": "nachann-wa-harmonie-ch",
+    "ch_name": "Nachann Wa Harmonie Ch.",
+    "status": "live",
+    "generated_at": "2026-09-06 10:26 WIB"
   }
 }
