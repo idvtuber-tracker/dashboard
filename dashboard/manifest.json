@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-06 07:48 WIB"
+    "generated_at": "2026-09-06 08:33 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -50697,7 +50697,14 @@
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
+    "status": "vod",
+    "generated_at": "2026-09-06 08:33 WIB"
+  },
+  "26qle9yfxMU": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "nela-mellifera-kanau-virtual",
+    "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-09-06 07:48 WIB"
+    "generated_at": "2026-09-06 08:33 WIB"
   }
 }
