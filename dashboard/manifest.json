@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-07 19:33 WIB"
+    "generated_at": "2026-09-07 19:53 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -51139,7 +51139,7 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-07 19:33 WIB"
+    "generated_at": "2026-09-07 19:53 WIB"
   },
   "AVsjd2-s7H4": {
     "org_slug": "kanau-virtual",
@@ -51153,41 +51153,55 @@
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-09-07 19:33 WIB"
+    "generated_at": "2026-09-07 19:53 WIB"
   },
   "e6WqPO88kM4": {
     "org_slug": "kanau-virtual",
     "ch_slug": "kanau-virtual",
     "ch_name": "KANAU Virtual",
     "status": "live",
-    "generated_at": "2026-09-07 19:33 WIB"
+    "generated_at": "2026-09-07 19:53 WIB"
   },
   "3tGiqpaHh34": {
     "org_slug": "pandavva",
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-07 19:33 WIB"
+    "generated_at": "2026-09-07 19:53 WIB"
   },
   "_jtA5x__vDY": {
     "org_slug": "aisatset",
     "ch_slug": "blessicaa-aisatset-id",
     "ch_name": "Blessicaa【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-07 19:33 WIB"
+    "generated_at": "2026-09-07 19:53 WIB"
   },
   "-SUYduFIMVM": {
     "org_slug": "snowdrop-live",
     "ch_slug": "bouya-kyuuroku-snowdrop",
     "ch_name": "Bouya Kyuuroku | SNOWDROP",
     "status": "live",
-    "generated_at": "2026-09-07 19:33 WIB"
+    "generated_at": "2026-09-07 19:53 WIB"
   },
   "DAgKyA-a9YA": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-07 19:33 WIB"
+    "generated_at": "2026-09-07 19:53 WIB"
+  },
+  "HmOhQs517Cg": {
+    "org_slug": "yorukaze",
+    "ch_slug": "hessa-elainore-ch-yorukaze",
+    "ch_name": "Hessa Elainore Ch.【Yorukaze】",
+    "status": "live",
+    "generated_at": "2026-09-07 19:53 WIB"
+  },
+  "RPfiWLQUPbE": {
+    "org_slug": "prism-nova",
+    "ch_slug": "thalia-symphonia-prism-nova",
+    "ch_name": "Thalia Symphonia 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-09-07 19:53 WIB"
   }
 }
