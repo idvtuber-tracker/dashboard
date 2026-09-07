@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-07 12:13 WIB"
+    "generated_at": "2026-09-07 12:35 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -51055,34 +51055,41 @@
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-09-07 12:13 WIB"
+    "generated_at": "2026-09-07 12:35 WIB"
   },
   "ScMWH1j35sE": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-07 12:13 WIB"
+    "generated_at": "2026-09-07 12:35 WIB"
   },
   "VuIKdCMC2WM": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-07 12:13 WIB"
+    "generated_at": "2026-09-07 12:35 WIB"
   },
   "CdxdMBImXD0": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-07 12:13 WIB"
+    "generated_at": "2026-09-07 12:35 WIB"
   },
   "GuImBQhExgc": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-07 12:13 WIB"
+    "generated_at": "2026-09-07 12:35 WIB"
+  },
+  "ii8CIgCaB1A": {
+    "org_slug": "aisatset",
+    "ch_slug": "blessicaa-aisatset-id",
+    "ch_name": "Blessicaa【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-09-07 12:35 WIB"
   }
 }
