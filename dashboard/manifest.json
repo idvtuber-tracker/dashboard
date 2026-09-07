@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-07 16:56 WIB"
+    "generated_at": "2026-09-07 17:20 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -51111,27 +51111,34 @@
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-07 16:56 WIB"
+    "generated_at": "2026-09-07 17:20 WIB"
   },
   "0MXmM1UGqZo": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-07 16:56 WIB"
+    "generated_at": "2026-09-07 17:20 WIB"
   },
   "LwJ6MdcCCTA": {
     "org_slug": "whicker-butler",
     "ch_slug": "darlyne-nightbloom-whicker-butler",
     "ch_name": "Darlyne Nightbloom【Whicker Butler】",
-    "status": "live",
-    "generated_at": "2026-09-07 16:56 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-07 17:20 WIB"
   },
   "DFtJXadpi-w": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-07 16:56 WIB"
+    "generated_at": "2026-09-07 17:20 WIB"
+  },
+  "Gpak1vm49bc": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuura-yozakura-ch-livipro",
+    "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-09-07 17:20 WIB"
   }
 }
