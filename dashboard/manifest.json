@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-08 03:28 WIB"
+    "generated_at": "2026-09-08 03:58 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -51271,8 +51271,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-09-08 03:28 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-08 03:58 WIB"
   },
   "9W2D_W83yY8": {
     "org_slug": "uver-id",
@@ -51355,8 +51355,8 @@
     "org_slug": "dasoriyal",
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-09-08 03:28 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-08 03:58 WIB"
   },
   "FIe_QJQ7jkM": {
     "org_slug": "project-livium",
@@ -51370,6 +51370,6 @@
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-09-08 03:28 WIB"
+    "generated_at": "2026-09-08 03:58 WIB"
   }
 }
