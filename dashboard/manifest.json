@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-08 12:20 WIB"
+    "generated_at": "2026-09-08 12:37 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -51377,20 +51377,34 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-08 12:20 WIB"
+    "generated_at": "2026-09-08 12:37 WIB"
   },
   "s8DW59ElRk0": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
-    "status": "live",
-    "generated_at": "2026-09-08 12:20 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-08 12:37 WIB"
   },
   "-BZfB6Xt8N0": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-08 12:20 WIB"
+    "generated_at": "2026-09-08 12:37 WIB"
+  },
+  "CsRBZE1ES-k": {
+    "org_slug": "aisatset",
+    "ch_slug": "ungaume-aisatset-id",
+    "ch_name": "UngaUme【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-09-08 12:37 WIB"
+  },
+  "ka0Z2bHGans": {
+    "org_slug": "cozycazt",
+    "ch_slug": "rannia-taiga-cozycazt",
+    "ch_name": "Rannia Taiga 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-09-08 12:37 WIB"
   }
 }
