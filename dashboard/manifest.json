@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-08 17:51 WIB"
+    "generated_at": "2026-09-08 18:08 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -51439,8 +51439,8 @@
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-09-08 17:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-08 18:08 WIB"
   },
   "43a0haesBNk": {
     "org_slug": "asobu-production",
@@ -51454,48 +51454,55 @@
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-09-08 17:51 WIB"
+    "generated_at": "2026-09-08 18:08 WIB"
   },
   "kydCm53BR-Y": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-09-08 17:51 WIB"
+    "generated_at": "2026-09-08 18:08 WIB"
   },
   "iuLNr0vDAOM": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-09-08 17:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-08 18:08 WIB"
   },
   "RNLPjwBdzRo": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-09-08 17:51 WIB"
+    "generated_at": "2026-09-08 18:08 WIB"
   },
   "P9bc8hgCuRA": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-09-08 17:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-08 18:08 WIB"
   },
   "t7AQIMIgsP0": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-08 17:51 WIB"
+    "generated_at": "2026-09-08 18:08 WIB"
   },
   "DSxFzjmvgSM": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-08 17:51 WIB"
+    "generated_at": "2026-09-08 18:08 WIB"
+  },
+  "tkec_UBIHHQ": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-09-08 18:08 WIB"
   }
 }
