@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-08 15:59 WIB"
+    "generated_at": "2026-09-08 16:15 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -51440,6 +51440,13 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-08 15:59 WIB"
+    "generated_at": "2026-09-08 16:15 WIB"
+  },
+  "43a0haesBNk": {
+    "org_slug": "asobu-production",
+    "ch_slug": "hakuro-nakayoshi-asobu",
+    "ch_name": "Hakuro Nakayoshi 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-09-08 16:15 WIB"
   }
 }
