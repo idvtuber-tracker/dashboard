@@ -50614,7 +50614,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-09-08 15:32 WIB"
+    "generated_at": "2026-09-08 15:59 WIB"
   },
   "v7UY3i3yvyU": {
     "org_slug": "whicker-butler",
@@ -51434,5 +51434,12 @@
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "vod",
     "generated_at": "2026-09-08 15:32 WIB"
+  },
+  "vkrP9iNZtiw": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "krystalize-moon-dasoriyal",
+    "ch_name": "Krystalize Moon『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-09-08 15:59 WIB"
   }
 }
