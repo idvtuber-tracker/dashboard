@@ -1,10 +1,9 @@
-\---
-
+---
 title: "Apparently, We Are a Football Sponsor Now"
 date: 2026-09-09
 slug: accidental-sponsor
 excerpt: "Suddenly, there is a proposal handed on our desk, and we feel compelled to sign it."
-tags: \[meta, random]
+tags: [meta, random]
 ---
 
 Somewhere between building out the ecosystem and pushing routine updates,
