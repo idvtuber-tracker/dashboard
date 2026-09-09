@@ -11,7 +11,7 @@ IDVTuber Tracker has become the official sponsor of a football match. With
 the upcoming /vt/ League, now in its 11th edition, on the horizon, we're
 proud to announce that we are sponsoring perse/warkop/ in their bid for the
 prestigious divegrass cup, now in its ninth year, representing Indonesian
-VTuber culture and then some.
+VTuber culture and beyond.
 
 <figure style="margin: 1.5rem 0;">
   <img src="images/sponsor-announcement.png" alt="feels like the stupid head of that King Ghidorah meme" style="display:block; margin:0 auto; max-width:320px; width:100%; height:auto; border-radius:4px;">
