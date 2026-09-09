@@ -52077,7 +52077,7 @@
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-10 04:20 WIB"
+    "generated_at": "2026-09-10 05:09 WIB"
   },
   "JDZlvxbbz70": {
     "org_slug": "vcosmix",
@@ -52267,5 +52267,12 @@
     "ch_name": "Crystallyn Caparina",
     "status": "vod",
     "generated_at": "2026-09-10 01:14 WIB"
+  },
+  "wULMdYSw6xQ": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "luii-lafete-kanau-virtual",
+    "ch_name": "Luii Lafete【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-09-10 05:09 WIB"
   }
 }
