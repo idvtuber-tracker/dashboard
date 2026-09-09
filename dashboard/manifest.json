@@ -51874,7 +51874,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-09 19:13 WIB"
+    "generated_at": "2026-09-09 19:29 WIB"
   },
   "VGVYYfA1I6E": {
     "org_slug": "magisona",
@@ -51964,42 +51964,56 @@
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-09-09 19:13 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-09 19:29 WIB"
   },
   "QCs-YAHKoyY": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-09 19:13 WIB"
+    "generated_at": "2026-09-09 19:29 WIB"
   },
   "wBa9L28UfVA": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-09-09 19:13 WIB"
+    "generated_at": "2026-09-09 19:29 WIB"
   },
   "NnsbOlVAqKA": {
     "org_slug": "kanau-virtual",
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
     "status": "live",
-    "generated_at": "2026-09-09 19:13 WIB"
+    "generated_at": "2026-09-09 19:29 WIB"
   },
   "nOmbgXzTLQI": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-09 19:13 WIB"
+    "generated_at": "2026-09-09 19:29 WIB"
   },
   "5uY98Wrc0aM": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shaz-eilya-ch-snowvalley",
     "ch_name": "Shaz Eilya Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-09 19:13 WIB"
+    "generated_at": "2026-09-09 19:29 WIB"
+  },
+  "MEnQPM8Knsw": {
+    "org_slug": "project-livium",
+    "ch_slug": "lillis-infernallies-ch-livipro",
+    "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-09-09 19:29 WIB"
+  },
+  "d0_xZBCUKnI": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "kuma-wang-nawasena",
+    "ch_name": "Kuma Wang【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-09-09 19:29 WIB"
   }
 }
