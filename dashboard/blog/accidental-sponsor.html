@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>Blog — IDVTuber Tracker</title>
+<title>Apparently, We Are a Football Sponsor Now — IDVTuber Tracker</title>
 <link rel="icon" href="../favicon.ico">
 <script>window.SITE_DEPTH = 1;</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -220,162 +220,36 @@
   </div>
 </nav>
 <div class="page">
-  <header class="blog-hero">
+<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <a href="index.html">Blog</a> <span class="sep">&#8250;</span> <span class="current">Apparently, We Are a Football Sponsor Now</span></nav>
+  <header class="post-header">
     <p class="eyebrow">IDVTuber Tracker &#8212; Notes</p>
-    <h1>Project <em>Blog</em></h1>
-    <p class="blog-lede">Development notes, incident write-ups, and updates on the tracker infrastructure — API quota, runner migration, dashboard changes, and anything else worth logging.</p>
+    <h1>Apparently, We Are a Football Sponsor Now</h1>
+    <div class="post-meta-row">
+      <span>09 Sep 2026</span>
+      <span>1 min read</span>
+      <a class="tag-chip" href="index.html#tag=meta">meta</a><a class="tag-chip" href="index.html#tag=random">random</a>
+    </div>
   </header>
-  <div class="filter-status" id="filterStatus">
-    <span id="filterStatusText"></span>
-    <a class="clear-filter" href="#" id="clearFilter">Clear filter &#215;</a>
+  <div class="prose">
+<p>Somewhere between building out the ecosystem and pushing routine updates,
+IDVTuber Tracker has become the official sponsor of a football match. With
+the upcoming /vt/ League, now in its 11th edition, on the horizon, we&rsquo;re
+proud to announce that we are sponsoring perse/warkop/ in their bid for the
+prestigious divegrass cup, now in its ninth year, representing Indonesian
+VTuber culture and then some.</p>
+<p><img alt="feels like the stupid head of that King Ghidorah meme" src="images/sponsor-announcement.png" />
+<em>feels like the stupid head of that King Ghidorah meme</em></p>
+<p>The IDVTuber Tracker developer thanks the perse/warkop/ organizing committee
+for trusting us with this honor. Though he can&rsquo;t help but feel like the
+picture below, especially since IDVTuber Tracker didn&rsquo;t contribute a single
+rupiah financially.</p>
+<p><img alt="tools of the year right there, if you squint hard enough" src="images/young-michael-scott.jpg" />
+<em>tools of the year right there, if you squint hard enough</em></p>
+<p>Still, the developer wishes perse/warkop/ the best of luck in the matches
+ahead, and hopes the curse of Babe Sabeni finally leaves us all in peace.</p>
   </div>
-  <div class="blog-main-grid">
-    <div>
-      <div class="post-grid">
-      <div class="post-card" data-tags="meta random">
-        <a class="post-card-link" href="accidental-sponsor.html">
-          <span class="post-date">09 Sep 2026 &nbsp;&#183;&nbsp; 1 min read</span>
-          <div class="post-title">Apparently, We Are a Football Sponsor Now</div>
-          <div class="post-excerpt">Suddenly, there is a proposal handed on our desk, and we feel compelled to sign it.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=meta">meta</a><a class="tag-chip" href="#tag=random">random</a></div>
-      </div>
-      <div class="post-card" data-tags="announcement organization development">
-        <a class="post-card-link" href="tracker-status-update.html">
-          <span class="post-date">30 Aug 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</div>
-          <div class="post-excerpt">Two new orgs join the roster, the Raspberry Pi's original migration plan got scrapped in favor of something more interesting, and the indie tracker project is starting to take shape.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=announcement">announcement</a><a class="tag-chip" href="#tag=organization">organization</a><a class="tag-chip" href="#tag=development">development</a></div>
-      </div>
-      <div class="post-card" data-tags="announcement meta">
-        <a class="post-card-link" href="welcome-to-the-blog.html">
-          <span class="post-date">27 Aug 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">Welcome to the IDVTuber Tracker Blog</div>
-          <div class="post-excerpt">Why this blog exists, what it'll be used for, and a quick tour of the dashboard for anyone finding the project for the first time.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=announcement">announcement</a><a class="tag-chip" href="#tag=meta">meta</a></div>
-      </div>
-      </div>
-      <p class="no-match" id="noMatch">No posts match this tag.</p>
-    </div>
-    <div class="sidebar-col">
-      <div class="side-panel">
-        <div class="panel-hdr">All posts</div>
-      <div class="archive-year-group is-open">
-        <button class="archive-year-toggle" aria-expanded="true">
-          <span>2026</span>
-          <span class="archive-year-chevron">&#9662;</span>
-        </button>
-        <div class="archive-year-body">
-        <div class="archive-month-group is-open">
-          <button class="archive-month-toggle" aria-expanded="true">
-            <span class="archive-month-toggle-left">September<span class="archive-month-count">1</span></span>
-            <span class="archive-month-chevron">&#9662;</span>
-          </button>
-          <div class="archive-month-body">
-          <a class="archive-link" href="accidental-sponsor.html"><span class="archive-day">09</span>Apparently, We Are a Football Sponsor Now</a>
-          </div>
-        </div>
-        <div class="archive-month-group">
-          <button class="archive-month-toggle" aria-expanded="false">
-            <span class="archive-month-toggle-left">August<span class="archive-month-count">2</span></span>
-            <span class="archive-month-chevron">&#9662;</span>
-          </button>
-          <div class="archive-month-body">
-          <a class="archive-link" href="tracker-status-update.html"><span class="archive-day">30</span>Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</a>
-          <a class="archive-link" href="welcome-to-the-blog.html"><span class="archive-day">27</span>Welcome to the IDVTuber Tracker Blog</a>
-          </div>
-        </div>
-        </div>
-      </div>
-      </div>
-      <div class="side-panel">
-        <div class="panel-hdr">Browse by tag</div>
-        <div class="tag-cloud">
-          <a class="tag-pill" href="#" data-tag="">All<span class="tag-count">3</span></a>
-          <a class="tag-pill" href="#tag=announcement" data-tag="announcement" data-label="announcement">announcement <span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=meta" data-tag="meta" data-label="meta">meta <span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=development" data-tag="development" data-label="development">development <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=organization" data-tag="organization" data-label="organization">organization <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=random" data-tag="random" data-label="random">random <span class="tag-count">1</span></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<script>
-(function () {
-  document.querySelectorAll('.archive-year-toggle').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var grp = btn.closest('.archive-year-group');
-      var open = grp.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-  document.querySelectorAll('.archive-month-toggle').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var grp = btn.closest('.archive-month-group');
-      var open = grp.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-})();
-</script>
+  <a class="back-to-blog" href="index.html">&#8592; All posts</a>
 
-<script>
-(function () {
-  function readHashTag() {
-    var m = location.hash.match(/tag=([^&]+)/);
-    return m ? decodeURIComponent(m[1]) : '';
-  }
-
-  function tagLabel(slug) {
-    var pill = document.querySelector('.tag-pill[data-tag="' + slug + '"]');
-    return pill ? pill.getAttribute('data-label') : slug;
-  }
-
-  function applyFilter(tag) {
-    var cards = document.querySelectorAll('.post-card');
-    var visible = 0;
-    cards.forEach(function (c) {
-      var tags = (c.getAttribute('data-tags') || '').split(' ').filter(Boolean);
-      var show = !tag || tags.indexOf(tag) !== -1;
-      c.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-
-    document.querySelectorAll('.tag-pill').forEach(function (p) {
-      p.classList.toggle('active', (p.getAttribute('data-tag') || '') === tag);
-    });
-
-    var status = document.getElementById('filterStatus');
-    var text   = document.getElementById('filterStatusText');
-    var empty  = document.getElementById('noMatch');
-    if (tag) {
-      status.classList.add('is-active');
-      text.textContent = 'Showing ' + visible + ' post' + (visible === 1 ? '' : 's') +
-        ' tagged \u201C' + tagLabel(tag) + '\u201D';
-    } else {
-      status.classList.remove('is-active');
-    }
-    if (empty) empty.classList.toggle('is-visible', tag && visible === 0);
-  }
-
-  window.addEventListener('hashchange', function () { applyFilter(readHashTag()); });
-
-  var clearBtn = document.getElementById('clearFilter');
-  if (clearBtn) {
-    clearBtn.addEventListener('click', function (e) {
-      e.preventDefault();
-      history.replaceState(null, '', location.pathname + location.search);
-      applyFilter('');
-    });
-  }
-
-  applyFilter(readHashTag());
-})();
-</script>
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
     <nav class="footer-links">
