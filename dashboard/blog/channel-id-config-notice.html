@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>Blog — IDVTuber Tracker</title>
+<title>A Note on a Backend Config Issue and changes to the Tracker Dashboard — IDVTuber Tracker</title>
 <link rel="icon" href="../favicon.ico">
 <script>window.SITE_DEPTH = 1;</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -220,172 +220,49 @@
   </div>
 </nav>
 <div class="page">
-  <header class="blog-hero">
+<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <a href="index.html">Blog</a> <span class="sep">&#8250;</span> <span class="current">A Note on a Backend Config Issue and changes to the Tracker Dashboard</span></nav>
+  <header class="post-header">
     <p class="eyebrow">IDVTuber Tracker &#8212; Notes</p>
-    <h1>Project <em>Blog</em></h1>
-    <p class="blog-lede">Development notes, incident write-ups, and updates on the tracker infrastructure — API quota, runner migration, dashboard changes, and anything else worth logging.</p>
+    <h1>A Note on a Backend Config Issue and changes to the Tracker Dashboard</h1>
+    <div class="post-meta-row">
+      <span>10 Sep 2026</span>
+      <span>2 min read</span>
+      <a class="tag-chip" href="index.html#tag=maintenance">maintenance</a><a class="tag-chip" href="index.html#tag=organization">organization</a>
+    </div>
   </header>
-  <div class="filter-status" id="filterStatus">
-    <span id="filterStatusText"></span>
-    <a class="clear-filter" href="#" id="clearFilter">Clear filter &#215;</a>
+  <div class="prose">
+<p>During routine maintenance, we found that a handful of channel ID references in our internal configuration didn&rsquo;t actually match the real YouTube channel ID for that channel, likely left over from an earlier slopy copy-paste jobs during the early development of the dashboard.</p>
+<p><strong>The short version: nothing on the dashboard was wrong.</strong> No stream data, avatars, subscriber counts, or &ldquo;Watch on YouTube&rdquo; links were affected for any channel, as far as we&rsquo;ve been able to confirm.</p>
+<h2 id="how-this-happened">How this happened</h2>
+<p>Our dashboard doesn&rsquo;t actually look up a channel&rsquo;s stream data by that internal ID first. It looks it up by <strong>channel name</strong>. Only if the name lookup comes up empty does it fall back to matching by ID.</p>
+<p>Since the affected channels&rsquo; names still matched correctly between our configuration and our database, every stream page, logo, and subscriber count kept resolving through the name match. The incorrect ID was just sitting there unused, like a typo in a comment nobody reads.</p>
+<div style="background: rgba(79,195,247,0.06); border-left: 3px solid #4fc3f7; border-radius: 4px; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: 0.9rem;">
+If the affected channel's stored name had drifted even slightly from what's in our configuration: a trailing space, a different bracket style, a rename. This same mismatch could have quietly shown the wrong avatar, subscriber count, or outbound YouTube link. That's the scenario we're specifically checking for as part of the fix, even though we haven't found an instance of it happening.
+</div>
+
+<h2 id="what-were-doing">What we&rsquo;re doing</h2>
+<p>We&rsquo;re auditing and correcting the internal ID references as part of ongoing maintenance, alongside adding a few new channels. This is purely a backend cleanup, you shouldn&rsquo;t notice any change on the dashboard itself.</p>
+<p>As always, thanks for using the tracker. If you ever spot something that looks off: a wrong avatar, a link that goes to the wrong channel, anything, feel free to reach out via the contact info in the footer.</p>
+<h2 id="new-additions">New additions</h2>
+<p>While we were in there, we also added a few new names to the tracker:</p>
+<ul>
+<li><strong>Project:LIVIUM — Chapter 3</strong>, a new wave of talents joining Project:LIVIUM: Arvent Durra, Pierre Iddamont, Edgar Tyrsonted, Kian Kishanya, and Wansy Hyerr.</li>
+<li><strong>MIQELA</strong>, a new organisation joining the tracker for the first time, with three talents: Ayako Miyuki, Teaqilla, and Stellaria Vernakila.</li>
+<li><strong>Matchuan</strong>, a new talent under Nawasena.</li>
+</ul>
+<p>Welcome to the tracker! It may take a little while for stream history to build up on their pages as we start collecting data.</p>
+<h2 id="removal">Removal</h2>
+<p>We have also removed <strong>JKT48V</strong> from the dashboard, following the group&rsquo;s cessation of activities on September 5th. Their org and channel pages will no longer be updated going forward.</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>✅ Found backend issue and fixed it for posterity</li>
+<li>✅ Additional new names and org on the tracker</li>
+<li>✅ Removal of JKT48v from the IDVT dashboard</li>
+</ul>
+<p>More updates as data from the mentioned names above are to be collected.</p>
   </div>
-  <div class="blog-main-grid">
-    <div>
-      <div class="post-grid">
-      <div class="post-card" data-tags="maintenance organization">
-        <a class="post-card-link" href="channel-id-config-notice.html">
-          <span class="post-date">10 Sep 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">A Note on a Backend Config Issue and changes to the Tracker Dashboard</div>
-          <div class="post-excerpt">We found a mismatch between some internal channel ID references and the real channel IDs. Here's what happened, why it didn't affect what you see, and what we're doing about it.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=maintenance">maintenance</a><a class="tag-chip" href="#tag=organization">organization</a></div>
-      </div>
-      <div class="post-card" data-tags="meta random">
-        <a class="post-card-link" href="accidental-sponsor.html">
-          <span class="post-date">09 Sep 2026 &nbsp;&#183;&nbsp; 1 min read</span>
-          <div class="post-title">Apparently, We Are a Football Sponsor Now</div>
-          <div class="post-excerpt">Suddenly, there is a proposal handed on our desk, and we feel compelled to sign it.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=meta">meta</a><a class="tag-chip" href="#tag=random">random</a></div>
-      </div>
-      <div class="post-card" data-tags="announcement organization development">
-        <a class="post-card-link" href="tracker-status-update.html">
-          <span class="post-date">30 Aug 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</div>
-          <div class="post-excerpt">Two new orgs join the roster, the Raspberry Pi's original migration plan got scrapped in favor of something more interesting, and the indie tracker project is starting to take shape.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=announcement">announcement</a><a class="tag-chip" href="#tag=organization">organization</a><a class="tag-chip" href="#tag=development">development</a></div>
-      </div>
-      <div class="post-card" data-tags="announcement meta">
-        <a class="post-card-link" href="welcome-to-the-blog.html">
-          <span class="post-date">27 Aug 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">Welcome to the IDVTuber Tracker Blog</div>
-          <div class="post-excerpt">Why this blog exists, what it'll be used for, and a quick tour of the dashboard for anyone finding the project for the first time.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=announcement">announcement</a><a class="tag-chip" href="#tag=meta">meta</a></div>
-      </div>
-      </div>
-      <p class="no-match" id="noMatch">No posts match this tag.</p>
-    </div>
-    <div class="sidebar-col">
-      <div class="side-panel">
-        <div class="panel-hdr">All posts</div>
-      <div class="archive-year-group is-open">
-        <button class="archive-year-toggle" aria-expanded="true">
-          <span>2026</span>
-          <span class="archive-year-chevron">&#9662;</span>
-        </button>
-        <div class="archive-year-body">
-        <div class="archive-month-group is-open">
-          <button class="archive-month-toggle" aria-expanded="true">
-            <span class="archive-month-toggle-left">September<span class="archive-month-count">2</span></span>
-            <span class="archive-month-chevron">&#9662;</span>
-          </button>
-          <div class="archive-month-body">
-          <a class="archive-link" href="channel-id-config-notice.html"><span class="archive-day">10</span>A Note on a Backend Config Issue and changes to the Tracker Dashboard</a>
-          <a class="archive-link" href="accidental-sponsor.html"><span class="archive-day">09</span>Apparently, We Are a Football Sponsor Now</a>
-          </div>
-        </div>
-        <div class="archive-month-group">
-          <button class="archive-month-toggle" aria-expanded="false">
-            <span class="archive-month-toggle-left">August<span class="archive-month-count">2</span></span>
-            <span class="archive-month-chevron">&#9662;</span>
-          </button>
-          <div class="archive-month-body">
-          <a class="archive-link" href="tracker-status-update.html"><span class="archive-day">30</span>Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</a>
-          <a class="archive-link" href="welcome-to-the-blog.html"><span class="archive-day">27</span>Welcome to the IDVTuber Tracker Blog</a>
-          </div>
-        </div>
-        </div>
-      </div>
-      </div>
-      <div class="side-panel">
-        <div class="panel-hdr">Browse by tag</div>
-        <div class="tag-cloud">
-          <a class="tag-pill" href="#" data-tag="">All<span class="tag-count">4</span></a>
-          <a class="tag-pill" href="#tag=announcement" data-tag="announcement" data-label="announcement">announcement <span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=meta" data-tag="meta" data-label="meta">meta <span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=organization" data-tag="organization" data-label="organization">organization <span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=development" data-tag="development" data-label="development">development <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=maintenance" data-tag="maintenance" data-label="maintenance">maintenance <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=random" data-tag="random" data-label="random">random <span class="tag-count">1</span></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<script>
-(function () {
-  document.querySelectorAll('.archive-year-toggle').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var grp = btn.closest('.archive-year-group');
-      var open = grp.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-  document.querySelectorAll('.archive-month-toggle').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var grp = btn.closest('.archive-month-group');
-      var open = grp.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-})();
-</script>
+  <a class="back-to-blog" href="index.html">&#8592; All posts</a>
 
-<script>
-(function () {
-  function readHashTag() {
-    var m = location.hash.match(/tag=([^&]+)/);
-    return m ? decodeURIComponent(m[1]) : '';
-  }
-
-  function tagLabel(slug) {
-    var pill = document.querySelector('.tag-pill[data-tag="' + slug + '"]');
-    return pill ? pill.getAttribute('data-label') : slug;
-  }
-
-  function applyFilter(tag) {
-    var cards = document.querySelectorAll('.post-card');
-    var visible = 0;
-    cards.forEach(function (c) {
-      var tags = (c.getAttribute('data-tags') || '').split(' ').filter(Boolean);
-      var show = !tag || tags.indexOf(tag) !== -1;
-      c.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-
-    document.querySelectorAll('.tag-pill').forEach(function (p) {
-      p.classList.toggle('active', (p.getAttribute('data-tag') || '') === tag);
-    });
-
-    var status = document.getElementById('filterStatus');
-    var text   = document.getElementById('filterStatusText');
-    var empty  = document.getElementById('noMatch');
-    if (tag) {
-      status.classList.add('is-active');
-      text.textContent = 'Showing ' + visible + ' post' + (visible === 1 ? '' : 's') +
-        ' tagged \u201C' + tagLabel(tag) + '\u201D';
-    } else {
-      status.classList.remove('is-active');
-    }
-    if (empty) empty.classList.toggle('is-visible', tag && visible === 0);
-  }
-
-  window.addEventListener('hashchange', function () { applyFilter(readHashTag()); });
-
-  var clearBtn = document.getElementById('clearFilter');
-  if (clearBtn) {
-    clearBtn.addEventListener('click', function (e) {
-      e.preventDefault();
-      history.replaceState(null, '', location.pathname + location.search);
-      applyFilter('');
-    });
-  }
-
-  applyFilter(readHashTag());
-})();
-</script>
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
     <nav class="footer-links">
