@@ -52301,34 +52301,41 @@
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-10 13:50 WIB"
+    "generated_at": "2026-09-10 14:10 WIB"
   },
   "cm197UaT-zo": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-09-10 13:50 WIB"
+    "generated_at": "2026-09-10 14:10 WIB"
   },
   "u5VAGaoPJ1A": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-09-10 13:50 WIB"
+    "generated_at": "2026-09-10 14:10 WIB"
   },
   "3t4pzZk0oZs": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-09-10 13:50 WIB"
+    "generated_at": "2026-09-10 14:10 WIB"
   },
   "ywYe72ipCJI": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-10 13:50 WIB"
+    "generated_at": "2026-09-10 14:10 WIB"
+  },
+  "oa4s7GHs5-Y": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "karissa-sharlotte-dasoriyal",
+    "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-09-10 14:10 WIB"
   }
 }
