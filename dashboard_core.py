@@ -201,6 +201,7 @@ ORG_MAP = {
             ("Flein Ryst【AFTERAIN】",        "talent", "UCY-fhXM0BzpBtBk1czoY5fA"),
             ("Avy Inkaiserin 【AFTERAIN】",   "talent", "UCvHWaiG9YSPgmLhNuLmqMUA"),
             ("Kana Chizu 【AFTERAIN】",       "talent", "UCh5wq5bs4VG1ah3THbW156g"),
+            ("Sierra Mooniva",                "talent", "UChqM8QAXqPDRU5D16Os32IA"),
         ],
     },
     "magniv": {
