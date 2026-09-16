@@ -110,16 +110,19 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
 
-      - name: Checkout history repo
+      - name: Download history.db from release
         env:
-          HISTORY_REPO_PAT: ${{ secrets.HISTORY_REPO_PAT }}
+          GH_TOKEN: ${{ secrets.HISTORY_REPO_PAT }}
         run: |
-          REPO_URL="https://x-access-token:${HISTORY_REPO_PAT}@github.com/${{ github.repository_owner }}/idvt-history.git"
-          if git clone --depth=1 "$REPO_URL" idvt-history 2>/dev/null; then
-            echo "history repo cloned successfully."
+          mkdir -p idvt-history
+          if gh release download data \
+              --repo "${{ github.repository_owner }}/idvt-history" \
+              --pattern history.db \
+              --dir idvt-history \
+              --clobber 2>/dev/null; then
+            echo "history.db downloaded ($(du -h idvt-history/history.db | cut -f1))."
           else
-            echo "history repo is empty or unreachable — creating empty directory."
-            mkdir -p idvt-history
+            echo "No history.db asset found — dashboard will build without archived data."
           fi
 
       - name: Set up Python 3.12
