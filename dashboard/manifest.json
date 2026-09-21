@@ -56697,7 +56697,7 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "MNYlgj4JHmU": {
     "org_slug": "whicker-butler",
@@ -56739,14 +56739,14 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "qbbs1hKRVkw": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "oS5-67Qs6WY": {
     "org_slug": "uver-id",
@@ -56767,14 +56767,14 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "wb6lxeFs75s": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "MvX2RfgQsj4": {
     "org_slug": "project-livium",
@@ -56830,7 +56830,7 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "34SLquN6JXY": {
     "org_slug": "uver-id",
@@ -56843,8 +56843,8 @@
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "rU08SFVXgJg": {
     "org_slug": "snowvalley-agency",
@@ -56893,7 +56893,7 @@
     "ch_slug": "ibame-masagi-hibikasekai",
     "ch_name": "Ibame Masagi 🗝  〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "hGzbefLTK1Y": {
     "org_slug": "enygmyst-project",
@@ -56907,14 +56907,14 @@
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "WQr-W-Kdjek": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-09-22 00:16 WIB"
+    "generated_at": "2026-09-22 00:33 WIB"
   },
   "KZfiYv59cGc": {
     "org_slug": "project-livium",
@@ -56929,5 +56929,12 @@
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "vod",
     "generated_at": "2026-09-22 00:16 WIB"
+  },
+  "jdTLGA92rdw": {
+    "org_slug": "miqela",
+    "ch_slug": "teaqillla-ch-miqela",
+    "ch_name": "Teaqillla Ch. 【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-09-22 00:33 WIB"
   }
 }
