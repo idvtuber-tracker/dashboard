@@ -56697,7 +56697,7 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "MNYlgj4JHmU": {
     "org_slug": "whicker-butler",
@@ -56739,14 +56739,14 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "qbbs1hKRVkw": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "oS5-67Qs6WY": {
     "org_slug": "uver-id",
@@ -56830,7 +56830,7 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "34SLquN6JXY": {
     "org_slug": "uver-id",
@@ -56956,21 +56956,21 @@
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "jacwc1Vyy8g": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "MPRs37Dk87A": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "ISGs29Xitwc": {
     "org_slug": "hibikasekai",
@@ -56991,48 +56991,62 @@
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "sBkc6AZxWhA": {
     "org_slug": "vcosmix",
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
-    "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "dMEsAkFejA8": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "SdizKM1URoQ": {
     "org_slug": "laeta",
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "6xTFd1slKjo": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "t5t3gxbzieM": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
   },
   "YX97BBMBzFk": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-22 16:10 WIB"
+    "generated_at": "2026-09-22 16:26 WIB"
+  },
+  "WhTBH6MytV4": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-09-22 16:26 WIB"
+  },
+  "8KUQIUDaTto": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "chie-estelle-hibikasekai",
+    "ch_name": "Chie Estelle🦊🌼〖 HIBIKASEKAI 】",
+    "status": "live",
+    "generated_at": "2026-09-22 16:26 WIB"
   }
 }
