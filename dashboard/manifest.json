@@ -58300,13 +58300,20 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-25 13:53 WIB"
+    "generated_at": "2026-09-25 14:11 WIB"
   },
   "1gY4WnKIh2E": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-25 13:53 WIB"
+    "generated_at": "2026-09-25 14:11 WIB"
+  },
+  "ZMGrpLXdA3c": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-09-25 14:11 WIB"
   }
 }
