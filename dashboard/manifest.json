@@ -58300,7 +58300,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-25 18:57 WIB"
+    "generated_at": "2026-09-25 19:19 WIB"
   },
   "1gY4WnKIh2E": {
     "org_slug": "project-livium",
@@ -58356,21 +58356,21 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-25 18:57 WIB"
+    "generated_at": "2026-09-25 19:19 WIB"
   },
   "r8gC5B3QSeE": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-25 18:57 WIB"
+    "generated_at": "2026-09-25 19:19 WIB"
   },
   "j1YXcN8UkDQ": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-25 18:57 WIB"
+    "generated_at": "2026-09-25 19:19 WIB"
   },
   "J7aQQYZq298": {
     "org_slug": "nawasena-live",
@@ -58384,20 +58384,41 @@
     "ch_slug": "selia-aisnith-crims-on",
     "ch_name": "Selia Aisnith 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-09-25 18:57 WIB"
+    "generated_at": "2026-09-25 19:19 WIB"
   },
   "HtR8EFePvDQ": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-25 18:57 WIB"
+    "generated_at": "2026-09-25 19:19 WIB"
   },
   "-nC5DnF8miA": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-09-25 18:57 WIB"
+    "generated_at": "2026-09-25 19:19 WIB"
+  },
+  "iNElqhKQfsM": {
+    "org_slug": "asobu-production",
+    "ch_slug": "lyra-monphelia-asobu",
+    "ch_name": "Lyra Monphelia 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-09-25 19:19 WIB"
+  },
+  "gh15EGFe5so": {
+    "org_slug": "pandavva",
+    "ch_slug": "pandavva-official",
+    "ch_name": "PANDAVVA Official",
+    "status": "live",
+    "generated_at": "2026-09-25 19:19 WIB"
+  },
+  "iryehM-CrAY": {
+    "org_slug": "magniv",
+    "ch_slug": "shiru-magniv",
+    "ch_name": "Shiru 【MagniV】",
+    "status": "live",
+    "generated_at": "2026-09-25 19:19 WIB"
   }
 }
