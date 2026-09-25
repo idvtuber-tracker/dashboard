@@ -58300,7 +58300,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "generated_at": "2026-09-25 19:48 WIB"
   },
   "1gY4WnKIh2E": {
     "org_slug": "project-livium",
@@ -58356,21 +58356,21 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "generated_at": "2026-09-25 19:48 WIB"
   },
   "r8gC5B3QSeE": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "generated_at": "2026-09-25 19:48 WIB"
   },
   "j1YXcN8UkDQ": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "generated_at": "2026-09-25 19:48 WIB"
   },
   "J7aQQYZq298": {
     "org_slug": "nawasena-live",
@@ -58383,42 +58383,98 @@
     "org_slug": "crims-on",
     "ch_slug": "selia-aisnith-crims-on",
     "ch_name": "Selia Aisnith 【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-25 19:48 WIB"
   },
   "HtR8EFePvDQ": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "generated_at": "2026-09-25 19:48 WIB"
   },
   "-nC5DnF8miA": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "generated_at": "2026-09-25 19:48 WIB"
   },
   "iNElqhKQfsM": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "generated_at": "2026-09-25 19:48 WIB"
   },
   "gh15EGFe5so": {
     "org_slug": "pandavva",
     "ch_slug": "pandavva-official",
     "ch_name": "PANDAVVA Official",
     "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "generated_at": "2026-09-25 19:48 WIB"
   },
   "iryehM-CrAY": {
     "org_slug": "magniv",
     "ch_slug": "shiru-magniv",
     "ch_name": "Shiru 【MagniV】",
     "status": "live",
-    "generated_at": "2026-09-25 19:19 WIB"
+    "generated_at": "2026-09-25 19:48 WIB"
+  },
+  "iQEplliA5M8": {
+    "org_slug": "uver-id",
+    "ch_slug": "norn-haira-uver-id",
+    "ch_name": "Norn Haira〔UVER ID〕",
+    "status": "live",
+    "generated_at": "2026-09-25 19:48 WIB"
+  },
+  "iUsQcvplMw8": {
+    "org_slug": "versa",
+    "ch_slug": "eray-ryuki-versa",
+    "ch_name": "Eray Ryuki【VERSA】",
+    "status": "live",
+    "generated_at": "2026-09-25 19:48 WIB"
+  },
+  "wCS4ACW6bWk": {
+    "org_slug": "yorukaze",
+    "ch_slug": "crystallyn-caparina",
+    "ch_name": "Crystallyn Caparina",
+    "status": "live",
+    "generated_at": "2026-09-25 19:48 WIB"
+  },
+  "b8ZFTkx6C4g": {
+    "org_slug": "project-livium",
+    "ch_slug": "lillis-infernallies-ch-livipro",
+    "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-09-25 19:48 WIB"
+  },
+  "Tx49tMcCgRE": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
+    "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
+    "status": "live",
+    "generated_at": "2026-09-25 19:48 WIB"
+  },
+  "JZ9t4BIs4NM": {
+    "org_slug": "evren-community",
+    "ch_slug": "amami-yoruna",
+    "ch_name": "Amami Yoruna",
+    "status": "live",
+    "generated_at": "2026-09-25 19:48 WIB"
+  },
+  "xhI77bUZyIs": {
+    "org_slug": "project-eternoia",
+    "ch_slug": "allyra-violette",
+    "ch_name": "Allyra Violette 🪨",
+    "status": "live",
+    "generated_at": "2026-09-25 19:48 WIB"
+  },
+  "yprJTSAD7e8": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "kuma-wang-nawasena",
+    "ch_name": "Kuma Wang【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-09-25 19:48 WIB"
   }
 }
