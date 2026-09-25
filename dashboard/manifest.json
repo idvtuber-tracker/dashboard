@@ -58300,7 +58300,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-25 16:39 WIB"
+    "generated_at": "2026-09-25 16:58 WIB"
   },
   "1gY4WnKIh2E": {
     "org_slug": "project-livium",
@@ -58314,27 +58314,34 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-09-25 16:39 WIB"
+    "generated_at": "2026-09-25 16:58 WIB"
   },
   "1DnHPcx7urE": {
     "org_slug": "evren-community",
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
     "status": "live",
-    "generated_at": "2026-09-25 16:39 WIB"
+    "generated_at": "2026-09-25 16:58 WIB"
   },
   "raZfRJPqhwc": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-25 16:39 WIB"
+    "generated_at": "2026-09-25 16:58 WIB"
   },
   "NUVJcvGfJ7s": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-25 16:39 WIB"
+    "generated_at": "2026-09-25 16:58 WIB"
+  },
+  "wx5n4zXIs40": {
+    "org_slug": "project-livium",
+    "ch_slug": "silvia-valleria-ch-livipro",
+    "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-09-25 16:58 WIB"
   }
 }
