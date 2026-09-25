@@ -58250,8 +58250,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-09-25 12:37 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-25 12:55 WIB"
   },
   "oyaV3EMbZGM": {
     "org_slug": "mejikuhibiniu",
@@ -58286,7 +58286,7 @@
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-09-25 12:37 WIB"
+    "generated_at": "2026-09-25 12:55 WIB"
   },
   "5IH-sfFKtRA": {
     "org_slug": "aisatset",
@@ -58294,5 +58294,12 @@
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "vod",
     "generated_at": "2026-09-25 11:39 WIB"
+  },
+  "eUe2XegZdbU": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-09-25 12:55 WIB"
   }
 }
