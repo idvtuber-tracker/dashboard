@@ -58300,7 +58300,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "generated_at": "2026-09-25 17:55 WIB"
   },
   "1gY4WnKIh2E": {
     "org_slug": "project-livium",
@@ -58320,63 +58320,70 @@
     "org_slug": "evren-community",
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
-    "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-25 17:55 WIB"
   },
   "raZfRJPqhwc": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "generated_at": "2026-09-25 17:55 WIB"
   },
   "NUVJcvGfJ7s": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-25 17:55 WIB"
   },
   "wx5n4zXIs40": {
     "org_slug": "project-livium",
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-25 17:55 WIB"
   },
   "u3s3wolkD-s": {
     "org_slug": "hibikasekai",
     "ch_slug": "alex-von-astaroth-hibikasekai",
     "ch_name": "Alex von Astaroth 🦇 🦊〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "generated_at": "2026-09-25 17:55 WIB"
   },
   "OFKbKWbIS5g": {
     "org_slug": "laeta",
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "generated_at": "2026-09-25 17:55 WIB"
   },
   "r8gC5B3QSeE": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "generated_at": "2026-09-25 17:55 WIB"
   },
   "j1YXcN8UkDQ": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "generated_at": "2026-09-25 17:55 WIB"
   },
   "J7aQQYZq298": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-09-25 17:37 WIB"
+    "generated_at": "2026-09-25 17:55 WIB"
+  },
+  "Nfx7uh2rz64": {
+    "org_slug": "crims-on",
+    "ch_slug": "selia-aisnith-crims-on",
+    "ch_name": "Selia Aisnith 【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-09-25 17:55 WIB"
   }
 }
