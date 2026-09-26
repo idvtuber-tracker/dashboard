@@ -58356,7 +58356,7 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "r8gC5B3QSeE": {
     "org_slug": "project-livium",
@@ -58391,14 +58391,14 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "-nC5DnF8miA": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "iNElqhKQfsM": {
     "org_slug": "asobu-production",
@@ -58699,7 +58699,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "qqDM-Ysy-xo": {
     "org_slug": "arvi-media",
@@ -58720,48 +58720,55 @@
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "K_azDPFDe0c": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "GSMOhAEERPE": {
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "u3kdEjDNszU": {
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "9Sd_2NOnKps": {
     "org_slug": "vcosmix",
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "Ss_FZZ6RZv8": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
   },
   "P9p8jHKarA8": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-26 10:13 WIB"
+    "generated_at": "2026-09-26 10:17 WIB"
+  },
+  "nyYmvvmCu2U": {
+    "org_slug": "enygmyst-project",
+    "ch_slug": "shia-naenia-enigmyst-project",
+    "ch_name": "Shia Naenia 【ENIGMYST Project】",
+    "status": "vod",
+    "generated_at": "2026-09-26 10:17 WIB"
   }
 }
