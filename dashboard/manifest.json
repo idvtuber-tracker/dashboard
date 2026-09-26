@@ -58356,7 +58356,7 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "generated_at": "2026-09-26 18:08 WIB"
   },
   "r8gC5B3QSeE": {
     "org_slug": "project-livium",
@@ -58391,14 +58391,14 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "generated_at": "2026-09-26 18:08 WIB"
   },
   "-nC5DnF8miA": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "generated_at": "2026-09-26 18:08 WIB"
   },
   "iNElqhKQfsM": {
     "org_slug": "asobu-production",
@@ -58818,7 +58818,7 @@
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "generated_at": "2026-09-26 18:08 WIB"
   },
   "2yqOY15ZGRc": {
     "org_slug": "aisatset",
@@ -58838,8 +58838,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-26 18:08 WIB"
   },
   "zS-mdgk-ORY": {
     "org_slug": "project-livium",
@@ -58853,7 +58853,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "generated_at": "2026-09-26 18:08 WIB"
   },
   "rjn4zYfEu4U": {
     "org_slug": "project-livium",
@@ -58867,7 +58867,7 @@
     "ch_slug": "cygne-ictis-r-verie",
     "ch_name": "Cygne Ictis 【 R𝄢VERIE 】",
     "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "generated_at": "2026-09-26 18:08 WIB"
   },
   "RCQD5pgRbXc": {
     "org_slug": "project-livium",
@@ -58888,20 +58888,27 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "generated_at": "2026-09-26 18:08 WIB"
   },
   "0nxzs8A81T4": {
     "org_slug": "gravt",
     "ch_slug": "gravt",
     "ch_name": "GRAVT",
-    "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "status": "vod",
+    "generated_at": "2026-09-26 18:08 WIB"
   },
   "7E9HfVnidlU": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shaz-eilya-ch-snowvalley",
     "ch_name": "Shaz Eilya Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-26 17:48 WIB"
+    "generated_at": "2026-09-26 18:08 WIB"
+  },
+  "36o--cpZRDk": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuura-yozakura-ch-livipro",
+    "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-09-26 18:08 WIB"
   }
 }
