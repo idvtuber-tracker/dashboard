@@ -58356,7 +58356,7 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "r8gC5B3QSeE": {
     "org_slug": "project-livium",
@@ -58391,14 +58391,14 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "-nC5DnF8miA": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "iNElqhKQfsM": {
     "org_slug": "asobu-production",
@@ -58853,7 +58853,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "rjn4zYfEu4U": {
     "org_slug": "project-livium",
@@ -58888,7 +58888,7 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "0nxzs8A81T4": {
     "org_slug": "gravt",
@@ -58902,41 +58902,76 @@
     "ch_slug": "shaz-eilya-ch-snowvalley",
     "ch_name": "Shaz Eilya Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "36o--cpZRDk": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "73cqqMBSvVY": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "CBYPDrIL9-0": {
     "org_slug": "prism-nova",
     "ch_slug": "serika-cosmica-prism-nova",
     "ch_name": "Serika Cosmica 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "CYcIzq4P4NA": {
     "org_slug": "pandavva",
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
   },
   "NKakDjEKxLQ": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-09-26 19:12 WIB"
+    "generated_at": "2026-09-26 19:39 WIB"
+  },
+  "TvlgXJl81MU": {
+    "org_slug": "versa",
+    "ch_slug": "eray-ryuki-versa",
+    "ch_name": "Eray Ryuki【VERSA】",
+    "status": "live",
+    "generated_at": "2026-09-26 19:39 WIB"
+  },
+  "9C2z0Kx2M6k": {
+    "org_slug": "afterain",
+    "ch_slug": "sierra-mooniva",
+    "ch_name": "Sierra Mooniva",
+    "status": "live",
+    "generated_at": "2026-09-26 19:39 WIB"
+  },
+  "6pr7BXq13mE": {
+    "org_slug": "magisona",
+    "ch_slug": "iofiel-feliz-ch-magisona",
+    "ch_name": "ioFiel Feliz Ch.【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-09-26 19:39 WIB"
+  },
+  "XQ1Ojm1KmMo": {
+    "org_slug": "asobu-production",
+    "ch_slug": "mo-xiao-mei-asobu",
+    "ch_name": "Mo Xiao Mei【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-09-26 19:39 WIB"
+  },
+  "mO1tHN73LU0": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-09-26 19:39 WIB"
   }
 }
