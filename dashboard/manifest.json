@@ -58356,7 +58356,7 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "r8gC5B3QSeE": {
     "org_slug": "project-livium",
@@ -58391,14 +58391,14 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "-nC5DnF8miA": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "iNElqhKQfsM": {
     "org_slug": "asobu-production",
@@ -58888,7 +58888,7 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "0nxzs8A81T4": {
     "org_slug": "gravt",
@@ -58930,7 +58930,7 @@
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "NKakDjEKxLQ": {
     "org_slug": "hibikasekai",
@@ -59154,7 +59154,7 @@
     "ch_slug": "darlyne-nightbloom-whicker-butler",
     "ch_name": "Darlyne Nightbloom【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "tCstq1-8KVY": {
     "org_slug": "asobu-production",
@@ -59168,14 +59168,14 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "18tY2jtIG7I": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "PtrhbWDyKxw": {
     "org_slug": "magniv",
@@ -59189,27 +59189,48 @@
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "qGulpD1LVvw": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "jSEozzBs2zU": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
   },
   "uxPO3cAiV2k": {
     "org_slug": "prism-nova",
     "ch_slug": "serika-cosmica-prism-nova",
     "ch_name": "Serika Cosmica 【Prism:NOVA】",
+    "status": "vod",
+    "generated_at": "2026-09-27 12:39 WIB"
+  },
+  "eJSTtTn3Pyw": {
+    "org_slug": "yorukaze",
+    "ch_slug": "ellise-youka-yorukaze",
+    "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-09-27 12:22 WIB"
+    "generated_at": "2026-09-27 12:39 WIB"
+  },
+  "Dh0b3qzjQ7k": {
+    "org_slug": "prism-nova",
+    "ch_slug": "thalia-symphonia-prism-nova",
+    "ch_name": "Thalia Symphonia 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-09-27 12:39 WIB"
+  },
+  "NR6OwyWE3dI": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "tuti-hanna-ch-snowvalley",
+    "ch_name": "Tuti Hanna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-09-27 12:39 WIB"
   }
 }
