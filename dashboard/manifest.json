@@ -58356,7 +58356,7 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
   },
   "r8gC5B3QSeE": {
     "org_slug": "project-livium",
@@ -58391,14 +58391,14 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
   },
   "-nC5DnF8miA": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
   },
   "iNElqhKQfsM": {
     "org_slug": "asobu-production",
@@ -58888,7 +58888,7 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
   },
   "0nxzs8A81T4": {
     "org_slug": "gravt",
@@ -58930,7 +58930,7 @@
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
   },
   "NKakDjEKxLQ": {
     "org_slug": "hibikasekai",
@@ -59154,7 +59154,7 @@
     "ch_slug": "darlyne-nightbloom-whicker-butler",
     "ch_name": "Darlyne Nightbloom【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
   },
   "tCstq1-8KVY": {
     "org_slug": "asobu-production",
@@ -59168,27 +59168,34 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
   },
   "18tY2jtIG7I": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
   },
   "PtrhbWDyKxw": {
     "org_slug": "magniv",
     "ch_slug": "shiru-magniv",
     "ch_name": "Shiru 【MagniV】",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
   },
   "bUnK1yALlQc": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-09-27 10:21 WIB"
+    "generated_at": "2026-09-27 10:36 WIB"
+  },
+  "qGulpD1LVvw": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuura-yozakura-ch-livipro",
+    "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-09-27 10:36 WIB"
   }
 }
