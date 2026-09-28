@@ -58356,7 +58356,7 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-09-28 10:24 WIB"
+    "generated_at": "2026-09-28 10:39 WIB"
   },
   "r8gC5B3QSeE": {
     "org_slug": "project-livium",
@@ -58391,14 +58391,14 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-09-28 10:24 WIB"
+    "generated_at": "2026-09-28 10:39 WIB"
   },
   "-nC5DnF8miA": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-09-28 10:24 WIB"
+    "generated_at": "2026-09-28 10:39 WIB"
   },
   "iNElqhKQfsM": {
     "org_slug": "asobu-production",
@@ -58888,7 +58888,7 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-09-28 10:24 WIB"
+    "generated_at": "2026-09-28 10:39 WIB"
   },
   "0nxzs8A81T4": {
     "org_slug": "gravt",
@@ -58930,7 +58930,7 @@
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-09-28 10:24 WIB"
+    "generated_at": "2026-09-28 10:39 WIB"
   },
   "NKakDjEKxLQ": {
     "org_slug": "hibikasekai",
@@ -59154,7 +59154,7 @@
     "ch_slug": "darlyne-nightbloom-whicker-butler",
     "ch_name": "Darlyne Nightbloom【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-09-28 10:24 WIB"
+    "generated_at": "2026-09-28 10:39 WIB"
   },
   "tCstq1-8KVY": {
     "org_slug": "asobu-production",
@@ -59672,13 +59672,20 @@
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-09-28 10:24 WIB"
+    "generated_at": "2026-09-28 10:39 WIB"
   },
   "jqFMM35M5UI": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-09-28 10:24 WIB"
+    "generated_at": "2026-09-28 10:39 WIB"
+  },
+  "UC02HyADU7E": {
+    "org_slug": "aisatset",
+    "ch_slug": "ungaume-aisatset-id",
+    "ch_name": "UngaUme【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-09-28 10:39 WIB"
   }
 }
