@@ -61407,7 +61407,14 @@
     "org_slug": "miqela",
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
+    "status": "vod",
+    "generated_at": "2026-10-02 05:59 WIB"
+  },
+  "QgUSDWKrXog": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-02 04:33 WIB"
+    "generated_at": "2026-10-02 05:59 WIB"
   }
 }
