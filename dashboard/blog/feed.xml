@@ -4,6 +4,13 @@
   <link>https://idvtuber-tracker.github.io/dashboard/blog/index.html</link>
   <description>Development notes and infrastructure updates.</description>
   <item>
+    <title>September Uptime: What Happened, and Why Some Orgs Are Gone</title>
+    <link>https://idvtuber-tracker.github.io/dashboard/blog/september-2026-uptime-report.html</link>
+    <guid>https://idvtuber-tracker.github.io/dashboard/blog/september-2026-uptime-report.html</guid>
+    <pubDate>Thu, 01 Oct 2026 00:00:00 +0700</pubDate>
+    <description>Tracker coverage fell to 82.7% in September, the first time it has ever dropped below 90%. Here's what happened, what the number does and doesn't tell you, and why two organisations no longer appear on the dashboard.</description>
+  </item>
+  <item>
     <title>A Note on a Backend Config Issue and changes to the Tracker Dashboard</title>
     <link>https://idvtuber-tracker.github.io/dashboard/blog/channel-id-config-notice.html</link>
     <guid>https://idvtuber-tracker.github.io/dashboard/blog/channel-id-config-notice.html</guid>

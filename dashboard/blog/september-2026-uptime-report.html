@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <script>!function(){var t=localStorage.getItem("idvt-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",t)}();</script>
-<title>Blog — IDVTuber Tracker</title>
+<title>September Uptime: What Happened, and Why Some Orgs Are Gone — IDVTuber Tracker</title>
 <link rel="icon" href="../favicon.ico">
 <script>window.SITE_DEPTH = 1;</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -220,192 +220,97 @@
   </div>
 </nav>
 <div class="page">
-  <header class="blog-hero">
+<nav class="breadcrumb"><a href="../index.html">Home</a> <span class="sep">&#8250;</span> <a href="index.html">Blog</a> <span class="sep">&#8250;</span> <span class="current">September Uptime: What Happened, and Why Some Orgs Are Gone</span></nav>
+  <header class="post-header">
     <p class="eyebrow">IDVTuber Tracker &#8212; Notes</p>
-    <h1>Project <em>Blog</em></h1>
-    <p class="blog-lede">Development notes, incident write-ups, and updates on the tracker infrastructure — API quota, runner migration, dashboard changes, and anything else worth logging.</p>
+    <h1>September Uptime: What Happened, and Why Some Orgs Are Gone</h1>
+    <div class="post-meta-row">
+      <span>01 Oct 2026</span>
+      <span>4 min read</span>
+      <a class="tag-chip" href="index.html#tag=uptime">uptime</a><a class="tag-chip" href="index.html#tag=status">status</a><a class="tag-chip" href="index.html#tag=roster">roster</a>
+    </div>
   </header>
-  <div class="filter-status" id="filterStatus">
-    <span id="filterStatusText"></span>
-    <a class="clear-filter" href="#" id="clearFilter">Clear filter &#215;</a>
+  <div class="prose">
+<p>September was the worst month the tracker has had. Coverage came in at <strong>82.7%</strong>, the first time since the project started that it has dropped below 90%. This post explains what that number means, what went wrong, and what happens next. It also covers why LAV and HRCOME are no longer on the dashboard.</p>
+<h2 id="how-uptime-is-measured">How uptime is measured</h2>
+<p>Uptime here is a coverage estimate, not a ping check. A script compares what the tracker should have recorded during every stream with what it actually recorded.</p>
+<p>The tracker polls every live stream once a minute. For each stream, the script looks at the timestamps of the rows it wrote. If two consecutive rows are more than five minutes apart, the extra time between them counts as downtime. Uptime is then the covered stream time divided by the total stream time, across every stream in both the live database and the long-term archive.</p>
+<p>This measures what matters most: how much of each stream the data actually covers. Hours when nobody was streaming don&rsquo;t count for or against it.</p>
+<h2 id="the-number-827">The number: 82.7%</h2>
+<p>In September, coverage fell to <strong>82.7%</strong>. Here is every full month since tracking began:</p>
+<table>
+<thead>
+<tr>
+<th>Month</th>
+<th>Stream hours tracked</th>
+<th>Coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>March</td>
+<td>1,507</td>
+<td>99.1%</td>
+</tr>
+<tr>
+<td>April</td>
+<td>2,796</td>
+<td>98.0%</td>
+</tr>
+<tr>
+<td>May</td>
+<td>2,739</td>
+<td>98.9%</td>
+</tr>
+<tr>
+<td>June</td>
+<td>5,895</td>
+<td>98.5%</td>
+</tr>
+<tr>
+<td>July</td>
+<td>6,355</td>
+<td>97.8%</td>
+</tr>
+<tr>
+<td>August</td>
+<td>5,699</td>
+<td>95.1%</td>
+</tr>
+<tr>
+<td><strong>September</strong></td>
+<td><strong>6,717</strong></td>
+<td><strong>82.7%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Coverage had never dropped below 95% before. September is the first month under 90%, and a large drop from August. (February, the first partial month, is left out, and so is October, which has only a day of data so far.)</p>
+<h2 id="what-happened">What happened</h2>
+<p>The tracker runs on a local machine, and for about the last two months our internet connection has been intermittent and unstable. That is behind both the August dip and the much bigger September one.</p>
+<p>The tracker runs in a six-hour loop that restarts itself by calling GitHub when a cycle ends. When the connection dropped, the runner lost contact, live workflows were cut short, and collection stopped partway through streams.</p>
+<p>We didn&rsquo;t always notice right away. In one case the developer didn&rsquo;t notice until the next day. Outages on a self-hosted setup are expected sometimes. Not noticing for a day is the real failure.</p>
+<h2 id="what-that-means-for-the-data">What that means for the data</h2>
+<p>Gaps in collection show up on the dashboard as gaps in a stream&rsquo;s viewer chart. A stream that began or ended during an outage may have an incomplete record. If a stream you care about looks thin for August or September, that is the likely reason.</p>
+<p>Streams that were in progress when an outage began may also show as stuck &ldquo;live&rdquo; until they are corrected. This is a known failure mode, and affected streams are cleaned up when found.</p>
+<h2 id="limitations-of-this-number">Limitations of this number</h2>
+<p>The 82.7% figure is an estimate, and it leans optimistic. Treat it as a best case, not a precise measurement.</p>
+<ul>
+<li><strong>Missing edges.</strong> A stream&rsquo;s start and end are taken from the first and last data points the tracker recorded. If the tracker was down before a stream began, or went down before it ended, that missing time isn&rsquo;t counted as downtime. Only gaps in the middle of a recorded stream are.</li>
+<li><strong>Missed streams.</strong> A stream the tracker never saw at all leaves no data, so it doesn&rsquo;t appear in the calculation.</li>
+</ul>
+<p>Both effects push the estimate up, so real coverage in September was probably somewhat lower than 82.7%. The same method was used for every month in the table, so the trend is still a fair comparison, but the absolute figures should be read with that in mind. Making the measurement stricter is on our list.</p>
+<h2 id="what-were-changing">What We&rsquo;re changing</h2>
+<p>We don&rsquo;t have a single fix to announce, and we&rsquo;d rather not pretend otherwise. While looking into this, we found several bugs and weak points across the tracker&rsquo;s subsystems. A quick patch for one of them wouldn&rsquo;t make the whole system dependable, so we&rsquo;re planning a gradual redesign of the architecture for reliability.</p>
+<p>That will take time. In the meantime, our priority is simple: make sure the tracker works at crucial times, such as debuts from the the listed orgs, or major events which warrants number tracking, and that we find out within minutes, not a day later, if it stops.</p>
+<h2 id="lav-and-hrcome">LAV and HRCOME</h2>
+<p>You may have noticed that <strong>LAV</strong> and <strong>HRCOME</strong> no longer appear on the dashboard. Both have ended their operations as groups, so there is no longer an active roster to track.</p>
+<p>Their channels were counted in September&rsquo;s uptime calculation, and removing them could changes the 82.7% figure, but at this point, it&rsquo;s just a closure statement. Their historical data is archived, although regular users unfortunately need to confirm manually to the developer first if they wish to see it. If you have a question about a specific talent&rsquo;s earlier streams, get in touch.</p>
+<h2 id="looking-ahead">Looking ahead</h2>
+<p>82.7% is not where this project should be, and we&rsquo;d rather say that directly. We&rsquo;ll report October&rsquo;s coverage in the same format so you can see whether things have improved.</p>
+<p>Thanks for sticking with the tracker through a rough couple of months.</p>
   </div>
-  <div class="blog-main-grid">
-    <div>
-      <div class="post-grid">
-      <div class="post-card" data-tags="uptime status roster">
-        <a class="post-card-link" href="september-2026-uptime-report.html">
-          <span class="post-date">01 Oct 2026 &nbsp;&#183;&nbsp; 4 min read</span>
-          <div class="post-title">September Uptime: What Happened, and Why Some Orgs Are Gone</div>
-          <div class="post-excerpt">Tracker coverage fell to 82.7% in September, the first time it has ever dropped below 90%. Here's what happened, what the number does and doesn't tell you, and why two organisations no longer appear on the dashboard.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=uptime">uptime</a><a class="tag-chip" href="#tag=status">status</a><a class="tag-chip" href="#tag=roster">roster</a></div>
-      </div>
-      <div class="post-card" data-tags="maintenance organization">
-        <a class="post-card-link" href="channel-id-config-notice.html">
-          <span class="post-date">10 Sep 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">A Note on a Backend Config Issue and changes to the Tracker Dashboard</div>
-          <div class="post-excerpt">We found a mismatch between some internal channel ID references and the real channel IDs. Here's what happened, why it didn't affect what you see, and what we're doing about it.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=maintenance">maintenance</a><a class="tag-chip" href="#tag=organization">organization</a></div>
-      </div>
-      <div class="post-card" data-tags="meta random">
-        <a class="post-card-link" href="accidental-sponsor.html">
-          <span class="post-date">09 Sep 2026 &nbsp;&#183;&nbsp; 1 min read</span>
-          <div class="post-title">Apparently, We Are a Football Sponsor Now</div>
-          <div class="post-excerpt">Suddenly, there is a proposal handed on our desk, and we feel compelled to sign it.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=meta">meta</a><a class="tag-chip" href="#tag=random">random</a></div>
-      </div>
-      <div class="post-card" data-tags="announcement organization development">
-        <a class="post-card-link" href="tracker-status-update.html">
-          <span class="post-date">30 Aug 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</div>
-          <div class="post-excerpt">Two new orgs join the roster, the Raspberry Pi's original migration plan got scrapped in favor of something more interesting, and the indie tracker project is starting to take shape.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=announcement">announcement</a><a class="tag-chip" href="#tag=organization">organization</a><a class="tag-chip" href="#tag=development">development</a></div>
-      </div>
-      <div class="post-card" data-tags="announcement meta">
-        <a class="post-card-link" href="welcome-to-the-blog.html">
-          <span class="post-date">27 Aug 2026 &nbsp;&#183;&nbsp; 2 min read</span>
-          <div class="post-title">Welcome to the IDVTuber Tracker Blog</div>
-          <div class="post-excerpt">Why this blog exists, what it'll be used for, and a quick tour of the dashboard for anyone finding the project for the first time.</div>
-        </a>
-        <div class="tag-row"><a class="tag-chip" href="#tag=announcement">announcement</a><a class="tag-chip" href="#tag=meta">meta</a></div>
-      </div>
-      </div>
-      <p class="no-match" id="noMatch">No posts match this tag.</p>
-    </div>
-    <div class="sidebar-col">
-      <div class="side-panel">
-        <div class="panel-hdr">All posts</div>
-      <div class="archive-year-group is-open">
-        <button class="archive-year-toggle" aria-expanded="true">
-          <span>2026</span>
-          <span class="archive-year-chevron">&#9662;</span>
-        </button>
-        <div class="archive-year-body">
-        <div class="archive-month-group is-open">
-          <button class="archive-month-toggle" aria-expanded="true">
-            <span class="archive-month-toggle-left">October<span class="archive-month-count">1</span></span>
-            <span class="archive-month-chevron">&#9662;</span>
-          </button>
-          <div class="archive-month-body">
-          <a class="archive-link" href="september-2026-uptime-report.html"><span class="archive-day">01</span>September Uptime: What Happened, and Why Some Orgs Are Gone</a>
-          </div>
-        </div>
-        <div class="archive-month-group">
-          <button class="archive-month-toggle" aria-expanded="false">
-            <span class="archive-month-toggle-left">September<span class="archive-month-count">2</span></span>
-            <span class="archive-month-chevron">&#9662;</span>
-          </button>
-          <div class="archive-month-body">
-          <a class="archive-link" href="channel-id-config-notice.html"><span class="archive-day">10</span>A Note on a Backend Config Issue and changes to the Tracker Dashboard</a>
-          <a class="archive-link" href="accidental-sponsor.html"><span class="archive-day">09</span>Apparently, We Are a Football Sponsor Now</a>
-          </div>
-        </div>
-        <div class="archive-month-group">
-          <button class="archive-month-toggle" aria-expanded="false">
-            <span class="archive-month-toggle-left">August<span class="archive-month-count">2</span></span>
-            <span class="archive-month-chevron">&#9662;</span>
-          </button>
-          <div class="archive-month-body">
-          <a class="archive-link" href="tracker-status-update.html"><span class="archive-day">30</span>Tracker Status Update: New Orgs, a Change of Plans for the Pi, and an Indie Tracker Sibling</a>
-          <a class="archive-link" href="welcome-to-the-blog.html"><span class="archive-day">27</span>Welcome to the IDVTuber Tracker Blog</a>
-          </div>
-        </div>
-        </div>
-      </div>
-      </div>
-      <div class="side-panel">
-        <div class="panel-hdr">Browse by tag</div>
-        <div class="tag-cloud">
-          <a class="tag-pill" href="#" data-tag="">All<span class="tag-count">5</span></a>
-          <a class="tag-pill" href="#tag=announcement" data-tag="announcement" data-label="announcement">announcement <span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=meta" data-tag="meta" data-label="meta">meta <span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=organization" data-tag="organization" data-label="organization">organization <span class="tag-count">2</span></a>
-          <a class="tag-pill" href="#tag=development" data-tag="development" data-label="development">development <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=maintenance" data-tag="maintenance" data-label="maintenance">maintenance <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=random" data-tag="random" data-label="random">random <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=roster" data-tag="roster" data-label="roster">roster <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=status" data-tag="status" data-label="status">status <span class="tag-count">1</span></a>
-          <a class="tag-pill" href="#tag=uptime" data-tag="uptime" data-label="uptime">uptime <span class="tag-count">1</span></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<script>
-(function () {
-  document.querySelectorAll('.archive-year-toggle').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var grp = btn.closest('.archive-year-group');
-      var open = grp.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-  document.querySelectorAll('.archive-month-toggle').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var grp = btn.closest('.archive-month-group');
-      var open = grp.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-})();
-</script>
+  <a class="back-to-blog" href="index.html">&#8592; All posts</a>
 
-<script>
-(function () {
-  function readHashTag() {
-    var m = location.hash.match(/tag=([^&]+)/);
-    return m ? decodeURIComponent(m[1]) : '';
-  }
-
-  function tagLabel(slug) {
-    var pill = document.querySelector('.tag-pill[data-tag="' + slug + '"]');
-    return pill ? pill.getAttribute('data-label') : slug;
-  }
-
-  function applyFilter(tag) {
-    var cards = document.querySelectorAll('.post-card');
-    var visible = 0;
-    cards.forEach(function (c) {
-      var tags = (c.getAttribute('data-tags') || '').split(' ').filter(Boolean);
-      var show = !tag || tags.indexOf(tag) !== -1;
-      c.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-
-    document.querySelectorAll('.tag-pill').forEach(function (p) {
-      p.classList.toggle('active', (p.getAttribute('data-tag') || '') === tag);
-    });
-
-    var status = document.getElementById('filterStatus');
-    var text   = document.getElementById('filterStatusText');
-    var empty  = document.getElementById('noMatch');
-    if (tag) {
-      status.classList.add('is-active');
-      text.textContent = 'Showing ' + visible + ' post' + (visible === 1 ? '' : 's') +
-        ' tagged \u201C' + tagLabel(tag) + '\u201D';
-    } else {
-      status.classList.remove('is-active');
-    }
-    if (empty) empty.classList.toggle('is-visible', tag && visible === 0);
-  }
-
-  window.addEventListener('hashchange', function () { applyFilter(readHashTag()); });
-
-  var clearBtn = document.getElementById('clearFilter');
-  if (clearBtn) {
-    clearBtn.addEventListener('click', function (e) {
-      e.preventDefault();
-      history.replaceState(null, '', location.pathname + location.search);
-      applyFilter('');
-    });
-  }
-
-  applyFilter(readHashTag());
-})();
-</script>
   <footer>
     <span>&#169; 2026 IDVTuber Tracker &#8212; Non-commercial fan project</span>
     <nav class="footer-links">
