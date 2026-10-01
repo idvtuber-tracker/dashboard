@@ -1,10 +1,10 @@
-\---
+---
 
 title: "September Uptime: What Happened, and Why Some Orgs Are Gone"
 date: 2026-10-01
 slug: september-2026-uptime-report
 excerpt: "Tracker coverage fell to 82.7% in September, the first time it has ever dropped below 90%. Here's what happened, what the number does and doesn't tell you, and why two organisations no longer appear on the dashboard."
-tags: \[uptime, status, roster]
+tags: [uptime, status, roster]
 ---
 
 September was the worst month the tracker has had. Coverage came in at **82.7%**, the first time since the project started that it has dropped below 90%. This post explains what that number means, what went wrong, and what happens next. It also covers why LAV and HRCOME are no longer on the dashboard.
