@@ -61015,8 +61015,8 @@
     "org_slug": "miqela",
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
-    "status": "live",
-    "generated_at": "2026-10-02 01:34 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-02 01:50 WIB"
   },
   "OIVfArwhQ_A": {
     "org_slug": "evren-community",
@@ -61372,15 +61372,15 @@
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-10-02 01:34 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-02 01:50 WIB"
   },
   "TMtTwtcKXEU": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-02 01:34 WIB"
+    "generated_at": "2026-10-02 01:50 WIB"
   },
   "AJXMjZV2VNg": {
     "org_slug": "prism-nova",
@@ -61394,7 +61394,7 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-02 01:34 WIB"
+    "generated_at": "2026-10-02 01:50 WIB"
   },
   "coY_qAaYD6s": {
     "org_slug": "mejikuhibiniu",
@@ -61402,5 +61402,12 @@
     "ch_name": "Elethera Rehema 『Mejikuhibiniu』",
     "status": "vod",
     "generated_at": "2026-10-02 00:43 WIB"
+  },
+  "K8-ZBDPoiAI": {
+    "org_slug": "miqela",
+    "ch_slug": "stellaria-vernakila-ch-miqela",
+    "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-10-02 01:50 WIB"
   }
 }
