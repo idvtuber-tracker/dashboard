@@ -61016,7 +61016,7 @@
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "OIVfArwhQ_A": {
     "org_slug": "evren-community",
@@ -61030,76 +61030,83 @@
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "pW0mNR4OUtE": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "enTLg89sF30": {
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "bLGb6KECsOM": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "2FqLt9W1Das": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "bsc2aJdXGfU": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "8fXsRIkuFGs": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "E_yi2EkAaDI": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "DVgomISM1AQ": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "oP40B284lKY": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
   },
   "P8Aviapovqc": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "esther-van-helsing-mejikuhibiniu",
     "ch_name": "Esther Van Helsing 【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-10-01 17:50 WIB"
+    "generated_at": "2026-10-01 18:08 WIB"
+  },
+  "x8GUaT9Hnpo": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-10-01 18:08 WIB"
   }
 }
