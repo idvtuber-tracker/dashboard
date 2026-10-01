@@ -60974,14 +60974,14 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-01 12:57 WIB"
+    "generated_at": "2026-10-01 13:16 WIB"
   },
   "YhgIYUJwpps": {
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
-    "status": "live",
-    "generated_at": "2026-10-01 12:57 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-01 13:16 WIB"
   },
   "yDUrRC9N4tE": {
     "org_slug": "aisatset",
@@ -60996,5 +60996,12 @@
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "vod",
     "generated_at": "2026-10-01 12:39 WIB"
+  },
+  "KbInHSI-Xgc": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "aiko-zurie-nawasena",
+    "ch_name": "Aiko Zurie 【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-10-01 13:16 WIB"
   }
 }
