@@ -60974,7 +60974,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-01 15:29 WIB"
+    "generated_at": "2026-10-01 15:50 WIB"
   },
   "YhgIYUJwpps": {
     "org_slug": "hibikasekai",
@@ -61002,34 +61002,41 @@
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-10-01 15:29 WIB"
+    "generated_at": "2026-10-01 15:50 WIB"
   },
   "FaSl1PyMbZI": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-01 15:29 WIB"
+    "generated_at": "2026-10-01 15:50 WIB"
   },
   "sUPwxdMhqRQ": {
     "org_slug": "miqela",
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-01 15:29 WIB"
+    "generated_at": "2026-10-01 15:50 WIB"
   },
   "OIVfArwhQ_A": {
     "org_slug": "evren-community",
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
     "status": "live",
-    "generated_at": "2026-10-01 15:29 WIB"
+    "generated_at": "2026-10-01 15:50 WIB"
   },
   "shBcjZeobr0": {
     "org_slug": "magniv",
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-01 15:29 WIB"
+    "generated_at": "2026-10-01 15:50 WIB"
+  },
+  "pW0mNR4OUtE": {
+    "org_slug": "aisatset",
+    "ch_slug": "chiya-maawiya-ch-aisatset-id",
+    "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-10-01 15:50 WIB"
   }
 }
