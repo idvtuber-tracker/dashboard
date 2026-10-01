@@ -61016,7 +61016,7 @@
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-01 18:49 WIB"
+    "generated_at": "2026-10-01 19:14 WIB"
   },
   "OIVfArwhQ_A": {
     "org_slug": "evren-community",
@@ -61030,7 +61030,7 @@
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-01 18:49 WIB"
+    "generated_at": "2026-10-01 19:14 WIB"
   },
   "pW0mNR4OUtE": {
     "org_slug": "aisatset",
@@ -61050,8 +61050,8 @@
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
-    "status": "live",
-    "generated_at": "2026-10-01 18:49 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-01 19:14 WIB"
   },
   "2FqLt9W1Das": {
     "org_slug": "asobu-production",
@@ -61072,7 +61072,7 @@
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-10-01 18:49 WIB"
+    "generated_at": "2026-10-01 19:14 WIB"
   },
   "E_yi2EkAaDI": {
     "org_slug": "dasoriyal",
@@ -61086,34 +61086,69 @@
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-01 18:49 WIB"
+    "generated_at": "2026-10-01 19:14 WIB"
   },
   "oP40B284lKY": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-01 18:49 WIB"
+    "generated_at": "2026-10-01 19:14 WIB"
   },
   "P8Aviapovqc": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "esther-van-helsing-mejikuhibiniu",
     "ch_name": "Esther Van Helsing 【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-10-01 18:49 WIB"
+    "generated_at": "2026-10-01 19:14 WIB"
   },
   "x8GUaT9Hnpo": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-01 18:49 WIB"
+    "generated_at": "2026-10-01 19:14 WIB"
   },
   "R1rnJLQlBww": {
     "org_slug": "uver-id",
     "ch_slug": "cyure-michantrell-ch-uver-id",
     "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-01 18:49 WIB"
+    "generated_at": "2026-10-01 19:14 WIB"
+  },
+  "eK6MOQFAGJw": {
+    "org_slug": "versa",
+    "ch_slug": "alarich-versa",
+    "ch_name": "Alarich【VERSA】",
+    "status": "live",
+    "generated_at": "2026-10-01 19:14 WIB"
+  },
+  "4LV3Kiomvfo": {
+    "org_slug": "prism-nova",
+    "ch_slug": "serika-cosmica-prism-nova",
+    "ch_name": "Serika Cosmica 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-10-01 19:14 WIB"
+  },
+  "0Zja8f8TVjM": {
+    "org_slug": "pandavva",
+    "ch_slug": "arjuna-arkana-pandavva",
+    "ch_name": "Arjuna Arkana【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-10-01 19:14 WIB"
+  },
+  "M52OvBhEChY": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shaz-eilya-ch-snowvalley",
+    "ch_name": "Shaz Eilya Ch •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-01 19:14 WIB"
+  },
+  "orvrFL_nmUw": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "tuti-hanna-ch-snowvalley",
+    "ch_name": "Tuti Hanna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-01 19:14 WIB"
   }
 }
