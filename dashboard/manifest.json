@@ -61520,7 +61520,7 @@
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-02 18:53 WIB"
+    "generated_at": "2026-10-02 19:14 WIB"
   },
   "xL8PEJdPq68": {
     "org_slug": "vcosmix",
@@ -61569,21 +61569,21 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-02 18:53 WIB"
+    "generated_at": "2026-10-02 19:14 WIB"
   },
   "_u0oWugH3Ts": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "serein-venetia-ch-snowvalley",
     "ch_name": "Serein Venetia Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-02 18:53 WIB"
+    "generated_at": "2026-10-02 19:14 WIB"
   },
   "lFU0-IwMga8": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-02 18:53 WIB"
+    "generated_at": "2026-10-02 19:14 WIB"
   },
   "5aV20lZvuhk": {
     "org_slug": "snowvalley-agency",
@@ -61597,27 +61597,55 @@
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-10-02 18:53 WIB"
+    "generated_at": "2026-10-02 19:14 WIB"
   },
   "UETiZOXDCNo": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-02 18:53 WIB"
+    "generated_at": "2026-10-02 19:14 WIB"
   },
   "WEx3UeoaUik": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-10-02 18:53 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-02 19:14 WIB"
   },
   "EyDNNw5Q9bQ": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-02 18:53 WIB"
+    "generated_at": "2026-10-02 19:14 WIB"
+  },
+  "55q9gymNIWI": {
+    "org_slug": "prism-nova",
+    "ch_slug": "serika-cosmica-prism-nova",
+    "ch_name": "Serika Cosmica 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-10-02 19:14 WIB"
+  },
+  "e7dpMAyUVuY": {
+    "org_slug": "pandavva",
+    "ch_slug": "pandavva-official",
+    "ch_name": "PANDAVVA Official",
+    "status": "live",
+    "generated_at": "2026-10-02 19:14 WIB"
+  },
+  "PS8a5cDw9Q4": {
+    "org_slug": "magniv",
+    "ch_slug": "shiru-magniv",
+    "ch_name": "Shiru 【MagniV】",
+    "status": "live",
+    "generated_at": "2026-10-02 19:14 WIB"
+  },
+  "qM0UZPEyXXI": {
+    "org_slug": "miqela",
+    "ch_slug": "ayakocak-miqela",
+    "ch_name": "Ayakocak【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-10-02 19:14 WIB"
   }
 }
