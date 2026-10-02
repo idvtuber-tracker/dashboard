@@ -61484,15 +61484,15 @@
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-10-02 16:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-02 16:20 WIB"
   },
   "8vVbej03zzo": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-10-02 16:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-02 16:20 WIB"
   },
   "wnXltGQ9Ong": {
     "org_slug": "project-livium",
@@ -61505,8 +61505,8 @@
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
-    "status": "live",
-    "generated_at": "2026-10-02 16:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-02 16:20 WIB"
   },
   "c3wfvOUmDBU": {
     "org_slug": "project-livium",
@@ -61520,28 +61520,28 @@
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-02 16:03 WIB"
+    "generated_at": "2026-10-02 16:20 WIB"
   },
   "xL8PEJdPq68": {
     "org_slug": "vcosmix",
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
-    "status": "live",
-    "generated_at": "2026-10-02 16:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-02 16:20 WIB"
   },
   "u9u2mhOaDPg": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-02 16:03 WIB"
+    "generated_at": "2026-10-02 16:20 WIB"
   },
   "gSBDjia87Gw": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-02 16:03 WIB"
+    "generated_at": "2026-10-02 16:20 WIB"
   },
   "LnCR7OQxyM0": {
     "org_slug": "hibikasekai",
@@ -61562,13 +61562,27 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-02 16:03 WIB"
+    "generated_at": "2026-10-02 16:20 WIB"
   },
   "9VoWbORDYqE": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-02 16:03 WIB"
+    "generated_at": "2026-10-02 16:20 WIB"
+  },
+  "_u0oWugH3Ts": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "serein-venetia-ch-snowvalley",
+    "ch_name": "Serein Venetia Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-02 16:20 WIB"
+  },
+  "lFU0-IwMga8": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "naona-neon-ch-snowvalley",
+    "ch_name": "Naona Neon Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-02 16:20 WIB"
   }
 }
