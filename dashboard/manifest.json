@@ -61443,7 +61443,7 @@
     "ch_slug": "mahiru-rui-ch-vilitera-id",
     "ch_name": "Mahiru Rui Ch. VILITERA-ID",
     "status": "live",
-    "generated_at": "2026-10-02 12:38 WIB"
+    "generated_at": "2026-10-02 12:56 WIB"
   },
   "BcnEUuQ7TM0": {
     "org_slug": "project-livium",
@@ -61463,8 +61463,8 @@
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
-    "status": "live",
-    "generated_at": "2026-10-02 12:38 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-02 12:56 WIB"
   },
   "ZOLwpiYNZ5o": {
     "org_slug": "magisona",
@@ -61478,20 +61478,27 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-02 12:38 WIB"
+    "generated_at": "2026-10-02 12:56 WIB"
   },
   "HH1KmsTR2QY": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-02 12:38 WIB"
+    "generated_at": "2026-10-02 12:56 WIB"
   },
   "8vVbej03zzo": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-02 12:38 WIB"
+    "generated_at": "2026-10-02 12:56 WIB"
+  },
+  "wnXltGQ9Ong": {
+    "org_slug": "project-livium",
+    "ch_slug": "silvia-valleria-ch-livipro",
+    "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-02 12:56 WIB"
   }
 }
