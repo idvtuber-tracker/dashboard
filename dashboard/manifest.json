@@ -61443,7 +61443,7 @@
     "ch_slug": "mahiru-rui-ch-vilitera-id",
     "ch_name": "Mahiru Rui Ch. VILITERA-ID",
     "status": "live",
-    "generated_at": "2026-10-02 12:56 WIB"
+    "generated_at": "2026-10-02 13:14 WIB"
   },
   "BcnEUuQ7TM0": {
     "org_slug": "project-livium",
@@ -61478,27 +61478,34 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-02 12:56 WIB"
+    "generated_at": "2026-10-02 13:14 WIB"
   },
   "HH1KmsTR2QY": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-02 12:56 WIB"
+    "generated_at": "2026-10-02 13:14 WIB"
   },
   "8vVbej03zzo": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-02 12:56 WIB"
+    "generated_at": "2026-10-02 13:14 WIB"
   },
   "wnXltGQ9Ong": {
     "org_slug": "project-livium",
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-02 12:56 WIB"
+    "generated_at": "2026-10-02 13:14 WIB"
+  },
+  "JVFwaLjfR2Y": {
+    "org_slug": "neoespoir",
+    "ch_slug": "nachann-wa-harmonie-ch",
+    "ch_name": "Nachann Wa Harmonie Ch.",
+    "status": "live",
+    "generated_at": "2026-10-02 13:14 WIB"
   }
 }
