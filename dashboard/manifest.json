@@ -61422,13 +61422,20 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-02 09:00 WIB"
+    "generated_at": "2026-10-02 09:16 WIB"
   },
   "PNvISHvfMYA": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-10-02 09:00 WIB"
+    "generated_at": "2026-10-02 09:16 WIB"
+  },
+  "BT9BTpmHHr4": {
+    "org_slug": "evren-community",
+    "ch_slug": "aloisa-arbeiter",
+    "ch_name": "Aloisa Arbeiter",
+    "status": "live",
+    "generated_at": "2026-10-02 09:16 WIB"
   }
 }
