@@ -61667,7 +61667,7 @@
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-03 14:31 WIB"
+    "generated_at": "2026-10-03 15:03 WIB"
   },
   "KYjZdKqO0JY": {
     "org_slug": "uver-id",
@@ -61940,48 +61940,62 @@
     "ch_slug": "esther-van-helsing-mejikuhibiniu",
     "ch_name": "Esther Van Helsing 【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-10-03 14:31 WIB"
+    "generated_at": "2026-10-03 15:03 WIB"
   },
   "XAB70Ifqgcs": {
     "org_slug": "miqela",
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-03 14:31 WIB"
+    "generated_at": "2026-10-03 15:03 WIB"
   },
   "3_kIp2-ba0Q": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-10-03 14:31 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-03 15:03 WIB"
   },
   "OGUBLINu-4E": {
     "org_slug": "aisatset",
     "ch_slug": "blessicaa-aisatset-id",
     "ch_name": "Blessicaa【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-03 14:31 WIB"
+    "generated_at": "2026-10-03 15:03 WIB"
   },
   "COOTEtYZcc8": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-10-03 14:31 WIB"
+    "generated_at": "2026-10-03 15:03 WIB"
   },
   "zeiN7iBa3yc": {
     "org_slug": "versa",
     "ch_slug": "agata-seven-versa",
     "ch_name": "Agata Seven【VERSA】",
     "status": "live",
-    "generated_at": "2026-10-03 14:31 WIB"
+    "generated_at": "2026-10-03 15:03 WIB"
   },
   "iLTDz06WjqE": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "celina-olystia-ch-snowvalley",
     "ch_name": "Celina Olystia Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-03 14:31 WIB"
+    "generated_at": "2026-10-03 15:03 WIB"
+  },
+  "WL1gBIDJRfY": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "hali-ch-dasoriyal",
+    "ch_name": "Hali Ch. 『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-10-03 15:03 WIB"
+  },
+  "Vyw79fmMl2Y": {
+    "org_slug": "pandavva",
+    "ch_slug": "sadewa-sagara-pandavva",
+    "ch_name": "Sadewa Sagara【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-10-03 15:03 WIB"
   }
 }
