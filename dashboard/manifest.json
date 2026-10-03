@@ -61667,7 +61667,7 @@
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-03 10:41 WIB"
+    "generated_at": "2026-10-03 10:59 WIB"
   },
   "KYjZdKqO0JY": {
     "org_slug": "uver-id",
@@ -61898,20 +61898,27 @@
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-03 10:41 WIB"
+    "generated_at": "2026-10-03 10:59 WIB"
   },
   "wF_fMaR3Dp0": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-10-03 10:41 WIB"
+    "generated_at": "2026-10-03 10:59 WIB"
   },
   "t8YIe8k4CuU": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-10-03 10:41 WIB"
+    "generated_at": "2026-10-03 10:59 WIB"
+  },
+  "_g7nPbZePvw": {
+    "org_slug": "aisatset",
+    "ch_slug": "ungaume-aisatset-id",
+    "ch_name": "UngaUme【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-10-03 10:59 WIB"
   }
 }
