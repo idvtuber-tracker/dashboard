@@ -61667,7 +61667,7 @@
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-03 10:05 WIB"
+    "generated_at": "2026-10-03 10:20 WIB"
   },
   "KYjZdKqO0JY": {
     "org_slug": "uver-id",
@@ -61892,5 +61892,19 @@
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "vod",
     "generated_at": "2026-10-03 07:31 WIB"
+  },
+  "G622hPWtp-U": {
+    "org_slug": "project-livium",
+    "ch_slug": "fareye-closhartt-ch-livipro",
+    "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-03 10:20 WIB"
+  },
+  "wF_fMaR3Dp0": {
+    "org_slug": "neoespoir",
+    "ch_slug": "nachann-wa-harmonie-ch",
+    "ch_name": "Nachann Wa Harmonie Ch.",
+    "status": "live",
+    "generated_at": "2026-10-03 10:20 WIB"
   }
 }
