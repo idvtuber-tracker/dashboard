@@ -61667,7 +61667,7 @@
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-03 13:29 WIB"
+    "generated_at": "2026-10-03 13:50 WIB"
   },
   "KYjZdKqO0JY": {
     "org_slug": "uver-id",
@@ -61925,8 +61925,8 @@
     "org_slug": "magniv",
     "ch_slug": "shiru-magniv",
     "ch_name": "Shiru 【MagniV】",
-    "status": "live",
-    "generated_at": "2026-10-03 13:29 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-03 13:50 WIB"
   },
   "1NIi-s5YNGo": {
     "org_slug": "snowvalley-agency",
@@ -61940,20 +61940,34 @@
     "ch_slug": "esther-van-helsing-mejikuhibiniu",
     "ch_name": "Esther Van Helsing 【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-10-03 13:29 WIB"
+    "generated_at": "2026-10-03 13:50 WIB"
   },
   "XAB70Ifqgcs": {
     "org_slug": "miqela",
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-03 13:29 WIB"
+    "generated_at": "2026-10-03 13:50 WIB"
   },
   "3_kIp2-ba0Q": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-03 13:29 WIB"
+    "generated_at": "2026-10-03 13:50 WIB"
+  },
+  "OGUBLINu-4E": {
+    "org_slug": "aisatset",
+    "ch_slug": "blessicaa-aisatset-id",
+    "ch_name": "Blessicaa【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-10-03 13:50 WIB"
+  },
+  "COOTEtYZcc8": {
+    "org_slug": "evren-community",
+    "ch_slug": "lyanna-chernovskaya",
+    "ch_name": "Lyanna Chernovskaya",
+    "status": "live",
+    "generated_at": "2026-10-03 13:50 WIB"
   }
 }
