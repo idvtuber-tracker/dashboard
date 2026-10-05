@@ -202,6 +202,9 @@ ORG_MAP = {
             ("Avy Inkaiserin 【AFTERAIN】",   "talent", "UCvHWaiG9YSPgmLhNuLmqMUA"),
             ("Kana Chizu 【AFTERAIN】",       "talent", "UCh5wq5bs4VG1ah3THbW156g"),
             ("Sierra Mooniva",                "talent", "UChqM8QAXqPDRU5D16Os32IA"),
+            ("Miri Murasaki🐨【AfteRain】",  "talent", "UC6ZUfNrBsmZ2oqHrTQXg_JA"),
+            ("Delia Rinquinn【AFTERAIN】",    "talent", "UCeUzxAOm77R7C3eqmFL96rg"),
+            ("Nemu Yasumi 【AFTERAIN】",      "talent", "UCn-jOcevD-2OyrbwD6BNeOw"),
         ],
     },
     "magniv": {
