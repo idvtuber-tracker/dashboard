@@ -62815,7 +62815,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-06 00:16 WIB"
+    "generated_at": "2026-10-06 00:33 WIB"
   },
   "OcwRuEgttF8": {
     "org_slug": "snowvalley-agency",
@@ -62906,21 +62906,21 @@
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-06 00:16 WIB"
+    "generated_at": "2026-10-06 00:33 WIB"
   },
   "zwbCGlIVPYA": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-10-06 00:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-06 00:33 WIB"
   },
   "qxloIaCB9k8": {
     "org_slug": "laeta",
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
-    "status": "live",
-    "generated_at": "2026-10-06 00:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-06 00:33 WIB"
   },
   "4k3WhdfqrR0": {
     "org_slug": "magisona",
@@ -62933,35 +62933,42 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-10-06 00:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-06 00:33 WIB"
   },
   "akWQwNxZCow": {
     "org_slug": "miqela",
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-06 00:16 WIB"
+    "generated_at": "2026-10-06 00:33 WIB"
   },
   "vfVKe9r2CbQ": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-06 00:16 WIB"
+    "generated_at": "2026-10-06 00:33 WIB"
   },
   "_bOpoZPPiU8": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-10-06 00:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-06 00:33 WIB"
   },
   "J2klbPYwbEE": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-10-06 00:16 WIB"
+    "generated_at": "2026-10-06 00:33 WIB"
+  },
+  "GfhmUuX0tqo": {
+    "org_slug": "aisatset",
+    "ch_slug": "chiya-maawiya-ch-aisatset-id",
+    "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-10-06 00:33 WIB"
   }
 }
