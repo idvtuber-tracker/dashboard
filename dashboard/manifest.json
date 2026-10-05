@@ -62961,8 +62961,8 @@
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
-    "status": "live",
-    "generated_at": "2026-10-06 05:14 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-06 05:42 WIB"
   },
   "GfhmUuX0tqo": {
     "org_slug": "aisatset",
@@ -62970,5 +62970,12 @@
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "vod",
     "generated_at": "2026-10-06 03:25 WIB"
+  },
+  "IRmOhmh-gac": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "luii-lafete-kanau-virtual",
+    "ch_name": "Luii Lafete【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-10-06 05:42 WIB"
   }
 }
