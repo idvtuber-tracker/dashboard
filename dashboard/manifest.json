@@ -62815,7 +62815,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "OcwRuEgttF8": {
     "org_slug": "snowvalley-agency",
@@ -62863,8 +62863,8 @@
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "THAsV8tcTqg": {
     "org_slug": "arvi-media",
@@ -62878,7 +62878,7 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "9BXS6VEVXpI": {
     "org_slug": "kanau-virtual",
@@ -62892,69 +62892,76 @@
     "ch_slug": "shia-naenia-enigmyst-project",
     "ch_name": "Shia Naenia 【ENIGMYST Project】",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "j21JcAcU5YU": {
     "org_slug": "project-livium",
     "ch_slug": "ymelia-meiru-ch-livipro",
     "ch_name": "Ymelia Meiru Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "tRIyHP5Uxa4": {
     "org_slug": "magniv",
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "zwbCGlIVPYA": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "qxloIaCB9k8": {
     "org_slug": "laeta",
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "4k3WhdfqrR0": {
     "org_slug": "magisona",
     "ch_slug": "iofiel-feliz-ch-magisona",
     "ch_name": "ioFiel Feliz Ch.【MagiSona】",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "J4sumIlZIGg": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "akWQwNxZCow": {
     "org_slug": "miqela",
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "vfVKe9r2CbQ": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
   },
   "_bOpoZPPiU8": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-05 23:25 WIB"
+    "generated_at": "2026-10-05 23:42 WIB"
+  },
+  "J2klbPYwbEE": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "keiko-lynx-ch-villain",
+    "ch_name": "Keiko Lynx Ch. #villain",
+    "status": "live",
+    "generated_at": "2026-10-05 23:42 WIB"
   }
 }
