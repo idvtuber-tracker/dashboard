@@ -63116,7 +63116,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-10-07 03:12 WIB"
+    "generated_at": "2026-10-07 03:27 WIB"
   },
   "7Deab2GuB2M": {
     "org_slug": "pandavva",
@@ -63312,7 +63312,7 @@
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-07 03:12 WIB"
+    "generated_at": "2026-10-07 03:27 WIB"
   },
   "Pip17qtxDCs": {
     "org_slug": "aisatset",
@@ -63431,14 +63431,14 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-07 03:12 WIB"
+    "generated_at": "2026-10-07 03:27 WIB"
   },
   "xHOxoKo_a7w": {
     "org_slug": "hibikasekai",
     "ch_slug": "ibame-masagi-hibikasekai",
     "ch_name": "Ibame Masagi 🗝  〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-10-07 03:12 WIB"
+    "generated_at": "2026-10-07 03:27 WIB"
   },
   "yfel1h2bHfQ": {
     "org_slug": "versa",
@@ -63446,5 +63446,12 @@
     "ch_name": "Ryoutaa【VERSA】",
     "status": "vod",
     "generated_at": "2026-10-07 03:12 WIB"
+  },
+  "pM-k6tA4gjA": {
+    "org_slug": "pandavva",
+    "ch_slug": "sadewa-sagara-pandavva",
+    "ch_name": "Sadewa Sagara【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-10-07 03:27 WIB"
   }
 }
