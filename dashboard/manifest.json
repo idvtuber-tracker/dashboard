@@ -63116,7 +63116,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-10-07 13:01 WIB"
+    "generated_at": "2026-10-07 13:19 WIB"
   },
   "7Deab2GuB2M": {
     "org_slug": "pandavva",
@@ -63486,28 +63486,35 @@
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
-    "status": "live",
-    "generated_at": "2026-10-07 13:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-07 13:19 WIB"
   },
   "DXBDIhgTUWU": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-07 13:01 WIB"
+    "generated_at": "2026-10-07 13:19 WIB"
   },
   "W_Hq5ryJs1c": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-07 13:01 WIB"
+    "generated_at": "2026-10-07 13:19 WIB"
   },
   "OWTMSde1kJ0": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-07 13:01 WIB"
+    "generated_at": "2026-10-07 13:19 WIB"
+  },
+  "_GeYuPXeetA": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-10-07 13:19 WIB"
   }
 }
