@@ -63116,7 +63116,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-10-07 13:41 WIB"
+    "generated_at": "2026-10-07 14:02 WIB"
   },
   "7Deab2GuB2M": {
     "org_slug": "pandavva",
@@ -63501,20 +63501,41 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-07 13:41 WIB"
+    "generated_at": "2026-10-07 14:02 WIB"
   },
   "OWTMSde1kJ0": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-07 13:41 WIB"
+    "generated_at": "2026-10-07 14:02 WIB"
   },
   "_GeYuPXeetA": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-07 13:41 WIB"
+    "generated_at": "2026-10-07 14:02 WIB"
+  },
+  "hYPPqA2_A6Q": {
+    "org_slug": "evren-community",
+    "ch_slug": "lyanna-chernovskaya",
+    "ch_name": "Lyanna Chernovskaya",
+    "status": "live",
+    "generated_at": "2026-10-07 14:02 WIB"
+  },
+  "zY_aF1cglek": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "celina-olystia-ch-snowvalley",
+    "ch_name": "Celina Olystia Ch •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-07 14:02 WIB"
+  },
+  "7SzE7HaH1I8": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-07 14:02 WIB"
   }
 }
