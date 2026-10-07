@@ -118,7 +118,7 @@ ORG_MAP = {
         "label":   "Whicker Butler",
         "color":   "#b47fff",
         "color_light": "#8c3bff",
-        "desc":    "A boutique VTuber agency known for its refined aesthetic and five distinctive talents with global appeal.",
+        "desc":    "A boutique VTuber agency known for its refined aesthetic and seven distinctive talents with global appeal.",
         "channels": [
             ("Whicker Butler",                           "org",    "UCc04w_tCWOiTkszx5DGqSag"),
             ("Keiko Lynx Ch. #villain",               "talent", "UCCkCsgqSBmAnh9JVfvjLLSA"),
