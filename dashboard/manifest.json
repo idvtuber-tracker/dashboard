@@ -63500,8 +63500,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-10-08 00:32 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-08 00:49 WIB"
   },
   "OWTMSde1kJ0": {
     "org_slug": "project-livium",
@@ -63711,7 +63711,7 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-08 00:32 WIB"
+    "generated_at": "2026-10-08 00:49 WIB"
   },
   "CNrGxL4xRe8": {
     "org_slug": "whicker-butler",
@@ -63767,7 +63767,7 @@
     "ch_slug": "fumiko-runa",
     "ch_name": "Fumiko Runa",
     "status": "live",
-    "generated_at": "2026-10-08 00:32 WIB"
+    "generated_at": "2026-10-08 00:49 WIB"
   },
   "lxR4SuXgXco": {
     "org_slug": "afterain",
@@ -63837,7 +63837,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-08 00:32 WIB"
+    "generated_at": "2026-10-08 00:49 WIB"
   },
   "nabfM6h5DAI": {
     "org_slug": "versa",
@@ -63852,5 +63852,12 @@
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "vod",
     "generated_at": "2026-10-08 00:15 WIB"
+  },
+  "5G37SwpdAb0": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-10-08 00:49 WIB"
   }
 }
