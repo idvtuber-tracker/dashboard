@@ -63116,7 +63116,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
   },
   "7Deab2GuB2M": {
     "org_slug": "pandavva",
@@ -63501,7 +63501,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
   },
   "OWTMSde1kJ0": {
     "org_slug": "project-livium",
@@ -63515,55 +63515,62 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
   },
   "hYPPqA2_A6Q": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
   },
   "zY_aF1cglek": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "celina-olystia-ch-snowvalley",
     "ch_name": "Celina Olystia Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
   },
   "7SzE7HaH1I8": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
   },
   "_nCwdgKIWQA": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "serein-venetia-ch-snowvalley",
     "ch_name": "Serein Venetia Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
   },
   "pHCeut-rMwc": {
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
   },
   "iiTE_Ft5qg8": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
   },
   "WPfHPB7NmlM": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-07 15:28 WIB"
+    "generated_at": "2026-10-07 15:43 WIB"
+  },
+  "8CtQ-tmM37g": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shayla-meyjiera-ch-snowvalley",
+    "ch_name": "Shayla Meyjiera Ch •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-07 15:43 WIB"
   }
 }
