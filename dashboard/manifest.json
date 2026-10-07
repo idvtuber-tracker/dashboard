@@ -63116,7 +63116,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-10-07 10:15 WIB"
+    "generated_at": "2026-10-07 10:30 WIB"
   },
   "7Deab2GuB2M": {
     "org_slug": "pandavva",
@@ -63431,7 +63431,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-07 10:15 WIB"
+    "generated_at": "2026-10-07 10:30 WIB"
   },
   "xHOxoKo_a7w": {
     "org_slug": "hibikasekai",
@@ -63459,27 +63459,34 @@
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
     "status": "live",
-    "generated_at": "2026-10-07 10:15 WIB"
+    "generated_at": "2026-10-07 10:30 WIB"
   },
   "zTd1JGsUswI": {
     "org_slug": "vcosmix",
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-10-07 10:15 WIB"
+    "generated_at": "2026-10-07 10:30 WIB"
   },
   "Z614vcOCgwg": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-10-07 10:15 WIB"
+    "generated_at": "2026-10-07 10:30 WIB"
   },
   "B2F4lMj2Ehs": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-10-07 10:15 WIB"
+    "generated_at": "2026-10-07 10:30 WIB"
+  },
+  "kJz17KuaUuQ": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "usami-cyra",
+    "ch_name": "Usami Cyra",
+    "status": "live",
+    "generated_at": "2026-10-07 10:30 WIB"
   }
 }
