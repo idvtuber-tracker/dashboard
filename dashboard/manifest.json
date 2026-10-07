@@ -63116,7 +63116,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "generated_at": "2026-10-07 19:31 WIB"
   },
   "7Deab2GuB2M": {
     "org_slug": "pandavva",
@@ -63501,7 +63501,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "generated_at": "2026-10-07 19:31 WIB"
   },
   "OWTMSde1kJ0": {
     "org_slug": "project-livium",
@@ -63543,7 +63543,7 @@
     "ch_slug": "serein-venetia-ch-snowvalley",
     "ch_name": "Serein Venetia Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "generated_at": "2026-10-07 19:31 WIB"
   },
   "pHCeut-rMwc": {
     "org_slug": "whicker-butler",
@@ -63599,14 +63599,14 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "generated_at": "2026-10-07 19:31 WIB"
   },
   "LL9yR-7-xCw": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "generated_at": "2026-10-07 19:31 WIB"
   },
   "ZtQ8UzfZ1XA": {
     "org_slug": "crims-on",
@@ -63626,35 +63626,49 @@
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
-    "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-07 19:31 WIB"
   },
   "p6K12At9qMI": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "generated_at": "2026-10-07 19:31 WIB"
   },
   "XMWKFFUTwmI": {
     "org_slug": "magisona",
     "ch_slug": "reika-ayasa-magisona",
     "ch_name": "Reika Ayasa 【MagiSona】",
     "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "generated_at": "2026-10-07 19:31 WIB"
   },
   "WFy3ucFVPhM": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "generated_at": "2026-10-07 19:31 WIB"
   },
   "Gp0ekQY2Lps": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-10-07 19:07 WIB"
+    "generated_at": "2026-10-07 19:31 WIB"
+  },
+  "a-z9pspcJdA": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "tuti-hanna-ch-snowvalley",
+    "ch_name": "Tuti Hanna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-07 19:31 WIB"
+  },
+  "cfrSZwbhyqk": {
+    "org_slug": "aurora-project",
+    "ch_slug": "eizie-aletha-ch",
+    "ch_name": "Eizie Aletha Ch.",
+    "status": "live",
+    "generated_at": "2026-10-07 19:31 WIB"
   }
 }
