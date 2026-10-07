@@ -126,6 +126,9 @@ ORG_MAP = {
             ("Ignis Grimoire【Whicker Butler】",       "talent", "UCJbrzGrVtSC0KbtkEzD50cw"),
             ("Darlyne Nightbloom【Whicker Butler】",   "talent", "UCtiNMw_89OUjPThykjwIsAA"),
             ("Thalita Sylvaine【Whicker Butler】",     "talent", "UCHNwyrNLObSZaHYAvvrGhCA"),
+            ("Vanessa Yue",    		            	       "talent", "UCV2n7vnKdEl0DRy7NqOZsJg"),
+            ("Hiyori Renalie",               		       "talent", "UCCKbfxNSGvjFN5iXyC-09BQ"),
+            ("Yukine Clawy【Whicker Butler】",          "talent", "UCDToUIEA6yz0JfURhiE239g"),
         ],
     },
     "yorukaze": {
