@@ -63858,7 +63858,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-08 11:03 WIB"
+    "generated_at": "2026-10-08 11:18 WIB"
   },
   "n_GXeYQQuZ8": {
     "org_slug": "kanau-virtual",
@@ -63872,6 +63872,13 @@
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-10-08 11:03 WIB"
+    "generated_at": "2026-10-08 11:18 WIB"
+  },
+  "d6ZdduVvrhw": {
+    "org_slug": "project-livium",
+    "ch_slug": "fareye-closhartt-ch-livipro",
+    "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-08 11:18 WIB"
   }
 }
