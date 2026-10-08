@@ -63893,7 +63893,7 @@
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
     "status": "live",
-    "generated_at": "2026-10-09 06:42 WIB"
+    "generated_at": "2026-10-09 06:58 WIB"
   },
   "joHc8Zfs2GQ": {
     "org_slug": "neoespoir",
@@ -63998,7 +63998,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-09 06:42 WIB"
+    "generated_at": "2026-10-09 06:58 WIB"
   },
   "Jpi-mmJQGyo": {
     "org_slug": "pandavva",
@@ -64019,7 +64019,7 @@
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-09 06:42 WIB"
+    "generated_at": "2026-10-09 06:58 WIB"
   },
   "XmBZIjdWdYQ": {
     "org_slug": "uver-id",
@@ -64075,7 +64075,7 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-09 06:42 WIB"
+    "generated_at": "2026-10-09 06:58 WIB"
   },
   "TKOp7u5oc5U": {
     "org_slug": "prism-nova",
@@ -64298,8 +64298,8 @@
     "org_slug": "magniv",
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
-    "status": "live",
-    "generated_at": "2026-10-09 06:42 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-09 06:58 WIB"
   },
   "SrUuBAWbyV4": {
     "org_slug": "laeta",
@@ -64348,7 +64348,7 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-09 06:42 WIB"
+    "generated_at": "2026-10-09 06:58 WIB"
   },
   "z8TpJcWZ1ws": {
     "org_slug": "whicker-butler",
@@ -64369,6 +64369,6 @@
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-09 06:42 WIB"
+    "generated_at": "2026-10-09 06:58 WIB"
   }
 }
