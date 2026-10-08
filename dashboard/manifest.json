@@ -63858,7 +63858,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-08 13:41 WIB"
+    "generated_at": "2026-10-08 13:59 WIB"
   },
   "n_GXeYQQuZ8": {
     "org_slug": "kanau-virtual",
@@ -63886,20 +63886,27 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-08 13:41 WIB"
+    "generated_at": "2026-10-08 13:59 WIB"
   },
   "lWbzLXho2q0": {
     "org_slug": "vcosmix",
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
     "status": "live",
-    "generated_at": "2026-10-08 13:41 WIB"
+    "generated_at": "2026-10-08 13:59 WIB"
   },
   "joHc8Zfs2GQ": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-08 13:41 WIB"
+    "generated_at": "2026-10-08 13:59 WIB"
+  },
+  "m5JgMkZmpjs": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-08 13:59 WIB"
   }
 }
