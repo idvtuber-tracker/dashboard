@@ -58,6 +58,9 @@ jobs:
         shell: bash
         run: |
           set -uo pipefail
+          # The runner starts bash with -e; turn it off so a failed API call
+          # doesn't kill the script before we can print the error.
+          set +e
 
           IFS=',' read -ra STATUS_LIST <<< "${STATUSES// /}"
           cancelled=()
@@ -72,32 +75,23 @@ jobs:
             ids=$(gh api "$path?status=$status&per_page=100" \
                     --jq '.workflow_runs[].id' 2>/dev/null || true)
 
-          for id in $ids; do
-            [ "$id" = "$CURRENT_RUN" ] && continue
-          
-            echo "--- run $id ---"
-            gh api "repos/$REPO/actions/runs/$id" \
-              --jq '{status, conclusion, created_at, event, path}'
-          
-            echo "cancel:"
-            gh api -X POST "repos/$REPO/actions/runs/$id/cancel" -i 2>&1 | head -n 15
-            echo "force-cancel:"
-            gh api -X POST "repos/$REPO/actions/runs/$id/force-cancel" -i 2>&1 | head -n 15
+            # ===== DEBUG LOOP: prints the real HTTP response for each run =====
+            for id in $ids; do
+              [ "$id" = "$CURRENT_RUN" ] && continue
+
+              echo "--- run $id (status: $status) ---"
+              gh api "repos/$REPO/actions/runs/$id" \
+                --jq '{status, conclusion, created_at, event, path}' 2>&1 || true
+
+              echo "cancel:"
+              gh api -X POST "repos/$REPO/actions/runs/$id/cancel" -i 2>&1 | head -n 15 || true
+              echo "force-cancel:"
+              gh api -X POST "repos/$REPO/actions/runs/$id/force-cancel" -i 2>&1 | head -n 15 || true
+            done
+            # ===== END DEBUG LOOP =====
           done
 
-          echo "Cancelled ${#cancelled[@]} run(s)."
-
-          if [ "$DELETE_AFTER" = "true" ] && [ "${#cancelled[@]}" -gt 0 ]; then
-            echo "Waiting for cancellations to settle..."
-            sleep 15
-            for id in "${cancelled[@]}"; do
-              if gh api -X DELETE "repos/$REPO/actions/runs/$id" >/dev/null 2>&1; then
-                echo "🗑 deleted run $id"
-              else
-                echo "⚠ could not delete run $id (may still be cancelling)"
-              fi
-            done
-          fi
+          echo "Debug pass finished."
 
       - name: Restart tracker
         if: ${{ inputs.restart_tracker }}
