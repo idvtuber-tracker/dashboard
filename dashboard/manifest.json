@@ -63893,7 +63893,7 @@
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "joHc8Zfs2GQ": {
     "org_slug": "neoespoir",
@@ -64019,7 +64019,7 @@
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "XmBZIjdWdYQ": {
     "org_slug": "uver-id",
@@ -64075,7 +64075,7 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "TKOp7u5oc5U": {
     "org_slug": "prism-nova",
@@ -64348,7 +64348,7 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "z8TpJcWZ1ws": {
     "org_slug": "whicker-butler",
@@ -64383,21 +64383,21 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "5eLgUWOIpNk": {
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
-    "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "UZXZv3ukd58": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "HcJtffvNkd0": {
     "org_slug": "aisatset",
@@ -64410,42 +64410,49 @@
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
-    "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "IvWlpc3kIm0": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "9UX3k076mig": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "qQHiTK2-Yxk": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "ZDxoN97RlFQ": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
   },
   "9p2VQ4fgvY4": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-10-09 13:29 WIB"
+    "generated_at": "2026-10-09 13:46 WIB"
+  },
+  "5JioZJkiu6s": {
+    "org_slug": "magniv",
+    "ch_slug": "cancncn-ezacancan-magniv",
+    "ch_name": "CANCNCN -Ezacancan-【MagniV】",
+    "status": "live",
+    "generated_at": "2026-10-09 13:46 WIB"
   }
 }
