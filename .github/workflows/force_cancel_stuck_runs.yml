@@ -85,6 +85,20 @@ jobs:
             gh api -X POST "repos/$REPO/actions/runs/$id/force-cancel" -i 2>&1 | head -n 15
           done
 
+          echo "Cancelled ${#cancelled[@]} run(s)."
+
+          if [ "$DELETE_AFTER" = "true" ] && [ "${#cancelled[@]}" -gt 0 ]; then
+            echo "Waiting for cancellations to settle..."
+            sleep 15
+            for id in "${cancelled[@]}"; do
+              if gh api -X DELETE "repos/$REPO/actions/runs/$id" >/dev/null 2>&1; then
+                echo "🗑 deleted run $id"
+              else
+                echo "⚠ could not delete run $id (may still be cancelling)"
+              fi
+            done
+          fi
+
       - name: Restart tracker
         if: ${{ inputs.restart_tracker }}
         shell: bash
