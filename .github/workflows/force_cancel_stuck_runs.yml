@@ -22,7 +22,7 @@ on:
         type: boolean
         default: true
       delete_after:
-        description: "Also delete the runs after cancelling"
+        description: "Also try to DELETE each listed run (debug pass prints the result)"
         type: boolean
         default: false
       restart_tracker:
@@ -63,7 +63,10 @@ jobs:
           set +e
 
           IFS=',' read -ra STATUS_LIST <<< "${STATUSES// /}"
-          cancelled=()
+
+          # Prints the status line and the JSON error body of a response
+          # (the previous version cut the body off with head).
+          show() { grep -E '^(HTTP|\{)'; }
 
           for status in "${STATUS_LIST[@]}"; do
             if [ -n "$WORKFLOW_FILE" ]; then
@@ -75,18 +78,29 @@ jobs:
             ids=$(gh api "$path?status=$status&per_page=100" \
                     --jq '.workflow_runs[].id' 2>/dev/null || true)
 
-            # ===== DEBUG LOOP: prints the real HTTP response for each run =====
+            # ===== DEBUG LOOP =====
             for id in $ids; do
               [ "$id" = "$CURRENT_RUN" ] && continue
 
-              echo "--- run $id (status: $status) ---"
-              gh api "repos/$REPO/actions/runs/$id" \
-                --jq '{status, conclusion, created_at, event, path}' 2>&1 || true
+              echo "=== run $id (status: $status) ==="
+
+              echo "jobs:"
+              gh api "repos/$REPO/actions/runs/$id/jobs" \
+                --jq '{total_count, jobs: [.jobs[] | {name, status, runner_name, labels}]}' 2>&1 || true
+
+              echo "pending deployments:"
+              gh api "repos/$REPO/actions/runs/$id/pending_deployments" 2>&1 || true
 
               echo "cancel:"
-              gh api -X POST "repos/$REPO/actions/runs/$id/cancel" -i 2>&1 | head -n 15 || true
+              gh api -X POST "repos/$REPO/actions/runs/$id/cancel" -i 2>&1 | show
               echo "force-cancel:"
-              gh api -X POST "repos/$REPO/actions/runs/$id/force-cancel" -i 2>&1 | head -n 15 || true
+              gh api -X POST "repos/$REPO/actions/runs/$id/force-cancel" -i 2>&1 | show
+
+              if [ "$DELETE_AFTER" = "true" ]; then
+                echo "delete:"
+                gh api -X DELETE "repos/$REPO/actions/runs/$id" -i 2>&1 | show
+              fi
+              echo
             done
             # ===== END DEBUG LOOP =====
           done
