@@ -1,0 +1,119 @@
+name: Force Cancel Stuck Runs
+
+# Manual-trigger only. Runs on a GitHub-hosted runner so it still works
+# when the self-hosted runner is offline or wedged.
+#
+# Put this file at .github/workflows/force_cancel_stuck_runs.yml in the
+# TRACKER repo (or any repo whose runs are stuck).
+
+on:
+  workflow_dispatch:
+    inputs:
+      workflow_file:
+        description: "Workflow file to target (e.g. tracker.yml). Leave empty for ALL workflows."
+        required: false
+        default: "tracker.yml"
+      statuses:
+        description: "Run statuses to cancel (comma-separated)"
+        required: true
+        default: "queued,waiting,pending,requested"
+      force:
+        description: "Use force-cancel (skips always() steps, bypasses a hung runner)"
+        type: boolean
+        default: true
+      delete_after:
+        description: "Also delete the runs after cancelling"
+        type: boolean
+        default: false
+      restart_tracker:
+        description: "Dispatch tracker.yml again afterwards"
+        type: boolean
+        default: false
+
+permissions:
+  actions: write
+  contents: read
+
+# Separate group so this never queues behind the stuck workflow itself.
+concurrency:
+  group: force-cancel-stuck-runs
+  cancel-in-progress: false
+
+jobs:
+  force-cancel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      GH_TOKEN: ${{ secrets.GH_PAT }}
+      REPO: ${{ github.repository }}
+      CURRENT_RUN: ${{ github.run_id }}
+      WORKFLOW_FILE: ${{ inputs.workflow_file }}
+      STATUSES: ${{ inputs.statuses }}
+      FORCE: ${{ inputs.force }}
+      DELETE_AFTER: ${{ inputs.delete_after }}
+
+    steps:
+      - name: Cancel stuck runs
+        shell: bash
+        run: |
+          set -uo pipefail
+
+          IFS=',' read -ra STATUS_LIST <<< "${STATUSES// /}"
+          cancelled=()
+
+          for status in "${STATUS_LIST[@]}"; do
+            if [ -n "$WORKFLOW_FILE" ]; then
+              path="repos/$REPO/actions/workflows/$WORKFLOW_FILE/runs"
+            else
+              path="repos/$REPO/actions/runs"
+            fi
+
+            ids=$(gh api "$path?status=$status&per_page=100" \
+                    --jq '.workflow_runs[].id' 2>/dev/null || true)
+
+            for id in $ids; do
+              [ "$id" = "$CURRENT_RUN" ] && continue
+
+              if [ "$FORCE" = "true" ]; then
+                endpoint="force-cancel"
+              else
+                endpoint="cancel"
+              fi
+
+              if gh api -X POST "repos/$REPO/actions/runs/$id/$endpoint" >/dev/null 2>&1; then
+                echo "✓ $endpoint → run $id (status: $status)"
+                cancelled+=("$id")
+              else
+                # Normal cancel can fail on wedged runs; fall back to force.
+                if gh api -X POST "repos/$REPO/actions/runs/$id/force-cancel" >/dev/null 2>&1; then
+                  echo "✓ force-cancel (fallback) → run $id (status: $status)"
+                  cancelled+=("$id")
+                else
+                  echo "✗ could not cancel run $id (status: $status)"
+                fi
+              fi
+            done
+          done
+
+          echo "Cancelled ${#cancelled[@]} run(s)."
+
+          if [ "$DELETE_AFTER" = "true" ] && [ "${#cancelled[@]}" -gt 0 ]; then
+            echo "Waiting for cancellations to settle..."
+            sleep 15
+            for id in "${cancelled[@]}"; do
+              if gh api -X DELETE "repos/$REPO/actions/runs/$id" >/dev/null 2>&1; then
+                echo "🗑 deleted run $id"
+              else
+                echo "⚠ could not delete run $id (may still be cancelling)"
+              fi
+            done
+          fi
+
+      - name: Restart tracker
+        if: ${{ inputs.restart_tracker }}
+        shell: bash
+        run: |
+          gh api -X POST "repos/$REPO/actions/workflows/tracker.yml/dispatches" \
+            -f ref=main
+          echo "tracker.yml dispatched."
