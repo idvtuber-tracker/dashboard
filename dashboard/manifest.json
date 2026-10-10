@@ -63893,7 +63893,7 @@
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "joHc8Zfs2GQ": {
     "org_slug": "neoespoir",
@@ -64019,7 +64019,7 @@
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "XmBZIjdWdYQ": {
     "org_slug": "uver-id",
@@ -64075,7 +64075,7 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "TKOp7u5oc5U": {
     "org_slug": "prism-nova",
@@ -64348,7 +64348,7 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "z8TpJcWZ1ws": {
     "org_slug": "whicker-butler",
@@ -64439,7 +64439,7 @@
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "9p2VQ4fgvY4": {
     "org_slug": "neoespoir",
@@ -64992,7 +64992,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "VgHd6Mxgzps": {
     "org_slug": "dasoriyal",
@@ -65041,28 +65041,28 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "LYt0-9zMjQg": {
     "org_slug": "afterain",
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
-    "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "cnEOhz_HEGI": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "g-x7J-_qCNQ": {
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "Y3IL4Ur3b4c": {
     "org_slug": "whicker-butler",
@@ -65076,7 +65076,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "f5vnY4W9Nqg": {
     "org_slug": "vcosmix",
@@ -65097,7 +65097,7 @@
     "ch_slug": "ignis-grimoire-whicker-butler",
     "ch_name": "Ignis Grimoire【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "KTVFYF8RG_U": {
     "org_slug": "magniv",
@@ -65110,126 +65110,133 @@
     "org_slug": "uver-id",
     "ch_slug": "uver-id",
     "ch_name": "UVER ID",
-    "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "8cCK6_60bvU": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "pCYl_pO1w48": {
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "3JgaBrnCa6s": {
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "jCOkbCL9nQs": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "7L90GX6bwt0": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shaz-eilya-ch-snowvalley",
     "ch_name": "Shaz Eilya Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "c7SQ8YPILS0": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "1JYjZbi4vDA": {
     "org_slug": "project-eternoia",
     "ch_slug": "fumiko-runa",
     "ch_name": "Fumiko Runa",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "BJ1ehs_RT2s": {
     "org_slug": "project-eternoia",
     "ch_slug": "miori-sora-3d-vtuberid",
     "ch_name": "Miori Sora 【3D VTUBERID】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "bVtXPekaV2I": {
     "org_slug": "nawasena-live",
     "ch_slug": "moomi-latte-nawasena",
     "ch_name": "MooMi Latte 【NAWASENA】",
-    "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "bpGo0Q4r-1c": {
     "org_slug": "cozycazt",
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "TCKOHaKjst8": {
     "org_slug": "miqela",
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "aNuSiXarrXY": {
     "org_slug": "afterain",
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "OwDkFly3fZA": {
     "org_slug": "laeta",
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "fH_Q_FuLcLY": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "Qu1g3xk5ER8": {
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "yy3AghaT4SI": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
   },
   "gF375Tkp9CU": {
     "org_slug": "aurora-project",
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-10-10 21:29 WIB"
+    "generated_at": "2026-10-10 22:00 WIB"
+  },
+  "2n58nVQoB4g": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-10-10 22:00 WIB"
   }
 }
