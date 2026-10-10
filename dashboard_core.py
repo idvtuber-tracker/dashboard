@@ -129,6 +129,7 @@ ORG_MAP = {
             ("Vanessa Yue",    		            	       "talent", "UCV2n7vnKdEl0DRy7NqOZsJg"),
             ("Hiyori Renalie",               		       "talent", "UCCKbfxNSGvjFN5iXyC-09BQ"),
             ("Yukine Clawy【Whicker Butler】",          "talent", "UCDToUIEA6yz0JfURhiE239g"),
+            ("Lilian Grimmxandra",      "talent", "UCEFx7PserYcSAD3p66sOMWA"),
         ],
     },
     "yorukaze": {
