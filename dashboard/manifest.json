@@ -66707,7 +66707,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-15 03:23 WIB"
+    "generated_at": "2026-10-15 03:24 WIB"
   },
   "Lu7X9qA0Xig": {
     "org_slug": "hibikasekai",
@@ -66917,7 +66917,7 @@
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-10-15 03:23 WIB"
+    "generated_at": "2026-10-15 03:24 WIB"
   },
   "Y22bk3N-r_E": {
     "org_slug": "uver-id",
@@ -66931,6 +66931,13 @@
     "ch_slug": "ibame-masagi-hibikasekai",
     "ch_name": "Ibame Masagi 🗝  〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-10-15 03:23 WIB"
+    "generated_at": "2026-10-15 03:24 WIB"
+  },
+  "aSI4ebgqeFg": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "serein-venetia-ch-snowvalley",
+    "ch_name": "Serein Venetia Ch. •SnowValley",
+    "status": "vod",
+    "generated_at": "2026-10-15 03:24 WIB"
   }
 }
