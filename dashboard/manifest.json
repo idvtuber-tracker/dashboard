@@ -66706,8 +66706,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-10-15 07:17 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-15 07:33 WIB"
   },
   "Lu7X9qA0Xig": {
     "org_slug": "hibikasekai",
@@ -66945,13 +66945,20 @@
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-10-15 07:17 WIB"
+    "generated_at": "2026-10-15 07:33 WIB"
   },
   "DR1ojD0U0Z8": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-15 07:17 WIB"
+    "generated_at": "2026-10-15 07:33 WIB"
+  },
+  "HHI8woBtA50": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-10-15 07:33 WIB"
   }
 }
