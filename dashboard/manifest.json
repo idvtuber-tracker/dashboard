@@ -66959,7 +66959,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-15 12:51 WIB"
+    "generated_at": "2026-10-15 13:11 WIB"
   },
   "7_gWKuwp9UE": {
     "org_slug": "vcosmix",
@@ -66993,8 +66993,8 @@
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
-    "status": "live",
-    "generated_at": "2026-10-15 12:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-15 13:11 WIB"
   },
   "7eveexy18EE": {
     "org_slug": "aisatset",
@@ -67007,8 +67007,8 @@
     "org_slug": "yorukaze",
     "ch_slug": "nanaka-poi-ch-yorukaze",
     "ch_name": "Nanaka Poi Ch. 【Yorukaze】",
-    "status": "live",
-    "generated_at": "2026-10-15 12:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-15 13:11 WIB"
   },
   "jjY26uiP4pM": {
     "org_slug": "vcosmix",
@@ -67016,5 +67016,19 @@
     "ch_name": "Lea Lestari Ch.",
     "status": "vod",
     "generated_at": "2026-10-15 12:34 WIB"
+  },
+  "-th3vmExMdo": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-10-15 13:11 WIB"
+  },
+  "Sw1F3TAOmXI": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "aiko-zurie-nawasena",
+    "ch_name": "Aiko Zurie 【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-10-15 13:11 WIB"
   }
 }
