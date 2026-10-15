@@ -66959,7 +66959,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-15 14:43 WIB"
+    "generated_at": "2026-10-15 15:04 WIB"
   },
   "7_gWKuwp9UE": {
     "org_slug": "vcosmix",
@@ -67022,27 +67022,48 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-15 14:43 WIB"
+    "generated_at": "2026-10-15 15:04 WIB"
   },
   "Sw1F3TAOmXI": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
-    "status": "live",
-    "generated_at": "2026-10-15 14:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-15 15:04 WIB"
   },
   "jJaAet4LJt0": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-15 14:43 WIB"
+    "generated_at": "2026-10-15 15:04 WIB"
   },
   "c5i6h_JP820": {
     "org_slug": "afterain",
     "ch_slug": "kana-chizu-afterain",
     "ch_name": "Kana Chizu 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-10-15 14:43 WIB"
+    "generated_at": "2026-10-15 15:04 WIB"
+  },
+  "eJYW2tJThhU": {
+    "org_slug": "oristarium",
+    "ch_slug": "ahomika-ch-oristarium",
+    "ch_name": "Ahomika_Ch【Oristarium】",
+    "status": "live",
+    "generated_at": "2026-10-15 15:04 WIB"
+  },
+  "ZKyvxKdkhf8": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-15 15:04 WIB"
+  },
+  "KNOhHyfFyZ8": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-10-15 15:04 WIB"
   }
 }
