@@ -66959,7 +66959,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-15 13:29 WIB"
+    "generated_at": "2026-10-15 13:47 WIB"
   },
   "7_gWKuwp9UE": {
     "org_slug": "vcosmix",
@@ -67022,13 +67022,20 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-15 13:29 WIB"
+    "generated_at": "2026-10-15 13:47 WIB"
   },
   "Sw1F3TAOmXI": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-10-15 13:29 WIB"
+    "generated_at": "2026-10-15 13:47 WIB"
+  },
+  "jJaAet4LJt0": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "naona-neon-ch-snowvalley",
+    "ch_name": "Naona Neon Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-15 13:47 WIB"
   }
 }
