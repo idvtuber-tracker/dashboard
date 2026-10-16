@@ -67553,8 +67553,8 @@
     "org_slug": "magniv",
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
-    "status": "live",
-    "generated_at": "2026-10-16 18:49 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-16 19:06 WIB"
   },
   "uNtiBGzDxWk": {
     "org_slug": "neoespoir",
@@ -67603,7 +67603,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-16 18:49 WIB"
+    "generated_at": "2026-10-16 19:06 WIB"
   },
   "khXtpbZr-Dg": {
     "org_slug": "uver-id",
@@ -67631,14 +67631,14 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-16 18:49 WIB"
+    "generated_at": "2026-10-16 19:06 WIB"
   },
   "4K7F7HNXv8s": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-16 18:49 WIB"
+    "generated_at": "2026-10-16 19:06 WIB"
   },
   "a2QRHw0J3MU": {
     "org_slug": "hibikasekai",
@@ -67652,7 +67652,7 @@
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-16 18:49 WIB"
+    "generated_at": "2026-10-16 19:06 WIB"
   },
   "dOdvbi2O6Fc": {
     "org_slug": "dasoriyal",
@@ -67666,13 +67666,41 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-16 18:49 WIB"
+    "generated_at": "2026-10-16 19:06 WIB"
   },
   "91r5M-6KuO8": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-16 18:49 WIB"
+    "generated_at": "2026-10-16 19:06 WIB"
+  },
+  "1b1kYcSsQ9s": {
+    "org_slug": "uver-id",
+    "ch_slug": "nephthya-anya-ch-uver-id",
+    "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-10-16 19:06 WIB"
+  },
+  "mhuh57EZSWE": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-10-16 19:06 WIB"
+  },
+  "9wc_2KQ2Ik0": {
+    "org_slug": "crims-on",
+    "ch_slug": "selia-aisnith-crims-on",
+    "ch_name": "Selia Aisnith 【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-10-16 19:06 WIB"
+  },
+  "0Pg9j-4LjWw": {
+    "org_slug": "pandavva",
+    "ch_slug": "pandavva-official",
+    "ch_name": "PANDAVVA Official",
+    "status": "live",
+    "generated_at": "2026-10-16 19:06 WIB"
   }
 }
