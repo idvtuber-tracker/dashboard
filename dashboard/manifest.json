@@ -67799,14 +67799,14 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-17 01:55 WIB"
+    "generated_at": "2026-10-17 02:11 WIB"
   },
   "Zs-FzkySpNE": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-10-17 01:55 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-17 02:11 WIB"
   },
   "8qrHQn6wcog": {
     "org_slug": "crims-on",
@@ -67869,7 +67869,7 @@
     "ch_slug": "nanaka-poi-ch-yorukaze",
     "ch_name": "Nanaka Poi Ch. 【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-10-17 01:55 WIB"
+    "generated_at": "2026-10-17 02:11 WIB"
   },
   "aPVFvYniYnA": {
     "org_slug": "whicker-butler",
@@ -67890,7 +67890,7 @@
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-17 01:55 WIB"
+    "generated_at": "2026-10-17 02:11 WIB"
   },
   "pRrvZfFJv5A": {
     "org_slug": "mejikuhibiniu",
@@ -67898,5 +67898,19 @@
     "ch_name": "Elethera Rehema 『Mejikuhibiniu』",
     "status": "vod",
     "generated_at": "2026-10-17 00:33 WIB"
+  },
+  "S0oCj-qrpiQ": {
+    "org_slug": "magniv",
+    "ch_slug": "gema-gathika-magniv",
+    "ch_name": "Gema Gathika【MagniV】",
+    "status": "live",
+    "generated_at": "2026-10-17 02:11 WIB"
+  },
+  "m7Fy-0RTPl4": {
+    "org_slug": "miqela",
+    "ch_slug": "teaqillla-ch-miqela",
+    "ch_name": "Teaqillla Ch. 【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-10-17 02:11 WIB"
   }
 }
