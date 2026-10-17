@@ -68212,7 +68212,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-18 00:04 WIB"
+    "generated_at": "2026-10-18 00:20 WIB"
   },
   "FPi82TVYK10": {
     "org_slug": "crims-on",
@@ -68240,48 +68240,48 @@
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-10-18 00:04 WIB"
+    "generated_at": "2026-10-18 00:20 WIB"
   },
   "VM23vshFFAk": {
     "org_slug": "laeta",
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-18 00:04 WIB"
+    "generated_at": "2026-10-18 00:20 WIB"
   },
   "9DPmVBLf1mw": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-18 00:04 WIB"
+    "generated_at": "2026-10-18 00:20 WIB"
   },
   "gJz8F1O16j8": {
     "org_slug": "project-livium",
     "ch_slug": "ymelia-meiru-ch-livipro",
     "ch_name": "Ymelia Meiru Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-18 00:04 WIB"
+    "generated_at": "2026-10-18 00:20 WIB"
   },
   "cuCeJr9aI44": {
     "org_slug": "evren-community",
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
     "status": "live",
-    "generated_at": "2026-10-18 00:04 WIB"
+    "generated_at": "2026-10-18 00:20 WIB"
   },
   "JWSmvDu8n4g": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-18 00:04 WIB"
+    "generated_at": "2026-10-18 00:20 WIB"
   },
   "39bNycep7dQ": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-10-18 00:04 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-18 00:20 WIB"
   }
 }
