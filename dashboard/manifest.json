@@ -67917,42 +67917,49 @@
     "org_slug": "yorukaze",
     "ch_slug": "tanyata-tiada-yorukaze",
     "ch_name": "Tanyata Tiada タニャ 【Yorukaze】",
-    "status": "live",
-    "generated_at": "2026-10-17 10:33 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-17 10:50 WIB"
   },
   "VdA4ru6RU44": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-17 10:33 WIB"
+    "generated_at": "2026-10-17 10:50 WIB"
   },
   "syNQNRHQLbk": {
     "org_slug": "cozycazt",
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-10-17 10:33 WIB"
+    "generated_at": "2026-10-17 10:50 WIB"
   },
   "B3BSR4jTtRA": {
     "org_slug": "magniv",
     "ch_slug": "shiru-magniv",
     "ch_name": "Shiru 【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-17 10:33 WIB"
+    "generated_at": "2026-10-17 10:50 WIB"
   },
   "0Lh8-fYP4xQ": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-10-17 10:33 WIB"
+    "generated_at": "2026-10-17 10:50 WIB"
   },
   "J4D8tej_yz8": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-17 10:33 WIB"
+    "generated_at": "2026-10-17 10:50 WIB"
+  },
+  "qnIqdMY8mTM": {
+    "org_slug": "yorukaze",
+    "ch_slug": "hessa-elainore-ch-yorukaze",
+    "ch_name": "Hessa Elainore Ch.【Yorukaze】",
+    "status": "live",
+    "generated_at": "2026-10-17 10:50 WIB"
   }
 }
