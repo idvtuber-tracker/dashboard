@@ -68261,7 +68261,7 @@
     "ch_slug": "ymelia-meiru-ch-livipro",
     "ch_name": "Ymelia Meiru Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-18 02:13 WIB"
+    "generated_at": "2026-10-18 02:43 WIB"
   },
   "cuCeJr9aI44": {
     "org_slug": "evren-community",
@@ -68274,8 +68274,8 @@
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-10-18 02:13 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-18 02:43 WIB"
   },
   "39bNycep7dQ": {
     "org_slug": "snowvalley-agency",
@@ -68290,5 +68290,19 @@
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "vod",
     "generated_at": "2026-10-18 00:44 WIB"
+  },
+  "mjvJEDMWVZI": {
+    "org_slug": "laeta",
+    "ch_slug": "althea-antonia-laeta",
+    "ch_name": "Althea Antonia 【LAETA】",
+    "status": "live",
+    "generated_at": "2026-10-18 02:43 WIB"
+  },
+  "vFZaZfQNOww": {
+    "org_slug": "aisatset",
+    "ch_slug": "chiya-maawiya-ch-aisatset-id",
+    "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-10-18 02:43 WIB"
   }
 }
