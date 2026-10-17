@@ -67945,15 +67945,15 @@
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
-    "status": "live",
-    "generated_at": "2026-10-17 12:53 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-17 13:10 WIB"
   },
   "J4D8tej_yz8": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-17 12:53 WIB"
+    "generated_at": "2026-10-17 13:10 WIB"
   },
   "qnIqdMY8mTM": {
     "org_slug": "yorukaze",
@@ -67961,5 +67961,19 @@
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "vod",
     "generated_at": "2026-10-17 12:53 WIB"
+  },
+  "uk5a_xqRI-Q": {
+    "org_slug": "vcosmix",
+    "ch_slug": "miichan-chu-ch",
+    "ch_name": "Miichan Chu Ch.",
+    "status": "live",
+    "generated_at": "2026-10-17 13:10 WIB"
+  },
+  "NP63hOCK48U": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-10-17 13:10 WIB"
   }
 }
