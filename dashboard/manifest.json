@@ -67973,15 +67973,15 @@
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
-    "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-17 17:56 WIB"
   },
   "pNVBhEy1S8U": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
-    "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-17 17:56 WIB"
   },
   "cUPRD1vXzro": {
     "org_slug": "kanau-virtual",
@@ -67995,7 +67995,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "generated_at": "2026-10-17 17:56 WIB"
   },
   "Le-hy0kk6EQ": {
     "org_slug": "aisatset",
@@ -68022,8 +68022,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "celina-olystia-ch-snowvalley",
     "ch_name": "Celina Olystia Ch •SnowValley",
-    "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-17 17:56 WIB"
   },
   "tqTTN5_EDUo": {
     "org_slug": "miqela",
@@ -68037,14 +68037,14 @@
     "ch_slug": "bouya-kyuuroku-snowdrop",
     "ch_name": "Bouya Kyuuroku | SNOWDROP",
     "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "generated_at": "2026-10-17 17:56 WIB"
   },
   "rA0KDkTliRo": {
     "org_slug": "pandavva",
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "generated_at": "2026-10-17 17:56 WIB"
   },
   "_Fm7XFlo9l4": {
     "org_slug": "hibikasekai",
@@ -68058,27 +68058,34 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "generated_at": "2026-10-17 17:56 WIB"
   },
   "bXV8P05ZeT8": {
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "generated_at": "2026-10-17 17:56 WIB"
   },
   "EyRk8CM1UBo": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "generated_at": "2026-10-17 17:56 WIB"
   },
   "paVuxJ_pRUg": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-17 17:39 WIB"
+    "generated_at": "2026-10-17 17:56 WIB"
+  },
+  "ftbnDprIByg": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "celina-olystia-ch-snowvalley",
+    "ch_name": "Celina Olystia Ch •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-17 17:56 WIB"
   }
 }
