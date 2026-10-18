@@ -68295,22 +68295,22 @@
     "org_slug": "laeta",
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
-    "status": "live",
-    "generated_at": "2026-10-18 08:20 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-18 08:44 WIB"
   },
   "vFZaZfQNOww": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-18 08:20 WIB"
+    "generated_at": "2026-10-18 08:44 WIB"
   },
   "y_RKfRAbfxs": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-10-18 08:20 WIB"
+    "generated_at": "2026-10-18 08:44 WIB"
   },
   "ifuKuZCjBsM": {
     "org_slug": "whicker-butler",
@@ -68318,5 +68318,12 @@
     "ch_name": "Lilian Grimmxandra",
     "status": "vod",
     "generated_at": "2026-10-18 07:30 WIB"
+  },
+  "ShiHiWAbBLA": {
+    "org_slug": "uver-id",
+    "ch_slug": "cyure-michantrell-ch-uver-id",
+    "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-10-18 08:44 WIB"
   }
 }
