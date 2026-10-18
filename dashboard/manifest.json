@@ -68310,7 +68310,7 @@
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-10-18 13:58 WIB"
+    "generated_at": "2026-10-18 14:23 WIB"
   },
   "ifuKuZCjBsM": {
     "org_slug": "whicker-butler",
@@ -68345,7 +68345,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-10-18 13:58 WIB"
+    "generated_at": "2026-10-18 14:23 WIB"
   },
   "AYfeJSp5sKY": {
     "org_slug": "evren-community",
@@ -68380,20 +68380,34 @@
     "ch_slug": "kana-chizu-afterain",
     "ch_name": "Kana Chizu 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-10-18 13:58 WIB"
+    "generated_at": "2026-10-18 14:23 WIB"
   },
   "oM8eiri8jTA": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-18 13:58 WIB"
+    "generated_at": "2026-10-18 14:23 WIB"
   },
   "ou3bXzFabzQ": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-18 13:58 WIB"
+    "generated_at": "2026-10-18 14:23 WIB"
+  },
+  "EqvUkU4w5fs": {
+    "org_slug": "aisatset",
+    "ch_slug": "blessicaa-aisatset-id",
+    "ch_name": "Blessicaa【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-10-18 14:23 WIB"
+  },
+  "QYQZ-ywDjho": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-10-18 14:23 WIB"
   }
 }
