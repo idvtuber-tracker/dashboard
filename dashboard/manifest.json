@@ -68842,7 +68842,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-20 05:47 WIB"
+    "generated_at": "2026-10-20 06:25 WIB"
   },
   "4XshCfnPhjo": {
     "org_slug": "project-livium",
@@ -69039,5 +69039,12 @@
     "ch_name": "Althea Antonia 【LAETA】",
     "status": "vod",
     "generated_at": "2026-10-20 05:47 WIB"
+  },
+  "0xT5URHpeh8": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "luii-lafete-kanau-virtual",
+    "ch_name": "Luii Lafete【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-10-20 06:25 WIB"
   }
 }
