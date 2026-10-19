@@ -68765,7 +68765,7 @@
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "ZR5ct37Gr3k": {
     "org_slug": "uver-id",
@@ -68834,15 +68834,15 @@
     "org_slug": "magisona",
     "ch_slug": "iofiel-feliz-ch-magisona",
     "ch_name": "ioFiel Feliz Ch.【MagiSona】",
-    "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "4cuCVcjIRjo": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "4XshCfnPhjo": {
     "org_slug": "project-livium",
@@ -68856,7 +68856,7 @@
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "hMRXKXJF7G4": {
     "org_slug": "gravt",
@@ -68898,7 +68898,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "KUMLZGw4FXc": {
     "org_slug": "asobu-production",
@@ -68919,21 +68919,21 @@
     "ch_slug": "selia-aisnith-crims-on",
     "ch_name": "Selia Aisnith 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "0j0qjIvSVV8": {
     "org_slug": "laeta",
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "LibHG_w-ka8": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "vPiT_xVGLwk": {
     "org_slug": "kanau-virtual",
@@ -68947,7 +68947,7 @@
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "n4qn__xyilU": {
     "org_slug": "enygmyst-project",
@@ -68981,8 +68981,8 @@
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
-    "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "H-QwM6j734w": {
     "org_slug": "aisatset",
@@ -69003,7 +69003,7 @@
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "vVIndXALMN4": {
     "org_slug": "gravt",
@@ -69017,7 +69017,7 @@
     "ch_slug": "silveryshore-ch",
     "ch_name": "Silveryshore Ch.",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   },
   "85bXwUr_4_w": {
     "org_slug": "magniv",
@@ -69031,6 +69031,6 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-19 23:40 WIB"
+    "generated_at": "2026-10-19 23:50 WIB"
   }
 }
