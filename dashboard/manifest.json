@@ -68842,7 +68842,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-20 02:05 WIB"
+    "generated_at": "2026-10-20 02:21 WIB"
   },
   "4XshCfnPhjo": {
     "org_slug": "project-livium",
@@ -69002,8 +69002,8 @@
     "org_slug": "miqela",
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
-    "status": "live",
-    "generated_at": "2026-10-20 02:05 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-20 02:21 WIB"
   },
   "vVIndXALMN4": {
     "org_slug": "gravt",
@@ -69031,13 +69031,13 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-20 02:05 WIB"
+    "generated_at": "2026-10-20 02:21 WIB"
   },
   "PSC_MbMqWV8": {
     "org_slug": "laeta",
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-20 02:05 WIB"
+    "generated_at": "2026-10-20 02:21 WIB"
   }
 }
