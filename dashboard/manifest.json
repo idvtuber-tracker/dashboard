@@ -68758,14 +68758,14 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-19 19:17 WIB"
+    "generated_at": "2026-10-19 19:35 WIB"
   },
   "x8mVh3cxxkQ": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-19 19:17 WIB"
+    "generated_at": "2026-10-19 19:35 WIB"
   },
   "ZR5ct37Gr3k": {
     "org_slug": "uver-id",
@@ -68786,7 +68786,7 @@
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-19 19:17 WIB"
+    "generated_at": "2026-10-19 19:35 WIB"
   },
   "M3Gz0qgS_4E": {
     "org_slug": "project-livium",
@@ -68799,42 +68799,70 @@
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
-    "status": "live",
-    "generated_at": "2026-10-19 19:17 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-19 19:35 WIB"
   },
   "YgUHyP6vXpU": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-10-19 19:17 WIB"
+    "generated_at": "2026-10-19 19:35 WIB"
   },
   "lr7b5HxqONY": {
     "org_slug": "prism-nova",
     "ch_slug": "thalia-symphonia-prism-nova",
     "ch_name": "Thalia Symphonia 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-10-19 19:17 WIB"
+    "generated_at": "2026-10-19 19:35 WIB"
   },
   "dD-YLJH0gvs": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-19 19:17 WIB"
+    "generated_at": "2026-10-19 19:35 WIB"
   },
   "PnVonnUYtkw": {
     "org_slug": "uver-id",
     "ch_slug": "norn-haira-uver-id",
     "ch_name": "Norn Haira〔UVER ID〕",
     "status": "live",
-    "generated_at": "2026-10-19 19:17 WIB"
+    "generated_at": "2026-10-19 19:35 WIB"
   },
   "QFRQXO-qcwE": {
     "org_slug": "magisona",
     "ch_slug": "iofiel-feliz-ch-magisona",
     "ch_name": "ioFiel Feliz Ch.【MagiSona】",
     "status": "live",
-    "generated_at": "2026-10-19 19:17 WIB"
+    "generated_at": "2026-10-19 19:35 WIB"
+  },
+  "4cuCVcjIRjo": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuela-guigui-ch-livipro",
+    "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-19 19:35 WIB"
+  },
+  "4XshCfnPhjo": {
+    "org_slug": "project-livium",
+    "ch_slug": "silvia-valleria-ch-livipro",
+    "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-19 19:35 WIB"
+  },
+  "ipKAeqcBC10": {
+    "org_slug": "magniv",
+    "ch_slug": "cancncn-ezacancan-magniv",
+    "ch_name": "CANCNCN -Ezacancan-【MagniV】",
+    "status": "live",
+    "generated_at": "2026-10-19 19:35 WIB"
+  },
+  "hMRXKXJF7G4": {
+    "org_slug": "gravt",
+    "ch_slug": "ave-kanehoshii-gravt",
+    "ch_name": "Ave Kanehoshii【GRAVT】",
+    "status": "live",
+    "generated_at": "2026-10-19 19:35 WIB"
   }
 }
