@@ -68842,7 +68842,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-20 18:56 WIB"
+    "generated_at": "2026-10-20 19:13 WIB"
   },
   "4XshCfnPhjo": {
     "org_slug": "project-livium",
@@ -69080,7 +69080,7 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-20 18:56 WIB"
+    "generated_at": "2026-10-20 19:13 WIB"
   },
   "sDrSDkHK0YU": {
     "org_slug": "aurora-project",
@@ -69101,7 +69101,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-20 18:56 WIB"
+    "generated_at": "2026-10-20 19:13 WIB"
   },
   "-xJuotHcvnY": {
     "org_slug": "prism-nova",
@@ -69149,8 +69149,8 @@
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-10-20 18:56 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-20 19:13 WIB"
   },
   "yDSZ59ivy_g": {
     "org_slug": "yorukaze",
@@ -69192,21 +69192,21 @@
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-20 18:56 WIB"
+    "generated_at": "2026-10-20 19:13 WIB"
   },
   "hvZm4cfjas0": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-20 18:56 WIB"
+    "generated_at": "2026-10-20 19:13 WIB"
   },
   "TnIzGS6Mebc": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-10-20 18:56 WIB"
+    "generated_at": "2026-10-20 19:13 WIB"
   },
   "9xAvFvYbyz0": {
     "org_slug": "utora",
@@ -69613,5 +69613,40 @@
     "ch_name": "Shin Derra 『 KY:MERA 』",
     "status": "vod",
     "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "Kn9zV-XSBO4": {
+    "org_slug": "magniv",
+    "ch_slug": "funin-mamori-magniv",
+    "ch_name": "Funin Mamori【MagniV】",
+    "status": "live",
+    "generated_at": "2026-10-20 19:13 WIB"
+  },
+  "rmEKvYuO54g": {
+    "org_slug": "magniv",
+    "ch_slug": "cancncn-ezacancan-magniv",
+    "ch_name": "CANCNCN -Ezacancan-【MagniV】",
+    "status": "live",
+    "generated_at": "2026-10-20 19:13 WIB"
+  },
+  "I82jU_2kjdg": {
+    "org_slug": "cozycazt",
+    "ch_slug": "lyta-luciana-ch-cozycazt",
+    "ch_name": "Lyta Luciana Ch.【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-10-20 19:13 WIB"
+  },
+  "dOTTl_pnyO0": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "tuti-hanna-ch-snowvalley",
+    "ch_name": "Tuti Hanna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-20 19:13 WIB"
+  },
+  "EruQmOYKJn0": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "kukuryu-nawasena",
+    "ch_name": "KUKURYU【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-10-20 19:13 WIB"
   }
 }
