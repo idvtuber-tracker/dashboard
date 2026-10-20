@@ -68842,7 +68842,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "4XshCfnPhjo": {
     "org_slug": "project-livium",
@@ -69080,7 +69080,7 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "sDrSDkHK0YU": {
     "org_slug": "aurora-project",
@@ -69101,7 +69101,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "-xJuotHcvnY": {
     "org_slug": "prism-nova",
@@ -69142,15 +69142,15 @@
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "aVZ7ZArkLxI": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "yDSZ59ivy_g": {
     "org_slug": "yorukaze",
@@ -69163,8 +69163,8 @@
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
-    "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "qQhif5bPFfc": {
     "org_slug": "magisona",
@@ -69177,35 +69177,441 @@
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
-    "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "gdbfYbOu3z0": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "_gKlnMYJYYM": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "hvZm4cfjas0": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "generated_at": "2026-10-20 18:52 WIB"
   },
   "TnIzGS6Mebc": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-10-20 18:41 WIB"
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "9xAvFvYbyz0": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "ugtYFaNFqjQ": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "G5qjs0o_oko": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "PXb_1zOhgd8": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "8HaBQRo896o": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "oLoCXW7zfB4": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "LdZVXwc4MxI": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "x7p4aKKamOM": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "nXG5D_TkajA": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "x2ZzBMnkuDI": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "fY0YgNWzLbc": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "LJwV4ste_IY": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "cRoFdQ_RuZs": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "YPEEx6ixb1A": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "025j0YGtLgE": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "ryejmoeNIGI": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "4waS9nNte-o": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "FEJ3RhPjPwM": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "aVfFARaMgp4": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "7_mGpeqNYUE": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "4TpOnVbDabs": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "qpN6CGMP8v4": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "9tgbAQUyeUA": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "ekt_Nq5nGHA": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "sxtR4Jv4qpk": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "iuUpKVU_It8": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "Omag9keaJd4": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "EyFngEyRx8s": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "J5wK-9hyxMs": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "9nW_XEQCFdw": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "DQPOL-IjxEw": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "bnJhm3ZEVgU": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "-dTfuJOWcg0": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "gg5WLGKQV-E": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "oERV936Hm60": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "qBPgMtP9xC8": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "aL5JIJRQ5bg": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "ucKc8gA6hzk": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "a-dh5R5sU3U": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "Gh9SJYhVOG8": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "kTF16rWhALs": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "7tB4N8WKuDo": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "tvfHdQtS12I": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "Sh2Cj4YXek0": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "-X_DOwAhenY": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "MyGyy4zv0rc": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "m6IJc7wbYpE": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "Cq_Ds42hkOE": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "yYntHiS3TuY": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "irFSHUN5QZM": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "7UwD26fgMVk": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "-25cbFOxkM8": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "SNRaUYGOjUQ": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "YgzYe1H7uxo": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "Tt1B5N3Tjao": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "qoxhhulGCP0": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "Lp_QzQE1ov8": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
+  },
+  "azWQnvbf7OA": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-10-20 18:52 WIB"
   }
 }
