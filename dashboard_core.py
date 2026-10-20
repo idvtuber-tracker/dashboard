@@ -609,6 +609,31 @@ ORG_MAP = {
             ("Stellaria Vernakila Ch.【MIQELA】", "talent", "UC60MCyBm2tTDP1R6rWPjc4Q"),  
         ],
     },
+    "utora": {
+        "label":   "UTORA",
+        "color":   "#c6cad3",
+        "color_light": "#4b5563",
+        "desc":    "VTuber group which has established and emerging talents.",
+        "channels": [
+            ("Petite Sabrina Ch.", "talent", "UCprSaa007hKZbPtGoIxbItw"),  
+            ("Violetta Calytrix", "talent", "UCzuELV9IeEGNI3_3MUSNnow"),  
+            ("Yuko27", "talent", "UCEVXJjgsBKjP8PS21mCDvQg"),  
+            ("ONShannon", "talent", "UCJlcEuTs4LNMPn0xL3czRrA"),  
+        ],
+    },
+    "kymera": {
+        "label":   "KY:MERA",
+        "color":   "#a0eeD8",
+        "color_light": "#00573e",
+        "desc":    "A new soon to be idol group with familiar names.",
+        "channels": [
+            ("KY:MERA", "org", "UC8_b95FtvA5M8skikRC6qyw"),  
+            ("Shin Derra 『 KY:MERA 』", "talent", "UC01M29MI5-oyfsB3dTCSd_A"),  
+            ("Mythia Batford 『 KY:MERA 』", "talent", "UCCK072ns5Bt1nYqX1CoaZ-g"),  
+            ("Pomu VR 『 KY:MERA 』", "talent", "UC1IfTemYZefge61FZCdWoUw"),  
+            ("lioye 『 KY:MERA 』", "talent", "UCz7NJ1CccU-q2gLcByBPDhQ"),  
+        ],
+    },  
 }
 
 # Build reverse lookup: channel_name → (org_slug, org)
