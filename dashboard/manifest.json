@@ -69961,8 +69961,8 @@
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
-    "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "3fALi-7CqvI": {
     "org_slug": "uver-id",
@@ -69975,8 +69975,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "celina-olystia-ch-snowvalley",
     "ch_name": "Celina Olystia Ch •SnowValley",
-    "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "3FLe58OzQuM": {
     "org_slug": "project-livium",
@@ -69990,69 +69990,83 @@
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "Nq4dikD1D38": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "WW0P9rESKr4": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "bo8DsbW647o": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "14XjnhhiMVY": {
     "org_slug": "utora",
     "ch_slug": "onshannon",
     "ch_name": "ONShannon",
     "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "Mkjk1eP7e4Q": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "dHQmziQ4maE": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "vwVAxyB-XMA": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "L9Bv0wgYGZk": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "generated_at": "2026-10-21 17:59 WIB"
   },
   "_ZNiIr1HrHY": {
     "org_slug": "project-eternoia",
     "ch_slug": "allyra-violette",
     "ch_name": "Allyra Violette 🪨",
     "status": "live",
-    "generated_at": "2026-10-21 17:43 WIB"
+    "generated_at": "2026-10-21 17:59 WIB"
+  },
+  "i8sgfzsgWso": {
+    "org_slug": "kymera",
+    "ch_slug": "pomu-vr-ky-mera",
+    "ch_name": "Pomu VR 『 KY:MERA 』",
+    "status": "live",
+    "generated_at": "2026-10-21 17:59 WIB"
+  },
+  "blNXgp6BjII": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "alex-von-astaroth-hibikasekai",
+    "ch_name": "Alex von Astaroth 🦇 🦊〖 HIBIKASEKAI 】",
+    "status": "live",
+    "generated_at": "2026-10-21 17:59 WIB"
   }
 }
