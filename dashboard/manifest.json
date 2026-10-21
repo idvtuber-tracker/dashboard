@@ -68842,7 +68842,7 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-21 07:16 WIB"
+    "generated_at": "2026-10-21 07:34 WIB"
   },
   "4XshCfnPhjo": {
     "org_slug": "project-livium",
@@ -69080,7 +69080,7 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-21 07:16 WIB"
+    "generated_at": "2026-10-21 07:34 WIB"
   },
   "sDrSDkHK0YU": {
     "org_slug": "aurora-project",
@@ -69808,7 +69808,7 @@
     "ch_slug": "shia-naenia-enigmyst-project",
     "ch_name": "Shia Naenia 【ENIGMYST Project】",
     "status": "live",
-    "generated_at": "2026-10-21 07:16 WIB"
+    "generated_at": "2026-10-21 07:34 WIB"
   },
   "BIimg0maLQo": {
     "org_slug": "project-livium",
@@ -69884,7 +69884,14 @@
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
+    "status": "vod",
+    "generated_at": "2026-10-21 07:34 WIB"
+  },
+  "31ZTG8rzIvk": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "keiko-lynx-ch-villain",
+    "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-10-21 07:16 WIB"
+    "generated_at": "2026-10-21 07:34 WIB"
   }
 }
