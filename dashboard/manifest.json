@@ -70011,14 +70011,14 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "generated_at": "2026-10-21 19:16 WIB"
   },
   "14XjnhhiMVY": {
     "org_slug": "utora",
     "ch_slug": "onshannon",
     "ch_name": "ONShannon",
     "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "generated_at": "2026-10-21 19:16 WIB"
   },
   "Mkjk1eP7e4Q": {
     "org_slug": "crims-on",
@@ -70038,22 +70038,22 @@
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-21 19:16 WIB"
   },
   "L9Bv0wgYGZk": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "generated_at": "2026-10-21 19:16 WIB"
   },
   "_ZNiIr1HrHY": {
     "org_slug": "project-eternoia",
     "ch_slug": "allyra-violette",
     "ch_name": "Allyra Violette 🪨",
     "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "generated_at": "2026-10-21 19:16 WIB"
   },
   "i8sgfzsgWso": {
     "org_slug": "kymera",
@@ -70074,34 +70074,41 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "generated_at": "2026-10-21 19:16 WIB"
   },
   "YhURPac5MAM": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "generated_at": "2026-10-21 19:16 WIB"
   },
   "7dKSLQ3j8eU": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "generated_at": "2026-10-21 19:16 WIB"
   },
   "W04XVGnGagg": {
     "org_slug": "magisona",
     "ch_slug": "reika-ayasa-magisona",
     "ch_name": "Reika Ayasa 【MagiSona】",
     "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "generated_at": "2026-10-21 19:16 WIB"
   },
   "iq0_7KzxOPo": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shaz-eilya-ch-snowvalley",
     "ch_name": "Shaz Eilya Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-21 18:59 WIB"
+    "generated_at": "2026-10-21 19:16 WIB"
+  },
+  "Vtjwbd8sKxY": {
+    "org_slug": "yorukaze",
+    "ch_slug": "ellise-youka-yorukaze",
+    "ch_name": "Ellise Youka【Yorukaze】",
+    "status": "live",
+    "generated_at": "2026-10-21 19:16 WIB"
   }
 }
