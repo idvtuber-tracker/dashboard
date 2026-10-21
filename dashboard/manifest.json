@@ -70375,7 +70375,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-22 04:53 WIB"
+    "generated_at": "2026-10-22 05:10 WIB"
   },
   "LrDABrUDLqs": {
     "org_slug": "whicker-butler",
@@ -70390,5 +70390,19 @@
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "vod",
     "generated_at": "2026-10-22 02:05 WIB"
+  },
+  "ZU2L_dMYfM8": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-10-22 05:10 WIB"
+  },
+  "Xx-25mE8KXU": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "luii-lafete-kanau-virtual",
+    "ch_name": "Luii Lafete【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-10-22 05:10 WIB"
   }
 }
