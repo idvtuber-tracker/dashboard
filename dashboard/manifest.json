@@ -70130,7 +70130,7 @@
     "ch_slug": "blessicaa-aisatset-id",
     "ch_name": "Blessicaa【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "j5TSnc1Ch_s": {
     "org_slug": "kanau-virtual",
@@ -70256,14 +70256,14 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "H2K6gMmN-3g": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "lP6jL5iLWVY": {
     "org_slug": "hibikasekai",
@@ -70277,7 +70277,7 @@
     "ch_slug": "violetta-calytrix",
     "ch_name": "Violetta Calytrix",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "VobmRDay5R4": {
     "org_slug": "project-livium",
@@ -70298,7 +70298,7 @@
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "3j4LbDo891o": {
     "org_slug": "mejikuhibiniu",
@@ -70312,21 +70312,21 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "DWbLt9bKTdQ": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "Y1MJfH4YCcc": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "r4orY9JH6UY": {
     "org_slug": "magniv",
@@ -70368,20 +70368,27 @@
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "wdE2Yz94LR0": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
   },
   "LrDABrUDLqs": {
     "org_slug": "whicker-butler",
     "ch_slug": "darlyne-nightbloom-whicker-butler",
     "ch_name": "Darlyne Nightbloom【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-10-22 00:14 WIB"
+    "generated_at": "2026-10-22 00:30 WIB"
+  },
+  "n8Q_MmN6xmc": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuela-guigui-ch-livipro",
+    "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-22 00:30 WIB"
   }
 }
