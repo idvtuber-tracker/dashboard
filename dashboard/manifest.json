@@ -70416,8 +70416,8 @@
     "org_slug": "oristarium",
     "ch_slug": "juliana-shafira",
     "ch_name": "Juliana Shafira",
-    "status": "live",
-    "generated_at": "2026-10-22 12:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-22 12:16 WIB"
   },
   "CsKRoS_UF_M": {
     "org_slug": "snowvalley-agency",
@@ -70431,6 +70431,13 @@
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-10-22 12:01 WIB"
+    "generated_at": "2026-10-22 12:16 WIB"
+  },
+  "sNNtMdVAR10": {
+    "org_slug": "reverie",
+    "ch_slug": "hirari-octavia-ch-r-verie",
+    "ch_name": "Hirari Octavia Ch.【R𝄢VERIE】",
+    "status": "live",
+    "generated_at": "2026-10-22 12:16 WIB"
   }
 }
