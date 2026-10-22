@@ -70445,27 +70445,34 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-22 14:52 WIB"
+    "generated_at": "2026-10-22 15:10 WIB"
   },
   "NqN6OAXdKFQ": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-22 14:52 WIB"
+    "generated_at": "2026-10-22 15:10 WIB"
   },
   "yS52-IwMfdk": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
-    "status": "live",
-    "generated_at": "2026-10-22 14:52 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-22 15:10 WIB"
   },
   "Auj84qVDilM": {
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-22 14:52 WIB"
+    "generated_at": "2026-10-22 15:10 WIB"
+  },
+  "gaVuvD6dsaA": {
+    "org_slug": "magisona",
+    "ch_slug": "lyra-azalea-magisona",
+    "ch_name": "Lyra Azalea【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-10-22 15:10 WIB"
   }
 }
