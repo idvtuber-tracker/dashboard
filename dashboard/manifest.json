@@ -70431,13 +70431,27 @@
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-10-22 12:46 WIB"
+    "generated_at": "2026-10-22 13:05 WIB"
   },
   "sNNtMdVAR10": {
     "org_slug": "reverie",
     "ch_slug": "hirari-octavia-ch-r-verie",
     "ch_name": "Hirari Octavia Ch.【R𝄢VERIE】",
     "status": "live",
-    "generated_at": "2026-10-22 12:46 WIB"
+    "generated_at": "2026-10-22 13:05 WIB"
+  },
+  "4H8-pKVfWy4": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-22 13:05 WIB"
+  },
+  "NqN6OAXdKFQ": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-10-22 13:05 WIB"
   }
 }
