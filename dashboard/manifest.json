@@ -70445,14 +70445,14 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-22 15:10 WIB"
+    "generated_at": "2026-10-22 15:29 WIB"
   },
   "NqN6OAXdKFQ": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-22 15:10 WIB"
+    "generated_at": "2026-10-22 15:29 WIB"
   },
   "yS52-IwMfdk": {
     "org_slug": "nawasena-live",
@@ -70466,13 +70466,27 @@
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-22 15:10 WIB"
+    "generated_at": "2026-10-22 15:29 WIB"
   },
   "gaVuvD6dsaA": {
     "org_slug": "magisona",
     "ch_slug": "lyra-azalea-magisona",
     "ch_name": "Lyra Azalea【MagiSona】",
     "status": "live",
-    "generated_at": "2026-10-22 15:10 WIB"
+    "generated_at": "2026-10-22 15:29 WIB"
+  },
+  "9pO53mEvd9g": {
+    "org_slug": "evren-community",
+    "ch_slug": "amami-yoruna",
+    "ch_name": "Amami Yoruna",
+    "status": "live",
+    "generated_at": "2026-10-22 15:29 WIB"
+  },
+  "KDrV1r5eKkw": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "kira-hyuu-famisa-hibikasekai",
+    "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
+    "status": "live",
+    "generated_at": "2026-10-22 15:29 WIB"
   }
 }
