@@ -70445,13 +70445,20 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-22 13:23 WIB"
+    "generated_at": "2026-10-22 13:40 WIB"
   },
   "NqN6OAXdKFQ": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-22 13:23 WIB"
+    "generated_at": "2026-10-22 13:40 WIB"
+  },
+  "yS52-IwMfdk": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "aiko-zurie-nawasena",
+    "ch_name": "Aiko Zurie 【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-10-22 13:40 WIB"
   }
 }
