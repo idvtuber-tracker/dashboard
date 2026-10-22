@@ -70480,7 +70480,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-10-22 17:31 WIB"
+    "generated_at": "2026-10-22 17:46 WIB"
   },
   "KDrV1r5eKkw": {
     "org_slug": "hibikasekai",
@@ -70494,28 +70494,28 @@
     "ch_slug": "mythia-batford-ky-mera",
     "ch_name": "Mythia Batford 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-10-22 17:31 WIB"
+    "generated_at": "2026-10-22 17:46 WIB"
   },
   "etTgFEygcXo": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-22 17:31 WIB"
+    "generated_at": "2026-10-22 17:46 WIB"
   },
   "DwoB3HTdrOc": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-10-22 17:31 WIB"
+    "generated_at": "2026-10-22 17:46 WIB"
   },
   "A2cdt2aWsWc": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-22 17:31 WIB"
+    "generated_at": "2026-10-22 17:46 WIB"
   },
   "dybQCXfTG9Q": {
     "org_slug": "yorukaze",
@@ -70529,20 +70529,27 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-22 17:31 WIB"
+    "generated_at": "2026-10-22 17:46 WIB"
   },
   "QyUPKbVD1sw": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-22 17:31 WIB"
+    "generated_at": "2026-10-22 17:46 WIB"
   },
   "nL95eBcfmOo": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-22 17:31 WIB"
+    "generated_at": "2026-10-22 17:46 WIB"
+  },
+  "bc-Q3Y-573w": {
+    "org_slug": "yorukaze",
+    "ch_slug": "crystallyn-caparina",
+    "ch_name": "Crystallyn Caparina",
+    "status": "live",
+    "generated_at": "2026-10-22 17:46 WIB"
   }
 }
