@@ -71089,7 +71089,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "generated_at": "2026-10-24 01:52 WIB"
   },
   "ASP65HREyNA": {
     "org_slug": "pandavva",
@@ -71158,8 +71158,8 @@
     "org_slug": "afterain",
     "ch_slug": "avy-inkaiserin-afterain",
     "ch_name": "Avy Inkaiserin 【AFTERAIN】",
-    "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-24 01:52 WIB"
   },
   "vRIYYH21rSw": {
     "org_slug": "uver-id",
@@ -71180,7 +71180,7 @@
     "ch_slug": "ave-kanehoshii-gravt",
     "ch_name": "Ave Kanehoshii【GRAVT】",
     "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "generated_at": "2026-10-24 01:52 WIB"
   },
   "-coH8_hsgsU": {
     "org_slug": "project-eternoia",
@@ -71229,7 +71229,7 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "generated_at": "2026-10-24 01:52 WIB"
   },
   "uxwY_tTKteE": {
     "org_slug": "snowvalley-agency",
@@ -71243,7 +71243,7 @@
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "generated_at": "2026-10-24 01:52 WIB"
   },
   "cl3m8svgzwc": {
     "org_slug": "crims-on",
@@ -71257,7 +71257,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "generated_at": "2026-10-24 01:52 WIB"
   },
   "c7g4nuYetk8": {
     "org_slug": "asobu-production",
@@ -71285,7 +71285,7 @@
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "generated_at": "2026-10-24 01:52 WIB"
   },
   "CEh63S6p5ik": {
     "org_slug": "snowvalley-agency",
@@ -71313,14 +71313,14 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "generated_at": "2026-10-24 01:52 WIB"
   },
   "7kQpkfn2L4o": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "generated_at": "2026-10-24 01:52 WIB"
   },
   "ofupuYj9q7k": {
     "org_slug": "miqela",
@@ -71334,6 +71334,20 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-24 01:40 WIB"
+    "generated_at": "2026-10-24 01:52 WIB"
+  },
+  "bK-hDebL5i4": {
+    "org_slug": "magniv",
+    "ch_slug": "gema-gathika-magniv",
+    "ch_name": "Gema Gathika【MagniV】",
+    "status": "vod",
+    "generated_at": "2026-10-24 01:52 WIB"
+  },
+  "_HwXVAxOmso": {
+    "org_slug": "miqela",
+    "ch_slug": "teaqillla-ch-miqela",
+    "ch_name": "Teaqillla Ch. 【MIQELA】",
+    "status": "vod",
+    "generated_at": "2026-10-24 01:52 WIB"
   }
 }
