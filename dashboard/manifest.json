@@ -71088,8 +71088,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-10-24 06:39 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-24 06:55 WIB"
   },
   "ASP65HREyNA": {
     "org_slug": "pandavva",
@@ -71349,5 +71349,12 @@
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "vod",
     "generated_at": "2026-10-24 01:52 WIB"
+  },
+  "1AGEOBMCu58": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-10-24 06:55 WIB"
   }
 }
