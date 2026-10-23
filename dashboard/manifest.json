@@ -71025,8 +71025,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
-    "status": "live",
-    "generated_at": "2026-10-23 18:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-23 19:10 WIB"
   },
   "YvdFzEuqH1k": {
     "org_slug": "oristarium",
@@ -71061,34 +71061,55 @@
     "ch_slug": "ignis-grimoire-whicker-butler",
     "ch_name": "Ignis Grimoire【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-10-23 18:51 WIB"
+    "generated_at": "2026-10-23 19:10 WIB"
   },
   "x6XG5vGIVtc": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-10-23 18:51 WIB"
+    "generated_at": "2026-10-23 19:10 WIB"
   },
   "Oo88X2rdtQw": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shaz-eilya-ch-snowvalley",
     "ch_name": "Shaz Eilya Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-23 18:51 WIB"
+    "generated_at": "2026-10-23 19:10 WIB"
   },
   "eNJWuzH_eUg": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-10-23 18:51 WIB"
+    "generated_at": "2026-10-23 19:10 WIB"
   },
   "8-D_Lyvf2NA": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-23 18:51 WIB"
+    "generated_at": "2026-10-23 19:10 WIB"
+  },
+  "ASP65HREyNA": {
+    "org_slug": "pandavva",
+    "ch_slug": "pandavva-official",
+    "ch_name": "PANDAVVA Official",
+    "status": "live",
+    "generated_at": "2026-10-23 19:10 WIB"
+  },
+  "mIF_FSkprG0": {
+    "org_slug": "versa",
+    "ch_slug": "alarich-versa",
+    "ch_name": "Alarich【VERSA】",
+    "status": "live",
+    "generated_at": "2026-10-23 19:10 WIB"
+  },
+  "TacL3mEMnHQ": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-10-23 19:10 WIB"
   }
 }
