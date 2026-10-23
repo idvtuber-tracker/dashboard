@@ -70907,7 +70907,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-23 12:35 WIB"
+    "generated_at": "2026-10-23 12:51 WIB"
   },
   "aUd-uvYURq4": {
     "org_slug": "whicker-butler",
@@ -70921,14 +70921,14 @@
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-10-23 12:35 WIB"
+    "generated_at": "2026-10-23 12:51 WIB"
   },
   "yxWVcLlzZLg": {
     "org_slug": "utora",
     "ch_slug": "petite-sabrina-ch",
     "ch_name": "Petite Sabrina Ch.",
     "status": "live",
-    "generated_at": "2026-10-23 12:35 WIB"
+    "generated_at": "2026-10-23 12:51 WIB"
   },
   "44uUYkXkyvA": {
     "org_slug": "hibikasekai",
@@ -70949,20 +70949,27 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-23 12:35 WIB"
+    "generated_at": "2026-10-23 12:51 WIB"
   },
   "5g7zqj9XEYo": {
     "org_slug": "miqela",
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-23 12:35 WIB"
+    "generated_at": "2026-10-23 12:51 WIB"
   },
   "BxASVVTWOoo": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-23 12:35 WIB"
+    "generated_at": "2026-10-23 12:51 WIB"
+  },
+  "E3m-v9zyJ-w": {
+    "org_slug": "project-livium",
+    "ch_slug": "indira-naylarissa-ch-livipro",
+    "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-23 12:51 WIB"
   }
 }
