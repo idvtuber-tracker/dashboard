@@ -70907,7 +70907,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-23 17:10 WIB"
+    "generated_at": "2026-10-23 17:34 WIB"
   },
   "aUd-uvYURq4": {
     "org_slug": "whicker-butler",
@@ -70991,7 +70991,7 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-23 17:10 WIB"
+    "generated_at": "2026-10-23 17:34 WIB"
   },
   "z8pRwGMPEms": {
     "org_slug": "prism-nova",
@@ -71004,29 +71004,29 @@
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-10-23 17:10 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-23 17:34 WIB"
   },
   "7g-j0J8T3Pg": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-10-23 17:10 WIB"
+    "generated_at": "2026-10-23 17:34 WIB"
   },
   "cS_wzep0kRM": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-10-23 17:10 WIB"
+    "generated_at": "2026-10-23 17:34 WIB"
   },
   "XosHODAwS2k": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-23 17:10 WIB"
+    "generated_at": "2026-10-23 17:34 WIB"
   },
   "YvdFzEuqH1k": {
     "org_slug": "oristarium",
@@ -71039,21 +71039,28 @@
     "org_slug": "project-livium",
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-10-23 17:10 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-23 17:34 WIB"
   },
   "VbRlyej4L6A": {
     "org_slug": "oristarium",
     "ch_slug": "juliana-shafira",
     "ch_name": "Juliana Shafira",
     "status": "live",
-    "generated_at": "2026-10-23 17:10 WIB"
+    "generated_at": "2026-10-23 17:34 WIB"
   },
   "CqTTSUoJ6J0": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-10-23 17:10 WIB"
+    "generated_at": "2026-10-23 17:34 WIB"
+  },
+  "L-K3KVTXFCU": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "ignis-grimoire-whicker-butler",
+    "ch_name": "Ignis Grimoire【Whicker Butler】",
+    "status": "live",
+    "generated_at": "2026-10-23 17:34 WIB"
   }
 }
