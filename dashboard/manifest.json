@@ -71355,7 +71355,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-24 17:14 WIB"
+    "generated_at": "2026-10-24 17:38 WIB"
   },
   "1pL1OrqNM5I": {
     "org_slug": "utora",
@@ -71425,7 +71425,7 @@
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-24 17:14 WIB"
+    "generated_at": "2026-10-24 17:38 WIB"
   },
   "m3nfjdUoqhk": {
     "org_slug": "yorukaze",
@@ -71439,7 +71439,7 @@
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-24 17:14 WIB"
+    "generated_at": "2026-10-24 17:38 WIB"
   },
   "AJSibyP61Fw": {
     "org_slug": "nawasena-live",
@@ -71453,14 +71453,14 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-24 17:14 WIB"
+    "generated_at": "2026-10-24 17:38 WIB"
   },
   "mDDqqQeENns": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-10-24 17:14 WIB"
+    "generated_at": "2026-10-24 17:38 WIB"
   },
   "pp8Q5zpzPpw": {
     "org_slug": "snowvalley-agency",
@@ -71509,21 +71509,21 @@
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-24 17:14 WIB"
+    "generated_at": "2026-10-24 17:38 WIB"
   },
   "zx8t0DhQCgI": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-24 17:14 WIB"
+    "generated_at": "2026-10-24 17:38 WIB"
   },
   "OX7IyRd9qgc": {
     "org_slug": "gravt",
     "ch_slug": "ave-kanehoshii-gravt",
     "ch_name": "Ave Kanehoshii【GRAVT】",
     "status": "live",
-    "generated_at": "2026-10-24 17:14 WIB"
+    "generated_at": "2026-10-24 17:38 WIB"
   },
   "Zoj71I2ZwQg": {
     "org_slug": "gravt",
@@ -71538,5 +71538,26 @@
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "vod",
     "generated_at": "2026-10-24 17:12 WIB"
+  },
+  "nfXQc-EkfHs": {
+    "org_slug": "miqela",
+    "ch_slug": "ayakocak-miqela",
+    "ch_name": "Ayakocak【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-10-24 17:38 WIB"
+  },
+  "CfuS9A6rk4s": {
+    "org_slug": "miqela",
+    "ch_slug": "teaqillla-ch-miqela",
+    "ch_name": "Teaqillla Ch. 【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-10-24 17:38 WIB"
+  },
+  "wuOh5fj0QRY": {
+    "org_slug": "miqela",
+    "ch_slug": "stellaria-vernakila-ch-miqela",
+    "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-10-24 17:38 WIB"
   }
 }
