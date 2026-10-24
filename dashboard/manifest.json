@@ -71642,7 +71642,7 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-25 00:47 WIB"
+    "generated_at": "2026-10-25 00:57 WIB"
   },
   "NGgzpFf_8o8": {
     "org_slug": "snowvalley-agency",
@@ -71684,7 +71684,7 @@
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-10-25 00:47 WIB"
+    "generated_at": "2026-10-25 00:57 WIB"
   },
   "z-yFNYDBYxY": {
     "org_slug": "magniv",
@@ -71711,8 +71711,8 @@
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-10-25 00:47 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-25 00:57 WIB"
   },
   "32jhyuq7ZKk": {
     "org_slug": "dasoriyal",
@@ -71740,7 +71740,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-10-25 00:47 WIB"
+    "generated_at": "2026-10-25 00:57 WIB"
   },
   "E2nmmCVMriY": {
     "org_slug": "crims-on",
@@ -71796,14 +71796,14 @@
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-10-25 00:47 WIB"
+    "generated_at": "2026-10-25 00:57 WIB"
   },
   "axG5YJ2REUs": {
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-25 00:47 WIB"
+    "generated_at": "2026-10-25 00:57 WIB"
   },
   "qUIpg2bMQ_0": {
     "org_slug": "yorukaze",
@@ -71817,7 +71817,7 @@
     "ch_slug": "ahomika-ch-oristarium",
     "ch_name": "Ahomika_Ch【Oristarium】",
     "status": "live",
-    "generated_at": "2026-10-25 00:47 WIB"
+    "generated_at": "2026-10-25 00:57 WIB"
   },
   "sQot8xkDuXE": {
     "org_slug": "project-livium",
@@ -71830,14 +71830,21 @@
     "org_slug": "project-livium",
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-10-25 00:47 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-25 00:57 WIB"
   },
   "FvnRK65rilo": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-25 00:47 WIB"
+    "generated_at": "2026-10-25 00:57 WIB"
+  },
+  "if3oDwJK1bA": {
+    "org_slug": "miqela",
+    "ch_slug": "stellaria-vernakila-ch-miqela",
+    "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-10-25 00:57 WIB"
   }
 }
