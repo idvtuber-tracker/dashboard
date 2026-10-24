@@ -71355,7 +71355,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-24 16:05 WIB"
+    "generated_at": "2026-10-24 16:22 WIB"
   },
   "1pL1OrqNM5I": {
     "org_slug": "utora",
@@ -71425,21 +71425,21 @@
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-24 16:05 WIB"
+    "generated_at": "2026-10-24 16:22 WIB"
   },
   "m3nfjdUoqhk": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-10-24 16:05 WIB"
+    "generated_at": "2026-10-24 16:22 WIB"
   },
   "eA5KW7OeWDM": {
     "org_slug": "pandavva",
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-24 16:05 WIB"
+    "generated_at": "2026-10-24 16:22 WIB"
   },
   "AJSibyP61Fw": {
     "org_slug": "nawasena-live",
@@ -71453,14 +71453,14 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-24 16:05 WIB"
+    "generated_at": "2026-10-24 16:22 WIB"
   },
   "mDDqqQeENns": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-10-24 16:05 WIB"
+    "generated_at": "2026-10-24 16:22 WIB"
   },
   "pp8Q5zpzPpw": {
     "org_slug": "snowvalley-agency",
@@ -71474,7 +71474,7 @@
     "ch_slug": "onshannon",
     "ch_name": "ONShannon",
     "status": "live",
-    "generated_at": "2026-10-24 16:05 WIB"
+    "generated_at": "2026-10-24 16:22 WIB"
   },
   "n5UUtcP5liU": {
     "org_slug": "snowvalley-agency",
@@ -71488,13 +71488,20 @@
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-24 16:05 WIB"
+    "generated_at": "2026-10-24 16:22 WIB"
   },
   "yJrjuMBFnPs": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-24 16:05 WIB"
+    "generated_at": "2026-10-24 16:22 WIB"
+  },
+  "c93ybpS86HY": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "hali-ch-dasoriyal",
+    "ch_name": "Hali Ch. 『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-10-24 16:22 WIB"
   }
 }
