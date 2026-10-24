@@ -71355,7 +71355,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "1pL1OrqNM5I": {
     "org_slug": "utora",
@@ -71411,7 +71411,7 @@
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "rnMi2zOS8x4": {
     "org_slug": "magniv",
@@ -71425,62 +71425,69 @@
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "m3nfjdUoqhk": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "eA5KW7OeWDM": {
     "org_slug": "pandavva",
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "AJSibyP61Fw": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "7Sx7lb_XD3Q": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "mDDqqQeENns": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "pp8Q5zpzPpw": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
-    "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "dGg6HvNRTyc": {
     "org_slug": "utora",
     "ch_slug": "onshannon",
     "ch_name": "ONShannon",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   },
   "n5UUtcP5liU": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
+    "status": "vod",
+    "generated_at": "2026-10-24 15:45 WIB"
+  },
+  "wRcdlgRdB94": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shayla-meyjiera-ch-snowvalley",
+    "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-24 15:27 WIB"
+    "generated_at": "2026-10-24 15:45 WIB"
   }
 }
