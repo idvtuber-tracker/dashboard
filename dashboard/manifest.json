@@ -71866,7 +71866,7 @@
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "GgMj6ogPN9Q": {
     "org_slug": "uver-id",
@@ -71922,14 +71922,14 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "Xt2BOJXaQpE": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
-    "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "bR4fGYeZ9kI": {
     "org_slug": "uver-id",
@@ -71943,7 +71943,7 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "fH-VRQAsaVI": {
     "org_slug": "project-eternoia",
@@ -71957,62 +71957,83 @@
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "vwIxyNlh1wk": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "QX5-PLIZG5k": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "heV4sS43kYM": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "B9LgSjy_MqI": {
     "org_slug": "magniv",
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "nfgce_59oT8": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "S3o60FXBeWg": {
     "org_slug": "pandavva",
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "pb_giUAFn8s": {
     "org_slug": "versa",
     "ch_slug": "alarich-versa",
     "ch_name": "Alarich【VERSA】",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
   },
   "73LO0VuHHMo": {
     "org_slug": "hibikasekai",
     "ch_slug": "alex-von-astaroth-hibikasekai",
     "ch_name": "Alex von Astaroth 🦇 🦊〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-10-25 14:59 WIB"
+    "generated_at": "2026-10-25 15:17 WIB"
+  },
+  "8tbU4ap2Jxo": {
+    "org_slug": "yorukaze",
+    "ch_slug": "hessa-elainore-ch-yorukaze",
+    "ch_name": "Hessa Elainore Ch.【Yorukaze】",
+    "status": "live",
+    "generated_at": "2026-10-25 15:17 WIB"
+  },
+  "hq1z9SK-Ww0": {
+    "org_slug": "cozycazt",
+    "ch_slug": "lyta-luciana-ch-cozycazt",
+    "ch_name": "Lyta Luciana Ch.【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-10-25 15:17 WIB"
+  },
+  "w0ufx16DWSE": {
+    "org_slug": "aisatset",
+    "ch_slug": "chiya-maawiya-ch-aisatset-id",
+    "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
+    "status": "live",
+    "generated_at": "2026-10-25 15:17 WIB"
   }
 }
