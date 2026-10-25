@@ -72426,7 +72426,7 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-10-26 05:41 WIB"
+    "generated_at": "2026-10-26 05:57 WIB"
   },
   "MEqQcdlV9dk": {
     "org_slug": "dasoriyal",
@@ -72434,5 +72434,12 @@
     "ch_name": "Silveryshore Ch.",
     "status": "vod",
     "generated_at": "2026-10-26 03:41 WIB"
+  },
+  "JTqcq6ypHh4": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-10-26 05:57 WIB"
   }
 }
