@@ -71922,7 +71922,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "Xt2BOJXaQpE": {
     "org_slug": "evren-community",
@@ -72048,7 +72048,7 @@
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "OK12Ne20VTw": {
     "org_slug": "snowvalley-agency",
@@ -72061,8 +72061,8 @@
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "YC6_i3vKnfE": {
     "org_slug": "gravt",
@@ -72111,7 +72111,7 @@
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "07PCGGoABac": {
     "org_slug": "hibikasekai",
@@ -72132,62 +72132,97 @@
     "ch_slug": "shiru-magniv",
     "ch_name": "Shiru 【MagniV】",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "eqgak7gqBi8": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "Hh6ReaBLxAA": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "0R7eOcAJEOM": {
     "org_slug": "afterain",
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "Ehzr4-lVQ68": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "CPT5kB1xhLc": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "F24t8N3FZvA": {
     "org_slug": "kymera",
     "ch_slug": "pomu-vr-ky-mera",
     "ch_name": "Pomu VR 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "2c7XCQ1kTGo": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
   },
   "G2qSA72WI5w": {
     "org_slug": "crims-on",
     "ch_slug": "selia-aisnith-crims-on",
     "ch_name": "Selia Aisnith 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-25 19:27 WIB"
+    "generated_at": "2026-10-25 19:45 WIB"
+  },
+  "QEXKoaSUOiI": {
+    "org_slug": "pandavva",
+    "ch_slug": "sadewa-sagara-pandavva",
+    "ch_name": "Sadewa Sagara【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-10-25 19:45 WIB"
+  },
+  "MbOWP8KNe64": {
+    "org_slug": "pandavva",
+    "ch_slug": "arjuna-arkana-pandavva",
+    "ch_name": "Arjuna Arkana【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-10-25 19:45 WIB"
+  },
+  "3su0Q7ZMjmM": {
+    "org_slug": "pandavva",
+    "ch_slug": "nakula-nalendra-pandavva",
+    "ch_name": "Nakula Nalendra【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-10-25 19:45 WIB"
+  },
+  "0Risvs8mMII": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-10-25 19:45 WIB"
+  },
+  "DF6CjJK0al8": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "euphyllia-crimson",
+    "ch_name": "Euphyllia Crimson",
+    "status": "live",
+    "generated_at": "2026-10-25 19:45 WIB"
   }
 }
