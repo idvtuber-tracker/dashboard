@@ -71922,7 +71922,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-25 23:56 WIB"
+    "generated_at": "2026-10-26 00:11 WIB"
   },
   "Xt2BOJXaQpE": {
     "org_slug": "evren-community",
@@ -72244,7 +72244,7 @@
     "ch_slug": "avy-inkaiserin-afterain",
     "ch_name": "Avy Inkaiserin 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-10-25 23:56 WIB"
+    "generated_at": "2026-10-26 00:11 WIB"
   },
   "j6Vn_XnHpvg": {
     "org_slug": "uver-id",
@@ -72341,22 +72341,22 @@
     "org_slug": "miqela",
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
-    "status": "live",
-    "generated_at": "2026-10-25 23:56 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-26 00:11 WIB"
   },
   "kWbmCZtue80": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-25 23:56 WIB"
+    "generated_at": "2026-10-26 00:11 WIB"
   },
   "o2_pV0oqAD0": {
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-25 23:56 WIB"
+    "generated_at": "2026-10-26 00:11 WIB"
   },
   "pc4XyJg8kMM": {
     "org_slug": "crims-on",
@@ -72377,21 +72377,21 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-10-25 23:56 WIB"
+    "generated_at": "2026-10-26 00:11 WIB"
   },
   "3q-Jujlhxsk": {
     "org_slug": "laeta",
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-25 23:56 WIB"
+    "generated_at": "2026-10-26 00:11 WIB"
   },
   "m7THYZkfhWs": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-25 23:56 WIB"
+    "generated_at": "2026-10-26 00:11 WIB"
   },
   "FK62tGZmfns": {
     "org_slug": "project-livium",
@@ -72405,6 +72405,20 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-25 23:56 WIB"
+    "generated_at": "2026-10-26 00:11 WIB"
+  },
+  "4D7WyJL1lVo": {
+    "org_slug": "reverie",
+    "ch_slug": "hirari-octavia-ch-r-verie",
+    "ch_name": "Hirari Octavia Ch.【R𝄢VERIE】",
+    "status": "live",
+    "generated_at": "2026-10-26 00:11 WIB"
+  },
+  "bXLXsu_ethE": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "elethera-rehema-mejikuhibiniu",
+    "ch_name": "Elethera Rehema 『Mejikuhibiniu』",
+    "status": "live",
+    "generated_at": "2026-10-26 00:11 WIB"
   }
 }
