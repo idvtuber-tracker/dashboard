@@ -72440,7 +72440,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-26 13:17 WIB"
+    "generated_at": "2026-10-26 13:52 WIB"
   },
   "cp9ZKNyhQGg": {
     "org_slug": "whicker-butler",
@@ -72475,20 +72475,34 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-26 13:17 WIB"
+    "generated_at": "2026-10-26 13:52 WIB"
   },
   "UX586rGJZXs": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-10-26 13:17 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-26 13:52 WIB"
   },
   "ONuakOULla0": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-26 13:17 WIB"
+    "generated_at": "2026-10-26 13:52 WIB"
+  },
+  "PhvpQ980fBE": {
+    "org_slug": "uver-id",
+    "ch_slug": "jae-min-ho-uver-id",
+    "ch_name": "Jae Min Ho [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-10-26 13:52 WIB"
+  },
+  "8jsALYc__b8": {
+    "org_slug": "uver-id",
+    "ch_slug": "isabella-naemi-ch-uver-id",
+    "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-10-26 13:52 WIB"
   }
 }
