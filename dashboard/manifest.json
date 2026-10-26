@@ -72503,7 +72503,7 @@
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-26 18:58 WIB"
+    "generated_at": "2026-10-26 19:13 WIB"
   },
   "6F89FHnKmfc": {
     "org_slug": "snowvalley-agency",
@@ -72517,7 +72517,7 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-26 18:58 WIB"
+    "generated_at": "2026-10-26 19:13 WIB"
   },
   "QQTwiaQykqM": {
     "org_slug": "aisatset",
@@ -72551,15 +72551,15 @@
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-10-26 18:58 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-26 19:13 WIB"
   },
   "MoWrHms5c3c": {
     "org_slug": "hibikasekai",
     "ch_slug": "chie-estelle-hibikasekai",
     "ch_name": "Chie Estelle🦊🌼〖 HIBIKASEKAI 】",
-    "status": "live",
-    "generated_at": "2026-10-26 18:58 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-26 19:13 WIB"
   },
   "oA2r0xplorg": {
     "org_slug": "whicker-butler",
@@ -72580,34 +72580,62 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-26 18:58 WIB"
+    "generated_at": "2026-10-26 19:13 WIB"
   },
   "sfW8XPrM14o": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-10-26 18:58 WIB"
+    "generated_at": "2026-10-26 19:13 WIB"
   },
   "ggaP6oMFLmY": {
     "org_slug": "hibikasekai",
     "ch_slug": "alex-von-astaroth-hibikasekai",
     "ch_name": "Alex von Astaroth 🦇 🦊〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-10-26 18:58 WIB"
+    "generated_at": "2026-10-26 19:13 WIB"
   },
   "7xbdFEgC-Yo": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-26 18:58 WIB"
+    "generated_at": "2026-10-26 19:13 WIB"
   },
   "uIb4ewz4UBI": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-26 18:58 WIB"
+    "generated_at": "2026-10-26 19:13 WIB"
+  },
+  "oIHN1OACOKI": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "tuti-hanna-ch-snowvalley",
+    "ch_name": "Tuti Hanna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-26 19:13 WIB"
+  },
+  "dgeSCO-s6Fk": {
+    "org_slug": "cozycazt",
+    "ch_slug": "lyta-luciana-ch-cozycazt",
+    "ch_name": "Lyta Luciana Ch.【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-10-26 19:13 WIB"
+  },
+  "YXrt56joHOo": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shaz-eilya-ch-snowvalley",
+    "ch_name": "Shaz Eilya Ch •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-26 19:13 WIB"
+  },
+  "wXTbs7hXnSk": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "celina-olystia-ch-snowvalley",
+    "ch_name": "Celina Olystia Ch •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-26 19:13 WIB"
   }
 }
