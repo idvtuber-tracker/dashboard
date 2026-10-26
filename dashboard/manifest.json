@@ -72580,7 +72580,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "generated_at": "2026-10-26 23:42 WIB"
   },
   "sfW8XPrM14o": {
     "org_slug": "whicker-butler",
@@ -72685,7 +72685,7 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "generated_at": "2026-10-26 23:42 WIB"
   },
   "o33srDalItA": {
     "org_slug": "hibikasekai",
@@ -72719,8 +72719,8 @@
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
-    "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-26 23:42 WIB"
   },
   "cwcl6HpY1XA": {
     "org_slug": "vcosmix",
@@ -72755,14 +72755,14 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "generated_at": "2026-10-26 23:42 WIB"
   },
   "Ku4n4jHqa9A": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "generated_at": "2026-10-26 23:42 WIB"
   },
   "_qn-ORENqQQ": {
     "org_slug": "laeta",
@@ -72804,7 +72804,7 @@
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "generated_at": "2026-10-26 23:42 WIB"
   },
   "0uifwVIJFkI": {
     "org_slug": "uver-id",
@@ -72824,8 +72824,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-26 23:42 WIB"
   },
   "Ul-wEehS0Bs": {
     "org_slug": "snowdrop-live",
@@ -72846,14 +72846,14 @@
     "ch_slug": "fein-kanau-virtual",
     "ch_name": "fein 【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "generated_at": "2026-10-26 23:42 WIB"
   },
   "m6p6EX_sP-k": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "generated_at": "2026-10-26 23:42 WIB"
   },
   "NI8QGtV7zOA": {
     "org_slug": "oristarium",
@@ -72867,6 +72867,13 @@
     "ch_slug": "elethera-rehema-mejikuhibiniu",
     "ch_name": "Elethera Rehema 『Mejikuhibiniu』",
     "status": "live",
-    "generated_at": "2026-10-26 23:15 WIB"
+    "generated_at": "2026-10-26 23:42 WIB"
+  },
+  "AGHAbPOY_4o": {
+    "org_slug": "laeta",
+    "ch_slug": "mila-dragon-laeta",
+    "ch_name": "Mila Dragon【LAETA】",
+    "status": "live",
+    "generated_at": "2026-10-26 23:42 WIB"
   }
 }
