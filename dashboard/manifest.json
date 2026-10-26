@@ -72440,7 +72440,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-26 17:11 WIB"
+    "generated_at": "2026-10-26 17:41 WIB"
   },
   "cp9ZKNyhQGg": {
     "org_slug": "whicker-butler",
@@ -72503,7 +72503,7 @@
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-26 17:11 WIB"
+    "generated_at": "2026-10-26 17:41 WIB"
   },
   "6F89FHnKmfc": {
     "org_slug": "snowvalley-agency",
@@ -72517,28 +72517,28 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-26 17:11 WIB"
+    "generated_at": "2026-10-26 17:41 WIB"
   },
   "QQTwiaQykqM": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-10-26 17:11 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-26 17:41 WIB"
   },
   "DM-zdxV3qic": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-10-26 17:11 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-26 17:41 WIB"
   },
   "2uqIFg9_TGY": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shaz-eilya-ch-snowvalley",
     "ch_name": "Shaz Eilya Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-26 17:11 WIB"
+    "generated_at": "2026-10-26 17:41 WIB"
   },
   "0BFd2aR5QQ4": {
     "org_slug": "hibikasekai",
@@ -72552,20 +72552,27 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-26 17:11 WIB"
+    "generated_at": "2026-10-26 17:41 WIB"
   },
   "MoWrHms5c3c": {
     "org_slug": "hibikasekai",
     "ch_slug": "chie-estelle-hibikasekai",
     "ch_name": "Chie Estelle🦊🌼〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-10-26 17:11 WIB"
+    "generated_at": "2026-10-26 17:41 WIB"
   },
   "oA2r0xplorg": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-10-26 17:11 WIB"
+    "generated_at": "2026-10-26 17:41 WIB"
+  },
+  "q4im5iIvDPY": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "homura-minami-ch",
+    "ch_name": "Homura Minami Ch.",
+    "status": "live",
+    "generated_at": "2026-10-26 17:41 WIB"
   }
 }
