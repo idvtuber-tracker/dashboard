@@ -73189,14 +73189,14 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-28 00:22 WIB"
+    "generated_at": "2026-10-28 00:34 WIB"
   },
   "ke5mWZcRqfY": {
     "org_slug": "laeta",
     "ch_slug": "althea-antonia-laeta",
     "ch_name": "Althea Antonia 【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-28 00:22 WIB"
+    "generated_at": "2026-10-28 00:34 WIB"
   },
   "hMBO7nbLyWI": {
     "org_slug": "afterain",
@@ -73252,7 +73252,7 @@
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-28 00:22 WIB"
+    "generated_at": "2026-10-28 00:34 WIB"
   },
   "_qlrE9PEjFw": {
     "org_slug": "miqela",
@@ -73280,7 +73280,7 @@
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-28 00:22 WIB"
+    "generated_at": "2026-10-28 00:34 WIB"
   },
   "R-5BWe4oHyY": {
     "org_slug": "asobu-production",
@@ -73294,13 +73294,20 @@
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-10-28 00:22 WIB"
+    "generated_at": "2026-10-28 00:34 WIB"
   },
   "Xi7ex9iVEUY": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-28 00:22 WIB"
+    "generated_at": "2026-10-28 00:34 WIB"
+  },
+  "2x9qSJrqeZI": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-10-28 00:34 WIB"
   }
 }
