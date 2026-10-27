@@ -72888,20 +72888,27 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-27 11:59 WIB"
+    "generated_at": "2026-10-27 12:14 WIB"
   },
   "4FeM1MPwA8w": {
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-10-27 11:59 WIB"
+    "generated_at": "2026-10-27 12:14 WIB"
   },
   "5Q1QSeNEsr0": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
+    "status": "vod",
+    "generated_at": "2026-10-27 12:14 WIB"
+  },
+  "B4SFYxGhlHM": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-27 11:59 WIB"
+    "generated_at": "2026-10-27 12:14 WIB"
   }
 }
