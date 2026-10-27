@@ -73028,62 +73028,76 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-27 19:18 WIB"
+    "generated_at": "2026-10-27 19:35 WIB"
   },
   "wCQ6ZKckP2c": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-27 19:18 WIB"
+    "generated_at": "2026-10-27 19:35 WIB"
   },
   "0UPy4SWIQvk": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
-    "status": "live",
-    "generated_at": "2026-10-27 19:18 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-27 19:35 WIB"
   },
   "VindrwzNq-8": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-10-27 19:18 WIB"
+    "generated_at": "2026-10-27 19:35 WIB"
   },
   "GVQQTBLM07E": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-27 19:18 WIB"
+    "generated_at": "2026-10-27 19:35 WIB"
   },
   "fR252K29jrU": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-27 19:18 WIB"
+    "generated_at": "2026-10-27 19:35 WIB"
   },
   "j7h4m4ZJK6E": {
     "org_slug": "prism-nova",
     "ch_slug": "thalia-symphonia-prism-nova",
     "ch_name": "Thalia Symphonia 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-10-27 19:18 WIB"
+    "generated_at": "2026-10-27 19:35 WIB"
   },
   "11DgM8EMlPA": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-10-27 19:18 WIB"
+    "generated_at": "2026-10-27 19:35 WIB"
   },
   "BqFllYFHkC0": {
     "org_slug": "kymera",
     "ch_slug": "shin-derra-ky-mera",
     "ch_name": "Shin Derra 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-10-27 19:18 WIB"
+    "generated_at": "2026-10-27 19:35 WIB"
+  },
+  "hz3SdnBfPL8": {
+    "org_slug": "project-livium",
+    "ch_slug": "lillis-infernallies-ch-livipro",
+    "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-27 19:35 WIB"
+  },
+  "VB9UBOfBGdc": {
+    "org_slug": "project-livium",
+    "ch_slug": "silvia-valleria-ch-livipro",
+    "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-27 19:35 WIB"
   }
 }
