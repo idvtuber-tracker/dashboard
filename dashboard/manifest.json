@@ -73349,22 +73349,22 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "eLp6cBdgjCU": {
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "uUJZFvzGVLY": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "ekwV5l_miFo": {
     "org_slug": "kymera",
@@ -73378,62 +73378,83 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "Cf1aveKG6ZE": {
     "org_slug": "uver-id",
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "Grk0zxI3ByA": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "celina-olystia-ch-snowvalley",
     "ch_name": "Celina Olystia Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "SSUvoaxr8Lg": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "eu3NXAIYqn4": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "spLwnWlgCy8": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "Do3NjXzQE4E": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "TBgDGvXx8HI": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
   },
   "KGv-P0kvr2Q": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-10-28 15:03 WIB"
+    "generated_at": "2026-10-28 15:21 WIB"
+  },
+  "cYZHVA54-N8": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-10-28 15:21 WIB"
+  },
+  "iNV7cqPHEKE": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "krystalize-moon-dasoriyal",
+    "ch_name": "Krystalize Moon『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-10-28 15:21 WIB"
+  },
+  "keRiXpUmt68": {
+    "org_slug": "kymera",
+    "ch_slug": "lioye-ky-mera",
+    "ch_name": "lioye 『 KY:MERA 』",
+    "status": "live",
+    "generated_at": "2026-10-28 15:21 WIB"
   }
 }
