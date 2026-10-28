@@ -73363,8 +73363,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-10-29 04:55 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-29 05:12 WIB"
   },
   "ekwV5l_miFo": {
     "org_slug": "kymera",
@@ -73813,5 +73813,12 @@
     "ch_name": "Gema Gathika【MagniV】",
     "status": "vod",
     "generated_at": "2026-10-29 01:41 WIB"
+  },
+  "NVtFj7Os3VM": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-10-29 05:12 WIB"
   }
 }
