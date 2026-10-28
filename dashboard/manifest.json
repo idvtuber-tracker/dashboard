@@ -73307,8 +73307,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-10-28 12:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-28 12:34 WIB"
   },
   "gxeMnh6IQYs": {
     "org_slug": "asobu-production",
@@ -73329,27 +73329,41 @@
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-10-28 12:19 WIB"
+    "generated_at": "2026-10-28 12:34 WIB"
   },
   "ktYNpOBYLOs": {
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-10-28 12:19 WIB"
+    "generated_at": "2026-10-28 12:34 WIB"
   },
   "buRzLPSl4mA": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-10-28 12:19 WIB"
+    "generated_at": "2026-10-28 12:34 WIB"
   },
   "JOJiD-APP5M": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-28 12:19 WIB"
+    "generated_at": "2026-10-28 12:34 WIB"
+  },
+  "eLp6cBdgjCU": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-10-28 12:34 WIB"
+  },
+  "uUJZFvzGVLY": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-10-28 12:34 WIB"
   }
 }
