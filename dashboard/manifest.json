@@ -73819,7 +73819,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-29 16:31 WIB"
+    "generated_at": "2026-10-29 16:48 WIB"
   },
   "7MkDf6rHfpU": {
     "org_slug": "asobu-production",
@@ -73847,7 +73847,7 @@
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-10-29 16:31 WIB"
+    "generated_at": "2026-10-29 16:48 WIB"
   },
   "2CN7vfVrdvo": {
     "org_slug": "kymera",
@@ -73868,34 +73868,41 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-29 16:31 WIB"
+    "generated_at": "2026-10-29 16:48 WIB"
   },
   "hrHFtR_iF9A": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-10-29 16:31 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-29 16:48 WIB"
   },
   "-MvtyMiWwVk": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-29 16:31 WIB"
+    "generated_at": "2026-10-29 16:48 WIB"
   },
   "vFmzX7NI7_k": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-29 16:31 WIB"
+    "generated_at": "2026-10-29 16:48 WIB"
   },
   "jrf4gzGUYsw": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-10-29 16:31 WIB"
+    "generated_at": "2026-10-29 16:48 WIB"
+  },
+  "5mg0I7cX6k0": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-10-29 16:48 WIB"
   }
 }
