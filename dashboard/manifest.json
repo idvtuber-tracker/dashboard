@@ -74225,14 +74225,14 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-31 01:46 WIB"
+    "generated_at": "2026-10-31 02:05 WIB"
   },
   "WLwPZKDzbK4": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-31 01:46 WIB"
+    "generated_at": "2026-10-31 02:05 WIB"
   },
   "rW5unzLzTV0": {
     "org_slug": "arvi-media",
@@ -74295,7 +74295,7 @@
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-10-31 01:46 WIB"
+    "generated_at": "2026-10-31 02:05 WIB"
   },
   "-zye7Gim-9U": {
     "org_slug": "mejikuhibiniu",
@@ -74310,5 +74310,12 @@
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "vod",
     "generated_at": "2026-10-30 23:30 WIB"
+  },
+  "BPfJ7P4qtlg": {
+    "org_slug": "asobu-production",
+    "ch_slug": "asobu-production",
+    "ch_name": "Asobu Production",
+    "status": "live",
+    "generated_at": "2026-10-31 02:05 WIB"
   }
 }
