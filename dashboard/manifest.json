@@ -74148,7 +74148,7 @@
     "ch_slug": "shaz-eilya-ch-snowvalley",
     "ch_name": "Shaz Eilya Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-30 19:13 WIB"
+    "generated_at": "2026-10-30 19:30 WIB"
   },
   "YgIiSKJWEto": {
     "org_slug": "snowvalley-agency",
@@ -74176,13 +74176,20 @@
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-10-30 19:13 WIB"
+    "generated_at": "2026-10-30 19:30 WIB"
   },
   "CVHmOOoKFVY": {
     "org_slug": "versa",
     "ch_slug": "agata-seven-versa",
     "ch_name": "Agata Seven【VERSA】",
     "status": "live",
-    "generated_at": "2026-10-30 19:13 WIB"
+    "generated_at": "2026-10-30 19:30 WIB"
+  },
+  "sCgish6UJYA": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-10-30 19:30 WIB"
   }
 }
