@@ -74204,14 +74204,14 @@
     "ch_slug": "mazy-mayse",
     "ch_name": "Mazy Mayse",
     "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "wTOPZgVhITc": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "2PqZ_C4ptmM": {
     "org_slug": "nawasena-live",
@@ -74225,35 +74225,35 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "WLwPZKDzbK4": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "rW5unzLzTV0": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
-    "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "m4H0AqzOBoA": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "558it5kmeWU": {
     "org_slug": "hibikasekai",
     "ch_slug": "euphyllia-crimson",
     "ch_name": "Euphyllia Crimson",
-    "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "6y2dI4zEngA": {
     "org_slug": "hibikasekai",
@@ -74274,7 +74274,7 @@
     "ch_slug": "mizuky-okami-laeta",
     "ch_name": "Mizuky Okami 【LAETA】",
     "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "hMwIo1kqPPY": {
     "org_slug": "ukoi-virtual",
@@ -74288,20 +74288,27 @@
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "LeQA5CC0bOc": {
     "org_slug": "afterain",
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "generated_at": "2026-10-30 23:30 WIB"
   },
   "-zye7Gim-9U": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "elethera-rehema-mejikuhibiniu",
     "ch_name": "Elethera Rehema 『Mejikuhibiniu』",
     "status": "live",
-    "generated_at": "2026-10-30 23:01 WIB"
+    "generated_at": "2026-10-30 23:30 WIB"
+  },
+  "kteJeP2zjLA": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "gabriel-abyssia-dasoriyal",
+    "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
+    "status": "vod",
+    "generated_at": "2026-10-30 23:30 WIB"
   }
 }
