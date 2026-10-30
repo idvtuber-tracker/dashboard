@@ -74148,7 +74148,7 @@
     "ch_slug": "shaz-eilya-ch-snowvalley",
     "ch_name": "Shaz Eilya Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-30 18:11 WIB"
+    "generated_at": "2026-10-30 18:27 WIB"
   },
   "YgIiSKJWEto": {
     "org_slug": "snowvalley-agency",
@@ -74163,5 +74163,12 @@
     "ch_name": "Lilian Grimmxandra",
     "status": "vod",
     "generated_at": "2026-10-30 17:56 WIB"
+  },
+  "PoKl_b8PRpA": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-10-30 18:27 WIB"
   }
 }
