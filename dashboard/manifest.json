@@ -74120,13 +74120,27 @@
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-10-30 13:43 WIB"
+    "generated_at": "2026-10-30 14:00 WIB"
   },
   "loC1Zps-xag": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-10-30 13:43 WIB"
+    "generated_at": "2026-10-30 14:00 WIB"
+  },
+  "5LGZ5qU_6Ls": {
+    "org_slug": "magisona",
+    "ch_slug": "iofiel-feliz-ch-magisona",
+    "ch_name": "ioFiel Feliz Ch.【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-10-30 14:00 WIB"
+  },
+  "p_cr9VnNmIE": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-10-30 14:00 WIB"
   }
 }
