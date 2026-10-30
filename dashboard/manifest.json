@@ -74105,14 +74105,21 @@
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-10-30 12:56 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-30 13:12 WIB"
   },
   "VIScXJMIXRk": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-10-30 12:56 WIB"
+    "generated_at": "2026-10-30 13:12 WIB"
+  },
+  "63WoTp3IK3E": {
+    "org_slug": "neoespoir",
+    "ch_slug": "nachann-wa-harmonie-ch",
+    "ch_name": "Nachann Wa Harmonie Ch.",
+    "status": "live",
+    "generated_at": "2026-10-30 13:12 WIB"
   }
 }
