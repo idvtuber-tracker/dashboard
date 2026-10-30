@@ -74100,5 +74100,12 @@
     "ch_name": "Sierra Mooniva",
     "status": "vod",
     "generated_at": "2026-10-30 03:01 WIB"
+  },
+  "ozBYK7pWH4Q": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuura-yozakura-ch-livipro",
+    "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-10-30 09:41 WIB"
   }
 }
