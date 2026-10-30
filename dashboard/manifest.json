@@ -74231,8 +74231,8 @@
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-10-31 02:33 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-31 02:49 WIB"
   },
   "rW5unzLzTV0": {
     "org_slug": "arvi-media",
@@ -74294,8 +74294,8 @@
     "org_slug": "afterain",
     "ch_slug": "flein-ryst-afterain",
     "ch_name": "Flein Ryst【AFTERAIN】",
-    "status": "live",
-    "generated_at": "2026-10-31 02:33 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-31 02:49 WIB"
   },
   "-zye7Gim-9U": {
     "org_slug": "mejikuhibiniu",
@@ -74316,6 +74316,6 @@
     "ch_slug": "asobu-production",
     "ch_name": "Asobu Production",
     "status": "live",
-    "generated_at": "2026-10-31 02:33 WIB"
+    "generated_at": "2026-10-31 02:49 WIB"
   }
 }
