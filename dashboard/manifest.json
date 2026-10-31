@@ -74322,8 +74322,8 @@
     "org_slug": "versa",
     "ch_slug": "agata-seven-versa",
     "ch_name": "Agata Seven【VERSA】",
-    "status": "live",
-    "generated_at": "2026-10-31 11:58 WIB"
+    "status": "vod",
+    "generated_at": "2026-10-31 13:01 WIB"
   },
   "jy-u-KDrzVE": {
     "org_slug": "hibikasekai",
@@ -74336,7 +74336,14 @@
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
+    "status": "vod",
+    "generated_at": "2026-10-31 13:01 WIB"
+  },
+  "I8AiJveIBLk": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-10-31 11:58 WIB"
+    "generated_at": "2026-10-31 13:01 WIB"
   }
 }
