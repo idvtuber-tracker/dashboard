@@ -74406,8 +74406,8 @@
     "org_slug": "pandavva",
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-11-01 01:48 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-01 02:03 WIB"
   },
   "gxO7SGsKAOQ": {
     "org_slug": "oristarium",
@@ -74434,8 +74434,8 @@
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
-    "status": "live",
-    "generated_at": "2026-11-01 01:48 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-01 02:03 WIB"
   },
   "vIKH6wajM70": {
     "org_slug": "yorukaze",
@@ -74449,7 +74449,7 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-01 01:48 WIB"
+    "generated_at": "2026-11-01 02:03 WIB"
   },
   "DTTqWt6IHDI": {
     "org_slug": "neoespoir",
@@ -74498,13 +74498,20 @@
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-01 01:48 WIB"
+    "generated_at": "2026-11-01 02:03 WIB"
   },
   "HjVZIaZp1SM": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-11-01 01:48 WIB"
+    "generated_at": "2026-11-01 02:03 WIB"
+  },
+  "Vu09l_hKCvE": {
+    "org_slug": "cozycazt",
+    "ch_slug": "vianna-risendria-cozycazt",
+    "ch_name": "Vianna Risendria 【CozyCazt】",
+    "status": "vod",
+    "generated_at": "2026-11-01 02:03 WIB"
   }
 }
