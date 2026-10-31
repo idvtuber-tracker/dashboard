@@ -74317,5 +74317,19 @@
     "ch_name": "Asobu Production",
     "status": "vod",
     "generated_at": "2026-10-31 04:21 WIB"
+  },
+  "PSWyUlhDAg4": {
+    "org_slug": "versa",
+    "ch_slug": "agata-seven-versa",
+    "ch_name": "Agata Seven【VERSA】",
+    "status": "live",
+    "generated_at": "2026-10-31 10:14 WIB"
+  },
+  "jy-u-KDrzVE": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "nanami-chia",
+    "ch_name": "Nanami Chia",
+    "status": "live",
+    "generated_at": "2026-10-31 10:14 WIB"
   }
 }
