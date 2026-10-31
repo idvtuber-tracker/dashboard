@@ -74358,7 +74358,7 @@
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-10-31 19:16 WIB"
+    "generated_at": "2026-10-31 19:33 WIB"
   },
   "cwV6tu34wo4": {
     "org_slug": "arvi-media",
@@ -74379,7 +74379,7 @@
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-10-31 19:16 WIB"
+    "generated_at": "2026-10-31 19:33 WIB"
   },
   "6L7boEp3Nkc": {
     "org_slug": "whicker-butler",
@@ -74400,13 +74400,20 @@
     "ch_slug": "cyure-michantrell-ch-uver-id",
     "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-10-31 19:16 WIB"
+    "generated_at": "2026-10-31 19:33 WIB"
   },
   "8Y9KfikpFwQ": {
     "org_slug": "pandavva",
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-10-31 19:16 WIB"
+    "generated_at": "2026-10-31 19:33 WIB"
+  },
+  "gxO7SGsKAOQ": {
+    "org_slug": "oristarium",
+    "ch_slug": "juliana-shafira",
+    "ch_name": "Juliana Shafira",
+    "status": "live",
+    "generated_at": "2026-10-31 19:33 WIB"
   }
 }
