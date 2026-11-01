@@ -74589,7 +74589,7 @@
     "ch_slug": "kana-chizu-afterain",
     "ch_name": "Kana Chizu 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-11-01 21:17 WIB"
+    "generated_at": "2026-11-01 21:35 WIB"
   },
   "CBc12Tg4GzE": {
     "org_slug": "mejikuhibiniu",
@@ -74603,7 +74603,7 @@
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-01 21:17 WIB"
+    "generated_at": "2026-11-01 21:35 WIB"
   },
   "DrS90v20d4c": {
     "org_slug": "oristarium",
@@ -74617,27 +74617,34 @@
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-11-01 21:17 WIB"
+    "generated_at": "2026-11-01 21:35 WIB"
   },
   "F05vzuns_l4": {
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-01 21:17 WIB"
+    "generated_at": "2026-11-01 21:35 WIB"
   },
   "3Oaior_ZVGI": {
     "org_slug": "afterain",
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-01 21:17 WIB"
+    "generated_at": "2026-11-01 21:35 WIB"
   },
   "spyV5x29WC4": {
     "org_slug": "laeta",
     "ch_slug": "mizuky-okami-laeta",
     "ch_name": "Mizuky Okami 【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-01 21:17 WIB"
+    "generated_at": "2026-11-01 21:35 WIB"
+  },
+  "fyUbK_RUOag": {
+    "org_slug": "arvi-media",
+    "ch_slug": "makotoshi-ch",
+    "ch_name": "Makotoshi Ch.",
+    "status": "live",
+    "generated_at": "2026-11-01 21:35 WIB"
   }
 }
