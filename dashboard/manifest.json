@@ -74519,7 +74519,7 @@
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-01 12:00 WIB"
+    "generated_at": "2026-11-01 12:15 WIB"
   },
   "aUBvDW-ToMU": {
     "org_slug": "project-livium",
@@ -74527,5 +74527,12 @@
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "vod",
     "generated_at": "2026-11-01 11:41 WIB"
+  },
+  "_bgN25s1sRo": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-11-01 12:15 WIB"
   }
 }
