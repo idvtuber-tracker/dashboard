@@ -74533,14 +74533,14 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-01 14:56 WIB"
+    "generated_at": "2026-11-01 15:13 WIB"
   },
   "Rw7mTDwTF3w": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
-    "status": "live",
-    "generated_at": "2026-11-01 14:56 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-01 15:13 WIB"
   },
   "ztFdd9l3p8w": {
     "org_slug": "versa",
@@ -74554,6 +74554,13 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-01 14:56 WIB"
+    "generated_at": "2026-11-01 15:13 WIB"
+  },
+  "fki718MNbQI": {
+    "org_slug": "cozycazt",
+    "ch_slug": "arphina-stellaria-cozycazt",
+    "ch_name": "Arphina Stellaria【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-11-01 15:13 WIB"
   }
 }
