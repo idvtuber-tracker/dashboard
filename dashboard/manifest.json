@@ -74568,7 +74568,7 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-01 18:00 WIB"
+    "generated_at": "2026-11-01 18:15 WIB"
   },
   "pR30mfLe_ws": {
     "org_slug": "enygmyst-project",
@@ -74576,5 +74576,12 @@
     "ch_name": "Shia Naenia 【ENIGMYST Project】",
     "status": "vod",
     "generated_at": "2026-11-01 17:00 WIB"
+  },
+  "DZLO2umxKRg": {
+    "org_slug": "afterain",
+    "ch_slug": "sierra-mooniva",
+    "ch_name": "Sierra Mooniva",
+    "status": "live",
+    "generated_at": "2026-11-01 18:15 WIB"
   }
 }
