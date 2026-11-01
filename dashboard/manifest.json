@@ -74533,7 +74533,7 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-01 16:22 WIB"
+    "generated_at": "2026-11-01 16:40 WIB"
   },
   "Rw7mTDwTF3w": {
     "org_slug": "yorukaze",
@@ -74553,14 +74553,21 @@
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
-    "status": "live",
-    "generated_at": "2026-11-01 16:22 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-01 16:40 WIB"
   },
   "fki718MNbQI": {
     "org_slug": "cozycazt",
     "ch_slug": "arphina-stellaria-cozycazt",
     "ch_name": "Arphina Stellaria【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-01 16:22 WIB"
+    "generated_at": "2026-11-01 16:40 WIB"
+  },
+  "3D3d9nR8ADU": {
+    "org_slug": "pandavva",
+    "ch_slug": "sadewa-sagara-pandavva",
+    "ch_name": "Sadewa Sagara【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-01 16:40 WIB"
   }
 }
