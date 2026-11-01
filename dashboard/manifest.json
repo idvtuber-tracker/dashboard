@@ -74567,8 +74567,8 @@
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-11-01 20:06 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-01 20:24 WIB"
   },
   "pR30mfLe_ws": {
     "org_slug": "enygmyst-project",
@@ -74589,41 +74589,48 @@
     "ch_slug": "kana-chizu-afterain",
     "ch_name": "Kana Chizu 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-11-01 20:06 WIB"
+    "generated_at": "2026-11-01 20:24 WIB"
   },
   "CBc12Tg4GzE": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-11-01 20:06 WIB"
+    "generated_at": "2026-11-01 20:24 WIB"
   },
   "H6IQB2HlzO8": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-01 20:06 WIB"
+    "generated_at": "2026-11-01 20:24 WIB"
   },
   "DrS90v20d4c": {
     "org_slug": "oristarium",
     "ch_slug": "juliana-shafira",
     "ch_name": "Juliana Shafira",
     "status": "live",
-    "generated_at": "2026-11-01 20:06 WIB"
+    "generated_at": "2026-11-01 20:24 WIB"
   },
   "TDLv7zR4CNY": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-11-01 20:06 WIB"
+    "generated_at": "2026-11-01 20:24 WIB"
   },
   "F05vzuns_l4": {
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-01 20:06 WIB"
+    "generated_at": "2026-11-01 20:24 WIB"
+  },
+  "3Oaior_ZVGI": {
+    "org_slug": "afterain",
+    "ch_slug": "sierra-mooniva",
+    "ch_name": "Sierra Mooniva",
+    "status": "live",
+    "generated_at": "2026-11-01 20:24 WIB"
   }
 }
