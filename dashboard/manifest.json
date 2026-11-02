@@ -74651,28 +74651,35 @@
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-11-02 12:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-02 12:17 WIB"
   },
   "-EYua5TJtPE": {
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-11-02 12:02 WIB"
+    "generated_at": "2026-11-02 12:17 WIB"
   },
   "VIXwFFnG6ao": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-11-02 12:02 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-02 12:17 WIB"
   },
   "JBGXp9lKsXo": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-02 12:02 WIB"
+    "generated_at": "2026-11-02 12:17 WIB"
+  },
+  "37uAv2H_Niw": {
+    "org_slug": "magisona",
+    "ch_slug": "iofiel-feliz-ch-magisona",
+    "ch_name": "ioFiel Feliz Ch.【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-11-02 12:17 WIB"
   }
 }
