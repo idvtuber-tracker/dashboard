@@ -74735,8 +74735,8 @@
     "org_slug": "nawasena-live",
     "ch_slug": "kukuryu-nawasena",
     "ch_name": "KUKURYU【NAWASENA】",
-    "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "h6aYqfqVYGU": {
     "org_slug": "mejikuhibiniu",
@@ -74764,21 +74764,21 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "Of1hL51k0Nw": {
     "org_slug": "uver-id",
     "ch_slug": "arjuna-candra-pawitra-ch-uver-id",
     "ch_name": "Arjuna Candra Pawitra Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "Wu8P6KQz0PA": {
     "org_slug": "aurora-project",
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "dHUxVjzdNBk": {
     "org_slug": "gravt",
@@ -74792,76 +74792,90 @@
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "LIq_6eEPb0s": {
     "org_slug": "afterain",
     "ch_slug": "kana-chizu-afterain",
     "ch_name": "Kana Chizu 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "ScTNK004-fc": {
     "org_slug": "enygmyst-project",
     "ch_slug": "shia-naenia-enigmyst-project",
     "ch_name": "Shia Naenia 【ENIGMYST Project】",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "kHV3bZMp0uE": {
     "org_slug": "oristarium",
     "ch_slug": "oristarium",
     "ch_name": "Oristarium",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "alM4W0YZOkI": {
     "org_slug": "whicker-butler",
     "ch_slug": "valthea-nankila-whicker-butler",
     "ch_name": "Valthea Nankila 【 Whicker Butler 】",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "r7nKvyfk7D0": {
     "org_slug": "kymera",
     "ch_slug": "ky-mera",
     "ch_name": "KY:MERA",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "FWP_aEd7Iv0": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "-TXaMm9t_bY": {
     "org_slug": "kanau-virtual",
     "ch_slug": "fein-kanau-virtual",
     "ch_name": "fein 【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "u4amXtmGXJE": {
     "org_slug": "reverie",
     "ch_slug": "cygne-ictis-r-verie",
     "ch_name": "Cygne Ictis 【 R𝄢VERIE 】",
-    "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "Ea88zZfTrYc": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
   },
   "gYra50WEPkQ": {
     "org_slug": "hibikasekai",
     "ch_slug": "euphyllia-crimson",
     "ch_name": "Euphyllia Crimson",
     "status": "live",
-    "generated_at": "2026-11-02 21:40 WIB"
+    "generated_at": "2026-11-02 21:58 WIB"
+  },
+  "X4LP_lUroIM": {
+    "org_slug": "crims-on",
+    "ch_slug": "selia-aisnith-crims-on",
+    "ch_name": "Selia Aisnith 【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-11-02 21:58 WIB"
+  },
+  "w0vYFTlSzug": {
+    "org_slug": "reverie",
+    "ch_slug": "cygne-ictis-r-verie",
+    "ch_name": "Cygne Ictis 【 R𝄢VERIE 】",
+    "status": "live",
+    "generated_at": "2026-11-02 21:58 WIB"
   }
 }
