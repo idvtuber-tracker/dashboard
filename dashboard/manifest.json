@@ -74708,14 +74708,14 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-02 20:11 WIB"
+    "generated_at": "2026-11-02 20:29 WIB"
   },
   "rVoPIkon6vk": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
-    "status": "live",
-    "generated_at": "2026-11-02 20:11 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-02 20:29 WIB"
   },
   "H-tjx251ebY": {
     "org_slug": "uver-id",
@@ -74728,15 +74728,15 @@
     "org_slug": "magniv",
     "ch_slug": "shiru-magniv",
     "ch_name": "Shiru 【MagniV】",
-    "status": "live",
-    "generated_at": "2026-11-02 20:11 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-02 20:29 WIB"
   },
   "Sz6Fwdh2m4I": {
     "org_slug": "nawasena-live",
     "ch_slug": "kukuryu-nawasena",
     "ch_name": "KUKURYU【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-02 20:11 WIB"
+    "generated_at": "2026-11-02 20:29 WIB"
   },
   "h6aYqfqVYGU": {
     "org_slug": "mejikuhibiniu",
@@ -74750,34 +74750,48 @@
     "ch_slug": "iofiel-feliz-ch-magisona",
     "ch_name": "ioFiel Feliz Ch.【MagiSona】",
     "status": "live",
-    "generated_at": "2026-11-02 20:11 WIB"
+    "generated_at": "2026-11-02 20:29 WIB"
   },
   "3GH-2a1ss44": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-11-02 20:11 WIB"
+    "generated_at": "2026-11-02 20:29 WIB"
   },
   "dY4-q5Xvqxw": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-02 20:11 WIB"
+    "generated_at": "2026-11-02 20:29 WIB"
   },
   "Of1hL51k0Nw": {
     "org_slug": "uver-id",
     "ch_slug": "arjuna-candra-pawitra-ch-uver-id",
     "ch_name": "Arjuna Candra Pawitra Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-02 20:11 WIB"
+    "generated_at": "2026-11-02 20:29 WIB"
   },
   "Wu8P6KQz0PA": {
     "org_slug": "aurora-project",
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-11-02 20:11 WIB"
+    "generated_at": "2026-11-02 20:29 WIB"
+  },
+  "dHUxVjzdNBk": {
+    "org_slug": "gravt",
+    "ch_slug": "daem-gravt",
+    "ch_name": "daem【GRAVT】",
+    "status": "live",
+    "generated_at": "2026-11-02 20:29 WIB"
+  },
+  "5iYTjfSTkIA": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "airia-eroselle-mejikuhibiniu",
+    "ch_name": "Airia Eroselle【Mejikuhibiniu】",
+    "status": "live",
+    "generated_at": "2026-11-02 20:29 WIB"
   }
 }
