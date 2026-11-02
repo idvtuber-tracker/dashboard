@@ -74763,8 +74763,8 @@
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-03 01:23 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-03 02:06 WIB"
   },
   "Of1hL51k0Nw": {
     "org_slug": "uver-id",
@@ -74876,7 +74876,7 @@
     "ch_slug": "cygne-ictis-r-verie",
     "ch_name": "Cygne Ictis 【 R𝄢VERIE 】",
     "status": "live",
-    "generated_at": "2026-11-03 01:23 WIB"
+    "generated_at": "2026-11-03 02:06 WIB"
   },
   "KlKQ0IO8n7E": {
     "org_slug": "dasoriyal",
@@ -74891,5 +74891,12 @@
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "vod",
     "generated_at": "2026-11-03 01:23 WIB"
+  },
+  "53vOX8DaH-E": {
+    "org_slug": "gravt",
+    "ch_slug": "daem-gravt",
+    "ch_name": "daem【GRAVT】",
+    "status": "vod",
+    "generated_at": "2026-11-03 02:06 WIB"
   }
 }
