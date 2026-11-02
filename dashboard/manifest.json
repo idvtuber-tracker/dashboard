@@ -74764,7 +74764,7 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-03 00:06 WIB"
+    "generated_at": "2026-11-03 00:21 WIB"
   },
   "Of1hL51k0Nw": {
     "org_slug": "uver-id",
@@ -74820,7 +74820,7 @@
     "ch_slug": "valthea-nankila-whicker-butler",
     "ch_name": "Valthea Nankila 【 Whicker Butler 】",
     "status": "live",
-    "generated_at": "2026-11-03 00:06 WIB"
+    "generated_at": "2026-11-03 00:21 WIB"
   },
   "r7nKvyfk7D0": {
     "org_slug": "kymera",
@@ -74861,28 +74861,35 @@
     "org_slug": "hibikasekai",
     "ch_slug": "euphyllia-crimson",
     "ch_name": "Euphyllia Crimson",
-    "status": "live",
-    "generated_at": "2026-11-03 00:06 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-03 00:21 WIB"
   },
   "X4LP_lUroIM": {
     "org_slug": "crims-on",
     "ch_slug": "selia-aisnith-crims-on",
     "ch_name": "Selia Aisnith 【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-03 00:06 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-03 00:21 WIB"
   },
   "w0vYFTlSzug": {
     "org_slug": "reverie",
     "ch_slug": "cygne-ictis-r-verie",
     "ch_name": "Cygne Ictis 【 R𝄢VERIE 】",
     "status": "live",
-    "generated_at": "2026-11-03 00:06 WIB"
+    "generated_at": "2026-11-03 00:21 WIB"
   },
   "KlKQ0IO8n7E": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-03 00:06 WIB"
+    "generated_at": "2026-11-03 00:21 WIB"
+  },
+  "mmXA3It5vSs": {
+    "org_slug": "cozycazt",
+    "ch_slug": "vianna-risendria-cozycazt",
+    "ch_name": "Vianna Risendria 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-11-03 00:21 WIB"
   }
 }
