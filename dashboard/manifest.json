@@ -74980,8 +74980,8 @@
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
-    "status": "live",
-    "generated_at": "2026-11-03 18:55 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-03 19:12 WIB"
   },
   "lly4UMSgBI4": {
     "org_slug": "hibikasekai",
@@ -75016,34 +75016,48 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-03 18:55 WIB"
+    "generated_at": "2026-11-03 19:12 WIB"
   },
   "Dn8HGw4Teaw": {
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-11-03 18:55 WIB"
+    "generated_at": "2026-11-03 19:12 WIB"
   },
   "PdHekvahggE": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-03 18:55 WIB"
+    "generated_at": "2026-11-03 19:12 WIB"
   },
   "7NzaDJe0clM": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-03 18:55 WIB"
+    "generated_at": "2026-11-03 19:12 WIB"
   },
   "homUpmC8lao": {
     "org_slug": "utora",
     "ch_slug": "onshannon",
     "ch_name": "ONShannon",
     "status": "live",
-    "generated_at": "2026-11-03 18:55 WIB"
+    "generated_at": "2026-11-03 19:12 WIB"
+  },
+  "uzfxH4_puRM": {
+    "org_slug": "afterain",
+    "ch_slug": "sierra-mooniva",
+    "ch_name": "Sierra Mooniva",
+    "status": "live",
+    "generated_at": "2026-11-03 19:12 WIB"
+  },
+  "de2Hu13NeDs": {
+    "org_slug": "project-livium",
+    "ch_slug": "indira-naylarissa-ch-livipro",
+    "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-03 19:12 WIB"
   }
 }
