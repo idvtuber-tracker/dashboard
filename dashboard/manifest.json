@@ -74974,14 +74974,14 @@
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-11-03 18:24 WIB"
+    "generated_at": "2026-11-03 18:40 WIB"
   },
   "NqdhVzV47bE": {
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-03 18:24 WIB"
+    "generated_at": "2026-11-03 18:40 WIB"
   },
   "lly4UMSgBI4": {
     "org_slug": "hibikasekai",
@@ -75008,35 +75008,42 @@
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-11-03 18:24 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-03 18:40 WIB"
   },
   "rCNhjHjuH6Y": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-03 18:24 WIB"
+    "generated_at": "2026-11-03 18:40 WIB"
   },
   "Dn8HGw4Teaw": {
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-11-03 18:24 WIB"
+    "generated_at": "2026-11-03 18:40 WIB"
   },
   "PdHekvahggE": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-03 18:24 WIB"
+    "generated_at": "2026-11-03 18:40 WIB"
   },
   "7NzaDJe0clM": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-03 18:24 WIB"
+    "generated_at": "2026-11-03 18:40 WIB"
+  },
+  "homUpmC8lao": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "live",
+    "generated_at": "2026-11-03 18:40 WIB"
   }
 }
