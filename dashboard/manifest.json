@@ -74918,20 +74918,27 @@
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-11-03 12:23 WIB"
+    "generated_at": "2026-11-03 12:39 WIB"
   },
   "yL0PDgH5q3E": {
     "org_slug": "project-livium",
     "ch_slug": "ymelia-meiru-ch-livipro",
     "ch_name": "Ymelia Meiru Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-03 12:23 WIB"
+    "generated_at": "2026-11-03 12:39 WIB"
   },
   "IM0PsfQDLHM": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-03 12:23 WIB"
+    "generated_at": "2026-11-03 12:39 WIB"
+  },
+  "ioG1unfoB3g": {
+    "org_slug": "utora",
+    "ch_slug": "yuko27",
+    "ch_name": "Yuko27",
+    "status": "live",
+    "generated_at": "2026-11-03 12:39 WIB"
   }
 }
