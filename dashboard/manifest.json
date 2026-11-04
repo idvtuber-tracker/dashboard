@@ -75275,7 +75275,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-04 13:28 WIB"
+    "generated_at": "2026-11-04 13:43 WIB"
   },
   "n_JWK1jiSoI": {
     "org_slug": "pandavva",
@@ -75296,7 +75296,7 @@
     "ch_slug": "petite-sabrina-ch",
     "ch_name": "Petite Sabrina Ch.",
     "status": "live",
-    "generated_at": "2026-11-04 13:28 WIB"
+    "generated_at": "2026-11-04 13:43 WIB"
   },
   "2MgeaGqTv0Y": {
     "org_slug": "neoespoir",
@@ -75317,7 +75317,7 @@
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-04 13:28 WIB"
+    "generated_at": "2026-11-04 13:43 WIB"
   },
   "cr7CJf63foc": {
     "org_slug": "magisona",
@@ -75337,21 +75337,28 @@
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-04 13:28 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-04 13:43 WIB"
   },
   "CSXqVb9A5NI": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-04 13:28 WIB"
+    "generated_at": "2026-11-04 13:43 WIB"
   },
   "y6MjTll6bMs": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-04 13:28 WIB"
+    "generated_at": "2026-11-04 13:43 WIB"
+  },
+  "o6Cx_urH5c0": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-11-04 13:43 WIB"
   }
 }
