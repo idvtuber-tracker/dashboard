@@ -75653,7 +75653,7 @@
     "ch_slug": "violetta-calytrix",
     "ch_name": "Violetta Calytrix",
     "status": "live",
-    "generated_at": "2026-11-04 23:18 WIB"
+    "generated_at": "2026-11-04 23:29 WIB"
   },
   "85mpVEJnQ3s": {
     "org_slug": "yorukaze",
@@ -75667,14 +75667,14 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-04 23:18 WIB"
+    "generated_at": "2026-11-04 23:29 WIB"
   },
   "xymTAwOU59I": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-04 23:18 WIB"
+    "generated_at": "2026-11-04 23:29 WIB"
   },
   "19tMfSP6GNY": {
     "org_slug": "hibikasekai",
@@ -75687,14 +75687,21 @@
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
-    "status": "live",
-    "generated_at": "2026-11-04 23:18 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-04 23:29 WIB"
   },
   "hWddboOr_rY": {
     "org_slug": "uver-id",
     "ch_slug": "norn-haira-uver-id",
     "ch_name": "Norn Haira〔UVER ID〕",
     "status": "live",
-    "generated_at": "2026-11-04 23:18 WIB"
+    "generated_at": "2026-11-04 23:29 WIB"
+  },
+  "3YU8DHXMpAQ": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuela-guigui-ch-livipro",
+    "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-04 23:29 WIB"
   }
 }
