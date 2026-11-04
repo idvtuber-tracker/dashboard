@@ -75408,69 +75408,76 @@
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "generated_at": "2026-11-04 18:46 WIB"
   },
   "Jd_eQllvwd0": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-04 18:46 WIB"
   },
   "CR5xTBe43lU": {
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "generated_at": "2026-11-04 18:46 WIB"
   },
   "gEoRcMOk_VA": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "generated_at": "2026-11-04 18:46 WIB"
   },
   "ExHUrQi25BU": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "generated_at": "2026-11-04 18:46 WIB"
   },
   "aMl7jenAy-w": {
     "org_slug": "utora",
     "ch_slug": "petite-sabrina-ch",
     "ch_name": "Petite Sabrina Ch.",
     "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "generated_at": "2026-11-04 18:46 WIB"
   },
   "FaKlPTIi4gM": {
     "org_slug": "utora",
     "ch_slug": "yuko27",
     "ch_name": "Yuko27",
     "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "generated_at": "2026-11-04 18:46 WIB"
   },
   "Qr7m0PD_qnE": {
     "org_slug": "evren-community",
     "ch_slug": "mazy-mayse",
     "ch_name": "Mazy Mayse",
     "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "generated_at": "2026-11-04 18:46 WIB"
   },
   "9mBY-Ckgs64": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "generated_at": "2026-11-04 18:46 WIB"
   },
   "66Rqhc3q0Co": {
     "org_slug": "utora",
     "ch_slug": "onshannon",
     "ch_name": "ONShannon",
     "status": "live",
-    "generated_at": "2026-11-04 18:30 WIB"
+    "generated_at": "2026-11-04 18:46 WIB"
+  },
+  "xOMbgochlUA": {
+    "org_slug": "magisona",
+    "ch_slug": "reika-ayasa-magisona",
+    "ch_name": "Reika Ayasa 【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-11-04 18:46 WIB"
   }
 }
