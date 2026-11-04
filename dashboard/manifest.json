@@ -75274,8 +75274,8 @@
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-11-04 15:26 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-04 15:43 WIB"
   },
   "n_JWK1jiSoI": {
     "org_slug": "pandavva",
@@ -75352,21 +75352,21 @@
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-04 15:26 WIB"
+    "generated_at": "2026-11-04 15:43 WIB"
   },
   "o6Cx_urH5c0": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-04 15:26 WIB"
+    "generated_at": "2026-11-04 15:43 WIB"
   },
   "0UuNbNwUTT0": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-04 15:26 WIB"
+    "generated_at": "2026-11-04 15:43 WIB"
   },
   "SQEvZOt1kUs": {
     "org_slug": "dasoriyal",
@@ -75380,13 +75380,20 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-04 15:26 WIB"
+    "generated_at": "2026-11-04 15:43 WIB"
   },
   "R5OPF3FYfcc": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-11-04 15:26 WIB"
+    "generated_at": "2026-11-04 15:43 WIB"
+  },
+  "tX3xrpOkkMU": {
+    "org_slug": "versa",
+    "ch_slug": "ryoutaa-versa",
+    "ch_name": "Ryoutaa【VERSA】",
+    "status": "live",
+    "generated_at": "2026-11-04 15:43 WIB"
   }
 }
