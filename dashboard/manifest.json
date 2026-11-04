@@ -75365,8 +75365,8 @@
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
-    "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-04 17:45 WIB"
   },
   "SQEvZOt1kUs": {
     "org_slug": "dasoriyal",
@@ -75379,63 +75379,77 @@
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
-    "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-04 17:45 WIB"
   },
   "R5OPF3FYfcc": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "generated_at": "2026-11-04 17:45 WIB"
   },
   "tX3xrpOkkMU": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "generated_at": "2026-11-04 17:45 WIB"
   },
   "UeTuASdMNjs": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "generated_at": "2026-11-04 17:45 WIB"
   },
   "rfUq1YVcCoA": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "generated_at": "2026-11-04 17:45 WIB"
   },
   "Jd_eQllvwd0": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "generated_at": "2026-11-04 17:45 WIB"
   },
   "CR5xTBe43lU": {
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "generated_at": "2026-11-04 17:45 WIB"
   },
   "gEoRcMOk_VA": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "generated_at": "2026-11-04 17:45 WIB"
   },
   "ExHUrQi25BU": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-11-04 17:28 WIB"
+    "generated_at": "2026-11-04 17:45 WIB"
+  },
+  "aMl7jenAy-w": {
+    "org_slug": "utora",
+    "ch_slug": "petite-sabrina-ch",
+    "ch_name": "Petite Sabrina Ch.",
+    "status": "live",
+    "generated_at": "2026-11-04 17:45 WIB"
+  },
+  "FaKlPTIi4gM": {
+    "org_slug": "utora",
+    "ch_slug": "yuko27",
+    "ch_name": "Yuko27",
+    "status": "live",
+    "generated_at": "2026-11-04 17:45 WIB"
   }
 }
