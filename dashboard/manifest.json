@@ -75275,7 +75275,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-04 14:51 WIB"
+    "generated_at": "2026-11-04 15:08 WIB"
   },
   "n_JWK1jiSoI": {
     "org_slug": "pandavva",
@@ -75295,8 +75295,8 @@
     "org_slug": "utora",
     "ch_slug": "petite-sabrina-ch",
     "ch_name": "Petite Sabrina Ch.",
-    "status": "live",
-    "generated_at": "2026-11-04 14:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-04 15:08 WIB"
   },
   "2MgeaGqTv0Y": {
     "org_slug": "neoespoir",
@@ -75345,28 +75345,28 @@
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-04 14:51 WIB"
+    "generated_at": "2026-11-04 15:08 WIB"
   },
   "y6MjTll6bMs": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-04 14:51 WIB"
+    "generated_at": "2026-11-04 15:08 WIB"
   },
   "o6Cx_urH5c0": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-04 14:51 WIB"
+    "generated_at": "2026-11-04 15:08 WIB"
   },
   "0UuNbNwUTT0": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-04 14:51 WIB"
+    "generated_at": "2026-11-04 15:08 WIB"
   },
   "SQEvZOt1kUs": {
     "org_slug": "dasoriyal",
@@ -75380,6 +75380,13 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-04 14:51 WIB"
+    "generated_at": "2026-11-04 15:08 WIB"
+  },
+  "R5OPF3FYfcc": {
+    "org_slug": "neoespoir",
+    "ch_slug": "nachann-wa-harmonie-ch",
+    "ch_name": "Nachann Wa Harmonie Ch.",
+    "status": "live",
+    "generated_at": "2026-11-04 15:08 WIB"
   }
 }
