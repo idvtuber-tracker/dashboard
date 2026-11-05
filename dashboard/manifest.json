@@ -75814,14 +75814,14 @@
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-05 18:18 WIB"
+    "generated_at": "2026-11-05 18:33 WIB"
   },
   "PNTAVbd2-gQ": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-05 18:18 WIB"
+    "generated_at": "2026-11-05 18:33 WIB"
   },
   "9mEW7yIjpzE": {
     "org_slug": "kymera",
@@ -75835,27 +75835,41 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-05 18:18 WIB"
+    "generated_at": "2026-11-05 18:33 WIB"
   },
   "Oi61DIJmhUU": {
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-11-05 18:18 WIB"
+    "generated_at": "2026-11-05 18:33 WIB"
   },
   "KlTpE_CP0Go": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-05 18:18 WIB"
+    "generated_at": "2026-11-05 18:33 WIB"
   },
   "VKrabbVt4tY": {
     "org_slug": "pandavva",
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-05 18:18 WIB"
+    "generated_at": "2026-11-05 18:33 WIB"
+  },
+  "shOIFvorXu8": {
+    "org_slug": "kymera",
+    "ch_slug": "pomu-vr-ky-mera",
+    "ch_name": "Pomu VR 『 KY:MERA 』",
+    "status": "live",
+    "generated_at": "2026-11-05 18:33 WIB"
+  },
+  "V7DANdy41_Q": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "keiko-lynx-ch-villain",
+    "ch_name": "Keiko Lynx Ch. #villain",
+    "status": "live",
+    "generated_at": "2026-11-05 18:33 WIB"
   }
 }
