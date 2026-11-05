@@ -76171,13 +76171,20 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-06 06:00 WIB"
+    "generated_at": "2026-11-06 06:37 WIB"
   },
   "YvQkqZlxS0M": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
+    "status": "vod",
+    "generated_at": "2026-11-06 06:37 WIB"
+  },
+  "LmKHT9XI784": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-06 06:00 WIB"
+    "generated_at": "2026-11-06 06:37 WIB"
   }
 }
