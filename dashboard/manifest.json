@@ -75975,7 +75975,7 @@
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-05 23:55 WIB"
+    "generated_at": "2026-11-06 00:19 WIB"
   },
   "QpDd9f_cDno": {
     "org_slug": "aisatset",
@@ -76052,7 +76052,7 @@
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
     "status": "live",
-    "generated_at": "2026-11-05 23:55 WIB"
+    "generated_at": "2026-11-06 00:19 WIB"
   },
   "PXU1NPwxyVw": {
     "org_slug": "neoespoir",
@@ -76135,8 +76135,8 @@
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
-    "status": "live",
-    "generated_at": "2026-11-05 23:55 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-06 00:19 WIB"
   },
   "HiUzxjpn_ho": {
     "org_slug": "project-livium",
@@ -76149,14 +76149,21 @@
     "org_slug": "hibikasekai",
     "ch_slug": "han-sorawr",
     "ch_name": "Han Sorawr",
-    "status": "live",
-    "generated_at": "2026-11-05 23:55 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-06 00:19 WIB"
   },
   "sy4uIvZeBp8": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-05 23:55 WIB"
+    "generated_at": "2026-11-06 00:19 WIB"
+  },
+  "blVM0gjxSr4": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "serein-venetia-ch-snowvalley",
+    "ch_name": "Serein Venetia Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-11-06 00:19 WIB"
   }
 }
