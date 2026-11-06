@@ -76171,7 +76171,7 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-06 10:55 WIB"
+    "generated_at": "2026-11-06 11:12 WIB"
   },
   "YvQkqZlxS0M": {
     "org_slug": "project-livium",
@@ -76185,14 +76185,14 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-06 10:55 WIB"
+    "generated_at": "2026-11-06 11:12 WIB"
   },
   "ctkSHwaylYE": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-06 10:55 WIB"
+    "generated_at": "2026-11-06 11:12 WIB"
   },
   "9gRKrkt8WCY": {
     "org_slug": "vcosmix",
@@ -76206,13 +76206,20 @@
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-06 10:55 WIB"
+    "generated_at": "2026-11-06 11:12 WIB"
   },
   "5mUL8uKR4WQ": {
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-11-06 10:55 WIB"
+    "generated_at": "2026-11-06 11:12 WIB"
+  },
+  "2gFx_JmY2Ck": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "aiko-zurie-nawasena",
+    "ch_name": "Aiko Zurie 【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-11-06 11:12 WIB"
   }
 }
