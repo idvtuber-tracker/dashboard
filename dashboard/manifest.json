@@ -76234,7 +76234,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-06 18:39 WIB"
+    "generated_at": "2026-11-06 18:54 WIB"
   },
   "Oa62njTgVnI": {
     "org_slug": "project-livium",
@@ -76283,7 +76283,7 @@
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-06 18:39 WIB"
+    "generated_at": "2026-11-06 18:54 WIB"
   },
   "dYOjM44K5m0": {
     "org_slug": "oristarium",
@@ -76310,15 +76310,15 @@
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-11-06 18:39 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-06 18:54 WIB"
   },
   "2JYrXhESAjE": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-06 18:39 WIB"
+    "generated_at": "2026-11-06 18:54 WIB"
   },
   "YloEB5V7wk0": {
     "org_slug": "aisatset",
@@ -76331,35 +76331,42 @@
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-11-06 18:39 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-06 18:54 WIB"
   },
   "hquvnSWpifQ": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-06 18:39 WIB"
+    "generated_at": "2026-11-06 18:54 WIB"
   },
   "2axYOoP6UiY": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-06 18:39 WIB"
+    "generated_at": "2026-11-06 18:54 WIB"
   },
   "uv-93tU2mws": {
     "org_slug": "afterain",
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-11-06 18:39 WIB"
+    "generated_at": "2026-11-06 18:54 WIB"
   },
   "BFvsNA66N9U": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-06 18:39 WIB"
+    "generated_at": "2026-11-06 18:54 WIB"
+  },
+  "KqgIBxCd-X4": {
+    "org_slug": "afterain",
+    "ch_slug": "sierra-mooniva",
+    "ch_name": "Sierra Mooniva",
+    "status": "live",
+    "generated_at": "2026-11-06 18:54 WIB"
   }
 }
