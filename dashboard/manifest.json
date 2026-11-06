@@ -76233,8 +76233,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-11-06 18:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-06 19:10 WIB"
   },
   "Oa62njTgVnI": {
     "org_slug": "project-livium",
@@ -76282,8 +76282,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "shayla-meyjiera-ch-snowvalley",
     "ch_name": "Shayla Meyjiera Ch •SnowValley",
-    "status": "live",
-    "generated_at": "2026-11-06 18:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-06 19:10 WIB"
   },
   "dYOjM44K5m0": {
     "org_slug": "oristarium",
@@ -76317,8 +76317,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-11-06 18:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-06 19:10 WIB"
   },
   "YloEB5V7wk0": {
     "org_slug": "aisatset",
@@ -76339,34 +76339,76 @@
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-06 18:54 WIB"
+    "generated_at": "2026-11-06 19:10 WIB"
   },
   "2axYOoP6UiY": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-06 18:54 WIB"
+    "generated_at": "2026-11-06 19:10 WIB"
   },
   "uv-93tU2mws": {
     "org_slug": "afterain",
     "ch_slug": "poffie-hunni-afterain",
     "ch_name": "Poffie Hunni【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-11-06 18:54 WIB"
+    "generated_at": "2026-11-06 19:10 WIB"
   },
   "BFvsNA66N9U": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-06 18:54 WIB"
+    "generated_at": "2026-11-06 19:10 WIB"
   },
   "KqgIBxCd-X4": {
     "org_slug": "afterain",
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-06 18:54 WIB"
+    "generated_at": "2026-11-06 19:10 WIB"
+  },
+  "9Sa5dJDjM84": {
+    "org_slug": "magniv",
+    "ch_slug": "shiru-magniv",
+    "ch_name": "Shiru 【MagniV】",
+    "status": "live",
+    "generated_at": "2026-11-06 19:10 WIB"
+  },
+  "7bIMyKTf50o": {
+    "org_slug": "pandavva",
+    "ch_slug": "pandavva-official",
+    "ch_name": "PANDAVVA Official",
+    "status": "live",
+    "generated_at": "2026-11-06 19:10 WIB"
+  },
+  "PyzN4AhEbwQ": {
+    "org_slug": "prism-nova",
+    "ch_slug": "serika-cosmica-prism-nova",
+    "ch_name": "Serika Cosmica 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-11-06 19:10 WIB"
+  },
+  "TLFBUkaIXQA": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-11-06 19:10 WIB"
+  },
+  "lBwJUqwz5q8": {
+    "org_slug": "kymera",
+    "ch_slug": "pomu-vr-ky-mera",
+    "ch_name": "Pomu VR 『 KY:MERA 』",
+    "status": "live",
+    "generated_at": "2026-11-06 19:10 WIB"
+  },
+  "Qn4G1XamE_g": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "luii-lafete-kanau-virtual",
+    "ch_name": "Luii Lafete【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-11-06 19:10 WIB"
   }
 }
