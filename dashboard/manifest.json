@@ -76171,7 +76171,7 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-06 12:22 WIB"
+    "generated_at": "2026-11-06 12:37 WIB"
   },
   "YvQkqZlxS0M": {
     "org_slug": "project-livium",
@@ -76185,7 +76185,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-06 12:22 WIB"
+    "generated_at": "2026-11-06 12:37 WIB"
   },
   "ctkSHwaylYE": {
     "org_slug": "asobu-production",
@@ -76206,20 +76206,34 @@
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-06 12:22 WIB"
+    "generated_at": "2026-11-06 12:37 WIB"
   },
   "5mUL8uKR4WQ": {
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
-    "status": "live",
-    "generated_at": "2026-11-06 12:22 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-06 12:37 WIB"
   },
   "2gFx_JmY2Ck": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-06 12:22 WIB"
+    "generated_at": "2026-11-06 12:37 WIB"
+  },
+  "hMUsfz9oOBM": {
+    "org_slug": "project-livium",
+    "ch_slug": "ymelia-meiru-ch-livipro",
+    "ch_name": "Ymelia Meiru Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-06 12:37 WIB"
+  },
+  "Kx70FXsHDIM": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-06 12:37 WIB"
   }
 }
