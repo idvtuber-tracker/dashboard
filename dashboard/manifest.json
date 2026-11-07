@@ -76892,7 +76892,7 @@
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
     "status": "live",
-    "generated_at": "2026-11-08 00:13 WIB"
+    "generated_at": "2026-11-08 00:21 WIB"
   },
   "govmx_GaeaU": {
     "org_slug": "hibikasekai",
@@ -76941,14 +76941,14 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-08 00:13 WIB"
+    "generated_at": "2026-11-08 00:21 WIB"
   },
   "daegX_21kRg": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-08 00:13 WIB"
+    "generated_at": "2026-11-08 00:21 WIB"
   },
   "PM0OFdIR9jg": {
     "org_slug": "hibikasekai",
@@ -77011,7 +77011,7 @@
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-08 00:13 WIB"
+    "generated_at": "2026-11-08 00:21 WIB"
   },
   "_vwqOv9xGoY": {
     "org_slug": "uver-id",
@@ -77025,20 +77025,118 @@
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
     "status": "live",
-    "generated_at": "2026-11-08 00:13 WIB"
+    "generated_at": "2026-11-08 00:21 WIB"
   },
   "_XFZ6KgCtBQ": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-11-08 00:13 WIB"
+    "generated_at": "2026-11-08 00:21 WIB"
   },
   "R26teNt34aY": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-08 00:13 WIB"
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "8aAZ8Vq_tQE": {
+    "org_slug": "afterain",
+    "ch_slug": "afterain-project",
+    "ch_name": "AFTERAIN PROJECT",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "62-32OD9Rn8": {
+    "org_slug": "cozycazt",
+    "ch_slug": "lyta-luciana-ch-cozycazt",
+    "ch_name": "Lyta Luciana Ch.【CozyCazt】",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "_9aAb3SDJHg": {
+    "org_slug": "prism-nova",
+    "ch_slug": "thalia-symphonia-prism-nova",
+    "ch_name": "Thalia Symphonia 【Prism:NOVA】",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "0z3jYlTz8zM": {
+    "org_slug": "vcosmix",
+    "ch_slug": "miichan-chu-ch",
+    "ch_name": "Miichan Chu Ch.",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "9iY8i3BujFA": {
+    "org_slug": "magniv",
+    "ch_slug": "shiru-magniv",
+    "ch_name": "Shiru 【MagniV】",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "dprhkgWBISw": {
+    "org_slug": "afterain",
+    "ch_slug": "miri-murasaki-afterain",
+    "ch_name": "Miri Murasaki🐨【AfteRain】",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "NVrAnHU-MLY": {
+    "org_slug": "versa",
+    "ch_slug": "agata-seven-versa",
+    "ch_name": "Agata Seven【VERSA】",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "-5gap7dvrxQ": {
+    "org_slug": "uver-id",
+    "ch_slug": "meltdhe-corsieur-ch-uver-id",
+    "ch_name": "Meltdhe Corsieur Ch. [ UVER ID ]",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "lyygkXdodco": {
+    "org_slug": "uver-id",
+    "ch_slug": "jae-min-ho-uver-id",
+    "ch_name": "Jae Min Ho [ UVER ID ]",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "AY7JRVhGTEA": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "serein-venetia-ch-snowvalley",
+    "ch_name": "Serein Venetia Ch. •SnowValley",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "JMA6Z1QedEQ": {
+    "org_slug": "evren-community",
+    "ch_slug": "lyanna-chernovskaya",
+    "ch_name": "Lyanna Chernovskaya",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "KWKlHvsHKUs": {
+    "org_slug": "aisatset",
+    "ch_slug": "ungaume-aisatset-id",
+    "ch_name": "UngaUme【AISATSET ID】",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "kWkPNSRYsdk": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
+  },
+  "D4j4h-V9E-Q": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "vod",
+    "generated_at": "2026-11-08 00:21 WIB"
   }
 }
