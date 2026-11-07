@@ -1,0 +1,31 @@
+name: Cancel stuck Pages deployment (one-off)
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_id:
+        description: "Pages deployment ID (the SHA from the log)"
+        required: true
+        default: "e5f9fb506329333c8720304f9840871afa878dc2"
+
+permissions:
+  pages: write
+  contents: read
+
+jobs:
+  cancel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check status
+        run: |
+          curl -s \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/pages/deployments/${{ inputs.deployment_id }}
+
+      - name: Cancel deployment
+        run: |
+          curl -s -X POST \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/pages/deployments/${{ inputs.deployment_id }}/cancel
