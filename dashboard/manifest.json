@@ -76688,29 +76688,29 @@
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-11-07 11:26 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-07 18:10 WIB"
   },
   "6Cn4nvRh3ls": {
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-11-07 11:26 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-07 18:10 WIB"
   },
   "5CTkyblwzBs": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-11-07 11:26 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-07 18:10 WIB"
   },
   "jkD6E5xSfbQ": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
-    "status": "live",
-    "generated_at": "2026-11-07 11:26 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-07 18:10 WIB"
   },
   "rl8caqOlDZU": {
     "org_slug": "kanau-virtual",
@@ -76723,7 +76723,42 @@
     "org_slug": "kymera",
     "ch_slug": "pomu-vr-ky-mera",
     "ch_name": "Pomu VR 『 KY:MERA 』",
+    "status": "vod",
+    "generated_at": "2026-11-07 18:10 WIB"
+  },
+  "TYEEeUzlHdw": {
+    "org_slug": "laeta",
+    "ch_slug": "shiraishi-oriel-laeta",
+    "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-07 11:26 WIB"
+    "generated_at": "2026-11-07 18:10 WIB"
+  },
+  "BW5csugJ9G8": {
+    "org_slug": "afterain",
+    "ch_slug": "sierra-mooniva",
+    "ch_name": "Sierra Mooniva",
+    "status": "live",
+    "generated_at": "2026-11-07 18:10 WIB"
+  },
+  "cGSo96JeWww": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "krystalize-moon-dasoriyal",
+    "ch_name": "Krystalize Moon『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-11-07 18:10 WIB"
+  },
+  "kbbTT7CfnpY": {
+    "org_slug": "pandavva",
+    "ch_slug": "sadewa-sagara-pandavva",
+    "ch_name": "Sadewa Sagara【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-07 18:10 WIB"
+  },
+  "UYhCaaiZtDQ": {
+    "org_slug": "kymera",
+    "ch_slug": "pomu-vr-ky-mera",
+    "ch_name": "Pomu VR 『 KY:MERA 』",
+    "status": "live",
+    "generated_at": "2026-11-07 18:10 WIB"
   }
 }
