@@ -76856,8 +76856,8 @@
     "org_slug": "crims-on",
     "ch_slug": "selia-aisnith-crims-on",
     "ch_name": "Selia Aisnith 【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-07 23:56 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 00:13 WIB"
   },
   "9-qBqkkc96Q": {
     "org_slug": "asobu-production",
@@ -76892,7 +76892,7 @@
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
     "status": "live",
-    "generated_at": "2026-11-07 23:56 WIB"
+    "generated_at": "2026-11-08 00:13 WIB"
   },
   "govmx_GaeaU": {
     "org_slug": "hibikasekai",
@@ -76941,14 +76941,14 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-07 23:56 WIB"
+    "generated_at": "2026-11-08 00:13 WIB"
   },
   "daegX_21kRg": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-07 23:56 WIB"
+    "generated_at": "2026-11-08 00:13 WIB"
   },
   "PM0OFdIR9jg": {
     "org_slug": "hibikasekai",
@@ -77011,27 +77011,34 @@
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-07 23:56 WIB"
+    "generated_at": "2026-11-08 00:13 WIB"
   },
   "_vwqOv9xGoY": {
     "org_slug": "uver-id",
     "ch_slug": "meltdhe-corsieur-ch-uver-id",
     "ch_name": "Meltdhe Corsieur Ch. [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-11-07 23:56 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 00:13 WIB"
   },
   "j7xA1gQ5-jI": {
     "org_slug": "evren-community",
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
     "status": "live",
-    "generated_at": "2026-11-07 23:56 WIB"
+    "generated_at": "2026-11-08 00:13 WIB"
   },
   "_XFZ6KgCtBQ": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-11-07 23:56 WIB"
+    "generated_at": "2026-11-08 00:13 WIB"
+  },
+  "R26teNt34aY": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "naona-neon-ch-snowvalley",
+    "ch_name": "Naona Neon Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-11-08 00:13 WIB"
   }
 }
