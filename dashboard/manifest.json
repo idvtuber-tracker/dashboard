@@ -76835,8 +76835,8 @@
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "AmL7Rd9-lpI": {
     "org_slug": "uver-id",
@@ -76857,7 +76857,7 @@
     "ch_slug": "selia-aisnith-crims-on",
     "ch_name": "Selia Aisnith 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "9-qBqkkc96Q": {
     "org_slug": "asobu-production",
@@ -76884,15 +76884,15 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "B5VjqZdnZx4": {
     "org_slug": "kanau-virtual",
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
     "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "govmx_GaeaU": {
     "org_slug": "hibikasekai",
@@ -76926,8 +76926,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "dCJY2i-K3LY": {
     "org_slug": "neoespoir",
@@ -76941,14 +76941,14 @@
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "daegX_21kRg": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "PM0OFdIR9jg": {
     "org_slug": "hibikasekai",
@@ -76968,8 +76968,8 @@
     "org_slug": "uver-id",
     "ch_slug": "hiro-kyasuta-uver-id",
     "ch_name": "Hiro Kyasuta [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "WZ-l04bDFzE": {
     "org_slug": "oristarium",
@@ -77004,27 +77004,34 @@
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "u8yeAPAF87c": {
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "_vwqOv9xGoY": {
     "org_slug": "uver-id",
     "ch_slug": "meltdhe-corsieur-ch-uver-id",
     "ch_name": "Meltdhe Corsieur Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "generated_at": "2026-11-07 23:38 WIB"
   },
   "j7xA1gQ5-jI": {
     "org_slug": "evren-community",
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
     "status": "live",
-    "generated_at": "2026-11-07 23:21 WIB"
+    "generated_at": "2026-11-07 23:38 WIB"
+  },
+  "_XFZ6KgCtBQ": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "keiko-lynx-ch-villain",
+    "ch_name": "Keiko Lynx Ch. #villain",
+    "status": "live",
+    "generated_at": "2026-11-07 23:38 WIB"
   }
 }
