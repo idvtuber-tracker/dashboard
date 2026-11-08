@@ -642,7 +642,11 @@ for _slug, _org in ORG_MAP.items():
     for _entry in _org["channels"]:
         _CH_TO_ORG[_entry[0]] = (_slug, _org)
 
+# to-do list
+# Add District #7, Styxmata
+# Probably move the Nihil Action from the Indie section
 
+  
 # ══════════════════════════════════════════════════════════════════════════════
 # MANIFEST
 # ══════════════════════════════════════════════════════════════════════════════
