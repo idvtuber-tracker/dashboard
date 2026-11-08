@@ -77571,14 +77571,14 @@
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-09 00:14 WIB"
+    "generated_at": "2026-11-09 00:31 WIB"
   },
   "ICyXrOJjSTA": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-09 00:14 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-09 00:31 WIB"
   },
   "jik4jiVxjcg": {
     "org_slug": "uver-id",
@@ -77592,20 +77592,20 @@
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-11-09 00:14 WIB"
+    "generated_at": "2026-11-09 00:31 WIB"
   },
   "ssht_pUoOt0": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-09 00:14 WIB"
+    "generated_at": "2026-11-09 00:31 WIB"
   },
   "VAdjkgq_8YA": {
     "org_slug": "hibikasekai",
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-09 00:14 WIB"
+    "generated_at": "2026-11-09 00:31 WIB"
   }
 }
