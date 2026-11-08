@@ -77165,35 +77165,35 @@
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-08 15:21 WIB"
+    "generated_at": "2026-11-08 15:30 WIB"
   },
   "Pph1ZT21tWY": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-08 15:21 WIB"
+    "generated_at": "2026-11-08 15:30 WIB"
   },
   "O6kZpCttOJ0": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-08 15:21 WIB"
+    "generated_at": "2026-11-08 15:30 WIB"
   },
   "GwT5-bhroZQ": {
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-08 15:21 WIB"
+    "generated_at": "2026-11-08 15:30 WIB"
   },
   "KfuQfjbIgVc": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-08 15:21 WIB"
+    "generated_at": "2026-11-08 15:30 WIB"
   },
   "Lz1fkN1i094": {
     "org_slug": "uver-id",
@@ -77242,7 +77242,7 @@
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-08 15:21 WIB"
+    "generated_at": "2026-11-08 15:30 WIB"
   },
   "QsBDRdht-6M": {
     "org_slug": "utora",
@@ -77256,7 +77256,7 @@
     "ch_slug": "tuti-hanna-ch-snowvalley",
     "ch_name": "Tuti Hanna Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-08 15:21 WIB"
+    "generated_at": "2026-11-08 15:30 WIB"
   },
   "eDFqDmUFAjE": {
     "org_slug": "versa",
@@ -77270,13 +77270,69 @@
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-08 15:21 WIB"
+    "generated_at": "2026-11-08 15:30 WIB"
   },
   "8DE0tKVM7_0": {
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-11-08 15:21 WIB"
+    "generated_at": "2026-11-08 15:30 WIB"
+  },
+  "54B7Yby6suo": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
+    "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
+    "status": "vod",
+    "generated_at": "2026-11-08 15:30 WIB"
+  },
+  "63qwcX62pEc": {
+    "org_slug": "uver-id",
+    "ch_slug": "norn-haira-uver-id",
+    "ch_name": "Norn Haira〔UVER ID〕",
+    "status": "vod",
+    "generated_at": "2026-11-08 15:30 WIB"
+  },
+  "ei8jJOx80uw": {
+    "org_slug": "uver-id",
+    "ch_slug": "nephthya-anya-ch-uver-id",
+    "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
+    "status": "vod",
+    "generated_at": "2026-11-08 15:30 WIB"
+  },
+  "Nk9CxGJcu2U": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "alicia-ravenna-ch-snowvalley",
+    "ch_name": "Alicia Ravenna Ch. •SnowValley",
+    "status": "vod",
+    "generated_at": "2026-11-08 15:30 WIB"
+  },
+  "0eJQrN9iXnc": {
+    "org_slug": "noisette",
+    "ch_slug": "madu-rumble-noisette",
+    "ch_name": "Madu Rumble【Noisette】",
+    "status": "vod",
+    "generated_at": "2026-11-08 15:30 WIB"
+  },
+  "j3HTTUl2_fk": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "kukuryu-nawasena",
+    "ch_name": "KUKURYU【NAWASENA】",
+    "status": "vod",
+    "generated_at": "2026-11-08 15:30 WIB"
+  },
+  "Ou7aoJOO_Vk": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "shine-naira-ch-snowvalley",
+    "ch_name": "Shine Naira Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-11-08 15:30 WIB"
+  },
+  "BkVvGvvkP0I": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "moomi-latte-nawasena",
+    "ch_name": "MooMi Latte 【NAWASENA】",
+    "status": "vod",
+    "generated_at": "2026-11-08 15:30 WIB"
   }
 }
