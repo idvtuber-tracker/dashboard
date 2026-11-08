@@ -77270,14 +77270,14 @@
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-08 17:57 WIB"
+    "generated_at": "2026-11-08 18:14 WIB"
   },
   "8DE0tKVM7_0": {
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-11-08 17:57 WIB"
+    "generated_at": "2026-11-08 18:14 WIB"
   },
   "54B7Yby6suo": {
     "org_slug": "kanau-virtual",
@@ -77339,43 +77339,43 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-11-08 17:57 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 18:14 WIB"
   },
   "KaSpPJw4JVs": {
     "org_slug": "project-livium",
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-08 17:57 WIB"
+    "generated_at": "2026-11-08 18:14 WIB"
   },
   "QlzHM_sh1pY": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-08 17:57 WIB"
+    "generated_at": "2026-11-08 18:14 WIB"
   },
   "yxGIJe_LK_A": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-08 17:57 WIB"
+    "generated_at": "2026-11-08 18:14 WIB"
   },
   "X6HgzqtBvXc": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-08 17:57 WIB"
+    "generated_at": "2026-11-08 18:14 WIB"
   },
   "f0IAJuKKT1E": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
-    "status": "live",
-    "generated_at": "2026-11-08 17:57 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 18:14 WIB"
   },
   "nIWzNySek2c": {
     "org_slug": "arvi-media",
@@ -77389,6 +77389,13 @@
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-11-08 17:57 WIB"
+    "generated_at": "2026-11-08 18:14 WIB"
+  },
+  "byTeMUkxYbA": {
+    "org_slug": "oristarium",
+    "ch_slug": "juliana-shafira",
+    "ch_name": "Juliana Shafira",
+    "status": "live",
+    "generated_at": "2026-11-08 18:14 WIB"
   }
 }
