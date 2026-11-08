@@ -77416,8 +77416,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "mo-xiao-mei-asobu",
     "ch_name": "Mo Xiao Mei【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-11-08 23:22 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 23:40 WIB"
   },
   "kLgjofUucUw": {
     "org_slug": "kanau-virtual",
@@ -77458,8 +77458,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "celina-olystia-ch-snowvalley",
     "ch_name": "Celina Olystia Ch •SnowValley",
-    "status": "live",
-    "generated_at": "2026-11-08 23:22 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 23:40 WIB"
   },
   "O0ERB1nRCrk": {
     "org_slug": "utora",
@@ -77486,8 +77486,8 @@
     "org_slug": "snowvalley-agency",
     "ch_slug": "alicia-ravenna-ch-snowvalley",
     "ch_name": "Alicia Ravenna Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-11-08 23:22 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 23:40 WIB"
   },
   "NT8rTDyPqj8": {
     "org_slug": "whicker-butler",
@@ -77521,8 +77521,8 @@
     "org_slug": "oristarium",
     "ch_slug": "ahomika-ch-oristarium",
     "ch_name": "Ahomika_Ch【Oristarium】",
-    "status": "live",
-    "generated_at": "2026-11-08 23:22 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 23:40 WIB"
   },
   "v6UynTvAPHg": {
     "org_slug": "whicker-butler",
@@ -77556,29 +77556,29 @@
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-08 23:22 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 23:40 WIB"
   },
   "rf2fbbWdrCg": {
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-08 23:22 WIB"
+    "generated_at": "2026-11-08 23:40 WIB"
   },
   "3tA1S8Fj3x0": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-08 23:22 WIB"
+    "generated_at": "2026-11-08 23:40 WIB"
   },
   "ICyXrOJjSTA": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-08 23:22 WIB"
+    "generated_at": "2026-11-08 23:40 WIB"
   },
   "jik4jiVxjcg": {
     "org_slug": "uver-id",
@@ -77592,6 +77592,13 @@
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-11-08 23:22 WIB"
+    "generated_at": "2026-11-08 23:40 WIB"
+  },
+  "ssht_pUoOt0": {
+    "org_slug": "cozycazt",
+    "ch_slug": "vianna-risendria-cozycazt",
+    "ch_name": "Vianna Risendria 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-11-08 23:40 WIB"
   }
 }
