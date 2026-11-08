@@ -77270,7 +77270,7 @@
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-08 18:55 WIB"
+    "generated_at": "2026-11-08 19:10 WIB"
   },
   "8DE0tKVM7_0": {
     "org_slug": "prism-nova",
@@ -77347,14 +77347,14 @@
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-08 18:55 WIB"
+    "generated_at": "2026-11-08 19:10 WIB"
   },
   "QlzHM_sh1pY": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-08 18:55 WIB"
+    "generated_at": "2026-11-08 19:10 WIB"
   },
   "yxGIJe_LK_A": {
     "org_slug": "project-livium",
@@ -77368,7 +77368,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-08 18:55 WIB"
+    "generated_at": "2026-11-08 19:10 WIB"
   },
   "f0IAJuKKT1E": {
     "org_slug": "kanau-virtual",
@@ -77389,27 +77389,41 @@
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-11-08 18:55 WIB"
+    "generated_at": "2026-11-08 19:10 WIB"
   },
   "byTeMUkxYbA": {
     "org_slug": "oristarium",
     "ch_slug": "juliana-shafira",
     "ch_name": "Juliana Shafira",
     "status": "live",
-    "generated_at": "2026-11-08 18:55 WIB"
+    "generated_at": "2026-11-08 19:10 WIB"
   },
   "DPxi7zDxQ_U": {
     "org_slug": "ukoi-virtual",
     "ch_slug": "sean-sepia-ukoi-virtual",
     "ch_name": "Sean Sepia | 肖恩【UKOI Virtual】",
     "status": "live",
-    "generated_at": "2026-11-08 18:55 WIB"
+    "generated_at": "2026-11-08 19:10 WIB"
   },
   "-AjqC5NhhhM": {
     "org_slug": "mejikuhibiniu",
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-11-08 18:55 WIB"
+    "generated_at": "2026-11-08 19:10 WIB"
+  },
+  "vnJXwazbQVE": {
+    "org_slug": "asobu-production",
+    "ch_slug": "mo-xiao-mei-asobu",
+    "ch_name": "Mo Xiao Mei【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-08 19:10 WIB"
+  },
+  "kLgjofUucUw": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "kanau-virtual",
+    "ch_name": "KANAU Virtual",
+    "status": "live",
+    "generated_at": "2026-11-08 19:10 WIB"
   }
 }
