@@ -77612,7 +77612,14 @@
     "org_slug": "miqela",
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
+    "status": "vod",
+    "generated_at": "2026-11-09 05:46 WIB"
+  },
+  "hU87Si-SJt8": {
+    "org_slug": "miqela",
+    "ch_slug": "stellaria-vernakila-ch-miqela",
+    "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-09 05:13 WIB"
+    "generated_at": "2026-11-09 05:46 WIB"
   }
 }
