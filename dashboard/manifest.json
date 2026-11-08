@@ -76940,15 +76940,15 @@
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-08 01:24 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 13:16 WIB"
   },
   "daegX_21kRg": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-08 01:24 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 13:16 WIB"
   },
   "PM0OFdIR9jg": {
     "org_slug": "hibikasekai",
@@ -77024,22 +77024,22 @@
     "org_slug": "evren-community",
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
-    "status": "live",
-    "generated_at": "2026-11-08 01:24 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 13:16 WIB"
   },
   "_XFZ6KgCtBQ": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
-    "status": "live",
-    "generated_at": "2026-11-08 01:24 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 13:16 WIB"
   },
   "R26teNt34aY": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
-    "status": "live",
-    "generated_at": "2026-11-08 01:24 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-08 13:16 WIB"
   },
   "8aAZ8Vq_tQE": {
     "org_slug": "afterain",
@@ -77143,7 +77143,84 @@
     "org_slug": "afterain",
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
+    "status": "vod",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "VsmlCum4n1k": {
+    "org_slug": "prism-nova",
+    "ch_slug": "serika-cosmica-prism-nova",
+    "ch_name": "Serika Cosmica 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-11-08 01:24 WIB"
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "yVmfAiZt2TY": {
+    "org_slug": "magniv",
+    "ch_slug": "shiru-magniv",
+    "ch_name": "Shiru 【MagniV】",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "KoMNXNQiecM": {
+    "org_slug": "project-livium",
+    "ch_slug": "indira-naylarissa-ch-livipro",
+    "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "Pph1ZT21tWY": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "O6kZpCttOJ0": {
+    "org_slug": "pandavva",
+    "ch_slug": "sadewa-sagara-pandavva",
+    "ch_name": "Sadewa Sagara【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "GwT5-bhroZQ": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "KfuQfjbIgVc": {
+    "org_slug": "asobu-production",
+    "ch_slug": "lyra-monphelia-asobu",
+    "ch_name": "Lyra Monphelia 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "Lz1fkN1i094": {
+    "org_slug": "uver-id",
+    "ch_slug": "cyure-michantrell-ch-uver-id",
+    "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "7SG9jWXIod4": {
+    "org_slug": "evren-community",
+    "ch_slug": "lyanna-chernovskaya",
+    "ch_name": "Lyanna Chernovskaya",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "tRQihVyhtnA": {
+    "org_slug": "neoespoir",
+    "ch_slug": "nachann-wa-harmonie-ch",
+    "ch_name": "Nachann Wa Harmonie Ch.",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
+  },
+  "r5IOJJJzakI": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "aiko-zurie-nawasena",
+    "ch_name": "Aiko Zurie 【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-11-08 13:16 WIB"
   }
 }
