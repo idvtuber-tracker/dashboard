@@ -634,6 +634,35 @@ ORG_MAP = {
             ("lioye 『 KY:MERA 』", "talent", "UCz7NJ1CccU-q2gLcByBPDhQ"),  
         ],
     },  
+    "styxmata": {
+        "label":   "Styxmata",
+        "color":   "#a6a09a",
+        "color_light": "#6c6258",
+        "desc":    "A new, lore heavy, indie VTubers group.",
+        "channels": [
+            ("Styxmata", "org", "UC7bdXISX1UmomVHS3kvqe2Q"),  
+            ("Sheira Chavise Ch.", "talent", "UCy71dNG2ixx_Rrlmd4bfpKw"),  
+            ("Phillipe Ariel『 STYX 』", "talent", "UCSfvLuLIvqHjth1ZGUR3QlA"),  
+            ("Atalia Altair 『 STYX 』", "talent", "UCC81ONIqFfz0qJUvY5_oRnA"),  
+            ("Anns Neun『 STYX 』", "talent", "UCnAjY4V1DSrKLWXipfr-DZw"),  
+            ("Alyosha 『 STYX 』", "talent", "UC2Jy9-l2omJ4DgTWTuCKdsw"),  
+        ],
+    },
+    "distrct-7": {
+        "label":   "District#7",
+        "color":   "#cded82",
+        "color_light": "#446100",
+        "desc":    "Ensemble of indie VTubers with various theming.",
+        "channels": [
+            ("Avnore Daryush", "talent", "UCIqwiV5rcVnkW1-kEQxHT-A"),  
+            ("Vayne Arcellio", "talent", "UCgsAyhXbcxYrkFmOf7pqxpQ"),  
+            ("Eros Adras Ch.", "talent", "UCsjGt9LVfzUg_JOqoAXbNeg"),  
+            ("Monday Elysia Ch.", "talent", "UCDZHdN8P81VEA-NhHFK_kRw"),  
+            ("Hasegawa Miu", "talent", "UCOfC7gvb-Pr1K5drH3XhJ-w"),  
+            ("Kiyomi Gummy Ch.", "talent", "UCxp80KZerlkASQV6PYPgzcw"),  
+            ("Tabi Noji", "talent", "UCjXM_y-b42rh0PcDi7-V3Hg"),  
+        ],
+    },
 }
 
 # Build reverse lookup: channel_name → (org_slug, org)
@@ -643,7 +672,6 @@ for _slug, _org in ORG_MAP.items():
         _CH_TO_ORG[_entry[0]] = (_slug, _org)
 
 # to-do list
-# Add District #7, Styxmata
 # Probably move the Nihil Action from the Indie section
 
   
