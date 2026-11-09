@@ -77998,7 +77998,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-10 05:49 WIB"
+    "generated_at": "2026-11-10 06:06 WIB"
   },
   "V0HXvS75sx4": {
     "org_slug": "distrct-7",
@@ -78020,5 +78020,12 @@
     "ch_name": "Ryoutaa【VERSA】",
     "status": "vod",
     "generated_at": "2026-11-10 04:42 WIB"
+  },
+  "UAOPjMbvHI8": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-10 06:06 WIB"
   }
 }
