@@ -77627,21 +77627,21 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-09 13:12 WIB"
+    "generated_at": "2026-11-09 13:27 WIB"
   },
   "vgQaGV_dePk": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-09 13:12 WIB"
+    "generated_at": "2026-11-09 13:27 WIB"
   },
   "YpLZT9DXN84": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-09 13:12 WIB"
+    "generated_at": "2026-11-09 13:27 WIB"
   },
   "UyuxhmlB0ek": {
     "org_slug": "whicker-butler",
@@ -77662,41 +77662,55 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-09 13:12 WIB"
+    "generated_at": "2026-11-09 13:27 WIB"
   },
   "e7VHdBhFXHk": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-09 13:12 WIB"
+    "generated_at": "2026-11-09 13:27 WIB"
   },
   "ABFvYY_h7l4": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-09 13:12 WIB"
+    "generated_at": "2026-11-09 13:27 WIB"
   },
   "LQGOX6IMS7U": {
     "org_slug": "hibikasekai",
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-09 13:12 WIB"
+    "generated_at": "2026-11-09 13:27 WIB"
   },
   "EcfY8py6_xQ": {
     "org_slug": "afterain",
     "ch_slug": "miri-murasaki-afterain",
     "ch_name": "Miri Murasaki🐨【AfteRain】",
     "status": "live",
-    "generated_at": "2026-11-09 13:12 WIB"
+    "generated_at": "2026-11-09 13:27 WIB"
   },
   "0os4K2dq_jY": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-09 13:12 WIB"
+    "generated_at": "2026-11-09 13:27 WIB"
+  },
+  "1WMafroaaTU": {
+    "org_slug": "magisona",
+    "ch_slug": "iofiel-feliz-ch-magisona",
+    "ch_name": "ioFiel Feliz Ch.【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-11-09 13:27 WIB"
+  },
+  "TPKzN_O2LLU": {
+    "org_slug": "kymera",
+    "ch_slug": "pomu-vr-ky-mera",
+    "ch_name": "Pomu VR 『 KY:MERA 』",
+    "status": "live",
+    "generated_at": "2026-11-09 13:27 WIB"
   }
 }
