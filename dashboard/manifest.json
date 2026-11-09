@@ -77669,7 +77669,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-09 17:56 WIB"
+    "generated_at": "2026-11-09 18:13 WIB"
   },
   "ABFvYY_h7l4": {
     "org_slug": "project-livium",
@@ -77718,7 +77718,7 @@
     "ch_slug": "ave-kanehoshii-gravt",
     "ch_name": "Ave Kanehoshii【GRAVT】",
     "status": "live",
-    "generated_at": "2026-11-09 17:56 WIB"
+    "generated_at": "2026-11-09 18:13 WIB"
   },
   "BS9Xwu8f8NY": {
     "org_slug": "whicker-butler",
@@ -77731,14 +77731,21 @@
     "org_slug": "vcosmix",
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
-    "status": "live",
-    "generated_at": "2026-11-09 17:56 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-09 18:13 WIB"
   },
   "tCXYHVtaWEo": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-11-09 17:56 WIB"
+    "generated_at": "2026-11-09 18:13 WIB"
+  },
+  "6pI6YBLR4zw": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-11-09 18:13 WIB"
   }
 }
