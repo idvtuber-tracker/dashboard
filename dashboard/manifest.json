@@ -78516,14 +78516,14 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-11 05:50 WIB"
+    "generated_at": "2026-11-11 06:07 WIB"
   },
   "Xq92g3MioMc": {
     "org_slug": "distrct-7",
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-11 05:50 WIB"
+    "generated_at": "2026-11-11 06:07 WIB"
   },
   "aq5tHyPAc8k": {
     "org_slug": "project-livium",
@@ -78545,5 +78545,12 @@
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "vod",
     "generated_at": "2026-11-11 04:26 WIB"
+  },
+  "ez1ng516UKQ": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-11 06:07 WIB"
   }
 }
