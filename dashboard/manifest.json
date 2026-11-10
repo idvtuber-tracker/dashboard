@@ -77998,7 +77998,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-10 07:29 WIB"
+    "generated_at": "2026-11-10 08:15 WIB"
   },
   "V0HXvS75sx4": {
     "org_slug": "distrct-7",
@@ -78026,13 +78026,34 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-10 07:29 WIB"
+    "generated_at": "2026-11-10 08:15 WIB"
   },
   "4CEuc2jbE-4": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
+    "status": "vod",
+    "generated_at": "2026-11-10 08:15 WIB"
+  },
+  "cOTciaOAAaI": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuela-guigui-ch-livipro",
+    "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-10 07:29 WIB"
+    "generated_at": "2026-11-10 08:15 WIB"
+  },
+  "2sKlwetLxYk": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-10 08:15 WIB"
+  },
+  "ngg41c9INhg": {
+    "org_slug": "vcosmix",
+    "ch_slug": "lea-lestari-ch",
+    "ch_name": "Lea Lestari Ch.",
+    "status": "live",
+    "generated_at": "2026-11-10 08:15 WIB"
   }
 }
