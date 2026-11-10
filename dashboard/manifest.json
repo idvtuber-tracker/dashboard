@@ -77998,7 +77998,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-10 09:53 WIB"
+    "generated_at": "2026-11-10 09:56 WIB"
   },
   "V0HXvS75sx4": {
     "org_slug": "distrct-7",
@@ -78026,7 +78026,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-10 09:53 WIB"
+    "generated_at": "2026-11-10 09:56 WIB"
   },
   "4CEuc2jbE-4": {
     "org_slug": "cozycazt",
@@ -78039,28 +78039,77 @@
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-10 09:53 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-10 09:56 WIB"
   },
   "2sKlwetLxYk": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-10 09:53 WIB"
+    "generated_at": "2026-11-10 09:56 WIB"
   },
   "ngg41c9INhg": {
     "org_slug": "vcosmix",
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-11-10 09:53 WIB"
+    "generated_at": "2026-11-10 09:56 WIB"
   },
   "go1aVXr7dEU": {
     "org_slug": "uver-id",
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-10 09:53 WIB"
+    "generated_at": "2026-11-10 09:56 WIB"
+  },
+  "AQvKQxTkxHs": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "vanessa-yue",
+    "ch_name": "Vanessa Yue",
+    "status": "vod",
+    "generated_at": "2026-11-10 09:56 WIB"
+  },
+  "VnAr09lB0RA": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "yukine-clawy-whicker-butler",
+    "ch_name": "Yukine Clawy【Whicker Butler】",
+    "status": "vod",
+    "generated_at": "2026-11-10 09:56 WIB"
+  },
+  "DnVkP7EqEEE": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "hiyori-renalie",
+    "ch_name": "Hiyori Renalie",
+    "status": "vod",
+    "generated_at": "2026-11-10 09:56 WIB"
+  },
+  "EgSOHEJq94U": {
+    "org_slug": "pandavva",
+    "ch_slug": "yudistira-yogendra-pandavva",
+    "ch_name": "Yudistira Yogendra 【PANDAVVA】",
+    "status": "vod",
+    "generated_at": "2026-11-10 09:56 WIB"
+  },
+  "KXTbFXZKUeM": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "tuti-hanna-ch-snowvalley",
+    "ch_name": "Tuti Hanna Ch. •SnowValley",
+    "status": "vod",
+    "generated_at": "2026-11-10 09:56 WIB"
+  },
+  "A5ijcFOYTuQ": {
+    "org_slug": "magniv",
+    "ch_slug": "funin-mamori-magniv",
+    "ch_name": "Funin Mamori【MagniV】",
+    "status": "vod",
+    "generated_at": "2026-11-10 09:56 WIB"
+  },
+  "2UTpt9R81Mc": {
+    "org_slug": "distrct-7",
+    "ch_slug": "kiyomi-gummy-ch",
+    "ch_name": "Kiyomi Gummy Ch.",
+    "status": "vod",
+    "generated_at": "2026-11-10 09:56 WIB"
   }
 }
