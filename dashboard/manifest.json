@@ -78131,7 +78131,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-10 17:45 WIB"
+    "generated_at": "2026-11-10 18:24 WIB"
   },
   "N16ZhTYCrsY": {
     "org_slug": "nawasena-live",
@@ -78179,8 +78179,8 @@
     "org_slug": "distrct-7",
     "ch_slug": "monday-elysia-ch",
     "ch_name": "Monday Elysia Ch.",
-    "status": "live",
-    "generated_at": "2026-11-10 17:45 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-10 18:24 WIB"
   },
   "lhR7zMzGkoQ": {
     "org_slug": "kymera",
@@ -78201,34 +78201,55 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-10 17:45 WIB"
+    "generated_at": "2026-11-10 18:24 WIB"
   },
   "XeEm-QIyf9c": {
     "org_slug": "hibikasekai",
     "ch_slug": "chie-estelle-hibikasekai",
     "ch_name": "Chie Estelle🦊🌼〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-10 17:45 WIB"
+    "generated_at": "2026-11-10 18:24 WIB"
   },
   "To9qoK3cEIM": {
     "org_slug": "kanau-virtual",
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
     "status": "live",
-    "generated_at": "2026-11-10 17:45 WIB"
+    "generated_at": "2026-11-10 18:24 WIB"
   },
   "AGWGjL1VJl4": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-11-10 17:45 WIB"
+    "generated_at": "2026-11-10 18:24 WIB"
   },
   "PsmXfH5K6gA": {
     "org_slug": "uver-id",
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-10 17:45 WIB"
+    "generated_at": "2026-11-10 18:24 WIB"
+  },
+  "fHmIR3BO-pQ": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-11-10 18:24 WIB"
+  },
+  "VKEaI0A7DCU": {
+    "org_slug": "pandavva",
+    "ch_slug": "yudistira-yogendra-pandavva",
+    "ch_name": "Yudistira Yogendra 【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-10 18:24 WIB"
+  },
+  "y8LbfWXXyYI": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "airia-eroselle-mejikuhibiniu",
+    "ch_name": "Airia Eroselle【Mejikuhibiniu】",
+    "status": "live",
+    "generated_at": "2026-11-10 18:24 WIB"
   }
 }
