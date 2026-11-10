@@ -77998,7 +77998,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-10 09:56 WIB"
+    "generated_at": "2026-11-10 10:10 WIB"
   },
   "V0HXvS75sx4": {
     "org_slug": "distrct-7",
@@ -78026,7 +78026,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-10 09:56 WIB"
+    "generated_at": "2026-11-10 10:10 WIB"
   },
   "4CEuc2jbE-4": {
     "org_slug": "cozycazt",
@@ -78047,21 +78047,21 @@
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-10 09:56 WIB"
+    "generated_at": "2026-11-10 10:10 WIB"
   },
   "ngg41c9INhg": {
     "org_slug": "vcosmix",
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-11-10 09:56 WIB"
+    "generated_at": "2026-11-10 10:10 WIB"
   },
   "go1aVXr7dEU": {
     "org_slug": "uver-id",
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-10 09:56 WIB"
+    "generated_at": "2026-11-10 10:10 WIB"
   },
   "AQvKQxTkxHs": {
     "org_slug": "whicker-butler",
@@ -78111,5 +78111,12 @@
     "ch_name": "Kiyomi Gummy Ch.",
     "status": "vod",
     "generated_at": "2026-11-10 09:56 WIB"
+  },
+  "9ZP--3QVHWc": {
+    "org_slug": "uver-id",
+    "ch_slug": "nephthya-anya-ch-uver-id",
+    "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-11-10 10:10 WIB"
   }
 }
