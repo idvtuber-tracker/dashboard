@@ -78298,8 +78298,8 @@
     "org_slug": "kanau-virtual",
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
-    "status": "live",
-    "generated_at": "2026-11-10 23:45 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-11 04:09 WIB"
   },
   "M5GKn3lIedw": {
     "org_slug": "snowvalley-agency",
@@ -78312,8 +78312,8 @@
     "org_slug": "aisatset",
     "ch_slug": "blessicaa-aisatset-id",
     "ch_name": "Blessicaa【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-11-10 23:45 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-11 04:09 WIB"
   },
   "r0rgl6FDEXs": {
     "org_slug": "snowvalley-agency",
@@ -78417,8 +78417,8 @@
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-10 23:45 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-11 04:09 WIB"
   },
   "rASUJVVsSEw": {
     "org_slug": "uver-id",
@@ -78487,8 +78487,8 @@
     "org_slug": "hibikasekai",
     "ch_slug": "murasaki-kenji-hibikasekai",
     "ch_name": "Murasaki Kenji 🫐〖 HIBIKASEKAI 】",
-    "status": "live",
-    "generated_at": "2026-11-10 23:45 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-11 04:09 WIB"
   },
   "1MaA88KJoJs": {
     "org_slug": "whicker-butler",
@@ -78501,8 +78501,8 @@
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-10 23:45 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-11 04:09 WIB"
   },
   "ICl6EFGISlY": {
     "org_slug": "arvi-media",
@@ -78516,27 +78516,34 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-10 23:45 WIB"
+    "generated_at": "2026-11-11 04:09 WIB"
   },
   "Xq92g3MioMc": {
     "org_slug": "distrct-7",
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-10 23:45 WIB"
+    "generated_at": "2026-11-11 04:09 WIB"
   },
   "aq5tHyPAc8k": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-10 23:45 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-11 04:09 WIB"
   },
   "-yuFd5XfuoU": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
+    "status": "vod",
+    "generated_at": "2026-11-11 04:09 WIB"
+  },
+  "tJ7woeToEd8": {
+    "org_slug": "miqela",
+    "ch_slug": "stellaria-vernakila-ch-miqela",
+    "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-10 23:45 WIB"
+    "generated_at": "2026-11-11 04:09 WIB"
   }
 }
