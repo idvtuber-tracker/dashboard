@@ -78551,7 +78551,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-11 12:29 WIB"
+    "generated_at": "2026-11-11 13:00 WIB"
   },
   "UsSkzgwBPBU": {
     "org_slug": "cozycazt",
@@ -78579,20 +78579,27 @@
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-11-11 12:29 WIB"
+    "generated_at": "2026-11-11 13:00 WIB"
   },
   "DoDHlHY4I84": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-11 12:29 WIB"
+    "generated_at": "2026-11-11 13:00 WIB"
   },
   "r60UR7SyfY0": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-11 12:29 WIB"
+    "generated_at": "2026-11-11 13:00 WIB"
+  },
+  "E7EVJRSCN94": {
+    "org_slug": "asobu-production",
+    "ch_slug": "kalani-rainash-asobu",
+    "ch_name": "Kalani Rainash 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-11 13:00 WIB"
   }
 }
