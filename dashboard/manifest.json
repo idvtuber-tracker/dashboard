@@ -78586,7 +78586,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-11 18:40 WIB"
+    "generated_at": "2026-11-11 19:01 WIB"
   },
   "r60UR7SyfY0": {
     "org_slug": "nawasena-live",
@@ -78684,7 +78684,7 @@
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
     "status": "live",
-    "generated_at": "2026-11-11 18:40 WIB"
+    "generated_at": "2026-11-11 19:01 WIB"
   },
   "OXqtFx90thg": {
     "org_slug": "versa",
@@ -78697,8 +78697,8 @@
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-11 18:40 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-11 19:01 WIB"
   },
   "s9x-qbvqktk": {
     "org_slug": "project-livium",
@@ -78712,7 +78712,7 @@
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-11 18:40 WIB"
+    "generated_at": "2026-11-11 19:01 WIB"
   },
   "iEdCkPCmr4o": {
     "org_slug": "dasoriyal",
@@ -78726,14 +78726,14 @@
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-11 18:40 WIB"
+    "generated_at": "2026-11-11 19:01 WIB"
   },
   "BJhhR9_M7PE": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-11 18:40 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-11 19:01 WIB"
   },
   "w5-2AZN0Ymk": {
     "org_slug": "utora",
@@ -78747,20 +78747,62 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-11 18:40 WIB"
+    "generated_at": "2026-11-11 19:01 WIB"
   },
   "Yz2nA7DgSy8": {
     "org_slug": "nawasena-live",
     "ch_slug": "kukuryu-nawasena",
     "ch_name": "KUKURYU【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-11 18:40 WIB"
+    "generated_at": "2026-11-11 19:01 WIB"
   },
   "xWvwoehn41o": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "shine-naira-ch-snowvalley",
     "ch_name": "Shine Naira Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-11 18:40 WIB"
+    "generated_at": "2026-11-11 19:01 WIB"
+  },
+  "ekoon1nePXM": {
+    "org_slug": "snowvalley-agency",
+    "ch_slug": "tuti-hanna-ch-snowvalley",
+    "ch_name": "Tuti Hanna Ch. •SnowValley",
+    "status": "live",
+    "generated_at": "2026-11-11 19:01 WIB"
+  },
+  "la52c7Iq7yM": {
+    "org_slug": "pandavva",
+    "ch_slug": "pandavva-official",
+    "ch_name": "PANDAVVA Official",
+    "status": "live",
+    "generated_at": "2026-11-11 19:01 WIB"
+  },
+  "m8CQgf58RTE": {
+    "org_slug": "distrct-7",
+    "ch_slug": "vayne-arcellio",
+    "ch_name": "Vayne Arcellio",
+    "status": "live",
+    "generated_at": "2026-11-11 19:01 WIB"
+  },
+  "1ACQQdQBSP8": {
+    "org_slug": "kymera",
+    "ch_slug": "shin-derra-ky-mera",
+    "ch_name": "Shin Derra 『 KY:MERA 』",
+    "status": "live",
+    "generated_at": "2026-11-11 19:01 WIB"
+  },
+  "RCGJfwX4H_c": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "esther-van-helsing-mejikuhibiniu",
+    "ch_name": "Esther Van Helsing 【Mejikuhibiniu】",
+    "status": "live",
+    "generated_at": "2026-11-11 19:01 WIB"
+  },
+  "nhJIdYF5ASE": {
+    "org_slug": "utora",
+    "ch_slug": "yuko27",
+    "ch_name": "Yuko27",
+    "status": "live",
+    "generated_at": "2026-11-11 19:01 WIB"
   }
 }
