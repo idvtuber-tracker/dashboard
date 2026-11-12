@@ -79727,7 +79727,7 @@
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-13 05:21 WIB"
+    "generated_at": "2026-11-13 06:05 WIB"
   },
   "eWg3t5nDeaA": {
     "org_slug": "miqela",
@@ -79742,5 +79742,12 @@
     "ch_name": "Sierra Mooniva",
     "status": "vod",
     "generated_at": "2026-11-13 04:17 WIB"
+  },
+  "g7wIg41Tbsc": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-13 06:05 WIB"
   }
 }
