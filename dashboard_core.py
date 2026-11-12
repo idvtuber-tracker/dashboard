@@ -305,7 +305,7 @@ ORG_MAP = {
         "color_light": "#db1735",
         "desc":    "Part of Area Media, a digital idol bridging entertainment and community through live streams, creative content, and authentic fan interactions.",
         "channels": [
-            ("Aika Sakuraba Ch. 【ARVI】", "talent", "UCW6ZmofKJm_Rnwyq1brysmg"),  
+            ("Aika Sakuraba Ch. 【ARVI】", "talent", "UCzeCVsVUq5URcNHk_SoHtvQ"),  
             ("Makotoshi Ch.", "talent", "UCgcsnZ6-ys_Fr9wEX6sz5xg"),  
             ("Navarra Clementia", "talent", "UCAa31OBocBS80q2x4meCSUw"),
             ("Ringo Soda", "talent", "UCHTj4RRPQjba2GekeJKvB_w"),
@@ -531,9 +531,7 @@ ORG_MAP = {
             ("Ninomiya Sho | SNOWDROP LIVE", "talent", "UCQBWPJIGvWPLIMSHdU7563Q"),  
             ("Snowdrop's Red Dragon I SNOWDROP", "talent", "UCdwHe_9u1moNCuaZHIXn3_Q"),  
             ("Allen Yolbars | SNOWDROP", "talent", "UCbsaetZJWm-oBVP_h9isGkA"),  
-            ("Oiruka Lovin | SNOWDROP", "talent", "UCOHbHnhjT71s4uGzfB-EB2A"),  
             ("Bouya Kyuuroku | SNOWDROP", "talent", "UCMxpS_MslNzxto09z4c9tmg"),  
-            ("Ansel Cervidae | SNOWDROP", "talent", "UC4kEpH32CdyqveaDWbV560A"),  
             ("Althea Aurita 🫧【SNOWDROP】", "talent", "UC7cXN2YsLzFYOja1ilAgCMQ"),  
         ],
     },
@@ -673,7 +671,7 @@ for _slug, _org in ORG_MAP.items():
 
 # to-do list
 # Probably move the Nihil Action from the Indie section
-
+# Remove Eray Ryuki on November 15th
   
 # ══════════════════════════════════════════════════════════════════════════════
 # MANIFEST
