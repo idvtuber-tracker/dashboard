@@ -79153,7 +79153,7 @@
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
     "status": "live",
-    "generated_at": "2026-11-12 18:06 WIB"
+    "generated_at": "2026-11-12 18:23 WIB"
   },
   "QY0biouvvNQ": {
     "org_slug": "distrct-7",
@@ -79222,15 +79222,15 @@
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-11-12 18:06 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 18:23 WIB"
   },
   "BWnQQzHU2nk": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-11-12 18:06 WIB"
+    "generated_at": "2026-11-12 18:23 WIB"
   },
   "tzvdrFI8Hck": {
     "org_slug": "kymera",
@@ -79244,27 +79244,41 @@
     "ch_slug": "onshannon",
     "ch_name": "ONShannon",
     "status": "live",
-    "generated_at": "2026-11-12 18:06 WIB"
+    "generated_at": "2026-11-12 18:23 WIB"
   },
   "MJ9Od0dOfdY": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-11-12 18:06 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 18:23 WIB"
   },
   "G5ht4TFcghw": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-12 18:06 WIB"
+    "generated_at": "2026-11-12 18:23 WIB"
   },
   "gh-RSAfBOhE": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-12 18:06 WIB"
+    "generated_at": "2026-11-12 18:23 WIB"
+  },
+  "0Svt2v-jsdo": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "alex-von-astaroth-hibikasekai",
+    "ch_name": "Alex von Astaroth 🦇 🦊〖 HIBIKASEKAI 】",
+    "status": "live",
+    "generated_at": "2026-11-12 18:23 WIB"
+  },
+  "yTs2kWebjI8": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuura-yozakura-ch-livipro",
+    "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-12 18:23 WIB"
   }
 }
