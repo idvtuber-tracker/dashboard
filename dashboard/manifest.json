@@ -79111,7 +79111,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-12 12:34 WIB"
+    "generated_at": "2026-11-12 13:05 WIB"
   },
   "WtLmeALdH40": {
     "org_slug": "kanau-virtual",
@@ -79132,34 +79132,48 @@
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-12 12:34 WIB"
+    "generated_at": "2026-11-12 13:05 WIB"
   },
   "ZA3dRnM3-PA": {
     "org_slug": "distrct-7",
     "ch_slug": "monday-elysia-ch",
     "ch_name": "Monday Elysia Ch.",
     "status": "live",
-    "generated_at": "2026-11-12 12:34 WIB"
+    "generated_at": "2026-11-12 13:05 WIB"
   },
   "c-nWgtWPObI": {
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
-    "status": "live",
-    "generated_at": "2026-11-12 12:34 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 13:05 WIB"
   },
   "0FyCEQm21RM": {
     "org_slug": "vcosmix",
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
     "status": "live",
-    "generated_at": "2026-11-12 12:34 WIB"
+    "generated_at": "2026-11-12 13:05 WIB"
   },
   "QY0biouvvNQ": {
     "org_slug": "distrct-7",
     "ch_slug": "tabi-noji",
     "ch_name": "Tabi Noji",
     "status": "live",
-    "generated_at": "2026-11-12 12:34 WIB"
+    "generated_at": "2026-11-12 13:05 WIB"
+  },
+  "oPrzgJD5IFk": {
+    "org_slug": "utora",
+    "ch_slug": "petite-sabrina-ch",
+    "ch_name": "Petite Sabrina Ch.",
+    "status": "live",
+    "generated_at": "2026-11-12 13:05 WIB"
+  },
+  "8oZvSoF_Brg": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-11-12 13:05 WIB"
   }
 }
