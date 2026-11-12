@@ -78683,8 +78683,8 @@
     "org_slug": "kanau-virtual",
     "ch_slug": "ryuzaki-ayato-ch-worstgenesis",
     "ch_name": "Ryuzaki Ayato Ch. #WorstGenesis",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "OXqtFx90thg": {
     "org_slug": "versa",
@@ -78879,8 +78879,8 @@
     "org_slug": "aisatset",
     "ch_slug": "blessicaa-aisatset-id",
     "ch_name": "Blessicaa【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "Y1HE4LLfW4s": {
     "org_slug": "whicker-butler",
@@ -78998,8 +78998,8 @@
     "org_slug": "afterain",
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "q5fZz5w6Lbc": {
     "org_slug": "hibikasekai",
@@ -79012,22 +79012,22 @@
     "org_slug": "miqela",
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "R5C1epmIqCk": {
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "DWYEAF6aTCU": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "vOqi57xdfjY": {
     "org_slug": "vcosmix",
@@ -79047,8 +79047,8 @@
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "oN_CfZBWZVw": {
     "org_slug": "laeta",
@@ -79068,42 +79068,56 @@
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "nZSkBIxOb4I": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "SI8oV5FfME0": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "6nFTS4gE5dU": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "48doeTwenRw": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
-    "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
   },
   "pFCvs1v6JF4": {
     "org_slug": "distrct-7",
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
+    "status": "vod",
+    "generated_at": "2026-11-12 07:05 WIB"
+  },
+  "aj8KeoRb72c": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-12 01:19 WIB"
+    "generated_at": "2026-11-12 07:05 WIB"
+  },
+  "WtLmeALdH40": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "luii-lafete-kanau-virtual",
+    "ch_name": "Luii Lafete【KANAU Virtual】",
+    "status": "live",
+    "generated_at": "2026-11-12 07:05 WIB"
   }
 }
