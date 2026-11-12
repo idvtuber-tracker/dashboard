@@ -79111,13 +79111,20 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-12 08:15 WIB"
+    "generated_at": "2026-11-12 08:24 WIB"
   },
   "WtLmeALdH40": {
     "org_slug": "kanau-virtual",
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-11-12 08:15 WIB"
+    "generated_at": "2026-11-12 08:24 WIB"
+  },
+  "lvHbsTNvfIE": {
+    "org_slug": "vcosmix",
+    "ch_slug": "lea-lestari-ch",
+    "ch_name": "Lea Lestari Ch.",
+    "status": "live",
+    "generated_at": "2026-11-12 08:24 WIB"
   }
 }
