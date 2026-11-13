@@ -80377,8 +80377,8 @@
     "org_slug": "distrct-7",
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
-    "status": "live",
-    "generated_at": "2026-11-14 05:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-14 05:55 WIB"
   },
   "ITR80-fGVGs": {
     "org_slug": "distrct-7",
@@ -80414,5 +80414,12 @@
     "ch_name": "ioFiel Feliz Ch.【MagiSona】",
     "status": "vod",
     "generated_at": "2026-11-14 03:17 WIB"
+  },
+  "5f3SzWkDBE0": {
+    "org_slug": "pandavva",
+    "ch_slug": "bima-bayusena-pandavva",
+    "ch_name": "Bima Bayusena【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-14 05:55 WIB"
   }
 }
