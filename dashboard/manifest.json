@@ -79748,7 +79748,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "3vXGdNoPLnU": {
     "org_slug": "cozycazt",
@@ -79761,8 +79761,8 @@
     "org_slug": "distrct-7",
     "ch_slug": "kiyomi-gummy-ch",
     "ch_name": "Kiyomi Gummy Ch.",
-    "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "5pagW5xEgAM": {
     "org_slug": "asobu-production",
@@ -79825,7 +79825,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "TyUwij6rJ8I": {
     "org_slug": "hibikasekai",
@@ -79846,55 +79846,62 @@
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "gsxvcnXnVxA": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "vzS6F0V1Ruc": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "Vem4y7Xr-S0": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "-JqquJeLEP8": {
     "org_slug": "reverie",
     "ch_slug": "hirari-octavia-ch-r-verie",
     "ch_name": "Hirari Octavia Ch.【R𝄢VERIE】",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "lK45NUNGCMA": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "M82f0h8tnIQ": {
     "org_slug": "kymera",
     "ch_slug": "pomu-vr-ky-mera",
     "ch_name": "Pomu VR 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
   },
   "cUdt5GjT-ng": {
     "org_slug": "magniv",
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-13 14:19 WIB"
+    "generated_at": "2026-11-13 14:35 WIB"
+  },
+  "WnbQsEbhXwk": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "aiko-zurie-nawasena",
+    "ch_name": "Aiko Zurie 【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-11-13 14:35 WIB"
   }
 }
