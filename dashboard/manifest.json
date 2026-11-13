@@ -79748,7 +79748,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "3vXGdNoPLnU": {
     "org_slug": "cozycazt",
@@ -79825,7 +79825,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "TyUwij6rJ8I": {
     "org_slug": "hibikasekai",
@@ -79845,84 +79845,91 @@
     "org_slug": "uver-id",
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "gsxvcnXnVxA": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "vzS6F0V1Ruc": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "Vem4y7Xr-S0": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "-JqquJeLEP8": {
     "org_slug": "reverie",
     "ch_slug": "hirari-octavia-ch-r-verie",
     "ch_name": "Hirari Octavia Ch.【R𝄢VERIE】",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "lK45NUNGCMA": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "M82f0h8tnIQ": {
     "org_slug": "kymera",
     "ch_slug": "pomu-vr-ky-mera",
     "ch_name": "Pomu VR 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "cUdt5GjT-ng": {
     "org_slug": "magniv",
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "WnbQsEbhXwk": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "Ns6HXMvOvh4": {
     "org_slug": "snowvalley-agency",
     "ch_slug": "naona-neon-ch-snowvalley",
     "ch_name": "Naona Neon Ch. •SnowValley",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "HvS_RHVJopI": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
   },
   "sy56-qEfwVM": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-13 14:51 WIB"
+    "generated_at": "2026-11-13 15:24 WIB"
+  },
+  "9gjBa2sICdY": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "thalita-sylvaine-whicker-butler",
+    "ch_name": "Thalita Sylvaine【Whicker Butler】",
+    "status": "live",
+    "generated_at": "2026-11-13 15:24 WIB"
   }
 }
