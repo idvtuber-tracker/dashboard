@@ -79748,7 +79748,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-13 12:44 WIB"
+    "generated_at": "2026-11-13 13:00 WIB"
   },
   "3vXGdNoPLnU": {
     "org_slug": "cozycazt",
@@ -79762,7 +79762,7 @@
     "ch_slug": "kiyomi-gummy-ch",
     "ch_name": "Kiyomi Gummy Ch.",
     "status": "live",
-    "generated_at": "2026-11-13 12:44 WIB"
+    "generated_at": "2026-11-13 13:00 WIB"
   },
   "5pagW5xEgAM": {
     "org_slug": "asobu-production",
@@ -79776,7 +79776,7 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-13 12:44 WIB"
+    "generated_at": "2026-11-13 13:00 WIB"
   },
   "i5Yj2TY2lMU": {
     "org_slug": "yorukaze",
@@ -79796,15 +79796,15 @@
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
-    "status": "live",
-    "generated_at": "2026-11-13 12:44 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-13 13:00 WIB"
   },
   "cnnjmYo7o3U": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-11-13 12:44 WIB"
+    "generated_at": "2026-11-13 13:00 WIB"
   },
   "2QWWKGJ9iGQ": {
     "org_slug": "aisatset",
@@ -79817,22 +79817,22 @@
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
-    "status": "live",
-    "generated_at": "2026-11-13 12:44 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-13 13:00 WIB"
   },
   "O5TThCopU44": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-13 12:44 WIB"
+    "generated_at": "2026-11-13 13:00 WIB"
   },
   "TyUwij6rJ8I": {
     "org_slug": "hibikasekai",
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-13 12:44 WIB"
+    "generated_at": "2026-11-13 13:00 WIB"
   },
   "whEJG-twlV4": {
     "org_slug": "kanau-virtual",
@@ -79846,6 +79846,6 @@
     "ch_slug": "jae-min-ho-uver-id",
     "ch_name": "Jae Min Ho [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-13 12:44 WIB"
+    "generated_at": "2026-11-13 13:00 WIB"
   }
 }
