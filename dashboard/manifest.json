@@ -80420,7 +80420,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-14 14:34 WIB"
+    "generated_at": "2026-11-14 14:49 WIB"
   },
   "CpaSUls-uxE": {
     "org_slug": "pandavva",
@@ -80476,14 +80476,14 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-14 14:34 WIB"
+    "generated_at": "2026-11-14 14:49 WIB"
   },
   "bDBu9hA4PAo": {
     "org_slug": "cozycazt",
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-14 14:34 WIB"
+    "generated_at": "2026-11-14 14:49 WIB"
   },
   "iPt4NFyEtbo": {
     "org_slug": "kymera",
@@ -80497,27 +80497,41 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-14 14:34 WIB"
+    "generated_at": "2026-11-14 14:49 WIB"
   },
   "8ZvnKtvYjvM": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-11-14 14:34 WIB"
+    "generated_at": "2026-11-14 14:49 WIB"
   },
   "MK_AteJBpMI": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-14 14:34 WIB"
+    "generated_at": "2026-11-14 14:49 WIB"
   },
   "x-Q_pLwDBdI": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "vod",
+    "generated_at": "2026-11-14 14:49 WIB"
+  },
+  "ws-UfbbGEXg": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "kira-hyuu-famisa-hibikasekai",
+    "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-14 14:34 WIB"
+    "generated_at": "2026-11-14 14:49 WIB"
+  },
+  "GC-Z8GNyc_k": {
+    "org_slug": "neoespoir",
+    "ch_slug": "nachann-wa-harmonie-ch",
+    "ch_name": "Nachann Wa Harmonie Ch.",
+    "status": "live",
+    "generated_at": "2026-11-14 14:49 WIB"
   }
 }
