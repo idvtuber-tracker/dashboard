@@ -80546,7 +80546,7 @@
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-14 18:18 WIB"
+    "generated_at": "2026-11-14 18:33 WIB"
   },
   "2QJCBHJmGzY": {
     "org_slug": "project-livium",
@@ -80567,55 +80567,69 @@
     "ch_slug": "shin-derra-ky-mera",
     "ch_name": "Shin Derra 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-14 18:18 WIB"
+    "generated_at": "2026-11-14 18:33 WIB"
   },
   "tOpIdvhqSck": {
     "org_slug": "distrct-7",
     "ch_slug": "kiyomi-gummy-ch",
     "ch_name": "Kiyomi Gummy Ch.",
-    "status": "live",
-    "generated_at": "2026-11-14 18:18 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-14 18:33 WIB"
   },
   "tumGA20D_40": {
     "org_slug": "kymera",
     "ch_slug": "lioye-ky-mera",
     "ch_name": "lioye 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-14 18:18 WIB"
+    "generated_at": "2026-11-14 18:33 WIB"
   },
   "KAod_uvFLJY": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-14 18:18 WIB"
+    "generated_at": "2026-11-14 18:33 WIB"
   },
   "vlicbvmckUU": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-14 18:18 WIB"
+    "generated_at": "2026-11-14 18:33 WIB"
   },
   "SNCsanDpN0Y": {
     "org_slug": "afterain",
     "ch_slug": "nemu-yasumi-afterain",
     "ch_name": "Nemu Yasumi 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-11-14 18:18 WIB"
+    "generated_at": "2026-11-14 18:33 WIB"
   },
   "cIZ_PoCX9JQ": {
     "org_slug": "afterain",
     "ch_slug": "delia-rinquinn-afterain",
     "ch_name": "Delia Rinquinn【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-11-14 18:18 WIB"
+    "generated_at": "2026-11-14 18:33 WIB"
   },
   "ZfxV026oKmM": {
     "org_slug": "afterain",
     "ch_slug": "miri-murasaki-afterain",
     "ch_name": "Miri Murasaki🐨【AfteRain】",
     "status": "live",
-    "generated_at": "2026-11-14 18:18 WIB"
+    "generated_at": "2026-11-14 18:33 WIB"
+  },
+  "xFBXK-pCpK0": {
+    "org_slug": "project-livium",
+    "ch_slug": "silvia-valleria-ch-livipro",
+    "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-14 18:33 WIB"
+  },
+  "kw2oXFWQcjo": {
+    "org_slug": "distrct-7",
+    "ch_slug": "monday-elysia-ch",
+    "ch_name": "Monday Elysia Ch.",
+    "status": "live",
+    "generated_at": "2026-11-14 18:33 WIB"
   }
 }
