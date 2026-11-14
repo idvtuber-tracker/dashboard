@@ -80581,7 +80581,7 @@
     "ch_slug": "lioye-ky-mera",
     "ch_name": "lioye 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "KAod_uvFLJY": {
     "org_slug": "pandavva",
@@ -80595,35 +80595,35 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "SNCsanDpN0Y": {
     "org_slug": "afterain",
     "ch_slug": "nemu-yasumi-afterain",
     "ch_name": "Nemu Yasumi 【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "cIZ_PoCX9JQ": {
     "org_slug": "afterain",
     "ch_slug": "delia-rinquinn-afterain",
     "ch_name": "Delia Rinquinn【AFTERAIN】",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "ZfxV026oKmM": {
     "org_slug": "afterain",
     "ch_slug": "miri-murasaki-afterain",
     "ch_name": "Miri Murasaki🐨【AfteRain】",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "xFBXK-pCpK0": {
     "org_slug": "project-livium",
     "ch_slug": "silvia-valleria-ch-livipro",
     "ch_name": "Silvia Valleria Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "kw2oXFWQcjo": {
     "org_slug": "distrct-7",
@@ -80637,34 +80637,48 @@
     "ch_slug": "airia-eroselle-mejikuhibiniu",
     "ch_name": "Airia Eroselle【Mejikuhibiniu】",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "QH3Vb9wFMPQ": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "qVYqasp9ZDs": {
     "org_slug": "pandavva",
     "ch_slug": "arjuna-arkana-pandavva",
     "ch_name": "Arjuna Arkana【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "hZOrSsB1da8": {
     "org_slug": "distrct-7",
     "ch_slug": "vayne-arcellio",
     "ch_name": "Vayne Arcellio",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
   },
   "TR3H_U0_M74": {
     "org_slug": "asobu-production",
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-14 19:04 WIB"
+    "generated_at": "2026-11-14 19:20 WIB"
+  },
+  "K-PcMtLAt1I": {
+    "org_slug": "project-livium",
+    "ch_slug": "indira-naylarissa-ch-livipro",
+    "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-14 19:20 WIB"
+  },
+  "OPS7S_WS9XY": {
+    "org_slug": "project-livium",
+    "ch_slug": "ymelia-meiru-ch-livipro",
+    "ch_name": "Ymelia Meiru Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-14 19:20 WIB"
   }
 }
