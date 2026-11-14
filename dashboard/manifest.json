@@ -80420,13 +80420,27 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-14 08:14 WIB"
+    "generated_at": "2026-11-14 08:26 WIB"
   },
   "CpaSUls-uxE": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-14 08:14 WIB"
+    "generated_at": "2026-11-14 08:26 WIB"
+  },
+  "8I64P_yvSrs": {
+    "org_slug": "evren-community",
+    "ch_slug": "lyanna-chernovskaya",
+    "ch_name": "Lyanna Chernovskaya",
+    "status": "live",
+    "generated_at": "2026-11-14 08:26 WIB"
+  },
+  "65w2owsSKqA": {
+    "org_slug": "vcosmix",
+    "ch_slug": "lea-lestari-ch",
+    "ch_name": "Lea Lestari Ch.",
+    "status": "live",
+    "generated_at": "2026-11-14 08:26 WIB"
   }
 }
