@@ -80846,8 +80846,8 @@
     "org_slug": "versa",
     "ch_slug": "alarich-versa",
     "ch_name": "Alarich【VERSA】",
-    "status": "live",
-    "generated_at": "2026-11-15 05:42 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-15 05:58 WIB"
   },
   "gVZbVkXiK0Q": {
     "org_slug": "asobu-production",
@@ -80938,6 +80938,6 @@
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-15 05:42 WIB"
+    "generated_at": "2026-11-15 05:58 WIB"
   }
 }
