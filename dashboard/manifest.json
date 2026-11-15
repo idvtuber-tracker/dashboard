@@ -80937,15 +80937,15 @@
     "org_slug": "miqela",
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
-    "status": "live",
-    "generated_at": "2026-11-15 08:36 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-15 08:51 WIB"
   },
   "KQB8gV_Euww": {
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-15 08:36 WIB"
+    "generated_at": "2026-11-15 08:51 WIB"
   },
   "Apwun5qDMJI": {
     "org_slug": "neoespoir",
@@ -80959,13 +80959,20 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-15 08:36 WIB"
+    "generated_at": "2026-11-15 08:51 WIB"
   },
   "T2dbwWzVG2g": {
     "org_slug": "evren-community",
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-11-15 08:36 WIB"
+    "generated_at": "2026-11-15 08:51 WIB"
+  },
+  "ZIbVLc5DU84": {
+    "org_slug": "cozycazt",
+    "ch_slug": "lyta-luciana-ch-cozycazt",
+    "ch_name": "Lyta Luciana Ch.【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-11-15 08:51 WIB"
   }
 }
