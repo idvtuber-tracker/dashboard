@@ -81392,8 +81392,8 @@
     "org_slug": "laeta",
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
-    "status": "live",
-    "generated_at": "2026-11-16 01:32 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-16 01:47 WIB"
   },
   "rbZhSibtdQ8": {
     "org_slug": "kymera",
@@ -81407,7 +81407,7 @@
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-16 01:32 WIB"
+    "generated_at": "2026-11-16 01:47 WIB"
   },
   "R_AlqFOhcXw": {
     "org_slug": "project-livium",
@@ -81421,6 +81421,6 @@
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-16 01:32 WIB"
+    "generated_at": "2026-11-16 01:47 WIB"
   }
 }
