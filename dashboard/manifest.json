@@ -81126,8 +81126,8 @@
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
-    "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "GG3VeUttRr8": {
     "org_slug": "arvi-media",
@@ -81260,7 +81260,7 @@
     "ch_slug": "violetta-calytrix",
     "ch_name": "Violetta Calytrix",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "ugfV6YsX_Z4": {
     "org_slug": "magniv",
@@ -81281,7 +81281,7 @@
     "ch_slug": "eizie-aletha-ch",
     "ch_name": "Eizie Aletha Ch.",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "bWhn0BewPd8": {
     "org_slug": "uver-id",
@@ -81301,8 +81301,8 @@
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
-    "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "rnSOOHyFi-Y": {
     "org_slug": "oristarium",
@@ -81323,56 +81323,56 @@
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "TImoUgeCqpY": {
     "org_slug": "whicker-butler",
     "ch_slug": "valthea-nankila-whicker-butler",
     "ch_name": "Valthea Nankila 【 Whicker Butler 】",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "RV5plhSl3Sk": {
     "org_slug": "hibikasekai",
     "ch_slug": "murasaki-kenji-hibikasekai",
     "ch_name": "Murasaki Kenji 🫐〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "Fuy07XE3rtI": {
     "org_slug": "kymera",
     "ch_slug": "shin-derra-ky-mera",
     "ch_name": "Shin Derra 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "UT14u5JnF4c": {
     "org_slug": "whicker-butler",
     "ch_slug": "hiyori-renalie",
     "ch_name": "Hiyori Renalie",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "Le8DJLGYqsE": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "Kxv_qea_JV8": {
     "org_slug": "dasoriyal",
     "ch_slug": "silveryshore-ch",
     "ch_name": "Silveryshore Ch.",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "35z29QF8iW8": {
     "org_slug": "project-livium",
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "6FH7DkROX4M": {
     "org_slug": "cozycazt",
@@ -81393,7 +81393,7 @@
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-15 22:37 WIB"
+    "generated_at": "2026-11-15 22:53 WIB"
   },
   "rbZhSibtdQ8": {
     "org_slug": "kymera",
@@ -81401,5 +81401,12 @@
     "ch_name": "KY:MERA",
     "status": "vod",
     "generated_at": "2026-11-15 22:15 WIB"
+  },
+  "G5odaD92nB8": {
+    "org_slug": "cozycazt",
+    "ch_slug": "vianna-risendria-cozycazt",
+    "ch_name": "Vianna Risendria 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-11-15 22:53 WIB"
   }
 }
