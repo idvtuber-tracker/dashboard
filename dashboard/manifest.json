@@ -80945,7 +80945,7 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "Apwun5qDMJI": {
     "org_slug": "neoespoir",
@@ -80958,8 +80958,8 @@
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
-    "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "T2dbwWzVG2g": {
     "org_slug": "evren-community",
@@ -81071,21 +81071,21 @@
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "-BLI4H6_22I": {
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "2j8nqnCQ90I": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "3ZTKNju55mo": {
     "org_slug": "utora",
@@ -81106,41 +81106,48 @@
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "uwG9S1-xVfw": {
     "org_slug": "miqela",
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "VITPGTFnCuM": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "pz_PgqKEFs4": {
     "org_slug": "kanau-virtual",
     "ch_slug": "nela-mellifera-kanau-virtual",
     "ch_name": "Nela Mellifera【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "GG3VeUttRr8": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
   },
   "9CcNxRwNlGw": {
     "org_slug": "kymera",
     "ch_slug": "pomu-vr-ky-mera",
     "ch_name": "Pomu VR 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-15 17:19 WIB"
+    "generated_at": "2026-11-15 17:34 WIB"
+  },
+  "__oFgX3jmCQ": {
+    "org_slug": "ukoi-virtual",
+    "ch_slug": "allencia-nirvellia-ukoi-virtual",
+    "ch_name": "Allencia Nirvellia【UKOI Virtual】",
+    "status": "live",
+    "generated_at": "2026-11-15 17:34 WIB"
   }
 }
