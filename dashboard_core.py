@@ -233,7 +233,6 @@ ORG_MAP = {
         "channels": [
             ("Agata Seven【VERSA】", "talent", "UC4NdM7WwMvyGzkUr0dsSGJQ"),  
             ("Alarich【VERSA】", "talent", "UCn58MSGrtsDY8N_VhyLcPjg"),  
-            ("Eray Ryuki【VERSA】", "talent", "UCXp26d9RQqUnCeRwaulXZgA"),  
             ("Ryoutaa【VERSA】", "talent", "UCRQCV5LXaJKVQ35qaMuI0dw"),  
             ("SouRizu☪︎【VERSA】", "talent", "UCs2eFSeyAQqjH7PyjZwSH1w"),  
         ],
@@ -355,23 +354,6 @@ ORG_MAP = {
             ("Namazu Reire【ASOBU】", "talent", "UCOXAPlV_XxMbfZelSbHc0IQ"),  
             ("Lyra Monphelia 【ASOBU】", "talent", "UC6cGmy7IqsY6z3Ng6tOFWFA"),  
             ("Kalani Rainash 【ASOBU】", "talent", "UCM41EWO7hDMfA3pTAWEXmXw"),  
-        ],
-    },
-    "snowvalley-agency": {
-        "label":   "SnowValley Agency",
-        "color":   "#a0c4ff",
-        "color_light": "#0362ff",
-        "desc":    "Independent creative group who operates with the motto 'Together We Entertain the World with Laughter and Joy'.",
-        "channels": [
-            ("SnowValley Agency", "org", "UCJrlIe6-YsZEZ-WhWpkQ8xQ"),  
-            ("Alicia Ravenna Ch. •SnowValley", "talent", "UC2LODZvn-QQupykmwxey4zA"),  
-            ("Tuti Hanna Ch. •SnowValley", "talent", "UCigj-FBk5US8xWxgStdNw_A"),  
-            ("Shayla Meyjiera Ch •SnowValley", "talent", "UCNyZthXc-DusXe_A89XOdUQ"),  
-            ("Serein Venetia Ch. •SnowValley", "talent", "UCTQjwoiIQQ9giaeJS2WMTFw"),  
-            ("Celina Olystia Ch •SnowValley", "talent", "UCPAOc_fgQeTjHMAni8rx-Cw"),  
-            ("Shine Naira Ch. •SnowValley", "talent", "UC9ik6MJGi3esadK15ioS6FA"),  
-            ("Naona Neon Ch. •SnowValley", "talent", "UCIW8RtcLw4WiG1ul2dTaryA"),  
-            ("Shaz Eilya Ch •SnowValley", "talent", "UC39htB2o1MUpEttiRH-VPog"),  
         ],
     },
     "evren-community": {
@@ -661,6 +643,32 @@ ORG_MAP = {
             ("Tabi Noji", "talent", "UCjXM_y-b42rh0PcDi7-V3Hg"),  
         ],
     },
+    "anxia": {
+        "label":   "ANXiA",
+        "color":   "#f5f5f5",
+        "color_light": "#0a0a0a",
+        "desc":    "Indie VTubers group from beyond the boundaries of the world.",
+        "channels": [
+            ("ANXiA", "org", "UClAPgXi_6C0Dk6CA-X-5rew"),  
+            ("Aesma Deux Ch.【ANXiA】", "talent", "UCPCczm00p58rh9HMAnkfcOA"),  
+            ("Faeleren Vael Ch.【ANXiA】", "talent", "UCL3EYNH8hAUXJ5Q0EJqx2CA"),  
+            ("Ken Ravenhart Ch.【ANXiA】", "talent", "UCRxDKVZ0VbJfh72VaxsfS_Q"),  
+            ("Scarla Catessa【ANXiA】", "talent", "UCWBgAWcZTrXVS-5EQSw8yVQ"),  
+            ("Elysia Yinara【ANXiA】", "talent", "UCjjjDhZyKsWpxLwN8GuX2hg"),  
+            ("Punielle Lyneth【ANXiA】", "talent", "UCUCTL9QC6WY-RZxay7IkiPg"),  
+        ],
+    },
+    "kira-idol-project": {
+        "label":   "KIRA IDOL PROJECT",
+        "color":   "#8496db",
+        "color_light": "#112e74",
+        "desc":    "New wave of Idol VTuber group.",
+        "channels": [
+            ("KIRA IDOL PROJECT-キラ・アイドル・プロジェクト", "org", "UCf74g-QIOw9imxm3erN4a3Q"),  
+            ("Moehara Shizuku CH.モエハラ雫 [KIRA IDOL]", "talent", "UCZmZ0RLgtbIbwzrP5b5LlEw"),  
+            ("Miku Tachibana CH.ミク橘[KIRA IDOL]", "talent", "UCLEicYqkAVFK_g4F36n1Elw"),  
+        ],
+    },  
 }
 
 # Build reverse lookup: channel_name → (org_slug, org)
