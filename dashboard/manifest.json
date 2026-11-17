@@ -81568,7 +81568,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-17 17:49 WIB"
+    "generated_at": "2026-11-17 18:04 WIB"
   },
   "BE8BbL7U1i4": {
     "org_slug": "uver-id",
@@ -81589,14 +81589,14 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-11-17 17:49 WIB"
+    "generated_at": "2026-11-17 18:04 WIB"
   },
   "mSFtBOn3qNs": {
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-11-17 17:49 WIB"
+    "generated_at": "2026-11-17 18:04 WIB"
   },
   "whBmnV28yMc": {
     "org_slug": "versa",
@@ -81609,15 +81609,15 @@
     "org_slug": "uver-id",
     "ch_slug": "wei-yang-uver-id",
     "ch_name": "Wei Yang [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-11-17 17:49 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-17 18:04 WIB"
   },
   "SkOvII6JzC0": {
     "org_slug": "whicker-butler",
     "ch_slug": "vanessa-yue",
     "ch_name": "Vanessa Yue",
-    "status": "live",
-    "generated_at": "2026-11-17 17:49 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-17 18:04 WIB"
   },
   "vOA6C7k6pKw": {
     "org_slug": "kira-idol-project",
@@ -81631,21 +81631,21 @@
     "ch_slug": "reika-ayasa-magisona",
     "ch_name": "Reika Ayasa 【MagiSona】",
     "status": "live",
-    "generated_at": "2026-11-17 17:49 WIB"
+    "generated_at": "2026-11-17 18:04 WIB"
   },
   "92J_C9LkZvQ": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-11-17 17:49 WIB"
+    "generated_at": "2026-11-17 18:04 WIB"
   },
   "lqq73LdOkTs": {
     "org_slug": "kymera",
     "ch_slug": "lioye-ky-mera",
     "ch_name": "lioye 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-17 17:49 WIB"
+    "generated_at": "2026-11-17 18:04 WIB"
   },
   "Inr7idoY0N4": {
     "org_slug": "project-livium",
@@ -81653,5 +81653,19 @@
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "vod",
     "generated_at": "2026-11-17 17:05 WIB"
+  },
+  "rDW5qFMh678": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-11-17 18:04 WIB"
+  },
+  "Pq7UG6lHruA": {
+    "org_slug": "pandavva",
+    "ch_slug": "yudistira-yogendra-pandavva",
+    "ch_name": "Yudistira Yogendra 【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-17 18:04 WIB"
   }
 }
