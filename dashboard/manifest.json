@@ -81568,7 +81568,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "BE8BbL7U1i4": {
     "org_slug": "uver-id",
@@ -81589,7 +81589,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "mSFtBOn3qNs": {
     "org_slug": "whicker-butler",
@@ -81644,8 +81644,8 @@
     "org_slug": "kymera",
     "ch_slug": "lioye-ky-mera",
     "ch_name": "lioye 『 KY:MERA 』",
-    "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "Inr7idoY0N4": {
     "org_slug": "project-livium",
@@ -81659,62 +81659,90 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "Pq7UG6lHruA": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "HBASYlvsyks": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "PE6VCvQX45M": {
     "org_slug": "distrct-7",
     "ch_slug": "kiyomi-gummy-ch",
     "ch_name": "Kiyomi Gummy Ch.",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "8bgENJRk_ks": {
     "org_slug": "arvi-media",
     "ch_slug": "aika-sakuraba-ch-arvi",
     "ch_name": "Aika Sakuraba Ch. 【ARVI】",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "8QlHztvqqFY": {
     "org_slug": "prism-nova",
     "ch_slug": "oxa-lydea-prism-nova",
     "ch_name": "Oxa Lydea 【Prism:NOVA】",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "95RsVdJygw4": {
     "org_slug": "dasoriyal",
     "ch_slug": "karissa-sharlotte-dasoriyal",
     "ch_name": "Karissa Sharlotte『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "BCmUCUXYjSU": {
     "org_slug": "kira-idol-project",
     "ch_slug": "moehara-shizuku-ch-kira-idol",
     "ch_name": "Moehara Shizuku CH.モエハラ雫 [KIRA IDOL]",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
   },
   "xiHf-PHUfXM": {
     "org_slug": "distrct-7",
     "ch_slug": "avnore-daryush",
     "ch_name": "Avnore Daryush",
     "status": "live",
-    "generated_at": "2026-11-17 19:08 WIB"
+    "generated_at": "2026-11-17 19:24 WIB"
+  },
+  "CH3Vg0htsxE": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "nanami-chia",
+    "ch_name": "Nanami Chia",
+    "status": "live",
+    "generated_at": "2026-11-17 19:24 WIB"
+  },
+  "dq1JSwyL2bU": {
+    "org_slug": "oristarium",
+    "ch_slug": "juliana-shafira",
+    "ch_name": "Juliana Shafira",
+    "status": "live",
+    "generated_at": "2026-11-17 19:24 WIB"
+  },
+  "Di6ztDsnGwM": {
+    "org_slug": "enygmyst-project",
+    "ch_slug": "aera-ovistalia-enigmyst-project",
+    "ch_name": "Aera Ovistalia 【ENIGMYST Project】",
+    "status": "live",
+    "generated_at": "2026-11-17 19:24 WIB"
+  },
+  "KZq8Z_dhvdM": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "esther-van-helsing-mejikuhibiniu",
+    "ch_name": "Esther Van Helsing 【Mejikuhibiniu】",
+    "status": "live",
+    "generated_at": "2026-11-17 19:24 WIB"
   }
 }
