@@ -81554,28 +81554,28 @@
     "ch_slug": "miri-murasaki-afterain",
     "ch_name": "Miri Murasaki🐨【AfteRain】",
     "status": "live",
-    "generated_at": "2026-11-17 15:26 WIB"
+    "generated_at": "2026-11-17 15:42 WIB"
   },
   "xMDKKbinxVg": {
     "org_slug": "uver-id",
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-11-17 15:26 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-17 15:42 WIB"
   },
   "WpOu469KDiI": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-17 15:26 WIB"
+    "generated_at": "2026-11-17 15:42 WIB"
   },
   "BE8BbL7U1i4": {
     "org_slug": "uver-id",
     "ch_slug": "isabella-naemi-ch-uver-id",
     "ch_name": "Isabella Naemi. Ch. ★ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-17 15:26 WIB"
+    "generated_at": "2026-11-17 15:42 WIB"
   },
   "E_-uK4afXms": {
     "org_slug": "kymera",
@@ -81589,13 +81589,20 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-11-17 15:26 WIB"
+    "generated_at": "2026-11-17 15:42 WIB"
   },
   "mSFtBOn3qNs": {
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-11-17 15:26 WIB"
+    "generated_at": "2026-11-17 15:42 WIB"
+  },
+  "whBmnV28yMc": {
+    "org_slug": "versa",
+    "ch_slug": "ryoutaa-versa",
+    "ch_name": "Ryoutaa【VERSA】",
+    "status": "live",
+    "generated_at": "2026-11-17 15:42 WIB"
   }
 }
