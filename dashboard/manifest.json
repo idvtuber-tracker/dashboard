@@ -81568,7 +81568,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-17 18:38 WIB"
+    "generated_at": "2026-11-17 18:53 WIB"
   },
   "BE8BbL7U1i4": {
     "org_slug": "uver-id",
@@ -81589,7 +81589,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-11-17 18:38 WIB"
+    "generated_at": "2026-11-17 18:53 WIB"
   },
   "mSFtBOn3qNs": {
     "org_slug": "whicker-butler",
@@ -81631,21 +81631,21 @@
     "ch_slug": "reika-ayasa-magisona",
     "ch_name": "Reika Ayasa 【MagiSona】",
     "status": "live",
-    "generated_at": "2026-11-17 18:38 WIB"
+    "generated_at": "2026-11-17 18:53 WIB"
   },
   "92J_C9LkZvQ": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
-    "status": "live",
-    "generated_at": "2026-11-17 18:38 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-17 18:53 WIB"
   },
   "lqq73LdOkTs": {
     "org_slug": "kymera",
     "ch_slug": "lioye-ky-mera",
     "ch_name": "lioye 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-17 18:38 WIB"
+    "generated_at": "2026-11-17 18:53 WIB"
   },
   "Inr7idoY0N4": {
     "org_slug": "project-livium",
@@ -81659,20 +81659,27 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-17 18:38 WIB"
+    "generated_at": "2026-11-17 18:53 WIB"
   },
   "Pq7UG6lHruA": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-17 18:38 WIB"
+    "generated_at": "2026-11-17 18:53 WIB"
   },
   "HBASYlvsyks": {
     "org_slug": "yorukaze",
     "ch_slug": "ellise-youka-yorukaze",
     "ch_name": "Ellise Youka【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-11-17 18:38 WIB"
+    "generated_at": "2026-11-17 18:53 WIB"
+  },
+  "PE6VCvQX45M": {
+    "org_slug": "distrct-7",
+    "ch_slug": "kiyomi-gummy-ch",
+    "ch_name": "Kiyomi Gummy Ch.",
+    "status": "live",
+    "generated_at": "2026-11-17 18:53 WIB"
   }
 }
