@@ -81527,5 +81527,40 @@
     "ch_name": "Gema Gathika【MagniV】",
     "status": "vod",
     "generated_at": "2026-11-17 00:52 WIB"
+  },
+  "LTYCxoiOnlo": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "aiko-zurie-nawasena",
+    "ch_name": "Aiko Zurie 【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-11-17 13:36 WIB"
+  },
+  "HNUcCIKB2yY": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "usami-cyra",
+    "ch_name": "Usami Cyra",
+    "status": "live",
+    "generated_at": "2026-11-17 13:36 WIB"
+  },
+  "lOZjxZy_p98": {
+    "org_slug": "vcosmix",
+    "ch_slug": "miichan-chu-ch",
+    "ch_name": "Miichan Chu Ch.",
+    "status": "live",
+    "generated_at": "2026-11-17 13:36 WIB"
+  },
+  "bu1QxZgnjUU": {
+    "org_slug": "afterain",
+    "ch_slug": "miri-murasaki-afterain",
+    "ch_name": "Miri Murasaki🐨【AfteRain】",
+    "status": "live",
+    "generated_at": "2026-11-17 13:36 WIB"
+  },
+  "xMDKKbinxVg": {
+    "org_slug": "uver-id",
+    "ch_slug": "nephthya-anya-ch-uver-id",
+    "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-11-17 13:36 WIB"
   }
 }
