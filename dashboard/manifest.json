@@ -82030,14 +82030,14 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-18 17:09 WIB"
+    "generated_at": "2026-11-18 17:25 WIB"
   },
   "KS8VF2LaGhw": {
     "org_slug": "oristarium",
     "ch_slug": "ahomika-ch-oristarium",
     "ch_name": "Ahomika_Ch【Oristarium】",
-    "status": "live",
-    "generated_at": "2026-11-18 17:09 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-18 17:25 WIB"
   },
   "yH979owtpa8": {
     "org_slug": "project-livium",
@@ -82051,7 +82051,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-18 17:09 WIB"
+    "generated_at": "2026-11-18 17:25 WIB"
   },
   "2vAP0uojfDw": {
     "org_slug": "kymera",
@@ -82065,34 +82065,34 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-18 17:09 WIB"
+    "generated_at": "2026-11-18 17:25 WIB"
   },
   "yVmIejFNsKI": {
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-18 17:09 WIB"
+    "generated_at": "2026-11-18 17:25 WIB"
   },
   "ySBLSGVN1Fs": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-11-18 17:09 WIB"
+    "generated_at": "2026-11-18 17:25 WIB"
   },
   "D6PpRekP1K8": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-18 17:09 WIB"
+    "generated_at": "2026-11-18 17:25 WIB"
   },
   "BWhfFTX1EDE": {
     "org_slug": "kanau-virtual",
     "ch_slug": "fein-kanau-virtual",
     "ch_name": "fein 【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-11-18 17:09 WIB"
+    "generated_at": "2026-11-18 17:25 WIB"
   }
 }
