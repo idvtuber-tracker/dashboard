@@ -82072,14 +82072,14 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-18 18:28 WIB"
+    "generated_at": "2026-11-18 18:44 WIB"
   },
   "ySBLSGVN1Fs": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-11-18 18:28 WIB"
+    "generated_at": "2026-11-18 18:44 WIB"
   },
   "D6PpRekP1K8": {
     "org_slug": "magniv",
@@ -82093,28 +82093,28 @@
     "ch_slug": "fein-kanau-virtual",
     "ch_name": "fein 【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-11-18 18:28 WIB"
+    "generated_at": "2026-11-18 18:44 WIB"
   },
   "WDXi-Z-LHgM": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-18 18:28 WIB"
+    "generated_at": "2026-11-18 18:44 WIB"
   },
   "EDZTvUzOibk": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-18 18:28 WIB"
+    "generated_at": "2026-11-18 18:44 WIB"
   },
   "VsQc4sO0ir0": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-18 18:28 WIB"
+    "generated_at": "2026-11-18 18:44 WIB"
   },
   "9Gx3R9fDmow": {
     "org_slug": "dasoriyal",
@@ -82128,6 +82128,20 @@
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-11-18 18:28 WIB"
+    "generated_at": "2026-11-18 18:44 WIB"
+  },
+  "q1ebIKUbAz0": {
+    "org_slug": "magisona",
+    "ch_slug": "reika-ayasa-magisona",
+    "ch_name": "Reika Ayasa 【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-11-18 18:44 WIB"
+  },
+  "ihkrL0h1mFk": {
+    "org_slug": "uver-id",
+    "ch_slug": "cyure-michantrell-ch-uver-id",
+    "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-11-18 18:44 WIB"
   }
 }
