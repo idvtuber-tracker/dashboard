@@ -82030,41 +82030,48 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-18 15:18 WIB"
+    "generated_at": "2026-11-18 15:34 WIB"
   },
   "KS8VF2LaGhw": {
     "org_slug": "oristarium",
     "ch_slug": "ahomika-ch-oristarium",
     "ch_name": "Ahomika_Ch【Oristarium】",
     "status": "live",
-    "generated_at": "2026-11-18 15:18 WIB"
+    "generated_at": "2026-11-18 15:34 WIB"
   },
   "yH979owtpa8": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-18 15:18 WIB"
+    "generated_at": "2026-11-18 15:34 WIB"
   },
   "NJKkauHwdSY": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-18 15:18 WIB"
+    "generated_at": "2026-11-18 15:34 WIB"
   },
   "2vAP0uojfDw": {
     "org_slug": "kymera",
     "ch_slug": "pomu-vr-ky-mera",
     "ch_name": "Pomu VR 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-18 15:18 WIB"
+    "generated_at": "2026-11-18 15:34 WIB"
   },
   "uap_fj0SiI4": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-18 15:18 WIB"
+    "generated_at": "2026-11-18 15:34 WIB"
+  },
+  "yVmIejFNsKI": {
+    "org_slug": "laeta",
+    "ch_slug": "shiraishi-oriel-laeta",
+    "ch_name": "Shiraishi Oriel【LAETA】",
+    "status": "live",
+    "generated_at": "2026-11-18 15:34 WIB"
   }
 }
