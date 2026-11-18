@@ -82051,7 +82051,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-18 17:56 WIB"
+    "generated_at": "2026-11-18 18:02 WIB"
   },
   "2vAP0uojfDw": {
     "org_slug": "kymera",
@@ -82072,34 +82072,55 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-18 17:56 WIB"
+    "generated_at": "2026-11-18 18:02 WIB"
   },
   "ySBLSGVN1Fs": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-11-18 17:56 WIB"
+    "generated_at": "2026-11-18 18:02 WIB"
   },
   "D6PpRekP1K8": {
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-18 17:56 WIB"
+    "generated_at": "2026-11-18 18:02 WIB"
   },
   "BWhfFTX1EDE": {
     "org_slug": "kanau-virtual",
     "ch_slug": "fein-kanau-virtual",
     "ch_name": "fein 【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-11-18 17:56 WIB"
+    "generated_at": "2026-11-18 18:02 WIB"
   },
   "WDXi-Z-LHgM": {
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-18 17:56 WIB"
+    "generated_at": "2026-11-18 18:02 WIB"
+  },
+  "EDZTvUzOibk": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-11-18 18:02 WIB"
+  },
+  "VsQc4sO0ir0": {
+    "org_slug": "pandavva",
+    "ch_slug": "yudistira-yogendra-pandavva",
+    "ch_name": "Yudistira Yogendra 【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-18 18:02 WIB"
+  },
+  "9Gx3R9fDmow": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "gabriel-abyssia-dasoriyal",
+    "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
+    "status": "vod",
+    "generated_at": "2026-11-18 18:02 WIB"
   }
 }
