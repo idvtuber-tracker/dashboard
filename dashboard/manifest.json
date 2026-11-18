@@ -82023,20 +82023,34 @@
     "ch_slug": "kiyomi-gummy-ch",
     "ch_name": "Kiyomi Gummy Ch.",
     "status": "live",
-    "generated_at": "2026-11-18 13:27 WIB"
+    "generated_at": "2026-11-18 13:43 WIB"
   },
   "8UPZVxwzLDM": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-18 13:27 WIB"
+    "generated_at": "2026-11-18 13:43 WIB"
   },
   "KS8VF2LaGhw": {
     "org_slug": "oristarium",
     "ch_slug": "ahomika-ch-oristarium",
     "ch_name": "Ahomika_Ch【Oristarium】",
     "status": "live",
-    "generated_at": "2026-11-18 13:27 WIB"
+    "generated_at": "2026-11-18 13:43 WIB"
+  },
+  "yH979owtpa8": {
+    "org_slug": "project-livium",
+    "ch_slug": "indira-naylarissa-ch-livipro",
+    "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-18 13:43 WIB"
+  },
+  "NJKkauHwdSY": {
+    "org_slug": "evren-community",
+    "ch_slug": "lyanna-chernovskaya",
+    "ch_name": "Lyanna Chernovskaya",
+    "status": "live",
+    "generated_at": "2026-11-18 13:43 WIB"
   }
 }
