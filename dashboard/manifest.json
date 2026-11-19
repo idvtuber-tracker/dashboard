@@ -82534,7 +82534,7 @@
     "ch_slug": "cancncn-ezacancan-magniv",
     "ch_name": "CANCNCN -Ezacancan-【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "ToCAIF6uug4": {
     "org_slug": "dasoriyal",
@@ -82555,7 +82555,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "JSVhHQDVenA": {
     "org_slug": "laeta",
@@ -82611,7 +82611,7 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "Upbai-Ru4zw": {
     "org_slug": "yorukaze",
@@ -82645,29 +82645,29 @@
     "org_slug": "magniv",
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
-    "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "fFVgfIvCZ6c": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "lRq3es_HwMI": {
     "org_slug": "laeta",
     "ch_slug": "mila-dragon-laeta",
     "ch_name": "Mila Dragon【LAETA】",
-    "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "lt8y_duJO48": {
     "org_slug": "hibikasekai",
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "TLjukzQ6vNw": {
     "org_slug": "hibikasekai",
@@ -82681,27 +82681,41 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "LKw_97OFxyY": {
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "ZmYlAjgI52I": {
     "org_slug": "nawasena-live",
     "ch_slug": "kukuryu-nawasena",
     "ch_name": "KUKURYU【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "generated_at": "2026-11-19 19:17 WIB"
   },
   "sfsaK85Rlug": {
     "org_slug": "distrct-7",
     "ch_slug": "avnore-daryush",
     "ch_name": "Avnore Daryush",
     "status": "live",
-    "generated_at": "2026-11-19 19:01 WIB"
+    "generated_at": "2026-11-19 19:17 WIB"
+  },
+  "Fmbv3wA50IA": {
+    "org_slug": "evren-community",
+    "ch_slug": "lyanna-chernovskaya",
+    "ch_name": "Lyanna Chernovskaya",
+    "status": "live",
+    "generated_at": "2026-11-19 19:17 WIB"
+  },
+  "fix_RlxLQQg": {
+    "org_slug": "project-livium",
+    "ch_slug": "lillis-infernallies-ch-livipro",
+    "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-19 19:17 WIB"
   }
 }
