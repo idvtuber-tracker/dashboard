@@ -82478,13 +82478,20 @@
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-11-19 08:25 WIB"
+    "generated_at": "2026-11-19 08:40 WIB"
   },
   "Z5tIQFAGvG8": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-19 08:25 WIB"
+    "generated_at": "2026-11-19 08:40 WIB"
+  },
+  "SsEJWRGnMxg": {
+    "org_slug": "vcosmix",
+    "ch_slug": "lea-lestari-ch",
+    "ch_name": "Lea Lestari Ch.",
+    "status": "live",
+    "generated_at": "2026-11-19 08:40 WIB"
   }
 }
