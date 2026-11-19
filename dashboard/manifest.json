@@ -82492,20 +82492,27 @@
     "ch_slug": "lea-lestari-ch",
     "ch_name": "Lea Lestari Ch.",
     "status": "live",
-    "generated_at": "2026-11-19 10:00 WIB"
+    "generated_at": "2026-11-19 10:15 WIB"
   },
   "Xs691Nm2H4g": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-19 10:00 WIB"
+    "generated_at": "2026-11-19 10:15 WIB"
   },
   "GFdSXp0Vv9o": {
     "org_slug": "distrct-7",
     "ch_slug": "kiyomi-gummy-ch",
     "ch_name": "Kiyomi Gummy Ch.",
     "status": "live",
-    "generated_at": "2026-11-19 10:00 WIB"
+    "generated_at": "2026-11-19 10:15 WIB"
+  },
+  "7DesmfzXInY": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "usami-cyra",
+    "ch_name": "Usami Cyra",
+    "status": "live",
+    "generated_at": "2026-11-19 10:15 WIB"
   }
 }
