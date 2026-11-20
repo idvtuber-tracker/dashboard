@@ -83409,14 +83409,14 @@
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-21 02:09 WIB"
+    "generated_at": "2026-11-21 02:25 WIB"
   },
   "RBbS92SgZAA": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
-    "status": "live",
-    "generated_at": "2026-11-21 02:09 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-21 02:25 WIB"
   },
   "mamHoJwvvh4": {
     "org_slug": "hibikasekai",
@@ -83443,8 +83443,8 @@
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-21 02:09 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-21 02:25 WIB"
   },
   "fsY3QHFtPf8": {
     "org_slug": "hibikasekai",
@@ -83514,7 +83514,7 @@
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-21 02:09 WIB"
+    "generated_at": "2026-11-21 02:25 WIB"
   },
   "vsIeiUOdqb8": {
     "org_slug": "utora",
@@ -83549,7 +83549,7 @@
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-21 02:09 WIB"
+    "generated_at": "2026-11-21 02:25 WIB"
   },
   "Kbg84P1njys": {
     "org_slug": "whicker-butler",
@@ -83578,5 +83578,12 @@
     "ch_name": "Aesma Deux Ch.【ANXiA】",
     "status": "vod",
     "generated_at": "2026-11-21 00:29 WIB"
+  },
+  "5aUVyZoRCyc": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-21 02:25 WIB"
   }
 }
