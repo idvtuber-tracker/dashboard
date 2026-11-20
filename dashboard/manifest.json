@@ -83549,7 +83549,7 @@
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-21 04:48 WIB"
+    "generated_at": "2026-11-21 05:03 WIB"
   },
   "Kbg84P1njys": {
     "org_slug": "whicker-butler",
@@ -83584,13 +83584,20 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-21 04:48 WIB"
+    "generated_at": "2026-11-21 05:03 WIB"
   },
   "Q8xkdzr_S9s": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-21 04:48 WIB"
+    "generated_at": "2026-11-21 05:03 WIB"
+  },
+  "7d5dI5woOXY": {
+    "org_slug": "miqela",
+    "ch_slug": "stellaria-vernakila-ch-miqela",
+    "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-11-21 05:03 WIB"
   }
 }
