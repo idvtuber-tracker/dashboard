@@ -83073,7 +83073,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-20 18:07 WIB"
+    "generated_at": "2026-11-20 18:38 WIB"
   },
   "CbcTLB9MHDw": {
     "org_slug": "uver-id",
@@ -83108,7 +83108,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-20 18:07 WIB"
+    "generated_at": "2026-11-20 18:38 WIB"
   },
   "ut3Rdw3vYF0": {
     "org_slug": "whicker-butler",
@@ -83122,7 +83122,7 @@
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
     "status": "live",
-    "generated_at": "2026-11-20 18:07 WIB"
+    "generated_at": "2026-11-20 18:38 WIB"
   },
   "OkWwHX7Umgs": {
     "org_slug": "dasoriyal",
@@ -83149,15 +83149,15 @@
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-11-20 18:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-20 18:38 WIB"
   },
   "KNoLXuJmQrg": {
     "org_slug": "hibikasekai",
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-11-20 18:07 WIB"
+    "generated_at": "2026-11-20 18:38 WIB"
   },
   "3MlEpgoHQtc": {
     "org_slug": "project-livium",
@@ -83178,7 +83178,7 @@
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-20 18:07 WIB"
+    "generated_at": "2026-11-20 18:38 WIB"
   },
   "90b6LZ1bgms": {
     "org_slug": "arvi-media",
@@ -83186,5 +83186,12 @@
     "ch_name": "Aika Sakuraba Ch. 【ARVI】",
     "status": "vod",
     "generated_at": "2026-11-20 18:07 WIB"
+  },
+  "XpIvUswOy9s": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "kukuryu-nawasena",
+    "ch_name": "KUKURYU【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-11-20 18:38 WIB"
   }
 }
