@@ -83073,7 +83073,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-20 18:54 WIB"
+    "generated_at": "2026-11-20 19:09 WIB"
   },
   "CbcTLB9MHDw": {
     "org_slug": "uver-id",
@@ -83108,7 +83108,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-20 18:54 WIB"
+    "generated_at": "2026-11-20 19:09 WIB"
   },
   "ut3Rdw3vYF0": {
     "org_slug": "whicker-butler",
@@ -83121,8 +83121,8 @@
     "org_slug": "whicker-butler",
     "ch_slug": "thalita-sylvaine-whicker-butler",
     "ch_name": "Thalita Sylvaine【Whicker Butler】",
-    "status": "live",
-    "generated_at": "2026-11-20 18:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-20 19:09 WIB"
   },
   "OkWwHX7Umgs": {
     "org_slug": "dasoriyal",
@@ -83157,7 +83157,7 @@
     "ch_slug": "nanami-chia",
     "ch_name": "Nanami Chia",
     "status": "live",
-    "generated_at": "2026-11-20 18:54 WIB"
+    "generated_at": "2026-11-20 19:09 WIB"
   },
   "3MlEpgoHQtc": {
     "org_slug": "project-livium",
@@ -83177,8 +83177,8 @@
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-20 18:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-20 19:09 WIB"
   },
   "90b6LZ1bgms": {
     "org_slug": "arvi-media",
@@ -83192,13 +83192,48 @@
     "ch_slug": "kukuryu-nawasena",
     "ch_name": "KUKURYU【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-20 18:54 WIB"
+    "generated_at": "2026-11-20 19:09 WIB"
   },
   "Mi_rcdEHlBE": {
     "org_slug": "uver-id",
     "ch_slug": "cyure-michantrell-ch-uver-id",
     "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-20 18:54 WIB"
+    "generated_at": "2026-11-20 19:09 WIB"
+  },
+  "sPJ3wQSZwUw": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-11-20 19:09 WIB"
+  },
+  "8UNLPWxSdLs": {
+    "org_slug": "vcosmix",
+    "ch_slug": "miichan-chu-ch",
+    "ch_name": "Miichan Chu Ch.",
+    "status": "live",
+    "generated_at": "2026-11-20 19:09 WIB"
+  },
+  "H456LvwVuQs": {
+    "org_slug": "pandavva",
+    "ch_slug": "pandavva-official",
+    "ch_name": "PANDAVVA Official",
+    "status": "live",
+    "generated_at": "2026-11-20 19:09 WIB"
+  },
+  "pHDBpRRdZBs": {
+    "org_slug": "afterain",
+    "ch_slug": "delia-rinquinn-afterain",
+    "ch_name": "Delia Rinquinn【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-11-20 19:09 WIB"
+  },
+  "U1I8Lg2r2UE": {
+    "org_slug": "asobu-production",
+    "ch_slug": "lyra-monphelia-asobu",
+    "ch_name": "Lyra Monphelia 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-20 19:09 WIB"
   }
 }
