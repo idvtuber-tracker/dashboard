@@ -82996,7 +82996,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-20 11:13 WIB"
+    "generated_at": "2026-11-20 11:28 WIB"
   },
   "agRSI1yWE88": {
     "org_slug": "asobu-production",
@@ -83017,13 +83017,20 @@
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-20 11:13 WIB"
+    "generated_at": "2026-11-20 11:28 WIB"
   },
   "DtvJL_SPnjw": {
     "org_slug": "distrct-7",
     "ch_slug": "tabi-noji",
     "ch_name": "Tabi Noji",
     "status": "live",
-    "generated_at": "2026-11-20 11:13 WIB"
+    "generated_at": "2026-11-20 11:28 WIB"
+  },
+  "MDirxfd-Ahc": {
+    "org_slug": "project-livium",
+    "ch_slug": "indira-naylarissa-ch-livipro",
+    "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-20 11:28 WIB"
   }
 }
