@@ -83709,8 +83709,8 @@
     "org_slug": "aisatset",
     "ch_slug": "blessicaa-aisatset-id",
     "ch_name": "Blessicaa【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-11-21 18:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-21 19:10 WIB"
   },
   "Y-3uq1R90gQ": {
     "org_slug": "mejikuhibiniu",
@@ -83787,13 +83787,55 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-21 18:54 WIB"
+    "generated_at": "2026-11-21 19:10 WIB"
   },
   "dsggpR0INNE": {
     "org_slug": "anxia",
     "ch_slug": "scarla-catessa-anxia",
     "ch_name": "Scarla Catessa【ANXiA】",
     "status": "live",
-    "generated_at": "2026-11-21 18:54 WIB"
+    "generated_at": "2026-11-21 19:10 WIB"
+  },
+  "OAW-cy-myq0": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "matchuan-nawasena",
+    "ch_name": "Matchuan [NAWASENA]",
+    "status": "live",
+    "generated_at": "2026-11-21 19:10 WIB"
+  },
+  "UI4oeWlA0p4": {
+    "org_slug": "versa",
+    "ch_slug": "ryoutaa-versa",
+    "ch_name": "Ryoutaa【VERSA】",
+    "status": "live",
+    "generated_at": "2026-11-21 19:10 WIB"
+  },
+  "2Ff2WEVL3Dg": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "live",
+    "generated_at": "2026-11-21 19:10 WIB"
+  },
+  "HkvuTFUq-LI": {
+    "org_slug": "afterain",
+    "ch_slug": "poffie-hunni-afterain",
+    "ch_name": "Poffie Hunni【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-11-21 19:10 WIB"
+  },
+  "bhEuoI793r0": {
+    "org_slug": "distrct-7",
+    "ch_slug": "vayne-arcellio",
+    "ch_name": "Vayne Arcellio",
+    "status": "live",
+    "generated_at": "2026-11-21 19:10 WIB"
+  },
+  "xIt3RKv9hNo": {
+    "org_slug": "mejikuhibiniu",
+    "ch_slug": "airia-eroselle-mejikuhibiniu",
+    "ch_name": "Airia Eroselle【Mejikuhibiniu】",
+    "status": "live",
+    "generated_at": "2026-11-21 19:10 WIB"
   }
 }
