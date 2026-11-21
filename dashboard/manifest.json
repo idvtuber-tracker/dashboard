@@ -83584,7 +83584,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-21 08:01 WIB"
+    "generated_at": "2026-11-21 08:16 WIB"
   },
   "Q8xkdzr_S9s": {
     "org_slug": "asobu-production",
@@ -83598,20 +83598,27 @@
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-21 08:01 WIB"
+    "generated_at": "2026-11-21 08:16 WIB"
   },
   "dFAUZVcz90s": {
     "org_slug": "yorukaze",
     "ch_slug": "crystallyn-caparina",
     "ch_name": "Crystallyn Caparina",
     "status": "live",
-    "generated_at": "2026-11-21 08:01 WIB"
+    "generated_at": "2026-11-21 08:16 WIB"
   },
   "RqVTY2FX28I": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-21 08:01 WIB"
+    "generated_at": "2026-11-21 08:16 WIB"
+  },
+  "VvHLbuzHau0": {
+    "org_slug": "evren-community",
+    "ch_slug": "amami-yoruna",
+    "ch_name": "Amami Yoruna",
+    "status": "live",
+    "generated_at": "2026-11-21 08:16 WIB"
   }
 }
