@@ -83660,8 +83660,8 @@
     "org_slug": "arvi-media",
     "ch_slug": "aika-sakuraba-ch-arvi",
     "ch_name": "Aika Sakuraba Ch. 【ARVI】",
-    "status": "live",
-    "generated_at": "2026-11-21 18:05 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-21 18:20 WIB"
   },
   "rwZS1r1fKs4": {
     "org_slug": "vcosmix",
@@ -83710,7 +83710,7 @@
     "ch_slug": "blessicaa-aisatset-id",
     "ch_name": "Blessicaa【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-21 18:05 WIB"
+    "generated_at": "2026-11-21 18:20 WIB"
   },
   "Y-3uq1R90gQ": {
     "org_slug": "mejikuhibiniu",
@@ -83745,7 +83745,7 @@
     "ch_slug": "avnore-daryush",
     "ch_name": "Avnore Daryush",
     "status": "live",
-    "generated_at": "2026-11-21 18:05 WIB"
+    "generated_at": "2026-11-21 18:20 WIB"
   },
   "Lv7WQJqFgD0": {
     "org_slug": "hibikasekai",
@@ -83766,20 +83766,27 @@
     "ch_slug": "scardia-agnibrata-uver-id",
     "ch_name": "Scardia Agnibrata ♦ [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-21 18:05 WIB"
+    "generated_at": "2026-11-21 18:20 WIB"
   },
   "GAzguLK4sPA": {
     "org_slug": "nawasena-live",
     "ch_slug": "kukuryu-nawasena",
     "ch_name": "KUKURYU【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-21 18:05 WIB"
+    "generated_at": "2026-11-21 18:20 WIB"
   },
   "DQKCIAmTP8g": {
     "org_slug": "afterain",
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-21 18:05 WIB"
+    "generated_at": "2026-11-21 18:20 WIB"
+  },
+  "-Dhw7zOMQ6k": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-11-21 18:20 WIB"
   }
 }
