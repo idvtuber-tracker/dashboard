@@ -84046,7 +84046,7 @@
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-22 03:40 WIB"
+    "generated_at": "2026-11-22 03:45 WIB"
   },
   "jR9lF6ymI_0": {
     "org_slug": "distrct-7",
@@ -84054,5 +84054,19 @@
     "ch_name": "Tabi Noji",
     "status": "vod",
     "generated_at": "2026-11-22 03:24 WIB"
+  },
+  "rvVzhZrGOC8": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "yukine-clawy-whicker-butler",
+    "ch_name": "Yukine Clawy【Whicker Butler】",
+    "status": "vod",
+    "generated_at": "2026-11-22 03:45 WIB"
+  },
+  "iIle0-3EAY8": {
+    "org_slug": "cozycazt",
+    "ch_slug": "rannia-taiga-cozycazt",
+    "ch_name": "Rannia Taiga 【CozyCazt】",
+    "status": "vod",
+    "generated_at": "2026-11-22 03:45 WIB"
   }
 }
