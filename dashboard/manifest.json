@@ -84144,14 +84144,14 @@
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-22 14:00 WIB"
+    "generated_at": "2026-11-22 14:15 WIB"
   },
   "2FB_OLVMB1o": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-22 14:00 WIB"
+    "generated_at": "2026-11-22 14:15 WIB"
   },
   "hDKkYCC0FYE": {
     "org_slug": "magniv",
@@ -84165,6 +84165,20 @@
     "ch_slug": "lyra-monphelia-asobu",
     "ch_name": "Lyra Monphelia 【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-22 14:00 WIB"
+    "generated_at": "2026-11-22 14:15 WIB"
+  },
+  "5k9JxJMn5kU": {
+    "org_slug": "project-livium",
+    "ch_slug": "indira-naylarissa-ch-livipro",
+    "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
+    "status": "live",
+    "generated_at": "2026-11-22 14:15 WIB"
+  },
+  "IGt4PGOq60A": {
+    "org_slug": "evren-community",
+    "ch_slug": "aloisa-arbeiter",
+    "ch_name": "Aloisa Arbeiter",
+    "status": "live",
+    "generated_at": "2026-11-22 14:15 WIB"
   }
 }
