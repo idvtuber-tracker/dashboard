@@ -84081,7 +84081,7 @@
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-22 11:51 WIB"
+    "generated_at": "2026-11-22 12:08 WIB"
   },
   "6N6Je73ymug": {
     "org_slug": "hibikasekai",
@@ -84094,29 +84094,29 @@
     "org_slug": "cozycazt",
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
-    "status": "live",
-    "generated_at": "2026-11-22 11:51 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-22 12:08 WIB"
   },
   "qxcOAeeMvIk": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-22 11:51 WIB"
+    "generated_at": "2026-11-22 12:08 WIB"
   },
   "Albc2lQipA0": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-11-22 11:51 WIB"
+    "generated_at": "2026-11-22 12:08 WIB"
   },
   "DElTcKRoWm4": {
     "org_slug": "nawasena-live",
     "ch_slug": "kukuryu-nawasena",
     "ch_name": "KUKURYU【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-22 11:51 WIB"
+    "generated_at": "2026-11-22 12:08 WIB"
   },
   "jhkVlNopKaA": {
     "org_slug": "dasoriyal",
@@ -84130,13 +84130,20 @@
     "ch_slug": "moomi-latte-nawasena",
     "ch_name": "MooMi Latte 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-22 11:51 WIB"
+    "generated_at": "2026-11-22 12:08 WIB"
   },
   "TYR4cDDlUcA": {
     "org_slug": "hibikasekai",
     "ch_slug": "kira-hyuu-famisa-hibikasekai",
     "ch_name": "Kira Hyuu Famisa 〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-22 11:51 WIB"
+    "generated_at": "2026-11-22 12:08 WIB"
+  },
+  "nGZSrcGDAKs": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-11-22 12:08 WIB"
   }
 }
