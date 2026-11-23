@@ -84759,7 +84759,14 @@
     "org_slug": "distrct-7",
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
+    "status": "vod",
+    "generated_at": "2026-11-24 05:33 WIB"
+  },
+  "OrnHZHvC38w": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "luii-lafete-kanau-virtual",
+    "ch_name": "Luii Lafete【KANAU Virtual】",
     "status": "live",
-    "generated_at": "2026-11-24 04:55 WIB"
+    "generated_at": "2026-11-24 05:33 WIB"
   }
 }
