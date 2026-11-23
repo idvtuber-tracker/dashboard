@@ -84563,56 +84563,63 @@
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
-    "status": "live",
-    "generated_at": "2026-11-23 15:12 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-23 15:27 WIB"
   },
   "b2xur4pECeQ": {
     "org_slug": "pandavva",
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-23 15:12 WIB"
+    "generated_at": "2026-11-23 15:27 WIB"
   },
   "Y-7DEwVe5c0": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-23 15:12 WIB"
+    "generated_at": "2026-11-23 15:27 WIB"
   },
   "IuEAzxMHmCs": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-23 15:12 WIB"
+    "generated_at": "2026-11-23 15:27 WIB"
   },
   "zZlifiZ249Q": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-23 15:12 WIB"
+    "generated_at": "2026-11-23 15:27 WIB"
   },
   "43t_41FExfc": {
     "org_slug": "project-eternoia",
     "ch_slug": "miori-sora-3d-vtuberid",
     "ch_name": "Miori Sora 【3D VTUBERID】",
     "status": "live",
-    "generated_at": "2026-11-23 15:12 WIB"
+    "generated_at": "2026-11-23 15:27 WIB"
   },
   "GSiDDEXak7I": {
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-23 15:12 WIB"
+    "generated_at": "2026-11-23 15:27 WIB"
   },
   "QnT0hbXoqd8": {
     "org_slug": "kymera",
     "ch_slug": "pomu-vr-ky-mera",
     "ch_name": "Pomu VR 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-23 15:12 WIB"
+    "generated_at": "2026-11-23 15:27 WIB"
+  },
+  "jMxKm74hz9I": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "gabriel-abyssia-dasoriyal",
+    "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-11-23 15:27 WIB"
   }
 }
