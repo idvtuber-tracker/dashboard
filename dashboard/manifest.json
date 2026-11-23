@@ -84571,21 +84571,21 @@
     "ch_slug": "bima-bayusena-pandavva",
     "ch_name": "Bima Bayusena【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-23 17:03 WIB"
+    "generated_at": "2026-11-23 17:19 WIB"
   },
   "Y-7DEwVe5c0": {
     "org_slug": "pandavva",
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-23 17:03 WIB"
+    "generated_at": "2026-11-23 17:19 WIB"
   },
   "IuEAzxMHmCs": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-23 17:03 WIB"
+    "generated_at": "2026-11-23 17:19 WIB"
   },
   "zZlifiZ249Q": {
     "org_slug": "project-livium",
@@ -84606,7 +84606,7 @@
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-23 17:03 WIB"
+    "generated_at": "2026-11-23 17:19 WIB"
   },
   "QnT0hbXoqd8": {
     "org_slug": "kymera",
@@ -84620,20 +84620,27 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-23 17:03 WIB"
+    "generated_at": "2026-11-23 17:19 WIB"
   },
   "kUt5ngJ1R0c": {
     "org_slug": "versa",
     "ch_slug": "ryoutaa-versa",
     "ch_name": "Ryoutaa【VERSA】",
     "status": "live",
-    "generated_at": "2026-11-23 17:03 WIB"
+    "generated_at": "2026-11-23 17:19 WIB"
   },
   "07I-keVzwEk": {
     "org_slug": "kymera",
     "ch_slug": "mythia-batford-ky-mera",
     "ch_name": "Mythia Batford 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-23 17:03 WIB"
+    "generated_at": "2026-11-23 17:19 WIB"
+  },
+  "VhXOCOmyeJ4": {
+    "org_slug": "magniv",
+    "ch_slug": "gema-gathika-magniv",
+    "ch_name": "Gema Gathika【MagniV】",
+    "status": "live",
+    "generated_at": "2026-11-23 17:19 WIB"
   }
 }
