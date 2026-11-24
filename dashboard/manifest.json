@@ -84809,14 +84809,14 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-24 17:52 WIB"
+    "generated_at": "2026-11-24 18:23 WIB"
   },
   "Y2gcEeo5Kbw": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
-    "status": "live",
-    "generated_at": "2026-11-24 17:52 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-24 18:23 WIB"
   },
   "AyjREBDXjf0": {
     "org_slug": "cozycazt",
@@ -84858,7 +84858,7 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-24 17:52 WIB"
+    "generated_at": "2026-11-24 18:23 WIB"
   },
   "6Qdd_43K5sQ": {
     "org_slug": "kymera",
@@ -84893,7 +84893,7 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-24 17:52 WIB"
+    "generated_at": "2026-11-24 18:23 WIB"
   },
   "7yzGfhwPqfs": {
     "org_slug": "arvi-media",
@@ -84934,8 +84934,8 @@
     "org_slug": "whicker-butler",
     "ch_slug": "darlyne-nightbloom-whicker-butler",
     "ch_name": "Darlyne Nightbloom【Whicker Butler】",
-    "status": "live",
-    "generated_at": "2026-11-24 17:52 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-24 18:23 WIB"
   },
   "wEdyL7S8M0M": {
     "org_slug": "versa",
@@ -84948,14 +84948,35 @@
     "org_slug": "aisatset",
     "ch_slug": "ungaume-aisatset-id",
     "ch_name": "UngaUme【AISATSET ID】",
-    "status": "live",
-    "generated_at": "2026-11-24 17:52 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-24 18:23 WIB"
   },
   "tDIze4F7s6o": {
     "org_slug": "hibikasekai",
     "ch_slug": "alex-von-astaroth-hibikasekai",
     "ch_name": "Alex von Astaroth 🦇 🦊〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-24 17:52 WIB"
+    "generated_at": "2026-11-24 18:23 WIB"
+  },
+  "pVUj5d-vkmM": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "lilian-grimmxandra",
+    "ch_name": "Lilian Grimmxandra",
+    "status": "live",
+    "generated_at": "2026-11-24 18:23 WIB"
+  },
+  "MZc6VCnpCC8": {
+    "org_slug": "pandavva",
+    "ch_slug": "yudistira-yogendra-pandavva",
+    "ch_name": "Yudistira Yogendra 【PANDAVVA】",
+    "status": "live",
+    "generated_at": "2026-11-24 18:23 WIB"
+  },
+  "jq1GoAnGKzo": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "fat-waltz",
+    "ch_name": "Fat waltz",
+    "status": "live",
+    "generated_at": "2026-11-24 18:23 WIB"
   }
 }
