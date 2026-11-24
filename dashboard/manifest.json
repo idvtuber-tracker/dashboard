@@ -84809,7 +84809,7 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-24 18:39 WIB"
+    "generated_at": "2026-11-24 19:12 WIB"
   },
   "Y2gcEeo5Kbw": {
     "org_slug": "miqela",
@@ -84858,7 +84858,7 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-24 18:39 WIB"
+    "generated_at": "2026-11-24 19:12 WIB"
   },
   "6Qdd_43K5sQ": {
     "org_slug": "kymera",
@@ -84893,7 +84893,7 @@
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-24 18:39 WIB"
+    "generated_at": "2026-11-24 19:12 WIB"
   },
   "7yzGfhwPqfs": {
     "org_slug": "arvi-media",
@@ -84955,28 +84955,77 @@
     "org_slug": "hibikasekai",
     "ch_slug": "alex-von-astaroth-hibikasekai",
     "ch_name": "Alex von Astaroth 🦇 🦊〖 HIBIKASEKAI 】",
-    "status": "live",
-    "generated_at": "2026-11-24 18:39 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-24 19:12 WIB"
   },
   "pVUj5d-vkmM": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-24 18:39 WIB"
+    "generated_at": "2026-11-24 19:12 WIB"
   },
   "MZc6VCnpCC8": {
     "org_slug": "pandavva",
     "ch_slug": "yudistira-yogendra-pandavva",
     "ch_name": "Yudistira Yogendra 【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-24 18:39 WIB"
+    "generated_at": "2026-11-24 19:12 WIB"
   },
   "jq1GoAnGKzo": {
     "org_slug": "hibikasekai",
     "ch_slug": "fat-waltz",
     "ch_name": "Fat waltz",
     "status": "live",
-    "generated_at": "2026-11-24 18:39 WIB"
+    "generated_at": "2026-11-24 19:12 WIB"
+  },
+  "2wdsubhyt7Y": {
+    "org_slug": "afterain",
+    "ch_slug": "sierra-mooniva",
+    "ch_name": "Sierra Mooniva",
+    "status": "live",
+    "generated_at": "2026-11-24 19:12 WIB"
+  },
+  "Mh0miqCrEVQ": {
+    "org_slug": "yorukaze",
+    "ch_slug": "ellise-youka-yorukaze",
+    "ch_name": "Ellise Youka【Yorukaze】",
+    "status": "live",
+    "generated_at": "2026-11-24 19:12 WIB"
+  },
+  "zLCvShHRGvk": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "matchuan-nawasena",
+    "ch_name": "Matchuan [NAWASENA]",
+    "status": "live",
+    "generated_at": "2026-11-24 19:12 WIB"
+  },
+  "F_miRNaZHAo": {
+    "org_slug": "kira-idol-project",
+    "ch_slug": "kira-idol-project",
+    "ch_name": "KIRA IDOL PROJECT-キラ・アイドル・プロジェクト",
+    "status": "live",
+    "generated_at": "2026-11-24 19:12 WIB"
+  },
+  "iXKAtj9NYFw": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "kukuryu-nawasena",
+    "ch_name": "KUKURYU【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-11-24 19:12 WIB"
+  },
+  "jcyFxDnMmNs": {
+    "org_slug": "distrct-7",
+    "ch_slug": "vayne-arcellio",
+    "ch_name": "Vayne Arcellio",
+    "status": "live",
+    "generated_at": "2026-11-24 19:12 WIB"
+  },
+  "J3EHdEpzi50": {
+    "org_slug": "anxia",
+    "ch_slug": "faeleren-vael-ch-anxia",
+    "ch_name": "Faeleren Vael Ch.【ANXiA】",
+    "status": "live",
+    "generated_at": "2026-11-24 19:12 WIB"
   }
 }
