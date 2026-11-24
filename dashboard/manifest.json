@@ -84788,27 +84788,41 @@
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-11-24 12:50 WIB"
+    "generated_at": "2026-11-24 13:06 WIB"
   },
   "vrwRRizXPvQ": {
     "org_slug": "nawasena-live",
     "ch_slug": "aiko-zurie-nawasena",
     "ch_name": "Aiko Zurie 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-24 12:50 WIB"
+    "generated_at": "2026-11-24 13:06 WIB"
   },
   "QZBTkvbEF7E": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-24 12:50 WIB"
+    "generated_at": "2026-11-24 13:06 WIB"
   },
   "RH6PyAUQwwo": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-24 12:50 WIB"
+    "generated_at": "2026-11-24 13:06 WIB"
+  },
+  "Y2gcEeo5Kbw": {
+    "org_slug": "miqela",
+    "ch_slug": "ayakocak-miqela",
+    "ch_name": "Ayakocak【MIQELA】",
+    "status": "live",
+    "generated_at": "2026-11-24 13:06 WIB"
+  },
+  "AyjREBDXjf0": {
+    "org_slug": "cozycazt",
+    "ch_slug": "rannia-taiga-cozycazt",
+    "ch_name": "Rannia Taiga 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-11-24 13:06 WIB"
   }
 }
