@@ -84809,62 +84809,125 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-24 14:56 WIB"
+    "generated_at": "2026-11-24 15:10 WIB"
   },
   "Y2gcEeo5Kbw": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-24 14:56 WIB"
+    "generated_at": "2026-11-24 15:10 WIB"
   },
   "AyjREBDXjf0": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-24 14:56 WIB"
+    "generated_at": "2026-11-24 15:10 WIB"
   },
   "9QSabQ-s0jY": {
     "org_slug": "utora",
     "ch_slug": "petite-sabrina-ch",
     "ch_name": "Petite Sabrina Ch.",
     "status": "live",
-    "generated_at": "2026-11-24 14:56 WIB"
+    "generated_at": "2026-11-24 15:10 WIB"
   },
   "j3GEa90NE2A": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-24 14:56 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-24 15:10 WIB"
   },
   "doNnkEon5L4": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-11-24 14:56 WIB"
+    "generated_at": "2026-11-24 15:10 WIB"
   },
   "817k_5t-rZY": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-24 14:56 WIB"
+    "generated_at": "2026-11-24 15:10 WIB"
   },
   "KjPa5Odkm1c": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-24 14:56 WIB"
+    "generated_at": "2026-11-24 15:10 WIB"
   },
   "6Qdd_43K5sQ": {
     "org_slug": "kymera",
     "ch_slug": "pomu-vr-ky-mera",
     "ch_name": "Pomu VR 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-24 14:56 WIB"
+    "generated_at": "2026-11-24 15:10 WIB"
+  },
+  "HVrz5_anlko": {
+    "org_slug": "project-livium",
+    "ch_slug": "yuela-guigui-ch-livipro",
+    "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
+    "status": "vod",
+    "generated_at": "2026-11-24 15:10 WIB"
+  },
+  "rmmsnnq4Kcs": {
+    "org_slug": "whicker-butler",
+    "ch_slug": "darlyne-nightbloom-whicker-butler",
+    "ch_name": "Darlyne Nightbloom【Whicker Butler】",
+    "status": "vod",
+    "generated_at": "2026-11-24 15:10 WIB"
+  },
+  "Jr7QswjWuWI": {
+    "org_slug": "crims-on",
+    "ch_slug": "rijii-crims-on",
+    "ch_name": "Rijii【CRIMS:on】",
+    "status": "vod",
+    "generated_at": "2026-11-24 15:10 WIB"
+  },
+  "Um6qg2f-9Oc": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "krystalize-moon-dasoriyal",
+    "ch_name": "Krystalize Moon『 DASORiYAL 』",
+    "status": "live",
+    "generated_at": "2026-11-24 15:10 WIB"
+  },
+  "7yzGfhwPqfs": {
+    "org_slug": "arvi-media",
+    "ch_slug": "makotoshi-ch",
+    "ch_name": "Makotoshi Ch.",
+    "status": "vod",
+    "generated_at": "2026-11-24 15:10 WIB"
+  },
+  "yN47URe0H4Y": {
+    "org_slug": "crims-on",
+    "ch_slug": "iana-crims-on",
+    "ch_name": "Iana【CRIMS:on】",
+    "status": "vod",
+    "generated_at": "2026-11-24 15:10 WIB"
+  },
+  "qYJ-Ga5uW0g": {
+    "org_slug": "kanau-virtual",
+    "ch_slug": "noazumi-ch-kanau-virtual",
+    "ch_name": "Noazumi Ch.【KANAU Virtual】",
+    "status": "vod",
+    "generated_at": "2026-11-24 15:10 WIB"
+  },
+  "inZc01b0Heg": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "gabriel-abyssia-dasoriyal",
+    "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
+    "status": "vod",
+    "generated_at": "2026-11-24 15:10 WIB"
+  },
+  "cLQJCqa6OtU": {
+    "org_slug": "aisatset",
+    "ch_slug": "chiya-maawiya-ch-aisatset-id",
+    "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
+    "status": "vod",
+    "generated_at": "2026-11-24 15:10 WIB"
   }
 }
