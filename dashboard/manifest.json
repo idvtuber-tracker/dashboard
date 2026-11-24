@@ -84787,8 +84787,8 @@
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
-    "status": "live",
-    "generated_at": "2026-11-24 14:10 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-24 14:41 WIB"
   },
   "vrwRRizXPvQ": {
     "org_slug": "nawasena-live",
@@ -84809,55 +84809,62 @@
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-24 14:10 WIB"
+    "generated_at": "2026-11-24 14:41 WIB"
   },
   "Y2gcEeo5Kbw": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-24 14:10 WIB"
+    "generated_at": "2026-11-24 14:41 WIB"
   },
   "AyjREBDXjf0": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-24 14:10 WIB"
+    "generated_at": "2026-11-24 14:41 WIB"
   },
   "9QSabQ-s0jY": {
     "org_slug": "utora",
     "ch_slug": "petite-sabrina-ch",
     "ch_name": "Petite Sabrina Ch.",
     "status": "live",
-    "generated_at": "2026-11-24 14:10 WIB"
+    "generated_at": "2026-11-24 14:41 WIB"
   },
   "j3GEa90NE2A": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-24 14:10 WIB"
+    "generated_at": "2026-11-24 14:41 WIB"
   },
   "doNnkEon5L4": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-11-24 14:10 WIB"
+    "generated_at": "2026-11-24 14:41 WIB"
   },
   "817k_5t-rZY": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-24 14:10 WIB"
+    "generated_at": "2026-11-24 14:41 WIB"
   },
   "KjPa5Odkm1c": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-24 14:10 WIB"
+    "generated_at": "2026-11-24 14:41 WIB"
+  },
+  "6Qdd_43K5sQ": {
+    "org_slug": "kymera",
+    "ch_slug": "pomu-vr-ky-mera",
+    "ch_name": "Pomu VR 『 KY:MERA 』",
+    "status": "live",
+    "generated_at": "2026-11-24 14:41 WIB"
   }
 }
