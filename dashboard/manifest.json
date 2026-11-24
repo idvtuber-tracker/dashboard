@@ -85285,7 +85285,7 @@
     "ch_slug": "amami-yoruna",
     "ch_name": "Amami Yoruna",
     "status": "live",
-    "generated_at": "2026-11-25 02:52 WIB"
+    "generated_at": "2026-11-25 02:54 WIB"
   },
   "zr4JsUpwU5M": {
     "org_slug": "utora",
@@ -85299,7 +85299,7 @@
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-25 02:52 WIB"
+    "generated_at": "2026-11-25 02:54 WIB"
   },
   "SvkiJx-Akoo": {
     "org_slug": "magniv",
@@ -85307,5 +85307,19 @@
     "ch_name": "Gema Gathika【MagniV】",
     "status": "vod",
     "generated_at": "2026-11-25 00:28 WIB"
+  },
+  "y-bplh3_IgE": {
+    "org_slug": "afterain",
+    "ch_slug": "sierra-mooniva",
+    "ch_name": "Sierra Mooniva",
+    "status": "vod",
+    "generated_at": "2026-11-25 02:54 WIB"
+  },
+  "0n-cQ-Q7Z84": {
+    "org_slug": "reverie",
+    "ch_slug": "hirari-octavia-ch-r-verie",
+    "ch_name": "Hirari Octavia Ch.【R𝄢VERIE】",
+    "status": "vod",
+    "generated_at": "2026-11-25 02:54 WIB"
   }
 }
