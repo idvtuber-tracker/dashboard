@@ -84780,14 +84780,28 @@
     "org_slug": "whicker-butler",
     "ch_slug": "hiyori-renalie",
     "ch_name": "Hiyori Renalie",
-    "status": "live",
-    "generated_at": "2026-11-24 11:16 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-24 12:17 WIB"
   },
   "xpFx9kFTX0o": {
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
     "status": "live",
-    "generated_at": "2026-11-24 11:16 WIB"
+    "generated_at": "2026-11-24 12:17 WIB"
+  },
+  "vrwRRizXPvQ": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "aiko-zurie-nawasena",
+    "ch_name": "Aiko Zurie 【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-11-24 12:17 WIB"
+  },
+  "QZBTkvbEF7E": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-24 12:17 WIB"
   }
 }
