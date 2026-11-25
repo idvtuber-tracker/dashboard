@@ -85299,7 +85299,7 @@
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-25 06:51 WIB"
+    "generated_at": "2026-11-25 07:22 WIB"
   },
   "SvkiJx-Akoo": {
     "org_slug": "magniv",
@@ -85321,5 +85321,12 @@
     "ch_name": "Hirari Octavia Ch.【R𝄢VERIE】",
     "status": "vod",
     "generated_at": "2026-11-25 02:54 WIB"
+  },
+  "qsg5oRSZzeM": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "matchuan-nawasena",
+    "ch_name": "Matchuan [NAWASENA]",
+    "status": "live",
+    "generated_at": "2026-11-25 07:22 WIB"
   }
 }
