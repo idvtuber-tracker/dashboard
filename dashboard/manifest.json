@@ -85404,21 +85404,21 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-25 16:24 WIB"
+    "generated_at": "2026-11-25 16:40 WIB"
   },
   "xy4RS5Ant04": {
     "org_slug": "evren-community",
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-25 16:24 WIB"
+    "generated_at": "2026-11-25 16:40 WIB"
   },
   "RfOWsBRGBzU": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-25 16:24 WIB"
+    "generated_at": "2026-11-25 16:40 WIB"
   },
   "Jg0VY5uVWMs": {
     "org_slug": "project-livium",
@@ -85446,41 +85446,48 @@
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-25 16:24 WIB"
+    "generated_at": "2026-11-25 16:40 WIB"
   },
   "S881Ngbw5p8": {
     "org_slug": "cozycazt",
     "ch_slug": "vianna-risendria-cozycazt",
     "ch_name": "Vianna Risendria 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-25 16:24 WIB"
+    "generated_at": "2026-11-25 16:40 WIB"
   },
   "w--n-44KS8A": {
     "org_slug": "arvi-media",
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-11-25 16:24 WIB"
+    "generated_at": "2026-11-25 16:40 WIB"
   },
   "bvQVXh8Q3Vw": {
     "org_slug": "yorukaze",
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-11-25 16:24 WIB"
+    "generated_at": "2026-11-25 16:40 WIB"
   },
   "0J8_bnfE3sM": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-25 16:24 WIB"
+    "generated_at": "2026-11-25 16:40 WIB"
   },
   "RXyd_jjooLY": {
     "org_slug": "dasoriyal",
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
+    "status": "vod",
+    "generated_at": "2026-11-25 16:40 WIB"
+  },
+  "1IL73mC5sDQ": {
+    "org_slug": "dasoriyal",
+    "ch_slug": "hali-ch-dasoriyal",
+    "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-25 16:24 WIB"
+    "generated_at": "2026-11-25 16:40 WIB"
   }
 }
