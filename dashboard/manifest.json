@@ -85417,8 +85417,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-11-26 03:15 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-26 04:00 WIB"
   },
   "Jg0VY5uVWMs": {
     "org_slug": "project-livium",
@@ -85824,6 +85824,13 @@
     "ch_slug": "makotoshi-ch",
     "ch_name": "Makotoshi Ch.",
     "status": "live",
-    "generated_at": "2026-11-26 03:15 WIB"
+    "generated_at": "2026-11-26 04:00 WIB"
+  },
+  "b-q3eAdI__U": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-26 04:00 WIB"
   }
 }
