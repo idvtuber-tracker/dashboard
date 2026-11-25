@@ -85418,7 +85418,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-26 00:20 WIB"
+    "generated_at": "2026-11-26 00:35 WIB"
   },
   "Jg0VY5uVWMs": {
     "org_slug": "project-livium",
@@ -85663,7 +85663,7 @@
     "ch_slug": "ibame-masagi-hibikasekai",
     "ch_name": "Ibame Masagi 🗝  〖 HIBIKASEKAI 】",
     "status": "live",
-    "generated_at": "2026-11-26 00:20 WIB"
+    "generated_at": "2026-11-26 00:35 WIB"
   },
   "HV__ahlpYN4": {
     "org_slug": "dasoriyal",
@@ -85690,8 +85690,8 @@
     "org_slug": "oristarium",
     "ch_slug": "ahomika-ch-oristarium",
     "ch_name": "Ahomika_Ch【Oristarium】",
-    "status": "live",
-    "generated_at": "2026-11-26 00:20 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-26 00:35 WIB"
   },
   "ocBlbgf1ows": {
     "org_slug": "miqela",
@@ -85718,8 +85718,8 @@
     "org_slug": "project-livium",
     "ch_slug": "fareye-closhartt-ch-livipro",
     "ch_name": "Fareye Closhartt Ch.〔LiviPro〕",
-    "status": "live",
-    "generated_at": "2026-11-26 00:20 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-26 00:35 WIB"
   },
   "ANCBocWTqw0": {
     "org_slug": "aisatset",
@@ -85746,8 +85746,8 @@
     "org_slug": "miqela",
     "ch_slug": "teaqillla-ch-miqela",
     "ch_name": "Teaqillla Ch. 【MIQELA】",
-    "status": "live",
-    "generated_at": "2026-11-26 00:20 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-26 00:35 WIB"
   },
   "qn-S6ddOrbE": {
     "org_slug": "kymera",
@@ -85767,15 +85767,15 @@
     "org_slug": "whicker-butler",
     "ch_slug": "valthea-nankila-whicker-butler",
     "ch_name": "Valthea Nankila 【 Whicker Butler 】",
-    "status": "live",
-    "generated_at": "2026-11-26 00:20 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-26 00:35 WIB"
   },
   "rdmQh17ougM": {
     "org_slug": "magniv",
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-26 00:20 WIB"
+    "generated_at": "2026-11-26 00:35 WIB"
   },
   "SdU-zO9xj-s": {
     "org_slug": "crims-on",
@@ -85789,7 +85789,7 @@
     "ch_slug": "miri-murasaki-afterain",
     "ch_name": "Miri Murasaki🐨【AfteRain】",
     "status": "live",
-    "generated_at": "2026-11-26 00:20 WIB"
+    "generated_at": "2026-11-26 00:35 WIB"
   },
   "pDbWT-eLtCs": {
     "org_slug": "crims-on",
@@ -85803,7 +85803,7 @@
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-26 00:20 WIB"
+    "generated_at": "2026-11-26 00:35 WIB"
   },
   "oJgb_vnPspY": {
     "org_slug": "distrct-7",
@@ -85811,5 +85811,12 @@
     "ch_name": "Kiyomi Gummy Ch.",
     "status": "vod",
     "generated_at": "2026-11-26 00:20 WIB"
+  },
+  "sd_c76odxXQ": {
+    "org_slug": "crims-on",
+    "ch_slug": "rijii-crims-on",
+    "ch_name": "Rijii【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-11-26 00:35 WIB"
   }
 }
