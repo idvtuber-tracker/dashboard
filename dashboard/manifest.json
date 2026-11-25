@@ -85418,7 +85418,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-25 18:46 WIB"
+    "generated_at": "2026-11-25 19:51 WIB"
   },
   "Jg0VY5uVWMs": {
     "org_slug": "project-livium",
@@ -85467,14 +85467,14 @@
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-11-25 18:46 WIB"
+    "generated_at": "2026-11-25 19:51 WIB"
   },
   "0J8_bnfE3sM": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-25 18:46 WIB"
+    "generated_at": "2026-11-25 19:51 WIB"
   },
   "RXyd_jjooLY": {
     "org_slug": "dasoriyal",
@@ -85495,27 +85495,111 @@
     "ch_slug": "lioye-ky-mera",
     "ch_name": "lioye 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-25 18:46 WIB"
+    "generated_at": "2026-11-25 19:51 WIB"
   },
   "dRqGtrAUU6s": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-25 18:46 WIB"
+    "generated_at": "2026-11-25 19:51 WIB"
   },
   "mnNogjRpfuI": {
     "org_slug": "hibikasekai",
     "ch_slug": "homura-minami-ch",
     "ch_name": "Homura Minami Ch.",
     "status": "live",
-    "generated_at": "2026-11-25 18:46 WIB"
+    "generated_at": "2026-11-25 19:51 WIB"
   },
   "jlxt5UTeauw": {
     "org_slug": "magisona",
     "ch_slug": "reika-ayasa-magisona",
     "ch_name": "Reika Ayasa 【MagiSona】",
+    "status": "vod",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "Mjn3nsqFhOA": {
+    "org_slug": "uver-id",
+    "ch_slug": "shana-ophelia-uver-id",
+    "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-25 18:46 WIB"
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "MajLyOjDLMU": {
+    "org_slug": "prism-nova",
+    "ch_slug": "oxa-lydea-prism-nova",
+    "ch_name": "Oxa Lydea 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "mid2ogIkZfk": {
+    "org_slug": "gravt",
+    "ch_slug": "ave-kanehoshii-gravt",
+    "ch_name": "Ave Kanehoshii【GRAVT】",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "UtWyDsMN_kA": {
+    "org_slug": "afterain",
+    "ch_slug": "poffie-hunni-afterain",
+    "ch_name": "Poffie Hunni【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "Ljrp3DEaJxo": {
+    "org_slug": "uver-id",
+    "ch_slug": "norn-haira-uver-id",
+    "ch_name": "Norn Haira〔UVER ID〕",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "lotXLpOFHas": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "tamisa-ryoko-ch",
+    "ch_name": "Tamisa Ryoko Ch.",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "GO9jECRlzCI": {
+    "org_slug": "asobu-production",
+    "ch_slug": "lyra-monphelia-asobu",
+    "ch_name": "Lyra Monphelia 【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "lrTi8gzskLY": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "kukuryu-nawasena",
+    "ch_name": "KUKURYU【NAWASENA】",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "56YAPMHlKOo": {
+    "org_slug": "nawasena-live",
+    "ch_slug": "matchuan-nawasena",
+    "ch_name": "Matchuan [NAWASENA]",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "LHM8w-ZvRlA": {
+    "org_slug": "utora",
+    "ch_slug": "onshannon",
+    "ch_name": "ONShannon",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "crbWzpR6n1U": {
+    "org_slug": "distrct-7",
+    "ch_slug": "avnore-daryush",
+    "ch_name": "Avnore Daryush",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
+  },
+  "-7h2xXP3qEE": {
+    "org_slug": "styxmata",
+    "ch_slug": "styxmata",
+    "ch_name": "Styxmata",
+    "status": "live",
+    "generated_at": "2026-11-25 19:51 WIB"
   }
 }
