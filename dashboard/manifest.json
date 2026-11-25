@@ -85418,7 +85418,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-25 18:15 WIB"
+    "generated_at": "2026-11-25 18:30 WIB"
   },
   "Jg0VY5uVWMs": {
     "org_slug": "project-livium",
@@ -85467,14 +85467,14 @@
     "ch_slug": "hessa-elainore-ch-yorukaze",
     "ch_name": "Hessa Elainore Ch.【Yorukaze】",
     "status": "live",
-    "generated_at": "2026-11-25 18:15 WIB"
+    "generated_at": "2026-11-25 18:30 WIB"
   },
   "0J8_bnfE3sM": {
     "org_slug": "dasoriyal",
     "ch_slug": "krystalize-moon-dasoriyal",
     "ch_name": "Krystalize Moon『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-25 18:15 WIB"
+    "generated_at": "2026-11-25 18:30 WIB"
   },
   "RXyd_jjooLY": {
     "org_slug": "dasoriyal",
@@ -85488,20 +85488,34 @@
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-25 18:15 WIB"
+    "generated_at": "2026-11-25 18:30 WIB"
   },
   "3wtN8zZVDqw": {
     "org_slug": "kymera",
     "ch_slug": "lioye-ky-mera",
     "ch_name": "lioye 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-25 18:15 WIB"
+    "generated_at": "2026-11-25 18:30 WIB"
   },
   "dRqGtrAUU6s": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-25 18:15 WIB"
+    "generated_at": "2026-11-25 18:30 WIB"
+  },
+  "mnNogjRpfuI": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "homura-minami-ch",
+    "ch_name": "Homura Minami Ch.",
+    "status": "live",
+    "generated_at": "2026-11-25 18:30 WIB"
+  },
+  "jlxt5UTeauw": {
+    "org_slug": "magisona",
+    "ch_slug": "reika-ayasa-magisona",
+    "ch_name": "Reika Ayasa 【MagiSona】",
+    "status": "live",
+    "generated_at": "2026-11-25 18:30 WIB"
   }
 }
