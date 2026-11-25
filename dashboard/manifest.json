@@ -85341,48 +85341,69 @@
     "ch_slug": "sadewa-sagara-pandavva",
     "ch_name": "Sadewa Sagara【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-25 12:09 WIB"
+    "generated_at": "2026-11-25 13:14 WIB"
   },
   "K7F-EcuwlZU": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-11-25 12:09 WIB"
+    "generated_at": "2026-11-25 13:14 WIB"
   },
   "eDn2mT5DS2c": {
     "org_slug": "hibikasekai",
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-11-25 12:09 WIB"
+    "generated_at": "2026-11-25 13:14 WIB"
   },
   "HowG48de2a8": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-11-25 12:09 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-25 13:14 WIB"
   },
   "Mu_-jQSMJpA": {
     "org_slug": "dasoriyal",
     "ch_slug": "hali-ch-dasoriyal",
     "ch_name": "Hali Ch. 『 DASORiYAL 』",
-    "status": "live",
-    "generated_at": "2026-11-25 12:09 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-25 13:14 WIB"
   },
   "2OZfIYmrg44": {
     "org_slug": "aurora-project",
     "ch_slug": "aleeon-ch",
     "ch_name": "Aleeon Ch.",
     "status": "live",
-    "generated_at": "2026-11-25 12:09 WIB"
+    "generated_at": "2026-11-25 13:14 WIB"
   },
   "fqheSmSRmxI": {
     "org_slug": "vcosmix",
     "ch_slug": "miichan-chu-ch",
     "ch_name": "Miichan Chu Ch.",
+    "status": "vod",
+    "generated_at": "2026-11-25 13:14 WIB"
+  },
+  "DREamTniAXU": {
+    "org_slug": "cozycazt",
+    "ch_slug": "rannia-taiga-cozycazt",
+    "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-25 12:09 WIB"
+    "generated_at": "2026-11-25 13:14 WIB"
+  },
+  "wbMTXCAMRXI": {
+    "org_slug": "prism-nova",
+    "ch_slug": "thalia-symphonia-prism-nova",
+    "ch_name": "Thalia Symphonia 【Prism:NOVA】",
+    "status": "live",
+    "generated_at": "2026-11-25 13:14 WIB"
+  },
+  "sUM1Il07d5A": {
+    "org_slug": "neoespoir",
+    "ch_slug": "kurotsuki-amaris-ch",
+    "ch_name": "Kurotsuki Amaris Ch.",
+    "status": "live",
+    "generated_at": "2026-11-25 13:14 WIB"
   }
 }
