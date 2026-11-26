@@ -85894,7 +85894,7 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "NVl2qYm_dSY": {
     "org_slug": "nawasena-live",
@@ -85915,21 +85915,21 @@
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "upEQMtrwZcM": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "9_eDVk6r3xc": {
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
-    "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "V6w59oNGMRE": {
     "org_slug": "crims-on",
@@ -85964,7 +85964,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "ZjjHosT-3Kk": {
     "org_slug": "project-livium",
@@ -85978,14 +85978,14 @@
     "ch_slug": "hasegawa-miu",
     "ch_name": "Hasegawa Miu",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "-rCQbcIJxzw": {
     "org_slug": "afterain",
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "cggF-FPCums": {
     "org_slug": "nawasena-live",
@@ -85999,27 +85999,48 @@
     "ch_slug": "gema-gathika-magniv",
     "ch_name": "Gema Gathika【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "GtIlqo0cegw": {
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "mRgHy18UOfs": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
   },
   "vZ3hLtCxaDM": {
     "org_slug": "utora",
     "ch_slug": "yuko27",
     "ch_name": "Yuko27",
     "status": "live",
-    "generated_at": "2026-11-26 18:49 WIB"
+    "generated_at": "2026-11-26 19:08 WIB"
+  },
+  "inkNitfAdJU": {
+    "org_slug": "yorukaze",
+    "ch_slug": "hessa-elainore-ch-yorukaze",
+    "ch_name": "Hessa Elainore Ch.【Yorukaze】",
+    "status": "live",
+    "generated_at": "2026-11-26 19:08 WIB"
+  },
+  "g5tcsevYlUM": {
+    "org_slug": "afterain",
+    "ch_slug": "poffie-hunni-afterain",
+    "ch_name": "Poffie Hunni【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-11-26 19:08 WIB"
+  },
+  "LzsoVYFmgHY": {
+    "org_slug": "distrct-7",
+    "ch_slug": "vayne-arcellio",
+    "ch_name": "Vayne Arcellio",
+    "status": "live",
+    "generated_at": "2026-11-26 19:08 WIB"
   }
 }
