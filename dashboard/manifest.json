@@ -85872,8 +85872,8 @@
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
-    "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "DyMg4JtA9LY": {
     "org_slug": "dasoriyal",
@@ -85886,15 +85886,15 @@
     "org_slug": "distrct-7",
     "ch_slug": "tabi-noji",
     "ch_name": "Tabi Noji",
-    "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "7RhtlVuqT4M": {
     "org_slug": "neoespoir",
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "NVl2qYm_dSY": {
     "org_slug": "nawasena-live",
@@ -85908,55 +85908,62 @@
     "ch_slug": "gabriel-abyssia-dasoriyal",
     "ch_name": "Gabriel Abyssia『 DASORiYAL 』",
     "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "vPzIpzLpKXU": {
     "org_slug": "miqela",
     "ch_slug": "ayakocak-miqela",
     "ch_name": "Ayakocak【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "upEQMtrwZcM": {
     "org_slug": "uver-id",
     "ch_slug": "shana-ophelia-uver-id",
     "ch_name": "Shana Ophelia [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "9_eDVk6r3xc": {
     "org_slug": "laeta",
     "ch_slug": "shiraishi-oriel-laeta",
     "ch_name": "Shiraishi Oriel【LAETA】",
     "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "V6w59oNGMRE": {
     "org_slug": "crims-on",
     "ch_slug": "makoto-takuma-crims-on",
     "ch_name": "Makoto Takuma 【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "TQrefetjdBM": {
     "org_slug": "kymera",
     "ch_slug": "pomu-vr-ky-mera",
     "ch_name": "Pomu VR 『 KY:MERA 』",
     "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "thmOffIkl00": {
     "org_slug": "whicker-butler",
     "ch_slug": "hiyori-renalie",
     "ch_name": "Hiyori Renalie",
     "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "generated_at": "2026-11-26 15:39 WIB"
   },
   "UEwXMIZdZIo": {
     "org_slug": "project-livium",
     "ch_slug": "indira-naylarissa-ch-livipro",
     "ch_name": "Indira Naylarissa Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-26 15:23 WIB"
+    "generated_at": "2026-11-26 15:39 WIB"
+  },
+  "2KS7UNaDSS0": {
+    "org_slug": "asobu-production",
+    "ch_slug": "keira-nakayura-asobu",
+    "ch_name": "Keira Nakayura【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-26 15:39 WIB"
   }
 }
