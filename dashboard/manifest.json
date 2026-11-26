@@ -85831,7 +85831,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-26 10:37 WIB"
+    "generated_at": "2026-11-26 10:52 WIB"
   },
   "5LWSUDcWVwA": {
     "org_slug": "kanau-virtual",
@@ -85852,6 +85852,13 @@
     "ch_slug": "usami-cyra",
     "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-11-26 10:37 WIB"
+    "generated_at": "2026-11-26 10:52 WIB"
+  },
+  "DSIxPWTEno0": {
+    "org_slug": "arvi-media",
+    "ch_slug": "ringo-soda",
+    "ch_name": "Ringo Soda",
+    "status": "live",
+    "generated_at": "2026-11-26 10:52 WIB"
   }
 }
