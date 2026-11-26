@@ -85831,13 +85831,20 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-26 09:01 WIB"
+    "generated_at": "2026-11-26 09:17 WIB"
   },
   "5LWSUDcWVwA": {
     "org_slug": "kanau-virtual",
     "ch_slug": "luii-lafete-kanau-virtual",
     "ch_name": "Luii Lafete【KANAU Virtual】",
+    "status": "vod",
+    "generated_at": "2026-11-26 09:17 WIB"
+  },
+  "u22IY4EGTSE": {
+    "org_slug": "project-eternoia",
+    "ch_slug": "allyra-violette",
+    "ch_name": "Allyra Violette 🪨",
     "status": "live",
-    "generated_at": "2026-11-26 09:01 WIB"
+    "generated_at": "2026-11-26 09:17 WIB"
   }
 }
