@@ -85831,7 +85831,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-26 10:22 WIB"
+    "generated_at": "2026-11-26 10:37 WIB"
   },
   "5LWSUDcWVwA": {
     "org_slug": "kanau-virtual",
@@ -85844,7 +85844,14 @@
     "org_slug": "project-eternoia",
     "ch_slug": "allyra-violette",
     "ch_name": "Allyra Violette 🪨",
+    "status": "vod",
+    "generated_at": "2026-11-26 10:37 WIB"
+  },
+  "_QcHsaHYoCU": {
+    "org_slug": "hibikasekai",
+    "ch_slug": "usami-cyra",
+    "ch_name": "Usami Cyra",
     "status": "live",
-    "generated_at": "2026-11-26 10:22 WIB"
+    "generated_at": "2026-11-26 10:37 WIB"
   }
 }
