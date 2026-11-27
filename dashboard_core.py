@@ -306,9 +306,6 @@ ORG_MAP = {
         "channels": [
             ("Aika Sakuraba Ch. 【ARVI】", "talent", "UCzeCVsVUq5URcNHk_SoHtvQ"),  
             ("Makotoshi Ch.", "talent", "UCgcsnZ6-ys_Fr9wEX6sz5xg"),  
-            ("Navarra Clementia", "talent", "UCAa31OBocBS80q2x4meCSUw"),
-            ("Ringo Soda", "talent", "UCHTj4RRPQjba2GekeJKvB_w"),
-            ("Suou Ono Ch.【ARVI】", "talent", "UCZoZhv9PkSryZSN4-WVi0nA"),    
         ],
     },
     "laeta": {
@@ -430,8 +427,6 @@ ORG_MAP = {
             ("Esther Van Helsing 【Mejikuhibiniu】", "talent", "UCozZvNFD8mjBB2BBL4GCZWA"),  
             ("Pearlou Vict 【Mejikuhibiniu】", "talent", "UCt3BovWLqaBLAJyPtSwNEDQ"),  
             ("Airia Eroselle【Mejikuhibiniu】", "talent", "UCyePXwwH1aWirZdshhuPKBw"),  
-            ("Elethera Rehema 『Mejikuhibiniu』", "talent", "UCAxZ952I0jvWvfY5SLsLKGQ"),  
-            ("Poppu Pippero 【Mejikuhibiniu】", "talent", "UCQc_GeDJji6fyxW9XEhgG8A"),  
             ("Xyren Renora『Mejikuhibiniu』", "talent", "UClAMTnRSXXR4-lB3PafXbnw"),  
         ],
     },
@@ -669,6 +664,18 @@ ORG_MAP = {
             ("Miku Tachibana CH.ミク橘[KIRA IDOL]", "talent", "UCLEicYqkAVFK_g4F36n1Elw"),  
         ],
     },  
+    "yunome": {
+        "label":   "YUNOME",
+        "color":   "#a6cca8",
+        "color_light": "#324332",
+        "desc":    "A new VTuber group where dreams become voices.",
+        "channels": [
+            ("YUNOME", "org", "UC2UGj3RKUbR9cSVaM2jL0UQ"),  
+            ("Yogiri Saya【YUNOME】", "talent", "UCaifGKgrSlsiH8-CRRw7Eug"),  
+            ("Kazama Yuu【YUNOME】", "talent", "UCpNx64OlgB0-fkTgwe8zIfA"),  
+            ("Yumeno Aira", "talent", "UC3IxvcFqnF4U9tjyIAcsEdg"),  
+        ],
+    },
 }
 
 # Build reverse lookup: channel_name → (org_slug, org)
