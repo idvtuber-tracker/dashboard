@@ -85964,7 +85964,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-27 07:54 WIB"
+    "generated_at": "2026-11-27 08:58 WIB"
   },
   "ZjjHosT-3Kk": {
     "org_slug": "project-livium",
@@ -86391,14 +86391,14 @@
     "ch_slug": "stellaria-vernakila-ch-miqela",
     "ch_name": "Stellaria Vernakila Ch.【MIQELA】",
     "status": "live",
-    "generated_at": "2026-11-27 07:54 WIB"
+    "generated_at": "2026-11-27 08:58 WIB"
   },
   "aT5IRGBH-Gg": {
     "org_slug": "cozycazt",
     "ch_slug": "arphina-stellaria-cozycazt",
     "ch_name": "Arphina Stellaria【CozyCazt】",
-    "status": "live",
-    "generated_at": "2026-11-27 07:54 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-27 08:58 WIB"
   },
   "Me6aYzUsLeU": {
     "org_slug": "kymera",
@@ -86412,13 +86412,20 @@
     "ch_slug": "nephthya-anya-ch-uver-id",
     "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
     "status": "live",
-    "generated_at": "2026-11-27 07:54 WIB"
+    "generated_at": "2026-11-27 08:58 WIB"
   },
   "_kei_f1o94Q": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-27 07:54 WIB"
+    "generated_at": "2026-11-27 08:58 WIB"
+  },
+  "A5apvlnQFUw": {
+    "org_slug": "cozycazt",
+    "ch_slug": "vianna-risendria-cozycazt",
+    "ch_name": "Vianna Risendria 【CozyCazt】",
+    "status": "live",
+    "generated_at": "2026-11-27 08:58 WIB"
   }
 }
