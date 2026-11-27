@@ -86839,14 +86839,14 @@
     "ch_slug": "istmodius-magniv",
     "ch_name": "Istmodius【MagniV】",
     "status": "live",
-    "generated_at": "2026-11-28 01:07 WIB"
+    "generated_at": "2026-11-28 01:22 WIB"
   },
   "iuX7pIPMTfo": {
     "org_slug": "crims-on",
     "ch_slug": "rijii-crims-on",
     "ch_name": "Rijii【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-28 01:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-28 01:22 WIB"
   },
   "JyqGsPQbANI": {
     "org_slug": "uver-id",
@@ -86859,15 +86859,15 @@
     "org_slug": "crims-on",
     "ch_slug": "selia-aisnith-crims-on",
     "ch_name": "Selia Aisnith 【CRIMS:on】",
-    "status": "live",
-    "generated_at": "2026-11-28 01:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-28 01:22 WIB"
   },
   "1KQAntfReho": {
     "org_slug": "crims-on",
     "ch_slug": "iana-crims-on",
     "ch_name": "Iana【CRIMS:on】",
     "status": "live",
-    "generated_at": "2026-11-28 01:07 WIB"
+    "generated_at": "2026-11-28 01:22 WIB"
   },
   "YArj-emCF2M": {
     "org_slug": "arvi-media",
@@ -86880,8 +86880,8 @@
     "org_slug": "asobu-production",
     "ch_slug": "hakuro-nakayoshi-asobu",
     "ch_name": "Hakuro Nakayoshi 【ASOBU】",
-    "status": "live",
-    "generated_at": "2026-11-28 01:07 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-28 01:22 WIB"
   },
   "ql0qWbJqfcA": {
     "org_slug": "aisatset",
@@ -86902,7 +86902,7 @@
     "ch_slug": "nakula-nalendra-pandavva",
     "ch_name": "Nakula Nalendra【PANDAVVA】",
     "status": "live",
-    "generated_at": "2026-11-28 01:07 WIB"
+    "generated_at": "2026-11-28 01:22 WIB"
   },
   "rNtoZcIzvaw": {
     "org_slug": "whicker-butler",
@@ -86930,7 +86930,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-28 01:07 WIB"
+    "generated_at": "2026-11-28 01:22 WIB"
   },
   "GpJ8HkriN5s": {
     "org_slug": "dasoriyal",
@@ -86944,6 +86944,6 @@
     "ch_slug": "sierra-mooniva",
     "ch_name": "Sierra Mooniva",
     "status": "live",
-    "generated_at": "2026-11-28 01:07 WIB"
+    "generated_at": "2026-11-28 01:22 WIB"
   }
 }
