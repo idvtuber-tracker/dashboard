@@ -86964,29 +86964,29 @@
     "org_slug": "utora",
     "ch_slug": "onshannon",
     "ch_name": "ONShannon",
-    "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-28 11:59 WIB"
   },
   "OELb7O-tnYA": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "generated_at": "2026-11-28 11:59 WIB"
   },
   "ZIPNds4DR7c": {
     "org_slug": "asobu-production",
     "ch_slug": "namazu-reire-asobu",
     "ch_name": "Namazu Reire【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "generated_at": "2026-11-28 11:59 WIB"
   },
   "y_KVVVHJVSw": {
     "org_slug": "project-livium",
     "ch_slug": "yuela-guigui-ch-livipro",
     "ch_name": "Yuela GuiGui Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "generated_at": "2026-11-28 11:59 WIB"
   },
   "E3qoA2DJY9I": {
     "org_slug": "whicker-butler",
@@ -87000,41 +87000,48 @@
     "ch_slug": "yuura-yozakura-ch-livipro",
     "ch_name": "Yuura Yozakura Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "generated_at": "2026-11-28 11:59 WIB"
   },
   "Xrsd_ml2Z88": {
     "org_slug": "aisatset",
     "ch_slug": "chiya-maawiya-ch-aisatset-id",
     "ch_name": "Chiya Maawiya Ch.【AISATSET ID】",
     "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "generated_at": "2026-11-28 11:59 WIB"
   },
   "RVhcnAEUcEg": {
     "org_slug": "neoespoir",
     "ch_slug": "nachann-wa-harmonie-ch",
     "ch_name": "Nachann Wa Harmonie Ch.",
     "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "generated_at": "2026-11-28 11:59 WIB"
   },
   "Wx0dAQS2PYQ": {
     "org_slug": "project-livium",
     "ch_slug": "lillis-infernallies-ch-livipro",
     "ch_name": "Lillis Infernallies Ch.〔LiviPro〕",
     "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "generated_at": "2026-11-28 11:59 WIB"
   },
   "tlNpU_10wf4": {
     "org_slug": "nawasena-live",
     "ch_slug": "moomi-latte-nawasena",
     "ch_name": "MooMi Latte 【NAWASENA】",
     "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "generated_at": "2026-11-28 11:59 WIB"
   },
   "5QLX3K8BDn0": {
     "org_slug": "asobu-production",
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-28 11:41 WIB"
+    "generated_at": "2026-11-28 11:59 WIB"
+  },
+  "YrNrmswpNz8": {
+    "org_slug": "uver-id",
+    "ch_slug": "nephthya-anya-ch-uver-id",
+    "ch_name": "Nephthya Anya Ch. [ UVER ID ]",
+    "status": "live",
+    "generated_at": "2026-11-28 11:59 WIB"
   }
 }
