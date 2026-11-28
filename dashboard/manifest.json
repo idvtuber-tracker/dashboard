@@ -87035,7 +87035,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-28 17:33 WIB"
+    "generated_at": "2026-11-28 17:49 WIB"
   },
   "YrNrmswpNz8": {
     "org_slug": "uver-id",
@@ -87063,7 +87063,7 @@
     "ch_slug": "aika-sakuraba-ch-arvi",
     "ch_name": "Aika Sakuraba Ch. 【ARVI】",
     "status": "live",
-    "generated_at": "2026-11-28 17:33 WIB"
+    "generated_at": "2026-11-28 17:49 WIB"
   },
   "qhQxpSS-vX0": {
     "org_slug": "uver-id",
@@ -87111,8 +87111,8 @@
     "org_slug": "afterain",
     "ch_slug": "avy-inkaiserin-afterain",
     "ch_name": "Avy Inkaiserin 【AFTERAIN】",
-    "status": "live",
-    "generated_at": "2026-11-28 17:33 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-28 17:49 WIB"
   },
   "ukB7gi3SPrk": {
     "org_slug": "uver-id",
@@ -87175,7 +87175,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-28 17:33 WIB"
+    "generated_at": "2026-11-28 17:49 WIB"
   },
   "EuLaEXrLU5I": {
     "org_slug": "uver-id",
@@ -87189,14 +87189,14 @@
     "ch_slug": "kurotsuki-amaris-ch",
     "ch_name": "Kurotsuki Amaris Ch.",
     "status": "live",
-    "generated_at": "2026-11-28 17:33 WIB"
+    "generated_at": "2026-11-28 17:49 WIB"
   },
   "m99xy0dUU4E": {
     "org_slug": "utora",
     "ch_slug": "petite-sabrina-ch",
     "ch_name": "Petite Sabrina Ch.",
     "status": "live",
-    "generated_at": "2026-11-28 17:33 WIB"
+    "generated_at": "2026-11-28 17:49 WIB"
   },
   "yuByLrSDJMY": {
     "org_slug": "uver-id",
@@ -87216,7 +87216,14 @@
     "org_slug": "whicker-butler",
     "ch_slug": "keiko-lynx-ch-villain",
     "ch_name": "Keiko Lynx Ch. #villain",
+    "status": "vod",
+    "generated_at": "2026-11-28 17:49 WIB"
+  },
+  "uzXjeX3M3d4": {
+    "org_slug": "evren-community",
+    "ch_slug": "aloisa-arbeiter",
+    "ch_name": "Aloisa Arbeiter",
     "status": "live",
-    "generated_at": "2026-11-28 17:33 WIB"
+    "generated_at": "2026-11-28 17:49 WIB"
   }
 }
