@@ -87035,7 +87035,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-28 18:21 WIB"
+    "generated_at": "2026-11-28 18:36 WIB"
   },
   "YrNrmswpNz8": {
     "org_slug": "uver-id",
@@ -87063,7 +87063,7 @@
     "ch_slug": "aika-sakuraba-ch-arvi",
     "ch_name": "Aika Sakuraba Ch. 【ARVI】",
     "status": "live",
-    "generated_at": "2026-11-28 18:21 WIB"
+    "generated_at": "2026-11-28 18:36 WIB"
   },
   "qhQxpSS-vX0": {
     "org_slug": "uver-id",
@@ -87175,7 +87175,7 @@
     "ch_slug": "lyanna-chernovskaya",
     "ch_name": "Lyanna Chernovskaya",
     "status": "live",
-    "generated_at": "2026-11-28 18:21 WIB"
+    "generated_at": "2026-11-28 18:36 WIB"
   },
   "EuLaEXrLU5I": {
     "org_slug": "uver-id",
@@ -87196,7 +87196,7 @@
     "ch_slug": "petite-sabrina-ch",
     "ch_name": "Petite Sabrina Ch.",
     "status": "live",
-    "generated_at": "2026-11-28 18:21 WIB"
+    "generated_at": "2026-11-28 18:36 WIB"
   },
   "yuByLrSDJMY": {
     "org_slug": "uver-id",
@@ -87224,20 +87224,41 @@
     "ch_slug": "aloisa-arbeiter",
     "ch_name": "Aloisa Arbeiter",
     "status": "live",
-    "generated_at": "2026-11-28 18:21 WIB"
+    "generated_at": "2026-11-28 18:36 WIB"
   },
   "ys7FnY9BicI": {
     "org_slug": "uver-id",
     "ch_slug": "cyure-michantrell-ch-uver-id",
     "ch_name": "Cyure Michantrell Ch. [ UVER ID ]",
-    "status": "live",
-    "generated_at": "2026-11-28 18:21 WIB"
+    "status": "vod",
+    "generated_at": "2026-11-28 18:36 WIB"
   },
   "1zbtX4BTv1M": {
     "org_slug": "whicker-butler",
     "ch_slug": "lilian-grimmxandra",
     "ch_name": "Lilian Grimmxandra",
     "status": "live",
-    "generated_at": "2026-11-28 18:21 WIB"
+    "generated_at": "2026-11-28 18:36 WIB"
+  },
+  "bNh2OJVRrQQ": {
+    "org_slug": "afterain",
+    "ch_slug": "flein-ryst-afterain",
+    "ch_name": "Flein Ryst【AFTERAIN】",
+    "status": "live",
+    "generated_at": "2026-11-28 18:36 WIB"
+  },
+  "6LNzHlNpVWY": {
+    "org_slug": "crims-on",
+    "ch_slug": "cole-calamello-crims-on",
+    "ch_name": "Cole Calamello【CRIMS:on】",
+    "status": "live",
+    "generated_at": "2026-11-28 18:36 WIB"
+  },
+  "mWHuiDORdLU": {
+    "org_slug": "aurora-project",
+    "ch_slug": "aleeon-ch",
+    "ch_name": "Aleeon Ch.",
+    "status": "live",
+    "generated_at": "2026-11-28 18:36 WIB"
   }
 }
