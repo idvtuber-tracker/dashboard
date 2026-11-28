@@ -86930,7 +86930,7 @@
     "ch_slug": "keira-nakayura-asobu",
     "ch_name": "Keira Nakayura【ASOBU】",
     "status": "live",
-    "generated_at": "2026-11-28 09:19 WIB"
+    "generated_at": "2026-11-28 09:34 WIB"
   },
   "GpJ8HkriN5s": {
     "org_slug": "dasoriyal",
@@ -86958,20 +86958,27 @@
     "ch_slug": "lyta-luciana-ch-cozycazt",
     "ch_name": "Lyta Luciana Ch.【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-28 09:19 WIB"
+    "generated_at": "2026-11-28 09:34 WIB"
   },
   "nFLF4Rhjkwo": {
     "org_slug": "utora",
     "ch_slug": "onshannon",
     "ch_name": "ONShannon",
     "status": "live",
-    "generated_at": "2026-11-28 09:19 WIB"
+    "generated_at": "2026-11-28 09:34 WIB"
   },
   "OELb7O-tnYA": {
     "org_slug": "cozycazt",
     "ch_slug": "rannia-taiga-cozycazt",
     "ch_name": "Rannia Taiga 【CozyCazt】",
     "status": "live",
-    "generated_at": "2026-11-28 09:19 WIB"
+    "generated_at": "2026-11-28 09:34 WIB"
+  },
+  "ZIPNds4DR7c": {
+    "org_slug": "asobu-production",
+    "ch_slug": "namazu-reire-asobu",
+    "ch_name": "Namazu Reire【ASOBU】",
+    "status": "live",
+    "generated_at": "2026-11-28 09:34 WIB"
   }
 }
